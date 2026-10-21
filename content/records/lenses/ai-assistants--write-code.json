@@ -1,0 +1,112 @@
+{
+ "schema_version": "2.1",
+ "id": "lens_ai_assistants__write_code",
+ "roadmap_id": "rm_ai_assistants",
+ "roadmap": "ai-assistants",
+ "need_id": "need_write_code",
+ "need": "write-code",
+ "title": "AI assistants for software developers",
+ "kind": "flagship",
+ "for_identities": [
+  "software-engineer",
+  "frontend-developer",
+  "backend-developer",
+  "full-stack-developer",
+  "mobile-developer",
+  "qa-automation-engineer",
+  "devops-engineer",
+  "coding-bootcamp-student"
+ ],
+ "why": "AI pair-programming speeds up boilerplate, debugging and learning new libraries.",
+ "what_is_different": "Developers must keep understanding the code, protect secrets and proprietary code, write tests, and review AI output like a colleague's pull request.",
+ "priority_modules": [
+  "ai-safe",
+  "ai-verify",
+  "ai-domain",
+  "ai-agents",
+  "ai-files"
+ ],
+ "extra_modules": [
+  {
+   "level": "intermediate",
+   "title": "Test-first with AI",
+   "outcome": "You can: make AI generate code that is proven by tests",
+   "topics": [
+    "write tests first",
+    "ask AI to satisfy them",
+    "review diffs"
+   ],
+   "practice": "Implement a function test-first with AI help"
+  }
+ ],
+ "starter_project": "Ship a small feature with AI assistance: tests first, AI-assisted implementation, code review checklist and a security check for secrets.",
+ "pitfalls": [
+  "Accepting code you don't understand",
+  "Leaking API keys or proprietary code",
+  "Skipping tests"
+ ],
+ "pairs_with": [
+  "tool_vs_code",
+  "tool_github",
+  "tool_github_copilot",
+  "tool_cursor"
+ ],
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false,
+ "composed_path": {
+  "beginner": [
+   {
+    "module": "ai-safe",
+    "relevance": "core",
+    "rank": 0
+   },
+   {
+    "module": "ai-first",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "ai-write",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ],
+  "intermediate": [
+   {
+    "extra": "Test-first with AI",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "module": "ai-verify",
+    "relevance": "core",
+    "rank": 1
+   },
+   {
+    "module": "ai-domain",
+    "relevance": "core",
+    "rank": 2
+   },
+   {
+    "module": "ai-files",
+    "relevance": "core",
+    "rank": 4
+   }
+  ],
+  "expert": [
+   {
+    "module": "ai-agents",
+    "relevance": "core",
+    "rank": 3
+   },
+   {
+    "module": "ai-teach",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ]
+ }
+}

@@ -1,0 +1,221 @@
+{
+ "schema_version": "2.1",
+ "id": "lens_spreadsheets__engineering_calculations",
+ "roadmap_id": "rm_spreadsheets",
+ "roadmap": "spreadsheets",
+ "need_id": "need_engineering_calculations",
+ "need": "engineering-calculations",
+ "title": "Excel for engineering calculations",
+ "kind": "flagship",
+ "for_identities": [
+  "civil-engineer",
+  "structural-engineer",
+  "mechanical-engineer",
+  "chemical-engineer",
+  "electrical-engineer",
+  "geotechnical-engineer",
+  "water-resources-engineer",
+  "hvac-engineer",
+  "petroleum-engineer",
+  "process-safety-engineer"
+ ],
+ "why": "Engineers use spreadsheets every day for design checks, quantities and quick calculations that sit between hand calcs and specialist software.",
+ "what_is_different": "Engineering spreadsheets must carry units, cite the design code clause, be checkable by another engineer, and fail loudly when an input is out of range. They are calculation documents, not just tables.",
+ "priority_modules": [
+  "xl-formulas-1",
+  "xl-logic",
+  "xl-what-if",
+  "xl-model-design",
+  "xl-dynamic-arrays",
+  "xl-charts-1",
+  "xl-automation"
+ ],
+ "extra_modules": [
+  {
+   "level": "beginner",
+   "title": "Units and engineering notation",
+   "outcome": "You can: keep units consistent and visible",
+   "topics": [
+    "unit columns",
+    "engineering/scientific formats",
+    "CONVERT function",
+    "unit-check habits"
+   ],
+   "practice": "Convert a design load table between kN, kip and tonne-force"
+  },
+  {
+   "level": "intermediate",
+   "title": "Calculation sheets that can be checked",
+   "outcome": "You can: lay out calcs like a hand calculation",
+   "topics": [
+    "input/output blocks",
+    "symbols and clause references",
+    "named ranges",
+    "PASS/FAIL checks with conditional formatting"
+   ],
+   "practice": "Build a beam bending check with clause references and a PASS/FAIL result"
+  },
+  {
+   "level": "intermediate",
+   "title": "Interpolation and lookup of design tables",
+   "outcome": "You can: read design charts and code tables correctly",
+   "topics": [
+    "linear interpolation",
+    "2D table lookup",
+    "FORECAST.LINEAR",
+    "XLOOKUP with approximate match"
+   ],
+   "practice": "Interpolate a coefficient from a two-way code table"
+  },
+  {
+   "level": "expert",
+   "title": "Iteration and solving",
+   "outcome": "You can: solve implicit equations reliably",
+   "topics": [
+    "Goal Seek and Solver",
+    "controlled iteration",
+    "convergence checks"
+   ],
+   "practice": "Solve the Colebrook equation for friction factor"
+  },
+  {
+   "level": "expert",
+   "title": "Verification and QA",
+   "outcome": "You can: prove your spreadsheet is right",
+   "topics": [
+    "benchmark against a hand calc",
+    "independent check",
+    "version control and locking",
+    "calc register"
+   ],
+   "practice": "Verify a spreadsheet against a published worked example"
+  }
+ ],
+ "starter_project": "Build a checked calculation workbook for a common design task in your discipline (for example, a retaining-wall stability check or a pipe-sizing calculation) with units, code references and a verification sheet.",
+ "pitfalls": [
+  "Hidden unit conversions",
+  "Unprotected formulas overwritten by inputs",
+  "No reference to the design code version",
+  "Trusting a downloaded spreadsheet without verifying it",
+  "Circular references used instead of proper iteration"
+ ],
+ "pairs_with": [
+  "tool_mathcad",
+  "tool_python",
+  "tool_matlab",
+  "tool_autocad"
+ ],
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false,
+ "composed_path": {
+  "beginner": [
+   {
+    "extra": "Units and engineering notation",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "module": "xl-formulas-1",
+    "relevance": "core",
+    "rank": 0
+   },
+   {
+    "module": "xl-charts-1",
+    "relevance": "core",
+    "rank": 5
+   },
+   {
+    "module": "xl-basics",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "xl-tables-sort",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ],
+  "intermediate": [
+   {
+    "extra": "Interpolation and lookup of design tables",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "extra": "Calculation sheets that can be checked",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "module": "xl-logic",
+    "relevance": "core",
+    "rank": 1
+   },
+   {
+    "module": "xl-pivots",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "xl-cleaning",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "xl-dates-text",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "xl-conditional",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "xl-protect-share",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ],
+  "expert": [
+   {
+    "extra": "Verification and QA",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "extra": "Iteration and solving",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "module": "xl-what-if",
+    "relevance": "core",
+    "rank": 2
+   },
+   {
+    "module": "xl-model-design",
+    "relevance": "core",
+    "rank": 3
+   },
+   {
+    "module": "xl-dynamic-arrays",
+    "relevance": "core",
+    "rank": 4
+   },
+   {
+    "module": "xl-automation",
+    "relevance": "core",
+    "rank": 6
+   },
+   {
+    "module": "xl-power-query",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ]
+ }
+}

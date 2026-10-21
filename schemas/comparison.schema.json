@@ -1,0 +1,177 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://digitaladvantage.example/schemas/v2/comparison.schema.json",
+  "title": "Comparison record",
+  "type": "object",
+  "allOf": [
+    {
+      "$ref": "common.schema.json#/$defs/record_base"
+    }
+  ],
+  "unevaluatedProperties": false,
+  "required": [
+    "id",
+    "slug",
+    "title",
+    "decision_question",
+    "tool_ids",
+    "rows",
+    "best_fit",
+    "method_note"
+  ],
+  "properties": {
+    "schema_version": {},
+    "is_illustrative": {},
+    "redirect_from": {},
+    "sources": {},
+    "editorial": {},
+    "disclosure": {},
+    "id": {
+      "type": "string",
+      "pattern": "^cmp_[a-z0-9_]+$",
+      "maxLength": 64
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "minLength": 2,
+      "maxLength": 80
+    },
+    "title": {
+      "type": "string",
+      "minLength": 8,
+      "maxLength": 100
+    },
+    "decision_question": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 200
+    },
+    "tool_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^tool_[a-z0-9_]+$",
+        "maxLength": 64
+      },
+      "minItems": 2,
+      "uniqueItems": true,
+      "maxItems": 3
+    },
+    "rows": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "dimension",
+          "cells"
+        ],
+        "properties": {
+          "dimension": {
+            "enum": [
+              "primary_use",
+              "pricing_model",
+              "free_tier_limits",
+              "platforms",
+              "learning_curve",
+              "collaboration",
+              "privacy",
+              "accessibility",
+              "limitations"
+            ]
+          },
+          "cells": {
+            "type": "object",
+            "propertyNames": {
+              "pattern": "^tool_[a-z0-9_]+$"
+            },
+            "additionalProperties": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "text",
+                "kind"
+              ],
+              "properties": {
+                "text": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 300
+                },
+                "kind": {
+                  "enum": [
+                    "fact",
+                    "editorial",
+                    "unknown"
+                  ]
+                },
+                "source_ids": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "common.schema.json#/$defs/source_id"
+                  },
+                  "minItems": 0,
+                  "uniqueItems": true
+                }
+              }
+            }
+          }
+        }
+      },
+      "minItems": 5,
+      "uniqueItems": false,
+      "maxItems": 9
+    },
+    "best_fit": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "tool_id",
+          "for_whom"
+        ],
+        "properties": {
+          "tool_id": {
+            "type": "string",
+            "pattern": "^tool_[a-z0-9_]+$",
+            "maxLength": 64
+          },
+          "for_whom": {
+            "type": "string",
+            "minLength": 5,
+            "maxLength": 200
+          }
+        }
+      },
+      "minItems": 2,
+      "uniqueItems": true,
+      "maxItems": 3
+    },
+    "method_note": {
+      "type": "string",
+      "minLength": 20,
+      "maxLength": 500
+    },
+    "task_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^task_[a-z0-9_]+$",
+        "maxLength": 64
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "category_ids": {
+      "type": "array",
+      "items": {
+        "$ref": "common.schema.json#/$defs/category_slug"
+      },
+      "minItems": 1,
+      "uniqueItems": true,
+      "maxItems": 3
+    }
+  }
+}

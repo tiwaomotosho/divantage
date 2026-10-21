@@ -1,0 +1,144 @@
+{
+ "schema_version": "2.1",
+ "id": "lens_spreadsheets__sports_analytics",
+ "roadmap_id": "rm_spreadsheets",
+ "roadmap": "spreadsheets",
+ "need_id": "need_sports_analytics",
+ "need": "sports-analytics",
+ "title": "Spreadsheets for coaches and performance analysts",
+ "kind": "flagship",
+ "for_identities": [
+  "sports-coach",
+  "performance-analyst",
+  "strength-and-conditioning-coach",
+  "talent-scout",
+  "club-manager"
+ ],
+ "why": "Before specialist platforms, most clubs track availability, training load and match stats in spreadsheets.",
+ "what_is_different": "Sports data is about players over time — load, wellness, minutes and match events — and must turn into decisions for the next session.",
+ "priority_modules": [
+  "xl-tables-sort",
+  "xl-logic",
+  "xl-pivots",
+  "xl-conditional",
+  "xl-charts-1",
+  "xl-dynamic-arrays"
+ ],
+ "extra_modules": [
+  {
+   "level": "intermediate",
+   "title": "Load and wellness monitoring",
+   "outcome": "You can: track acute vs chronic load and wellness",
+   "topics": [
+    "session RPE × duration",
+    "rolling averages",
+    "flags for spikes"
+   ],
+   "practice": "Build a squad load monitor with red flags"
+  }
+ ],
+ "starter_project": "Build a squad tracker: availability, session load, wellness scores and match minutes, with a weekly red-flag report for the coach.",
+ "pitfalls": [
+  "Collecting data nobody uses",
+  "Comparing players without context",
+  "Ignoring data privacy for minors"
+ ],
+ "pairs_with": [
+  "tool_hudl",
+  "tool_trainingpeaks",
+  "tool_google_forms"
+ ],
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false,
+ "composed_path": {
+  "beginner": [
+   {
+    "module": "xl-tables-sort",
+    "relevance": "core",
+    "rank": 0
+   },
+   {
+    "module": "xl-charts-1",
+    "relevance": "core",
+    "rank": 4
+   },
+   {
+    "module": "xl-basics",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "xl-formulas-1",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ],
+  "intermediate": [
+   {
+    "extra": "Load and wellness monitoring",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "module": "xl-logic",
+    "relevance": "core",
+    "rank": 1
+   },
+   {
+    "module": "xl-pivots",
+    "relevance": "core",
+    "rank": 2
+   },
+   {
+    "module": "xl-conditional",
+    "relevance": "core",
+    "rank": 3
+   },
+   {
+    "module": "xl-cleaning",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "xl-dates-text",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "xl-protect-share",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ],
+  "expert": [
+   {
+    "module": "xl-dynamic-arrays",
+    "relevance": "core",
+    "rank": 5
+   },
+   {
+    "module": "xl-what-if",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "xl-power-query",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "xl-model-design",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "xl-automation",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ]
+ }
+}

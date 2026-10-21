@@ -1,0 +1,111 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_linkedin",
+ "slug": "linkedin",
+ "title": "LinkedIn",
+ "tool_ids": [
+  "tool_linkedin"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_li_profile",
+    "slug": "li-profile",
+    "title": "A profile that works",
+    "outcome": "You can: be found and make a strong first impression",
+    "topics": [
+     "headline",
+     "about",
+     "experience",
+     "skills",
+     "photo"
+    ],
+    "practice": "Rewrite your headline and about section",
+    "need_tags": [
+     "professional-profile",
+     "job-search"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_li_network",
+    "slug": "li-network",
+    "title": "Network and search for jobs",
+    "outcome": "You can: find opportunities through people",
+    "topics": [
+     "connections",
+     "messages",
+     "job alerts",
+     "Easy Apply vs direct"
+    ],
+    "practice": "Send 5 thoughtful connection requests",
+    "need_tags": [
+     "job-search",
+     "professional-profile"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_li_content",
+    "slug": "li-content",
+    "title": "Share expertise",
+    "outcome": "You can: build a reputation in your field",
+    "topics": [
+     "posts",
+     "articles",
+     "comments",
+     "consistency"
+    ],
+    "practice": "Write a post explaining one thing you know well",
+    "need_tags": [
+     "professional-profile",
+     "social-media-presence"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_li_brand",
+    "slug": "li-brand",
+    "title": "Thought leadership and hiring",
+    "outcome": "You can: use LinkedIn to lead and recruit",
+    "topics": [
+     "newsletters",
+     "company pages",
+     "recruiting basics",
+     "analytics"
+    ],
+    "practice": "Plan a 4-week content series",
+    "need_tags": [
+     "recruitment",
+     "crm-sales"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false
+}

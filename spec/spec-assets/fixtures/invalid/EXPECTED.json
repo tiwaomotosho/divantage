@@ -1,0 +1,38 @@
+[
+  {
+    "case": "free-with-trial",
+    "must_fail_with": "'free' cannot have trial_details"
+  },
+  {
+    "case": "fact-without-source",
+    "must_fail_with": "fact without a source"
+  },
+  {
+    "case": "priced-without-source",
+    "must_fail_with": "pricing"
+  },
+  {
+    "case": "bad-slug",
+    "must_fail_with": "slug"
+  },
+  {
+    "case": "commercial-relationship",
+    "must_fail_with": "commercial_relationship"
+  },
+  {
+    "case": "unknown-category",
+    "must_fail_with": "category_ids"
+  },
+  {
+    "case": "published-without-reviewer",
+    "must_fail_with": "reviewer"
+  },
+  {
+    "case": "independent-source-for-pricing",
+    "must_fail_with": "may not support 'pricing'"
+  },
+  {
+    "case": "video-platform-link",
+    "must_fail_with": "video-platform link not allowed in MVP (D-043)"
+  }
+]

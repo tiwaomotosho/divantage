@@ -1,0 +1,382 @@
+# Flagship lenses — the same tool, seen through a specific profession's work.
+# =lens roadmap-slug x need-slug | Title
+# for: identity slugs this lens is written for
+# why: why this tool matters for this work
+# different: what is different from generic use (the "not generic" part)
+# priority: roadmap module slugs, most important first (others follow in level order)
+# +level | Title | outcome | topics; ... | practice      (extra modules specific to this lens)
+# project: a realistic starter project
+# pitfalls: common mistakes ; separated ; by semicolons
+# pairs: other tool slugs that work well alongside
+# Every lens: expert_validation pending — written as a first draft for domain experts to refine.
+
+=lens spreadsheets x financial-modelling | Excel for financial modelling
+for: financial-analyst, fpa-analyst, investment-banker, financial-modeller, private-equity-associate, cfo, startup-founder, accountant, equity-research-analyst, project-finance-analyst, real-estate-analyst
+why: Almost every valuation, budget and investment decision is first built in a spreadsheet model. A clear, auditable model is how finance people earn trust.
+different: Financial modellers live in the keyboard, build three linked statements, separate inputs from calculations, and obsess over checks and sign conventions. Charts matter less than integrity, flexibility and speed.
+priority: xl-formulas-1, xl-model-design, xl-logic, xl-what-if, xl-dates-text, xl-dynamic-arrays, xl-conditional, xl-power-query
++beginner | Keyboard-first working | Navigate and build without the mouse | shortcuts for navigation, selection, fill and formatting; consistent colour coding (inputs blue, formulas black) | Rebuild a small table using only the keyboard
++intermediate | Three-statement model | Link income statement, balance sheet and cash flow | revenue and cost drivers; working capital; depreciation schedule; debt schedule; balance check | Build a five-year three-statement model for a simple business
++intermediate | Time-series and timing flags | Model monthly, quarterly and annual periods correctly | period headers; flags for start/end dates; EOMONTH; annualising | Add a construction period and an operating period flag
++expert | Valuation | Value a business or project | discounted cash flow; XNPV/XIRR; terminal value; WACC inputs; comparable multiples | Value the model's business with a DCF and sensitivity table
++expert | Scenarios and model review | Stress-test and review a model like an auditor | scenario switches; sensitivity tornado; circularity handling; model audit checklist | Add base/upside/downside scenarios and review another person's model
+project: Build a three-statement model and DCF for a small business (for example, a bakery or a solar mini-grid) with three scenarios and a one-page dashboard.
+pitfalls: Hard-coding numbers inside formulas ; Mixing inputs and calculations on the same sheet ; No balance-sheet check ; Sign errors between cash flow and balance sheet ; Circular references hidden with iterative calculation
+pairs: microsoft-powerpoint, power-bi, python, think-cell
+
+=lens spreadsheets x engineering-calculations | Excel for engineering calculations
+for: civil-engineer, structural-engineer, mechanical-engineer, chemical-engineer, electrical-engineer, geotechnical-engineer, water-resources-engineer, hvac-engineer, petroleum-engineer, process-safety-engineer
+why: Engineers use spreadsheets every day for design checks, quantities and quick calculations that sit between hand calcs and specialist software.
+different: Engineering spreadsheets must carry units, cite the design code clause, be checkable by another engineer, and fail loudly when an input is out of range. They are calculation documents, not just tables.
+priority: xl-formulas-1, xl-logic, xl-what-if, xl-model-design, xl-dynamic-arrays, xl-charts-1, xl-automation
++beginner | Units and engineering notation | Keep units consistent and visible | unit columns; engineering/scientific formats; CONVERT function; unit-check habits | Convert a design load table between kN, kip and tonne-force
++intermediate | Calculation sheets that can be checked | Lay out calcs like a hand calculation | input/output blocks; symbols and clause references; named ranges; PASS/FAIL checks with conditional formatting | Build a beam bending check with clause references and a PASS/FAIL result
++intermediate | Interpolation and lookup of design tables | Read design charts and code tables correctly | linear interpolation; 2D table lookup; FORECAST.LINEAR; XLOOKUP with approximate match | Interpolate a coefficient from a two-way code table
++expert | Iteration and solving | Solve implicit equations reliably | Goal Seek and Solver; controlled iteration; convergence checks | Solve the Colebrook equation for friction factor
++expert | Verification and QA | Prove your spreadsheet is right | benchmark against a hand calc; independent check; version control and locking; calc register | Verify a spreadsheet against a published worked example
+project: Build a checked calculation workbook for a common design task in your discipline (for example, a retaining-wall stability check or a pipe-sizing calculation) with units, code references and a verification sheet.
+pitfalls: Hidden unit conversions ; Unprotected formulas overwritten by inputs ; No reference to the design code version ; Trusting a downloaded spreadsheet without verifying it ; Circular references used instead of proper iteration
+pairs: mathcad, python, matlab, autocad
+
+=lens spreadsheets x well-planning-design | Excel for drilling and well engineers
+for: drilling-engineer, well-planner, petroleum-engineer, completions-engineer, wells-superintendent, drilling-supervisor, well-integrity-engineer
+why: Specialist well-engineering software does the heavy lifting, but drilling teams still rely on spreadsheets for quick checks, cost and time estimates, and reporting between systems.
+different: Well-engineering spreadsheets deal with depth-based data (MD/TVD), survey calculations, pressure gradients and time–depth curves. Outputs feed AFEs, well programmes and regulatory reports, so traceability matters.
+priority: xl-formulas-1, xl-logic, xl-dates-text, xl-what-if, xl-power-query, xl-model-design, xl-automation
++beginner | Depth and pressure basics | Calculate hydrostatic pressure, gradients and equivalent mud weight | MD vs TVD; pressure gradient; unit systems (ppg, psi/ft, SG, kPa/m); unit-safe formulas | Build a mud-weight to pressure-gradient converter
++intermediate | Survey calculations | Calculate a trajectory from survey stations | minimum curvature method; dogleg severity; TVD/northing/easting; plotting a section view | Calculate TVD and DLS from a sample survey file
++intermediate | Time–depth curves and well time estimates | Plan and track well duration | activity breakdown; planned vs actual curve; NPT categories; offset well benchmarking | Build a planned vs actual days-vs-depth chart
++expert | Well cost estimates and AFEs | Build a defensible well cost estimate | time-based vs fixed costs; spread rates; contingency; P10/P50/P90 ranges | Build an AFE estimate with a probabilistic range
++expert | Casing and tubular checks (screening) | Run quick screening checks before detailed software design | burst/collapse/tension design factors; load cases simplified; when to escalate to specialist software | Screen a casing string against simple load cases and document the limits
+project: Build a well planning workbook for an offset-based well: trajectory from surveys, pressure/mud-weight window table, time–depth curve and AFE estimate, with checks against your specialist software outputs.
+pitfalls: Mixing MD and TVD ; Unit-system mix-ups (field vs metric) ; Using a screening spreadsheet as the final casing design ; Overwriting offset data without version control ; Ignoring NPT categorisation consistency
+pairs: landmark-decisionspace, wellview, power-bi, python
+
+=lens spreadsheets x drilling-reporting | Excel for daily drilling reports and KPIs
+for: drilling-engineer, drilling-supervisor, drilling-data-engineer, wells-superintendent, rig-manager
+why: Daily drilling reports produce rich data — but turning them into KPIs and lessons learned is often done in spreadsheets.
+different: Drilling KPIs depend on consistent activity codes, depth intervals and time categories (productive time vs NPT vs invisible lost time). The value is in clean categorisation and benchmarking across wells and rigs.
+priority: xl-cleaning, xl-pivots, xl-dates-text, xl-power-query, xl-conditional, xl-charts-1
++intermediate | Time breakdown analysis | Analyse operation codes and NPT | activity code mapping; NPT and ILT; rate of penetration by section; connection times | Build a pivot of NPT by cause and section for three wells
++expert | Cross-well benchmarking | Compare performance across wells and rigs | normalising by depth/section; best-composite well; lessons-learned register | Build a best-composite time curve from offset wells
+project: Turn a month of exported daily reports into a refreshable KPI workbook with NPT pareto, ROP by section and planned-vs-actual curves.
+pitfalls: Inconsistent activity codes between rigs ; Free-text NPT descriptions that can't be analysed ; Copy-paste reporting instead of refreshable queries
+pairs: wellview, openwells, power-bi
+
+=lens spreadsheets x clinical-audit-qi | Excel for clinical audit and quality improvement
+for: medical-doctor, nurse, house-officer, quality-improvement-lead, clinical-pharmacist, public-health-officer, practice-manager, infection-prevention-nurse
+why: Audits and QI projects need you to collect, clean and summarise care data and show change over time — usually in a spreadsheet first.
+different: Clinical data must be de-identified, measured against a written standard, and shown over time (run charts) rather than as one-off averages. Small numbers and data protection rules matter more than fancy charts.
+priority: xl-tables-sort, xl-logic, xl-pivots, xl-conditional, xl-charts-1, xl-cleaning
++beginner | Data protection first | Collect only what you need and de-identify it | anonymisation vs pseudonymisation; local data rules; never emailing identifiable spreadsheets | Design a de-identified audit data-collection sheet
++intermediate | Measure against a standard | Calculate compliance with an audit standard | numerator/denominator; COUNTIFS; percentage compliance; confidence in small samples | Calculate compliance with a guideline for 50 cases
++intermediate | Run charts | Show improvement over time | median line; run chart rules (shifts, trends); annotating changes | Build a run chart for a PDSA cycle
+project: Run a re-audit of a clinical standard: collect de-identified data, calculate compliance, build a run chart across two PDSA cycles and present a one-slide summary.
+pitfalls: Identifiable patient data in shared files ; Reporting percentages without denominators ; Judging change from two data points ; Changing the definition between audit cycles
+pairs: redcap, power-bi, life-qi
+
+=lens spreadsheets x farm-records | Spreadsheets for farm records and profit
+for: farmer, crop-farmer, livestock-farmer, poultry-farmer, fish-farmer, farm-manager, agribusiness-owner, smallholder-farmer, cooperative-member
+why: Knowing your real costs, yields and profit per crop, pond or pen is the difference between guessing and growing.
+different: Farm records follow the season and the field or flock, not the calendar month. They mix money, inputs, labour and yields, and must be quick to fill in on a phone in the field.
+priority: xl-basics, xl-tables-sort, xl-formulas-1, xl-logic, xl-pivots, xl-conditional
++beginner | Phone-friendly record sheets | Record in the field with Google Sheets on your phone | simple forms; drop-downs for crop/field; date and quantity columns; offline use | Set up an inputs and sales log on your phone
++intermediate | Cost and profit per enterprise | See which crop or batch actually makes money | gross margin per hectare/bird/pond; cost allocation; break-even price | Compare gross margin for two crops or two batches
+project: Track one full season (or one poultry or fish batch): inputs, labour, sales and mortality/yield, ending with gross margin and break-even price.
+pitfalls: Forgetting family labour and transport costs ; Mixing household and farm money ; Recording at the end of the season from memory
+pairs: google-forms, farmbrite, whatsapp-business
+
+=lens spreadsheets x inventory-procurement | Spreadsheets for shop stock and sales
+for: small-business-owner, supermarket-owner, trader, pharmacist, community-pharmacist, e-commerce-seller, restaurant-owner, agro-dealer
+why: Stock is money sitting on shelves. A simple stock sheet stops stock-outs, theft and expired goods.
+different: Retail stock needs reorder levels, expiry dates and fast daily updates — usually by someone busy serving customers.
+priority: xl-tables-sort, xl-formulas-1, xl-logic, xl-conditional, xl-pivots
++beginner | Stock in, stock out | Keep a running stock balance | opening stock; receipts; sales; closing stock; SUMIFS by item | Track stock for your top 20 items
++intermediate | Reorder levels and expiry alerts | Get warned before you run out or stock expires | reorder point; lead time; expiry highlighting; slow movers | Highlight items below reorder level and expiring within 30 days
+project: Build a stock and sales workbook for your top 30 products with reorder alerts, expiry alerts and a weekly best-sellers pivot.
+pitfalls: Not counting physical stock regularly ; One sheet per day instead of one table ; No record of who changed what
+pairs: loyverse, zoho-inventory, whatsapp-business
+
+=lens spreadsheets x grading-feedback | Spreadsheets for teachers' gradebooks
+for: teacher, primary-school-teacher, secondary-school-teacher, lecturer, head-teacher, private-tutor
+why: Marks, attendance and progress tracking take hours each term; a good gradebook gives that time back and shows who needs help.
+different: Teachers need weighted averages, grade boundaries, attendance and term-on-term progress — shared safely with colleagues, never with other parents or pupils.
+priority: xl-tables-sort, xl-logic, xl-conditional, xl-formulas-1, xl-charts-1, xl-protect-share
++intermediate | Weighted grades and boundaries | Calculate final grades automatically | SUMPRODUCT weights; grade boundary lookup; handling absences | Build a gradebook with weighted CA and exam scores
+project: Build a class gradebook with weighted assessments, grade boundaries, attendance, and an at-risk list highlighted automatically.
+pitfalls: Sharing a sheet that reveals other students' marks ; Manual grade typing errors ; Not backing up before end-of-term
+pairs: google-classroom, google-forms
+
+=lens spreadsheets x sports-analytics | Spreadsheets for coaches and performance analysts
+for: sports-coach, performance-analyst, strength-and-conditioning-coach, talent-scout, club-manager
+why: Before specialist platforms, most clubs track availability, training load and match stats in spreadsheets.
+different: Sports data is about players over time — load, wellness, minutes and match events — and must turn into decisions for the next session.
+priority: xl-tables-sort, xl-logic, xl-pivots, xl-conditional, xl-charts-1, xl-dynamic-arrays
++intermediate | Load and wellness monitoring | Track acute vs chronic load and wellness | session RPE × duration; rolling averages; flags for spikes | Build a squad load monitor with red flags
+project: Build a squad tracker: availability, session load, wellness scores and match minutes, with a weekly red-flag report for the coach.
+pitfalls: Collecting data nobody uses ; Comparing players without context ; Ignoring data privacy for minors
+pairs: hudl, trainingpeaks, google-forms
+
+=lens canva x property-marketing | Canva for real estate agents
+for: real-estate-agent, property-manager, real-estate-developer, short-let-host, landlord
+why: Listings compete on visuals. Consistent flyers, carousels and short video tours help properties sell or let faster.
+different: Property marketing needs listing templates (price, location, features), floor-plan visuals, "Just listed / Sold" series, and video tours — repeated for every property, on brand.
+priority: cv-start, cv-brand, cv-video, cv-photos, cv-docs, cv-bulk
++beginner | Listing post templates | Create a reusable listing template | price, location, beds/baths, contact; consistent layout; agency branding | Build a "Just listed" template and use it for one property
++intermediate | Video tours from photos and clips | Turn phone footage into a short tour | shot list; vertical video; captions with key features; music | Make a 30-second tour reel for a listing
+project: Create a full listing kit for one property: flyer, Instagram carousel, a 30-second reel and a WhatsApp status image, all on brand.
+pitfalls: Over-edited photos that mislead buyers ; Missing price or contact details ; Inconsistent branding across listings
+pairs: capcut, matterport, whatsapp-business, google-business-profile
+
+=lens canva x worship-presentation | Canva for church and ministry media
+for: pastor, church-media-team-member, church-administrator, youth-pastor, worship-leader, imam, mosque-administrator, religious-teacher
+why: Sermon series graphics, event flyers and service slides shape how people experience your community, online and in the room.
+different: Ministry media runs on weekly deadlines with volunteer teams. It needs series branding, scripture slides that are readable from the back row, and quick social versions of every announcement.
+priority: cv-start, cv-brand, cv-readable, cv-docs, cv-video, cv-bulk
++beginner | Readable scripture and lyric slides | Design slides people can read from the back | large type; contrast; line lengths; safe areas for projectors and livestream | Design scripture slides for a sermon
++intermediate | Sermon series packs | Create a full graphics pack for a series | title slide; social posts; stories; livestream thumbnail; bulletin graphic | Create a 4-week series pack
+project: Create a sermon-series pack: title graphic, slides template, three social posts, a livestream thumbnail and an event flyer — shared as team templates for volunteers.
+pitfalls: Text too small for projectors ; Using images or fonts without the right to use them ; New design every week with no series consistency
+pairs: propresenter, obs-studio, planning-center, youversion
+
+=lens canva x patient-education | Canva for patient information
+for: medical-doctor, nurse, health-promotion-specialist, pharmacist, dietitian, physiotherapist, community-health-worker, midwife, dentist
+why: Patients remember a clear leaflet far better than a rushed explanation. Good visuals improve understanding and adherence.
+different: Health materials must be accurate, plain-language (around reading age 11–12), culturally appropriate, translatable, and reviewed before use. Pictograms and large fonts matter more than decoration.
+priority: cv-readable, cv-docs, cv-start, cv-brand, cv-bulk
++beginner | Plain-language health writing | Write instructions patients understand | short sentences; one message per section; teach-back questions; avoiding jargon | Rewrite a medication instruction in plain language
++intermediate | Multilingual versions | Produce leaflets in local languages | machine translation drafts; native-speaker review; layout for longer text | Produce a leaflet in two languages
+project: Create a one-page leaflet for a common condition or medicine with pictograms, a plain-language version reviewed by a colleague, and a translated version reviewed by a native speaker.
+pitfalls: Copying copyrighted medical images ; Unreviewed machine translation ; Too much text ; No date or source for clinical information
+pairs: deepl, google-translate, microsoft-word
+
+=lens canva x lesson-planning | Canva for teachers
+for: teacher, primary-school-teacher, secondary-school-teacher, early-years-teacher, special-education-teacher, private-tutor, religious-teacher, corporate-trainer
+why: Worksheets, slides and classroom displays take hours. Templates turn that into minutes, and better visuals help students understand.
+different: Teaching materials must suit an age group, print well in black and white, work for students with additional needs, and be reused every year.
+priority: cv-start, cv-readable, cv-docs, cv-bulk, cv-video
++intermediate | Worksheets and visual aids | Design printable worksheets that work in black and white | layout for writing space; dyslexia-friendly fonts; greyscale printing | Make a worksheet and test-print it in greyscale
+project: Build a unit pack: lesson slides, two worksheets, a classroom poster and certificates generated in bulk from a class list.
+pitfalls: Colour-only meaning that disappears when printed ; Busy backgrounds behind text ; Fonts too small for young readers
+pairs: google-classroom, kahoot, google-slides
+
+=lens canva x athlete-brand | Canva for athletes
+for: athlete, footballer, track-and-field-athlete, boxer, basketball-player, student-athlete, para-athlete
+why: Sponsors and scouts look you up online. A consistent, professional presence turns performances into opportunities.
+different: Athlete content follows the season: match-day graphics, results, highlight reels and sponsor posts — made fast, on a phone, often between training sessions.
+priority: cv-start, cv-brand, cv-video, cv-photos, cv-bulk
++intermediate | Match-day and results templates | Post results within minutes | fixture/result templates; stats overlays; sponsor logo placement rules | Build a results template and post your last match
+project: Build a personal media kit: profile banner, match-day and results templates, a highlight reel and a one-page sponsor deck.
+pitfalls: Posting sponsor logos without agreement ; Inconsistent look ; Oversharing location or personal details
+pairs: capcut, linkedin, instagram
+
+=lens canva x online-store | Canva for small business product marketing
+for: small-business-owner, e-commerce-seller, fashion-brand-owner, cosmetics-brand-owner, cake-maker, trader, snack-business-owner
+why: People buy what looks trustworthy. Clean product images, price lists and promos make a small business look established.
+different: Small businesses need product catalogue images, price lists, promo banners and WhatsApp status posts — produced weekly by the owner, often on a phone.
+priority: cv-photos, cv-start, cv-brand, cv-video, cv-bulk
++beginner | Product images that sell | Make clean product photos and price cards | background removal (where available); consistent framing; price and size details | Create five product cards with prices
+project: Build a weekly marketing kit: product catalogue images, a price list, a promo banner and a WhatsApp status series.
+pitfalls: Inconsistent prices across posts ; Unclear photos ; Using other brands' images
+pairs: whatsapp-business, photoroom, capcut, selar
+
+=lens canva x agri-market-access | Canva for farmers and agribusinesses
+for: farmer, agribusiness-owner, poultry-farmer, fish-farmer, produce-aggregator, cooperative-member
+why: Buyers trust farms that look organised. Simple price lists, produce posters and harvest updates help you sell directly at better prices.
+different: Farm marketing is seasonal and local: harvest announcements, price lists by weight, delivery days and pickup locations, shared on WhatsApp and Facebook.
+priority: cv-start, cv-photos, cv-readable, cv-video
++beginner | Harvest and price list posts | Announce produce, prices and delivery days | price per unit/weight; pickup and delivery info; photos of fresh produce | Create a harvest announcement with prices
+project: Create a season's marketing set: farm logo, price list template, harvest announcement and a short farm video for WhatsApp.
+pitfalls: Outdated prices circulating ; Poor-quality photos ; Missing contact details
+pairs: whatsapp-business, capcut, facebook-marketplace
+
+=lens ai-assistants x contract-drafting | AI assistants for lawyers
+for: lawyer, corporate-lawyer, in-house-counsel, paralegal, compliance-lawyer, legal-operations-specialist
+why: AI can speed up first drafts, summaries and clause comparisons — if used within professional and confidentiality rules.
+different: Legal use demands confidentiality (client data only in approved tools), verification of every authority (AI can invent cases), and jurisdiction-specific accuracy. AI drafts are starting points, never advice.
+priority: ai-safe, ai-verify, ai-write, ai-files, ai-domain
++intermediate | Clause review and comparison | Compare a draft against your preferred positions | playbook prompts; issue lists; redline suggestions to review in Word | Compare an NDA against a firm checklist and list deviations
++expert | Firm policy and approved tools | Set up compliant AI use for a team | approved tools and data handling; client consent; audit trail; training | Draft an AI-use policy for a small practice
+project: Create a reusable, verified workflow for first-pass NDA review: approved tool, prompt playbook, checklist, and a human sign-off step.
+pitfalls: Pasting client-confidential data into unapproved tools ; Citing authorities without checking them ; Treating AI output as legal advice
+pairs: microsoft-word, westlaw, lexisnexis, lawpavilion
+
+=lens ai-assistants x lesson-planning | AI assistants for teachers
+for: teacher, primary-school-teacher, secondary-school-teacher, lecturer, private-tutor, head-teacher, special-education-teacher, curriculum-developer
+why: AI can draft lesson plans, differentiated worksheets and quiz questions in minutes, giving time back for teaching.
+different: Teachers must align AI output to the curriculum, the age group and their students' needs — and check every fact. Student data must not be shared.
+priority: ai-first, ai-domain, ai-safe, ai-verify, ai-write, ai-teach
++intermediate | Differentiation | Adapt one lesson for different levels | same objective, three levels; reading-age adjustment; scaffolds | Produce three versions of a worksheet for one objective
+project: Plan a two-week unit with AI help: objectives aligned to your curriculum, differentiated activities, a quiz with answer key — all checked and edited by you.
+pitfalls: Content not matched to the local curriculum ; Factual errors passed on to students ; Sharing student names or work with AI tools
+pairs: google-classroom, kahoot, canva
+
+=lens ai-assistants x scripture-study | AI assistants for sermon and Bible-study preparation
+for: pastor, senior-pastor, youth-pastor, priest, imam, rabbi, religious-teacher, theologian, missionary
+why: AI can help organise research, suggest outlines, explain historical context and draft study questions — saving hours each week.
+different: Faith leaders must check every reference against the text and trusted commentaries, guard their own voice and theological convictions, and never outsource discernment. AI can misquote verses.
+priority: ai-first, ai-verify, ai-domain, ai-write, ai-safe
++intermediate | Research, not replacement | Use AI as a research assistant | historical context; cross-references to verify; discussion questions; illustrations to adapt | Generate study questions for a passage and verify every reference
+project: Build a weekly preparation workflow: passage study in your scripture tool, AI-assisted outline and questions, verification against the text, and your own final draft.
+pitfalls: Quoting verses from AI without checking ; Losing your own voice ; Sharing confidential pastoral situations
+pairs: logos-bible-software, youversion, blue-letter-bible, quran-com, sefaria
+
+=lens ai-assistants x write-code | AI assistants for software developers
+for: software-engineer, frontend-developer, backend-developer, full-stack-developer, mobile-developer, qa-automation-engineer, devops-engineer, coding-bootcamp-student
+why: AI pair-programming speeds up boilerplate, debugging and learning new libraries.
+different: Developers must keep understanding the code, protect secrets and proprietary code, write tests, and review AI output like a colleague's pull request.
+priority: ai-safe, ai-verify, ai-domain, ai-agents, ai-files
++intermediate | Test-first with AI | Make AI generate code that is proven by tests | write tests first; ask AI to satisfy them; review diffs | Implement a function test-first with AI help
+project: Ship a small feature with AI assistance: tests first, AI-assisted implementation, code review checklist and a security check for secrets.
+pitfalls: Accepting code you don't understand ; Leaking API keys or proprietary code ; Skipping tests
+pairs: vs-code, github, github-copilot, cursor
+
+=lens ai-assistants x business-planning | AI assistants for founders and small businesses
+for: startup-founder, small-business-owner, social-entrepreneur, agribusiness-owner, freelancer, ceo
+why: AI can act as a tireless brainstorming partner — drafting plans, pitches, marketing copy and customer replies.
+different: Founders must ground AI suggestions in real customer conversations and real numbers. Market figures from AI must be checked against real sources.
+priority: ai-first, ai-domain, ai-verify, ai-write, ai-files
++intermediate | From idea to one-page plan | Draft a lean plan and test assumptions | lean canvas; customer interview scripts; pricing assumptions to test | Draft a one-page plan and five interview questions
+project: Use AI to draft a one-page business plan, a pitch outline and a customer-interview script — then validate three assumptions with real customers.
+pitfalls: Trusting AI-generated market sizes ; Generic plans with no local context ; Sharing confidential investor information
+pairs: microsoft-excel, canva, google-docs
+
+=lens ai-assistants x cpd-learning | AI assistants for health professionals' learning
+for: medical-doctor, nurse, pharmacist, physiotherapist, medical-student, nursing-student, midwife, dentist
+why: AI can explain concepts, generate practice questions and summarise long guidance — useful for revision and CPD.
+different: Health professionals must never rely on AI for clinical decisions, must verify against guidelines and trusted references, and must never enter identifiable patient information.
+priority: ai-safe, ai-verify, ai-first, ai-domain, ai-files
++intermediate | Revision with spaced repetition | Turn guidelines into flashcards | AI-drafted questions; checking against source; importing into Anki | Create 20 verified flashcards from a guideline
+project: Build a monthly CPD routine: summarise one guideline update with AI, verify against the source, create flashcards, and log reflections.
+pitfalls: Using AI answers clinically ; Entering patient-identifiable information ; Outdated or region-inappropriate guidance
+pairs: anki, uptodate, bmj-best-practice, medscape
+
+=lens translation x patient-education | Translation tools in healthcare
+for: medical-doctor, nurse, midwife, pharmacist, community-health-worker, paramedic, health-promotion-specialist, humanitarian-worker
+why: Language barriers cause harm. Translation tools help with simple communication and draft materials when no interpreter is immediately available.
+different: For consent, diagnosis and complex instructions, a qualified interpreter is the standard. Machine translation is for simple, low-risk communication and for drafts that a native speaker reviews.
+priority: tr-quality, tr-voice, tr-docs, tr-camera, tr-text
++beginner | Safe use in clinical settings | Know when machine translation is and isn't acceptable | low-risk vs high-risk communication; interpreter services; teach-back; documenting language support | List five situations in your work and decide tool vs interpreter for each
+project: Create a reviewed bilingual phrase sheet for common, low-risk interactions in your setting, plus a clear rule for when to call an interpreter.
+pitfalls: Using machine translation for consent ; No back-translation check ; Assuming a dialect is supported
+pairs: canva, microsoft-word
+
+=lens translation x customer-support | Translation tools for serving customers in any language
+for: small-business-owner, customer-service-representative, hotel-receptionist, tour-guide, e-commerce-seller, trader, flight-attendant
+why: Serving customers in their language wins trust and sales.
+different: Customer messages are short and informal; tone matters. Saved translated replies and a glossary of product names keep answers consistent.
+priority: tr-text, tr-voice, tr-camera, tr-workflow, tr-quality
++intermediate | Saved replies in several languages | Answer common questions instantly | quick replies; glossary of product names; checking tone | Create quick replies in two languages for your top five questions
+project: Set up multilingual quick replies for your top questions on WhatsApp Business, reviewed by a native speaker.
+pitfalls: Literal translations that sound rude ; Translating prices or measurements incorrectly
+pairs: whatsapp-business, zendesk
+
+=lens translation x service-referral | Translation tools for newcomers to a country
+for: newcomer-to-a-country, international-student, refugee-caseworker, humanitarian-worker, social-worker
+why: Forms, signs, appointments and conversations are hard in a new language. Translation tools make everyday life possible while you learn.
+different: Newcomers need camera translation for documents and signs, offline packs, conversation mode — and to know when to get official interpretation (immigration, legal, medical).
+priority: tr-camera, tr-voice, tr-text, tr-docs, tr-quality
++beginner | Offline and on the go | Translate without data | offline language packs; saving phrases; camera translation of forms | Download offline packs and save 10 essential phrases
+project: Prepare a newcomer's toolkit: offline packs, saved phrases for doctor/school/transport, and a list of official interpreter services nearby.
+pitfalls: Signing documents you don't fully understand ; Relying on machine translation for legal or immigration matters
+pairs: google-maps, duolingo, whatsapp
+
+=lens power-bi x production-surveillance | Power BI for production and operations surveillance
+for: production-engineer, petroleum-engineer, reservoir-engineer, energy-analyst, operations-analyst, offshore-installation-manager, production-manager
+why: Daily production data hides early warnings — declines, deferments, downtime. Dashboards make them visible to the whole team.
+different: Operational dashboards need daily refresh from historians or reports, allocation logic, deferment categories and exception-based views that point engineers to the wells or units that need attention.
+priority: pbi-clean, pbi-model, pbi-dax, pbi-design, pbi-govern
++intermediate | Exception-based dashboards | Highlight the few items that need action | thresholds; deviation from forecast; top-N losses; drill-through to well/unit | Build a page listing wells with the largest deviation from forecast
+project: Build a daily production dashboard: actual vs forecast, deferment by cause, top losers with drill-through, refreshed automatically.
+pitfalls: Dashboards nobody acts on ; Allocation errors hidden by totals ; Manual refresh that stops when one person is away
+pairs: microsoft-excel, python, spotfire
+
+=lens power-bi x public-health-data | Power BI for public health and programmes
+for: epidemiologist, public-health-officer, monitoring-and-evaluation-officer, health-data-manager, ngo-programme-manager
+why: Programme and surveillance data only drive decisions when they are timely, visual and trusted.
+different: Public health dashboards combine facility data, survey data and population denominators; they need disaggregation (age, sex, location), maps, and careful handling of small numbers and data quality.
+priority: pbi-clean, pbi-model, pbi-design, pbi-dax, pbi-govern
++intermediate | Indicators with denominators | Calculate rates and coverage correctly | population denominators; rates per 1,000; target lines; data-quality flags | Build coverage indicators by district with targets
+project: Build a programme dashboard: indicator coverage by district on a map, trends against targets, and a data-quality page.
+pitfalls: Rates without correct denominators ; Publishing small numbers that identify people ; Ignoring reporting completeness
+pairs: dhis2, kobotoolbox, qgis, microsoft-excel
+
+=lens python x engineering-data-analysis | Python for engineers
+for: civil-engineer, mechanical-engineer, petroleum-engineer, drilling-engineer, reservoir-engineer, electrical-engineer, chemical-engineer, geomechanics-specialist, petrophysicist, engineering-technician
+why: Python handles data and calculations too big or repetitive for spreadsheets — sensor logs, survey files, batch calculations — and makes the work repeatable.
+different: Engineering Python uses NumPy/SciPy for numerical methods, pandas for time/depth series, units libraries, and domain file formats (e.g. LAS well logs, CSV from loggers). Results must be traceable and checked against known answers.
+priority: py-first, py-pandas, py-numeric, py-plots, py-files, py-ship
++intermediate | Domain file formats | Read the files your discipline produces | LAS (lasio) for well logs; logger CSVs; Excel inputs; units with pint | Load a well log or logger file and plot it
++expert | Validated calculation tools | Turn a calculation into a tested tool | unit tests against hand calcs; documentation; sharing with colleagues | Package a calculation with tests and a short user guide
+project: Automate one recurring engineering analysis from your work: load raw data, run the calculation, plot results and export a report — verified against a hand calculation.
+pitfalls: No validation against known results ; Silent unit errors ; Notebooks no one else can rerun
+pairs: jupyter, microsoft-excel, matlab, power-bi
+
+=lens python x financial-modelling | Python for finance
+for: financial-analyst, quantitative-analyst, risk-manager, financial-data-analyst, actuary, credit-risk-modeller, portfolio-manager
+why: Python scales finance work beyond spreadsheets: large datasets, simulations, backtests and automation.
+different: Finance Python focuses on time series, returns, Monte Carlo simulation and reproducible reporting, with strict data lineage and model governance.
+priority: py-first, py-pandas, py-numeric, py-plots, py-ml, py-files
++intermediate | Time series and returns | Work with prices and returns | resampling; returns; rolling metrics; drawdowns | Compute rolling volatility and drawdown for a price series
++expert | Monte Carlo simulation | Model uncertainty | random sampling; distributions; scenario aggregation; VaR concepts | Simulate project NPV under uncertain inputs
+project: Rebuild a spreadsheet model's key calculation in Python, add a Monte Carlo risk analysis, and reconcile results back to the spreadsheet.
+pitfalls: Look-ahead bias ; Unreconciled results versus the official model ; Overfitting backtests
+pairs: microsoft-excel, jupyter, power-bi
+
+=lens python x machine-learning | Python for data scientists
+for: data-scientist, machine-learning-engineer, ai-engineer, data-analyst, ai-researcher
+why: Python is the main language of modern data science and machine learning.
+different: Data scientists must frame problems, build honest evaluation, avoid leakage, and communicate uncertainty — model accuracy alone isn't value.
+priority: py-pandas, py-plots, py-ml, py-numeric, py-ship
++expert | Responsible evaluation | Evaluate models fairly and honestly | validation strategy; leakage checks; bias across groups; documentation (model cards) | Write a model card for a model you trained
+project: Build an end-to-end project: problem framing, data cleaning, baseline, model, honest evaluation, and a short write-up for non-technical readers.
+pitfalls: Data leakage ; No baseline ; Reporting only accuracy
+pairs: jupyter, google-colab, scikit-learn, hugging-face
+
+=lens sql x sql-querying | SQL for data analysts
+for: data-analyst, business-intelligence-analyst, marketing-analyst, analytics-engineer, operations-analyst, product-manager
+why: Most company data lives in databases; SQL lets you answer your own questions without waiting.
+different: Analysts need joins, aggregation and window functions on real, messy schemas — and to check results against known totals.
+priority: sql-select, sql-agg, sql-joins, sql-window, sql-design
+project: Answer five real business questions from a sample database, documenting each query and checking totals against a report.
+pitfalls: Accidental duplicate rows from joins ; Filtering NULLs incorrectly ; Unchecked numbers sent to management
+pairs: power-bi, microsoft-excel, dbeaver
+
+=lens playwright x test-automation | Playwright for QA testers
+for: qa-tester, qa-automation-engineer, accessibility-tester, qa-lead, mobile-qa-tester
+why: Automated checks catch regressions on every change and free testers for exploratory work.
+different: Testers moving from manual to automation must decide what to automate, design stable locators, manage test data, and report failures clearly.
+priority: pw-first, pw-structure, pw-ci, pw-advanced
++beginner | From manual cases to automated checks | Choose what to automate first | risk-based selection; stable flows; turning a manual case into a script | Convert three manual regression cases to automated tests
+project: Automate the top 10 regression checks of a sample app, run them in CI, and add an accessibility check.
+pitfalls: Automating unstable features first ; Brittle CSS-based locators ; Ignoring flaky tests
+pairs: jira, postman, github-actions
+
+=lens obs x service-livestream | OBS for church and faith livestreams
+for: church-media-team-member, pastor, mosque-administrator, worship-leader, church-administrator
+why: Livestreams reach the sick, the travelling and the curious. A reliable stream is now part of serving a community.
+different: Faith livestreams run every week with volunteers: they need simple scenes, clear audio from the sound desk, lyrics and scripture overlays, and a checklist anyone can follow.
+priority: obs-record, obs-scenes, obs-stream, obs-production
++beginner | Volunteer-proof setup | Make the stream easy for any volunteer | locked scene collections; labelled hotkeys; pre-service checklist | Write a one-page pre-service checklist
+project: Build a weekly livestream setup: three scenes (pre-service, main, scripture/lyrics), audio from the desk, a checklist and a backup plan.
+pitfalls: Copyrighted music without licence ; No audio check ; One person who knows how everything works
+pairs: propresenter, restream, streamyard
+
+=lens training-apps x training-load | Training apps for athletes
+for: athlete, marathon-runner, cyclist, triathlete, swimmer, track-and-field-athlete, student-athlete
+why: Training data helps you improve steadily and avoid injury from doing too much too soon.
+different: Athletes need the right zones, honest logging, attention to recovery and sleep, and a plan that peaks for key events.
+priority: tn-record, tn-load, tn-plan, tn-coach
+project: Set up your zones, log four weeks honestly, and build a peak-and-taper plan for your next event with your coach.
+pitfalls: Chasing daily numbers ; Wrong heart-rate zones ; Ignoring rest weeks
+pairs: garmin-connect, strava, google-sheets
+
+=lens dicom-viewers x medical-imaging-viewing | DICOM viewers for radiographers and radiologists
+for: radiologist, radiographer, sonographer, medical-student, orthopaedic-surgeon, medical-physicist, neurologist
+why: Outside the hospital PACS, a desktop viewer lets you review teaching files, prepare presentations and learn anatomy across modalities.
+different: Imaging work requires strict de-identification, correct window/level presets per modality, and never using non-certified viewers for primary diagnosis unless approved by your institution.
+priority: dc-open, dc-measure, dc-3d
++beginner | De-identification and governance | Handle images lawfully | DICOM tags; anonymisation tools; institutional approval; what counts as primary diagnosis | Anonymise a sample study and confirm the tags are removed
+project: Build a de-identified teaching file of ten cases with measurements and 3D reconstructions for a teaching session.
+pitfalls: Patient identifiers left in DICOM tags or file names ; Using unapproved software for reporting ; Wrong window settings leading to missed findings
+pairs: radreport, microsoft-powerpoint, anki

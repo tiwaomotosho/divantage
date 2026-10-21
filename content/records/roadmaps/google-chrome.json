@@ -1,0 +1,239 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_google_chrome",
+ "slug": "google-chrome",
+ "title": "Google Chrome skill roadmap",
+ "tool_ids": [
+  "tool_google_chrome"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_google_chrome_productivity_app_0",
+    "slug": "google-chrome-productivity-app-0",
+    "title": "Get started with Google Chrome",
+    "outcome": "You can: set up Google Chrome, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "browser-productivity"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_google_chrome_productivity_app_1",
+    "slug": "google-chrome-productivity-app-1",
+    "title": "Set up and sync",
+    "outcome": "You can: set up Google Chrome on your devices",
+    "topics": [
+     "account",
+     "sync",
+     "mobile app",
+     "settings"
+    ],
+    "practice": "Install Google Chrome on phone and computer",
+    "need_tags": [
+     "browser-productivity"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_google_chrome_productivity_app_2",
+    "slug": "google-chrome-productivity-app-2",
+    "title": "Daily use",
+    "outcome": "You can: do your daily tasks faster",
+    "topics": [
+     "core actions",
+     "shortcuts",
+     "search"
+    ],
+    "practice": "Use Google Chrome for a week and note one saved hour",
+    "need_tags": [
+     "personal-productivity",
+     "browser-productivity"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_google_chrome_productivity_app_3",
+    "slug": "google-chrome-productivity-app-3",
+    "title": "Organise",
+    "outcome": "You can: build a simple system",
+    "topics": [
+     "folders/labels/tags",
+     "templates",
+     "naming conventions"
+    ],
+    "practice": "Reorganise your Google Chrome with a clear system",
+    "need_tags": [
+     "personal-productivity",
+     "records-management",
+     "browser-productivity"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_google_chrome_productivity_app_4",
+    "slug": "google-chrome-productivity-app-4",
+    "title": "Share safely",
+    "outcome": "You can: collaborate without oversharing",
+    "topics": [
+     "sharing permissions",
+     "links",
+     "version history"
+    ],
+    "practice": "Audit your shared items",
+    "need_tags": [
+     "files-cloud-storage",
+     "online-safety",
+     "browser-productivity"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_google_chrome_productivity_app_8",
+    "slug": "google-chrome-productivity-app-8",
+    "title": "Signature skills in Google Chrome",
+    "outcome": "You can: use the features that make Google Chrome distinctive",
+    "topics": [
+     "profiles",
+     "bookmarks",
+     "extensions",
+     "password manager"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "browser-productivity"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_google_chrome_productivity_app_9",
+    "slug": "google-chrome-productivity-app-9",
+    "title": "Advanced Google Chrome",
+    "outcome": "You can: use Google Chrome's advanced capabilities with confidence",
+    "topics": [
+     "tab groups",
+     "DevTools",
+     "site settings",
+     "sync"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "browser-productivity"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_google_chrome_productivity_app_5",
+    "slug": "google-chrome-productivity-app-5",
+    "title": "Automate",
+    "outcome": "You can: let Google Chrome work for you",
+    "topics": [
+     "rules",
+     "integrations",
+     "scheduled tasks"
+    ],
+    "practice": "Create two automation rules",
+    "need_tags": [
+     "automation-workflows",
+     "browser-productivity"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_google_chrome_productivity_app_10",
+    "slug": "google-chrome-productivity-app-10",
+    "title": "Integrate Google Chrome into your workflow",
+    "outcome": "You can: connect Google Chrome with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Google Chrome to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "browser-productivity"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_google_chrome_productivity_app_11",
+    "slug": "google-chrome-productivity-app-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Google Chrome well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Google Chrome\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "browser-productivity"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "productivity-app",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

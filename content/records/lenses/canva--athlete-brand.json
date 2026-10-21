@@ -1,0 +1,110 @@
+{
+ "schema_version": "2.1",
+ "id": "lens_canva__athlete_brand",
+ "roadmap_id": "rm_canva",
+ "roadmap": "canva",
+ "need_id": "need_athlete_brand",
+ "need": "athlete-brand",
+ "title": "Canva for athletes",
+ "kind": "flagship",
+ "for_identities": [
+  "athlete",
+  "footballer",
+  "track-and-field-athlete",
+  "boxer",
+  "basketball-player",
+  "student-athlete",
+  "para-athlete"
+ ],
+ "why": "Sponsors and scouts look you up online. A consistent, professional presence turns performances into opportunities.",
+ "what_is_different": "Athlete content follows the season: match-day graphics, results, highlight reels and sponsor posts — made fast, on a phone, often between training sessions.",
+ "priority_modules": [
+  "cv-start",
+  "cv-brand",
+  "cv-video",
+  "cv-photos",
+  "cv-bulk"
+ ],
+ "extra_modules": [
+  {
+   "level": "intermediate",
+   "title": "Match-day and results templates",
+   "outcome": "You can: post results within minutes",
+   "topics": [
+    "fixture/result templates",
+    "stats overlays",
+    "sponsor logo placement rules"
+   ],
+   "practice": "Build a results template and post your last match"
+  }
+ ],
+ "starter_project": "Build a personal media kit: profile banner, match-day and results templates, a highlight reel and a one-page sponsor deck.",
+ "pitfalls": [
+  "Posting sponsor logos without agreement",
+  "Inconsistent look",
+  "Oversharing location or personal details"
+ ],
+ "pairs_with": [
+  "tool_capcut",
+  "tool_linkedin",
+  "tool_instagram"
+ ],
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false,
+ "composed_path": {
+  "beginner": [
+   {
+    "module": "cv-start",
+    "relevance": "core",
+    "rank": 0
+   },
+   {
+    "module": "cv-photos",
+    "relevance": "core",
+    "rank": 3
+   },
+   {
+    "module": "cv-readable",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ],
+  "intermediate": [
+   {
+    "extra": "Match-day and results templates",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "module": "cv-brand",
+    "relevance": "core",
+    "rank": 1
+   },
+   {
+    "module": "cv-video",
+    "relevance": "core",
+    "rank": 2
+   },
+   {
+    "module": "cv-docs",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ],
+  "expert": [
+   {
+    "module": "cv-bulk",
+    "relevance": "core",
+    "rank": 4
+   },
+   {
+    "module": "cv-limits",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ]
+ }
+}

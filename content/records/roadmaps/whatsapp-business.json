@@ -1,0 +1,89 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_whatsapp_business",
+ "slug": "whatsapp-business",
+ "title": "WhatsApp Business",
+ "tool_ids": [
+  "tool_whatsapp_business",
+  "tool_whatsapp"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_wa_profile",
+    "slug": "wa-profile",
+    "title": "Set up a business profile",
+    "outcome": "You can: look professional to customers",
+    "topics": [
+     "business profile",
+     "catalogue",
+     "greeting and away messages"
+    ],
+    "practice": "Add 5 products to your catalogue",
+    "need_tags": [
+     "customer-support",
+     "online-store"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_wa_labels",
+    "slug": "wa-labels",
+    "title": "Labels, quick replies and broadcasts",
+    "outcome": "You can: handle many customers efficiently",
+    "topics": [
+     "labels",
+     "quick replies",
+     "broadcast lists",
+     "status"
+    ],
+    "practice": "Set up labels for new, paid and delivered orders",
+    "need_tags": [
+     "customer-support",
+     "agri-market-access",
+     "point-of-sale"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_wa_scale",
+    "slug": "wa-scale",
+    "title": "Scale customer conversations",
+    "outcome": "You can: grow beyond one phone",
+    "topics": [
+     "linked devices",
+     "Business Platform/API options",
+     "payment links",
+     "privacy"
+    ],
+    "practice": "Write a customer service policy for your team",
+    "need_tags": [
+     "customer-support",
+     "crm-sales"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false
+}

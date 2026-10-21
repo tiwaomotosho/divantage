@@ -1,0 +1,109 @@
+{
+ "schema_version": "2.1",
+ "id": "lens_ai_assistants__business_planning",
+ "roadmap_id": "rm_ai_assistants",
+ "roadmap": "ai-assistants",
+ "need_id": "need_business_planning",
+ "need": "business-planning",
+ "title": "AI assistants for founders and small businesses",
+ "kind": "flagship",
+ "for_identities": [
+  "startup-founder",
+  "small-business-owner",
+  "social-entrepreneur",
+  "agribusiness-owner",
+  "freelancer",
+  "ceo"
+ ],
+ "why": "AI can act as a tireless brainstorming partner — drafting plans, pitches, marketing copy and customer replies.",
+ "what_is_different": "Founders must ground AI suggestions in real customer conversations and real numbers. Market figures from AI must be checked against real sources.",
+ "priority_modules": [
+  "ai-first",
+  "ai-domain",
+  "ai-verify",
+  "ai-write",
+  "ai-files"
+ ],
+ "extra_modules": [
+  {
+   "level": "intermediate",
+   "title": "From idea to one-page plan",
+   "outcome": "You can: draft a lean plan and test assumptions",
+   "topics": [
+    "lean canvas",
+    "customer interview scripts",
+    "pricing assumptions to test"
+   ],
+   "practice": "Draft a one-page plan and five interview questions"
+  }
+ ],
+ "starter_project": "Use AI to draft a one-page business plan, a pitch outline and a customer-interview script — then validate three assumptions with real customers.",
+ "pitfalls": [
+  "Trusting AI-generated market sizes",
+  "Generic plans with no local context",
+  "Sharing confidential investor information"
+ ],
+ "pairs_with": [
+  "tool_microsoft_excel",
+  "tool_canva",
+  "tool_google_docs"
+ ],
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false,
+ "composed_path": {
+  "beginner": [
+   {
+    "module": "ai-first",
+    "relevance": "core",
+    "rank": 0
+   },
+   {
+    "module": "ai-write",
+    "relevance": "core",
+    "rank": 3
+   },
+   {
+    "module": "ai-safe",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ],
+  "intermediate": [
+   {
+    "extra": "From idea to one-page plan",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "module": "ai-domain",
+    "relevance": "core",
+    "rank": 1
+   },
+   {
+    "module": "ai-verify",
+    "relevance": "core",
+    "rank": 2
+   },
+   {
+    "module": "ai-files",
+    "relevance": "core",
+    "rank": 4
+   }
+  ],
+  "expert": [
+   {
+    "module": "ai-agents",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "ai-teach",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ]
+ }
+}

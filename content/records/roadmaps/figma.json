@@ -1,0 +1,107 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_figma",
+ "slug": "figma",
+ "title": "Figma",
+ "tool_ids": [
+  "tool_figma",
+  "tool_penpot"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_fg_frames",
+    "slug": "fg-frames",
+    "title": "Frames, shapes and text",
+    "outcome": "You can: lay out a simple screen",
+    "topics": [
+     "frames",
+     "auto layout basics",
+     "text styles"
+    ],
+    "practice": "Design a mobile login screen",
+    "need_tags": [
+     "ui-ux-design"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_fg_components",
+    "slug": "fg-components",
+    "title": "Components and variants",
+    "outcome": "You can: build reusable UI parts",
+    "topics": [
+     "components",
+     "variants",
+     "properties",
+     "libraries"
+    ],
+    "practice": "Create a button with 3 variants",
+    "need_tags": [
+     "ui-ux-design"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_fg_prototype",
+    "slug": "fg-prototype",
+    "title": "Prototyping and user testing",
+    "outcome": "You can: make clickable prototypes and test them",
+    "topics": [
+     "interactions",
+     "flows",
+     "sharing for tests"
+    ],
+    "practice": "Prototype a 3-screen flow and test it with 3 people",
+    "need_tags": [
+     "ui-ux-design",
+     "user-research",
+     "product-discovery"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_fg_systems",
+    "slug": "fg-systems",
+    "title": "Design systems and handoff",
+    "outcome": "You can: run a design system with developers",
+    "topics": [
+     "tokens/variables",
+     "documentation",
+     "Dev Mode handoff"
+    ],
+    "practice": "Turn a style guide into variables and components",
+    "need_tags": [
+     "ui-ux-design",
+     "brand-identity"
+    ],
+    "estimated_hours": {
+     "value": 5.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false
+}

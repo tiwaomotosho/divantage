@@ -1,0 +1,242 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_wellview",
+ "slug": "wellview",
+ "title": "WellView skill roadmap",
+ "tool_ids": [
+  "tool_wellview"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_wellview_ops_reporting_0",
+    "slug": "wellview-ops-reporting-0",
+    "title": "Get started with WellView",
+    "outcome": "You can: set up WellView, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "drilling-reporting"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_wellview_ops_reporting_1",
+    "slug": "wellview-ops-reporting-1",
+    "title": "Daily reporting",
+    "outcome": "You can: complete accurate daily records",
+    "topics": [
+     "required fields",
+     "codes",
+     "attachments",
+     "deadlines"
+    ],
+    "practice": "Complete a full daily report",
+    "need_tags": [
+     "drilling-reporting",
+     "site-management"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_wellview_ops_reporting_2",
+    "slug": "wellview-ops-reporting-2",
+    "title": "Data quality",
+    "outcome": "You can: keep data consistent",
+    "topics": [
+     "validation",
+     "codes",
+     "corrections",
+     "audit trail"
+    ],
+    "practice": "Find and fix five data-quality issues",
+    "need_tags": [
+     "drilling-reporting",
+     "data-cleaning"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_wellview_ops_reporting_3",
+    "slug": "wellview-ops-reporting-3",
+    "title": "Standard reports and KPIs",
+    "outcome": "You can: turn records into KPIs",
+    "topics": [
+     "standard reports",
+     "time breakdown",
+     "NPT/downtime",
+     "exports"
+    ],
+    "practice": "Produce a weekly KPI report",
+    "need_tags": [
+     "kpi-tracking",
+     "drilling-reporting"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_wellview_ops_reporting_4",
+    "slug": "wellview-ops-reporting-4",
+    "title": "Planning and lookahead",
+    "outcome": "You can: plan upcoming work",
+    "topics": [
+     "schedules",
+     "lookaheads",
+     "resources",
+     "checklists"
+    ],
+    "practice": "Build a two-week lookahead",
+    "need_tags": [
+     "project-scheduling",
+     "drilling-reporting"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_wellview_ops_reporting_8",
+    "slug": "wellview-ops-reporting-8",
+    "title": "Signature skills in WellView",
+    "outcome": "You can: use the features that make WellView distinctive",
+    "topics": [
+     "well and job setup",
+     "daily reports",
+     "time logs and codes",
+     "costs"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "drilling-reporting"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_wellview_ops_reporting_9",
+    "slug": "wellview-ops-reporting-9",
+    "title": "Advanced WellView",
+    "outcome": "You can: use WellView's advanced capabilities with confidence",
+    "topics": [
+     "reports and dashboards",
+     "data administration",
+     "integrations with BI"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "drilling-reporting"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_wellview_ops_reporting_5",
+    "slug": "wellview-ops-reporting-5",
+    "title": "Administer and integrate",
+    "outcome": "You can: administer WellView for a team",
+    "topics": [
+     "configuration",
+     "user management",
+     "integration with BI",
+     "regulatory outputs"
+    ],
+    "practice": "Connect WellView data to a dashboard",
+    "need_tags": [
+     "dashboards-bi",
+     "regulatory-reporting",
+     "drilling-reporting"
+    ],
+    "estimated_hours": {
+     "value": 4.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_wellview_ops_reporting_10",
+    "slug": "wellview-ops-reporting-10",
+    "title": "Integrate WellView into your workflow",
+    "outcome": "You can: connect WellView with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect WellView to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "drilling-reporting"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_wellview_ops_reporting_11",
+    "slug": "wellview-ops-reporting-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use WellView well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use WellView\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "drilling-reporting"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "ops-reporting",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

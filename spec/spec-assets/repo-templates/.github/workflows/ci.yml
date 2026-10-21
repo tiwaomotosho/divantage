@@ -1,0 +1,24 @@
+# Reference CI (16 §3, §11; TC-105). Adapt the app steps to Bun + Vite + React (ADR-008): `bun install --frozen-lockfile`, `bun run lint`, `bun run typecheck`, `bun run test`, `bun run build`, then `bun run scripts/csp-hashes.ts`.
+name: ci
+on: [pull_request, push]
+jobs:
+  catalogue:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - uses: oven-sh/setup-bun@v2
+        with: { bun-version-file: BUN_VERSION }   # keep in step with the BUN_VERSION Pages variable
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - run: pip install jsonschema==4.26.0
+      - name: Rebuild catalogue from sources
+        run: bash spec-assets/generators/rebuild_all.sh
+      - name: Fail if generated files were hand-edited or not committed
+        run: git diff --exit-code
+      - name: Search tests
+        run: |
+          npm i --no-save minisearch@7.1.2
+          node spec-assets/search/identity-harness.mjs .
+          node spec-assets/search/reference-harness.mjs .

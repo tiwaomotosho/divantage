@@ -1,0 +1,248 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_zendesk",
+ "slug": "zendesk",
+ "title": "Zendesk skill roadmap",
+ "tool_ids": [
+  "tool_zendesk"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_zendesk_it_service_0",
+    "slug": "zendesk-it-service-0",
+    "title": "Get started with Zendesk",
+    "outcome": "You can: set up Zendesk, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "it-helpdesk",
+     "customer-support"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_zendesk_it_service_1",
+    "slug": "zendesk-it-service-1",
+    "title": "Create and work cases",
+    "outcome": "You can: log and resolve tickets or test cases",
+    "topics": [
+     "fields",
+     "priorities",
+     "statuses",
+     "assignment"
+    ],
+    "practice": "Log and resolve three sample items",
+    "need_tags": [
+     "it-helpdesk",
+     "test-management",
+     "customer-support"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_zendesk_it_service_2",
+    "slug": "zendesk-it-service-2",
+    "title": "Knowledge and templates",
+    "outcome": "You can: reuse answers and test steps",
+    "topics": [
+     "templates",
+     "knowledge base",
+     "shared steps"
+    ],
+    "practice": "Write two knowledge articles or reusable test steps",
+    "need_tags": [
+     "it-helpdesk",
+     "test-management",
+     "customer-support"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_zendesk_it_service_3",
+    "slug": "zendesk-it-service-3",
+    "title": "Workflows and SLAs",
+    "outcome": "You can: keep work moving",
+    "topics": [
+     "workflows",
+     "SLAs",
+     "escalation",
+     "automation rules"
+    ],
+    "practice": "Add an SLA and an escalation rule",
+    "need_tags": [
+     "it-helpdesk",
+     "customer-support"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_zendesk_it_service_4",
+    "slug": "zendesk-it-service-4",
+    "title": "Reporting",
+    "outcome": "You can: report status and quality",
+    "topics": [
+     "dashboards",
+     "coverage/backlog",
+     "trends"
+    ],
+    "practice": "Build a weekly status dashboard",
+    "need_tags": [
+     "kpi-tracking",
+     "it-helpdesk",
+     "customer-support"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_zendesk_it_service_8",
+    "slug": "zendesk-it-service-8",
+    "title": "Signature skills in Zendesk",
+    "outcome": "You can: use the features that make Zendesk distinctive",
+    "topics": [
+     "tickets",
+     "macros",
+     "help centre",
+     "SLAs"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "it-helpdesk",
+     "customer-support"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_zendesk_it_service_9",
+    "slug": "zendesk-it-service-9",
+    "title": "Advanced Zendesk",
+    "outcome": "You can: use Zendesk's advanced capabilities with confidence",
+    "topics": [
+     "triggers and automations",
+     "messaging",
+     "analytics (Explore)"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "it-helpdesk",
+     "customer-support"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_zendesk_it_service_5",
+    "slug": "zendesk-it-service-5",
+    "title": "Integrate and govern",
+    "outcome": "You can: connect Zendesk to the rest of the stack",
+    "topics": [
+     "integrations",
+     "permissions",
+     "audit",
+     "asset/CI data"
+    ],
+    "practice": "Integrate Zendesk with your issue tracker or CI",
+    "need_tags": [
+     "agile-tracking",
+     "it-helpdesk",
+     "customer-support"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_zendesk_it_service_10",
+    "slug": "zendesk-it-service-10",
+    "title": "Integrate Zendesk into your workflow",
+    "outcome": "You can: connect Zendesk with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Zendesk to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "it-helpdesk",
+     "customer-support"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_zendesk_it_service_11",
+    "slug": "zendesk-it-service-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Zendesk well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Zendesk\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "it-helpdesk",
+     "customer-support"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "it-service",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

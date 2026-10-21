@@ -1,0 +1,269 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_google_maps",
+ "slug": "google-maps",
+ "title": "Google Maps skill roadmap",
+ "tool_ids": [
+  "tool_google_maps"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_google_maps_navigation_travel_0",
+    "slug": "google-maps-navigation-travel-0",
+    "title": "Get started with Google Maps",
+    "outcome": "You can: set up Google Maps, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "maps-navigation",
+     "route-planning-fleet",
+     "travel-planning",
+     "service-referral"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_google_maps_navigation_travel_1",
+    "slug": "google-maps-navigation-travel-1",
+    "title": "Find and save places",
+    "outcome": "You can: find places and save them",
+    "topics": [
+     "search",
+     "saved lists",
+     "sharing locations"
+    ],
+    "practice": "Save your ten most-used places",
+    "need_tags": [
+     "maps-navigation",
+     "travel-planning",
+     "route-planning-fleet",
+     "service-referral"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_google_maps_navigation_travel_2",
+    "slug": "google-maps-navigation-travel-2",
+    "title": "Plan a route",
+    "outcome": "You can: plan a journey or flight/passage",
+    "topics": [
+     "routes",
+     "timing",
+     "alternatives",
+     "weather"
+    ],
+    "practice": "Plan one real journey",
+    "need_tags": [
+     "maps-navigation",
+     "flight-planning",
+     "maritime-navigation",
+     "route-planning-fleet",
+     "travel-planning",
+     "service-referral"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_google_maps_navigation_travel_3",
+    "slug": "google-maps-navigation-travel-3",
+    "title": "Live information",
+    "outcome": "You can: use live data safely",
+    "topics": [
+     "traffic/AIS/flight data",
+     "alerts",
+     "limitations"
+    ],
+    "practice": "Monitor a live journey or vessel/flight",
+    "need_tags": [
+     "shipment-tracking",
+     "maps-navigation",
+     "route-planning-fleet",
+     "travel-planning",
+     "service-referral"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_google_maps_navigation_travel_4",
+    "slug": "google-maps-navigation-travel-4",
+    "title": "Offline and safety",
+    "outcome": "You can: stay safe without signal",
+    "topics": [
+     "offline maps/charts",
+     "emergency features",
+     "sharing ETA"
+    ],
+    "practice": "Prepare an offline pack for a trip",
+    "need_tags": [
+     "maps-navigation",
+     "route-planning-fleet",
+     "travel-planning",
+     "service-referral"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_google_maps_navigation_travel_8",
+    "slug": "google-maps-navigation-travel-8",
+    "title": "Signature skills in Google Maps",
+    "outcome": "You can: use the features that make Google Maps distinctive",
+    "topics": [
+     "search and directions",
+     "saved lists",
+     "offline maps",
+     "sharing location"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "maps-navigation",
+     "route-planning-fleet",
+     "travel-planning",
+     "service-referral"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_google_maps_navigation_travel_9",
+    "slug": "google-maps-navigation-travel-9",
+    "title": "Advanced Google Maps",
+    "outcome": "You can: use Google Maps's advanced capabilities with confidence",
+    "topics": [
+     "Timeline",
+     "Street View",
+     "contributing reviews and edits",
+     "business listings"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "maps-navigation",
+     "route-planning-fleet",
+     "travel-planning",
+     "service-referral"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_google_maps_navigation_travel_5",
+    "slug": "google-maps-navigation-travel-5",
+    "title": "Professional planning",
+    "outcome": "You can: plan professionally with Google Maps",
+    "topics": [
+     "briefings",
+     "logs",
+     "regulations",
+     "data accuracy"
+    ],
+    "practice": "Produce a full plan or briefing",
+    "need_tags": [
+     "flight-planning",
+     "maritime-navigation",
+     "route-planning-fleet",
+     "maps-navigation",
+     "travel-planning",
+     "service-referral"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_google_maps_navigation_travel_10",
+    "slug": "google-maps-navigation-travel-10",
+    "title": "Integrate Google Maps into your workflow",
+    "outcome": "You can: connect Google Maps with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Google Maps to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "maps-navigation",
+     "route-planning-fleet",
+     "travel-planning",
+     "service-referral"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_google_maps_navigation_travel_11",
+    "slug": "google-maps-navigation-travel-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Google Maps well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Google Maps\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "maps-navigation",
+     "route-planning-fleet",
+     "travel-planning",
+     "service-referral"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "navigation-travel",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

@@ -1,0 +1,239 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_visible_body",
+ "slug": "visible-body",
+ "title": "Visible Body skill roadmap",
+ "tool_ids": [
+  "tool_visible_body"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_visible_body_learning_platform_0",
+    "slug": "visible-body-learning-platform-0",
+    "title": "Get started with Visible Body",
+    "outcome": "You can: set up Visible Body, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "anatomy-3d"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_visible_body_learning_platform_1",
+    "slug": "visible-body-learning-platform-1",
+    "title": "Choose the right course",
+    "outcome": "You can: pick learning that fits your goal",
+    "topics": [
+     "goals",
+     "levels",
+     "free vs paid",
+     "time needed"
+    ],
+    "practice": "Choose one course with a clear outcome",
+    "need_tags": [
+     "learn-online",
+     "anatomy-3d"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_visible_body_learning_platform_2",
+    "slug": "visible-body-learning-platform-2",
+    "title": "Build a study routine",
+    "outcome": "You can: study consistently",
+    "topics": [
+     "schedules",
+     "reminders",
+     "notes",
+     "offline options"
+    ],
+    "practice": "Plan four weeks of study",
+    "need_tags": [
+     "study-skills",
+     "learn-online",
+     "anatomy-3d"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_visible_body_learning_platform_3",
+    "slug": "visible-body-learning-platform-3",
+    "title": "Learn actively",
+    "outcome": "You can: remember and apply what you learn",
+    "topics": [
+     "practice",
+     "spaced repetition",
+     "projects"
+    ],
+    "practice": "Turn one module into flashcards and a small project",
+    "need_tags": [
+     "study-skills",
+     "memorise-knowledge",
+     "anatomy-3d"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_visible_body_learning_platform_4",
+    "slug": "visible-body-learning-platform-4",
+    "title": "Prove your skills",
+    "outcome": "You can: turn learning into evidence",
+    "topics": [
+     "certificates",
+     "portfolios",
+     "LinkedIn"
+    ],
+    "practice": "Add a completed project to your portfolio",
+    "need_tags": [
+     "cv-portfolio",
+     "anatomy-3d"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_visible_body_learning_platform_8",
+    "slug": "visible-body-learning-platform-8",
+    "title": "Signature skills in Visible Body",
+    "outcome": "You can: use the features that make Visible Body distinctive",
+    "topics": [
+     "3D models",
+     "quizzes",
+     "animations",
+     "labelling"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "anatomy-3d"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_visible_body_learning_platform_9",
+    "slug": "visible-body-learning-platform-9",
+    "title": "Advanced Visible Body",
+    "outcome": "You can: use Visible Body's advanced capabilities with confidence",
+    "topics": [
+     "courseware",
+     "AR features"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "anatomy-3d"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_visible_body_learning_platform_5",
+    "slug": "visible-body-learning-platform-5",
+    "title": "Teach and learn with others",
+    "outcome": "You can: learn with and through other people",
+    "topics": [
+     "study groups",
+     "teaching",
+     "mentoring"
+    ],
+    "practice": "Run a study session for two friends",
+    "need_tags": [
+     "workshop-facilitation",
+     "anatomy-3d"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_visible_body_learning_platform_10",
+    "slug": "visible-body-learning-platform-10",
+    "title": "Integrate Visible Body into your workflow",
+    "outcome": "You can: connect Visible Body with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Visible Body to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "anatomy-3d"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_visible_body_learning_platform_11",
+    "slug": "visible-body-learning-platform-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Visible Body well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Visible Body\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "anatomy-3d"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "learning-platform",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

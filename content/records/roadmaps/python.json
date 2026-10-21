@@ -1,0 +1,185 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_python",
+ "slug": "python",
+ "title": "Python",
+ "tool_ids": [
+  "tool_python",
+  "tool_jupyter",
+  "tool_google_colab"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_py_first",
+    "slug": "py-first",
+    "title": "First programs",
+    "outcome": "You can: write and run simple Python",
+    "topics": [
+     "variables",
+     "types",
+     "lists and dicts",
+     "loops",
+     "functions",
+     "notebooks"
+    ],
+    "practice": "Write a unit-converter function",
+    "need_tags": [
+     "write-code",
+     "engineering-calculations",
+     "scientific-computing"
+    ],
+    "estimated_hours": {
+     "value": 4.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_py_files",
+    "slug": "py-files",
+    "title": "Files and automation",
+    "outcome": "You can: automate file and spreadsheet chores",
+    "topics": [
+     "reading/writing CSV and Excel",
+     "os/pathlib",
+     "simple scripts"
+    ],
+    "practice": "Rename and merge 50 files automatically",
+    "need_tags": [
+     "automation-workflows",
+     "data-cleaning"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_py_pandas",
+    "slug": "py-pandas",
+    "title": "Data analysis with pandas",
+    "outcome": "You can: clean, summarise and join tabular data",
+    "topics": [
+     "DataFrames",
+     "groupby",
+     "merge",
+     "dates",
+     "missing data"
+    ],
+    "practice": "Analyse a year of production or sales data",
+    "need_tags": [
+     "data-cleaning",
+     "engineering-data-analysis",
+     "production-surveillance",
+     "financial-modelling"
+    ],
+    "estimated_hours": {
+     "value": 6.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_py_plots",
+    "slug": "py-plots",
+    "title": "Charts with matplotlib/seaborn",
+    "outcome": "You can: produce clear, reproducible charts",
+    "topics": [
+     "line/scatter/hist",
+     "subplots",
+     "labelling",
+     "exporting"
+    ],
+    "practice": "Plot a well log or time series",
+    "need_tags": [
+     "data-visualisation",
+     "scientific-figures",
+     "petrophysics"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_py_numeric",
+    "slug": "py-numeric",
+    "title": "Numerical methods",
+    "outcome": "You can: solve engineering and science problems",
+    "topics": [
+     "NumPy",
+     "SciPy (interpolation, optimisation, integration)",
+     "units"
+    ],
+    "practice": "Solve a non-linear equation from your field",
+    "need_tags": [
+     "engineering-calculations",
+     "scientific-computing",
+     "geomechanics",
+     "risk-modelling"
+    ],
+    "estimated_hours": {
+     "value": 5.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_py_ml",
+    "slug": "py-ml",
+    "title": "Machine learning basics",
+    "outcome": "You can: train and evaluate predictive models",
+    "topics": [
+     "scikit-learn",
+     "train/test split",
+     "metrics",
+     "overfitting"
+    ],
+    "practice": "Predict a target from historical data and evaluate honestly",
+    "need_tags": [
+     "machine-learning",
+     "production-surveillance"
+    ],
+    "estimated_hours": {
+     "value": 8.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_py_ship",
+    "slug": "py-ship",
+    "title": "Reusable tools and apps",
+    "outcome": "You can: package code others can use",
+    "topics": [
+     "virtual environments",
+     "packages",
+     "testing",
+     "simple web apps (e.g. Streamlit)"
+    ],
+    "practice": "Turn a notebook into a small shared app",
+    "need_tags": [
+     "write-code",
+     "devops-cicd"
+    ],
+    "estimated_hours": {
+     "value": 6.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false
+}

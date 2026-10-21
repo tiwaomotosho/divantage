@@ -1,0 +1,244 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_google_alerts",
+ "slug": "google-alerts",
+ "title": "Google Alerts skill roadmap",
+ "tool_ids": [
+  "tool_google_alerts"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_google_alerts_marketing_tool_0",
+    "slug": "google-alerts-marketing-tool-0",
+    "title": "Get started with Google Alerts",
+    "outcome": "You can: set up Google Alerts, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "pr-media-monitoring"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_google_alerts_marketing_tool_1",
+    "slug": "google-alerts-marketing-tool-1",
+    "title": "Set up and connect",
+    "outcome": "You can: connect Google Alerts to your accounts",
+    "topics": [
+     "account setup",
+     "connections",
+     "audience basics",
+     "brand assets"
+    ],
+    "practice": "Connect your accounts and set up your profile",
+    "need_tags": [
+     "social-media-presence",
+     "pr-media-monitoring"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_google_alerts_marketing_tool_2",
+    "slug": "google-alerts-marketing-tool-2",
+    "title": "First campaign or post",
+    "outcome": "You can: publish something that works",
+    "topics": [
+     "content",
+     "scheduling",
+     "targeting basics"
+    ],
+    "practice": "Launch one small campaign or post series",
+    "need_tags": [
+     "social-media-management",
+     "email-marketing",
+     "pr-media-monitoring"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_google_alerts_marketing_tool_3",
+    "slug": "google-alerts-marketing-tool-3",
+    "title": "Measure what matters",
+    "outcome": "You can: read results honestly",
+    "topics": [
+     "key metrics",
+     "attribution limits",
+     "reports"
+    ],
+    "practice": "Review results and choose one improvement",
+    "need_tags": [
+     "web-analytics",
+     "kpi-tracking",
+     "pr-media-monitoring"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_google_alerts_marketing_tool_4",
+    "slug": "google-alerts-marketing-tool-4",
+    "title": "Segment and personalise",
+    "outcome": "You can: send the right message to the right people",
+    "topics": [
+     "segments",
+     "tags",
+     "personalisation",
+     "consent"
+    ],
+    "practice": "Build two segments and tailor a message",
+    "need_tags": [
+     "email-marketing",
+     "crm-sales",
+     "pr-media-monitoring"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_google_alerts_marketing_tool_8",
+    "slug": "google-alerts-marketing-tool-8",
+    "title": "Signature skills in Google Alerts",
+    "outcome": "You can: use the features that make Google Alerts distinctive",
+    "topics": [
+     "creating alerts",
+     "search operators",
+     "delivery options",
+     "sources"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "pr-media-monitoring"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_google_alerts_marketing_tool_9",
+    "slug": "google-alerts-marketing-tool-9",
+    "title": "Advanced Google Alerts",
+    "outcome": "You can: use Google Alerts's advanced capabilities with confidence",
+    "topics": [
+     "monitoring brands and competitors",
+     "automation",
+     "segmentation",
+     "optimisation"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "pr-media-monitoring"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_google_alerts_marketing_tool_5",
+    "slug": "google-alerts-marketing-tool-5",
+    "title": "Automate and optimise",
+    "outcome": "You can: run marketing that improves over time",
+    "topics": [
+     "automations",
+     "A/B tests",
+     "budgets",
+     "data privacy"
+    ],
+    "practice": "Set up one automation and one test",
+    "need_tags": [
+     "automation-workflows",
+     "online-ads",
+     "pr-media-monitoring"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_google_alerts_marketing_tool_10",
+    "slug": "google-alerts-marketing-tool-10",
+    "title": "Integrate Google Alerts into your workflow",
+    "outcome": "You can: connect Google Alerts with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Google Alerts to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "pr-media-monitoring"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_google_alerts_marketing_tool_11",
+    "slug": "google-alerts-marketing-tool-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Google Alerts well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Google Alerts\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "pr-media-monitoring"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "marketing-tool",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

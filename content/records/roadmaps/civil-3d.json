@@ -1,0 +1,253 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_civil_3d",
+ "slug": "civil-3d",
+ "title": "Civil 3D skill roadmap",
+ "tool_ids": [
+  "tool_civil_3d"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_civil_3d_cad_bim_0",
+    "slug": "civil-3d-cad-bim-0",
+    "title": "Get started with Civil 3D",
+    "outcome": "You can: set up Civil 3D, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "bim-modelling",
+     "surveying-photogrammetry"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_civil_3d_cad_bim_1",
+    "slug": "civil-3d-cad-bim-1",
+    "title": "Interface and units",
+    "outcome": "You can: set up projects correctly",
+    "topics": [
+     "templates",
+     "units",
+     "coordinates",
+     "navigation"
+    ],
+    "practice": "Start a project from the right template",
+    "need_tags": [
+     "cad-drafting",
+     "bim-modelling",
+     "surveying-photogrammetry"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_civil_3d_cad_bim_2",
+    "slug": "civil-3d-cad-bim-2",
+    "title": "Model or draw a first element",
+    "outcome": "You can: create accurate geometry",
+    "topics": [
+     "sketches/lines",
+     "constraints",
+     "dimensions",
+     "layers/levels"
+    ],
+    "practice": "Model or draw one element from a real project",
+    "need_tags": [
+     "cad-drafting",
+     "mechanical-design",
+     "bim-modelling",
+     "surveying-photogrammetry"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_civil_3d_cad_bim_3",
+    "slug": "civil-3d-cad-bim-3",
+    "title": "Drawings and documentation",
+    "outcome": "You can: produce issued drawings",
+    "topics": [
+     "sheets",
+     "views",
+     "annotation",
+     "schedules"
+    ],
+    "practice": "Produce a drawing sheet ready to issue",
+    "need_tags": [
+     "cad-drafting",
+     "technical-reporting",
+     "bim-modelling",
+     "surveying-photogrammetry"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_civil_3d_cad_bim_4",
+    "slug": "civil-3d-cad-bim-4",
+    "title": "Coordinate and collaborate",
+    "outcome": "You can: work with other disciplines",
+    "topics": [
+     "references/links",
+     "clash checks",
+     "revisions",
+     "markups"
+    ],
+    "practice": "Run a coordination review on a sample model",
+    "need_tags": [
+     "bim-modelling",
+     "drawing-markup",
+     "surveying-photogrammetry"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_civil_3d_cad_bim_8",
+    "slug": "civil-3d-cad-bim-8",
+    "title": "Signature skills in Civil 3D",
+    "outcome": "You can: use the features that make Civil 3D distinctive",
+    "topics": [
+     "surfaces",
+     "alignments",
+     "profiles",
+     "corridors"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "bim-modelling",
+     "surveying-photogrammetry"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_civil_3d_cad_bim_9",
+    "slug": "civil-3d-cad-bim-9",
+    "title": "Advanced Civil 3D",
+    "outcome": "You can: use Civil 3D's advanced capabilities with confidence",
+    "topics": [
+     "pipe networks",
+     "grading",
+     "quantity take-off"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "bim-modelling",
+     "surveying-photogrammetry"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_civil_3d_cad_bim_5",
+    "slug": "civil-3d-cad-bim-5",
+    "title": "Data and automation",
+    "outcome": "You can: use model data and automate",
+    "topics": [
+     "parameters",
+     "families/blocks",
+     "quantity take-off",
+     "scripting"
+    ],
+    "practice": "Extract quantities to a spreadsheet",
+    "need_tags": [
+     "cost-estimation",
+     "bim-modelling",
+     "surveying-photogrammetry"
+    ],
+    "estimated_hours": {
+     "value": 5.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_civil_3d_cad_bim_10",
+    "slug": "civil-3d-cad-bim-10",
+    "title": "Integrate Civil 3D into your workflow",
+    "outcome": "You can: connect Civil 3D with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Civil 3D to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "bim-modelling",
+     "surveying-photogrammetry"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_civil_3d_cad_bim_11",
+    "slug": "civil-3d-cad-bim-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Civil 3D well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Civil 3D\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "bim-modelling",
+     "surveying-photogrammetry"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "cad-bim",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

@@ -1,0 +1,156 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_power_bi",
+ "slug": "power-bi",
+ "title": "Power BI",
+ "tool_ids": [
+  "tool_power_bi"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_pbi_first",
+    "slug": "pbi-first",
+    "title": "Your first report",
+    "outcome": "You can: load data and build an interactive page",
+    "topics": [
+     "Get Data",
+     "visuals",
+     "filters and slicers",
+     "publishing"
+    ],
+    "practice": "Build a one-page sales report",
+    "need_tags": [
+     "dashboards-bi",
+     "kpi-tracking"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_pbi_clean",
+    "slug": "pbi-clean",
+    "title": "Shape data with Power Query",
+    "outcome": "You can: clean data before it reaches visuals",
+    "topics": [
+     "queries",
+     "types",
+     "merge/append",
+     "refresh"
+    ],
+    "practice": "Combine monthly files into one table",
+    "need_tags": [
+     "data-cleaning",
+     "production-surveillance",
+     "drilling-reporting"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_pbi_model",
+    "slug": "pbi-model",
+    "title": "Data modelling",
+    "outcome": "You can: relate tables correctly",
+    "topics": [
+     "star schema",
+     "relationships",
+     "date tables"
+    ],
+    "practice": "Model sales, products and dates",
+    "need_tags": [
+     "dashboards-bi",
+     "regulatory-reporting"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_pbi_dax",
+    "slug": "pbi-dax",
+    "title": "DAX measures",
+    "outcome": "You can: write measures for KPIs",
+    "topics": [
+     "CALCULATE",
+     "filter context",
+     "time intelligence"
+    ],
+    "practice": "Build year-to-date and month-on-month measures",
+    "need_tags": [
+     "kpi-tracking",
+     "budgeting-fpa",
+     "production-surveillance"
+    ],
+    "estimated_hours": {
+     "value": 4.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_pbi_design",
+    "slug": "pbi-design",
+    "title": "Report design for decision-makers",
+    "outcome": "You can: design reports people actually use",
+    "topics": [
+     "layout",
+     "drill-through",
+     "tooltips",
+     "accessibility",
+     "mobile layout"
+    ],
+    "practice": "Redesign a cluttered report into a 3-page story",
+    "need_tags": [
+     "dashboards-bi",
+     "public-health-data",
+     "monitoring-evaluation"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_pbi_govern",
+    "slug": "pbi-govern",
+    "title": "Sharing, refresh and security",
+    "outcome": "You can: run reports in production",
+    "topics": [
+     "workspaces",
+     "scheduled refresh",
+     "gateways",
+     "row-level security"
+    ],
+    "practice": "Set up a scheduled refresh with row-level security",
+    "need_tags": [
+     "dashboards-bi",
+     "regulatory-reporting"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false
+}

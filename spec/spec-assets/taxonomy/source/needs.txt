@@ -1,0 +1,334 @@
+# Digital needs — what people need to get done with technology.
+# Format: slug | Label (verb phrase) | task_family | tool slugs (best first) | one-line description
+# Sections are for editors only. Attachment to identities happens in identities.txt (U = universal list below).
+
+## UNIVERSAL — shown to everyone
+translate-languages | Translate text, documents and conversations | write-communicate | google-translate, deepl, microsoft-translator, chatgpt | Understand and be understood in any language — messages, documents, signs and live conversations.
+write-clearly | Write and proofread clearly | write-communicate | languagetool, grammarly, microsoft-word, google-docs, hemingway-editor | Make emails, reports and messages clear, correct and easy to read.
+use-ai-assistants | Use AI assistants safely and well | learn | chatgpt, claude, gemini, microsoft-copilot, perplexity | Get real help from AI — drafting, explaining, summarising — while checking what it says.
+email-and-calendar | Manage email and your calendar | organize | gmail, microsoft-outlook, google-calendar, proton-mail | Stay on top of your inbox, schedule meetings and never miss an appointment.
+video-meetings | Hold video calls and online meetings | write-communicate | zoom, google-meet, microsoft-teams, jitsi-meet | Meet anyone, anywhere — with screen sharing, recording and captions.
+documents-basics | Create and format documents | create | microsoft-word, google-docs, libreoffice | Letters, reports and forms that look professional.
+spreadsheets-basics | Track and calculate with spreadsheets | analyze | microsoft-excel, google-sheets, libreoffice | Lists, budgets, trackers and simple calculations that save hours.
+presentations | Make clear presentations | create | microsoft-powerpoint, google-slides, canva, apple-keynote | Slides that explain your idea and hold attention.
+files-cloud-storage | Store, share and back up files | organize | google-drive, microsoft-onedrive, dropbox | Never lose a file again; share safely with others.
+online-safety | Protect your accounts and devices | organize | bitwarden, google-authenticator, microsoft-authenticator, have-i-been-pwned | Strong passwords, two-step verification and spotting scams.
+learn-online | Learn new skills online | learn | coursera, edx, khan-academy, freecodecamp, linkedin-learning, alison | Free and paid courses for any skill, at your own pace.
+personal-productivity | Organise tasks and notes | organize | todoist, google-keep, notion, microsoft-to-do, trello | Capture everything you need to do and focus on what matters.
+professional-profile | Build a professional online presence | career-work | linkedin, canva, google-sites | Be findable and credible online in your field.
+personal-finance | Budget and manage money | analyze | google-sheets, microsoft-excel, ynab | Know where your money goes and plan ahead.
+design-simple-graphics | Design simple graphics, flyers and posters | create | canva, adobe-express | Good-looking visuals without design training.
+find-information | Search for and check information | research | google-search, perplexity, wikipedia, google-scholar | Find what you need faster and judge whether it's trustworthy.
+fact-check | Check claims and spot misinformation | research | google-fact-check-explorer, google-lens, tineye | Verify viral claims, images and quotes before you share them.
+accessibility-tools | Use accessibility features | learn | microsoft-immersive-reader, nvda, google-live-transcribe, be-my-eyes | Screen readers, captions, dictation and magnification for anyone who needs them.
+voice-typing-transcription | Dictate and transcribe speech | write-communicate | google-docs, microsoft-word, otter-ai, google-live-transcribe | Speak instead of type; turn recordings into text.
+pdf-work | Edit, merge, sign and convert PDFs | organize | adobe-acrobat, ilovepdf, pdf24, smallpdf | Fill forms, combine documents and convert files.
+scan-documents | Scan documents with your phone | organize | adobe-scan, google-drive | Turn paper into clean, searchable PDFs in seconds.
+e-signatures | Sign documents digitally | organize | docusign, adobe-acrobat, smallpdf | Sign and request signatures without printing.
+group-messaging | Coordinate groups by messaging | write-communicate | whatsapp, telegram, signal, slack | Keep a team, family or community informed in one place.
+forms-surveys | Collect information with forms and surveys | research | google-forms, microsoft-forms, typeform, kobotoolbox | Registrations, feedback and data collection without paperwork.
+job-search | Find and apply for jobs | career-work | linkedin, indeed, glassdoor | Discover openings and apply with confidence.
+cv-portfolio | Write a CV and build a portfolio | career-work | canva, google-docs, linkedin, notion | Show what you can do, clearly and attractively.
+social-media-presence | Share your work on social media | grow-business | canva, capcut, buffer, meta-business-suite | Post consistently and professionally about what you do.
+short-video | Make short videos for social media | create | capcut, canva, clipchamp | Vertical videos with captions and music, made on your phone.
+photo-editing | Edit photos | create | snapseed, canva, photopea, gimp, adobe-lightroom | Fix lighting, crop and retouch images.
+maps-navigation | Navigate and share locations | organize | google-maps, what3words, openstreetmap | Find places, share exact locations and plan journeys.
+online-payments | Pay and get paid safely online | grow-business | paypal, wise, paystack, flutterwave, stripe | Send, receive and request money with less risk.
+language-learning | Learn a new language | learn | duolingo, busuu, anki, italki | Build everyday fluency a little each day.
+
+## HEALTH & MEDICINE
+clinical-reference | Look up clinical guidance at the point of care | research | uptodate, bmj-best-practice, medscape, who-guidelines, nice-guidance | Fast, evidence-based answers during clinical work.
+drug-information | Check drugs, doses and interactions | research | bnf, medscape, drugs-com, epocrates, lexicomp | Verify medicines, dosing and interactions safely.
+medical-calculators | Use clinical scores and calculators | analyze | mdcalc, qxmd, medscape | Risk scores, dosing and clinical formulas, correctly applied.
+evidence-based-medicine | Search and appraise medical literature | research | pubmed, cochrane-library, google-scholar, zotero, rayyan | Find the best evidence and judge its quality.
+electronic-health-records | Document care in electronic health records | organize | epic, oracle-health, openmrs, meditech | Accurate, efficient clinical documentation.
+telemedicine | Run remote consultations safely | write-communicate | doxy-me, zoom, microsoft-teams | Consult patients remotely with privacy in mind.
+patient-education | Create clear patient information | teach-support | canva, microsoft-word, deepl, google-translate | Leaflets and explanations patients actually understand — in their language.
+medical-imaging-viewing | View and analyse medical images (DICOM) | analyze | radiant-dicom-viewer, horos, 3d-slicer, weasis, osirix-md | Open, measure and compare scans outside the hospital system.
+radiology-reporting | Structure radiology reports | write-communicate | radreport, powerscribe, microsoft-word | Consistent, complete, structured reports.
+clinical-audit-qi | Run clinical audit and quality improvement | analyze | microsoft-excel, redcap, life-qi, power-bi | Measure care against standards and improve it.
+health-research-data | Collect and analyse health research data | research | redcap, kobotoolbox, epi-info, spss, r, stata | Capture study data securely and analyse it properly.
+cpd-learning | Keep up continuing professional development | learn | medscape, bmj-learning, coursera, anki, claude | Stay current and log your CPD.
+memorise-knowledge | Memorise large bodies of knowledge | learn | anki, quizlet, osmosis | Spaced repetition for exams and practice.
+anatomy-3d | Learn and teach anatomy in 3D | learn | complete-anatomy, visible-body, biodigital-human | Explore structures interactively.
+shift-rota | Manage shifts and rotas | organize | google-sheets, deputy, when-i-work, rotacloud | Fair, visible rotas with fewer clashes.
+exercise-prescription | Prescribe and track home exercise programmes | teach-support | physitrack, medbridge, google-docs | Clear exercise plans with video demonstrations and adherence tracking.
+movement-analysis | Analyse movement and technique from video | analyze | kinovea, dartfish, hudl | Slow-motion, angles and side-by-side comparison of movement.
+nutrition-planning | Plan diets and analyse nutrition | analyze | cronometer, nutritics, myfitnesspal | Calculate nutrients and build meal plans.
+public-health-data | Track and visualise public health data | analyze | dhis2, epi-info, qgis, power-bi, kobotoolbox, r | Surveillance, dashboards and maps for population health.
+therapy-practice-admin | Run a therapy practice securely | organize | simplepractice, jane-app, doxy-me | Notes, bookings and secure sessions in one place.
+clinic-scheduling | Book appointments and send reminders | organize | calendly, jane-app, google-calendar, setmore | Fewer no-shows, less phone time.
+veterinary-practice | Manage veterinary records and appointments | organize | ezyvet, covetrus-pulse, google-calendar | Patient histories, vaccinations and reminders.
+lab-data | Manage laboratory data and samples | organize | benchling, labguru, elabftw, microsoft-excel | Electronic lab notebooks and sample tracking.
+pharmacy-stock | Manage pharmacy stock and expiry | organize | zoho-inventory, sortly, microsoft-excel | Avoid stock-outs and expired medicines.
+dental-practice | Manage a dental practice | organize | dentrix, curve-dental, open-dental | Charts, imaging and scheduling for dentistry.
+
+## ENGINEERING & TECHNICAL
+engineering-calculations | Perform and document engineering calculations | analyze | microsoft-excel, mathcad, matlab, python, smath-studio | Traceable calculations you (and checkers) can trust.
+cad-drafting | Draft 2D and 3D drawings (CAD) | create | autocad, librecad, freecad, draftsight, sketchup | Precise drawings to standard.
+bim-modelling | Model buildings and infrastructure (BIM) | create | revit, archicad, civil-3d, tekla-structures, navisworks | Coordinated 3D models that carry data.
+structural-analysis | Analyse and design structures | analyze | etabs, sap2000, staad-pro, robot-structural-analysis, csi-safe | Loads, members and code checks.
+geotechnical-analysis | Model soils, slopes and foundations | analyze | plaxis, geostudio, rocscience-slide2 | Stability and settlement analysis.
+hydraulic-modelling | Model water, drainage and rivers | analyze | hec-ras, epanet, epa-swmm, infoworks-icm | Pipes, channels, floods and networks.
+gis-mapping | Map and analyse spatial data | analyze | qgis, arcgis-pro, google-earth-pro, google-earth-engine | Maps, layers and spatial analysis.
+surveying-photogrammetry | Process survey and drone data | analyze | pix4d, agisoft-metashape, trimble-business-center, civil-3d | Point clouds, terrain models and setting out.
+project-scheduling | Plan and schedule projects (CPM) | organize | primavera-p6, microsoft-project, ganttproject, smartsheet, microsoft-excel | Critical-path schedules and progress tracking.
+cost-estimation | Estimate quantities and costs | analyze | microsoft-excel, costx, planswift, bluebeam-revu | Take-offs, rates and estimates you can defend.
+drawing-markup | Review and mark up drawings and PDFs | organize | bluebeam-revu, adobe-acrobat, drawboard-pdf | Comments, measurements and revisions on drawings.
+fea-simulation | Simulate with finite-element analysis | analyze | ansys, abaqus, comsol, solidworks, calculix | Stress, heat and flow simulations.
+mechanical-design | Design mechanical parts and assemblies | create | solidworks, fusion-360, autodesk-inventor, freecad, onshape | 3D parts, assemblies and drawings.
+electrical-design | Design electrical systems and circuits | create | autocad-electrical, kicad, eplan, etap, dialux | Schematics, PCBs, power studies and lighting.
+plc-automation | Program control systems (PLC/SCADA) | build | tia-portal, studio-5000, codesys, node-red | Logic, HMIs and industrial automation.
+process-simulation | Simulate chemical and process plants | analyze | aspen-hysys, aspen-plus, dwsim, chemcad | Heat and material balances, process design.
+engineering-data-analysis | Analyse engineering and sensor data | analyze | python, matlab, microsoft-excel, power-bi, jupyter | Turn test, sensor and field data into decisions.
+technical-reporting | Write technical reports | write-communicate | microsoft-word, overleaf, zotero, mathcad | Clear, referenced, well-structured reports.
+quality-hse | Manage quality and HSE records | organize | safetyculture, microsoft-excel, microsoft-forms, power-bi | Inspections, incidents and audits without paper.
+maintenance-cmms | Plan maintenance (CMMS) | organize | ibm-maximo, sap, upkeep, fiix | Work orders, asset history and preventive maintenance.
+
+## ENERGY, OIL & GAS, MINING
+well-planning-design | Plan and design wells | build | landmark-decisionspace, slb-drillplan, microsoft-excel, python | Trajectories, casing design, torque & drag and hydraulics.
+drilling-reporting | Report daily drilling operations | organize | wellview, openwells, microsoft-excel, power-bi | Daily reports, time breakdown and KPIs.
+well-performance | Model well and production performance | analyze | prosper, mbal, petex-gap, pipesim, olga | Nodal analysis, lift design and network modelling.
+reservoir-modelling | Build reservoir and geological models | analyze | petrel, eclipse, tnavigator, cmg, opendtect | Static and dynamic subsurface models.
+geomechanics | Analyse wellbore stability and geomechanics | analyze | techlog, jewelsuite, python, microsoft-excel | Pore pressure, stresses and mud-weight windows.
+petrophysics | Interpret well logs | analyze | techlog, interactive-petrophysics, python | Porosity, saturation and lithology from logs.
+production-surveillance | Monitor production data | analyze | power-bi, spotfire, microsoft-excel, python | Spot declines and opportunities early.
+energy-systems-modelling | Model energy systems and renewables | analyze | homer-pro, pvsyst, nrel-sam, retscreen | Size solar, storage and hybrid systems.
+mine-planning | Plan mines and model ore bodies | analyze | deswik, datamine, maptek-vulcan, leapfrog | Block models, schedules and pit designs.
+regulatory-reporting | Prepare regulatory submissions | organize | microsoft-excel, power-bi, microsoft-word, sharepoint | Accurate, on-time reports to regulators.
+
+## TECHNOLOGY & SOFTWARE
+write-code | Write and debug code | build | vs-code, jetbrains-ides, github-copilot, cursor, claude, chatgpt | A productive editor, debugger and AI pair-programmer.
+version-control | Version and review code | build | git, github, gitlab, bitbucket | Branches, pull requests and safe collaboration.
+devops-cicd | Automate builds and deployments | automate | github-actions, gitlab, jenkins, docker, terraform | Ship reliably and repeatably.
+containers-orchestration | Run containers and clusters | build | docker, kubernetes, podman | Package and run software anywhere.
+cloud-infrastructure | Run applications in the cloud | build | aws, google-cloud, microsoft-azure, cloudflare, netlify | Hosting, storage and compute at any scale.
+api-testing | Design and test APIs | build | postman, insomnia, swagger | Explore, document and test APIs.
+test-automation | Automate software testing | build | playwright, selenium, cypress, appium, jest | Fast, reliable automated checks.
+test-management | Plan and track testing | organize | testrail, qase, xray, zephyr | Test cases, runs and coverage in one place.
+performance-testing | Load and performance test | analyze | k6, apache-jmeter, gatling | Find bottlenecks before users do.
+agile-tracking | Track work in agile teams | organize | jira, linear, azure-devops, github, trello | Backlogs, sprints and boards.
+product-discovery | Discover and prioritise product opportunities | research | productboard, miro, dovetail, notion | Turn customer insight into the right priorities.
+product-analytics | Measure product usage | analyze | mixpanel, amplitude, posthog, google-analytics | Funnels, retention and experiments.
+roadmapping | Plan and communicate roadmaps | organize | productboard, aha, jira, miro | Show what's next and why.
+ui-ux-design | Design interfaces and prototypes | create | figma, penpot, sketch, framer | Wireframes, prototypes and design systems.
+user-research | Run user research and usability tests | research | maze, dovetail, lookback, google-forms | Learn what users actually need.
+observability | Monitor systems and errors | analyze | grafana, prometheus, sentry, datadog | Know when things break and why.
+security-testing | Test and harden security (authorised only) | analyze | burp-suite, owasp-zap, nmap, wireshark, kali-linux | Find weaknesses legally and fix them.
+security-operations | Detect and respond to threats | analyze | splunk, microsoft-sentinel, wazuh, elastic | Logs, alerts and incident response.
+it-helpdesk | Run IT support | organize | jira-service-management, freshservice, zendesk, glpi, anydesk | Tickets, remote support and asset tracking.
+networking | Design and troubleshoot networks | analyze | wireshark, cisco-packet-tracer, gns3, putty | Understand and fix network problems.
+databases | Design and manage databases | build | postgresql, mysql, dbeaver, mongodb, sqlite | Store data reliably and query it fast.
+mobile-app-dev | Build mobile apps | build | android-studio, xcode, flutter, react-native, expo | Native and cross-platform apps.
+web-development | Build websites and web apps | build | vs-code, nextjs, wordpress, webflow, netlify | From landing pages to full web apps.
+no-code-apps | Build apps without code | build | glide, bubble, appsheet, power-apps, airtable | Internal tools and simple apps, fast.
+game-development | Build games | build | unity, unreal-engine, godot, blender | 2D and 3D games for any platform.
+technical-writing | Write technical documentation | write-communicate | docusaurus, gitbook, confluence, vale | Docs people can actually follow.
+diagramming | Diagram systems and processes | create | draw-io, excalidraw, lucidchart, miro, mermaid | Architecture, flows and org charts.
+machine-learning | Build machine-learning models | build | python, jupyter, scikit-learn, pytorch, hugging-face, google-colab | Train, evaluate and deploy models.
+ai-app-development | Build applications on AI models | build | anthropic-api, openai-api, hugging-face, langchain | Add AI features to products responsibly.
+automation-workflows | Automate repetitive work across apps | automate | zapier, n8n, make, power-automate, google-apps-script | Let software do the copying and pasting.
+browser-productivity | Work faster in the browser | organize | google-chrome, microsoft-edge, firefox | Profiles, extensions and shortcuts that save hours.
+
+## DATA & ANALYTICS
+data-cleaning | Clean and prepare data | analyze | power-query, openrefine, python, microsoft-excel, alteryx | Fix messy data before you analyse it.
+sql-querying | Query data with SQL | analyze | dbeaver, bigquery, postgresql, sqlite, mode | Ask precise questions of any database.
+dashboards-bi | Build dashboards and reports | analyze | power-bi, tableau, looker-studio, metabase, apache-superset | Interactive reports decision-makers use.
+statistical-analysis | Run statistical analysis | analyze | r, python, spss, stata, jamovi, jasp | Tests, models and confidence in your conclusions.
+data-visualisation | Make clear charts | analyze | datawrapper, flourish, microsoft-excel, tableau, python | Charts that tell the truth and get the point across.
+data-pipelines | Build data pipelines | automate | apache-airflow, dbt, databricks, snowflake, bigquery | Reliable, scheduled data flows.
+notebooks | Analyse in notebooks | analyze | jupyter, google-colab, rstudio | Code, results and narrative together.
+
+## FINANCE & ACCOUNTING
+financial-modelling | Build financial models | analyze | microsoft-excel, google-sheets, python, power-bi | Three-statement models, valuations and scenarios.
+bookkeeping | Keep books and accounts | organize | quickbooks, xero, sage, zoho-books, wave | Record transactions and produce accounts.
+invoicing | Send invoices and get paid | grow-business | wave, zoho-invoice, quickbooks, invoice-ninja, paystack | Professional invoices and faster payment.
+tax-compliance | Prepare tax and compliance filings | organize | quickbooks, xero, microsoft-excel | Accurate filings with an audit trail.
+audit-analytics | Analyse data for audit | analyze | caseware-idea, microsoft-excel, power-bi, python | Test whole populations, not just samples.
+market-research-finance | Research markets and securities | research | bloomberg-terminal, lseg-workspace, tradingview, koyfin, yahoo-finance | Prices, fundamentals and news in one place.
+budgeting-fpa | Plan budgets and forecasts | analyze | microsoft-excel, power-bi, anaplan, google-sheets | Budgets, variance analysis and rolling forecasts.
+payroll | Run payroll | organize | deel, gusto, sage, microsoft-excel | Pay people correctly and on time.
+risk-modelling | Model and monitor risk | analyze | microsoft-excel, python, r, matlab | Scenarios, stress tests and risk metrics.
+
+## LAW & JUSTICE
+legal-research | Research law and case law | research | westlaw, lexisnexis, google-scholar, bailii, lawpavilion | Find authorities fast and cite them correctly.
+contract-drafting | Draft and review contracts | write-communicate | microsoft-word, docusign, adobe-acrobat, claude | Clean drafts, tracked changes and clause libraries.
+legal-practice-management | Manage cases, time and billing | organize | clio, mycase, practicepanther | Matters, deadlines and billable hours.
+ediscovery | Review large document sets | analyze | relativity, everlaw | Search, tag and produce documents defensibly.
+
+## EDUCATION & RESEARCH
+lesson-planning | Plan lessons and courses | teach-support | google-docs, canva, notion, microsoft-onenote, claude, chatgpt | Clear objectives, activities and materials.
+virtual-classroom | Run a virtual classroom or LMS | teach-support | google-classroom, moodle, microsoft-teams, canvas-lms | Assignments, resources and communication in one place.
+quizzes-assessment | Create quizzes and assessments | teach-support | kahoot, google-forms, socrative, mentimeter | Check understanding quickly and fairly.
+interactive-teaching | Make lessons interactive | teach-support | mentimeter, padlet, nearpod, miro | Get everyone participating.
+screen-recording | Record lessons and screencasts | create | obs-studio, loom, canva | Explain once, reuse often.
+grading-feedback | Mark work and give feedback | teach-support | google-classroom, turnitin, gradescope, microsoft-excel, google-sheets | Faster, more consistent marking.
+literature-review | Run literature reviews | research | zotero, rayyan, connected-papers, semantic-scholar, google-scholar | Find, screen and organise the literature.
+academic-writing | Write papers and theses | write-communicate | overleaf, microsoft-word, zotero, languagetool | Structure, citations and formatting done right.
+research-surveys | Run research surveys | research | kobotoolbox, qualtrics, limesurvey, google-forms | Valid instruments and clean responses.
+qualitative-analysis | Analyse interviews and qualitative data | analyze | nvivo, atlas-ti, taguette | Code themes and build evidence from text.
+accessible-materials | Create accessible learning materials | teach-support | microsoft-word, microsoft-immersive-reader, canva, google-docs | Materials everyone can use, including disabled learners.
+study-skills | Study and revise effectively | learn | anki, quizlet, notion, khan-academy | Learn more in less time and remember it.
+
+## CREATIVE, MEDIA & DESIGN
+graphic-design-pro | Design professional graphics | create | adobe-photoshop, adobe-illustrator, affinity, inkscape, gimp, figma | Print and digital design to a professional standard.
+brand-identity | Build brand identities | create | adobe-illustrator, figma, canva, inkscape | Logos, palettes and guidelines.
+video-editing-pro | Edit video professionally | create | davinci-resolve, adobe-premiere-pro, final-cut-pro, shotcut, kdenlive | Story, pace, colour and sound.
+motion-graphics | Create motion graphics and animation | create | adobe-after-effects, blender, rive | Titles, explainers and animated graphics.
+3d-modelling | Model and render in 3D | create | blender, autodesk-maya, cinema-4d, sketchup | Characters, products and scenes.
+photography-workflow | Manage and edit photography | create | adobe-lightroom, darktable, capture-one | Cull, grade and deliver photos efficiently.
+audio-production | Record and mix audio and music | create | bandlab, audacity, reaper, ableton-live, logic-pro, garageband, fl-studio | Recording, editing, mixing and mastering.
+podcast-production | Produce podcasts | create | riverside, descript, audacity, buzzsprout | Record remotely, edit by text, publish everywhere.
+live-streaming | Stream live | create | obs-studio, streamyard, restream | Professional live broadcasts from a laptop.
+book-writing-publishing | Write and self-publish books | write-communicate | scrivener, google-docs, reedsy, amazon-kdp | From manuscript to published book.
+music-notation | Write sheet music | create | musescore, sibelius, dorico | Scores and parts for any ensemble.
+media-verification | Verify sources, images and video | research | google-lens, tineye, invid-wevrify, google-fact-check-explorer | Confirm what's real before publishing.
+newsletter-publishing | Publish newsletters | grow-business | substack, beehiiv, mailchimp, ghost | Own your audience and publish regularly.
+content-planning | Plan and schedule content | organize | notion, trello, buffer, metricool | A content calendar you actually keep.
+creator-income | Earn from your content | grow-business | patreon, ko-fi, selar, gumroad | Memberships, tips and digital products.
+release-music | Release your music on streaming platforms | grow-business | distrokid, tunecore, bandlab, audiomack | Get your songs onto Spotify, Apple Music, Audiomack and more, and collect what they earn.
+artist-profiles | Grow your audience on streaming platforms | grow-business | spotify-for-artists, audiomack, instagram | Claim your artist profiles, read your stats and pitch new songs.
+fashion-design | Design clothing and patterns | create | clo-3d, adobe-illustrator, seamly2d | Flats, patterns and 3D garments.
+interior-design | Design interiors and spaces | create | sketchup, planner-5d, homestyler, enscape | Layouts, materials and visualisations clients understand.
+architectural-visualisation | Visualise architecture | create | enscape, lumion, twinmotion, d5-render, blender | Renders and walkthroughs that sell the design.
+digital-illustration | Paint and illustrate digitally | create | procreate, krita, clip-studio-paint | Illustration, comics and concept art.
+sell-art-online | Sell art and crafts online | grow-business | etsy, shopify, selar, redbubble | Reach buyers beyond your local market.
+
+## MARKETING, SALES & COMMUNICATIONS
+social-media-management | Manage social media professionally | grow-business | buffer, hootsuite, meta-business-suite, metricool | Plan, publish and measure across platforms.
+email-marketing | Run email marketing | grow-business | mailchimp, mailerlite, brevo, kit | Newsletters and automated sequences that convert.
+seo | Get found on search engines | grow-business | google-search-console, google-analytics, semrush, ahrefs | Rank for what your customers search.
+crm-sales | Manage customers and the sales pipeline | grow-business | hubspot, zoho-crm, salesforce, pipedrive | Never lose track of a lead or client.
+online-ads | Run online ads | grow-business | google-ads, meta-ads-manager, linkedin | Reach the right people within budget.
+web-analytics | Measure website traffic | analyze | google-analytics, plausible, matomo, microsoft-clarity | Understand visitors and what they do.
+pr-media-monitoring | Monitor media and run PR | grow-business | google-alerts, muck-rack, meltwater | Track coverage and pitch journalists.
+customer-support | Support customers | grow-business | whatsapp-business, zendesk, freshdesk, crisp, google-translate, deepl | Answer quickly and keep customers happy.
+events-management | Plan and run events | organize | eventbrite, luma, google-forms, canva | Registrations, reminders and check-in.
+copywriting | Write persuasive copy | write-communicate | claude, chatgpt, hemingway-editor, grammarly | Words that make people act.
+market-research | Research markets and competitors | research | google-trends, statista, similarweb, typeform | Size markets and understand competitors.
+
+## BUSINESS, MANAGEMENT & ADMINISTRATION
+business-planning | Write business plans and strategy | grow-business | google-docs, microsoft-excel, miro, canva, notion, claude, chatgpt | A plan investors and teams can follow.
+project-management | Manage projects and teams | organize | asana, trello, monday-com, clickup, notion, microsoft-project | Who does what, by when.
+process-mapping | Map and improve processes | organize | draw-io, lucidchart, miro, bizagi-modeler, microsoft-visio | See the process, then fix it.
+kpi-tracking | Track goals and KPIs | analyze | power-bi, google-sheets, microsoft-excel, notion | Know whether you're on target.
+recruitment | Recruit and onboard staff | organize | linkedin, workable, bamboohr, google-forms | Attract, select and onboard well.
+people-management | Manage people records, leave and performance | organize | bamboohr, zoho-people, deel | HR admin without spreadsheets chaos.
+inventory-procurement | Manage inventory and purchasing | organize | zoho-inventory, sortly, odoo, microsoft-excel | Know what you have and what to reorder.
+erp | Run operations on an ERP | organize | odoo, erpnext, sap, microsoft-dynamics-365, oracle-netsuite | Finance, stock and operations in one system.
+meeting-minutes | Capture minutes and actions | write-communicate | otter-ai, microsoft-teams, notion, google-docs | Decisions and actions nobody forgets.
+online-store | Sell online | grow-business | shopify, woocommerce, selar, wix, canva | A shop open 24/7.
+booking-appointments | Take bookings and appointments | grow-business | calendly, setmore, square, fresha | Let customers book themselves.
+point-of-sale | Take payments in person | grow-business | square, loyverse, sumup, moniepoint | Fast checkout and sales records.
+consulting-deliverables | Produce consulting analyses and slides | write-communicate | microsoft-powerpoint, think-cell, microsoft-excel, miro | Storylined decks and rigorous analysis.
+workshop-facilitation | Facilitate workshops | teach-support | miro, mural, mentimeter, sessionlab | Engaging sessions with clear outcomes.
+marketplace-selling | Sell on online marketplaces | grow-business | amazon-seller-central, etsy, jumia, jiji, ebay | Reach buyers where they already shop.
+product-photography | Photograph products | create | photoroom, remove-bg, snapseed, canva | Clean product images that sell.
+
+## PUBLIC SERVICE, NON-PROFIT & DEVELOPMENT
+policy-research | Research and draft policy | research | google-scholar, zotero, microsoft-word, claude | Evidence-based briefs and policy papers.
+public-consultation | Consult the public | research | google-forms, kobotoolbox, decidim, polis | Hear from many people, fairly.
+monitoring-evaluation | Monitor and evaluate programmes | analyze | kobotoolbox, odk, dhis2, activityinfo, power-bi | Indicators, field data and results reporting.
+fundraising | Fundraise and manage donors | grow-business | donorbox, gofundme, hubspot, mailchimp | Raise money and keep supporters engaged.
+grant-finding | Find and manage grants | research | candid, fundsforngos, microsoft-excel | Find funders and track applications.
+volunteer-coordination | Coordinate volunteers | organize | signupgenius, google-sheets, whatsapp | Rotas, sign-ups and communication.
+records-management | Manage official records | organize | sharepoint, google-drive, m-files | Find any document, keep it secure.
+open-data | Publish and use open data | analyze | ckan, datawrapper, microsoft-excel | Transparent, reusable public data.
+
+## FAITH & COMMUNITY
+scripture-study | Study scripture and prepare teaching | research | logos-bible-software, youversion, blue-letter-bible, step-bible, quran-com, sefaria, claude | Deep study, cross-references and original languages.
+worship-presentation | Run worship slides and media | create | propresenter, easyworship, openlp, freeshow, canva | Lyrics, scripture and media on screen, smoothly.
+service-livestream | Live-stream services and events | create | obs-studio, restream, streamyard, boxcast | Reach members who can't attend in person.
+congregation-management | Manage members, groups and events | organize | planning-center, churchsuite, breeze | Members, rotas, groups and check-in.
+online-giving | Receive donations and offerings online | grow-business | tithely, pushpay, paystack, donorbox | Easy, transparent giving.
+pastoral-care | Organise pastoral care and counselling | organize | google-calendar, planning-center, notion | Follow up with people consistently and confidentially.
+
+## SPORTS & FITNESS
+training-load | Track training load and performance | analyze | trainingpeaks, strava, garmin-connect, intervals-icu | Train smarter and avoid overtraining.
+match-video-analysis | Analyse match and technique video | analyze | hudl, kinovea, dartfish | Learn from every session and game.
+team-organisation | Organise teams, fixtures and communication | organize | teamsnap, spond, heja | Availability, fixtures and messages in one app.
+online-coaching | Coach clients online | teach-support | trainerize, truecoach, everfit | Programmes, check-ins and progress tracking.
+sports-analytics | Analyse sports data | analyze | python, r, microsoft-excel, tableau, wyscout | Find the edge in the numbers.
+gym-membership | Manage memberships and class bookings | grow-business | mindbody, glofox | Bookings, payments and retention.
+athlete-brand | Build an athlete personal brand | grow-business | canva, capcut, linkedin | Grow your profile and attract sponsors.
+
+## AGRICULTURE, FOOD & ENVIRONMENT
+farm-records | Keep farm records and finances | organize | farmbrite, agrivi, microsoft-excel, google-sheets | Know your costs, yields and profit.
+crop-monitoring | Monitor crops with satellite data | analyze | eos-crop-monitoring, climate-fieldview, sentinel-hub, google-earth-engine | Spot problems in the field from above.
+weather-planning | Plan around the weather | organize | windy, meteoblue | Plant, spray and harvest at the right time.
+plant-health | Identify plant pests and diseases | research | plantix, plantnet, picturethis | Diagnose crop problems from a photo.
+livestock-management | Manage livestock records | organize | agriwebb, herdwatch, cattlemax | Health, breeding and movement records.
+agri-market-access | Find buyers and prices | grow-business | whatsapp-business, jiji, facebook-marketplace, esoko, canva | Sell at better prices.
+environmental-monitoring | Monitor environment and biodiversity | research | inaturalist, ebird, global-forest-watch, qgis | Record species and track environmental change.
+food-safety | Manage food safety records | organize | safetyculture, google-forms, microsoft-excel | Checks, temperatures and HACCP records.
+recipe-costing | Cost recipes and menus | analyze | microsoft-excel, meez, apicbase | Price dishes for profit.
+
+## CONSTRUCTION, PROPERTY & TRADES
+site-management | Manage construction sites and snags | organize | procore, fieldwire, autodesk-build, safetyculture | Drawings, issues and daily logs on site.
+property-marketing | Market property listings | grow-business | canva, matterport, capcut, google-business-profile | Listings and virtual tours that attract buyers.
+property-management | Manage tenants and rent | organize | buildium, appfolio, microsoft-excel | Leases, rent and maintenance requests.
+trade-quotes-invoicing | Quote jobs and invoice as a tradesperson | grow-business | jobber, tradify, invoice-ninja, wave | Win jobs and get paid faster.
+site-measurement | Measure and plan spaces | analyze | magicplan, sketchup, microsoft-excel | Floor plans and material quantities from your phone.
+vehicle-diagnostics | Diagnose vehicles | analyze | obd-auto-doctor, carly, torque-pro | Read fault codes and live data.
+repair-guides | Find repair guides and schematics | research | ifixit, kicad | Fix it yourself, safely.
+woodworking-design | Design woodworking projects | create | sketchup, fusion-360, cutlist-optimizer | Plans, cut lists and less waste.
+
+## MANUFACTURING & PRODUCTION
+production-planning | Plan production and materials | organize | odoo, katana-mrp, sap, microsoft-excel | Schedule production and materials.
+quality-statistics | Control quality with statistics | analyze | minitab, jmp, microsoft-excel, python | SPC, capability and root cause.
+lean-six-sigma | Run lean and Six Sigma improvements | analyze | minitab, miro, microsoft-visio, microsoft-excel | DMAIC projects that stick.
+cnc-cam | Program CNC machines (CAM) | build | fusion-360, mastercam, freecad | Toolpaths and G-code.
+3d-printing | Prepare and print 3D models | create | ultimaker-cura, prusaslicer, tinkercad, bambu-studio | From model to printed part.
+
+## TRANSPORT, LOGISTICS, AVIATION & MARITIME
+route-planning-fleet | Plan routes and track fleets | organize | google-maps, routific, onfleet, samsara, circuit | Fewer miles, on-time deliveries.
+warehouse-inventory | Run warehouse inventory | organize | zoho-inventory, odoo, sortly, oracle-netsuite | Accurate stock, fast picking.
+shipment-tracking | Book and track shipments | organize | freightos, marinetraffic, flightradar24, easyship | Know where every shipment is.
+flight-planning | Plan flights and study aviation | organize | foreflight, skydemon, garmin-pilot, x-plane | Routes, weather and briefings.
+maritime-navigation | Navigate and plan at sea | organize | opencpn, navionics, marinetraffic | Charts, AIS and passage plans.
+driver-earnings | Work with ride-hailing and delivery apps | grow-business | uber, bolt, google-sheets | Track trips, costs and real earnings.
+
+## HOSPITALITY, TOURISM & FOOD SERVICE
+restaurant-operations | Take orders and run a restaurant | organize | square, toast, loyverse, lightspeed | Orders, kitchen tickets and sales reports.
+hotel-management | Manage hotel and guesthouse bookings | organize | cloudbeds, little-hotelier, booking-com, airbnb | Channels, rooms and guests without double bookings.
+reviews-reputation | Manage online reviews | grow-business | google-business-profile, tripadvisor, trustpilot | Respond to reviews and win trust.
+travel-planning | Plan trips and itineraries | organize | google-maps, tripit, wanderlog, skyscanner | Smooth trips for you or your clients.
+tour-booking | Sell tours and activities | grow-business | fareharbor, bokun, getyourguide | Take bookings online and fill tours.
+
+## BEAUTY, WELLBEING & PERSONAL SERVICES
+salon-booking | Take salon and spa bookings | grow-business | fresha, booksy, vagaro, square | Online booking, reminders and payments.
+visual-portfolio | Showcase your work visually | grow-business | instagram, pinterest, canva, capcut, behance | Let your work sell itself.
+mindfulness-wellbeing | Support mental wellbeing | learn | insight-timer, headspace, calm | Guided practice for you or your clients.
+
+## SECURITY, DEFENCE & EMERGENCY
+incident-reporting | Log incidents and reports | organize | safetyculture, kobotoolbox, google-forms, ushahidi | Fast, structured, searchable reports.
+emergency-comms | Coordinate emergency communications | write-communicate | zello, whatsapp, signal, everbridge | Reach the right people instantly.
+osint-research | Research open sources ethically | research | google-earth-pro, wayback-machine, tineye, maltego | Investigate public information responsibly and legally.
+digital-forensics | Preserve and analyse digital evidence | analyze | autopsy, ftk-imager, wireshark | Handle evidence soundly.
+
+## SCIENCE & LABORATORY
+scientific-computing | Compute and simulate scientific problems | analyze | python, matlab, r, julia, jupyter | Models, simulations and data analysis.
+molecular-biology | Design and analyse molecular biology work | analyze | benchling, snapgene, ncbi-blast, ugene, pymol | Sequences, primers and structures.
+chemistry-drawing | Draw and model chemical structures | create | chemdraw, marvinsketch, ketcher, avogadro | Structures, reactions and 3D molecules.
+scientific-figures | Make scientific figures | create | biorender, graphpad-prism, inkscape, python, origin | Publication-quality figures.
+research-data-management | Manage and share research data | organize | zenodo, osf, figshare, github | FAIR data and reproducible research.
+astronomy-observation | Observe and image the sky | research | stellarium, sharpcap, siril | Plan observations and process astro images.
+
+## SOCIAL CARE & COMMUNITY
+case-management | Manage cases and care plans | organize | airtable, google-sheets, salesforce | Track people, plans and follow-ups securely.
+service-referral | Find services and refer people | research | google-maps, findhelp, google-translate | Connect people to the help they need.
+accessible-communication | Communicate with disabled people and those with access needs | write-communicate | ava, google-live-transcribe, proloquo2go, be-my-eyes | Captions, AAC and visual assistance.
+sign-language | Learn sign language | learn | lingvano, spreadthesign | Communicate with Deaf people.
+care-coordination | Coordinate care for family or clients | organize | google-calendar, whatsapp, lotsa-helping-hands, medisafe | Shared schedules, medicines and visits.
+
+## ARTS & PERFORMANCE
+stage-production | Run stage productions | organize | qlab, google-sheets, notion | Cues, schedules and production paperwork.
+auditions-casting | Find auditions and self-tape | career-work | backstage, spotlight, capcut | Find roles and submit great self-tapes.
+
+## LIFE ROLES
+family-organisation | Organise family life | organize | google-calendar, cozi, whatsapp | Shared calendars, lists and plans.
+kids-online-safety | Keep children safe online | organize | google-family-link, apple-screen-time, microsoft-family-safety | Healthy screen time and safer browsing.
+digital-basics | Get confident with smartphones, apps and video calls | learn | gcfglobal, whatsapp, zoom, google-lens | The everyday basics, explained patiently.
+volunteering | Find volunteering opportunities | career-work | idealist, un-online-volunteering, volunteermatch | Give your skills where they're needed.
+freelancing | Find freelance and remote work | career-work | upwork, fiverr, contra, linkedin | Win clients and get paid for your skills.
+personal-health-tracking | Track personal health and medicines | organize | medisafe, apple-health | Medicine reminders and health records.

@@ -1,0 +1,180 @@
+{
+  "standard": "ISCO-08 (International Labour Organization)",
+  "level": "sub-major groups (2-digit)",
+  "count": 43,
+  "note": "Digital Advantage identities carry an ISCO-08 sub-major crosswalk assigned editorially. Unit-group (4-digit) mapping is a planned expert-validation task.",
+  "values": [
+    {
+      "code": "01",
+      "title": "Commissioned armed forces officers"
+    },
+    {
+      "code": "02",
+      "title": "Non-commissioned armed forces officers"
+    },
+    {
+      "code": "03",
+      "title": "Armed forces occupations, other ranks"
+    },
+    {
+      "code": "11",
+      "title": "Chief executives, senior officials and legislators"
+    },
+    {
+      "code": "12",
+      "title": "Administrative and commercial managers"
+    },
+    {
+      "code": "13",
+      "title": "Production and specialized services managers"
+    },
+    {
+      "code": "14",
+      "title": "Hospitality, retail and other services managers"
+    },
+    {
+      "code": "21",
+      "title": "Science and engineering professionals"
+    },
+    {
+      "code": "22",
+      "title": "Health professionals"
+    },
+    {
+      "code": "23",
+      "title": "Teaching professionals"
+    },
+    {
+      "code": "24",
+      "title": "Business and administration professionals"
+    },
+    {
+      "code": "25",
+      "title": "Information and communications technology professionals"
+    },
+    {
+      "code": "26",
+      "title": "Legal, social and cultural professionals"
+    },
+    {
+      "code": "31",
+      "title": "Science and engineering associate professionals"
+    },
+    {
+      "code": "32",
+      "title": "Health associate professionals"
+    },
+    {
+      "code": "33",
+      "title": "Business and administration associate professionals"
+    },
+    {
+      "code": "34",
+      "title": "Legal, social, cultural and related associate professionals"
+    },
+    {
+      "code": "35",
+      "title": "Information and communications technicians"
+    },
+    {
+      "code": "41",
+      "title": "General and keyboard clerks"
+    },
+    {
+      "code": "42",
+      "title": "Customer services clerks"
+    },
+    {
+      "code": "43",
+      "title": "Numerical and material recording clerks"
+    },
+    {
+      "code": "44",
+      "title": "Other clerical support workers"
+    },
+    {
+      "code": "51",
+      "title": "Personal service workers"
+    },
+    {
+      "code": "52",
+      "title": "Sales workers"
+    },
+    {
+      "code": "53",
+      "title": "Personal care workers"
+    },
+    {
+      "code": "54",
+      "title": "Protective services workers"
+    },
+    {
+      "code": "61",
+      "title": "Market-oriented skilled agricultural workers"
+    },
+    {
+      "code": "62",
+      "title": "Market-oriented skilled forestry, fishery and hunting workers"
+    },
+    {
+      "code": "63",
+      "title": "Subsistence farmers, fishers, hunters and gatherers"
+    },
+    {
+      "code": "71",
+      "title": "Building and related trades workers, excluding electricians"
+    },
+    {
+      "code": "72",
+      "title": "Metal, machinery and related trades workers"
+    },
+    {
+      "code": "73",
+      "title": "Handicraft and printing workers"
+    },
+    {
+      "code": "74",
+      "title": "Electrical and electronic trades workers"
+    },
+    {
+      "code": "75",
+      "title": "Food processing, wood working, garment and other craft and related trades workers"
+    },
+    {
+      "code": "81",
+      "title": "Stationary plant and machine operators"
+    },
+    {
+      "code": "82",
+      "title": "Assemblers"
+    },
+    {
+      "code": "83",
+      "title": "Drivers and mobile plant operators"
+    },
+    {
+      "code": "91",
+      "title": "Cleaners and helpers"
+    },
+    {
+      "code": "92",
+      "title": "Agricultural, forestry and fishery labourers"
+    },
+    {
+      "code": "93",
+      "title": "Labourers in mining, construction, manufacturing and transport"
+    },
+    {
+      "code": "94",
+      "title": "Food preparation assistants"
+    },
+    {
+      "code": "95",
+      "title": "Street and related sales and service workers"
+    },
+    {
+      "code": "96",
+      "title": "Refuse workers and other elementary workers"
+    }
+  ]
+}

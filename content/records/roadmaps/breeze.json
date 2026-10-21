@@ -1,0 +1,237 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_breeze",
+ "slug": "breeze",
+ "title": "Breeze ChMS skill roadmap",
+ "tool_ids": [
+  "tool_breeze"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_breeze_faith_admin_0",
+    "slug": "breeze-faith-admin-0",
+    "title": "Get started with Breeze ChMS",
+    "outcome": "You can: set up Breeze ChMS, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "congregation-management"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_breeze_faith_admin_1",
+    "slug": "breeze-faith-admin-1",
+    "title": "Members and households",
+    "outcome": "You can: keep member records accurate",
+    "topics": [
+     "profiles",
+     "households",
+     "privacy and consent"
+    ],
+    "practice": "Add households and update contact preferences",
+    "need_tags": [
+     "congregation-management"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_breeze_faith_admin_2",
+    "slug": "breeze-faith-admin-2",
+    "title": "Groups and events",
+    "outcome": "You can: organise groups and events",
+    "topics": [
+     "small groups",
+     "registrations",
+     "check-in"
+    ],
+    "practice": "Set up a group and an event with registration",
+    "need_tags": [
+     "congregation-management",
+     "events-management"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_breeze_faith_admin_3",
+    "slug": "breeze-faith-admin-3",
+    "title": "Volunteers and rotas",
+    "outcome": "You can: schedule teams",
+    "topics": [
+     "serving teams",
+     "rotas",
+     "reminders"
+    ],
+    "practice": "Build next month's volunteer rota",
+    "need_tags": [
+     "congregation-management",
+     "shift-rota"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_breeze_faith_admin_4",
+    "slug": "breeze-faith-admin-4",
+    "title": "Giving and finance",
+    "outcome": "You can: record giving transparently",
+    "topics": [
+     "online giving",
+     "statements",
+     "reconciliation"
+    ],
+    "practice": "Produce giving statements for a sample month",
+    "need_tags": [
+     "online-giving",
+     "bookkeeping",
+     "congregation-management"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_breeze_faith_admin_8",
+    "slug": "breeze-faith-admin-8",
+    "title": "Signature skills in Breeze ChMS",
+    "outcome": "You can: use the features that make Breeze ChMS distinctive",
+    "topics": [
+     "people records",
+     "tags",
+     "giving",
+     "events"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "congregation-management"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_breeze_faith_admin_9",
+    "slug": "breeze-faith-admin-9",
+    "title": "Advanced Breeze ChMS",
+    "outcome": "You can: use Breeze ChMS's advanced capabilities with confidence",
+    "topics": [
+     "forms",
+     "reports",
+     "volunteer scheduling"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "congregation-management"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_breeze_faith_admin_5",
+    "slug": "breeze-faith-admin-5",
+    "title": "Communication and care",
+    "outcome": "You can: follow up with people consistently",
+    "topics": [
+     "messaging",
+     "workflows",
+     "pastoral care notes (confidential)"
+    ],
+    "practice": "Set up a newcomer follow-up workflow",
+    "need_tags": [
+     "pastoral-care",
+     "group-messaging",
+     "congregation-management"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_breeze_faith_admin_10",
+    "slug": "breeze-faith-admin-10",
+    "title": "Integrate Breeze ChMS into your workflow",
+    "outcome": "You can: connect Breeze ChMS with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Breeze ChMS to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "congregation-management"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_breeze_faith_admin_11",
+    "slug": "breeze-faith-admin-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Breeze ChMS well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Breeze ChMS\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "congregation-management"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "faith-admin",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

@@ -1,0 +1,200 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_documents",
+ "slug": "documents",
+ "title": "Documents (Word, Google Docs, LibreOffice Writer)",
+ "tool_ids": [
+  "tool_microsoft_word",
+  "tool_google_docs",
+  "tool_libreoffice"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_doc_basics",
+    "slug": "doc-basics",
+    "title": "Write and format a document",
+    "outcome": "You can: produce a clean, consistent document",
+    "topics": [
+     "fonts, spacing and alignment",
+     "bullet lists",
+     "page setup",
+     "saving as PDF"
+    ],
+    "practice": "Write a one-page letter",
+    "need_tags": [
+     "documents-basics",
+     "write-clearly"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_doc_styles",
+    "slug": "doc-styles",
+    "title": "Styles and headings",
+    "outcome": "You can: format long documents in one click",
+    "topics": [
+     "heading styles",
+     "navigation pane",
+     "automatic table of contents"
+    ],
+    "practice": "Turn notes into a structured report with a contents page",
+    "need_tags": [
+     "documents-basics",
+     "technical-reporting",
+     "academic-writing"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_doc_voice",
+    "slug": "doc-voice",
+    "title": "Dictation and accessibility checks",
+    "outcome": "You can: type by voice and make documents accessible",
+    "topics": [
+     "voice typing/dictate",
+     "Accessibility Checker",
+     "alt text",
+     "readable fonts"
+    ],
+    "practice": "Dictate a draft and fix all accessibility warnings",
+    "need_tags": [
+     "voice-typing-transcription",
+     "accessible-materials"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_doc_tables_figures",
+    "slug": "doc-tables-figures",
+    "title": "Tables, figures and captions",
+    "outcome": "You can: present data and images professionally",
+    "topics": [
+     "tables",
+     "captions and cross-references",
+     "image layout"
+    ],
+    "practice": "Add numbered figures and tables to a report",
+    "need_tags": [
+     "technical-reporting",
+     "academic-writing",
+     "regulatory-reporting"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_doc_review",
+    "slug": "doc-review",
+    "title": "Track changes and comments",
+    "outcome": "You can: review and negotiate drafts with others",
+    "topics": [
+     "track changes",
+     "comments",
+     "compare documents",
+     "accept/reject"
+    ],
+    "practice": "Review a colleague's draft with tracked changes",
+    "need_tags": [
+     "contract-drafting",
+     "write-clearly",
+     "policy-research"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_doc_templates",
+    "slug": "doc-templates",
+    "title": "Templates and forms",
+    "outcome": "You can: reuse layouts and build fillable forms",
+    "topics": [
+     "templates",
+     "content controls",
+     "mail merge"
+    ],
+    "practice": "Mail-merge 30 personalised letters",
+    "need_tags": [
+     "documents-basics",
+     "lesson-planning",
+     "patient-education"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_doc_long",
+    "slug": "doc-long",
+    "title": "Long documents and citations",
+    "outcome": "You can: manage theses and reports with hundreds of pages",
+    "topics": [
+     "sections and page numbering",
+     "citations with a reference manager",
+     "master documents"
+    ],
+    "practice": "Format a thesis chapter with Zotero citations",
+    "need_tags": [
+     "academic-writing",
+     "technical-reporting",
+     "literature-review"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_doc_clauses",
+    "slug": "doc-clauses",
+    "title": "Clause libraries and automation",
+    "outcome": "You can: assemble documents from reusable blocks",
+    "topics": [
+     "Quick Parts/building blocks",
+     "fields",
+     "macros"
+    ],
+    "practice": "Build a contract template with optional clauses",
+    "need_tags": [
+     "contract-drafting",
+     "regulatory-reporting"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false
+}

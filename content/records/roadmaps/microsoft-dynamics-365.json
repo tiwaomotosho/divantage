@@ -1,0 +1,238 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_microsoft_dynamics_365",
+ "slug": "microsoft-dynamics-365",
+ "title": "Microsoft Dynamics 365 skill roadmap",
+ "tool_ids": [
+  "tool_microsoft_dynamics_365"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_microsoft_dynamics_365_erp_ops_0",
+    "slug": "microsoft-dynamics-365-erp-ops-0",
+    "title": "Get started with Microsoft Dynamics 365",
+    "outcome": "You can: set up Microsoft Dynamics 365, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "erp"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_microsoft_dynamics_365_erp_ops_1",
+    "slug": "microsoft-dynamics-365-erp-ops-1",
+    "title": "Navigate the system",
+    "outcome": "You can: find, create and update records",
+    "topics": [
+     "modules",
+     "master data",
+     "search",
+     "permissions"
+    ],
+    "practice": "Create and update one record end to end",
+    "need_tags": [
+     "erp"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_microsoft_dynamics_365_erp_ops_2",
+    "slug": "microsoft-dynamics-365-erp-ops-2",
+    "title": "Core workflow",
+    "outcome": "You can: complete your role's main workflow",
+    "topics": [
+     "orders/tasks/stock moves",
+     "approvals",
+     "statuses"
+    ],
+    "practice": "Complete one full workflow for your role",
+    "need_tags": [
+     "erp"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_microsoft_dynamics_365_erp_ops_3",
+    "slug": "microsoft-dynamics-365-erp-ops-3",
+    "title": "Planning and scheduling",
+    "outcome": "You can: plan work, stock or projects",
+    "topics": [
+     "schedules",
+     "dependencies",
+     "reorder points",
+     "resources"
+    ],
+    "practice": "Build a plan or schedule for a real piece of work",
+    "need_tags": [
+     "project-scheduling",
+     "inventory-procurement",
+     "erp"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_microsoft_dynamics_365_erp_ops_4",
+    "slug": "microsoft-dynamics-365-erp-ops-4",
+    "title": "Reports and dashboards",
+    "outcome": "You can: answer management questions",
+    "topics": [
+     "standard reports",
+     "filters",
+     "exports"
+    ],
+    "practice": "Build a report your manager asks for",
+    "need_tags": [
+     "kpi-tracking",
+     "erp"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_microsoft_dynamics_365_erp_ops_8",
+    "slug": "microsoft-dynamics-365-erp-ops-8",
+    "title": "Signature skills in Microsoft Dynamics 365",
+    "outcome": "You can: use the features that make Microsoft Dynamics 365 distinctive",
+    "topics": [
+     "modules (Sales, Finance, Supply Chain)",
+     "records and views",
+     "dashboards",
+     "Outlook integration"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "erp"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_microsoft_dynamics_365_erp_ops_9",
+    "slug": "microsoft-dynamics-365-erp-ops-9",
+    "title": "Advanced Microsoft Dynamics 365",
+    "outcome": "You can: use Microsoft Dynamics 365's advanced capabilities with confidence",
+    "topics": [
+     "Power Platform customisation",
+     "workflows",
+     "data management"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "erp"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_microsoft_dynamics_365_erp_ops_5",
+    "slug": "microsoft-dynamics-365-erp-ops-5",
+    "title": "Configure and integrate",
+    "outcome": "You can: adapt Microsoft Dynamics 365 to how your organisation works",
+    "topics": [
+     "custom fields",
+     "workflows",
+     "integrations",
+     "data quality"
+    ],
+    "practice": "Propose and test one configuration improvement",
+    "need_tags": [
+     "erp",
+     "process-mapping"
+    ],
+    "estimated_hours": {
+     "value": 4.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_microsoft_dynamics_365_erp_ops_10",
+    "slug": "microsoft-dynamics-365-erp-ops-10",
+    "title": "Integrate Microsoft Dynamics 365 into your workflow",
+    "outcome": "You can: connect Microsoft Dynamics 365 with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Microsoft Dynamics 365 to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "erp"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_microsoft_dynamics_365_erp_ops_11",
+    "slug": "microsoft-dynamics-365-erp-ops-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Microsoft Dynamics 365 well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Microsoft Dynamics 365\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "erp"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "erp-ops",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

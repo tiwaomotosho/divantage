@@ -1,0 +1,144 @@
+{
+ "schema_version": "2.1",
+ "id": "lens_spreadsheets__grading_feedback",
+ "roadmap_id": "rm_spreadsheets",
+ "roadmap": "spreadsheets",
+ "need_id": "need_grading_feedback",
+ "need": "grading-feedback",
+ "title": "Spreadsheets for teachers' gradebooks",
+ "kind": "flagship",
+ "for_identities": [
+  "teacher",
+  "primary-school-teacher",
+  "secondary-school-teacher",
+  "lecturer",
+  "head-teacher",
+  "private-tutor"
+ ],
+ "why": "Marks, attendance and progress tracking take hours each term; a good gradebook gives that time back and shows who needs help.",
+ "what_is_different": "Teachers need weighted averages, grade boundaries, attendance and term-on-term progress — shared safely with colleagues, never with other parents or pupils.",
+ "priority_modules": [
+  "xl-tables-sort",
+  "xl-logic",
+  "xl-conditional",
+  "xl-formulas-1",
+  "xl-charts-1",
+  "xl-protect-share"
+ ],
+ "extra_modules": [
+  {
+   "level": "intermediate",
+   "title": "Weighted grades and boundaries",
+   "outcome": "You can: calculate final grades automatically",
+   "topics": [
+    "SUMPRODUCT weights",
+    "grade boundary lookup",
+    "handling absences"
+   ],
+   "practice": "Build a gradebook with weighted CA and exam scores"
+  }
+ ],
+ "starter_project": "Build a class gradebook with weighted assessments, grade boundaries, attendance, and an at-risk list highlighted automatically.",
+ "pitfalls": [
+  "Sharing a sheet that reveals other students' marks",
+  "Manual grade typing errors",
+  "Not backing up before end-of-term"
+ ],
+ "pairs_with": [
+  "tool_google_classroom",
+  "tool_google_forms"
+ ],
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false,
+ "composed_path": {
+  "beginner": [
+   {
+    "module": "xl-tables-sort",
+    "relevance": "core",
+    "rank": 0
+   },
+   {
+    "module": "xl-formulas-1",
+    "relevance": "core",
+    "rank": 3
+   },
+   {
+    "module": "xl-charts-1",
+    "relevance": "core",
+    "rank": 4
+   },
+   {
+    "module": "xl-basics",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ],
+  "intermediate": [
+   {
+    "extra": "Weighted grades and boundaries",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "module": "xl-logic",
+    "relevance": "core",
+    "rank": 1
+   },
+   {
+    "module": "xl-conditional",
+    "relevance": "core",
+    "rank": 2
+   },
+   {
+    "module": "xl-protect-share",
+    "relevance": "core",
+    "rank": 5
+   },
+   {
+    "module": "xl-pivots",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "xl-cleaning",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "xl-dates-text",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ],
+  "expert": [
+   {
+    "module": "xl-dynamic-arrays",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "xl-what-if",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "xl-power-query",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "xl-model-design",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "xl-automation",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ]
+ }
+}

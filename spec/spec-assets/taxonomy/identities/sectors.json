@@ -1,0 +1,292 @@
+{
+ "version": "2.1.0",
+ "values": [
+  {
+   "id": "sec_health",
+   "slug": "health",
+   "label": "Health & Medicine",
+   "needs": [
+    "clinical-reference",
+    "evidence-based-medicine",
+    "cpd-learning",
+    "patient-education",
+    "electronic-health-records",
+    "telemedicine"
+   ],
+   "order": 0
+  },
+  {
+   "id": "sec_engineering",
+   "slug": "engineering",
+   "label": "Engineering",
+   "needs": [
+    "engineering-calculations",
+    "cad-drafting",
+    "technical-reporting",
+    "project-scheduling",
+    "engineering-data-analysis"
+   ],
+   "order": 1
+  },
+  {
+   "id": "sec_energy",
+   "slug": "energy",
+   "label": "Energy, Oil & Gas and Mining",
+   "needs": [
+    "quality-hse",
+    "regulatory-reporting",
+    "production-surveillance",
+    "engineering-data-analysis"
+   ],
+   "order": 2
+  },
+  {
+   "id": "sec_technology",
+   "slug": "technology",
+   "label": "Technology & Software",
+   "needs": [
+    "write-code",
+    "version-control",
+    "agile-tracking",
+    "diagramming",
+    "use-ai-assistants"
+   ],
+   "order": 3
+  },
+  {
+   "id": "sec_data",
+   "slug": "data",
+   "label": "Data & AI",
+   "needs": [
+    "data-cleaning",
+    "sql-querying",
+    "dashboards-bi",
+    "data-visualisation",
+    "notebooks"
+   ],
+   "order": 4
+  },
+  {
+   "id": "sec_finance",
+   "slug": "finance",
+   "label": "Finance, Banking & Accounting",
+   "needs": [
+    "spreadsheets-basics",
+    "financial-modelling",
+    "dashboards-bi"
+   ],
+   "order": 5
+  },
+  {
+   "id": "sec_law",
+   "slug": "law",
+   "label": "Law & Justice",
+   "needs": [
+    "legal-research",
+    "contract-drafting",
+    "write-clearly",
+    "pdf-work",
+    "e-signatures"
+   ],
+   "order": 6
+  },
+  {
+   "id": "sec_education",
+   "slug": "education",
+   "label": "Education & Training",
+   "needs": [
+    "lesson-planning",
+    "quizzes-assessment",
+    "interactive-teaching",
+    "accessible-materials",
+    "screen-recording"
+   ],
+   "order": 7
+  },
+  {
+   "id": "sec_creative",
+   "slug": "creative",
+   "label": "Creative, Media & Design",
+   "needs": [
+    "visual-portfolio",
+    "social-media-presence",
+    "creator-income",
+    "content-planning"
+   ],
+   "order": 8
+  },
+  {
+   "id": "sec_marketing",
+   "slug": "marketing",
+   "label": "Marketing, Sales & Communications",
+   "needs": [
+    "social-media-presence",
+    "crm-sales",
+    "copywriting",
+    "web-analytics"
+   ],
+   "order": 9
+  },
+  {
+   "id": "sec_business",
+   "slug": "business",
+   "label": "Business, Management & Administration",
+   "needs": [
+    "business-planning",
+    "project-management",
+    "kpi-tracking",
+    "presentations",
+    "meeting-minutes"
+   ],
+   "order": 10
+  },
+  {
+   "id": "sec_public_sector",
+   "slug": "public-sector",
+   "label": "Public Service, Government & Non-profit",
+   "needs": [
+    "policy-research",
+    "records-management",
+    "public-consultation",
+    "monitoring-evaluation"
+   ],
+   "order": 11
+  },
+  {
+   "id": "sec_faith",
+   "slug": "faith",
+   "label": "Faith & Community",
+   "needs": [
+    "scripture-study",
+    "worship-presentation",
+    "service-livestream",
+    "congregation-management",
+    "online-giving",
+    "pastoral-care"
+   ],
+   "order": 12
+  },
+  {
+   "id": "sec_sports",
+   "slug": "sports",
+   "label": "Sports & Fitness",
+   "needs": [
+    "training-load",
+    "nutrition-planning",
+    "match-video-analysis",
+    "athlete-brand"
+   ],
+   "order": 13
+  },
+  {
+   "id": "sec_agriculture",
+   "slug": "agriculture",
+   "label": "Agriculture, Food & Environment",
+   "needs": [
+    "farm-records",
+    "weather-planning",
+    "agri-market-access"
+   ],
+   "order": 14
+  },
+  {
+   "id": "sec_construction",
+   "slug": "construction",
+   "label": "Construction, Property & Trades",
+   "needs": [
+    "site-management",
+    "trade-quotes-invoicing",
+    "site-measurement"
+   ],
+   "order": 15
+  },
+  {
+   "id": "sec_manufacturing",
+   "slug": "manufacturing",
+   "label": "Manufacturing & Production",
+   "needs": [
+    "production-planning",
+    "quality-statistics",
+    "maintenance-cmms"
+   ],
+   "order": 16
+  },
+  {
+   "id": "sec_transport",
+   "slug": "transport",
+   "label": "Transport, Logistics, Aviation & Maritime",
+   "needs": [
+    "route-planning-fleet",
+    "shipment-tracking",
+    "maps-navigation"
+   ],
+   "order": 17
+  },
+  {
+   "id": "sec_hospitality",
+   "slug": "hospitality",
+   "label": "Hospitality, Tourism & Food Service",
+   "needs": [
+    "reviews-reputation",
+    "customer-support",
+    "booking-appointments"
+   ],
+   "order": 18
+  },
+  {
+   "id": "sec_beauty",
+   "slug": "beauty",
+   "label": "Beauty, Wellbeing & Personal Services",
+   "needs": [
+    "salon-booking",
+    "visual-portfolio",
+    "short-video"
+   ],
+   "order": 19
+  },
+  {
+   "id": "sec_security",
+   "slug": "security",
+   "label": "Security, Defence & Emergency Services",
+   "needs": [
+    "incident-reporting",
+    "emergency-comms"
+   ],
+   "order": 20
+  },
+  {
+   "id": "sec_science",
+   "slug": "science",
+   "label": "Science & Laboratory",
+   "needs": [
+    "scientific-computing",
+    "scientific-figures",
+    "research-data-management",
+    "literature-review",
+    "academic-writing"
+   ],
+   "order": 21
+  },
+  {
+   "id": "sec_social_care",
+   "slug": "social-care",
+   "label": "Social Care & Community",
+   "needs": [
+    "case-management",
+    "service-referral",
+    "care-coordination"
+   ],
+   "order": 22
+  },
+  {
+   "id": "sec_life",
+   "slug": "life",
+   "label": "Life roles & everyday people",
+   "needs": [
+    "digital-basics",
+    "family-organisation"
+   ],
+   "order": 23
+  }
+ ]
+}

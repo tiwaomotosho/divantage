@@ -1,0 +1,154 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_slides",
+ "slug": "slides",
+ "title": "Presentations (PowerPoint, Google Slides, Keynote)",
+ "tool_ids": [
+  "tool_microsoft_powerpoint",
+  "tool_google_slides",
+  "tool_apple_keynote"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_sl_basics",
+    "slug": "sl-basics",
+    "title": "Clear slides",
+    "outcome": "You can: build a short deck that is easy to follow",
+    "topics": [
+     "one idea per slide",
+     "layouts",
+     "text size",
+     "images"
+    ],
+    "practice": "Make a 5-slide talk about your work",
+    "need_tags": [
+     "presentations"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_sl_master",
+    "slug": "sl-master",
+    "title": "Themes and masters",
+    "outcome": "You can: keep every slide on-brand",
+    "topics": [
+     "slide master",
+     "theme colours and fonts",
+     "placeholders"
+    ],
+    "practice": "Create a reusable team template",
+    "need_tags": [
+     "presentations",
+     "brand-identity"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_sl_storyline",
+    "slug": "sl-storyline",
+    "title": "Storylines that persuade",
+    "outcome": "You can: structure a deck so the message lands",
+    "topics": [
+     "situation–complication–resolution",
+     "action titles",
+     "executive summary"
+    ],
+    "practice": "Rewrite a deck with action titles",
+    "need_tags": [
+     "consulting-deliverables",
+     "presentations",
+     "business-planning"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_sl_data",
+    "slug": "sl-data",
+    "title": "Charts and diagrams on slides",
+    "outcome": "You can: show numbers and processes clearly",
+    "topics": [
+     "native charts",
+     "SmartArt/diagrams",
+     "linking to spreadsheets"
+    ],
+    "practice": "Turn a table into a single clear chart slide",
+    "need_tags": [
+     "consulting-deliverables",
+     "kpi-tracking",
+     "data-visualisation"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_sl_deliver",
+    "slug": "sl-deliver",
+    "title": "Present live and remotely",
+    "outcome": "You can: present confidently in the room or online",
+    "topics": [
+     "presenter view",
+     "rehearse timings",
+     "screen sharing",
+     "recording"
+    ],
+    "practice": "Record a 3-minute presentation with narration",
+    "need_tags": [
+     "presentations",
+     "video-meetings",
+     "screen-recording"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_sl_advanced",
+    "slug": "sl-advanced",
+    "title": "Advanced visuals and automation",
+    "outcome": "You can: produce boardroom-quality decks fast",
+    "topics": [
+     "morph/animations with purpose",
+     "consistent grids",
+     "add-ins (e.g. think-cell)",
+     "accessibility"
+    ],
+    "practice": "Rebuild a complex chart slide to board standard",
+    "need_tags": [
+     "consulting-deliverables"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false
+}

@@ -1,0 +1,90 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_dicom_viewers",
+ "slug": "dicom-viewers",
+ "title": "DICOM viewers (RadiAnt, Horos, Weasis, 3D Slicer)",
+ "tool_ids": [
+  "tool_radiant_dicom_viewer",
+  "tool_horos",
+  "tool_weasis",
+  "tool_3d_slicer"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_dc_open",
+    "slug": "dc-open",
+    "title": "Open and navigate studies",
+    "outcome": "You can: view images confidently",
+    "topics": [
+     "opening studies",
+     "series",
+     "window/level",
+     "scrolling",
+     "anonymisation awareness"
+    ],
+    "practice": "Open an anonymised sample study and adjust window settings",
+    "need_tags": [
+     "medical-imaging-viewing"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_dc_measure",
+    "slug": "dc-measure",
+    "title": "Measure and compare",
+    "outcome": "You can: take measurements and compare studies",
+    "topics": [
+     "distances, angles, ROI",
+     "side-by-side comparison",
+     "MPR"
+    ],
+    "practice": "Compare two time points of a sample study",
+    "need_tags": [
+     "medical-imaging-viewing",
+     "radiology-reporting"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_dc_3d",
+    "slug": "dc-3d",
+    "title": "3D reconstruction and teaching files",
+    "outcome": "You can: build 3D views and teaching material",
+    "topics": [
+     "volume rendering",
+     "segmentation basics (3D Slicer)",
+     "exporting de-identified images"
+    ],
+    "practice": "Create a de-identified teaching image set",
+    "need_tags": [
+     "medical-imaging-viewing",
+     "anatomy-3d",
+     "lesson-planning"
+    ],
+    "estimated_hours": {
+     "value": 4.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false
+}

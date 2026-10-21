@@ -1,0 +1,244 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_revit",
+ "slug": "revit",
+ "title": "Revit skill roadmap",
+ "tool_ids": [
+  "tool_revit"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_revit_cad_bim_0",
+    "slug": "revit-cad-bim-0",
+    "title": "Get started with Revit",
+    "outcome": "You can: set up Revit, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "bim-modelling"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_revit_cad_bim_1",
+    "slug": "revit-cad-bim-1",
+    "title": "Interface and units",
+    "outcome": "You can: set up projects correctly",
+    "topics": [
+     "templates",
+     "units",
+     "coordinates",
+     "navigation"
+    ],
+    "practice": "Start a project from the right template",
+    "need_tags": [
+     "cad-drafting",
+     "bim-modelling"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_revit_cad_bim_2",
+    "slug": "revit-cad-bim-2",
+    "title": "Model or draw a first element",
+    "outcome": "You can: create accurate geometry",
+    "topics": [
+     "sketches/lines",
+     "constraints",
+     "dimensions",
+     "layers/levels"
+    ],
+    "practice": "Model or draw one element from a real project",
+    "need_tags": [
+     "cad-drafting",
+     "mechanical-design",
+     "bim-modelling"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_revit_cad_bim_3",
+    "slug": "revit-cad-bim-3",
+    "title": "Drawings and documentation",
+    "outcome": "You can: produce issued drawings",
+    "topics": [
+     "sheets",
+     "views",
+     "annotation",
+     "schedules"
+    ],
+    "practice": "Produce a drawing sheet ready to issue",
+    "need_tags": [
+     "cad-drafting",
+     "technical-reporting",
+     "bim-modelling"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_revit_cad_bim_4",
+    "slug": "revit-cad-bim-4",
+    "title": "Coordinate and collaborate",
+    "outcome": "You can: work with other disciplines",
+    "topics": [
+     "references/links",
+     "clash checks",
+     "revisions",
+     "markups"
+    ],
+    "practice": "Run a coordination review on a sample model",
+    "need_tags": [
+     "bim-modelling",
+     "drawing-markup"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_revit_cad_bim_8",
+    "slug": "revit-cad-bim-8",
+    "title": "Signature skills in Revit",
+    "outcome": "You can: use the features that make Revit distinctive",
+    "topics": [
+     "walls, floors and roofs",
+     "views and sheets",
+     "families",
+     "schedules"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "bim-modelling"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_revit_cad_bim_9",
+    "slug": "revit-cad-bim-9",
+    "title": "Advanced Revit",
+    "outcome": "You can: use Revit's advanced capabilities with confidence",
+    "topics": [
+     "worksharing",
+     "Dynamo",
+     "MEP and structural modelling",
+     "phasing"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "bim-modelling"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_revit_cad_bim_5",
+    "slug": "revit-cad-bim-5",
+    "title": "Data and automation",
+    "outcome": "You can: use model data and automate",
+    "topics": [
+     "parameters",
+     "families/blocks",
+     "quantity take-off",
+     "scripting"
+    ],
+    "practice": "Extract quantities to a spreadsheet",
+    "need_tags": [
+     "cost-estimation",
+     "bim-modelling"
+    ],
+    "estimated_hours": {
+     "value": 5.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_revit_cad_bim_10",
+    "slug": "revit-cad-bim-10",
+    "title": "Integrate Revit into your workflow",
+    "outcome": "You can: connect Revit with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Revit to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "bim-modelling"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_revit_cad_bim_11",
+    "slug": "revit-cad-bim-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Revit well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Revit\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "bim-modelling"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "cad-bim",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

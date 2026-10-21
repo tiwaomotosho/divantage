@@ -1,0 +1,239 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_maze",
+ "slug": "maze",
+ "title": "Maze skill roadmap",
+ "tool_ids": [
+  "tool_maze"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_maze_qualitative_ux_0",
+    "slug": "maze-qualitative-ux-0",
+    "title": "Get started with Maze",
+    "outcome": "You can: set up Maze, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "user-research"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_maze_qualitative_ux_1",
+    "slug": "maze-qualitative-ux-1",
+    "title": "Collect good data",
+    "outcome": "You can: gather interviews, tests or responses",
+    "topics": [
+     "recruiting",
+     "consent",
+     "recording",
+     "questions"
+    ],
+    "practice": "Run or import two interviews or tests",
+    "need_tags": [
+     "user-research",
+     "qualitative-analysis"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_maze_qualitative_ux_2",
+    "slug": "maze-qualitative-ux-2",
+    "title": "Code and tag",
+    "outcome": "You can: label data consistently",
+    "topics": [
+     "codes/tags",
+     "codebooks",
+     "highlights"
+    ],
+    "practice": "Code two transcripts with a simple codebook",
+    "need_tags": [
+     "qualitative-analysis",
+     "user-research"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_maze_qualitative_ux_3",
+    "slug": "maze-qualitative-ux-3",
+    "title": "Find themes",
+    "outcome": "You can: turn codes into insights",
+    "topics": [
+     "grouping",
+     "frequency vs importance",
+     "quotes"
+    ],
+    "practice": "Write three insight statements with evidence",
+    "need_tags": [
+     "qualitative-analysis",
+     "product-discovery",
+     "user-research"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_maze_qualitative_ux_4",
+    "slug": "maze-qualitative-ux-4",
+    "title": "Survey and test design",
+    "outcome": "You can: design studies that answer the question",
+    "topics": [
+     "question design",
+     "logic",
+     "sampling",
+     "pilot"
+    ],
+    "practice": "Design and pilot a short study",
+    "need_tags": [
+     "research-surveys",
+     "user-research"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_maze_qualitative_ux_8",
+    "slug": "maze-qualitative-ux-8",
+    "title": "Signature skills in Maze",
+    "outcome": "You can: use the features that make Maze distinctive",
+    "topics": [
+     "prototype tests",
+     "surveys",
+     "tasks",
+     "reports"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "user-research"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_maze_qualitative_ux_9",
+    "slug": "maze-qualitative-ux-9",
+    "title": "Advanced Maze",
+    "outcome": "You can: use Maze's advanced capabilities with confidence",
+    "topics": [
+     "card sorting",
+     "tree testing",
+     "panel recruitment"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "user-research"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_maze_qualitative_ux_5",
+    "slug": "maze-qualitative-ux-5",
+    "title": "Share and operationalise research",
+    "outcome": "You can: make insights usable by others",
+    "topics": [
+     "repositories",
+     "reports",
+     "stakeholder sessions"
+    ],
+    "practice": "Present findings to stakeholders",
+    "need_tags": [
+     "product-discovery",
+     "user-research"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_maze_qualitative_ux_10",
+    "slug": "maze-qualitative-ux-10",
+    "title": "Integrate Maze into your workflow",
+    "outcome": "You can: connect Maze with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Maze to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "user-research"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_maze_qualitative_ux_11",
+    "slug": "maze-qualitative-ux-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Maze well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Maze\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "user-research"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "qualitative-ux",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

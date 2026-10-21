@@ -1,0 +1,242 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_luma",
+ "slug": "luma",
+ "title": "Luma skill roadmap",
+ "tool_ids": [
+  "tool_luma"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_luma_events_donations_0",
+    "slug": "luma-events-donations-0",
+    "title": "Get started with Luma",
+    "outcome": "You can: set up Luma, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "events-management"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_luma_events_donations_1",
+    "slug": "luma-events-donations-1",
+    "title": "Create a page",
+    "outcome": "You can: set up an event or fundraising page",
+    "topics": [
+     "story",
+     "goals",
+     "images",
+     "payment setup"
+    ],
+    "practice": "Publish a draft page",
+    "need_tags": [
+     "fundraising",
+     "events-management"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_luma_events_donations_2",
+    "slug": "luma-events-donations-2",
+    "title": "Share it",
+    "outcome": "You can: reach supporters or attendees",
+    "topics": [
+     "sharing",
+     "email",
+     "social",
+     "updates"
+    ],
+    "practice": "Share and post one update",
+    "need_tags": [
+     "fundraising",
+     "social-media-presence",
+     "events-management"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_luma_events_donations_3",
+    "slug": "luma-events-donations-3",
+    "title": "Manage people",
+    "outcome": "You can: handle registrations or donors",
+    "topics": [
+     "lists",
+     "receipts",
+     "check-in",
+     "thank-yous"
+    ],
+    "practice": "Send thank-you messages",
+    "need_tags": [
+     "fundraising",
+     "events-management"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_luma_events_donations_4",
+    "slug": "luma-events-donations-4",
+    "title": "Report transparently",
+    "outcome": "You can: report results honestly",
+    "topics": [
+     "totals",
+     "fees",
+     "payouts",
+     "reports"
+    ],
+    "practice": "Produce a results report",
+    "need_tags": [
+     "fundraising",
+     "events-management"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_luma_events_donations_8",
+    "slug": "luma-events-donations-8",
+    "title": "Signature skills in Luma",
+    "outcome": "You can: use the features that make Luma distinctive",
+    "topics": [
+     "event pages",
+     "registration and approvals",
+     "reminders",
+     "check-in"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "events-management"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_luma_events_donations_9",
+    "slug": "luma-events-donations-9",
+    "title": "Advanced Luma",
+    "outcome": "You can: use Luma's advanced capabilities with confidence",
+    "topics": [
+     "calendars",
+     "paid tickets",
+     "integrations"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "events-management"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_luma_events_donations_5",
+    "slug": "luma-events-donations-5",
+    "title": "Grow repeat support",
+    "outcome": "You can: build long-term support",
+    "topics": [
+     "recurring giving",
+     "follow-ups",
+     "data privacy"
+    ],
+    "practice": "Plan a follow-up campaign",
+    "need_tags": [
+     "fundraising",
+     "email-marketing",
+     "events-management"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_luma_events_donations_10",
+    "slug": "luma-events-donations-10",
+    "title": "Integrate Luma into your workflow",
+    "outcome": "You can: connect Luma with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Luma to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "events-management"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_luma_events_donations_11",
+    "slug": "luma-events-donations-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Luma well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Luma\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "events-management"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "events-donations",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

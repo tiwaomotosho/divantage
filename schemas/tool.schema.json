@@ -1,0 +1,470 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://digitaladvantage.example/schemas/v2/tool.schema.json",
+  "title": "Tool record",
+  "type": "object",
+  "allOf": [
+    {
+      "$ref": "common.schema.json#/$defs/record_base"
+    }
+  ],
+  "unevaluatedProperties": false,
+  "required": [
+    "id",
+    "slug",
+    "name",
+    "official_url",
+    "summary",
+    "description",
+    "category_ids",
+    "task_ids",
+    "audience_ids",
+    "pricing",
+    "platforms",
+    "ai_involvement",
+    "availability_status",
+    "key_capabilities",
+    "limitations",
+    "best_for",
+    "account_required"
+  ],
+  "properties": {
+    "schema_version": {},
+    "is_illustrative": {},
+    "redirect_from": {},
+    "sources": {},
+    "editorial": {},
+    "disclosure": {},
+    "id": {
+      "type": "string",
+      "pattern": "^tool_[a-z0-9_]+$",
+      "maxLength": 64
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "minLength": 2,
+      "maxLength": 80
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 60
+    },
+    "official_name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100
+    },
+    "official_url": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https://",
+      "maxLength": 2048
+    },
+    "developer_or_publisher": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 120
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 20,
+      "maxLength": 140,
+      "description": "One line, plain language. No marketing slogans."
+    },
+    "description": {
+      "type": "string",
+      "minLength": 120,
+      "maxLength": 1200,
+      "description": "Plain-language explanation of what it helps you do."
+    },
+    "category_ids": {
+      "type": "array",
+      "items": {
+        "$ref": "common.schema.json#/$defs/category_slug"
+      },
+      "minItems": 1,
+      "uniqueItems": true,
+      "maxItems": 4
+    },
+    "task_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^task_[a-z0-9_]+$",
+        "maxLength": 64
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "audience_ids": {
+      "type": "array",
+      "items": {
+        "$ref": "common.schema.json#/$defs/audience_slug"
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "skill_level": {
+      "$ref": "common.schema.json#/$defs/skill_level"
+    },
+    "pricing": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "model",
+        "verification_status",
+        "source_ids",
+        "checked_at"
+      ],
+      "properties": {
+        "model": {
+          "$ref": "common.schema.json#/$defs/pricing_model"
+        },
+        "verification_status": {
+          "$ref": "common.schema.json#/$defs/verification_status"
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "common.schema.json#/$defs/source_id"
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        },
+        "checked_at": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "free_tier_details": {
+          "type": "string",
+          "maxLength": 400
+        },
+        "trial_details": {
+          "type": "string",
+          "maxLength": 300
+        },
+        "paid_plan_summary": {
+          "type": "string",
+          "maxLength": 400
+        },
+        "costs_beyond_price": {
+          "type": "string",
+          "maxLength": 300,
+          "description": "Hardware, hosting, data, transaction or API costs."
+        },
+        "price_points": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "plan",
+              "amount",
+              "currency",
+              "period",
+              "source_id",
+              "checked_at"
+            ],
+            "properties": {
+              "plan": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 60
+              },
+              "amount": {
+                "type": "number",
+                "minimum": 0
+              },
+              "currency": {
+                "type": "string",
+                "pattern": "^[A-Z]{3}$"
+              },
+              "period": {
+                "enum": [
+                  "month",
+                  "year",
+                  "once",
+                  "usage"
+                ]
+              },
+              "region": {
+                "type": "string",
+                "maxLength": 40
+              },
+              "is_promotional": {
+                "type": "boolean",
+                "default": false
+              },
+              "source_id": {
+                "$ref": "common.schema.json#/$defs/source_id"
+              },
+              "checked_at": {
+                "type": "string",
+                "format": "date",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "note": {
+                "type": "string",
+                "maxLength": 200
+              }
+            }
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "model": {
+                "not": {
+                  "const": "unknown"
+                }
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "source_ids": {
+                "minItems": 1
+              },
+              "verification_status": {
+                "enum": [
+                  "verified",
+                  "partially_verified"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    "platforms": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "values",
+        "verification_status",
+        "source_ids"
+      ],
+      "properties": {
+        "values": {
+          "type": "array",
+          "items": {
+            "$ref": "common.schema.json#/$defs/platform"
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        },
+        "verification_status": {
+          "$ref": "common.schema.json#/$defs/verification_status"
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "common.schema.json#/$defs/source_id"
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        }
+      }
+    },
+    "deployment": {
+      "type": "array",
+      "items": {
+        "$ref": "common.schema.json#/$defs/deployment"
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "ai_involvement": {
+      "$ref": "common.schema.json#/$defs/ai_involvement"
+    },
+    "availability_status": {
+      "$ref": "common.schema.json#/$defs/availability_status"
+    },
+    "account_required": {
+      "$ref": "common.schema.json#/$defs/yes_no_unknown"
+    },
+    "open_source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "is_open_source"
+      ],
+      "properties": {
+        "is_open_source": {
+          "type": "boolean"
+        },
+        "licence": {
+          "type": "string",
+          "maxLength": 60,
+          "description": "SPDX identifier when verified, e.g. GPL-3.0-only; omit if unverified."
+        },
+        "repository_url": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://",
+          "maxLength": 2048
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "common.schema.json#/$defs/source_id"
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        }
+      }
+    },
+    "key_capabilities": {
+      "type": "array",
+      "items": {
+        "$ref": "common.schema.json#/$defs/sourced_text"
+      },
+      "minItems": 1,
+      "uniqueItems": true,
+      "maxItems": 8
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "$ref": "common.schema.json#/$defs/sourced_text"
+      },
+      "minItems": 1,
+      "uniqueItems": true,
+      "maxItems": 8
+    },
+    "best_for": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 3,
+        "maxLength": 140
+      },
+      "minItems": 1,
+      "uniqueItems": true,
+      "maxItems": 6
+    },
+    "not_ideal_for": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 3,
+        "maxLength": 140
+      },
+      "minItems": 0,
+      "uniqueItems": true,
+      "maxItems": 6
+    },
+    "learning_curve": {
+      "enum": [
+        "gentle",
+        "moderate",
+        "steep",
+        "unknown"
+      ],
+      "description": "Editorial judgement."
+    },
+    "getting_started": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 5,
+        "maxLength": 300
+      },
+      "minItems": 0,
+      "uniqueItems": true,
+      "maxItems": 6
+    },
+    "region_availability": {
+      "type": "string",
+      "maxLength": 300
+    },
+    "language_support": {
+      "type": "string",
+      "maxLength": 300
+    },
+    "privacy_notes": {
+      "type": "array",
+      "items": {
+        "$ref": "common.schema.json#/$defs/sourced_text"
+      },
+      "minItems": 0,
+      "uniqueItems": true,
+      "maxItems": 4
+    },
+    "accessibility_notes": {
+      "type": "array",
+      "items": {
+        "$ref": "common.schema.json#/$defs/sourced_text"
+      },
+      "minItems": 0,
+      "uniqueItems": true,
+      "maxItems": 4
+    },
+    "resource_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^res_[a-z0-9_]+$",
+        "maxLength": 64
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "alternative_tool_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^tool_[a-z0-9_]+$",
+        "maxLength": 64
+      },
+      "minItems": 0,
+      "uniqueItems": true,
+      "maxItems": 8
+    },
+    "comparison_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^cmp_[a-z0-9_]+$",
+        "maxLength": 64
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "playbook_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^pb_[a-z0-9_]+$",
+        "maxLength": 64
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "search_aliases": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2,
+        "maxLength": 60
+      },
+      "minItems": 0,
+      "uniqueItems": true,
+      "maxItems": 12
+    }
+  }
+}

@@ -1,0 +1,240 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_etabs",
+ "slug": "etabs",
+ "title": "ETABS skill roadmap",
+ "tool_ids": [
+  "tool_etabs"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_etabs_engineering_sim_0",
+    "slug": "etabs-engineering-sim-0",
+    "title": "Get started with ETABS",
+    "outcome": "You can: set up ETABS, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "structural-analysis"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_etabs_engineering_sim_1",
+    "slug": "etabs-engineering-sim-1",
+    "title": "Understand the method",
+    "outcome": "You can: know what ETABS calculates and its limits",
+    "topics": [
+     "governing theory",
+     "assumptions",
+     "units",
+     "when not to use it"
+    ],
+    "practice": "Write a one-page note on ETABS's assumptions",
+    "need_tags": [
+     "engineering-calculations",
+     "structural-analysis"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_etabs_engineering_sim_2",
+    "slug": "etabs-engineering-sim-2",
+    "title": "Build a first model",
+    "outcome": "You can: set up a simple model correctly",
+    "topics": [
+     "geometry/network",
+     "properties",
+     "inputs",
+     "checks"
+    ],
+    "practice": "Rebuild a published tutorial example",
+    "need_tags": [
+     "engineering-calculations",
+     "structural-analysis"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_etabs_engineering_sim_3",
+    "slug": "etabs-engineering-sim-3",
+    "title": "Run and interpret",
+    "outcome": "You can: run analyses and read results critically",
+    "topics": [
+     "solver settings",
+     "convergence",
+     "results review",
+     "sanity checks"
+    ],
+    "practice": "Compare results with a hand calculation",
+    "need_tags": [
+     "engineering-data-analysis",
+     "structural-analysis"
+    ],
+    "estimated_hours": {
+     "value": 4.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_etabs_engineering_sim_4",
+    "slug": "etabs-engineering-sim-4",
+    "title": "Sensitivity and scenarios",
+    "outcome": "You can: test what matters",
+    "topics": [
+     "sensitivity runs",
+     "scenarios",
+     "uncertainty"
+    ],
+    "practice": "Run a sensitivity study on two inputs",
+    "need_tags": [
+     "risk-modelling",
+     "structural-analysis"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_etabs_engineering_sim_8",
+    "slug": "etabs-engineering-sim-8",
+    "title": "Signature skills in ETABS",
+    "outcome": "You can: use the features that make ETABS distinctive",
+    "topics": [
+     "grids and stories",
+     "frame and shell objects",
+     "load patterns",
+     "analysis"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "structural-analysis"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_etabs_engineering_sim_9",
+    "slug": "etabs-engineering-sim-9",
+    "title": "Advanced ETABS",
+    "outcome": "You can: use ETABS's advanced capabilities with confidence",
+    "topics": [
+     "response spectrum and seismic design",
+     "design to codes",
+     "API"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "structural-analysis"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_etabs_engineering_sim_5",
+    "slug": "etabs-engineering-sim-5",
+    "title": "Verify, document and automate",
+    "outcome": "You can: deliver defensible analysis",
+    "topics": [
+     "verification",
+     "calibration to data",
+     "reports",
+     "scripting/batch runs"
+    ],
+    "practice": "Produce a verified analysis report",
+    "need_tags": [
+     "technical-reporting",
+     "structural-analysis"
+    ],
+    "estimated_hours": {
+     "value": 6.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_etabs_engineering_sim_10",
+    "slug": "etabs-engineering-sim-10",
+    "title": "Integrate ETABS into your workflow",
+    "outcome": "You can: connect ETABS with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect ETABS to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "structural-analysis"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_etabs_engineering_sim_11",
+    "slug": "etabs-engineering-sim-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use ETABS well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use ETABS\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "structural-analysis"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "engineering-sim",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

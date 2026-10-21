@@ -1,0 +1,162 @@
+{
+  "schema_version": "2.0",
+  "is_illustrative": false,
+  "redirect_from": [],
+  "disclosure": {
+    "commercial_relationship": "none"
+  },
+  "id": "tool_google_scholar",
+  "slug": "google-scholar",
+  "name": "Google Scholar",
+  "official_name": "Google Scholar",
+  "official_url": "https://scholar.google.com/",
+  "developer_or_publisher": "Google",
+  "summary": "A search engine for scholarly literature: articles, theses, books and court opinions.",
+  "description": "Google Scholar is a search engine for scholarly literature. It searches articles, theses, books, abstracts and court opinions from publishers, professional societies, repositories, universities and other websites. Useful features include 'Cited by' and 'Related articles' for following a topic, date filters for recent work, an author: operator and email alerts. Abstracts are usually available, but reading the full text of some articles may require a subscription or library access.",
+  "category_ids": [
+    "research"
+  ],
+  "task_ids": [
+    "task_find_scholarly_sources"
+  ],
+  "audience_ids": [
+    "student",
+    "researcher",
+    "educator"
+  ],
+  "skill_level": "beginner",
+  "pricing": {
+    "model": "unknown",
+    "verification_status": "unverified",
+    "source_ids": [],
+    "checked_at": "2026-10-21",
+    "free_tier_details": "The official About and Help pages do not state a price. They note that abstracts are freely available for most articles and that full text may require a subscription. Reviewer: confirm the cost basis from an official source before changing this label."
+  },
+  "platforms": {
+    "values": [
+      "web"
+    ],
+    "verification_status": "partially_verified",
+    "source_ids": [
+      "src_scholar_about"
+    ]
+  },
+  "deployment": [
+    "hosted"
+  ],
+  "ai_involvement": "unknown",
+  "availability_status": "active",
+  "account_required": "unknown",
+  "open_source": {
+    "is_open_source": false
+  },
+  "key_capabilities": [
+    {
+      "text": "Broad search across scholarly articles, theses, books, abstracts and court opinions.",
+      "kind": "fact",
+      "source_ids": [
+        "src_scholar_about"
+      ]
+    },
+    {
+      "text": "'Cited by', 'Related articles', date filters, an author: operator and email alerts help you follow a topic.",
+      "kind": "fact",
+      "source_ids": [
+        "src_scholar_help"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Reading the whole article may require a subscription; library links can help.",
+      "kind": "fact",
+      "source_ids": [
+        "src_scholar_help"
+      ]
+    },
+    {
+      "text": "A single query shows at most 1,000 results.",
+      "kind": "fact",
+      "source_ids": [
+        "src_scholar_help"
+      ]
+    },
+    {
+      "text": "Inclusion in Scholar does not guarantee quality; check where and how each source was published.",
+      "kind": "editorial",
+      "source_ids": []
+    }
+  ],
+  "best_for": [
+    "Finding academic sources for essays, projects and literature reviews",
+    "Following who has cited an important paper"
+  ],
+  "not_ideal_for": [
+    "Judging the quality of a source on its own"
+  ],
+  "learning_curve": "gentle",
+  "getting_started": [
+    "Search for your topic using two or three key terms.",
+    "Use 'Since Year' to focus on recent work, then open 'Cited by' on the most relevant paper.",
+    "Save useful results to a reference manager such as Zotero."
+  ],
+  "resource_ids": [
+    "res_google_scholar_help"
+  ],
+  "alternative_tool_ids": [],
+  "comparison_ids": [],
+  "playbook_ids": [
+    "pb_research_topic_cited_summary"
+  ],
+  "search_aliases": [
+    "scholar",
+    "academic search",
+    "journal articles",
+    "papers",
+    "literature search",
+    "research papers"
+  ],
+  "sources": [
+    {
+      "id": "src_scholar_about",
+      "type": "official_site",
+      "url": "https://scholar.google.com/intl/en/scholar/about.html",
+      "title": "About Google Scholar",
+      "publisher": "Google",
+      "checked_at": "2026-10-21",
+      "supports": [
+        "identity",
+        "capabilities",
+        "platforms"
+      ],
+      "quote": "Google Scholar provides a simple way to broadly search for scholarly literature."
+    },
+    {
+      "id": "src_scholar_help",
+      "type": "official_docs",
+      "url": "https://scholar.google.com/intl/en/scholar/help.html",
+      "title": "Google Scholar Search Help",
+      "publisher": "Google",
+      "checked_at": "2026-10-21",
+      "supports": [
+        "capabilities"
+      ]
+    }
+  ],
+  "editorial": {
+    "status": "published",
+    "author": "V2 research pass (AI-assisted, Claude)",
+    "reviewer": "Product owner — blanket MVP approval (D-044)",
+    "created_at": "2026-10-21",
+    "updated_at": "2026-10-21",
+    "published_at": "2026-10-21",
+    "last_verified_at": "2026-10-21",
+    "review_interval_days": 90,
+    "next_review_at": "2027-01-19",
+    "confidence": "medium",
+    "solo_approval": true,
+    "change_summary": "Researched from official sources 2026-10-21; published under owner's blanket MVP approval (D-044). Domain-expert review pending.",
+    "public_corrections": [],
+    "internal_notes": ""
+  }
+}

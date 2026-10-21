@@ -1,0 +1,238 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_semantic_scholar",
+ "slug": "semantic-scholar",
+ "title": "Semantic Scholar skill roadmap",
+ "tool_ids": [
+  "tool_semantic_scholar"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_semantic_scholar_research_database_0",
+    "slug": "semantic-scholar-research-database-0",
+    "title": "Get started with Semantic Scholar",
+    "outcome": "You can: set up Semantic Scholar, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "literature-review"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_semantic_scholar_research_database_1",
+    "slug": "semantic-scholar-research-database-1",
+    "title": "Search well",
+    "outcome": "You can: build effective searches",
+    "topics": [
+     "keywords and synonyms",
+     "quotes",
+     "filters",
+     "field search"
+    ],
+    "practice": "Run a search and refine it twice",
+    "need_tags": [
+     "find-information",
+     "literature-review"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_semantic_scholar_research_database_2",
+    "slug": "semantic-scholar-research-database-2",
+    "title": "Judge what you find",
+    "outcome": "You can: assess relevance and quality",
+    "topics": [
+     "abstracts",
+     "publication type",
+     "date",
+     "source credibility"
+    ],
+    "practice": "Screen 20 results and keep the best 5",
+    "need_tags": [
+     "literature-review",
+     "fact-check"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_semantic_scholar_research_database_3",
+    "slug": "semantic-scholar-research-database-3",
+    "title": "Advanced searching",
+    "outcome": "You can: search systematically",
+    "topics": [
+     "Boolean logic",
+     "subject headings",
+     "citation chasing"
+    ],
+    "practice": "Build a reproducible search string",
+    "need_tags": [
+     "literature-review"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_semantic_scholar_research_database_4",
+    "slug": "semantic-scholar-research-database-4",
+    "title": "Save, export and cite",
+    "outcome": "You can: move results into your reference manager",
+    "topics": [
+     "exports",
+     "alerts",
+     "citation formats"
+    ],
+    "practice": "Export results to Zotero and set an alert",
+    "need_tags": [
+     "academic-writing",
+     "literature-review"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_semantic_scholar_research_database_8",
+    "slug": "semantic-scholar-research-database-8",
+    "title": "Signature skills in Semantic Scholar",
+    "outcome": "You can: use the features that make Semantic Scholar distinctive",
+    "topics": [
+     "paper search",
+     "TLDR summaries",
+     "citations",
+     "research feeds"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "literature-review"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_semantic_scholar_research_database_9",
+    "slug": "semantic-scholar-research-database-9",
+    "title": "Advanced Semantic Scholar",
+    "outcome": "You can: use Semantic Scholar's advanced capabilities with confidence",
+    "topics": [
+     "library and alerts",
+     "API",
+     "influential citations"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "literature-review"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_semantic_scholar_research_database_5",
+    "slug": "semantic-scholar-research-database-5",
+    "title": "Systematic and team reviews",
+    "outcome": "You can: support a formal review",
+    "topics": [
+     "protocols",
+     "deduplication",
+     "screening workflows",
+     "reporting"
+    ],
+    "practice": "Draft a search protocol",
+    "need_tags": [
+     "literature-review",
+     "research-surveys"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_semantic_scholar_research_database_10",
+    "slug": "semantic-scholar-research-database-10",
+    "title": "Integrate Semantic Scholar into your workflow",
+    "outcome": "You can: connect Semantic Scholar with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Semantic Scholar to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "literature-review"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_semantic_scholar_research_database_11",
+    "slug": "semantic-scholar-research-database-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Semantic Scholar well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Semantic Scholar\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "literature-review"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "research-database",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

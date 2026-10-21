@@ -1,0 +1,23 @@
+# V2.5 (ADR-008): React Router prerendering emits inline scripts. Every inline script must be covered by a build-time SHA-256 hash (scripts/csp-hashes.ts), added to script-src here or in a per-page <meta http-equiv="Content-Security-Policy">. 'unsafe-inline' is not allowed. Check the host's current limit on rules in this file before choosing.
+# Cloudflare Pages headers file — copy to /public/_headers. Adjust CSP only via PR with security review.
+/*
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=(), interest-cohort=()
+  Cross-Origin-Opener-Policy: same-origin
+  X-Frame-Options: DENY
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'sha256-REPLACE_WITH_THEME_SCRIPT_HASH' https://challenges.cloudflare.com https://static.cloudflareinsights.com; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://cloudflareinsights.com; frame-src https://challenges.cloudflare.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; object-src 'none'; upgrade-insecure-requests
+
+/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+/api/v1/search-index.json
+  Cache-Control: public, max-age=300, stale-while-revalidate=86400
+/api/v1/records/*
+  Cache-Control: public, max-age=300, stale-while-revalidate=86400
+
+# Preview deployments must never be indexed
+https://:project.pages.dev/*
+  X-Robots-Tag: noindex, nofollow

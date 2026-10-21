@@ -1,0 +1,132 @@
+{
+ "schema_version": "2.1",
+ "id": "lens_canva__worship_presentation",
+ "roadmap_id": "rm_canva",
+ "roadmap": "canva",
+ "need_id": "need_worship_presentation",
+ "need": "worship-presentation",
+ "title": "Canva for church and ministry media",
+ "kind": "flagship",
+ "for_identities": [
+  "pastor",
+  "church-media-team-member",
+  "church-administrator",
+  "youth-pastor",
+  "worship-leader",
+  "imam",
+  "mosque-administrator",
+  "religious-teacher"
+ ],
+ "why": "Sermon series graphics, event flyers and service slides shape how people experience your community, online and in the room.",
+ "what_is_different": "Ministry media runs on weekly deadlines with volunteer teams. It needs series branding, scripture slides that are readable from the back row, and quick social versions of every announcement.",
+ "priority_modules": [
+  "cv-start",
+  "cv-brand",
+  "cv-readable",
+  "cv-docs",
+  "cv-video",
+  "cv-bulk"
+ ],
+ "extra_modules": [
+  {
+   "level": "beginner",
+   "title": "Readable scripture and lyric slides",
+   "outcome": "You can: design slides people can read from the back",
+   "topics": [
+    "large type",
+    "contrast",
+    "line lengths",
+    "safe areas for projectors and livestream"
+   ],
+   "practice": "Design scripture slides for a sermon"
+  },
+  {
+   "level": "intermediate",
+   "title": "Sermon series packs",
+   "outcome": "You can: create a full graphics pack for a series",
+   "topics": [
+    "title slide",
+    "social posts",
+    "stories",
+    "livestream thumbnail",
+    "bulletin graphic"
+   ],
+   "practice": "Create a 4-week series pack"
+  }
+ ],
+ "starter_project": "Create a sermon-series pack: title graphic, slides template, three social posts, a livestream thumbnail and an event flyer — shared as team templates for volunteers.",
+ "pitfalls": [
+  "Text too small for projectors",
+  "Using images or fonts without the right to use them",
+  "New design every week with no series consistency"
+ ],
+ "pairs_with": [
+  "tool_propresenter",
+  "tool_obs_studio",
+  "tool_planning_center",
+  "tool_youversion"
+ ],
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false,
+ "composed_path": {
+  "beginner": [
+   {
+    "extra": "Readable scripture and lyric slides",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "module": "cv-start",
+    "relevance": "core",
+    "rank": 0
+   },
+   {
+    "module": "cv-readable",
+    "relevance": "core",
+    "rank": 2
+   },
+   {
+    "module": "cv-photos",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ],
+  "intermediate": [
+   {
+    "extra": "Sermon series packs",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "module": "cv-brand",
+    "relevance": "core",
+    "rank": 1
+   },
+   {
+    "module": "cv-docs",
+    "relevance": "core",
+    "rank": 3
+   },
+   {
+    "module": "cv-video",
+    "relevance": "core",
+    "rank": 4
+   }
+  ],
+  "expert": [
+   {
+    "module": "cv-bulk",
+    "relevance": "core",
+    "rank": 5
+   },
+   {
+    "module": "cv-limits",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ]
+ }
+}

@@ -1,0 +1,240 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_adobe_after_effects",
+ "slug": "adobe-after-effects",
+ "title": "Adobe After Effects skill roadmap",
+ "tool_ids": [
+  "tool_adobe_after_effects"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_adobe_after_effects_video_pro_0",
+    "slug": "adobe-after-effects-video-pro-0",
+    "title": "Get started with Adobe After Effects",
+    "outcome": "You can: set up Adobe After Effects, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "motion-graphics"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_adobe_after_effects_video_pro_1",
+    "slug": "adobe-after-effects-video-pro-1",
+    "title": "Edit a first sequence",
+    "outcome": "You can: assemble and trim a video",
+    "topics": [
+     "importing",
+     "timeline",
+     "trimming",
+     "audio levels"
+    ],
+    "practice": "Edit a 1-minute piece",
+    "need_tags": [
+     "video-editing-pro",
+     "short-video",
+     "motion-graphics"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_adobe_after_effects_video_pro_2",
+    "slug": "adobe-after-effects-video-pro-2",
+    "title": "Titles and captions",
+    "outcome": "You can: add text people can read",
+    "topics": [
+     "titles",
+     "lower thirds",
+     "captions"
+    ],
+    "practice": "Add captions and a title to your piece",
+    "need_tags": [
+     "video-editing-pro",
+     "accessible-materials",
+     "motion-graphics"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_adobe_after_effects_video_pro_3",
+    "slug": "adobe-after-effects-video-pro-3",
+    "title": "Colour and sound",
+    "outcome": "You can: make it look and sound professional",
+    "topics": [
+     "colour correction",
+     "audio cleanup",
+     "music"
+    ],
+    "practice": "Correct colour and balance audio",
+    "need_tags": [
+     "video-editing-pro",
+     "motion-graphics"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_adobe_after_effects_video_pro_4",
+    "slug": "adobe-after-effects-video-pro-4",
+    "title": "Motion and effects",
+    "outcome": "You can: add motion with purpose",
+    "topics": [
+     "keyframes",
+     "transitions",
+     "templates"
+    ],
+    "practice": "Create an animated intro",
+    "need_tags": [
+     "motion-graphics"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_adobe_after_effects_video_pro_8",
+    "slug": "adobe-after-effects-video-pro-8",
+    "title": "Signature skills in Adobe After Effects",
+    "outcome": "You can: use the features that make Adobe After Effects distinctive",
+    "topics": [
+     "compositions",
+     "layers",
+     "keyframes",
+     "text animation"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "motion-graphics"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_adobe_after_effects_video_pro_9",
+    "slug": "adobe-after-effects-video-pro-9",
+    "title": "Advanced Adobe After Effects",
+    "outcome": "You can: use Adobe After Effects's advanced capabilities with confidence",
+    "topics": [
+     "expressions",
+     "masks and tracking",
+     "effects",
+     "Essential Graphics templates"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "motion-graphics"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_adobe_after_effects_video_pro_5",
+    "slug": "adobe-after-effects-video-pro-5",
+    "title": "Deliver to spec",
+    "outcome": "You can: deliver for broadcast, web and social",
+    "topics": [
+     "codecs",
+     "aspect ratios",
+     "loudness",
+     "archiving"
+    ],
+    "practice": "Deliver three platform versions",
+    "need_tags": [
+     "video-editing-pro",
+     "motion-graphics"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_adobe_after_effects_video_pro_10",
+    "slug": "adobe-after-effects-video-pro-10",
+    "title": "Integrate Adobe After Effects into your workflow",
+    "outcome": "You can: connect Adobe After Effects with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Adobe After Effects to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "motion-graphics"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_adobe_after_effects_video_pro_11",
+    "slug": "adobe-after-effects-video-pro-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Adobe After Effects well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Adobe After Effects\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "motion-graphics"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "video-pro",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

@@ -1,0 +1,20 @@
+name: Suggest a tool
+description: A tool people really use that we're missing
+labels: ["suggestion", "type:suggest_tool", "status:new"]
+body:
+  - type: input
+    id: tool
+    attributes: { label: "Tool name" }
+    validations: { required: true }
+  - type: input
+    id: url
+    attributes: { label: "Official website (https://…)" }
+    validations: { required: true }
+  - type: textarea
+    id: who
+    attributes: { label: "Who uses it, and for what?", placeholder: "e.g. Musicians use it to release songs to streaming platforms" }
+    validations: { required: true }
+  - type: dropdown
+    id: coi
+    attributes: { label: "Do you work for or with this tool's company?", options: ["No", "Yes"] }
+    validations: { required: true }

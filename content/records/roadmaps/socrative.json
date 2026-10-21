@@ -1,0 +1,239 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_socrative",
+ "slug": "socrative",
+ "title": "Socrative skill roadmap",
+ "tool_ids": [
+  "tool_socrative"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_socrative_teaching_platform_0",
+    "slug": "socrative-teaching-platform-0",
+    "title": "Get started with Socrative",
+    "outcome": "You can: set up Socrative, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "quizzes-assessment"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_socrative_teaching_platform_1",
+    "slug": "socrative-teaching-platform-1",
+    "title": "Set up a class",
+    "outcome": "You can: create a class and invite learners",
+    "topics": [
+     "classes",
+     "rosters",
+     "privacy",
+     "guardians"
+    ],
+    "practice": "Create a class with a welcome post",
+    "need_tags": [
+     "virtual-classroom",
+     "interactive-teaching",
+     "quizzes-assessment"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_socrative_teaching_platform_2",
+    "slug": "socrative-teaching-platform-2",
+    "title": "Post content and activities",
+    "outcome": "You can: share lessons and activities",
+    "topics": [
+     "materials",
+     "activities",
+     "due dates"
+    ],
+    "practice": "Post one week of lessons",
+    "need_tags": [
+     "lesson-planning",
+     "quizzes-assessment"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_socrative_teaching_platform_3",
+    "slug": "socrative-teaching-platform-3",
+    "title": "Assess and give feedback",
+    "outcome": "You can: check understanding efficiently",
+    "topics": [
+     "quizzes",
+     "rubrics",
+     "feedback",
+     "grading"
+    ],
+    "practice": "Run a quiz and give feedback",
+    "need_tags": [
+     "quizzes-assessment",
+     "grading-feedback"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_socrative_teaching_platform_4",
+    "slug": "socrative-teaching-platform-4",
+    "title": "Engage everyone",
+    "outcome": "You can: keep all learners participating",
+    "topics": [
+     "interactive features",
+     "differentiation",
+     "accessibility"
+    ],
+    "practice": "Run one interactive lesson",
+    "need_tags": [
+     "interactive-teaching",
+     "accessible-materials",
+     "quizzes-assessment"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_socrative_teaching_platform_8",
+    "slug": "socrative-teaching-platform-8",
+    "title": "Signature skills in Socrative",
+    "outcome": "You can: use the features that make Socrative distinctive",
+    "topics": [
+     "quizzes",
+     "space race",
+     "exit tickets",
+     "reports"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "quizzes-assessment"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_socrative_teaching_platform_9",
+    "slug": "socrative-teaching-platform-9",
+    "title": "Advanced Socrative",
+    "outcome": "You can: use Socrative's advanced capabilities with confidence",
+    "topics": [
+     "question banks",
+     "rooms"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "quizzes-assessment"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_socrative_teaching_platform_5",
+    "slug": "socrative-teaching-platform-5",
+    "title": "Data and integrity",
+    "outcome": "You can: use results to improve teaching",
+    "topics": [
+     "analytics",
+     "academic integrity",
+     "reporting to parents"
+    ],
+    "practice": "Review results and plan a re-teach",
+    "need_tags": [
+     "grading-feedback",
+     "quizzes-assessment"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_socrative_teaching_platform_10",
+    "slug": "socrative-teaching-platform-10",
+    "title": "Integrate Socrative into your workflow",
+    "outcome": "You can: connect Socrative with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Socrative to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "quizzes-assessment"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_socrative_teaching_platform_11",
+    "slug": "socrative-teaching-platform-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Socrative well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Socrative\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "quizzes-assessment"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "teaching-platform",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

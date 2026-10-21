@@ -1,0 +1,191 @@
+{
+  "schema_version": "2.0",
+  "is_illustrative": false,
+  "redirect_from": [],
+  "disclosure": {
+    "commercial_relationship": "none"
+  },
+  "id": "tool_n8n",
+  "slug": "n8n",
+  "name": "n8n",
+  "official_name": "n8n",
+  "official_url": "https://n8n.io/",
+  "developer_or_publisher": "n8n",
+  "summary": "A workflow automation platform you can self-host for free or use as a paid cloud service.",
+  "description": "n8n is a workflow automation platform for connecting apps and APIs and building automations, including AI agents. It has more than 500 native integrations and can connect to any API over HTTP. You can use the managed n8n Cloud (paid, with a free trial) or host it yourself; the self-hosted Community edition is free to use indefinitely. Its source code is public under the 'fair-code' Sustainable Use License, which is not the same as a standard open-source licence.",
+  "category_ids": [
+    "automation",
+    "development"
+  ],
+  "task_ids": [
+    "task_automate_repetitive_task"
+  ],
+  "audience_ids": [
+    "developer",
+    "business-owner",
+    "professional"
+  ],
+  "skill_level": "advanced",
+  "pricing": {
+    "model": "mixed",
+    "verification_status": "verified",
+    "source_ids": [
+      "src_n8n_choose",
+      "src_n8n_home"
+    ],
+    "checked_at": "2026-10-21",
+    "free_tier_details": "Self-hosted Community edition is free and can be used indefinitely; a free Registered Community edition adds a few features after registering an email.",
+    "trial_details": "n8n Cloud has a 14-day free trial.",
+    "paid_plan_summary": "n8n Cloud (Starter, Pro, Enterprise) and self-hosted Business and Enterprise editions are paid.",
+    "costs_beyond_price": "Self-hosting needs a server or computer to run on, which may cost money and requires technical upkeep.",
+    "price_points": []
+  },
+  "platforms": {
+    "values": [
+      "web"
+    ],
+    "verification_status": "partially_verified",
+    "source_ids": [
+      "src_n8n_home"
+    ]
+  },
+  "deployment": [
+    "hosted",
+    "self_hosted"
+  ],
+  "ai_involvement": "optional_ai",
+  "availability_status": "active",
+  "account_required": "unknown",
+  "open_source": {
+    "is_open_source": false,
+    "licence": "Sustainable Use License (fair-code)",
+    "repository_url": "https://github.com/n8n-io/n8n",
+    "source_ids": [
+      "src_n8n_repo"
+    ]
+  },
+  "key_capabilities": [
+    {
+      "text": "Workflow automation that combines AI capabilities with business process automation.",
+      "kind": "fact",
+      "source_ids": [
+        "src_n8n_home"
+      ]
+    },
+    {
+      "text": "500+ native integrations, plus connection to any API over HTTP.",
+      "kind": "fact",
+      "source_ids": [
+        "src_n8n_home"
+      ]
+    },
+    {
+      "text": "Can be deployed on-premises or with Docker to keep data in your own environment.",
+      "kind": "fact",
+      "source_ids": [
+        "src_n8n_home"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Source-available under the Sustainable Use License rather than a standard open-source licence; read the licence before commercial or hosted reuse.",
+      "kind": "fact",
+      "source_ids": [
+        "src_n8n_repo"
+      ]
+    },
+    {
+      "text": "Self-hosting requires technical skills: installation, updates, backups and security are your responsibility.",
+      "kind": "editorial",
+      "source_ids": []
+    }
+  ],
+  "best_for": [
+    "Technical users who want powerful automations without per-task fees",
+    "Teams that need data to stay on their own servers"
+  ],
+  "not_ideal_for": [
+    "Beginners who don't want to manage a server (consider the cloud trial or a hosted tool)"
+  ],
+  "learning_curve": "steep",
+  "getting_started": [
+    "Decide between the cloud trial and self-hosting.",
+    "Follow 'Build your first workflow' in the official documentation.",
+    "Test with sample data before connecting important accounts."
+  ],
+  "resource_ids": [
+    "res_n8n_docs"
+  ],
+  "alternative_tool_ids": [
+    "tool_zapier"
+  ],
+  "comparison_ids": [],
+  "playbook_ids": [],
+  "search_aliases": [
+    "n8n.io",
+    "nodemation",
+    "self hosted automation",
+    "zapier alternative",
+    "workflow automation",
+    "ai agents"
+  ],
+  "sources": [
+    {
+      "id": "src_n8n_home",
+      "type": "official_site",
+      "url": "https://n8n.io/",
+      "title": "n8n home page",
+      "publisher": "n8n",
+      "checked_at": "2026-10-21",
+      "supports": [
+        "identity",
+        "capabilities",
+        "platforms"
+      ],
+      "quote": "n8n is a workflow automation platform that uniquely combines AI capabilities with business process automation"
+    },
+    {
+      "id": "src_n8n_choose",
+      "type": "official_docs",
+      "url": "https://docs.n8n.io/choose-how-to-use-n8n.md",
+      "title": "Choose how to use n8n",
+      "publisher": "n8n",
+      "checked_at": "2026-10-21",
+      "supports": [
+        "pricing",
+        "free_tier",
+        "trial"
+      ],
+      "quote": "can stick with the free Community edition indefinitely"
+    },
+    {
+      "id": "src_n8n_repo",
+      "type": "official_repository",
+      "url": "https://github.com/n8n-io/n8n",
+      "title": "n8n source repository",
+      "publisher": "n8n (GitHub)",
+      "checked_at": "2026-10-21",
+      "supports": [
+        "licence"
+      ],
+      "quote": "fair-code distributed under the Sustainable Use License and n8n Enterprise License"
+    }
+  ],
+  "editorial": {
+    "status": "published",
+    "author": "V2 research pass (AI-assisted, Claude)",
+    "reviewer": "Product owner — blanket MVP approval (D-044)",
+    "created_at": "2026-10-21",
+    "updated_at": "2026-10-21",
+    "published_at": "2026-10-21",
+    "last_verified_at": "2026-10-21",
+    "review_interval_days": 90,
+    "next_review_at": "2027-01-19",
+    "confidence": "high",
+    "solo_approval": true,
+    "change_summary": "Researched from official sources 2026-10-21; published under owner's blanket MVP approval (D-044). Domain-expert review pending.",
+    "public_corrections": [],
+    "internal_notes": ""
+  }
+}

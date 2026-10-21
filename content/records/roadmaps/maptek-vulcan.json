@@ -1,0 +1,238 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_maptek_vulcan",
+ "slug": "maptek-vulcan",
+ "title": "Maptek Vulcan skill roadmap",
+ "tool_ids": [
+  "tool_maptek_vulcan"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_maptek_vulcan_subsurface_0",
+    "slug": "maptek-vulcan-subsurface-0",
+    "title": "Get started with Maptek Vulcan",
+    "outcome": "You can: set up Maptek Vulcan, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "mine-planning"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_maptek_vulcan_subsurface_1",
+    "slug": "maptek-vulcan-subsurface-1",
+    "title": "Projects and data",
+    "outcome": "You can: load and QC subsurface data",
+    "topics": [
+     "coordinate systems",
+     "units",
+     "well/log/seismic/survey data",
+     "QC"
+    ],
+    "practice": "Load and QC a sample dataset",
+    "need_tags": [
+     "mine-planning"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_maptek_vulcan_subsurface_2",
+    "slug": "maptek-vulcan-subsurface-2",
+    "title": "Core interpretation",
+    "outcome": "You can: complete the core workflow in Maptek Vulcan",
+    "topics": [
+     "correlation/picks",
+     "surfaces",
+     "trajectories or blocks"
+    ],
+    "practice": "Complete a basic interpretation",
+    "need_tags": [
+     "mine-planning"
+    ],
+    "estimated_hours": {
+     "value": 4.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_maptek_vulcan_subsurface_3",
+    "slug": "maptek-vulcan-subsurface-3",
+    "title": "Build the model",
+    "outcome": "You can: build a model fit for decisions",
+    "topics": [
+     "grids/blocks",
+     "properties",
+     "constraints"
+    ],
+    "practice": "Build a simple model from your interpretation",
+    "need_tags": [
+     "reservoir-modelling",
+     "mine-planning",
+     "well-planning-design"
+    ],
+    "estimated_hours": {
+     "value": 5.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_maptek_vulcan_subsurface_4",
+    "slug": "maptek-vulcan-subsurface-4",
+    "title": "Uncertainty and scenarios",
+    "outcome": "You can: quantify what you don't know",
+    "topics": [
+     "ranges",
+     "realisations",
+     "P10/P50/P90"
+    ],
+    "practice": "Run three scenarios and compare",
+    "need_tags": [
+     "risk-modelling",
+     "mine-planning"
+    ],
+    "estimated_hours": {
+     "value": 4.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_maptek_vulcan_subsurface_8",
+    "slug": "maptek-vulcan-subsurface-8",
+    "title": "Signature skills in Maptek Vulcan",
+    "outcome": "You can: use the features that make Maptek Vulcan distinctive",
+    "topics": [
+     "data import",
+     "triangulation",
+     "block models",
+     "pit design"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "mine-planning"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_maptek_vulcan_subsurface_9",
+    "slug": "maptek-vulcan-subsurface-9",
+    "title": "Advanced Maptek Vulcan",
+    "outcome": "You can: use Maptek Vulcan's advanced capabilities with confidence",
+    "topics": [
+     "scheduling",
+     "grade control",
+     "automation"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "mine-planning"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_maptek_vulcan_subsurface_5",
+    "slug": "maptek-vulcan-subsurface-5",
+    "title": "Integrate and report",
+    "outcome": "You can: hand over results to engineering and management",
+    "topics": [
+     "exports",
+     "reporting",
+     "peer review",
+     "regulatory submissions"
+    ],
+    "practice": "Prepare a peer-review pack",
+    "need_tags": [
+     "regulatory-reporting",
+     "technical-reporting",
+     "mine-planning"
+    ],
+    "estimated_hours": {
+     "value": 4.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_maptek_vulcan_subsurface_10",
+    "slug": "maptek-vulcan-subsurface-10",
+    "title": "Integrate Maptek Vulcan into your workflow",
+    "outcome": "You can: connect Maptek Vulcan with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Maptek Vulcan to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "mine-planning"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_maptek_vulcan_subsurface_11",
+    "slug": "maptek-vulcan-subsurface-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Maptek Vulcan well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Maptek Vulcan\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "mine-planning"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "subsurface",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

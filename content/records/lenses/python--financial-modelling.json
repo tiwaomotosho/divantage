@@ -1,0 +1,124 @@
+{
+ "schema_version": "2.1",
+ "id": "lens_python__financial_modelling",
+ "roadmap_id": "rm_python",
+ "roadmap": "python",
+ "need_id": "need_financial_modelling",
+ "need": "financial-modelling",
+ "title": "Python for finance",
+ "kind": "flagship",
+ "for_identities": [
+  "financial-analyst",
+  "quantitative-analyst",
+  "risk-manager",
+  "financial-data-analyst",
+  "actuary",
+  "credit-risk-modeller",
+  "portfolio-manager"
+ ],
+ "why": "Python scales finance work beyond spreadsheets: large datasets, simulations, backtests and automation.",
+ "what_is_different": "Finance Python focuses on time series, returns, Monte Carlo simulation and reproducible reporting, with strict data lineage and model governance.",
+ "priority_modules": [
+  "py-first",
+  "py-pandas",
+  "py-numeric",
+  "py-plots",
+  "py-ml",
+  "py-files"
+ ],
+ "extra_modules": [
+  {
+   "level": "intermediate",
+   "title": "Time series and returns",
+   "outcome": "You can: work with prices and returns",
+   "topics": [
+    "resampling",
+    "returns",
+    "rolling metrics",
+    "drawdowns"
+   ],
+   "practice": "Compute rolling volatility and drawdown for a price series"
+  },
+  {
+   "level": "expert",
+   "title": "Monte Carlo simulation",
+   "outcome": "You can: model uncertainty",
+   "topics": [
+    "random sampling",
+    "distributions",
+    "scenario aggregation",
+    "VaR concepts"
+   ],
+   "practice": "Simulate project NPV under uncertain inputs"
+  }
+ ],
+ "starter_project": "Rebuild a spreadsheet model's key calculation in Python, add a Monte Carlo risk analysis, and reconcile results back to the spreadsheet.",
+ "pitfalls": [
+  "Look-ahead bias",
+  "Unreconciled results versus the official model",
+  "Overfitting backtests"
+ ],
+ "pairs_with": [
+  "tool_microsoft_excel",
+  "tool_jupyter",
+  "tool_power_bi"
+ ],
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false,
+ "composed_path": {
+  "beginner": [
+   {
+    "module": "py-first",
+    "relevance": "core",
+    "rank": 0
+   },
+   {
+    "module": "py-files",
+    "relevance": "core",
+    "rank": 5
+   }
+  ],
+  "intermediate": [
+   {
+    "extra": "Time series and returns",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "module": "py-pandas",
+    "relevance": "core",
+    "rank": 1
+   },
+   {
+    "module": "py-numeric",
+    "relevance": "core",
+    "rank": 2
+   },
+   {
+    "module": "py-plots",
+    "relevance": "core",
+    "rank": 3
+   }
+  ],
+  "expert": [
+   {
+    "extra": "Monte Carlo simulation",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "module": "py-ml",
+    "relevance": "core",
+    "rank": 4
+   },
+   {
+    "module": "py-ship",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ]
+ }
+}

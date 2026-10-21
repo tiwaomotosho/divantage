@@ -1,0 +1,114 @@
+{
+  "schema_version": "2.0",
+  "is_illustrative": false,
+  "redirect_from": [],
+  "disclosure": {
+    "commercial_relationship": "none"
+  },
+  "id": "task_automate_repetitive_task",
+  "slug": "automate-a-repetitive-task-between-apps",
+  "title": "How do I automate a repetitive task between two apps?",
+  "short_title": "Automate repetitive work",
+  "family_id": "automate",
+  "problem_statement": "You keep copying information from one app to another by hand (form responses into a spreadsheet, attachments into a folder) and want it to happen automatically.",
+  "expected_outcome": "A working automation that runs on its own and that you have tested with real data.",
+  "difficulty": "beginner",
+  "steps": [
+    {
+      "n": 1,
+      "title": "Describe the task as a rule",
+      "instructions": "Write it as 'When X happens in app A, do Y in app B'. Note how often it happens each month.",
+      "expected_result": "A one-line rule and an estimate of monthly volume."
+    },
+    {
+      "n": 2,
+      "title": "Pick an automation tool",
+      "instructions": "For a simple two-app rule with low volume, a hosted tool with a free tier such as Zapier is the quickest start. If you are technical and want to self-host, n8n's Community edition is free to run on your own server.",
+      "tool_ids": [
+        "tool_zapier",
+        "tool_n8n"
+      ],
+      "expected_result": "A tool chosen with its limits understood."
+    },
+    {
+      "n": 3,
+      "title": "Connect both apps",
+      "instructions": "Sign in to app A and app B from the automation tool and grant only the permissions it needs.",
+      "expected_result": "Both apps connected."
+    },
+    {
+      "n": 4,
+      "title": "Build and test",
+      "instructions": "Set the trigger and the action, map the fields, then run a test with a real example.",
+      "expected_result": "The test item appears correctly in app B."
+    },
+    {
+      "n": 5,
+      "title": "Turn it on and monitor",
+      "instructions": "Switch the automation on and check it daily for the first week.",
+      "expected_result": "The automation runs reliably without your help.",
+      "warning": "Watch usage against plan limits so it doesn't stop unexpectedly."
+    }
+  ],
+  "recommended_tool_ids": [
+    "tool_zapier",
+    "tool_n8n"
+  ],
+  "quality_checks": [
+    "A real event triggers the automation within the expected time.",
+    "Data lands in the right fields in app B.",
+    "You know what happens if the plan limit is reached."
+  ],
+  "category_ids": [
+    "automation"
+  ],
+  "sources": [],
+  "editorial": {
+    "status": "published",
+    "author": "V2 research pass (AI-assisted, Claude)",
+    "reviewer": "Product owner — blanket MVP approval (D-044)",
+    "created_at": "2026-10-21",
+    "updated_at": "2026-10-21",
+    "published_at": "2026-10-21",
+    "last_verified_at": "2026-10-21",
+    "review_interval_days": 365,
+    "next_review_at": "2027-10-21",
+    "confidence": "medium",
+    "solo_approval": true,
+    "change_summary": "Researched from official sources 2026-10-21; published under owner's blanket MVP approval (D-044). Domain-expert review pending.",
+    "public_corrections": [],
+    "internal_notes": ""
+  },
+  "estimated_time": {
+    "label": "About 30–60 minutes",
+    "minutes_min": 30,
+    "minutes_max": 60,
+    "is_estimate": true
+  },
+  "budget_note": "Zapier's free plan covers 100 tasks per month with two-step Zaps; n8n self-hosted Community edition is free but needs a server.",
+  "common_mistakes": [
+    "Automating a process that isn't stable yet",
+    "Giving the tool more account access than needed",
+    "Not checking the monthly task limit"
+  ],
+  "privacy_or_safety_notes": [
+    "Automations copy data between services; avoid moving sensitive personal data unless you have checked both services' privacy terms."
+  ],
+  "resource_ids": [
+    "res_n8n_docs"
+  ],
+  "audience_ids": [
+    "business-owner",
+    "professional",
+    "freelancer"
+  ],
+  "search_aliases": [
+    "automate repetitive work",
+    "automation",
+    "save time",
+    "connect apps",
+    "workflow",
+    "no-code automation",
+    "automate tasks"
+  ]
+}

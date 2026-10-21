@@ -1,0 +1,67 @@
+{
+  "schema_version": "2.0",
+  "is_illustrative": false,
+  "redirect_from": [],
+  "disclosure": {
+    "commercial_relationship": "none"
+  },
+  "id": "res_learn_wordpress",
+  "slug": "learn-wordpress",
+  "title": "Learn WordPress",
+  "publisher": "WordPress.org",
+  "canonical_url": "https://learn.wordpress.org/",
+  "resource_type": "course",
+  "summary": "The official WordPress learning site with learning pathways for users, developers and designers, courses, lessons with videos and exercises, and online workshops.",
+  "learning_outcome": "Build and manage a WordPress site with step-by-step courses.",
+  "language": "en",
+  "cost_status": "free",
+  "registration_required": "unknown",
+  "prerequisites": [],
+  "limitations": [
+    "Online workshops depend on schedule; none were listed at the time of checking."
+  ],
+  "publisher_updated_at": null,
+  "embed_policy": "link_only",
+  "link_check": {
+    "last_checked_at": "2026-10-21",
+    "last_status": "ok",
+    "consecutive_failures": 0
+  },
+  "related_tool_ids": [
+    "tool_wordpress"
+  ],
+  "related_task_ids": [
+    "task_build_website"
+  ],
+  "sources": [
+    {
+      "id": "src_res_learn_wp",
+      "type": "official_site",
+      "url": "https://learn.wordpress.org/",
+      "title": "Learn WordPress",
+      "publisher": "WordPress.org",
+      "checked_at": "2026-10-21",
+      "supports": [
+        "capabilities"
+      ],
+      "quote": "free educational resources for all levels"
+    }
+  ],
+  "editorial": {
+    "status": "published",
+    "author": "V2 research pass (AI-assisted, Claude)",
+    "reviewer": "Product owner — blanket MVP approval (D-044)",
+    "created_at": "2026-10-21",
+    "updated_at": "2026-10-21",
+    "published_at": "2026-10-21",
+    "last_verified_at": "2026-10-21",
+    "review_interval_days": 180,
+    "next_review_at": "2027-04-19",
+    "confidence": "medium",
+    "solo_approval": true,
+    "change_summary": "Researched from official sources 2026-10-21; published under owner's blanket MVP approval (D-044). Domain-expert review pending.",
+    "public_corrections": [],
+    "internal_notes": ""
+  },
+  "skill_level": "beginner"
+}

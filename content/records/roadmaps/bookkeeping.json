@@ -1,0 +1,133 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_bookkeeping",
+ "slug": "bookkeeping",
+ "title": "Bookkeeping software (QuickBooks, Xero, Zoho Books, Wave)",
+ "tool_ids": [
+  "tool_quickbooks",
+  "tool_xero",
+  "tool_zoho_books",
+  "tool_wave"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_bk_setup",
+    "slug": "bk-setup",
+    "title": "Set up your books",
+    "outcome": "You can: start bookkeeping correctly",
+    "topics": [
+     "chart of accounts",
+     "customers and suppliers",
+     "opening balances"
+    ],
+    "practice": "Set up a company file",
+    "need_tags": [
+     "bookkeeping"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_bk_invoice",
+    "slug": "bk-invoice",
+    "title": "Invoices and bills",
+    "outcome": "You can: bill customers and record bills",
+    "topics": [
+     "invoices",
+     "payments",
+     "bills",
+     "receipts capture"
+    ],
+    "practice": "Send an invoice and record payment",
+    "need_tags": [
+     "invoicing",
+     "bookkeeping"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_bk_reconcile",
+    "slug": "bk-reconcile",
+    "title": "Bank reconciliation",
+    "outcome": "You can: keep the books matching the bank",
+    "topics": [
+     "bank feeds/imports",
+     "matching",
+     "rules"
+    ],
+    "practice": "Reconcile one month",
+    "need_tags": [
+     "bookkeeping",
+     "audit-analytics"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_bk_reports",
+    "slug": "bk-reports",
+    "title": "Financial reports",
+    "outcome": "You can: read the numbers that matter",
+    "topics": [
+     "profit and loss",
+     "balance sheet",
+     "cash flow",
+     "aged receivables"
+    ],
+    "practice": "Review a month-end P&L",
+    "need_tags": [
+     "bookkeeping",
+     "kpi-tracking",
+     "budgeting-fpa"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_bk_tax",
+    "slug": "bk-tax",
+    "title": "Tax, payroll and close",
+    "outcome": "You can: close the year accurately",
+    "topics": [
+     "tax settings",
+     "payroll integration",
+     "locking periods",
+     "accountant access"
+    ],
+    "practice": "Run a year-end checklist",
+    "need_tags": [
+     "tax-compliance",
+     "payroll"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false
+}

@@ -1,0 +1,236 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_prusaslicer",
+ "slug": "prusaslicer",
+ "title": "PrusaSlicer skill roadmap",
+ "tool_ids": [
+  "tool_prusaslicer"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_prusaslicer_industrial_automation_0",
+    "slug": "prusaslicer-industrial-automation-0",
+    "title": "Get started with PrusaSlicer",
+    "outcome": "You can: set up PrusaSlicer, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "3d-printing"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_prusaslicer_industrial_automation_1",
+    "slug": "prusaslicer-industrial-automation-1",
+    "title": "Project and hardware setup",
+    "outcome": "You can: set up a project for the right hardware",
+    "topics": [
+     "devices/machines",
+     "configuration",
+     "safety basics"
+    ],
+    "practice": "Set up a sample project",
+    "need_tags": [
+     "plc-automation",
+     "cnc-cam",
+     "3d-printing"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_prusaslicer_industrial_automation_2",
+    "slug": "prusaslicer-industrial-automation-2",
+    "title": "First program or toolpath",
+    "outcome": "You can: create a simple program or toolpath",
+    "topics": [
+     "ladder/function blocks or toolpaths/slicing",
+     "parameters"
+    ],
+    "practice": "Create and simulate a simple program or print",
+    "need_tags": [
+     "plc-automation",
+     "cnc-cam",
+     "3d-printing"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_prusaslicer_industrial_automation_3",
+    "slug": "prusaslicer-industrial-automation-3",
+    "title": "Simulate and test",
+    "outcome": "You can: test before running on real equipment",
+    "topics": [
+     "simulation",
+     "debugging",
+     "collision/quality checks"
+    ],
+    "practice": "Simulate and fix two faults",
+    "need_tags": [
+     "3d-printing"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_prusaslicer_industrial_automation_4",
+    "slug": "prusaslicer-industrial-automation-4",
+    "title": "HMIs, fixtures and quality",
+    "outcome": "You can: make it usable and repeatable",
+    "topics": [
+     "HMI screens or fixtures",
+     "tolerances",
+     "settings libraries"
+    ],
+    "practice": "Build a reusable settings library",
+    "need_tags": [
+     "3d-printing"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_prusaslicer_industrial_automation_8",
+    "slug": "prusaslicer-industrial-automation-8",
+    "title": "Signature skills in PrusaSlicer",
+    "outcome": "You can: use the features that make PrusaSlicer distinctive",
+    "topics": [
+     "print settings",
+     "supports",
+     "variable layer height",
+     "G-code export"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "3d-printing"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_prusaslicer_industrial_automation_9",
+    "slug": "prusaslicer-industrial-automation-9",
+    "title": "Advanced PrusaSlicer",
+    "outcome": "You can: use PrusaSlicer's advanced capabilities with confidence",
+    "topics": [
+     "modifiers",
+     "multi-material",
+     "custom G-code"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "3d-printing"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_prusaslicer_industrial_automation_5",
+    "slug": "prusaslicer-industrial-automation-5",
+    "title": "Optimise and standardise",
+    "outcome": "You can: improve cycle time and reliability",
+    "topics": [
+     "optimisation",
+     "standards",
+     "documentation",
+     "change control"
+    ],
+    "practice": "Improve one program and document the change",
+    "need_tags": [
+     "process-mapping",
+     "3d-printing"
+    ],
+    "estimated_hours": {
+     "value": 4.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_prusaslicer_industrial_automation_10",
+    "slug": "prusaslicer-industrial-automation-10",
+    "title": "Integrate PrusaSlicer into your workflow",
+    "outcome": "You can: connect PrusaSlicer with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect PrusaSlicer to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "3d-printing"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_prusaslicer_industrial_automation_11",
+    "slug": "prusaslicer-industrial-automation-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use PrusaSlicer well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use PrusaSlicer\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "3d-printing"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "industrial-automation",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

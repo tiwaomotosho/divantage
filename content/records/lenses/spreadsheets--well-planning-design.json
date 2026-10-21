@@ -1,0 +1,218 @@
+{
+ "schema_version": "2.1",
+ "id": "lens_spreadsheets__well_planning_design",
+ "roadmap_id": "rm_spreadsheets",
+ "roadmap": "spreadsheets",
+ "need_id": "need_well_planning_design",
+ "need": "well-planning-design",
+ "title": "Excel for drilling and well engineers",
+ "kind": "flagship",
+ "for_identities": [
+  "drilling-engineer",
+  "well-planner",
+  "petroleum-engineer",
+  "completions-engineer",
+  "wells-superintendent",
+  "drilling-supervisor",
+  "well-integrity-engineer"
+ ],
+ "why": "Specialist well-engineering software does the heavy lifting, but drilling teams still rely on spreadsheets for quick checks, cost and time estimates, and reporting between systems.",
+ "what_is_different": "Well-engineering spreadsheets deal with depth-based data (MD/TVD), survey calculations, pressure gradients and time–depth curves. Outputs feed AFEs, well programmes and regulatory reports, so traceability matters.",
+ "priority_modules": [
+  "xl-formulas-1",
+  "xl-logic",
+  "xl-dates-text",
+  "xl-what-if",
+  "xl-power-query",
+  "xl-model-design",
+  "xl-automation"
+ ],
+ "extra_modules": [
+  {
+   "level": "beginner",
+   "title": "Depth and pressure basics",
+   "outcome": "You can: calculate hydrostatic pressure, gradients and equivalent mud weight",
+   "topics": [
+    "MD vs TVD",
+    "pressure gradient",
+    "unit systems (ppg, psi/ft, SG, kPa/m)",
+    "unit-safe formulas"
+   ],
+   "practice": "Build a mud-weight to pressure-gradient converter"
+  },
+  {
+   "level": "intermediate",
+   "title": "Survey calculations",
+   "outcome": "You can: calculate a trajectory from survey stations",
+   "topics": [
+    "minimum curvature method",
+    "dogleg severity",
+    "TVD/northing/easting",
+    "plotting a section view"
+   ],
+   "practice": "Calculate TVD and DLS from a sample survey file"
+  },
+  {
+   "level": "intermediate",
+   "title": "Time–depth curves and well time estimates",
+   "outcome": "You can: plan and track well duration",
+   "topics": [
+    "activity breakdown",
+    "planned vs actual curve",
+    "NPT categories",
+    "offset well benchmarking"
+   ],
+   "practice": "Build a planned vs actual days-vs-depth chart"
+  },
+  {
+   "level": "expert",
+   "title": "Well cost estimates and AFEs",
+   "outcome": "You can: build a defensible well cost estimate",
+   "topics": [
+    "time-based vs fixed costs",
+    "spread rates",
+    "contingency",
+    "P10/P50/P90 ranges"
+   ],
+   "practice": "Build an AFE estimate with a probabilistic range"
+  },
+  {
+   "level": "expert",
+   "title": "Casing and tubular checks (screening)",
+   "outcome": "You can: run quick screening checks before detailed software design",
+   "topics": [
+    "burst/collapse/tension design factors",
+    "load cases simplified",
+    "when to escalate to specialist software"
+   ],
+   "practice": "Screen a casing string against simple load cases and document the limits"
+  }
+ ],
+ "starter_project": "Build a well planning workbook for an offset-based well: trajectory from surveys, pressure/mud-weight window table, time–depth curve and AFE estimate, with checks against your specialist software outputs.",
+ "pitfalls": [
+  "Mixing MD and TVD",
+  "Unit-system mix-ups (field vs metric)",
+  "Using a screening spreadsheet as the final casing design",
+  "Overwriting offset data without version control",
+  "Ignoring NPT categorisation consistency"
+ ],
+ "pairs_with": [
+  "tool_landmark_decisionspace",
+  "tool_wellview",
+  "tool_power_bi",
+  "tool_python"
+ ],
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false,
+ "composed_path": {
+  "beginner": [
+   {
+    "extra": "Depth and pressure basics",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "module": "xl-formulas-1",
+    "relevance": "core",
+    "rank": 0
+   },
+   {
+    "module": "xl-basics",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "xl-tables-sort",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "xl-charts-1",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ],
+  "intermediate": [
+   {
+    "extra": "Time–depth curves and well time estimates",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "extra": "Survey calculations",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "module": "xl-logic",
+    "relevance": "core",
+    "rank": 1
+   },
+   {
+    "module": "xl-dates-text",
+    "relevance": "core",
+    "rank": 2
+   },
+   {
+    "module": "xl-pivots",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "xl-cleaning",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "xl-conditional",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "xl-protect-share",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ],
+  "expert": [
+   {
+    "extra": "Casing and tubular checks (screening)",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "extra": "Well cost estimates and AFEs",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "module": "xl-what-if",
+    "relevance": "core",
+    "rank": 3
+   },
+   {
+    "module": "xl-power-query",
+    "relevance": "core",
+    "rank": 4
+   },
+   {
+    "module": "xl-model-design",
+    "relevance": "core",
+    "rank": 5
+   },
+   {
+    "module": "xl-automation",
+    "relevance": "core",
+    "rank": 6
+   },
+   {
+    "module": "xl-dynamic-arrays",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ]
+ }
+}

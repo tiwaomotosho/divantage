@@ -1,0 +1,235 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_nice_guidance",
+ "slug": "nice-guidance",
+ "title": "NICE guidance skill roadmap",
+ "tool_ids": [
+  "tool_nice_guidance"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_nice_guidance_clinical_reference_0",
+    "slug": "nice-guidance-clinical-reference-0",
+    "title": "Get started with NICE guidance",
+    "outcome": "You can: set up NICE guidance, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "clinical-reference"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_nice_guidance_clinical_reference_1",
+    "slug": "nice-guidance-clinical-reference-1",
+    "title": "Find answers fast",
+    "outcome": "You can: search NICE guidance efficiently at the point of care",
+    "topics": [
+     "search terms",
+     "topic structure",
+     "key recommendations"
+    ],
+    "practice": "Answer three clinical questions from your practice",
+    "need_tags": [
+     "clinical-reference"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_nice_guidance_clinical_reference_2",
+    "slug": "nice-guidance-clinical-reference-2",
+    "title": "Read with judgement",
+    "outcome": "You can: understand strength of evidence",
+    "topics": [
+     "evidence grades",
+     "dates",
+     "local vs international guidance"
+    ],
+    "practice": "Compare NICE guidance's advice with a local guideline",
+    "need_tags": [
+     "evidence-based-medicine",
+     "clinical-reference"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_nice_guidance_clinical_reference_3",
+    "slug": "nice-guidance-clinical-reference-3",
+    "title": "Drugs and calculations",
+    "outcome": "You can: check doses and interactions safely",
+    "topics": [
+     "dosing",
+     "renal/hepatic adjustment",
+     "interactions",
+     "calculators"
+    ],
+    "practice": "Check three prescriptions for interactions",
+    "need_tags": [
+     "drug-information",
+     "medical-calculators",
+     "clinical-reference"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_nice_guidance_clinical_reference_4",
+    "slug": "nice-guidance-clinical-reference-4",
+    "title": "Use on mobile",
+    "outcome": "You can: use NICE guidance quickly on a phone",
+    "topics": [
+     "app features",
+     "offline access",
+     "bookmarks"
+    ],
+    "practice": "Set up bookmarks for your top 10 topics",
+    "need_tags": [
+     "clinical-reference"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_nice_guidance_clinical_reference_8",
+    "slug": "nice-guidance-clinical-reference-8",
+    "title": "Signature skills in NICE guidance",
+    "outcome": "You can: use the features that make NICE guidance distinctive",
+    "topics": [
+     "guidance search",
+     "recommendations",
+     "pathways",
+     "quality standards"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "clinical-reference"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_nice_guidance_clinical_reference_9",
+    "slug": "nice-guidance-clinical-reference-9",
+    "title": "Advanced NICE guidance",
+    "outcome": "You can: use NICE guidance's advanced capabilities with confidence",
+    "topics": [
+     "evidence reviews",
+     "implementation tools"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "clinical-reference"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_nice_guidance_clinical_reference_5",
+    "slug": "nice-guidance-clinical-reference-5",
+    "title": "Teach and audit with it",
+    "outcome": "You can: use NICE guidance for teaching and CPD",
+    "topics": [
+     "CPD logging",
+     "teaching cases",
+     "audit standards"
+    ],
+    "practice": "Turn one topic into a teaching session",
+    "need_tags": [
+     "cpd-learning",
+     "clinical-reference"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_nice_guidance_clinical_reference_10",
+    "slug": "nice-guidance-clinical-reference-10",
+    "title": "Integrate NICE guidance into your workflow",
+    "outcome": "You can: connect NICE guidance with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect NICE guidance to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "clinical-reference"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_nice_guidance_clinical_reference_11",
+    "slug": "nice-guidance-clinical-reference-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use NICE guidance well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use NICE guidance\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "clinical-reference"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "clinical-reference",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

@@ -1,0 +1,268 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_anki",
+ "slug": "anki",
+ "title": "Anki skill roadmap",
+ "tool_ids": [
+  "tool_anki"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_anki_learning_platform_0",
+    "slug": "anki-learning-platform-0",
+    "title": "Get started with Anki",
+    "outcome": "You can: set up Anki, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "language-learning",
+     "cpd-learning",
+     "memorise-knowledge",
+     "study-skills"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_anki_learning_platform_1",
+    "slug": "anki-learning-platform-1",
+    "title": "Choose the right course",
+    "outcome": "You can: pick learning that fits your goal",
+    "topics": [
+     "goals",
+     "levels",
+     "free vs paid",
+     "time needed"
+    ],
+    "practice": "Choose one course with a clear outcome",
+    "need_tags": [
+     "learn-online",
+     "language-learning",
+     "cpd-learning",
+     "memorise-knowledge",
+     "study-skills"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_anki_learning_platform_2",
+    "slug": "anki-learning-platform-2",
+    "title": "Build a study routine",
+    "outcome": "You can: study consistently",
+    "topics": [
+     "schedules",
+     "reminders",
+     "notes",
+     "offline options"
+    ],
+    "practice": "Plan four weeks of study",
+    "need_tags": [
+     "study-skills",
+     "learn-online",
+     "language-learning",
+     "cpd-learning",
+     "memorise-knowledge"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_anki_learning_platform_3",
+    "slug": "anki-learning-platform-3",
+    "title": "Learn actively",
+    "outcome": "You can: remember and apply what you learn",
+    "topics": [
+     "practice",
+     "spaced repetition",
+     "projects"
+    ],
+    "practice": "Turn one module into flashcards and a small project",
+    "need_tags": [
+     "study-skills",
+     "memorise-knowledge",
+     "language-learning",
+     "cpd-learning"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_anki_learning_platform_4",
+    "slug": "anki-learning-platform-4",
+    "title": "Prove your skills",
+    "outcome": "You can: turn learning into evidence",
+    "topics": [
+     "certificates",
+     "portfolios",
+     "LinkedIn"
+    ],
+    "practice": "Add a completed project to your portfolio",
+    "need_tags": [
+     "cv-portfolio",
+     "language-learning",
+     "cpd-learning",
+     "memorise-knowledge",
+     "study-skills"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_anki_learning_platform_8",
+    "slug": "anki-learning-platform-8",
+    "title": "Signature skills in Anki",
+    "outcome": "You can: use the features that make Anki distinctive",
+    "topics": [
+     "decks and notes",
+     "spaced repetition",
+     "card types",
+     "syncing"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "language-learning",
+     "cpd-learning",
+     "memorise-knowledge",
+     "study-skills"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_anki_learning_platform_9",
+    "slug": "anki-learning-platform-9",
+    "title": "Advanced Anki",
+    "outcome": "You can: use Anki's advanced capabilities with confidence",
+    "topics": [
+     "add-ons",
+     "cloze deletions",
+     "card templates",
+     "image occlusion"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "language-learning",
+     "cpd-learning",
+     "memorise-knowledge",
+     "study-skills"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_anki_learning_platform_5",
+    "slug": "anki-learning-platform-5",
+    "title": "Teach and learn with others",
+    "outcome": "You can: learn with and through other people",
+    "topics": [
+     "study groups",
+     "teaching",
+     "mentoring"
+    ],
+    "practice": "Run a study session for two friends",
+    "need_tags": [
+     "workshop-facilitation",
+     "language-learning",
+     "cpd-learning",
+     "memorise-knowledge",
+     "study-skills"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_anki_learning_platform_10",
+    "slug": "anki-learning-platform-10",
+    "title": "Integrate Anki into your workflow",
+    "outcome": "You can: connect Anki with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Anki to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "language-learning",
+     "cpd-learning",
+     "memorise-knowledge",
+     "study-skills"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_anki_learning_platform_11",
+    "slug": "anki-learning-platform-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Anki well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Anki\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "language-learning",
+     "cpd-learning",
+     "memorise-knowledge",
+     "study-skills"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "learning-platform",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

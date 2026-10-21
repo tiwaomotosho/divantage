@@ -1,0 +1,108 @@
+{
+ "schema_version": "2.1",
+ "id": "lens_canva__agri_market_access",
+ "roadmap_id": "rm_canva",
+ "roadmap": "canva",
+ "need_id": "need_agri_market_access",
+ "need": "agri-market-access",
+ "title": "Canva for farmers and agribusinesses",
+ "kind": "flagship",
+ "for_identities": [
+  "farmer",
+  "agribusiness-owner",
+  "poultry-farmer",
+  "fish-farmer",
+  "produce-aggregator",
+  "cooperative-member"
+ ],
+ "why": "Buyers trust farms that look organised. Simple price lists, produce posters and harvest updates help you sell directly at better prices.",
+ "what_is_different": "Farm marketing is seasonal and local: harvest announcements, price lists by weight, delivery days and pickup locations, shared on WhatsApp and Facebook.",
+ "priority_modules": [
+  "cv-start",
+  "cv-photos",
+  "cv-readable",
+  "cv-video"
+ ],
+ "extra_modules": [
+  {
+   "level": "beginner",
+   "title": "Harvest and price list posts",
+   "outcome": "You can: announce produce, prices and delivery days",
+   "topics": [
+    "price per unit/weight",
+    "pickup and delivery info",
+    "photos of fresh produce"
+   ],
+   "practice": "Create a harvest announcement with prices"
+  }
+ ],
+ "starter_project": "Create a season's marketing set: farm logo, price list template, harvest announcement and a short farm video for WhatsApp.",
+ "pitfalls": [
+  "Outdated prices circulating",
+  "Poor-quality photos",
+  "Missing contact details"
+ ],
+ "pairs_with": [
+  "tool_whatsapp_business",
+  "tool_capcut",
+  "tool_facebook_marketplace"
+ ],
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false,
+ "composed_path": {
+  "beginner": [
+   {
+    "extra": "Harvest and price list posts",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "module": "cv-start",
+    "relevance": "core",
+    "rank": 0
+   },
+   {
+    "module": "cv-photos",
+    "relevance": "core",
+    "rank": 1
+   },
+   {
+    "module": "cv-readable",
+    "relevance": "core",
+    "rank": 2
+   }
+  ],
+  "intermediate": [
+   {
+    "module": "cv-video",
+    "relevance": "core",
+    "rank": 3
+   },
+   {
+    "module": "cv-brand",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "cv-docs",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ],
+  "expert": [
+   {
+    "module": "cv-bulk",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "cv-limits",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ]
+ }
+}

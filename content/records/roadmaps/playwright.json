@@ -1,0 +1,112 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_playwright",
+ "slug": "playwright",
+ "title": "Playwright (and modern test automation)",
+ "tool_ids": [
+  "tool_playwright",
+  "tool_cypress",
+  "tool_selenium"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_pw_first",
+    "slug": "pw-first",
+    "title": "Your first automated test",
+    "outcome": "You can: automate a browser check",
+    "topics": [
+     "install",
+     "locators",
+     "actions",
+     "assertions"
+    ],
+    "practice": "Test a login page",
+    "need_tags": [
+     "test-automation"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_pw_structure",
+    "slug": "pw-structure",
+    "title": "Structure a test suite",
+    "outcome": "You can: write maintainable tests",
+    "topics": [
+     "page objects",
+     "fixtures",
+     "test data",
+     "tags"
+    ],
+    "practice": "Refactor 5 tests into page objects",
+    "need_tags": [
+     "test-automation",
+     "test-management"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_pw_ci",
+    "slug": "pw-ci",
+    "title": "Run tests in CI",
+    "outcome": "You can: run tests on every change",
+    "topics": [
+     "headless runs",
+     "parallelism",
+     "reports",
+     "traces"
+    ],
+    "practice": "Run your suite in GitHub Actions",
+    "need_tags": [
+     "test-automation",
+     "devops-cicd"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_pw_advanced",
+    "slug": "pw-advanced",
+    "title": "API, visual and accessibility testing",
+    "outcome": "You can: broaden coverage beyond clicks",
+    "topics": [
+     "API testing",
+     "visual comparisons",
+     "axe accessibility checks",
+     "flaky test strategy"
+    ],
+    "practice": "Add API and accessibility checks to a suite",
+    "need_tags": [
+     "test-automation",
+     "api-testing",
+     "accessibility-tools"
+    ],
+    "estimated_hours": {
+     "value": 4.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false
+}

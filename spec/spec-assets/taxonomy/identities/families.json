@@ -1,0 +1,1161 @@
+{
+ "version": "2.1.0",
+ "values": [
+  {
+   "id": "fam_medical_doctors",
+   "slug": "medical-doctors",
+   "label": "Medical doctors",
+   "sector": "health",
+   "isco08_submajor": "22",
+   "needs": [
+    "drug-information",
+    "medical-calculators",
+    "memorise-knowledge",
+    "clinical-audit-qi",
+    "health-research-data"
+   ]
+  },
+  {
+   "id": "fam_dentistry",
+   "slug": "dentistry",
+   "label": "Dentistry",
+   "sector": "health",
+   "isco08_submajor": "22",
+   "needs": [
+    "dental-practice",
+    "medical-imaging-viewing",
+    "clinic-scheduling"
+   ]
+  },
+  {
+   "id": "fam_nursing_midwifery",
+   "slug": "nursing-midwifery",
+   "label": "Nursing & midwifery",
+   "sector": "health",
+   "isco08_submajor": "22",
+   "needs": [
+    "shift-rota",
+    "drug-information",
+    "medical-calculators",
+    "memorise-knowledge"
+   ]
+  },
+  {
+   "id": "fam_pharmacy",
+   "slug": "pharmacy",
+   "label": "Pharmacy",
+   "sector": "health",
+   "isco08_submajor": "22",
+   "needs": [
+    "drug-information",
+    "pharmacy-stock",
+    "medical-calculators"
+   ]
+  },
+  {
+   "id": "fam_allied_health",
+   "slug": "allied-health",
+   "label": "Allied health professions",
+   "sector": "health",
+   "isco08_submajor": "22",
+   "needs": [
+    "exercise-prescription",
+    "clinic-scheduling",
+    "patient-education"
+   ]
+  },
+  {
+   "id": "fam_diagnostics",
+   "slug": "diagnostics",
+   "label": "Diagnostic & laboratory health",
+   "sector": "health",
+   "isco08_submajor": "32",
+   "needs": [
+    "quality-hse",
+    "clinical-reference"
+   ]
+  },
+  {
+   "id": "fam_mental_health",
+   "slug": "mental-health",
+   "label": "Mental health & psychology",
+   "sector": "health",
+   "isco08_submajor": "22",
+   "needs": [
+    "therapy-practice-admin",
+    "telemedicine",
+    "mindfulness-wellbeing"
+   ]
+  },
+  {
+   "id": "fam_public_health",
+   "slug": "public-health",
+   "label": "Public health & epidemiology",
+   "sector": "health",
+   "isco08_submajor": "22",
+   "needs": [
+    "public-health-data",
+    "health-research-data",
+    "monitoring-evaluation",
+    "gis-mapping"
+   ]
+  },
+  {
+   "id": "fam_health_admin",
+   "slug": "health-admin",
+   "label": "Health management & administration",
+   "sector": "health",
+   "isco08_submajor": "13",
+   "needs": [
+    "kpi-tracking",
+    "dashboards-bi",
+    "shift-rota",
+    "records-management"
+   ]
+  },
+  {
+   "id": "fam_traditional_complementary",
+   "slug": "traditional-complementary",
+   "label": "Traditional & complementary medicine",
+   "sector": "health",
+   "isco08_submajor": "32",
+   "needs": [
+    "clinic-scheduling",
+    "patient-education"
+   ]
+  },
+  {
+   "id": "fam_veterinary",
+   "slug": "veterinary",
+   "label": "Veterinary",
+   "sector": "health",
+   "isco08_submajor": "22",
+   "needs": [
+    "veterinary-practice",
+    "drug-information",
+    "medical-imaging-viewing"
+   ]
+  },
+  {
+   "id": "fam_civil_structural",
+   "slug": "civil-structural",
+   "label": "Civil & structural engineering",
+   "sector": "engineering",
+   "isco08_submajor": "21",
+   "needs": [
+    "structural-analysis",
+    "bim-modelling",
+    "cost-estimation",
+    "drawing-markup",
+    "site-management"
+   ]
+  },
+  {
+   "id": "fam_mechanical",
+   "slug": "mechanical",
+   "label": "Mechanical engineering",
+   "sector": "engineering",
+   "isco08_submajor": "21",
+   "needs": [
+    "mechanical-design",
+    "fea-simulation",
+    "maintenance-cmms",
+    "3d-printing"
+   ]
+  },
+  {
+   "id": "fam_electrical_electronic",
+   "slug": "electrical-electronic",
+   "label": "Electrical & electronic engineering",
+   "sector": "engineering",
+   "isco08_submajor": "21",
+   "needs": [
+    "electrical-design",
+    "plc-automation",
+    "quality-hse"
+   ]
+  },
+  {
+   "id": "fam_chemical_process",
+   "slug": "chemical-process",
+   "label": "Chemical & process engineering",
+   "sector": "engineering",
+   "isco08_submajor": "21",
+   "needs": [
+    "process-simulation",
+    "quality-hse",
+    "quality-statistics"
+   ]
+  },
+  {
+   "id": "fam_industrial_systems",
+   "slug": "industrial-systems",
+   "label": "Industrial, systems & quality engineering",
+   "sector": "engineering",
+   "isco08_submajor": "21",
+   "needs": [
+    "lean-six-sigma",
+    "quality-statistics",
+    "process-mapping",
+    "production-planning"
+   ]
+  },
+  {
+   "id": "fam_engineering_technicians",
+   "slug": "engineering-technicians",
+   "label": "Engineering technicians & drafters",
+   "sector": "engineering",
+   "isco08_submajor": "31",
+   "needs": [
+    "quality-hse",
+    "maintenance-cmms"
+   ]
+  },
+  {
+   "id": "fam_surveying_geomatics",
+   "slug": "surveying-geomatics",
+   "label": "Surveying & geomatics",
+   "sector": "engineering",
+   "isco08_submajor": "21",
+   "needs": [
+    "surveying-photogrammetry",
+    "gis-mapping",
+    "cad-drafting"
+   ]
+  },
+  {
+   "id": "fam_architecture_planning",
+   "slug": "architecture-planning",
+   "label": "Architecture & planning",
+   "sector": "engineering",
+   "isco08_submajor": "21",
+   "needs": [
+    "bim-modelling",
+    "architectural-visualisation",
+    "cad-drafting",
+    "drawing-markup"
+   ]
+  },
+  {
+   "id": "fam_petroleum",
+   "slug": "petroleum",
+   "label": "Petroleum engineering",
+   "sector": "energy",
+   "isco08_submajor": "21",
+   "needs": [
+    "well-planning-design",
+    "drilling-reporting",
+    "well-performance",
+    "reservoir-modelling"
+   ]
+  },
+  {
+   "id": "fam_geoscience",
+   "slug": "geoscience",
+   "label": "Geoscience",
+   "sector": "energy",
+   "isco08_submajor": "21",
+   "needs": [
+    "reservoir-modelling",
+    "gis-mapping",
+    "petrophysics"
+   ]
+  },
+  {
+   "id": "fam_mining",
+   "slug": "mining",
+   "label": "Mining & minerals",
+   "sector": "energy",
+   "isco08_submajor": "21",
+   "needs": [
+    "mine-planning",
+    "gis-mapping",
+    "maintenance-cmms"
+   ]
+  },
+  {
+   "id": "fam_energy_power",
+   "slug": "energy-power",
+   "label": "Power & renewables",
+   "sector": "energy",
+   "isco08_submajor": "21",
+   "needs": [
+    "energy-systems-modelling",
+    "electrical-design",
+    "maintenance-cmms"
+   ]
+  },
+  {
+   "id": "fam_energy_ops",
+   "slug": "energy-ops",
+   "label": "Field operations",
+   "sector": "energy",
+   "isco08_submajor": "31",
+   "needs": [
+    "maintenance-cmms",
+    "incident-reporting"
+   ]
+  },
+  {
+   "id": "fam_software_engineering",
+   "slug": "software-engineering",
+   "label": "Software engineering",
+   "sector": "technology",
+   "isco08_submajor": "25",
+   "needs": [
+    "devops-cicd",
+    "test-automation",
+    "databases",
+    "api-testing",
+    "cloud-infrastructure"
+   ]
+  },
+  {
+   "id": "fam_devops_cloud",
+   "slug": "devops-cloud",
+   "label": "DevOps, cloud & infrastructure",
+   "sector": "technology",
+   "isco08_submajor": "25",
+   "needs": [
+    "devops-cicd",
+    "containers-orchestration",
+    "cloud-infrastructure",
+    "observability"
+   ]
+  },
+  {
+   "id": "fam_quality_testing",
+   "slug": "quality-testing",
+   "label": "Software quality & testing",
+   "sector": "technology",
+   "isco08_submajor": "25",
+   "needs": [
+    "test-automation",
+    "test-management",
+    "api-testing",
+    "performance-testing"
+   ]
+  },
+  {
+   "id": "fam_product_design_tech",
+   "slug": "product-design-tech",
+   "label": "Product management & design",
+   "sector": "technology",
+   "isco08_submajor": "24",
+   "needs": [
+    "product-discovery",
+    "product-analytics",
+    "roadmapping",
+    "user-research"
+   ]
+  },
+  {
+   "id": "fam_security",
+   "slug": "security",
+   "label": "Cybersecurity",
+   "sector": "technology",
+   "isco08_submajor": "25",
+   "needs": [
+    "security-testing",
+    "security-operations",
+    "networking",
+    "online-safety"
+   ]
+  },
+  {
+   "id": "fam_it_support",
+   "slug": "it-support",
+   "label": "IT support & networks",
+   "sector": "technology",
+   "isco08_submajor": "35",
+   "needs": [
+    "it-helpdesk",
+    "networking",
+    "online-safety"
+   ]
+  },
+  {
+   "id": "fam_tech_other",
+   "slug": "tech-other",
+   "label": "Other technology roles",
+   "sector": "technology",
+   "isco08_submajor": "25",
+   "needs": [
+    "technical-writing",
+    "diagramming"
+   ]
+  },
+  {
+   "id": "fam_data_roles",
+   "slug": "data-roles",
+   "label": "Data & analytics",
+   "sector": "data",
+   "isco08_submajor": "25",
+   "needs": [
+    "statistical-analysis"
+   ]
+  },
+  {
+   "id": "fam_accounting",
+   "slug": "accounting",
+   "label": "Accounting & audit",
+   "sector": "finance",
+   "isco08_submajor": "24",
+   "needs": [
+    "bookkeeping",
+    "tax-compliance",
+    "audit-analytics",
+    "payroll"
+   ]
+  },
+  {
+   "id": "fam_finance_investment",
+   "slug": "finance-investment",
+   "label": "Corporate finance & investment",
+   "sector": "finance",
+   "isco08_submajor": "24",
+   "needs": [
+    "market-research-finance",
+    "budgeting-fpa",
+    "risk-modelling",
+    "consulting-deliverables"
+   ]
+  },
+  {
+   "id": "fam_banking_insurance",
+   "slug": "banking-insurance",
+   "label": "Banking, insurance & advisory",
+   "sector": "finance",
+   "isco08_submajor": "33",
+   "needs": [
+    "crm-sales",
+    "risk-modelling"
+   ]
+  },
+  {
+   "id": "fam_legal_professionals",
+   "slug": "legal-professionals",
+   "label": "Legal professionals",
+   "sector": "law",
+   "isco08_submajor": "26",
+   "needs": [
+    "legal-practice-management",
+    "ediscovery"
+   ]
+  },
+  {
+   "id": "fam_legal_support",
+   "slug": "legal-support",
+   "label": "Legal support",
+   "sector": "law",
+   "isco08_submajor": "34",
+   "needs": [
+    "legal-practice-management",
+    "records-management",
+    "scan-documents"
+   ]
+  },
+  {
+   "id": "fam_teachers",
+   "slug": "teachers",
+   "label": "Teaching",
+   "sector": "education",
+   "isco08_submajor": "23",
+   "needs": [
+    "virtual-classroom",
+    "grading-feedback"
+   ]
+  },
+  {
+   "id": "fam_higher_ed_research",
+   "slug": "higher-ed-research",
+   "label": "Higher education & research",
+   "sector": "education",
+   "isco08_submajor": "23",
+   "needs": [
+    "literature-review",
+    "academic-writing",
+    "research-surveys",
+    "statistical-analysis"
+   ]
+  },
+  {
+   "id": "fam_visual_design",
+   "slug": "visual-design",
+   "label": "Design",
+   "sector": "creative",
+   "isco08_submajor": "21",
+   "needs": [
+    "graphic-design-pro",
+    "brand-identity",
+    "photo-editing"
+   ]
+  },
+  {
+   "id": "fam_film_video_photo",
+   "slug": "film-video-photo",
+   "label": "Film, video & photography",
+   "sector": "creative",
+   "isco08_submajor": "26",
+   "needs": [
+    "video-editing-pro",
+    "short-video",
+    "photography-workflow"
+   ]
+  },
+  {
+   "id": "fam_creators",
+   "slug": "creators",
+   "label": "Content creators & influencers",
+   "sector": "creative",
+   "isco08_submajor": "26",
+   "needs": [
+    "short-video",
+    "social-media-management",
+    "live-streaming",
+    "podcast-production"
+   ]
+  },
+  {
+   "id": "fam_writing_journalism",
+   "slug": "writing-journalism",
+   "label": "Writing, publishing & journalism",
+   "sector": "creative",
+   "isco08_submajor": "26",
+   "needs": [
+    "write-clearly",
+    "find-information",
+    "media-verification"
+   ]
+  },
+  {
+   "id": "fam_music_performing",
+   "slug": "music-performing",
+   "label": "Music",
+   "sector": "creative",
+   "isco08_submajor": "26",
+   "needs": [
+    "audio-production",
+    "music-notation",
+    "release-music",
+    "artist-profiles"
+   ]
+  },
+  {
+   "id": "fam_performing_arts",
+   "slug": "performing-arts",
+   "label": "Performing arts",
+   "sector": "creative",
+   "isco08_submajor": "26",
+   "needs": [
+    "auditions-casting",
+    "short-video"
+   ]
+  },
+  {
+   "id": "fam_visual_arts_crafts",
+   "slug": "visual-arts-crafts",
+   "label": "Visual arts & crafts",
+   "sector": "creative",
+   "isco08_submajor": "26",
+   "needs": [
+    "sell-art-online",
+    "product-photography"
+   ]
+  },
+  {
+   "id": "fam_marketing_roles",
+   "slug": "marketing-roles",
+   "label": "Marketing",
+   "sector": "marketing",
+   "isco08_submajor": "24",
+   "needs": [
+    "email-marketing",
+    "seo",
+    "online-ads",
+    "social-media-management",
+    "market-research"
+   ]
+  },
+  {
+   "id": "fam_sales",
+   "slug": "sales",
+   "label": "Sales",
+   "sector": "marketing",
+   "isco08_submajor": "52",
+   "needs": [
+    "crm-sales",
+    "presentations"
+   ]
+  },
+  {
+   "id": "fam_communications",
+   "slug": "communications",
+   "label": "Communications & PR",
+   "sector": "marketing",
+   "isco08_submajor": "24",
+   "needs": [
+    "pr-media-monitoring",
+    "presentations",
+    "events-management"
+   ]
+  },
+  {
+   "id": "fam_leadership",
+   "slug": "leadership",
+   "label": "Leadership & management",
+   "sector": "business",
+   "isco08_submajor": "11",
+   "needs": [
+    "people-management",
+    "budgeting-fpa",
+    "consulting-deliverables"
+   ]
+  },
+  {
+   "id": "fam_consulting",
+   "slug": "consulting",
+   "label": "Consulting",
+   "sector": "business",
+   "isco08_submajor": "24",
+   "needs": [
+    "consulting-deliverables",
+    "workshop-facilitation",
+    "market-research",
+    "financial-modelling"
+   ]
+  },
+  {
+   "id": "fam_hr",
+   "slug": "hr",
+   "label": "Human resources",
+   "sector": "business",
+   "isco08_submajor": "24",
+   "needs": [
+    "recruitment",
+    "people-management",
+    "payroll",
+    "forms-surveys"
+   ]
+  },
+  {
+   "id": "fam_administration",
+   "slug": "administration",
+   "label": "Administration & office support",
+   "sector": "business",
+   "isco08_submajor": "41",
+   "needs": [
+    "email-and-calendar",
+    "documents-basics",
+    "files-cloud-storage",
+    "scan-documents",
+    "browser-productivity"
+   ]
+  },
+  {
+   "id": "fam_smb",
+   "slug": "smb",
+   "label": "Small business & self-employed",
+   "sector": "business",
+   "isco08_submajor": "14",
+   "needs": [
+    "online-store",
+    "invoicing",
+    "bookkeeping",
+    "customer-support",
+    "point-of-sale"
+   ]
+  },
+  {
+   "id": "fam_government",
+   "slug": "government",
+   "label": "Government & public administration",
+   "sector": "public-sector",
+   "isco08_submajor": "11",
+   "needs": [
+    "kpi-tracking",
+    "open-data"
+   ]
+  },
+  {
+   "id": "fam_nonprofit",
+   "slug": "nonprofit",
+   "label": "Non-profit & international development",
+   "sector": "public-sector",
+   "isco08_submajor": "26",
+   "needs": [
+    "fundraising",
+    "grant-finding",
+    "volunteer-coordination",
+    "forms-surveys"
+   ]
+  },
+  {
+   "id": "fam_clergy",
+   "slug": "clergy",
+   "label": "Clergy & faith leaders",
+   "sector": "faith",
+   "isco08_submajor": "26",
+   "needs": [
+    "group-messaging",
+    "social-media-presence",
+    "video-meetings"
+   ]
+  },
+  {
+   "id": "fam_faith_workers",
+   "slug": "faith-workers",
+   "label": "Church & ministry workers",
+   "sector": "faith",
+   "isco08_submajor": "34",
+   "needs": [
+    "events-management",
+    "design-simple-graphics"
+   ]
+  },
+  {
+   "id": "fam_athletes",
+   "slug": "athletes",
+   "label": "Athletes",
+   "sector": "sports",
+   "isco08_submajor": "34",
+   "needs": [
+    "team-organisation"
+   ]
+  },
+  {
+   "id": "fam_coaching",
+   "slug": "coaching",
+   "label": "Coaching & fitness",
+   "sector": "sports",
+   "isco08_submajor": "34",
+   "needs": [
+    "online-coaching",
+    "movement-analysis",
+    "sports-analytics"
+   ]
+  },
+  {
+   "id": "fam_farming",
+   "slug": "farming",
+   "label": "Farming",
+   "sector": "agriculture",
+   "isco08_submajor": "61",
+   "needs": [
+    "crop-monitoring",
+    "plant-health",
+    "livestock-management"
+   ]
+  },
+  {
+   "id": "fam_food_env",
+   "slug": "food-env",
+   "label": "Food science & environment",
+   "sector": "agriculture",
+   "isco08_submajor": "21",
+   "needs": [
+    "environmental-monitoring",
+    "gis-mapping"
+   ]
+  },
+  {
+   "id": "fam_building_trades",
+   "slug": "building-trades",
+   "label": "Building trades",
+   "sector": "construction",
+   "isco08_submajor": "71",
+   "needs": [
+    "quality-hse"
+   ]
+  },
+  {
+   "id": "fam_property",
+   "slug": "property",
+   "label": "Property & real estate",
+   "sector": "construction",
+   "isco08_submajor": "33",
+   "needs": [
+    "property-marketing",
+    "property-management",
+    "crm-sales"
+   ]
+  },
+  {
+   "id": "fam_repair_trades",
+   "slug": "repair-trades",
+   "label": "Repair & maintenance trades",
+   "sector": "construction",
+   "isco08_submajor": "72",
+   "needs": [
+    "repair-guides"
+   ]
+  },
+  {
+   "id": "fam_manufacturing_roles",
+   "slug": "manufacturing-roles",
+   "label": "Manufacturing",
+   "sector": "manufacturing",
+   "isco08_submajor": "31",
+   "needs": [
+    "lean-six-sigma",
+    "quality-hse"
+   ]
+  },
+  {
+   "id": "fam_driving_logistics",
+   "slug": "driving-logistics",
+   "label": "Driving & logistics",
+   "sector": "transport",
+   "isco08_submajor": "83",
+   "needs": [
+    "driver-earnings",
+    "warehouse-inventory"
+   ]
+  },
+  {
+   "id": "fam_aviation",
+   "slug": "aviation",
+   "label": "Aviation",
+   "sector": "transport",
+   "isco08_submajor": "31",
+   "needs": [
+    "flight-planning"
+   ]
+  },
+  {
+   "id": "fam_maritime_rail",
+   "slug": "maritime-rail",
+   "label": "Maritime & rail",
+   "sector": "transport",
+   "isco08_submajor": "31",
+   "needs": [
+    "maritime-navigation"
+   ]
+  },
+  {
+   "id": "fam_food_service",
+   "slug": "food-service",
+   "label": "Food service",
+   "sector": "hospitality",
+   "isco08_submajor": "34",
+   "needs": [
+    "restaurant-operations",
+    "recipe-costing",
+    "food-safety"
+   ]
+  },
+  {
+   "id": "fam_tourism_lodging",
+   "slug": "tourism-lodging",
+   "label": "Tourism & lodging",
+   "sector": "hospitality",
+   "isco08_submajor": "14",
+   "needs": [
+    "hotel-management",
+    "travel-planning",
+    "tour-booking"
+   ]
+  },
+  {
+   "id": "fam_beauty_roles",
+   "slug": "beauty-roles",
+   "label": "Beauty & personal care",
+   "sector": "beauty",
+   "isco08_submajor": "51",
+   "needs": [
+    "point-of-sale",
+    "social-media-presence"
+   ]
+  },
+  {
+   "id": "fam_personal_services",
+   "slug": "personal-services",
+   "label": "Personal & household services",
+   "sector": "beauty",
+   "isco08_submajor": "51",
+   "needs": [
+    "booking-appointments",
+    "online-payments"
+   ]
+  },
+  {
+   "id": "fam_protective",
+   "slug": "protective",
+   "label": "Policing, security & emergency",
+   "sector": "security",
+   "isco08_submajor": "54",
+   "needs": [
+    "osint-research",
+    "maps-navigation"
+   ]
+  },
+  {
+   "id": "fam_armed_forces",
+   "slug": "armed-forces",
+   "label": "Armed forces",
+   "sector": "security",
+   "isco08_submajor": "01",
+   "needs": [
+    "maps-navigation",
+    "emergency-comms"
+   ]
+  },
+  {
+   "id": "fam_natural_sciences",
+   "slug": "natural-sciences",
+   "label": "Natural & life sciences",
+   "sector": "science",
+   "isco08_submajor": "21",
+   "needs": [
+    "lab-data",
+    "statistical-analysis"
+   ]
+  },
+  {
+   "id": "fam_social_work",
+   "slug": "social-work",
+   "label": "Social work & care",
+   "sector": "social-care",
+   "isco08_submajor": "26",
+   "needs": [
+    "accessible-communication",
+    "records-management"
+   ]
+  },
+  {
+   "id": "fam_students",
+   "slug": "students",
+   "label": "Students & learners",
+   "sector": "life",
+   "isco08_submajor": null,
+   "needs": [
+    "study-skills",
+    "learn-online",
+    "academic-writing"
+   ]
+  },
+  {
+   "id": "fam_work_transitions",
+   "slug": "work-transitions",
+   "label": "Work & career transitions",
+   "sector": "life",
+   "isco08_submajor": null,
+   "needs": [
+    "job-search",
+    "cv-portfolio",
+    "professional-profile",
+    "freelancing"
+   ]
+  },
+  {
+   "id": "fam_home_family",
+   "slug": "home-family",
+   "label": "Home & family",
+   "sector": "life",
+   "isco08_submajor": null,
+   "needs": [
+    "family-organisation",
+    "kids-online-safety",
+    "personal-finance"
+   ]
+  },
+  {
+   "id": "fam_community",
+   "slug": "community",
+   "label": "Community & volunteering",
+   "sector": "life",
+   "isco08_submajor": null,
+   "needs": [
+    "volunteering",
+    "group-messaging",
+    "events-management"
+   ]
+  },
+  {
+   "id": "fam_clerical_support",
+   "slug": "clerical-support",
+   "label": "Clerical, customer & information services",
+   "sector": "business",
+   "isco08_submajor": "42",
+   "needs": [
+    "email-and-calendar",
+    "documents-basics",
+    "spreadsheets-basics",
+    "customer-support",
+    "data-cleaning"
+   ]
+  },
+  {
+   "id": "fam_retail_street_trade",
+   "slug": "retail-street-trade",
+   "label": "Shop, market & street trade",
+   "sector": "business",
+   "isco08_submajor": "52",
+   "needs": [
+    "point-of-sale",
+    "inventory-procurement",
+    "online-payments",
+    "marketplace-selling",
+    "customer-support"
+   ]
+  },
+  {
+   "id": "fam_plant_machine_operators",
+   "slug": "plant-machine-operators",
+   "label": "Plant & machine operators",
+   "sector": "manufacturing",
+   "isco08_submajor": "81",
+   "needs": [
+    "maintenance-cmms",
+    "quality-hse",
+    "production-planning"
+   ]
+  },
+  {
+   "id": "fam_assemblers_labourers",
+   "slug": "assemblers-labourers",
+   "label": "Assemblers & manufacturing labourers",
+   "sector": "manufacturing",
+   "isco08_submajor": "82",
+   "needs": [
+    "quality-hse",
+    "digital-basics"
+   ]
+  },
+  {
+   "id": "fam_crafts_printing",
+   "slug": "crafts-printing",
+   "label": "Handicraft & printing trades",
+   "sector": "manufacturing",
+   "isco08_submajor": "73",
+   "needs": [
+    "sell-art-online",
+    "product-photography",
+    "visual-portfolio",
+    "online-payments"
+   ]
+  },
+  {
+   "id": "fam_food_processing_trades",
+   "slug": "food-processing-trades",
+   "label": "Food processing trades",
+   "sector": "manufacturing",
+   "isco08_submajor": "75",
+   "needs": [
+    "food-safety",
+    "recipe-costing",
+    "point-of-sale"
+   ]
+  },
+  {
+   "id": "fam_forestry_fishery",
+   "slug": "forestry-fishery",
+   "label": "Forestry, fishing & hunting",
+   "sector": "agriculture",
+   "isco08_submajor": "62",
+   "needs": [
+    "weather-planning",
+    "maps-navigation",
+    "agri-market-access"
+   ]
+  },
+  {
+   "id": "fam_farm_labour",
+   "slug": "farm-labour",
+   "label": "Farm, garden & forestry labourers",
+   "sector": "agriculture",
+   "isco08_submajor": "92",
+   "needs": [
+    "weather-planning",
+    "digital-basics",
+    "driver-earnings"
+   ]
+  },
+  {
+   "id": "fam_social_sciences_humanities",
+   "slug": "social-sciences-humanities",
+   "label": "Social sciences & humanities",
+   "sector": "science",
+   "isco08_submajor": "26",
+   "needs": [
+    "literature-review",
+    "statistical-analysis",
+    "qualitative-analysis",
+    "research-surveys",
+    "academic-writing"
+   ]
+  },
+  {
+   "id": "fam_leisure_gaming",
+   "slug": "leisure-gaming",
+   "label": "Leisure, recreation & gaming",
+   "sector": "hospitality",
+   "isco08_submajor": "42",
+   "needs": [
+    "customer-support",
+    "point-of-sale",
+    "events-management"
+   ]
+  },
+  {
+   "id": "fam_cleaning_helpers",
+   "slug": "cleaning-helpers",
+   "label": "Cleaning & household help",
+   "sector": "beauty",
+   "isco08_submajor": "91",
+   "needs": [
+    "booking-appointments",
+    "online-payments",
+    "trade-quotes-invoicing"
+   ]
+  },
+  {
+   "id": "fam_delivery_porterage",
+   "slug": "delivery-porterage",
+   "label": "Delivery, porterage & transport labour",
+   "sector": "transport",
+   "isco08_submajor": "93",
+   "needs": [
+    "driver-earnings",
+    "maps-navigation",
+    "route-planning-fleet"
+   ]
+  },
+  {
+   "id": "fam_waste_services",
+   "slug": "waste-services",
+   "label": "Waste & environmental services workers",
+   "sector": "agriculture",
+   "isco08_submajor": "96",
+   "needs": [
+    "route-planning-fleet",
+    "maps-navigation",
+    "incident-reporting"
+   ]
+  },
+  {
+   "id": "fam_construction_labour",
+   "slug": "construction-labour",
+   "label": "Construction & mining labourers",
+   "sector": "construction",
+   "isco08_submajor": "93",
+   "needs": [
+    "quality-hse",
+    "site-management"
+   ]
+  },
+  {
+   "id": "fam_managers_services",
+   "slug": "managers-services",
+   "label": "Service, trade & facility managers",
+   "sector": "business",
+   "isco08_submajor": "14",
+   "needs": [
+    "kpi-tracking",
+    "people-management",
+    "booking-appointments",
+    "customer-support"
+   ]
+  }
+ ]
+}

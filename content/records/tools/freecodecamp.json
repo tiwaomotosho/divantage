@@ -1,0 +1,157 @@
+{
+  "schema_version": "2.0",
+  "is_illustrative": false,
+  "redirect_from": [],
+  "disclosure": {
+    "commercial_relationship": "none"
+  },
+  "id": "tool_freecodecamp",
+  "slug": "freecodecamp",
+  "name": "freeCodeCamp",
+  "official_name": "freeCodeCamp",
+  "official_url": "https://www.freecodecamp.org/",
+  "developer_or_publisher": "freeCodeCamp (501(c)(3) public charity)",
+  "summary": "A free, nonprofit platform for learning to code, with projects and certifications.",
+  "description": "freeCodeCamp is a donor-supported nonprofit that teaches coding online. Its courses, projects and certifications are all free: you learn by working through interactive lessons in the browser and building projects, and you can earn verified certifications along the way. It suits complete beginners as well as people moving into web development or related technical roles.",
+  "category_ids": [
+    "development",
+    "education",
+    "career"
+  ],
+  "task_ids": [
+    "task_learn_to_code_free"
+  ],
+  "audience_ids": [
+    "student",
+    "job-seeker",
+    "exploring",
+    "professional"
+  ],
+  "skill_level": "beginner",
+  "pricing": {
+    "model": "free",
+    "verification_status": "verified",
+    "source_ids": [
+      "src_fcc_about"
+    ],
+    "checked_at": "2026-10-21",
+    "free_tier_details": "'Every aspect of freeCodeCamp is 100% free. The courses, the projects, even the certifications.'",
+    "price_points": []
+  },
+  "platforms": {
+    "values": [
+      "web"
+    ],
+    "verification_status": "partially_verified",
+    "source_ids": [
+      "src_fcc_home"
+    ]
+  },
+  "deployment": [
+    "hosted"
+  ],
+  "ai_involvement": "unknown",
+  "availability_status": "active",
+  "account_required": "unknown",
+  "open_source": {
+    "is_open_source": false
+  },
+  "key_capabilities": [
+    {
+      "text": "Free courses and projects for learning to code.",
+      "kind": "fact",
+      "source_ids": [
+        "src_fcc_about"
+      ]
+    },
+    {
+      "text": "Free verified certifications.",
+      "kind": "fact",
+      "source_ids": [
+        "src_fcc_about"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Self-directed: you set your own pace, so it helps to schedule regular study time.",
+      "kind": "editorial",
+      "source_ids": []
+    },
+    {
+      "text": "Reviewer: add the current curriculum list from an official page; the learn page could not be read during research.",
+      "kind": "editorial",
+      "source_ids": []
+    }
+  ],
+  "best_for": [
+    "Beginners who want to learn programming without paying",
+    "Career changers building a portfolio of projects"
+  ],
+  "not_ideal_for": [
+    "People who need live teaching or a formal qualification"
+  ],
+  "learning_curve": "gentle",
+  "getting_started": [
+    "Open freeCodeCamp and start the first course.",
+    "Set a weekly study schedule you can keep.",
+    "Build each project yourself before looking at other people's solutions."
+  ],
+  "resource_ids": [],
+  "alternative_tool_ids": [],
+  "comparison_ids": [],
+  "playbook_ids": [],
+  "search_aliases": [
+    "free code camp",
+    "fcc",
+    "learn to code",
+    "coding course",
+    "web development course",
+    "programming for beginners"
+  ],
+  "sources": [
+    {
+      "id": "src_fcc_about",
+      "type": "official_site",
+      "url": "https://www.freecodecamp.org/news/about/",
+      "title": "About freeCodeCamp",
+      "publisher": "freeCodeCamp",
+      "checked_at": "2026-10-21",
+      "supports": [
+        "identity",
+        "pricing",
+        "capabilities"
+      ],
+      "quote": "Every aspect of freeCodeCamp is 100% free. The courses, the projects, even the certifications."
+    },
+    {
+      "id": "src_fcc_home",
+      "type": "official_site",
+      "url": "https://www.freecodecamp.org/",
+      "title": "freeCodeCamp home page",
+      "publisher": "freeCodeCamp",
+      "checked_at": "2026-10-21",
+      "supports": [
+        "identity",
+        "platforms"
+      ],
+      "quote": "Learn to Code for Free"
+    }
+  ],
+  "editorial": {
+    "status": "published",
+    "author": "V2 research pass (AI-assisted, Claude)",
+    "reviewer": "Product owner — blanket MVP approval (D-044)",
+    "created_at": "2026-10-21",
+    "updated_at": "2026-10-21",
+    "published_at": "2026-10-21",
+    "last_verified_at": "2026-10-21",
+    "review_interval_days": 90,
+    "next_review_at": "2027-01-19",
+    "confidence": "high",
+    "solo_approval": true,
+    "change_summary": "Researched from official sources 2026-10-21; published under owner's blanket MVP approval (D-044). Domain-expert review pending.",
+    "public_corrections": [],
+    "internal_notes": ""
+  }
+}

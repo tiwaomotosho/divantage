@@ -1,0 +1,111 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_obs",
+ "slug": "obs",
+ "title": "OBS Studio",
+ "tool_ids": [
+  "tool_obs_studio",
+  "tool_streamyard",
+  "tool_restream"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_obs_record",
+    "slug": "obs-record",
+    "title": "Record your screen and camera",
+    "outcome": "You can: record a lesson or demo",
+    "topics": [
+     "scenes and sources",
+     "audio check",
+     "recording settings"
+    ],
+    "practice": "Record a 5-minute screen lesson",
+    "need_tags": [
+     "screen-recording",
+     "live-streaming"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_obs_scenes",
+    "slug": "obs-scenes",
+    "title": "Scenes and overlays",
+    "outcome": "You can: switch professionally between shots",
+    "topics": [
+     "scenes",
+     "overlays",
+     "lower thirds",
+     "transitions"
+    ],
+    "practice": "Build a 3-scene setup",
+    "need_tags": [
+     "live-streaming",
+     "service-livestream"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_obs_stream",
+    "slug": "obs-stream",
+    "title": "Go live reliably",
+    "outcome": "You can: stream to one or more platforms",
+    "topics": [
+     "stream keys",
+     "bitrate and upload speed",
+     "multistreaming",
+     "backups"
+    ],
+    "practice": "Run a 15-minute test stream",
+    "need_tags": [
+     "live-streaming",
+     "service-livestream"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_obs_production",
+    "slug": "obs-production",
+    "title": "Multi-camera production",
+    "outcome": "You can: run a multi-camera live production",
+    "topics": [
+     "NDI/capture cards",
+     "audio mixing",
+     "volunteer roles",
+     "run sheet"
+    ],
+    "practice": "Run a full service or event stream with two cameras",
+    "need_tags": [
+     "service-livestream",
+     "live-streaming"
+    ],
+    "estimated_hours": {
+     "value": 4.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false
+}

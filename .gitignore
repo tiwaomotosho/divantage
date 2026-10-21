@@ -1,0 +1,11 @@
+node_modules
+build
+.react-router
+.vercel
+public/api
+public/data
+public/export
+public/sitemap.xml
+public/robots.txt
+app/generated
+.env

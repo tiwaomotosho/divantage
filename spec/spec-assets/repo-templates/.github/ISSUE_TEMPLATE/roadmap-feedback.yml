@@ -1,0 +1,18 @@
+name: Course outline feedback
+description: A roadmap is in the wrong order, too hard, too easy or missing something
+labels: ["suggestion", "type:roadmap_feedback", "status:new"]
+body:
+  - type: input
+    id: page
+    attributes: { label: "Page link", placeholder: "/tools/power-bi/roadmap" }
+    validations: { required: true }
+  - type: textarea
+    id: problem
+    attributes: { label: "What's wrong or missing?" }
+    validations: { required: true }
+  - type: textarea
+    id: proposal
+    attributes: { label: "What should it say instead?" }
+  - type: input
+    id: experience
+    attributes: { label: "Your experience with this tool (optional)", placeholder: "e.g. 5 years building Power BI reports" }

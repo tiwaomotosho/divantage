@@ -1,0 +1,242 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_cisco_packet_tracer",
+ "slug": "cisco-packet-tracer",
+ "title": "Cisco Packet Tracer skill roadmap",
+ "tool_ids": [
+  "tool_cisco_packet_tracer"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_cisco_packet_tracer_dev_tool_0",
+    "slug": "cisco-packet-tracer-dev-tool-0",
+    "title": "Get started with Cisco Packet Tracer",
+    "outcome": "You can: set up Cisco Packet Tracer, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "networking"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_cisco_packet_tracer_dev_tool_1",
+    "slug": "cisco-packet-tracer-dev-tool-1",
+    "title": "Install and run",
+    "outcome": "You can: set up Cisco Packet Tracer and run a first project",
+    "topics": [
+     "installation",
+     "project structure",
+     "documentation",
+     "hello world"
+    ],
+    "practice": "Run the official quick start",
+    "need_tags": [
+     "write-code",
+     "networking"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_cisco_packet_tracer_dev_tool_2",
+    "slug": "cisco-packet-tracer-dev-tool-2",
+    "title": "Core workflow",
+    "outcome": "You can: do the everyday task Cisco Packet Tracer is for",
+    "topics": [
+     "core commands/APIs",
+     "configuration",
+     "conventions"
+    ],
+    "practice": "Build a small feature or config with Cisco Packet Tracer",
+    "need_tags": [
+     "write-code",
+     "networking"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_cisco_packet_tracer_dev_tool_3",
+    "slug": "cisco-packet-tracer-dev-tool-3",
+    "title": "Debug and test",
+    "outcome": "You can: find and prevent problems",
+    "topics": [
+     "logs",
+     "debugging",
+     "tests",
+     "common errors"
+    ],
+    "practice": "Fix a deliberately broken example",
+    "need_tags": [
+     "write-code",
+     "test-automation",
+     "networking"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_cisco_packet_tracer_dev_tool_4",
+    "slug": "cisco-packet-tracer-dev-tool-4",
+    "title": "Work in a team",
+    "outcome": "You can: use Cisco Packet Tracer in shared projects",
+    "topics": [
+     "version control",
+     "code review",
+     "environments",
+     "secrets"
+    ],
+    "practice": "Add Cisco Packet Tracer to a team repository with docs",
+    "need_tags": [
+     "version-control",
+     "networking"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_cisco_packet_tracer_dev_tool_8",
+    "slug": "cisco-packet-tracer-dev-tool-8",
+    "title": "Signature skills in Cisco Packet Tracer",
+    "outcome": "You can: use the features that make Cisco Packet Tracer distinctive",
+    "topics": [
+     "building topologies",
+     "device configuration",
+     "IP addressing",
+     "simulation mode"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "networking"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_cisco_packet_tracer_dev_tool_9",
+    "slug": "cisco-packet-tracer-dev-tool-9",
+    "title": "Advanced Cisco Packet Tracer",
+    "outcome": "You can: use Cisco Packet Tracer's advanced capabilities with confidence",
+    "topics": [
+     "routing protocols",
+     "VLANs",
+     "troubleshooting labs"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "networking"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_cisco_packet_tracer_dev_tool_5",
+    "slug": "cisco-packet-tracer-dev-tool-5",
+    "title": "Production-ready",
+    "outcome": "You can: run Cisco Packet Tracer reliably in production",
+    "topics": [
+     "security",
+     "performance",
+     "monitoring",
+     "CI/CD"
+    ],
+    "practice": "Add Cisco Packet Tracer to a CI pipeline with checks",
+    "need_tags": [
+     "devops-cicd",
+     "observability",
+     "networking"
+    ],
+    "estimated_hours": {
+     "value": 5.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_cisco_packet_tracer_dev_tool_10",
+    "slug": "cisco-packet-tracer-dev-tool-10",
+    "title": "Integrate Cisco Packet Tracer into your workflow",
+    "outcome": "You can: connect Cisco Packet Tracer with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Cisco Packet Tracer to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "networking"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_cisco_packet_tracer_dev_tool_11",
+    "slug": "cisco-packet-tracer-dev-tool-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Cisco Packet Tracer well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Cisco Packet Tracer\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "networking"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "dev-tool",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

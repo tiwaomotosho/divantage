@@ -1,0 +1,243 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_fieldwire",
+ "slug": "fieldwire",
+ "title": "Fieldwire skill roadmap",
+ "tool_ids": [
+  "tool_fieldwire"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_fieldwire_ops_reporting_0",
+    "slug": "fieldwire-ops-reporting-0",
+    "title": "Get started with Fieldwire",
+    "outcome": "You can: set up Fieldwire, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "site-management"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_fieldwire_ops_reporting_1",
+    "slug": "fieldwire-ops-reporting-1",
+    "title": "Daily reporting",
+    "outcome": "You can: complete accurate daily records",
+    "topics": [
+     "required fields",
+     "codes",
+     "attachments",
+     "deadlines"
+    ],
+    "practice": "Complete a full daily report",
+    "need_tags": [
+     "drilling-reporting",
+     "site-management"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_fieldwire_ops_reporting_2",
+    "slug": "fieldwire-ops-reporting-2",
+    "title": "Data quality",
+    "outcome": "You can: keep data consistent",
+    "topics": [
+     "validation",
+     "codes",
+     "corrections",
+     "audit trail"
+    ],
+    "practice": "Find and fix five data-quality issues",
+    "need_tags": [
+     "drilling-reporting",
+     "data-cleaning",
+     "site-management"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_fieldwire_ops_reporting_3",
+    "slug": "fieldwire-ops-reporting-3",
+    "title": "Standard reports and KPIs",
+    "outcome": "You can: turn records into KPIs",
+    "topics": [
+     "standard reports",
+     "time breakdown",
+     "NPT/downtime",
+     "exports"
+    ],
+    "practice": "Produce a weekly KPI report",
+    "need_tags": [
+     "kpi-tracking",
+     "site-management"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_fieldwire_ops_reporting_4",
+    "slug": "fieldwire-ops-reporting-4",
+    "title": "Planning and lookahead",
+    "outcome": "You can: plan upcoming work",
+    "topics": [
+     "schedules",
+     "lookaheads",
+     "resources",
+     "checklists"
+    ],
+    "practice": "Build a two-week lookahead",
+    "need_tags": [
+     "project-scheduling",
+     "site-management"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_fieldwire_ops_reporting_8",
+    "slug": "fieldwire-ops-reporting-8",
+    "title": "Signature skills in Fieldwire",
+    "outcome": "You can: use the features that make Fieldwire distinctive",
+    "topics": [
+     "plans",
+     "tasks",
+     "punch lists",
+     "forms"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "site-management"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_fieldwire_ops_reporting_9",
+    "slug": "fieldwire-ops-reporting-9",
+    "title": "Advanced Fieldwire",
+    "outcome": "You can: use Fieldwire's advanced capabilities with confidence",
+    "topics": [
+     "BIM viewer",
+     "reports",
+     "integrations"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "site-management"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_fieldwire_ops_reporting_5",
+    "slug": "fieldwire-ops-reporting-5",
+    "title": "Administer and integrate",
+    "outcome": "You can: administer Fieldwire for a team",
+    "topics": [
+     "configuration",
+     "user management",
+     "integration with BI",
+     "regulatory outputs"
+    ],
+    "practice": "Connect Fieldwire data to a dashboard",
+    "need_tags": [
+     "dashboards-bi",
+     "regulatory-reporting",
+     "site-management"
+    ],
+    "estimated_hours": {
+     "value": 4.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_fieldwire_ops_reporting_10",
+    "slug": "fieldwire-ops-reporting-10",
+    "title": "Integrate Fieldwire into your workflow",
+    "outcome": "You can: connect Fieldwire with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Fieldwire to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "site-management"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_fieldwire_ops_reporting_11",
+    "slug": "fieldwire-ops-reporting-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Fieldwire well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Fieldwire\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "site-management"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "ops-reporting",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

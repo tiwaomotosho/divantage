@@ -1,0 +1,110 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_wordpress",
+ "slug": "wordpress",
+ "title": "WordPress",
+ "tool_ids": [
+  "tool_wordpress",
+  "tool_wix",
+  "tool_webflow"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_wp_pages",
+    "slug": "wp-pages",
+    "title": "Pages, posts and menus",
+    "outcome": "You can: publish a simple site",
+    "topics": [
+     "pages vs posts",
+     "block editor",
+     "menus",
+     "media"
+    ],
+    "practice": "Publish home, about and contact pages",
+    "need_tags": [
+     "web-development",
+     "online-store"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_wp_theme",
+    "slug": "wp-theme",
+    "title": "Themes and plugins (carefully)",
+    "outcome": "You can: customise without breaking things",
+    "topics": [
+     "choosing themes",
+     "essential plugins",
+     "updates",
+     "backups"
+    ],
+    "practice": "Add a contact form and backups",
+    "need_tags": [
+     "web-development"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_wp_seo",
+    "slug": "wp-seo",
+    "title": "Get found",
+    "outcome": "You can: improve search visibility",
+    "topics": [
+     "titles and descriptions",
+     "site speed",
+     "Search Console"
+    ],
+    "practice": "Connect Search Console and fix top issues",
+    "need_tags": [
+     "seo",
+     "web-analytics"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_wp_commerce",
+    "slug": "wp-commerce",
+    "title": "Shops, security and performance",
+    "outcome": "You can: run a site that sells safely",
+    "topics": [
+     "WooCommerce",
+     "security hardening",
+     "caching",
+     "staging"
+    ],
+    "practice": "Set up a staging site and a test product",
+    "need_tags": [
+     "online-store",
+     "web-development"
+    ],
+    "estimated_hours": {
+     "value": 4.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false
+}

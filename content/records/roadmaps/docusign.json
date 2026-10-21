@@ -1,0 +1,248 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_docusign",
+ "slug": "docusign",
+ "title": "Docusign skill roadmap",
+ "tool_ids": [
+  "tool_docusign"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_docusign_productivity_app_0",
+    "slug": "docusign-productivity-app-0",
+    "title": "Get started with Docusign",
+    "outcome": "You can: set up Docusign, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "e-signatures",
+     "contract-drafting"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_docusign_productivity_app_1",
+    "slug": "docusign-productivity-app-1",
+    "title": "Set up and sync",
+    "outcome": "You can: set up Docusign on your devices",
+    "topics": [
+     "account",
+     "sync",
+     "mobile app",
+     "settings"
+    ],
+    "practice": "Install Docusign on phone and computer",
+    "need_tags": [
+     "e-signatures",
+     "contract-drafting"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_docusign_productivity_app_2",
+    "slug": "docusign-productivity-app-2",
+    "title": "Daily use",
+    "outcome": "You can: do your daily tasks faster",
+    "topics": [
+     "core actions",
+     "shortcuts",
+     "search"
+    ],
+    "practice": "Use Docusign for a week and note one saved hour",
+    "need_tags": [
+     "personal-productivity",
+     "e-signatures",
+     "contract-drafting"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_docusign_productivity_app_3",
+    "slug": "docusign-productivity-app-3",
+    "title": "Organise",
+    "outcome": "You can: build a simple system",
+    "topics": [
+     "folders/labels/tags",
+     "templates",
+     "naming conventions"
+    ],
+    "practice": "Reorganise your Docusign with a clear system",
+    "need_tags": [
+     "personal-productivity",
+     "records-management",
+     "e-signatures",
+     "contract-drafting"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_docusign_productivity_app_4",
+    "slug": "docusign-productivity-app-4",
+    "title": "Share safely",
+    "outcome": "You can: collaborate without oversharing",
+    "topics": [
+     "sharing permissions",
+     "links",
+     "version history"
+    ],
+    "practice": "Audit your shared items",
+    "need_tags": [
+     "files-cloud-storage",
+     "online-safety",
+     "e-signatures",
+     "contract-drafting"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_docusign_productivity_app_8",
+    "slug": "docusign-productivity-app-8",
+    "title": "Signature skills in Docusign",
+    "outcome": "You can: use the features that make Docusign distinctive",
+    "topics": [
+     "sending envelopes",
+     "signer fields",
+     "templates",
+     "tracking"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "e-signatures",
+     "contract-drafting"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_docusign_productivity_app_9",
+    "slug": "docusign-productivity-app-9",
+    "title": "Advanced Docusign",
+    "outcome": "You can: use Docusign's advanced capabilities with confidence",
+    "topics": [
+     "bulk send",
+     "PowerForms",
+     "integrations"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "e-signatures",
+     "contract-drafting"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_docusign_productivity_app_5",
+    "slug": "docusign-productivity-app-5",
+    "title": "Automate",
+    "outcome": "You can: let Docusign work for you",
+    "topics": [
+     "rules",
+     "integrations",
+     "scheduled tasks"
+    ],
+    "practice": "Create two automation rules",
+    "need_tags": [
+     "automation-workflows",
+     "e-signatures",
+     "contract-drafting"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_docusign_productivity_app_10",
+    "slug": "docusign-productivity-app-10",
+    "title": "Integrate Docusign into your workflow",
+    "outcome": "You can: connect Docusign with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Docusign to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "e-signatures",
+     "contract-drafting"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_docusign_productivity_app_11",
+    "slug": "docusign-productivity-app-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Docusign well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Docusign\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "e-signatures",
+     "contract-drafting"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "productivity-app",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

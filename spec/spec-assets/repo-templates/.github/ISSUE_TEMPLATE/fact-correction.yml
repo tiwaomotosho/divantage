@@ -1,0 +1,20 @@
+name: Wrong fact about a tool
+description: Price, free plan, platforms, availability, renamed or shut down
+labels: ["correction", "status:new"]
+body:
+  - type: input
+    id: page
+    attributes: { label: "Page link" }
+    validations: { required: true }
+  - type: dropdown
+    id: kind
+    attributes: { label: "What's wrong?", options: ["Price or plan", "Feature or platform", "Not available", "Renamed, bought or shut down", "Broken link"] }
+    validations: { required: true }
+  - type: textarea
+    id: correct
+    attributes: { label: "What's correct?" }
+    validations: { required: true }
+  - type: input
+    id: source
+    attributes: { label: "Official source link (required for facts)" }
+    validations: { required: true }

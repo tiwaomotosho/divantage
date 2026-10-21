@@ -1,0 +1,1334 @@
+# Identity taxonomy source — "Who are you?"
+# ## sector-slug | Sector label | sector needs
+# #  family-slug | Family label | ISCO-08 sub-major code (or -) | family needs
+# Profession ; aliases (comma) ; +specific needs (comma)
+# > Specialism (child of the profession line above) ; aliases ; +needs
+# Universal needs (from needs.txt UNIVERSAL section) apply to every identity automatically.
+
+## health | Health & Medicine | clinical-reference, evidence-based-medicine, cpd-learning, patient-education, electronic-health-records, telemedicine
+# medical-doctors | Medical doctors | 22 | drug-information, medical-calculators, memorise-knowledge, clinical-audit-qi, health-research-data
+Medical Doctor ; doctor, physician, medic, MD, MBBS, medical officer
+> General Practitioner ; GP, family doctor, family physician, primary care physician
+> Internal Medicine Physician ; internist
+> Paediatrician ; pediatrician, children's doctor
+> Obstetrician and Gynaecologist ; OB/GYN, obstetrician, gynaecologist, gynecologist
+> Surgeon ; general surgeon ; +medical-imaging-viewing, anatomy-3d
+> Orthopaedic Surgeon ; orthopedic surgeon, bone surgeon ; +medical-imaging-viewing, anatomy-3d
+> Neurosurgeon ; brain surgeon ; +medical-imaging-viewing, anatomy-3d
+> Cardiothoracic Surgeon ; heart surgeon ; +medical-imaging-viewing
+> Plastic Surgeon ; reconstructive surgeon ; +medical-imaging-viewing, photo-editing
+> ENT Surgeon ; otolaryngologist, ear nose and throat doctor
+> Ophthalmologist ; eye doctor, eye surgeon ; +medical-imaging-viewing
+> Urologist
+> Cardiologist ; heart doctor ; +medical-imaging-viewing
+> Neurologist ; +medical-imaging-viewing
+> Psychiatrist ; +therapy-practice-admin
+> Dermatologist ; skin doctor ; +photo-editing
+> Oncologist ; cancer doctor
+> Radiation Oncologist ; +medical-imaging-viewing
+> Haematologist ; hematologist
+> Nephrologist ; kidney doctor
+> Gastroenterologist
+> Endocrinologist ; diabetes doctor
+> Pulmonologist ; respiratory physician, chest physician
+> Rheumatologist
+> Infectious Disease Physician ; +public-health-data
+> Geriatrician ; elderly care physician
+> Emergency Physician ; A&E doctor, ER doctor, emergency medicine doctor
+> Anaesthetist ; anesthesiologist, anaesthesiologist
+> Intensive Care Physician ; intensivist, critical care doctor
+> Radiologist ; diagnostic radiologist ; +medical-imaging-viewing, radiology-reporting
+> Interventional Radiologist ; +medical-imaging-viewing, radiology-reporting
+> Pathologist ; histopathologist ; +lab-data
+> Forensic Pathologist ; +lab-data
+> Sports Medicine Physician ; +movement-analysis, training-load
+> Palliative Care Physician
+> Public Health Physician ; community medicine doctor ; +public-health-data
+> Occupational Physician ; occupational health doctor
+> Medical Geneticist ; +molecular-biology
+> House Officer ; intern doctor, junior doctor, foundation doctor, resident
+> Neonatologist ; newborn specialist
+> Allergist ; immunologist
+> Pain Medicine Physician ; pain specialist
+> Sleep Medicine Physician
+> Vascular Surgeon ; +medical-imaging-viewing
+> Paediatric Surgeon ; pediatric surgeon ; +medical-imaging-viewing
+> Colorectal Surgeon
+> Transplant Surgeon
+> Hepatologist ; liver specialist
+> Nuclear Medicine Physician ; +medical-imaging-viewing
+> Rehabilitation Physician ; physiatrist, PM&R physician ; +exercise-prescription
+> Aviation Medicine Physician ; flight surgeon
+> Tropical Medicine Physician ; +public-health-data
+Medical Student ; med student, medical school student ; +anatomy-3d, study-skills
+Medical Researcher ; clinical researcher, clinician scientist ; +literature-review, statistical-analysis, academic-writing
+# dentistry | Dentistry | 22 | dental-practice, medical-imaging-viewing, clinic-scheduling
+Dentist ; dental surgeon
+> Orthodontist
+> Oral and Maxillofacial Surgeon
+> Periodontist
+> Paediatric Dentist ; pediatric dentist
+Dental Hygienist ; dental therapist
+Dental Nurse ; dental assistant
+Dental Technician ; dental lab technician ; +3d-printing
+# nursing-midwifery | Nursing & midwifery | 22 | shift-rota, drug-information, medical-calculators, memorise-knowledge
+Nurse ; registered nurse, RN, staff nurse
+> Critical Care Nurse ; ICU nurse
+> Emergency Nurse ; A&E nurse, ER nurse
+> Paediatric Nurse ; pediatric nurse, children's nurse
+> Mental Health Nurse ; psychiatric nurse
+> Theatre Nurse ; scrub nurse, perioperative nurse
+> Oncology Nurse
+> Community Health Nurse ; district nurse, public health nurse ; +public-health-data, maps-navigation
+> Nurse Practitioner ; advanced nurse practitioner, ANP
+> Nurse Anaesthetist ; nurse anesthetist, CRNA
+> Nurse Educator ; clinical nurse educator ; +lesson-planning, quizzes-assessment
+> Infection Prevention Nurse ; infection control nurse ; +clinical-audit-qi
+> School Nurse
+> Occupational Health Nurse
+> Dialysis Nurse ; renal nurse
+> Wound Care Nurse ; tissue viability nurse ; +photo-editing
+> Diabetes Specialist Nurse
+> Neonatal Nurse ; NICU nurse
+> Hospice Nurse ; palliative care nurse
+> Telehealth Nurse ; +telemedicine
+Midwife ; birth attendant, nurse-midwife
+Nursing Student ; student nurse ; +study-skills, anatomy-3d
+Healthcare Assistant ; nursing assistant, care assistant, HCA
+# pharmacy | Pharmacy | 22 | drug-information, pharmacy-stock, medical-calculators
+Pharmacist ; chemist, druggist
+> Clinical Pharmacist
+> Hospital Pharmacist
+> Community Pharmacist ; retail pharmacist ; +point-of-sale, customer-support
+> Industrial Pharmacist ; pharmaceutical scientist ; +quality-statistics, lab-data
+Pharmacy Technician ; pharmacy assistant
+# allied-health | Allied health professions | 22 | exercise-prescription, clinic-scheduling, patient-education
+Physiotherapist ; physical therapist, physio, PT ; +movement-analysis, anatomy-3d
+> Sports Physiotherapist ; +movement-analysis, training-load
+> Neurological Physiotherapist
+> Musculoskeletal Physiotherapist ; MSK physio
+> Paediatric Physiotherapist
+Occupational Therapist ; OT
+Speech and Language Therapist ; speech therapist, speech-language pathologist, SLP ; +accessible-communication
+Dietitian ; nutritionist ; +nutrition-planning
+Audiologist ; hearing specialist ; +accessible-communication
+Optometrist ; optician ; +medical-imaging-viewing
+Podiatrist ; chiropodist
+Chiropractor ; +movement-analysis
+Osteopath ; +movement-analysis
+Prosthetist and Orthotist ; prosthetist, orthotist ; +3d-printing, cad-drafting
+Respiratory Therapist
+Paramedic ; emergency medical technician, EMT, ambulance officer ; +medical-calculators, maps-navigation, emergency-comms
+Art Therapist ; music therapist, drama therapist ; +therapy-practice-admin
+Sports Therapist ; +movement-analysis, training-load
+Exercise Physiologist ; +training-load
+Orthoptist
+Genetic Counsellor ; genetic counselor ; +molecular-biology
+Lactation Consultant
+Doula ; birth companion
+Hearing Aid Dispenser
+First Responder ; first aider ; +emergency-comms
+# diagnostics | Diagnostic & laboratory health | 32 | quality-hse, clinical-reference
+Radiographer ; radiologic technologist, x-ray technician, imaging technologist ; +medical-imaging-viewing, radiology-reporting
+> Diagnostic Radiographer
+> Therapeutic Radiographer ; radiation therapist
+> Sonographer ; ultrasound technician, ultrasonographer
+> MRI Technologist ; MRI radiographer
+> CT Technologist
+Nuclear Medicine Technologist ; +medical-imaging-viewing
+Medical Laboratory Scientist ; medical laboratory technician, lab scientist, biomedical scientist, MLS ; +lab-data, quality-statistics
+Phlebotomist ; +lab-data
+Cardiac Physiologist ; ECG technician, cardiac technician
+Medical Physicist ; +medical-imaging-viewing, scientific-computing
+Biomedical Engineer ; clinical engineer ; +maintenance-cmms, engineering-calculations
+Histotechnologist ; histology technician ; +lab-data
+Cytotechnologist ; +lab-data
+Blood Bank Technologist ; transfusion scientist ; +lab-data
+Sterile Services Technician ; decontamination technician
+Clinical Embryologist ; IVF scientist ; +lab-data
+Perfusionist
+Sleep Technologist ; polysomnographic technologist
+Medical Dosimetrist ; dosimetrist ; +medical-imaging-viewing
+# mental-health | Mental health & psychology | 22 | therapy-practice-admin, telemedicine, mindfulness-wellbeing
+Psychologist
+> Clinical Psychologist
+> Counselling Psychologist ; counseling psychologist
+> Educational Psychologist ; school psychologist
+> Organisational Psychologist ; industrial-organizational psychologist, I-O psychologist ; +research-surveys, statistical-analysis
+> Forensic Psychologist
+> Neuropsychologist
+Counsellor ; therapist, counselor, psychotherapist, mental health counsellor
+Psychiatric Social Worker ; +case-management
+Addiction Counsellor ; substance abuse counselor ; +case-management
+# public-health | Public health & epidemiology | 22 | public-health-data, health-research-data, monitoring-evaluation, gis-mapping
+Epidemiologist ; +statistical-analysis
+Public Health Officer ; public health specialist
+Health Promotion Specialist ; health educator ; +design-simple-graphics, social-media-presence
+Environmental Health Officer ; environmental health inspector ; +incident-reporting, food-safety
+Biostatistician ; +statistical-analysis
+Community Health Worker ; CHW, village health worker
+Health Data Manager ; health information officer ; +dashboards-bi, databases
+Health Economist ; +financial-modelling, statistical-analysis
+Immunisation Officer ; vaccination officer
+Nutrition Officer ; public health nutritionist ; +nutrition-planning
+# health-admin | Health management & administration | 13 | kpi-tracking, dashboards-bi, shift-rota, records-management
+Hospital Administrator ; hospital manager, health services manager
+Medical Records Officer ; health information technician, medical records clerk
+Medical Secretary ; medical receptionist, clinic receptionist ; +clinic-scheduling
+Medical Coder ; clinical coder, medical billing specialist
+Practice Manager ; clinic manager ; +clinic-scheduling, people-management
+Health Informatician ; clinical informatics specialist, nursing informaticist ; +databases, dashboards-bi
+Health Insurance Officer ; HMO officer, claims officer (health)
+Quality Improvement Lead ; QI lead ; +clinical-audit-qi
+Patient Experience Officer ; patient liaison officer ; +research-surveys
+# traditional-complementary | Traditional & complementary medicine | 32 | clinic-scheduling, patient-education
+Traditional Medicine Practitioner ; herbalist, traditional healer
+Acupuncturist
+Massage Therapist ; masseuse, masseur, sports massage therapist ; +salon-booking
+Homeopath
+Ayurvedic Practitioner
+# veterinary | Veterinary | 22 | veterinary-practice, drug-information, medical-imaging-viewing
+Veterinarian ; vet, veterinary surgeon, veterinary doctor
+> Large Animal Vet ; farm vet, livestock vet ; +livestock-management
+> Small Animal Vet ; companion animal vet
+> Equine Vet ; horse vet
+Veterinary Nurse ; vet tech, veterinary technician
+Animal Health Technician ; animal health assistant ; +livestock-management
+Animal Care Worker ; kennel worker, zookeeper, animal shelter worker
+
+## engineering | Engineering | engineering-calculations, cad-drafting, technical-reporting, project-scheduling, engineering-data-analysis
+# civil-structural | Civil & structural engineering | 21 | structural-analysis, bim-modelling, cost-estimation, drawing-markup, site-management
+Civil Engineer ; +gis-mapping, hydraulic-modelling
+> Structural Engineer ; +fea-simulation
+> Geotechnical Engineer ; +geotechnical-analysis
+> Transportation Engineer ; highway engineer, traffic engineer, road engineer ; +gis-mapping
+> Water Resources Engineer ; hydraulic engineer ; +hydraulic-modelling, gis-mapping
+> Coastal Engineer ; +hydraulic-modelling
+> Bridge Engineer ; +fea-simulation
+> Railway Engineer ; rail engineer
+> Construction Engineer ; site engineer ; +quality-hse
+> Tunnel Engineer ; +geotechnical-analysis
+Environmental Engineer ; +hydraulic-modelling, gis-mapping, environmental-monitoring
+Municipal Engineer ; +gis-mapping
+Fire Engineer ; fire safety engineer ; +fea-simulation
+Acoustic Engineer ; acoustician
+Façade Engineer ; facade engineer
+# mechanical | Mechanical engineering | 21 | mechanical-design, fea-simulation, maintenance-cmms, 3d-printing
+Mechanical Engineer
+> HVAC Engineer ; building services engineer, MEP engineer ; +bim-modelling
+> Automotive Engineer ; vehicle engineer
+> Aerospace Engineer ; aeronautical engineer, astronautical engineer ; +scientific-computing
+> Marine Engineer ; naval architect
+> Manufacturing Engineer ; production engineer ; +production-planning, lean-six-sigma, cnc-cam
+> Maintenance Engineer ; reliability engineer ; +quality-statistics
+> Design Engineer ; product design engineer
+Robotics Engineer ; +plc-automation, write-code
+Mechatronics Engineer ; +plc-automation, electrical-design
+Piping Engineer ; piping designer
+Rotating Equipment Engineer
+Thermal Engineer ; heat transfer engineer
+# electrical-electronic | Electrical & electronic engineering | 21 | electrical-design, plc-automation, quality-hse
+Electrical Engineer
+> Power Systems Engineer ; power engineer ; +energy-systems-modelling
+> Electronics Engineer ; hardware engineer, PCB designer
+> Control Systems Engineer ; controls engineer, automation engineer, instrumentation engineer
+> Telecommunications Engineer ; telecoms engineer, RF engineer ; +networking
+> Embedded Systems Engineer ; firmware engineer ; +write-code, version-control
+> Renewable Energy Engineer ; solar engineer, wind engineer ; +energy-systems-modelling
+Electrical Estimator ; +cost-estimation
+Lighting Designer ; lighting engineer
+Substation Engineer
+Smart Grid Engineer ; +energy-systems-modelling, engineering-data-analysis
+# chemical-process | Chemical & process engineering | 21 | process-simulation, quality-hse, quality-statistics
+Chemical Engineer ; process engineer
+> Process Safety Engineer ; +incident-reporting
+> Petrochemical Engineer
+> Food Process Engineer ; +food-safety
+> Pharmaceutical Process Engineer
+Materials Engineer ; metallurgist, materials scientist ; +lab-data, fea-simulation
+Corrosion Engineer
+Polymer Engineer ; plastics engineer
+Water Treatment Engineer ; wastewater engineer
+Biochemical Engineer ; bioprocess engineer ; +lab-data
+# industrial-systems | Industrial, systems & quality engineering | 21 | lean-six-sigma, quality-statistics, process-mapping, production-planning
+Industrial Engineer
+Systems Engineer
+Quality Engineer ; quality assurance engineer, QA engineer (manufacturing)
+Health and Safety Engineer ; HSE engineer, safety engineer ; +quality-hse, incident-reporting
+Packaging Engineer
+Supply Chain Engineer ; +warehouse-inventory
+Ergonomist ; human factors engineer ; +user-research
+# engineering-technicians | Engineering technicians & drafters | 31 | quality-hse, maintenance-cmms
+Engineering Technician
+Draughtsperson ; drafter, CAD technician, draftsman
+Civil Engineering Technician ; +site-management, surveying-photogrammetry
+Electrical Technician ; +electrical-design
+Mechanical Technician
+Instrumentation Technician ; I&C technician ; +plc-automation
+Laboratory Technician (engineering) ; materials testing technician ; +lab-data
+Quality Inspector ; QC inspector ; +quality-statistics
+Non-Destructive Testing Technician ; NDT technician
+Calibration Technician
+Lift Technician ; elevator technician
+Telecom Technician ; fibre technician, tower technician ; +networking
+# surveying-geomatics | Surveying & geomatics | 21 | surveying-photogrammetry, gis-mapping, cad-drafting
+Land Surveyor ; surveyor, geomatics engineer
+Quantity Surveyor ; cost consultant, QS ; +cost-estimation, bim-modelling
+Hydrographic Surveyor ; +maritime-navigation
+GIS Analyst ; GIS specialist, geospatial analyst ; +sql-querying
+Drone Pilot ; UAV operator, remote pilot ; +surveying-photogrammetry, video-editing-pro
+Cartographer
+Photogrammetrist
+Remote Sensing Analyst ; earth observation analyst ; +crop-monitoring
+# architecture-planning | Architecture & planning | 21 | bim-modelling, architectural-visualisation, cad-drafting, drawing-markup
+Architect
+> Landscape Architect ; +gis-mapping
+> Interior Architect ; +interior-design
+> Conservation Architect
+Urban Planner ; town planner, city planner, regional planner ; +gis-mapping, public-consultation
+Architectural Technologist ; architectural technician
+Interior Designer ; interior decorator ; +interior-design, visual-portfolio
+Kitchen Designer ; +interior-design
+Set Designer ; production designer ; +3d-modelling
+Heritage Consultant ; conservation officer
+
+## energy | Energy, Oil & Gas and Mining | quality-hse, regulatory-reporting, production-surveillance, engineering-data-analysis
+# petroleum | Petroleum engineering | 21 | well-planning-design, drilling-reporting, well-performance, reservoir-modelling
+Petroleum Engineer
+> Drilling Engineer ; wells engineer, well engineer ; +geomechanics, project-scheduling, cost-estimation
+> Completions Engineer ; +well-performance
+> Well Intervention Engineer ; workover engineer
+> Production Engineer ; production technologist ; +well-performance
+> Reservoir Engineer ; +statistical-analysis
+> Petroleum Economist ; +financial-modelling, risk-modelling
+Well Planner ; well planning engineer ; +geomechanics, project-scheduling
+Drilling Supervisor ; company man, drilling superintendent, wellsite supervisor
+Mud Engineer ; drilling fluids engineer
+Directional Driller ; MWD engineer, LWD engineer
+Subsea Engineer ; +fea-simulation
+Pipeline Engineer ; +fea-simulation, gis-mapping
+Facilities Engineer (oil and gas) ; topside engineer ; +process-simulation
+Flow Assurance Engineer ; +process-simulation
+Well Integrity Engineer ; +geomechanics
+Cementing Engineer
+Wireline Engineer ; logging engineer ; +petrophysics
+Mud Logger ; surface logging geologist
+Coiled Tubing Engineer
+Artificial Lift Engineer ; +well-performance
+Well Test Engineer ; +well-performance
+Decommissioning Engineer
+Drilling Data Engineer ; wells data analyst ; +dashboards-bi
+Wells Superintendent ; drilling manager ; +kpi-tracking, cost-estimation
+Rig Manager ; toolpusher
+# geoscience | Geoscience | 21 | reservoir-modelling, gis-mapping, petrophysics
+Geologist
+> Petroleum Geologist
+> Hydrogeologist ; groundwater specialist ; +hydraulic-modelling
+> Engineering Geologist ; +geotechnical-analysis
+> Mining Geologist ; exploration geologist ; +mine-planning
+Geophysicist ; seismic interpreter
+Petrophysicist
+Geomechanics Specialist ; geomechanics engineer ; +geomechanics
+Geochemist ; +lab-data
+Seismologist
+Soil Scientist ; +lab-data
+# mining | Mining & minerals | 21 | mine-planning, gis-mapping, maintenance-cmms
+Mining Engineer
+Mine Worker ; miner, artisanal miner
+Mineral Processing Engineer ; metallurgical engineer ; +process-simulation
+Mine Surveyor ; +surveying-photogrammetry
+Blasting Engineer ; explosives engineer
+# energy-power | Power & renewables | 21 | energy-systems-modelling, electrical-design, maintenance-cmms
+Energy Engineer ; energy auditor, energy manager
+Solar PV Installer ; solar installer, solar technician ; +trade-quotes-invoicing, site-measurement
+Wind Turbine Technician
+Nuclear Engineer ; +scientific-computing
+Power Plant Operator ; control room operator
+Energy Analyst ; +dashboards-bi, statistical-analysis
+Battery Storage Engineer
+Electric Vehicle Technician ; EV technician ; +vehicle-diagnostics
+Utility Lineworker ; lineman, line technician
+Gas Engineer ; gas fitter
+Meter Reader ; utility field officer
+# energy-ops | Field operations | 31 | maintenance-cmms, incident-reporting
+Rig Worker ; roughneck, floorhand, derrickman, roustabout
+Process Operator (oil and gas) ; plant operator, production operator
+Offshore Installation Manager ; OIM ; +kpi-tracking
+HSE Officer ; HSE advisor, safety officer ; +incident-reporting
+Pipeline Technician
+Rope Access Technician
+Offshore Crane Operator
+
+## technology | Technology & Software | write-code, version-control, agile-tracking, diagramming, use-ai-assistants
+# software-engineering | Software engineering | 25 | devops-cicd, test-automation, databases, api-testing, cloud-infrastructure
+Software Engineer ; programmer, coder, software developer, developer
+> Frontend Developer ; front-end engineer, web developer, UI engineer ; +web-development, ui-ux-design
+> Backend Developer ; back-end engineer, server-side developer
+> Full-Stack Developer ; full stack engineer ; +web-development
+> Mobile Developer ; iOS developer, Android developer, app developer ; +mobile-app-dev
+> Game Developer ; game programmer ; +game-development
+> Embedded Software Engineer ; firmware developer
+> Blockchain Developer ; smart contract developer, web3 developer
+> AI Engineer ; LLM engineer, generative AI engineer ; +ai-app-development, machine-learning
+> Machine Learning Engineer ; ML engineer ; +machine-learning, data-pipelines
+> Systems Programmer
+> WordPress Developer ; +web-development
+Software Architect ; solutions architect, technical architect ; +cloud-infrastructure
+Engineering Manager ; software engineering manager, tech lead ; +project-management, people-management
+CTO ; chief technology officer ; +roadmapping, people-management
+Salesforce Developer ; Salesforce administrator ; +crm-sales
+SAP Consultant ; SAP functional consultant ; +erp
+Shopify Developer ; +online-store
+Mainframe Developer ; COBOL developer
+XR Developer ; AR developer, VR developer ; +game-development
+IoT Engineer ; +plc-automation
+Computer Vision Engineer ; +machine-learning
+Quantum Computing Researcher ; +scientific-computing
+Open Source Maintainer ; +group-messaging
+Coding Bootcamp Student ; aspiring developer, self-taught developer ; +learn-online, study-skills
+# devops-cloud | DevOps, cloud & infrastructure | 25 | devops-cicd, containers-orchestration, cloud-infrastructure, observability
+DevOps Engineer
+Site Reliability Engineer ; SRE
+Cloud Engineer ; cloud architect, AWS engineer, Azure engineer
+Platform Engineer
+Systems Administrator ; sysadmin ; +networking, it-helpdesk
+Database Administrator ; DBA ; +databases, sql-querying
+Release Manager
+MLOps Engineer ; +machine-learning
+FinOps Analyst ; cloud cost analyst ; +dashboards-bi
+# quality-testing | Software quality & testing | 25 | test-automation, test-management, api-testing, performance-testing
+QA Tester ; software tester, manual tester, QA analyst, quality assurance tester
+QA Automation Engineer ; SDET, test automation engineer, software development engineer in test
+Performance Test Engineer ; load tester
+Accessibility Tester ; accessibility specialist, a11y specialist ; +accessibility-tools
+Game Tester ; QA tester (games)
+Mobile QA Tester ; +mobile-app-dev
+UAT Tester ; user acceptance tester
+QA Lead ; test lead, QA manager ; +people-management
+# product-design-tech | Product management & design | 24 | product-discovery, product-analytics, roadmapping, user-research
+Product Manager ; PM, product owner ; +project-management
+> Technical Product Manager ; TPM
+> Growth Product Manager ; +online-ads, web-analytics
+> AI Product Manager ; +ai-app-development
+Product Owner ; Scrum product owner
+Product Designer ; +ui-ux-design
+UX Designer ; user experience designer, interaction designer ; +ui-ux-design
+UI Designer ; user interface designer, visual designer ; +ui-ux-design, graphic-design-pro
+UX Researcher ; user researcher, design researcher ; +qualitative-analysis
+UX Writer ; content designer, content strategist ; +copywriting
+Scrum Master ; agile coach, delivery manager ; +workshop-facilitation
+Technical Project Manager ; IT project manager ; +project-management
+Business Analyst ; BA, systems analyst, requirements analyst ; +process-mapping, sql-querying
+Product Operations Manager ; product ops
+Service Designer ; +process-mapping
+Design Systems Designer ; +ui-ux-design
+Information Architect ; UX architect
+Conversation Designer ; chatbot designer ; +ai-app-development
+# security | Cybersecurity | 25 | security-testing, security-operations, networking, online-safety
+Cybersecurity Analyst ; security analyst, information security analyst, SOC analyst
+Penetration Tester ; ethical hacker, pentester, red teamer
+Security Engineer ; application security engineer, AppSec engineer
+Security Architect
+Incident Responder ; DFIR analyst ; +digital-forensics
+GRC Analyst ; governance risk and compliance analyst, compliance analyst ; +records-management
+CISO ; chief information security officer ; +kpi-tracking
+Malware Analyst
+Threat Intelligence Analyst ; +osint-research
+Cloud Security Engineer ; +cloud-infrastructure
+Bug Bounty Hunter ; security researcher
+# it-support | IT support & networks | 35 | it-helpdesk, networking, online-safety
+IT Support Technician ; helpdesk technician, IT technician, desktop support
+Network Engineer ; network administrator, network technician ; +cloud-infrastructure
+IT Manager ; head of IT ; +project-management, kpi-tracking
+Computer Repair Technician ; phone repair technician ; +repair-guides
+Web Administrator ; webmaster ; +web-development, web-analytics
+IT Asset Manager
+Data Centre Technician ; data center technician
+# tech-other | Other technology roles | 25 | technical-writing, diagramming
+Technical Writer ; documentation writer, API writer
+Developer Advocate ; developer relations, DevRel ; +social-media-presence, screen-recording
+Solutions Engineer ; sales engineer, pre-sales engineer ; +crm-sales, presentations
+IT Consultant ; technology consultant ; +consulting-deliverables
+No-Code Developer ; low-code developer, citizen developer ; +no-code-apps, automation-workflows
+Prompt Engineer ; AI prompt specialist ; +ai-app-development
+Data Protection Officer ; DPO, privacy officer ; +records-management
+IT Trainer ; +lesson-planning
+Digital Transformation Manager ; +process-mapping
+E-commerce Manager ; +online-store
+Tech Recruiter ; technical recruiter ; +recruitment
+
+## data | Data & AI | data-cleaning, sql-querying, dashboards-bi, data-visualisation, notebooks
+# data-roles | Data & analytics | 25 | statistical-analysis
+Data Analyst ; data analytics specialist ; +sql-querying, dashboards-bi, spreadsheets-basics, data-cleaning, data-visualisation, kpi-tracking
+> Business Intelligence Analyst ; BI analyst, BI developer, Power BI developer
+> Marketing Analyst ; +web-analytics, product-analytics
+> Financial Data Analyst ; +financial-modelling
+> Healthcare Data Analyst ; +public-health-data
+> Operations Analyst ; +kpi-tracking
+> People Analyst ; HR analyst
+Data Scientist ; +machine-learning
+Data Engineer ; +data-pipelines, databases, cloud-infrastructure
+Analytics Engineer ; +data-pipelines
+Statistician ; +research-surveys
+Actuary ; +risk-modelling, financial-modelling
+Data Architect ; +databases
+Data Governance Analyst ; data steward ; +records-management
+Research Data Manager ; +research-data-management
+AI Researcher ; machine learning researcher ; +machine-learning, academic-writing, literature-review
+AI Ethics Specialist ; responsible AI specialist ; +policy-research
+Data Labeller ; data annotator, AI trainer
+Geospatial Data Scientist ; +gis-mapping
+Clinical Data Manager ; +health-research-data
+Decision Scientist
+Reporting Analyst ; MI analyst, management information analyst
+Pricing Analyst ; +financial-modelling
+Supply Chain Analyst ; +warehouse-inventory
+Fraud Analyst ; +audit-analytics
+Credit Risk Modeller ; +risk-modelling
+
+## finance | Finance, Banking & Accounting | spreadsheets-basics, financial-modelling, dashboards-bi
+# accounting | Accounting & audit | 24 | bookkeeping, tax-compliance, audit-analytics, payroll
+Accountant ; chartered accountant, CPA, ACCA, ICAN
+> Management Accountant ; cost accountant ; +budgeting-fpa
+> Tax Accountant ; tax adviser, tax consultant
+> Forensic Accountant ; +ediscovery
+> Public Sector Accountant
+Auditor ; external auditor
+> Internal Auditor ; +process-mapping
+> IT Auditor ; +security-operations
+Bookkeeper ; accounts clerk, accounts payable clerk, accounts receivable clerk ; +invoicing
+Payroll Administrator ; payroll officer
+Accounting Student ; +study-skills
+Cost Controller
+Accounts Manager
+# finance-investment | Corporate finance & investment | 24 | market-research-finance, budgeting-fpa, risk-modelling, consulting-deliverables
+Financial Analyst
+> FP&A Analyst ; financial planning and analysis analyst
+> Equity Research Analyst ; +market-research-finance
+> Credit Analyst ; +risk-modelling
+Investment Banker ; M&A analyst, corporate finance associate
+Private Equity Associate ; venture capital analyst, VC
+Portfolio Manager ; fund manager, asset manager
+Financial Modeller ; financial modelling expert, model auditor
+Treasury Analyst ; treasurer
+CFO ; chief financial officer, finance director ; +kpi-tracking, people-management
+Financial Controller ; finance manager
+Securities Trader ; stock trader, forex trader, day trader
+Quantitative Analyst ; quant ; +scientific-computing, statistical-analysis
+Investment Analyst
+ESG Analyst ; +environmental-monitoring
+Real Estate Analyst ; +property-management
+Project Finance Analyst
+Valuation Analyst ; valuer (business)
+Stockbroker ; broker
+# banking-insurance | Banking, insurance & advisory | 33 | crm-sales, risk-modelling
+Bank Teller ; cashier (bank), customer service officer (bank)
+Relationship Manager ; account officer, banker
+Loan Officer ; credit officer, mortgage adviser
+Compliance Officer ; AML analyst, KYC analyst ; +records-management
+Risk Manager
+Insurance Underwriter
+Insurance Agent ; insurance broker ; +crm-sales
+Claims Adjuster ; loss adjuster ; +scan-documents
+Financial Adviser ; financial planner, wealth manager ; +personal-finance
+Microfinance Officer ; field credit officer ; +forms-surveys
+Mobile Money Agent ; POS agent ; +point-of-sale
+Fintech Product Manager ; +product-discovery
+Economist ; +statistical-analysis, policy-research
+Branch Manager (bank) ; bank branch manager ; +kpi-tracking
+Bureau de Change Operator ; forex dealer
+Cooperative Society Officer ; thrift collector, ajo collector, esusu collector ; +bookkeeping
+Pension Fund Administrator ; pension officer
+Crypto Analyst ; digital asset analyst
+
+## law | Law & Justice | legal-research, contract-drafting, write-clearly, pdf-work, e-signatures
+# legal-professionals | Legal professionals | 26 | legal-practice-management, ediscovery
+Lawyer ; attorney, advocate, solicitor, barrister, counsel, legal practitioner
+> Corporate Lawyer ; commercial lawyer, M&A lawyer
+> Litigation Lawyer ; litigator, trial lawyer
+> Criminal Lawyer ; criminal defence lawyer, prosecutor
+> Family Lawyer ; divorce lawyer
+> Intellectual Property Lawyer ; IP lawyer, patent attorney, trademark attorney
+> Tax Lawyer
+> Employment Lawyer ; labour lawyer
+> Real Estate Lawyer ; property lawyer, conveyancer
+> Immigration Lawyer
+> Energy Lawyer ; oil and gas lawyer
+> Human Rights Lawyer ; +policy-research
+> Technology Lawyer ; data protection lawyer, privacy lawyer
+In-house Counsel ; legal adviser, general counsel
+Judge ; magistrate, justice
+Notary Public ; commissioner for oaths
+Arbitrator ; mediator ; +video-meetings
+Law Lecturer ; legal academic ; +academic-writing
+Law Student ; +study-skills
+Legal Researcher
+Legal Operations Specialist ; legal ops ; +automation-workflows
+Compliance Lawyer ; regulatory lawyer ; +regulatory-reporting
+Maritime Lawyer ; shipping lawyer
+Sports Lawyer
+Entertainment Lawyer ; media lawyer
+Legal Aid Lawyer ; public defender
+# legal-support | Legal support | 34 | legal-practice-management, records-management, scan-documents
+Paralegal ; legal assistant, legal executive
+Court Clerk ; registrar
+Legal Secretary
+Court Reporter ; stenographer ; +voice-typing-transcription
+Legal Translator ; court interpreter ; +translate-languages
+Company Secretary ; corporate secretary ; +meeting-minutes
+Bailiff ; sheriff officer, enforcement officer
+Process Server
+
+## education | Education & Training | lesson-planning, quizzes-assessment, interactive-teaching, accessible-materials, screen-recording
+# teachers | Teaching | 23 | virtual-classroom, grading-feedback
+Teacher ; educator, schoolteacher
+> Early Years Teacher ; nursery teacher, preschool teacher, kindergarten teacher
+> Primary School Teacher ; elementary teacher
+> Secondary School Teacher ; high school teacher
+> Mathematics Teacher ; maths teacher ; +spreadsheets-basics
+> Science Teacher ; physics teacher, chemistry teacher, biology teacher ; +scientific-figures
+> English Teacher ; language arts teacher ; +write-clearly
+> Foreign Language Teacher ; French teacher, Spanish teacher, Yoruba teacher ; +language-learning, translate-languages
+> Computer Science Teacher ; ICT teacher, coding teacher ; +write-code
+> Art Teacher ; +digital-illustration
+> Music Teacher ; +music-notation, audio-production
+> Physical Education Teacher ; PE teacher, games master ; +team-organisation
+> Religious Education Teacher ; +scripture-study
+> History Teacher ; geography teacher, social studies teacher ; +gis-mapping
+> Special Education Teacher ; SEN teacher, special needs teacher ; +accessible-communication, sign-language
+> TEFL Teacher ; ESL teacher, English as a second language teacher ; +language-learning
+> Montessori Teacher
+> Adult Education Teacher ; adult literacy teacher
+> Agricultural Science Teacher
+> Business Studies Teacher ; economics teacher, accounting teacher ; +spreadsheets-basics
+> Technical Drawing Teacher ; +cad-drafting
+Head Teacher ; principal, headmaster, headmistress, school administrator ; +kpi-tracking, people-management
+Teaching Assistant ; classroom assistant
+Private Tutor ; home tutor, tutor ; +video-meetings, online-payments
+Online Course Creator ; e-learning creator ; +creator-income, video-editing-pro
+School Counsellor ; school counselor
+Education Consultant ; schools consultant
+Curriculum Developer ; curriculum designer
+School Bursar ; school accountant ; +bookkeeping
+Sign Language Teacher ; +sign-language
+Coding Instructor ; +write-code
+# higher-ed-research | Higher education & research | 23 | literature-review, academic-writing, research-surveys, statistical-analysis
+Lecturer ; university lecturer, professor, academic
+> Senior Lecturer ; associate professor
+Researcher ; research scientist, research fellow, postdoc
+PhD Student ; doctoral student, postgraduate researcher ; +study-skills, qualitative-analysis
+Research Assistant
+Librarian ; information specialist, academic librarian ; +records-management, find-information
+Instructional Designer ; learning designer, e-learning developer ; +virtual-classroom
+Corporate Trainer ; learning and development specialist, L&D, facilitator ; +workshop-facilitation, presentations
+Education Administrator ; registrar (university), admissions officer ; +forms-surveys, records-management
+Exam Invigilator ; examiner, exam officer
+Career Counsellor ; careers adviser, guidance counsellor ; +job-search, cv-portfolio
+Driving Instructor ; +booking-appointments
+Vocational Instructor ; technical instructor, skills trainer
+Research Grants Officer ; research manager ; +grant-finding
+Dean ; head of department ; +people-management
+Academic Editor ; journal editor
+
+## creative | Creative, Media & Design | visual-portfolio, social-media-presence, creator-income, content-planning
+# visual-design | Design | 21 | graphic-design-pro, brand-identity, photo-editing
+Graphic Designer
+> Brand Designer ; +brand-identity
+> Packaging Designer
+> Print Designer ; +pdf-work
+> Motion Designer ; motion graphics designer ; +motion-graphics
+Illustrator ; +digital-illustration
+Web Designer ; +ui-ux-design, web-development
+Product Designer (industrial) ; industrial designer ; +3d-modelling, mechanical-design
+Fashion Designer ; clothing designer ; +fashion-design
+Textile Designer
+Jewellery Designer ; jewelry designer ; +3d-modelling
+Tattoo Artist ; +digital-illustration, booking-appointments
+Game Artist ; concept artist ; +3d-modelling, digital-illustration
+3D Artist ; 3D modeller, CGI artist ; +3d-modelling
+Animator ; 2D animator, 3D animator ; +motion-graphics, 3d-modelling
+Signwriter ; sign maker
+Calligrapher ; lettering artist
+Presentation Designer ; +presentations
+Infographic Designer ; +data-visualisation
+Exhibition Designer
+Footwear Designer ; +fashion-design
+Furniture Designer ; +3d-modelling, woodworking-design
+# film-video-photo | Film, video & photography | 26 | video-editing-pro, short-video, photography-workflow
+Photographer
+> Wedding Photographer ; +booking-appointments, invoicing
+> Product Photographer ; +product-photography
+> Photojournalist ; +media-verification
+Videographer ; camera operator, cinematographer
+Video Editor ; film editor
+Film Director ; filmmaker, director
+Film Producer ; producer ; +project-scheduling, budgeting-fpa
+Screenwriter ; scriptwriter ; +book-writing-publishing
+Colourist ; colorist
+VFX Artist ; visual effects artist ; +motion-graphics, 3d-modelling
+Sound Engineer ; audio engineer, sound designer ; +audio-production
+Gaffer ; lighting technician (film)
+Script Supervisor
+Casting Director ; +auditions-casting
+Production Assistant ; PA (film) ; +project-scheduling
+Documentary Filmmaker ; +media-verification
+Event Videographer ; +booking-appointments
+Photo Retoucher ; photo editor
+# creators | Content creators & influencers | 26 | short-video, social-media-management, live-streaming, podcast-production
+Content Creator ; creator, influencer, social media creator
+> YouTuber ; video creator ; +video-editing-pro, seo
+> TikToker ; short-form creator
+> Instagram Creator
+> Streamer ; Twitch streamer, live streamer ; +live-streaming
+> Podcaster ; podcast host ; +podcast-production
+> Blogger ; +web-development, seo
+> Food Creator ; food blogger ; +photo-editing
+> Beauty Creator ; beauty influencer, makeup influencer
+> Tech Reviewer ; tech YouTuber
+> Fitness Influencer ; +online-coaching
+> Faith Content Creator ; Christian creator, Muslim creator ; +scripture-study
+> Comedy Skit Maker ; skit maker, comedian (online)
+> Gaming Creator
+> Education Creator ; edutainer
+> Travel Creator ; travel vlogger
+> Finance Creator ; finfluencer
+> Parenting Creator ; mum blogger, dad blogger
+> Fashion Creator
+> Music Creator ; cover artist
+> Art Creator ; +digital-illustration
+UGC Creator ; user-generated content creator ; +online-payments
+Social Media Manager ; +social-media-management, online-ads
+Talent Manager ; influencer manager ; +crm-sales, contract-drafting
+Live Shopping Host ; +live-streaming, online-store
+# writing-journalism | Writing, publishing & journalism | 26 | write-clearly, find-information, media-verification
+Writer ; author, novelist
+> Poet
+> Children's Book Author ; +digital-illustration
+> Ghostwriter
+Journalist ; reporter, correspondent
+> Investigative Journalist ; +osint-research, data-visualisation
+> Data Journalist ; +data-visualisation, sql-querying
+> Broadcast Journalist ; news presenter, anchor ; +video-editing-pro
+> Sports Journalist
+Editor ; copy editor, sub-editor, proofreader
+Publisher ; +book-writing-publishing
+Copywriter ; +copywriting
+Content Writer ; content marketer, SEO writer ; +seo, copywriting
+Translator ; interpreter, localisation specialist ; +translate-languages
+Newsletter Writer ; +newsletter-publishing
+Literary Agent ; +contract-drafting
+Columnist
+Fact-checker ; +media-verification
+Radio Presenter ; broadcaster, OAP, on-air personality ; +audio-production, podcast-production
+Subtitler ; captioner ; +voice-typing-transcription
+Lyricist
+# music-performing | Music | 26 | audio-production, music-notation, release-music, artist-profiles
+Musician ; instrumentalist, music artist, artiste
+> Singer ; vocalist, gospel singer, choir singer
+> Music Producer ; beatmaker ; +audio-production
+> DJ ; disc jockey
+> Songwriter ; lyric writer
+> Church Musician ; worship leader, music director (church) ; +worship-presentation
+> Orchestral Musician
+> Rapper ; hip-hop artist
+> Session Musician
+> Gospel Artist ; gospel musician
+Music Manager ; artist manager ; +contract-drafting
+Concert Promoter ; +events-management
+# performing-arts | Performing arts | 26 | auditions-casting, short-video
+Actor ; actress, performer
+Dancer ; choreographer ; +match-video-analysis
+Comedian ; stand-up comedian
+Theatre Technician ; lighting technician, stage manager ; +stage-production
+Event MC ; master of ceremonies, compere, hype man
+Voice-over Artist ; voice actor ; +audio-production
+Magician ; illusionist
+Puppeteer
+Circus Performer ; acrobat
+Model ; fashion model ; +visual-portfolio
+# visual-arts-crafts | Visual arts & crafts | 26 | sell-art-online, product-photography
+Visual Artist ; painter, sculptor, fine artist ; +sell-art-online
+Craftsperson ; artisan, crafter, maker ; +sell-art-online, marketplace-selling
+Gallery Curator ; museum curator ; +records-management
+Art Dealer ; +sell-art-online
+Potter ; ceramicist ; +sell-art-online
+Bead Maker ; jewellery maker ; +sell-art-online
+
+## marketing | Marketing, Sales & Communications | social-media-presence, crm-sales, copywriting, web-analytics
+# marketing-roles | Marketing | 24 | email-marketing, seo, online-ads, social-media-management, market-research
+Marketing Manager ; head of marketing, CMO
+Digital Marketer ; digital marketing specialist, online marketer
+> SEO Specialist ; +seo
+> PPC Specialist ; paid media specialist ; +online-ads
+> Email Marketing Specialist ; +email-marketing
+> Growth Marketer ; growth hacker ; +product-analytics
+> Performance Marketer
+> Affiliate Marketer
+Brand Manager ; +brand-identity
+Product Marketing Manager ; PMM ; +presentations
+Community Manager ; +group-messaging, events-management
+Market Researcher ; +research-surveys, statistical-analysis
+Marketing Assistant
+Influencer Marketing Manager
+Content Marketing Manager ; +seo
+Marketing Automation Specialist ; +automation-workflows
+CRM Manager
+Trade Marketing Manager
+# sales | Sales | 52 | crm-sales, presentations
+Sales Representative ; sales rep, salesperson, sales executive
+> Inside Sales Representative ; SDR, BDR, telesales
+> Field Sales Representative ; territory sales ; +route-planning-fleet
+> Medical Sales Representative ; pharmaceutical sales rep ; +route-planning-fleet
+> Account Executive
+Sales Manager ; head of sales ; +kpi-tracking
+Customer Success Manager ; account manager ; +customer-support
+Real Estate Agent ; estate agent, realtor, property agent ; +property-marketing
+Car Salesperson ; vehicle sales
+Retail Sales Assistant ; shop assistant, sales clerk ; +point-of-sale
+Key Account Manager
+Sales Operations Analyst ; +dashboards-bi
+Visual Merchandiser ; merchandiser ; +product-photography
+Telemarketer
+Solar Sales Representative
+# communications | Communications & PR | 24 | pr-media-monitoring, presentations, events-management
+PR Specialist ; public relations officer, communications officer
+Corporate Communications Manager
+Spokesperson ; press officer, media relations officer
+Speechwriter
+Event Planner ; event manager, wedding planner, events coordinator ; +events-management, booking-appointments
+Customer Service Representative ; call centre agent, customer service agent, support agent ; +customer-support
+Fundraiser ; development officer ; +fundraising
+Internal Communications Manager
+Crisis Communications Specialist
+Public Affairs Manager ; lobbyist ; +policy-research
+
+## business | Business, Management & Administration | business-planning, project-management, kpi-tracking, presentations, meeting-minutes
+# leadership | Leadership & management | 11 | people-management, budgeting-fpa, consulting-deliverables
+CEO ; chief executive, managing director, founder
+Startup Founder ; entrepreneur, co-founder ; +financial-modelling, online-store, fundraising
+COO ; chief operating officer, operations director ; +process-mapping, erp
+General Manager ; +inventory-procurement
+Operations Manager ; +process-mapping, inventory-procurement
+Board Director ; non-executive director, board member
+Strategy Manager ; head of strategy ; +market-research
+Chief Strategy Officer
+Chief Data Officer ; +dashboards-bi
+Chief People Officer ; CHRO ; +people-management
+Business Development Manager ; BD manager ; +crm-sales
+Family Business Owner
+# consulting | Consulting | 24 | consulting-deliverables, workshop-facilitation, market-research, financial-modelling
+Management Consultant ; consultant, strategy consultant
+> Strategy Consultant ; senior strategy consultant
+> HR Consultant ; organisational development consultant ; +people-management, research-surveys
+> Operations Consultant ; +process-mapping, lean-six-sigma
+> Technology Consultant ; +diagramming
+> Sustainability Consultant ; ESG consultant ; +environmental-monitoring
+> Development Consultant ; international development consultant ; +monitoring-evaluation
+> Digital Transformation Consultant
+> Change Management Consultant
+> Financial Advisory Consultant ; +financial-modelling
+Business Coach ; executive coach, life coach ; +video-meetings, booking-appointments
+# hr | Human resources | 24 | recruitment, people-management, payroll, forms-surveys
+HR Manager ; human resources manager, people manager, HR business partner
+Recruiter ; talent acquisition specialist, headhunter
+HR Officer ; HR assistant, HR generalist
+Learning and Development Manager ; +lesson-planning, virtual-classroom
+Compensation and Benefits Analyst ; reward analyst ; +spreadsheets-basics
+Employee Relations Specialist
+HRIS Analyst ; +databases
+Diversity and Inclusion Lead ; DEI lead
+Workforce Planner
+# administration | Administration & office support | 41 | email-and-calendar, documents-basics, files-cloud-storage, scan-documents, browser-productivity
+Administrative Assistant ; admin assistant, office assistant, secretary
+Executive Assistant ; personal assistant, PA ; +travel-planning
+Virtual Assistant ; remote assistant ; +freelancing, automation-workflows
+Office Manager ; +inventory-procurement
+Receptionist ; front desk officer ; +booking-appointments
+Data Entry Clerk ; typist ; +data-cleaning
+Records Clerk ; filing clerk, archivist ; +records-management
+Procurement Officer ; purchasing officer, buyer ; +inventory-procurement
+Supply Chain Manager ; logistics manager ; +warehouse-inventory, erp
+Project Manager ; programme manager, project coordinator ; +project-scheduling, process-mapping
+Project Management Officer ; PMO analyst ; +dashboards-bi
+Quality Manager ; ISO coordinator ; +quality-hse, process-mapping
+Front Office Manager
+Facilities Coordinator
+Business Support Officer
+# smb | Small business & self-employed | 14 | online-store, invoicing, bookkeeping, customer-support, point-of-sale
+Small Business Owner ; business owner, SME owner, shop owner
+Trader ; market trader, merchant, petty trader ; +marketplace-selling, agri-market-access
+Freelancer ; independent contractor, self-employed ; +freelancing
+Franchise Owner
+E-commerce Seller ; online seller, online vendor ; +marketplace-selling, product-photography
+Dropshipper ; +marketplace-selling
+Importer and Exporter ; import-export trader ; +shipment-tracking
+Fashion Brand Owner ; clothing brand owner ; +product-photography
+Cosmetics Brand Owner ; skincare brand owner ; +product-photography
+Printing Business Owner ; business centre owner ; +graphic-design-pro
+Cyber Café Owner ; cybercafe operator
+Event Rentals Business Owner ; canopy and chairs rental
+Logistics Business Owner ; dispatch company owner ; +route-planning-fleet
+Supermarket Owner ; minimart owner ; +inventory-procurement
+
+## public-sector | Public Service, Government & Non-profit | policy-research, records-management, public-consultation, monitoring-evaluation
+# government | Government & public administration | 11 | kpi-tracking, open-data
+Civil Servant ; public servant, government official
+Policy Analyst ; policy adviser ; +statistical-analysis
+Legislator ; politician, member of parliament, senator, councillor ; +social-media-presence, video-meetings
+Legislative Aide ; parliamentary researcher
+Diplomat ; foreign service officer ; +translate-languages
+Customs Officer ; +shipment-tracking
+Immigration Officer
+Tax Officer ; tax inspector, revenue officer
+Statistician (government) ; national statistics officer ; +statistical-analysis, dashboards-bi
+Local Government Officer ; council officer
+Regulator ; regulatory officer, inspector ; +regulatory-reporting
+Election Officer ; electoral officer
+Town Clerk
+Budget Officer ; +budgeting-fpa
+Public Auditor ; government auditor ; +audit-analytics
+Agricultural Officer (government) ; +crop-monitoring
+Census Enumerator ; field enumerator ; +forms-surveys
+Planning Officer ; +gis-mapping
+Ombudsman
+Social Security Officer
+# nonprofit | Non-profit & international development | 26 | fundraising, grant-finding, volunteer-coordination, forms-surveys
+NGO Programme Manager ; programme officer, project officer (NGO) ; +project-management
+Monitoring and Evaluation Officer ; M&E officer, MEAL officer ; +dashboards-bi, research-surveys
+Grant Writer ; proposal writer ; +write-clearly
+Humanitarian Worker ; aid worker, relief worker ; +emergency-comms, maps-navigation
+Community Development Worker ; community organiser, community mobiliser ; +group-messaging
+Volunteer Coordinator
+Advocacy Officer ; campaigner, activist ; +social-media-management
+Social Entrepreneur ; +business-planning
+Peacebuilder ; conflict resolution specialist
+Refugee Caseworker ; +case-management, translate-languages
+WASH Officer ; water and sanitation officer ; +gis-mapping
+Child Rights Officer ; child protection officer (NGO)
+Gender Specialist ; gender officer
+Humanitarian Logistics Officer ; +warehouse-inventory
+
+## faith | Faith & Community | scripture-study, worship-presentation, service-livestream, congregation-management, online-giving, pastoral-care
+# clergy | Clergy & faith leaders | 26 | group-messaging, social-media-presence, video-meetings
+Pastor ; minister, reverend, preacher, clergy
+> Senior Pastor ; lead pastor ; +people-management, budgeting-fpa
+> Youth Pastor ; youth minister ; +short-video
+> Missionary ; evangelist ; +translate-languages, language-learning
+> Chaplain ; hospital chaplain, military chaplain, prison chaplain
+> Bishop ; overseer
+> Church Planter
+> Worship Pastor ; music pastor
+> Apostle ; prophet
+Priest ; Catholic priest, vicar, father
+Imam ; Islamic cleric, sheikh, Muslim scholar
+Rabbi
+Religious Teacher ; Sunday school teacher, Bible teacher, Quran teacher, catechist ; +lesson-planning, quizzes-assessment
+Theologian ; theology lecturer ; +academic-writing, literature-review
+Bible Translator ; +translate-languages
+Muezzin
+Monk ; nun, religious brother, religious sister
+Buddhist Teacher ; meditation teacher ; +mindfulness-wellbeing
+Hindu Priest ; pandit
+Interfaith Leader
+# faith-workers | Church & ministry workers | 34 | events-management, design-simple-graphics
+Church Administrator ; parish administrator ; +bookkeeping
+Worship Leader ; choir director, praise and worship leader ; +audio-production
+Church Media Team Member ; church tech volunteer, media ministry ; +video-editing-pro
+Usher ; protocol officer, welcome team
+Deacon ; elder, church warden
+Faith-based Counsellor ; pastoral counsellor
+Mosque Administrator
+Church Finance Officer ; +bookkeeping
+Children's Church Teacher ; +lesson-planning
+Choir Member ; +music-notation
+Church Photographer ; +photography-workflow
+
+## sports | Sports & Fitness | training-load, nutrition-planning, match-video-analysis, athlete-brand
+# athletes | Athletes | 34 | team-organisation
+Athlete ; sportsperson, professional athlete
+> Footballer ; soccer player
+> Golfer
+> Rugby Player
+> Cricketer
+> Volleyball Player
+> Weightlifter ; powerlifter, bodybuilder
+> Basketball Player
+> Track and Field Athlete ; sprinter, runner
+> Marathon Runner ; distance runner
+> Cyclist
+> Swimmer
+> Tennis Player
+> Boxer ; fighter, MMA fighter
+> Esports Player ; pro gamer ; +live-streaming
+> Para-athlete ; Paralympian ; +accessibility-tools
+> Gymnast
+> Martial Artist ; taekwondo practitioner, judoka, karateka
+> Wrestler
+> Table Tennis Player
+> Badminton Player
+> Handball Player
+> Hockey Player
+> Chess Player ; chess master
+> Racing Driver ; motorsport driver
+> Jockey
+> Triathlete
+> Rower
+Student Athlete ; +study-skills
+# coaching | Coaching & fitness | 34 | online-coaching, movement-analysis, sports-analytics
+Sports Coach ; coach, football coach, athletics coach
+Personal Trainer ; fitness trainer, PT (fitness) ; +gym-membership, booking-appointments
+Fitness Instructor ; yoga teacher, pilates instructor, aerobics instructor ; +gym-membership
+Strength and Conditioning Coach ; S&C coach
+Performance Analyst ; sports analyst, video analyst ; +sports-analytics
+Sports Scientist ; +statistical-analysis
+Referee ; umpire, match official
+Sports Agent ; athlete manager ; +contract-drafting, crm-sales
+Gym Owner ; +gym-membership, bookkeeping
+Sports Administrator ; club secretary ; +events-management
+Talent Scout ; scout ; +match-video-analysis
+Sports Commentator ; +audio-production
+Sports Photographer ; +photography-workflow
+Sports Marketing Manager ; +social-media-management
+Club Manager ; football club manager ; +kpi-tracking
+Sports Nutritionist ; +nutrition-planning
+Sports Psychologist ; +mindfulness-wellbeing
+Esports Coach
+Kit Manager ; equipment manager
+
+## agriculture | Agriculture, Food & Environment | farm-records, weather-planning, agri-market-access
+# farming | Farming | 61 | crop-monitoring, plant-health, livestock-management
+Farmer ; agriculturist, grower
+> Crop Farmer ; arable farmer, cassava farmer, maize farmer, rice farmer ; +crop-monitoring
+> Livestock Farmer ; cattle farmer, rancher, herder ; +livestock-management
+> Poultry Farmer ; chicken farmer
+> Fish Farmer ; aquaculturist, catfish farmer
+> Vegetable Farmer ; horticulturist, market gardener
+> Smallholder Farmer ; subsistence farmer
+> Cocoa Farmer ; coffee farmer, tea farmer
+> Beekeeper ; apiarist
+> Snail Farmer ; heliculturist
+> Mushroom Farmer
+> Goat Farmer ; sheep farmer
+> Pig Farmer
+> Dairy Farmer
+> Plantation Farmer ; oil palm farmer, rubber farmer
+> Greenhouse Grower ; hydroponics farmer
+> Organic Farmer
+> Urban Farmer
+Farm Manager ; +people-management
+Agronomist ; agricultural scientist ; +gis-mapping
+Agricultural Extension Officer ; extension agent ; +patient-education, forms-surveys
+Agribusiness Owner ; agripreneur ; +business-planning
+Agricultural Engineer ; +cad-drafting, engineering-calculations
+Farm Worker ; farmhand, agricultural labourer
+Tractor Operator ; +maintenance-cmms
+Agro-dealer ; farm input supplier ; +inventory-procurement
+Commodity Trader ; +market-research-finance
+Irrigation Specialist ; +hydraulic-modelling
+Seed Producer
+Agricultural Economist ; +statistical-analysis
+Produce Aggregator ; +route-planning-fleet
+# food-env | Food science & environment | 21 | environmental-monitoring, gis-mapping
+Food Scientist ; food technologist ; +food-safety, lab-data
+Environmental Scientist ; ecologist ; +statistical-analysis
+Conservationist ; wildlife officer, park ranger
+Forester ; forestry officer ; +crop-monitoring
+Fisheries Officer ; fisher, fisherman ; +maritime-navigation
+Climate Scientist ; +scientific-computing
+Waste Management Officer ; recycling officer
+Sustainability Manager ; ESG manager, sustainability officer ; +kpi-tracking
+Landscape Gardener ; gardener, groundskeeper ; +trade-quotes-invoicing
+Arborist ; tree surgeon
+Florist ; +online-store
+Water Quality Analyst ; +lab-data
+Environmental Impact Assessor ; EIA consultant ; +technical-reporting
+
+## construction | Construction, Property & Trades | site-management, trade-quotes-invoicing, site-measurement
+# building-trades | Building trades | 71 | quality-hse
+Builder ; general contractor, construction contractor ; +project-scheduling, cost-estimation
+Bricklayer ; mason, block layer
+Carpenter ; joiner, woodworker, cabinet maker ; +woodworking-design
+Plumber ; pipefitter
+Electrician ; electrical contractor ; +electrical-design
+Painter and Decorator ; house painter
+Tiler ; floor layer
+Plasterer
+Roofer
+Welder ; fabricator ; +cad-drafting
+Scaffolder
+Glazier ; window fitter
+HVAC Technician ; air conditioning technician, refrigeration technician
+Steel Fixer ; ironworker
+Heavy Equipment Operator ; excavator operator, crane operator
+Construction Labourer ; site labourer
+Site Supervisor ; foreman ; +project-scheduling
+Interior Fit-out Contractor
+Aluminium Fabricator ; aluminum fabricator
+POP Ceiling Installer ; POP installer
+Borehole Driller ; water well driller
+Paver ; interlocking stone layer
+Insulation Installer
+Demolition Worker
+# property | Property & real estate | 33 | property-marketing, property-management, crm-sales
+Property Manager ; facility manager, facilities manager ; +maintenance-cmms
+Estate Surveyor and Valuer ; valuer, property valuer ; +financial-modelling
+Real Estate Developer ; property developer ; +financial-modelling, project-scheduling
+Landlord ; property owner
+Building Inspector ; building control officer ; +incident-reporting
+Facility Management Technician
+Property Investor ; +financial-modelling
+# repair-trades | Repair & maintenance trades | 72 | repair-guides
+Mechanic ; auto mechanic, car mechanic, motor technician ; +vehicle-diagnostics
+Auto Electrician ; +vehicle-diagnostics
+Motorcycle Mechanic ; +vehicle-diagnostics
+Phone and Electronics Repairer ; phone repairer, electronics technician
+Appliance Repair Technician
+Locksmith
+Tailor ; seamstress, dressmaker, fashion tailor ; +fashion-design, booking-appointments
+Shoemaker ; cobbler
+Blacksmith ; metalworker
+Generator Technician ; generator repairer
+Watch Repairer
+Bicycle Mechanic
+Upholsterer
+Vulcaniser ; tyre repairer
+Panel Beater ; body shop technician
+Auto Spray Painter
+
+## manufacturing | Manufacturing & Production | production-planning, quality-statistics, maintenance-cmms
+# manufacturing-roles | Manufacturing | 31 | lean-six-sigma, quality-hse
+Production Manager ; plant manager, factory manager ; +kpi-tracking
+Production Supervisor ; shift supervisor
+Machine Operator ; machinist, CNC operator ; +cnc-cam
+Assembly Worker ; assembler
+Quality Control Technician ; +quality-statistics
+Printer ; print technician, press operator ; +pdf-work
+3D Printing Technician ; additive manufacturing technician ; +3d-printing
+Factory Worker ; production worker
+Butcher ; meat processor
+Fishmonger ; fish seller
+Textile Worker ; weaver, garment worker
+Furniture Maker ; +woodworking-design
+Soap and Cosmetics Maker ; +recipe-costing, online-store
+Garment Manufacturer
+Food Processor ; +food-safety
+Packaging Operator
+Plastics Technician
+Industrial Electrician ; +plc-automation
+QC Lab Analyst ; +lab-data
+Brewer ; distiller
+Baker ; pastry chef ; +recipe-costing
+
+## transport | Transport, Logistics, Aviation & Maritime | route-planning-fleet, shipment-tracking, maps-navigation
+# driving-logistics | Driving & logistics | 83 | driver-earnings, warehouse-inventory
+Driver ; chauffeur
+> Ride-hailing Driver ; Uber driver, Bolt driver, taxi driver ; +driver-earnings
+> Truck Driver ; lorry driver, haulier, HGV driver
+> Delivery Rider ; dispatch rider, courier ; +driver-earnings
+> Bus Driver ; coach driver
+> Tricycle Rider ; keke rider ; +driver-earnings
+> Motorcycle Taxi Rider ; okada rider, boda boda rider ; +driver-earnings
+Logistics Coordinator ; dispatcher, logistics officer
+Warehouse Manager ; storekeeper ; +warehouse-inventory
+Warehouse Operative ; picker, packer, forklift operator
+Fleet Manager ; transport manager ; +maintenance-cmms
+Freight Forwarder ; clearing agent, customs broker
+Shipping Clerk
+Supply Chain Planner ; +inventory-procurement
+Driving School Owner ; +booking-appointments
+Removal Company Owner ; mover
+# aviation | Aviation | 31 | flight-planning
+Pilot ; airline pilot, commercial pilot, aviator
+> Helicopter Pilot
+> Flight Instructor ; +lesson-planning
+Flight Attendant ; cabin crew, air hostess, steward ; +language-learning
+Air Traffic Controller
+Aircraft Maintenance Engineer ; aircraft technician, AME ; +maintenance-cmms
+Aviation Student ; student pilot ; +study-skills
+Airport Operations Officer
+Aircraft Dispatcher ; flight dispatcher
+# maritime-rail | Maritime & rail | 31 | maritime-navigation
+Ship Captain ; master mariner, ship master
+Marine Officer ; deck officer, navigation officer
+Marine Engineer (seafarer) ; ship engineer ; +maintenance-cmms
+Seafarer ; sailor, seaman, deckhand
+Port Operations Officer ; harbour master
+Train Driver ; locomotive engineer
+Rail Operations Controller
+
+## hospitality | Hospitality, Tourism & Food Service | reviews-reputation, customer-support, booking-appointments
+# food-service | Food service | 34 | restaurant-operations, recipe-costing, food-safety
+Chef ; cook, head chef, sous chef
+> Private Chef ; personal chef ; +invoicing
+> Caterer ; event caterer ; +events-management, invoicing
+Restaurant Owner ; restaurateur ; +bookkeeping, people-management
+Restaurant Manager
+Waiter ; server, waitress
+Bartender ; mixologist
+Barista
+Food Vendor ; street food vendor, food truck owner ; +point-of-sale
+Kitchen Porter
+Sommelier
+Cake Maker ; cake designer, baker (home) ; +product-photography, online-store
+Snack Business Owner ; small chops vendor ; +social-media-presence
+# tourism-lodging | Tourism & lodging | 14 | hotel-management, travel-planning, tour-booking
+Hotel Manager ; hotelier, guesthouse owner
+Hotel Receptionist ; front office agent
+Short-let Host ; Airbnb host, shortlet operator
+Travel Agent ; tour operator ; +travel-planning
+Tour Guide ; +tour-booking, language-learning
+Housekeeper ; room attendant
+Concierge
+Resort Manager
+Visa Consultant ; travel consultant ; +records-management
+Hostel Owner
+
+## beauty | Beauty, Wellbeing & Personal Services | salon-booking, visual-portfolio, short-video
+# beauty-roles | Beauty & personal care | 51 | point-of-sale, social-media-presence
+Hairdresser ; hair stylist, barber, braider
+Makeup Artist ; MUA
+Nail Technician ; manicurist
+Beauty Therapist ; aesthetician, esthetician, beautician
+Spa Therapist
+Cosmetologist
+Lash Technician
+Wig Maker ; wig revamper ; +online-store
+Skincare Formulator ; +recipe-costing
+Gele Stylist ; headwrap stylist
+Henna Artist
+Perfumer ; fragrance maker
+# personal-services | Personal & household services | 51 | booking-appointments, online-payments
+Nanny ; childminder, babysitter ; +kids-online-safety
+Domestic Worker ; housekeeper (domestic), house help
+Cleaner ; cleaning business owner ; +trade-quotes-invoicing
+Laundry Owner ; dry cleaner
+Pet Groomer ; dog walker, pet sitter
+Funeral Director ; undertaker ; +events-management
+Wedding Coordinator ; +events-management
+Personal Stylist ; fashion stylist, image consultant ; +visual-portfolio
+Personal Shopper
+Errand Runner ; personal concierge
+Elderly Companion ; companion carer
+Matchmaker
+Event Decorator ; +events-management
+Photobooth Operator
+
+## security | Security, Defence & Emergency Services | incident-reporting, emergency-comms
+# protective | Policing, security & emergency | 54 | osint-research, maps-navigation
+Police Officer ; policeman, policewoman, constable
+> Detective ; criminal investigator ; +digital-forensics, osint-research
+> Traffic Officer ; road safety officer
+Firefighter ; fireman, fire officer
+Security Guard ; security officer, bouncer
+Prison Officer ; correctional officer
+Private Investigator ; +osint-research
+Emergency Dispatcher ; 911 dispatcher, emergency call handler
+Lifeguard
+Disaster Management Officer ; emergency management officer ; +gis-mapping
+Security Manager ; head of security
+Digital Forensics Investigator ; +digital-forensics
+Cybercrime Investigator ; +digital-forensics
+Coast Guard Officer ; +maritime-navigation
+Close Protection Officer ; bodyguard
+CCTV Operator ; security control room operator
+Search and Rescue Volunteer
+Fire Safety Inspector
+Intelligence Analyst ; +osint-research
+# armed-forces | Armed forces | 01 | maps-navigation, emergency-comms
+Military Officer ; army officer, naval officer, air force officer
+Soldier ; enlisted service member, sailor (navy), airman
+Military Engineer ; +engineering-calculations
+Veteran ; ex-service member ; +job-search, cv-portfolio
+Military Pilot ; +flight-planning
+Military Intelligence Officer ; +osint-research
+Military Logistics Officer ; +warehouse-inventory
+Military Medic ; combat medic ; +clinical-reference
+
+## science | Science & Laboratory | scientific-computing, scientific-figures, research-data-management, literature-review, academic-writing
+# natural-sciences | Natural & life sciences | 21 | lab-data, statistical-analysis
+Scientist ; research scientist
+Biologist ; microbiologist, zoologist, botanist ; +molecular-biology
+Biochemist ; molecular biologist ; +molecular-biology
+Geneticist ; genomics scientist, bioinformatician ; +molecular-biology, scientific-computing
+Chemist ; analytical chemist, organic chemist ; +chemistry-drawing
+Physicist
+Astronomer ; astrophysicist ; +astronomy-observation
+Mathematician
+Meteorologist ; weather forecaster ; +weather-planning
+Oceanographer ; marine scientist
+Pharmacologist ; toxicologist ; +chemistry-drawing
+Laboratory Manager ; lab manager ; +inventory-procurement
+Clinical Research Associate ; CRA, clinical trial coordinator ; +health-research-data
+Science Communicator ; science journalist ; +short-video, write-clearly
+Laboratory Technician ; lab assistant, lab technician
+Entomologist
+Marine Biologist ; +environmental-monitoring
+Volcanologist
+Biotechnologist ; +molecular-biology
+Nanotechnologist
+Forensic Scientist ; +digital-forensics
+Neuroscientist
+Patent Examiner ; +legal-research
+
+## social-care | Social Care & Community | case-management, service-referral, care-coordination
+# social-work | Social work & care | 26 | accessible-communication, records-management
+Social Worker ; caseworker
+> Child Protection Social Worker
+> Medical Social Worker ; hospital social worker
+Care Worker ; caregiver, carer (professional), support worker, home health aide
+Disability Support Worker ; +accessible-communication
+Youth Worker ; youth mentor ; +group-messaging
+Probation Officer
+Sign Language Interpreter ; +sign-language
+Elderly Care Manager ; care home manager ; +shift-rota
+Foster Carer
+Mental Health Support Worker
+Domestic Violence Advocate
+Housing Officer
+Welfare Officer
+Rehabilitation Worker
+Children's Home Manager ; orphanage administrator ; +fundraising
+
+## life | Life roles & everyday people | digital-basics, family-organisation
+# students | Students & learners | - | study-skills, learn-online, academic-writing
+Student ; learner
+> Secondary School Student ; high school student, pupil ; +study-skills
+> University Student ; undergraduate, college student ; +literature-review
+> Postgraduate Student ; master's student, MBA student ; +consulting-deliverables
+> International Student ; +translate-languages, language-learning
+> Exam Candidate ; JAMB candidate, WAEC candidate, SAT candidate ; +study-skills
+> Distance Learning Student ; online student
+> Vocational Student ; trade student
+Apprentice ; trainee ; +learn-online
+NYSC Corps Member ; national service member ; +job-search
+Intern ; graduate trainee
+Lifelong Learner ; adult learner, self-learner
+# work-transitions | Work & career transitions | - | job-search, cv-portfolio, professional-profile, freelancing
+Job Seeker ; unemployed, looking for work
+Career Changer ; career switcher
+Fresh Graduate ; new graduate, recent graduate
+Returner ; returning to work, career break
+Retiree ; retired, pensioner ; +digital-basics, volunteering
+Remote Worker ; digital nomad ; +video-meetings
+Gig Worker ; +freelancing, driver-earnings
+Side Hustler ; +online-store, social-media-presence
+Newcomer to a Country ; immigrant, expat, refugee, migrant ; +translate-languages, service-referral, language-learning
+# home-family | Home & family | - | family-organisation, kids-online-safety, personal-finance
+Parent ; mother, father, mum, dad
+> New Parent ; first-time parent
+> Homeschooling Parent ; home educator ; +lesson-planning
+> Single Parent
+> Parent of a Disabled Child ; special needs parent ; +accessible-communication
+Homemaker ; stay-at-home parent, housewife, househusband
+Family Carer ; caregiver (family), carer for a relative ; +care-coordination, personal-health-tracking
+Grandparent ; +digital-basics
+# community | Community & volunteering | - | volunteering, group-messaging, events-management
+Volunteer ; community volunteer
+Community Leader ; traditional ruler, chief, community elder, landlord association chair
+Resident Association Member ; estate committee member
+Hobbyist ; enthusiast, DIYer
+Person with a Disability ; disabled person, blind person, Deaf person, wheelchair user ; +accessibility-tools, accessible-communication
+Senior Citizen ; older adult, elderly person ; +digital-basics
+Club Member ; society member
+Alumni Association Officer ; +events-management
+Cooperative Member ; +bookkeeping

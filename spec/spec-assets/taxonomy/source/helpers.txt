@@ -1,0 +1,115 @@
+# Helpers — a guided path through the tools for one kind of person (D-066). A helper follows you across the app and shows your stage and next step.
+# (Called 'journeys' before V2.5; the data is unchanged.)
+# =helper slug | Title | identity slugs (comma; first is the headline identity) | one-line promise
+# intro: short paragraph shown at the top
+# @stage Stage title | The goal of this stage, in the learner's words | time (e.g. "1–2 weeks")
+# - tool-slug | need-slug (or -) | What you will do with it (specific to this journey) | first-win: a small result to aim for
+# done: how you know you have finished the stage (shown as a checklist)
+# Limits: at most 8 stages per helper; every stage needs at least one step and one 'done' line. Every tool-slug must exist in registry.txt; every need-slug in needs.txt. The build fails otherwise.
+
+=helper musician | The Musician Helper | musician, singer, music-producer, songwriter, rapper, dj | From idea to released song, and the first thousand listeners
+intro: You do not need a studio, a label or a lot of money to get your music heard. This path takes you from recording on a phone or laptop to having your song on Spotify, Apple Music and Audiomack, and then to understanding the people who listen.
+@stage Capture your sound | Record a song that sounds clean on phone speakers and earbuds | 1–2 weeks
+- bandlab | audio-production | Record vocals and instruments in the browser or app, then share a rough demo with collaborators | Record a 60-second idea and send it to one friend
+- audacity | audio-production | Clean up noise, trim and normalise a vocal take | Remove hiss from one recording
+- reaper | audio-production | Move to a full desktop studio when you outgrow phone apps: tracks, plugins, mixing | Mix a song with 4 tracks
+- garageband | audio-production | If you have a Mac, iPhone or iPad: loops, drums and quick songwriting | Build a beat from loops
+done: You have one finished mix | You can export a WAV file | You have listened to it on phone speakers, earbuds and a car or home system
+@stage Write it down | Notate songs so other musicians can play them | 1 week
+- musescore | music-notation | Write a lead sheet or choir parts and export a PDF | Notate the chorus of your song
+done: You have a lead sheet for one song | Your band or choir can read it
+@stage Get it released | Put your song on every major streaming service | 1–2 weeks
+- distrokid | release-music | Upload your track, artwork and details to many stores at once | Submit one single
+- tunecore | release-music | The alternative distributor: compare how each one pays and charges before you commit | Compare two distributors in a table
+- audiomack | release-music | Reach African and Caribbean audiences, upload directly and understand its creator tools | Create your artist page
+- bandlab | release-music | Release straight from the app if you recorded there | Check whether release is available in your country
+done: Your song is live on at least one store | Your artist name matches everywhere | You know the release date, ISRC and who gets paid
+@stage Look the part | Make cover art and short videos that people stop to watch | 1–2 weeks
+- canva | design-simple-graphics | Design square cover art and a Spotify Canvas-style visual | Make one cover with the correct size
+- capcut | short-video | Cut 15 to 30 second clips with your lyrics on screen | Post one teaser clip
+- instagram | social-media-management | Use Reels and Stories to tell the story behind the song | Post a Reel with a link to your song
+done: You have a recognisable cover style | You have 3 short clips ready for release week
+@stage Understand your listeners | Know who listens, where, and what works | ongoing
+- spotify-for-artists | artist-profiles | Claim your profile, update your photo and bio, pitch a new song to editors, read the numbers | Claim your profile
+- audiomack | artist-profiles | Read your plays and followers by song | Note your top song and top city
+- google-sheets | spreadsheets-basics | Keep a simple release log: date, platform, plays, what you posted | Log your first three releases
+done: You can say which song and which post worked best | You plan the next release from evidence
+@stage Run your music as a business | Keep your money, contracts and fans organised | ongoing
+- whatsapp-business | customer-support | A catalogue and quick replies for show bookings and merch | Set up your business profile
+- wave | bookkeeping | Record show fees, royalties and costs | Record your first month
+- claude | use-ai-assistants | Draft bios, press notes and booking emails, then edit them in your own voice | Write a 100-word bio
+done: You know your income and costs this month | You can answer a booking enquiry in five minutes
+
+=helper data-analyst | The Data Analyst Helper | data-analyst, business-analyst, data-scientist | From messy spreadsheets to dashboards people act on
+intro: Analysts earn trust by answering real questions with clean data and clear charts. This path takes you from solid spreadsheets, through cleaning and SQL, to dashboards and your first notebook, with AI as a checking partner and not a shortcut.
+@stage Spreadsheets you can trust | Build formulas, tables and charts that others can follow | 2 weeks
+- microsoft-excel | spreadsheets-basics | Tables, lookups, pivot tables and charts on a real dataset | Summarise a sales file with a pivot table
+- google-sheets | spreadsheets-basics | Share and collaborate, and import data from other sheets | Build a shared tracker
+done: You can explain every formula in your file | A colleague can reopen your work without you
+@stage Clean the data | Turn messy exports into tidy tables you can analyse | 2 weeks
+- power-query | data-cleaning | Split columns, fix types, merge files and repeat the steps next month | Clean a monthly export in one click
+- python | data-cleaning | Use pandas when files are too large or messy for a spreadsheet | Load a CSV and count missing values
+done: You keep the raw file untouched | Your cleaning steps can be run again
+@stage Ask questions with SQL | Pull exactly the data you need from a database | 2–3 weeks
+- dbeaver | sql-querying | Connect to a database, browse tables and run queries | Run your first SELECT
+- bigquery | sql-querying | Practise on large public datasets in the cloud | Query a public dataset
+done: You can use SELECT, WHERE, GROUP BY, JOIN | You can explain what each query returns
+@stage Show it clearly | Build dashboards and charts that lead to decisions | 2–3 weeks
+- power-bi | dashboards-bi | Model data, write measures and build a report with filters | Publish a one-page sales dashboard
+- looker-studio | dashboards-bi | A free web option, good for marketing and Google data | Connect a sheet and share a report
+- datawrapper | data-visualisation | Make clear, accessible charts and maps for reports and articles | Publish one chart
+done: Each dashboard answers one question | Titles state the finding, not the topic
+@stage Go deeper with notebooks | Explore data, test ideas and share a reproducible analysis | 3–4 weeks
+- jupyter | statistical-analysis | Explore, chart and explain in one notebook | Share a notebook that runs top to bottom
+- google-colab | statistical-analysis | Run notebooks in the browser with nothing to install | Open a notebook and run it
+- python | statistical-analysis | Summaries, group comparisons, simple models | Compare two groups and explain the difference
+done: Someone else can rerun your notebook | You state what your result does not show
+@stage Work with AI, carefully | Speed up the work without losing accuracy | ongoing
+- chatgpt | use-ai-assistants | Explain errors, draft SQL and formulas, and suggest checks | Ask for a query then verify it on a small sample
+- claude | use-ai-assistants | Review your analysis for gaps and summarise findings in plain words | Ask it to find holes in your method
+done: You never ship numbers you have not checked | You can say what the AI helped with
+@stage Show your work | Build a portfolio and tell the story | ongoing
+- linkedin | professional-profile | Publish case studies and share your dashboards | Post one project with the question, method and result
+done: You have three projects with the question, the data and the finding
+
+=helper entrepreneur | The Entrepreneur Helper | startup-founder, small-business-owner, social-entrepreneur | From idea to first paying customers, and a business you can run
+intro: Starting something is mostly about finding out whether people want it, then keeping the simple things in order. This path takes you from testing an idea to selling, keeping books, growing and pitching, using tools that cost little or nothing at the start.
+@stage Test the idea | Find out whether real people would pay | 1–2 weeks
+- google-trends | market-research | See how interest in your idea changes over time and by place | Compare three names for your idea
+- typeform | forms-surveys | Ask 20 people the same five questions and read the answers | Send a survey and collect 20 replies
+- google-forms | forms-surveys | A free option for quick surveys | Create a survey in 15 minutes
+- claude | use-ai-assistants | Brainstorm questions, spot weak assumptions and summarise answers. It does not replace talking to customers | List the five riskiest assumptions
+done: You have spoken to 20 potential customers | You know who would pay, how much and why
+@stage Make a plan you can use | Put the idea, money and next steps on a page | 1 week
+- notion | personal-productivity | Keep your plan, tasks and notes in one place | Create your one-page plan
+- miro | business-planning | Map your customers, offer and channels on a canvas | Fill in a business model canvas
+- microsoft-excel | financial-modelling | Estimate costs, prices and break-even | Calculate how many sales you need each month
+done: You can state your customer, offer, price and first goal in four sentences
+@stage Look credible | Have a name, look and place people can find you | 1 week
+- canva | brand-identity | A simple logo, colours and templates | Create a logo and three post templates
+- google-business-profile | reviews-reputation | Appear on Google Maps and in local search | Claim and complete your profile
+- wordpress | web-development | Build a simple website when you are ready for one | Publish a one-page site
+done: A stranger can tell what you sell in five seconds
+@stage Sell | Get your first paying customers | 2–4 weeks
+- whatsapp-business | customer-support | Catalogue, labels, quick replies and broadcast lists | Send your first catalogue
+- instagram | social-media-management | Show your work and answer questions in direct messages | Post three items with prices
+- selar | online-store | Sell digital products and courses with local payments | Create one product page
+- shopify | online-store | A full online shop when you have steady orders | Compare it with Selar before you decide
+- paystack | online-payments | Take card and bank payments | Create a payment link
+- flutterwave | online-payments | An alternative payment provider; compare fees and countries | Compare two providers in a table
+done: You have been paid by at least three customers | You can take an order and a payment end to end
+@stage Keep the money straight | Know whether you are making a profit | ongoing
+- wave | bookkeeping | Free invoicing and basic accounting | Send your first invoice
+- quickbooks | bookkeeping | A fuller accounting package for growing businesses | Compare features with Wave
+- google-sheets | financial-modelling | A simple weekly sales and costs sheet | Record this week's sales and costs
+done: You know this month's sales, costs and profit | You keep business money apart from personal money
+@stage Grow | Bring back customers and find new ones | ongoing
+- mailerlite | email-marketing | Collect emails and send a monthly update | Send a welcome email
+- linkedin | professional-profile | Meet partners, suppliers and hires | Update your headline to say what you do
+- hubspot | crm-sales | Track leads and follow-ups when WhatsApp is not enough | Add your first ten leads
+done: You hear from past customers regularly | You know where your best customers come from
+@stage Pitch and raise | Explain your business clearly to people with money | when ready
+- google-slides | presentations | A clear 10-slide pitch | Build a pitch with the problem, solution, market, traction and ask
+- canva | presentations | Design the deck so it is easy to read | Choose one clean template
+- claude | use-ai-assistants | Practise hard investor questions | Run a mock Q&A
+done: You can pitch in three minutes | You know what you are asking for and why

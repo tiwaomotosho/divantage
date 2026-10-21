@@ -1,0 +1,234 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_have_i_been_pwned",
+ "slug": "have-i-been-pwned",
+ "title": "Have I Been Pwned skill roadmap",
+ "tool_ids": [
+  "tool_have_i_been_pwned"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_have_i_been_pwned_personal_security_0",
+    "slug": "have-i-been-pwned-personal-security-0",
+    "title": "Get started with Have I Been Pwned",
+    "outcome": "You can: set up Have I Been Pwned, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "online-safety"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_have_i_been_pwned_personal_security_1",
+    "slug": "have-i-been-pwned-personal-security-1",
+    "title": "Set it up right",
+    "outcome": "You can: install and configure Have I Been Pwned",
+    "topics": [
+     "install",
+     "account",
+     "recovery codes",
+     "backups"
+    ],
+    "practice": "Set up Have I Been Pwned and store recovery details safely",
+    "need_tags": [
+     "online-safety"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_have_i_been_pwned_personal_security_2",
+    "slug": "have-i-been-pwned-personal-security-2",
+    "title": "Everyday use",
+    "outcome": "You can: use Have I Been Pwned without friction",
+    "topics": [
+     "daily workflow",
+     "browser/phone integration"
+    ],
+    "practice": "Use Have I Been Pwned for a week on your main accounts",
+    "need_tags": [
+     "online-safety"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_have_i_been_pwned_personal_security_3",
+    "slug": "have-i-been-pwned-personal-security-3",
+    "title": "Protect what matters most",
+    "outcome": "You can: secure your critical accounts",
+    "topics": [
+     "email",
+     "banking",
+     "work",
+     "phone number risks"
+    ],
+    "practice": "Secure your top five accounts",
+    "need_tags": [
+     "online-safety"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_have_i_been_pwned_personal_security_4",
+    "slug": "have-i-been-pwned-personal-security-4",
+    "title": "Spot scams",
+    "outcome": "You can: recognise phishing and fraud",
+    "topics": [
+     "phishing signs",
+     "fake support",
+     "SIM swap",
+     "reporting"
+    ],
+    "practice": "Review three real scam examples",
+    "need_tags": [
+     "online-safety",
+     "fact-check"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_have_i_been_pwned_personal_security_8",
+    "slug": "have-i-been-pwned-personal-security-8",
+    "title": "Signature skills in Have I Been Pwned",
+    "outcome": "You can: use the features that make Have I Been Pwned distinctive",
+    "topics": [
+     "checking an email",
+     "understanding breaches",
+     "notifications",
+     "Pwned Passwords"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "online-safety"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_have_i_been_pwned_personal_security_9",
+    "slug": "have-i-been-pwned-personal-security-9",
+    "title": "Advanced Have I Been Pwned",
+    "outcome": "You can: use Have I Been Pwned's advanced capabilities with confidence",
+    "topics": [
+     "domain search",
+     "responding to breaches"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "online-safety"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_have_i_been_pwned_personal_security_5",
+    "slug": "have-i-been-pwned-personal-security-5",
+    "title": "Help family or team",
+    "outcome": "You can: roll out good security habits to others",
+    "topics": [
+     "sharing",
+     "family plans",
+     "simple policies"
+    ],
+    "practice": "Help two people set up Have I Been Pwned",
+    "need_tags": [
+     "online-safety",
+     "digital-basics"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_have_i_been_pwned_personal_security_10",
+    "slug": "have-i-been-pwned-personal-security-10",
+    "title": "Integrate Have I Been Pwned into your workflow",
+    "outcome": "You can: connect Have I Been Pwned with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Have I Been Pwned to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "online-safety"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_have_i_been_pwned_personal_security_11",
+    "slug": "have-i-been-pwned-personal-security-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Have I Been Pwned well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Have I Been Pwned\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "online-safety"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "personal-security",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

@@ -1,0 +1,97 @@
+{
+ "schema_version": "2.1",
+ "id": "lens_translation__service_referral",
+ "roadmap_id": "rm_translation",
+ "roadmap": "translation",
+ "need_id": "need_service_referral",
+ "need": "service-referral",
+ "title": "Translation tools for newcomers to a country",
+ "kind": "flagship",
+ "for_identities": [
+  "newcomer-to-a-country",
+  "international-student",
+  "refugee-caseworker",
+  "humanitarian-worker",
+  "social-worker"
+ ],
+ "why": "Forms, signs, appointments and conversations are hard in a new language. Translation tools make everyday life possible while you learn.",
+ "what_is_different": "Newcomers need camera translation for documents and signs, offline packs, conversation mode — and to know when to get official interpretation (immigration, legal, medical).",
+ "priority_modules": [
+  "tr-camera",
+  "tr-voice",
+  "tr-text",
+  "tr-docs",
+  "tr-quality"
+ ],
+ "extra_modules": [
+  {
+   "level": "beginner",
+   "title": "Offline and on the go",
+   "outcome": "You can: translate without data",
+   "topics": [
+    "offline language packs",
+    "saving phrases",
+    "camera translation of forms"
+   ],
+   "practice": "Download offline packs and save 10 essential phrases"
+  }
+ ],
+ "starter_project": "Prepare a newcomer's toolkit: offline packs, saved phrases for doctor/school/transport, and a list of official interpreter services nearby.",
+ "pitfalls": [
+  "Signing documents you don't fully understand",
+  "Relying on machine translation for legal or immigration matters"
+ ],
+ "pairs_with": [
+  "tool_google_maps",
+  "tool_duolingo",
+  "tool_whatsapp"
+ ],
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false,
+ "composed_path": {
+  "beginner": [
+   {
+    "extra": "Offline and on the go",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "module": "tr-camera",
+    "relevance": "core",
+    "rank": 0
+   },
+   {
+    "module": "tr-voice",
+    "relevance": "core",
+    "rank": 1
+   },
+   {
+    "module": "tr-text",
+    "relevance": "core",
+    "rank": 2
+   }
+  ],
+  "intermediate": [
+   {
+    "module": "tr-docs",
+    "relevance": "core",
+    "rank": 3
+   },
+   {
+    "module": "tr-quality",
+    "relevance": "core",
+    "rank": 4
+   }
+  ],
+  "expert": [
+   {
+    "module": "tr-workflow",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ]
+ }
+}

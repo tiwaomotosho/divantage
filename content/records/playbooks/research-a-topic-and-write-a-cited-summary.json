@@ -1,0 +1,171 @@
+{
+  "schema_version": "2.0",
+  "is_illustrative": false,
+  "redirect_from": [],
+  "disclosure": {
+    "commercial_relationship": "none"
+  },
+  "id": "pb_research_topic_cited_summary",
+  "slug": "research-a-topic-and-write-a-cited-summary",
+  "title": "Research a topic and write a short cited summary",
+  "outcome": "A one-to-two page summary of a topic, based on credible sources, with correct in-text citations and a bibliography.",
+  "audience_ids": [
+    "student",
+    "researcher",
+    "professional"
+  ],
+  "difficulty": "beginner",
+  "estimated_duration": {
+    "label": "About 3–4 hours across one or two sittings",
+    "minutes_min": 180,
+    "minutes_max": 240,
+    "is_estimate": true
+  },
+  "prerequisites": [
+    "A computer with a word processor (Word, LibreOffice or Google Docs)"
+  ],
+  "required_inputs": [
+    "A topic or assignment brief",
+    "The citation style you must use"
+  ],
+  "tool_ids": [
+    "tool_google_scholar",
+    "tool_zotero"
+  ],
+  "low_cost_alternatives": [],
+  "steps": [
+    {
+      "n": 1,
+      "title": "Frame the question",
+      "purpose": "Focus your search.",
+      "instructions": "Write your research question in one sentence and list 3–5 key terms with synonyms.",
+      "expected_output": "A question and search terms.",
+      "check": "Could someone else search using only your terms?"
+    },
+    {
+      "n": 2,
+      "title": "Set up your library",
+      "purpose": "Capture sources correctly from the start.",
+      "instructions": "Install Zotero and its word-processor plugin; create a collection named after your topic.",
+      "tool_ids": [
+        "tool_zotero"
+      ],
+      "expected_output": "An empty collection ready to fill.",
+      "check": "The plugin appears in your word processor.",
+      "fallback": "If you can't install software, keep a table of author, year, title, publication and link, and format citations by hand."
+    },
+    {
+      "n": 3,
+      "title": "Search and screen",
+      "purpose": "Find relevant, credible sources.",
+      "instructions": "Search Google Scholar, filter to recent years and read abstracts. Use 'Cited by' on the strongest paper to find newer work.",
+      "tool_ids": [
+        "tool_google_scholar"
+      ],
+      "expected_output": "5–8 relevant sources.",
+      "check": "Each source directly addresses your question.",
+      "warning": "Being listed in a search engine does not make a source credible; check where it was published."
+    },
+    {
+      "n": 4,
+      "title": "Save sources",
+      "purpose": "Keep accurate details for citing.",
+      "instructions": "Save each source to your Zotero collection and fix any missing or wrong details.",
+      "tool_ids": [
+        "tool_zotero"
+      ],
+      "expected_output": "A complete collection.",
+      "check": "Every item has author, year, title and publication."
+    },
+    {
+      "n": 5,
+      "title": "Read and note",
+      "purpose": "Understand before you write.",
+      "instructions": "Read each source (or at least its introduction and conclusion) and write two or three bullet notes in your own words.",
+      "expected_output": "Short notes per source.",
+      "check": "Your notes are not copied sentences.",
+      "fallback": "If full text is behind a paywall, try the 'All versions' link or ask your library."
+    },
+    {
+      "n": 6,
+      "title": "Write with citations",
+      "purpose": "Produce the summary.",
+      "instructions": "Write the summary from your notes and insert citations with the Zotero plugin as you go, then generate the bibliography in the required style.",
+      "tool_ids": [
+        "tool_zotero"
+      ],
+      "expected_output": "A draft summary with citations and bibliography.",
+      "check": "Every claim from a source has a citation."
+    }
+  ],
+  "verification": "Open three citations at random and confirm each leads to the source and supports the sentence it is attached to; confirm every in-text citation appears in the bibliography and the style matches your brief.",
+  "total_cost_notes": "Both tools can be used without paying. Some full-text articles may need a subscription or library access; Zotero's free file storage is 300 MB.",
+  "privacy_notes": [],
+  "accessibility_notes": [
+    "Zotero's word-processor plugins add citations through menus, so you can work with the keyboard; check with your screen reader before a deadline."
+  ],
+  "low_bandwidth_notes": [
+    "Read abstracts first and download full texts only for sources you will actually use."
+  ],
+  "success_criteria": [
+    "The summary answers the research question.",
+    "At least five credible sources are cited.",
+    "Citations and bibliography follow the required style."
+  ],
+  "common_failure_modes": [
+    "Starting to write before narrowing the question",
+    "Citing sources you haven't read",
+    "Missing details in saved references"
+  ],
+  "troubleshooting": [
+    {
+      "problem": "The citation plugin doesn't appear in my word processor.",
+      "fix": "Restart the word processor after installing Zotero and check the Zotero documentation's word-processor section."
+    },
+    {
+      "problem": "Too many search results.",
+      "fix": "Add a more specific term, put exact phrases in quotation marks and filter by year."
+    }
+  ],
+  "example": {
+    "input": "Question: 'How does mobile money affect small businesses?'",
+    "output": "A 600-word summary citing six studies, with a bibliography in the required style."
+  },
+  "related_playbook_ids": [],
+  "resource_ids": [
+    "res_google_scholar_help",
+    "res_zotero_documentation"
+  ],
+  "task_ids": [
+    "task_find_scholarly_sources",
+    "task_manage_references"
+  ],
+  "category_ids": [
+    "research",
+    "writing"
+  ],
+  "search_aliases": [
+    "research a topic",
+    "write a summary",
+    "literature review",
+    "essay research",
+    "cited summary"
+  ],
+  "sources": [],
+  "editorial": {
+    "status": "published",
+    "author": "V2 research pass (AI-assisted, Claude)",
+    "reviewer": "Product owner — blanket MVP approval (D-044)",
+    "created_at": "2026-10-21",
+    "updated_at": "2026-10-21",
+    "published_at": "2026-10-21",
+    "last_verified_at": "2026-10-21",
+    "review_interval_days": 365,
+    "next_review_at": "2027-10-21",
+    "confidence": "medium",
+    "solo_approval": true,
+    "change_summary": "Researched from official sources 2026-10-21; published under owner's blanket MVP approval (D-044). Domain-expert review pending.",
+    "public_corrections": [],
+    "internal_notes": ""
+  }
+}

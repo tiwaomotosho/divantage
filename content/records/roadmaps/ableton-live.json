@@ -1,0 +1,240 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_ableton_live",
+ "slug": "ableton-live",
+ "title": "Ableton Live skill roadmap",
+ "tool_ids": [
+  "tool_ableton_live"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_ableton_live_audio_production_0",
+    "slug": "ableton-live-audio-production-0",
+    "title": "Get started with Ableton Live",
+    "outcome": "You can: set up Ableton Live, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "audio-production"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_ableton_live_audio_production_1",
+    "slug": "ableton-live-audio-production-1",
+    "title": "Record cleanly",
+    "outcome": "You can: record clear audio with Ableton Live",
+    "topics": [
+     "input levels",
+     "microphones",
+     "room noise",
+     "file formats"
+    ],
+    "practice": "Record a 1-minute voice or instrument take with good levels",
+    "need_tags": [
+     "audio-production",
+     "podcast-production"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_ableton_live_audio_production_2",
+    "slug": "ableton-live-audio-production-2",
+    "title": "Edit and arrange",
+    "outcome": "You can: cut, arrange and tidy recordings",
+    "topics": [
+     "trimming",
+     "fades",
+     "arranging clips/regions",
+     "markers"
+    ],
+    "practice": "Edit a rough recording into a clean 2-minute piece",
+    "need_tags": [
+     "audio-production"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_ableton_live_audio_production_3",
+    "slug": "ableton-live-audio-production-3",
+    "title": "Mix for clarity",
+    "outcome": "You can: balance and polish a mix",
+    "topics": [
+     "levels and panning",
+     "EQ",
+     "compression",
+     "reverb"
+    ],
+    "practice": "Mix a short track or podcast episode",
+    "need_tags": [
+     "audio-production"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_ableton_live_audio_production_4",
+    "slug": "ableton-live-audio-production-4",
+    "title": "Export for every platform",
+    "outcome": "You can: deliver the right file for each destination",
+    "topics": [
+     "loudness targets",
+     "sample rates",
+     "formats",
+     "metadata"
+    ],
+    "practice": "Export versions for streaming, podcast and video",
+    "need_tags": [
+     "audio-production",
+     "podcast-production"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_ableton_live_audio_production_8",
+    "slug": "ableton-live-audio-production-8",
+    "title": "Signature skills in Ableton Live",
+    "outcome": "You can: use the features that make Ableton Live distinctive",
+    "topics": [
+     "Session and Arrangement views",
+     "clips and scenes",
+     "warping audio",
+     "MIDI recording"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "audio-production"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_ableton_live_audio_production_9",
+    "slug": "ableton-live-audio-production-9",
+    "title": "Advanced Ableton Live",
+    "outcome": "You can: use Ableton Live's advanced capabilities with confidence",
+    "topics": [
+     "racks and macros",
+     "Max for Live devices",
+     "live performance setups",
+     "mixing and mastering in Live"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "audio-production"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_ableton_live_audio_production_5",
+    "slug": "ableton-live-audio-production-5",
+    "title": "Produce a full release",
+    "outcome": "You can: take a project from idea to release",
+    "topics": [
+     "session templates",
+     "stems",
+     "collaboration",
+     "release checklist"
+    ],
+    "practice": "Produce and release a complete track or episode",
+    "need_tags": [
+     "audio-production",
+     "creator-income"
+    ],
+    "estimated_hours": {
+     "value": 6.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_ableton_live_audio_production_10",
+    "slug": "ableton-live-audio-production-10",
+    "title": "Integrate Ableton Live into your workflow",
+    "outcome": "You can: connect Ableton Live with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Ableton Live to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "audio-production"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_ableton_live_audio_production_11",
+    "slug": "ableton-live-audio-production-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Ableton Live well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Ableton Live\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "audio-production"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "audio-production",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

@@ -1,0 +1,6198 @@
+{
+ "note": "Every tool-roadmap \u00d7 need combination the site can render. Flagship = hand-written lens; auto = composed from module need-tags (03 \u00a77). Auto lenses with core_modules = 0 fall back to the plain roadmap with the need's description.",
+ "count": 1032,
+ "values": [
+  {
+   "roadmap": "translation",
+   "need": "translate-languages",
+   "kind": "auto",
+   "core_modules": 6
+  },
+  {
+   "roadmap": "ai-assistants",
+   "need": "translate-languages",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "documents",
+   "need": "write-clearly",
+   "kind": "auto",
+   "core_modules": 2
+  },
+  {
+   "roadmap": "ai-assistants",
+   "need": "use-ai-assistants",
+   "kind": "auto",
+   "core_modules": 4
+  },
+  {
+   "roadmap": "meetings",
+   "need": "video-meetings",
+   "kind": "auto",
+   "core_modules": 3
+  },
+  {
+   "roadmap": "documents",
+   "need": "documents-basics",
+   "kind": "auto",
+   "core_modules": 3
+  },
+  {
+   "roadmap": "spreadsheets",
+   "need": "documents-basics",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "spreadsheets",
+   "need": "spreadsheets-basics",
+   "kind": "auto",
+   "core_modules": 4
+  },
+  {
+   "roadmap": "slides",
+   "need": "presentations",
+   "kind": "auto",
+   "core_modules": 4
+  },
+  {
+   "roadmap": "canva",
+   "need": "presentations",
+   "kind": "auto",
+   "core_modules": 1
+  },
+  {
+   "roadmap": "notion",
+   "need": "personal-productivity",
+   "kind": "auto",
+   "core_modules": 3
+  },
+  {
+   "roadmap": "jira",
+   "need": "personal-productivity",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "linkedin",
+   "need": "professional-profile",
+   "kind": "auto",
+   "core_modules": 3
+  },
+  {
+   "roadmap": "canva",
+   "need": "professional-profile",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "spreadsheets",
+   "need": "personal-finance",
+   "kind": "auto",
+   "core_modules": 2
+  },
+  {
+   "roadmap": "canva",
+   "need": "design-simple-graphics",
+   "kind": "auto",
+   "core_modules": 2
+  },
+  {
+   "roadmap": "documents",
+   "need": "voice-typing-transcription",
+   "kind": "auto",
+   "core_modules": 1
+  },
+  {
+   "roadmap": "whatsapp-business",
+   "need": "group-messaging",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "kobotoolbox",
+   "need": "forms-surveys",
+   "kind": "auto",
+   "core_modules": 1
+  },
+  {
+   "roadmap": "linkedin",
+   "need": "job-search",
+   "kind": "auto",
+   "core_modules": 2
+  },
+  {
+   "roadmap": "canva",
+   "need": "cv-portfolio",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "documents",
+   "need": "cv-portfolio",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "linkedin",
+   "need": "cv-portfolio",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "notion",
+   "need": "cv-portfolio",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "canva",
+   "need": "social-media-presence",
+   "kind": "auto",
+   "core_modules": 2
+  },
+  {
+   "roadmap": "capcut",
+   "need": "social-media-presence",
+   "kind": "auto",
+   "core_modules": 1
+  },
+  {
+   "roadmap": "capcut",
+   "need": "short-video",
+   "kind": "auto",
+   "core_modules": 3
+  },
+  {
+   "roadmap": "canva",
+   "need": "short-video",
+   "kind": "auto",
+   "core_modules": 1
+  },
+  {
+   "roadmap": "canva",
+   "need": "photo-editing",
+   "kind": "auto",
+   "core_modules": 1
+  },
+  {
+   "roadmap": "zotero",
+   "need": "evidence-based-medicine",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "meetings",
+   "need": "telemedicine",
+   "kind": "auto",
+   "core_modules": 1
+  },
+  {
+   "roadmap": "canva",
+   "need": "patient-education",
+   "kind": "flagship",
+   "core_modules": 5
+  },
+  {
+   "roadmap": "documents",
+   "need": "patient-education",
+   "kind": "auto",
+   "core_modules": 1
+  },
+  {
+   "roadmap": "translation",
+   "need": "patient-education",
+   "kind": "flagship",
+   "core_modules": 5
+  },
+  {
+   "roadmap": "dicom-viewers",
+   "need": "medical-imaging-viewing",
+   "kind": "flagship",
+   "core_modules": 3
+  },
+  {
+   "roadmap": "documents",
+   "need": "radiology-reporting",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "spreadsheets",
+   "need": "clinical-audit-qi",
+   "kind": "flagship",
+   "core_modules": 6
+  },
+  {
+   "roadmap": "power-bi",
+   "need": "clinical-audit-qi",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "kobotoolbox",
+   "need": "health-research-data",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "ai-assistants",
+   "need": "cpd-learning",
+   "kind": "flagship",
+   "core_modules": 5
+  },
+  {
+   "roadmap": "spreadsheets",
+   "need": "shift-rota",
+   "kind": "auto",
+   "core_modules": 1
+  },
+  {
+   "roadmap": "documents",
+   "need": "exercise-prescription",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "qgis",
+   "need": "public-health-data",
+   "kind": "auto",
+   "core_modules": 1
+  },
+  {
+   "roadmap": "power-bi",
+   "need": "public-health-data",
+   "kind": "flagship",
+   "core_modules": 5
+  },
+  {
+   "roadmap": "kobotoolbox",
+   "need": "public-health-data",
+   "kind": "auto",
+   "core_modules": 1
+  },
+  {
+   "roadmap": "spreadsheets",
+   "need": "lab-data",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "spreadsheets",
+   "need": "pharmacy-stock",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "spreadsheets",
+   "need": "engineering-calculations",
+   "kind": "flagship",
+   "core_modules": 7
+  },
+  {
+   "roadmap": "matlab",
+   "need": "engineering-calculations",
+   "kind": "auto",
+   "core_modules": 3
+  },
+  {
+   "roadmap": "python",
+   "need": "engineering-calculations",
+   "kind": "auto",
+   "core_modules": 2
+  },
+  {
+   "roadmap": "autocad",
+   "need": "cad-drafting",
+   "kind": "auto",
+   "core_modules": 5
+  },
+  {
+   "roadmap": "qgis",
+   "need": "gis-mapping",
+   "kind": "auto",
+   "core_modules": 4
+  },
+  {
+   "roadmap": "spreadsheets",
+   "need": "project-scheduling",
+   "kind": "auto",
+   "core_modules": 1
+  },
+  {
+   "roadmap": "spreadsheets",
+   "need": "cost-estimation",
+   "kind": "auto",
+   "core_modules": 1
+  },
+  {
+   "roadmap": "python",
+   "need": "engineering-data-analysis",
+   "kind": "flagship",
+   "core_modules": 6
+  },
+  {
+   "roadmap": "matlab",
+   "need": "engineering-data-analysis",
+   "kind": "auto",
+   "core_modules": 1
+  },
+  {
+   "roadmap": "spreadsheets",
+   "need": "engineering-data-analysis",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "power-bi",
+   "need": "engineering-data-analysis",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "documents",
+   "need": "technical-reporting",
+   "kind": "auto",
+   "core_modules": 3
+  },
+  {
+   "roadmap": "zotero",
+   "need": "technical-reporting",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "matlab",
+   "need": "technical-reporting",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "spreadsheets",
+   "need": "quality-hse",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "power-bi",
+   "need": "quality-hse",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "spreadsheets",
+   "need": "well-planning-design",
+   "kind": "flagship",
+   "core_modules": 7
+  },
+  {
+   "roadmap": "python",
+   "need": "well-planning-design",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "spreadsheets",
+   "need": "drilling-reporting",
+   "kind": "flagship",
+   "core_modules": 7
+  },
+  {
+   "roadmap": "power-bi",
+   "need": "drilling-reporting",
+   "kind": "auto",
+   "core_modules": 1
+  },
+  {
+   "roadmap": "python",
+   "need": "geomechanics",
+   "kind": "auto",
+   "core_modules": 1
+  },
+  {
+   "roadmap": "spreadsheets",
+   "need": "geomechanics",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "python",
+   "need": "petrophysics",
+   "kind": "auto",
+   "core_modules": 1
+  },
+  {
+   "roadmap": "power-bi",
+   "need": "production-surveillance",
+   "kind": "flagship",
+   "core_modules": 5
+  },
+  {
+   "roadmap": "spreadsheets",
+   "need": "production-surveillance",
+   "kind": "auto",
+   "core_modules": 2
+  },
+  {
+   "roadmap": "python",
+   "need": "production-surveillance",
+   "kind": "auto",
+   "core_modules": 2
+  },
+  {
+   "roadmap": "spreadsheets",
+   "need": "regulatory-reporting",
+   "kind": "auto",
+   "core_modules": 3
+  },
+  {
+   "roadmap": "power-bi",
+   "need": "regulatory-reporting",
+   "kind": "auto",
+   "core_modules": 2
+  },
+  {
+   "roadmap": "documents",
+   "need": "regulatory-reporting",
+   "kind": "auto",
+   "core_modules": 2
+  },
+  {
+   "roadmap": "vs-code",
+   "need": "write-code",
+   "kind": "auto",
+   "core_modules": 3
+  },
+  {
+   "roadmap": "ai-assistants",
+   "need": "write-code",
+   "kind": "flagship",
+   "core_modules": 5
+  },
+  {
+   "roadmap": "git-github",
+   "need": "version-control",
+   "kind": "auto",
+   "core_modules": 4
+  },
+  {
+   "roadmap": "git-github",
+   "need": "devops-cicd",
+   "kind": "auto",
+   "core_modules": 1
+  },
+  {
+   "roadmap": "playwright",
+   "need": "test-automation",
+   "kind": "flagship",
+   "core_modules": 4
+  },
+  {
+   "roadmap": "jira",
+   "need": "agile-tracking",
+   "kind": "auto",
+   "core_modules": 4
+  },
+  {
+   "roadmap": "git-github",
+   "need": "agile-tracking",
+   "kind": "auto",
+   "core_modules": 1
+  },
+  {
+   "roadmap": "notion",
+   "need": "product-discovery",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "jira",
+   "need": "roadmapping",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "figma",
+   "need": "ui-ux-design",
+   "kind": "auto",
+   "core_modules": 4
+  },
+  {
+   "roadmap": "sql",
+   "need": "databases",
+   "kind": "auto",
+   "core_modules": 2
+  },
+  {
+   "roadmap": "vs-code",
+   "need": "web-development",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "wordpress",
+   "need": "web-development",
+   "kind": "auto",
+   "core_modules": 3
+  },
+  {
+   "roadmap": "python",
+   "need": "machine-learning",
+   "kind": "flagship",
+   "core_modules": 5
+  },
+  {
+   "roadmap": "python",
+   "need": "data-cleaning",
+   "kind": "auto",
+   "core_modules": 2
+  },
+  {
+   "roadmap": "spreadsheets",
+   "need": "data-cleaning",
+   "kind": "auto",
+   "core_modules": 3
+  },
+  {
+   "roadmap": "sql",
+   "need": "sql-querying",
+   "kind": "flagship",
+   "core_modules": 5
+  },
+  {
+   "roadmap": "power-bi",
+   "need": "dashboards-bi",
+   "kind": "auto",
+   "core_modules": 4
+  },
+  {
+   "roadmap": "python",
+   "need": "statistical-analysis",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "spreadsheets",
+   "need": "data-visualisation",
+   "kind": "auto",
+   "core_modules": 1
+  },
+  {
+   "roadmap": "python",
+   "need": "data-visualisation",
+   "kind": "auto",
+   "core_modules": 1
+  },
+  {
+   "roadmap": "sql",
+   "need": "data-pipelines",
+   "kind": "auto",
+   "core_modules": 1
+  },
+  {
+   "roadmap": "python",
+   "need": "notebooks",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "spreadsheets",
+   "need": "financial-modelling",
+   "kind": "flagship",
+   "core_modules": 8
+  },
+  {
+   "roadmap": "python",
+   "need": "financial-modelling",
+   "kind": "flagship",
+   "core_modules": 6
+  },
+  {
+   "roadmap": "power-bi",
+   "need": "financial-modelling",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "bookkeeping",
+   "need": "bookkeeping",
+   "kind": "auto",
+   "core_modules": 4
+  },
+  {
+   "roadmap": "bookkeeping",
+   "need": "invoicing",
+   "kind": "auto",
+   "core_modules": 1
+  },
+  {
+   "roadmap": "bookkeeping",
+   "need": "tax-compliance",
+   "kind": "auto",
+   "core_modules": 1
+  },
+  {
+   "roadmap": "spreadsheets",
+   "need": "tax-compliance",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "spreadsheets",
+   "need": "audit-analytics",
+   "kind": "auto",
+   "core_modules": 3
+  },
+  {
+   "roadmap": "power-bi",
+   "need": "audit-analytics",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "python",
+   "need": "audit-analytics",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "spreadsheets",
+   "need": "budgeting-fpa",
+   "kind": "auto",
+   "core_modules": 1
+  },
+  {
+   "roadmap": "power-bi",
+   "need": "budgeting-fpa",
+   "kind": "auto",
+   "core_modules": 1
+  },
+  {
+   "roadmap": "spreadsheets",
+   "need": "payroll",
+   "kind": "auto",
+   "core_modules": 1
+  },
+  {
+   "roadmap": "spreadsheets",
+   "need": "risk-modelling",
+   "kind": "auto",
+   "core_modules": 1
+  },
+  {
+   "roadmap": "python",
+   "need": "risk-modelling",
+   "kind": "auto",
+   "core_modules": 1
+  },
+  {
+   "roadmap": "matlab",
+   "need": "risk-modelling",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "documents",
+   "need": "contract-drafting",
+   "kind": "auto",
+   "core_modules": 2
+  },
+  {
+   "roadmap": "ai-assistants",
+   "need": "contract-drafting",
+   "kind": "flagship",
+   "core_modules": 5
+  },
+  {
+   "roadmap": "documents",
+   "need": "lesson-planning",
+   "kind": "auto",
+   "core_modules": 1
+  },
+  {
+   "roadmap": "canva",
+   "need": "lesson-planning",
+   "kind": "flagship",
+   "core_modules": 5
+  },
+  {
+   "roadmap": "notion",
+   "need": "lesson-planning",
+   "kind": "auto",
+   "core_modules": 1
+  },
+  {
+   "roadmap": "ai-assistants",
+   "need": "lesson-planning",
+   "kind": "flagship",
+   "core_modules": 6
+  },
+  {
+   "roadmap": "meetings",
+   "need": "virtual-classroom",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "obs",
+   "need": "screen-recording",
+   "kind": "auto",
+   "core_modules": 1
+  },
+  {
+   "roadmap": "canva",
+   "need": "screen-recording",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "spreadsheets",
+   "need": "grading-feedback",
+   "kind": "flagship",
+   "core_modules": 6
+  },
+  {
+   "roadmap": "zotero",
+   "need": "literature-review",
+   "kind": "auto",
+   "core_modules": 3
+  },
+  {
+   "roadmap": "documents",
+   "need": "academic-writing",
+   "kind": "auto",
+   "core_modules": 3
+  },
+  {
+   "roadmap": "zotero",
+   "need": "academic-writing",
+   "kind": "auto",
+   "core_modules": 1
+  },
+  {
+   "roadmap": "kobotoolbox",
+   "need": "research-surveys",
+   "kind": "auto",
+   "core_modules": 2
+  },
+  {
+   "roadmap": "documents",
+   "need": "accessible-materials",
+   "kind": "auto",
+   "core_modules": 1
+  },
+  {
+   "roadmap": "canva",
+   "need": "accessible-materials",
+   "kind": "auto",
+   "core_modules": 1
+  },
+  {
+   "roadmap": "notion",
+   "need": "study-skills",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "figma",
+   "need": "graphic-design-pro",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "figma",
+   "need": "brand-identity",
+   "kind": "auto",
+   "core_modules": 1
+  },
+  {
+   "roadmap": "canva",
+   "need": "brand-identity",
+   "kind": "auto",
+   "core_modules": 2
+  },
+  {
+   "roadmap": "davinci-resolve",
+   "need": "video-editing-pro",
+   "kind": "auto",
+   "core_modules": 5
+  },
+  {
+   "roadmap": "obs",
+   "need": "live-streaming",
+   "kind": "auto",
+   "core_modules": 4
+  },
+  {
+   "roadmap": "documents",
+   "need": "book-writing-publishing",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "notion",
+   "need": "content-planning",
+   "kind": "auto",
+   "core_modules": 1
+  },
+  {
+   "roadmap": "jira",
+   "need": "content-planning",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "linkedin",
+   "need": "online-ads",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "whatsapp-business",
+   "need": "customer-support",
+   "kind": "auto",
+   "core_modules": 3
+  },
+  {
+   "roadmap": "translation",
+   "need": "customer-support",
+   "kind": "flagship",
+   "core_modules": 6
+  },
+  {
+   "roadmap": "canva",
+   "need": "events-management",
+   "kind": "auto",
+   "core_modules": 2
+  },
+  {
+   "roadmap": "ai-assistants",
+   "need": "copywriting",
+   "kind": "auto",
+   "core_modules": 1
+  },
+  {
+   "roadmap": "documents",
+   "need": "business-planning",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "spreadsheets",
+   "need": "business-planning",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "canva",
+   "need": "business-planning",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "notion",
+   "need": "business-planning",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "ai-assistants",
+   "need": "business-planning",
+   "kind": "flagship",
+   "core_modules": 5
+  },
+  {
+   "roadmap": "jira",
+   "need": "project-management",
+   "kind": "auto",
+   "core_modules": 1
+  },
+  {
+   "roadmap": "notion",
+   "need": "project-management",
+   "kind": "auto",
+   "core_modules": 1
+  },
+  {
+   "roadmap": "power-bi",
+   "need": "kpi-tracking",
+   "kind": "auto",
+   "core_modules": 2
+  },
+  {
+   "roadmap": "spreadsheets",
+   "need": "kpi-tracking",
+   "kind": "auto",
+   "core_modules": 7
+  },
+  {
+   "roadmap": "notion",
+   "need": "kpi-tracking",
+   "kind": "auto",
+   "core_modules": 1
+  },
+  {
+   "roadmap": "linkedin",
+   "need": "recruitment",
+   "kind": "auto",
+   "core_modules": 1
+  },
+  {
+   "roadmap": "spreadsheets",
+   "need": "inventory-procurement",
+   "kind": "flagship",
+   "core_modules": 5
+  },
+  {
+   "roadmap": "meetings",
+   "need": "meeting-minutes",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "notion",
+   "need": "meeting-minutes",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "documents",
+   "need": "meeting-minutes",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "wordpress",
+   "need": "online-store",
+   "kind": "auto",
+   "core_modules": 2
+  },
+  {
+   "roadmap": "canva",
+   "need": "online-store",
+   "kind": "flagship",
+   "core_modules": 5
+  },
+  {
+   "roadmap": "slides",
+   "need": "consulting-deliverables",
+   "kind": "auto",
+   "core_modules": 3
+  },
+  {
+   "roadmap": "spreadsheets",
+   "need": "consulting-deliverables",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "canva",
+   "need": "product-photography",
+   "kind": "auto",
+   "core_modules": 1
+  },
+  {
+   "roadmap": "zotero",
+   "need": "policy-research",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "documents",
+   "need": "policy-research",
+   "kind": "auto",
+   "core_modules": 1
+  },
+  {
+   "roadmap": "ai-assistants",
+   "need": "policy-research",
+   "kind": "auto",
+   "core_modules": 1
+  },
+  {
+   "roadmap": "kobotoolbox",
+   "need": "public-consultation",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "kobotoolbox",
+   "need": "monitoring-evaluation",
+   "kind": "auto",
+   "core_modules": 2
+  },
+  {
+   "roadmap": "power-bi",
+   "need": "monitoring-evaluation",
+   "kind": "auto",
+   "core_modules": 1
+  },
+  {
+   "roadmap": "spreadsheets",
+   "need": "grant-finding",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "spreadsheets",
+   "need": "volunteer-coordination",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "whatsapp-business",
+   "need": "volunteer-coordination",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "spreadsheets",
+   "need": "open-data",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "ai-assistants",
+   "need": "scripture-study",
+   "kind": "flagship",
+   "core_modules": 5
+  },
+  {
+   "roadmap": "worship-presentation",
+   "need": "worship-presentation",
+   "kind": "auto",
+   "core_modules": 3
+  },
+  {
+   "roadmap": "canva",
+   "need": "worship-presentation",
+   "kind": "flagship",
+   "core_modules": 6
+  },
+  {
+   "roadmap": "obs",
+   "need": "service-livestream",
+   "kind": "flagship",
+   "core_modules": 4
+  },
+  {
+   "roadmap": "notion",
+   "need": "pastoral-care",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "training-apps",
+   "need": "training-load",
+   "kind": "flagship",
+   "core_modules": 4
+  },
+  {
+   "roadmap": "python",
+   "need": "sports-analytics",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "spreadsheets",
+   "need": "sports-analytics",
+   "kind": "flagship",
+   "core_modules": 6
+  },
+  {
+   "roadmap": "canva",
+   "need": "athlete-brand",
+   "kind": "flagship",
+   "core_modules": 5
+  },
+  {
+   "roadmap": "capcut",
+   "need": "athlete-brand",
+   "kind": "auto",
+   "core_modules": 1
+  },
+  {
+   "roadmap": "linkedin",
+   "need": "athlete-brand",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "spreadsheets",
+   "need": "farm-records",
+   "kind": "flagship",
+   "core_modules": 6
+  },
+  {
+   "roadmap": "whatsapp-business",
+   "need": "agri-market-access",
+   "kind": "auto",
+   "core_modules": 1
+  },
+  {
+   "roadmap": "canva",
+   "need": "agri-market-access",
+   "kind": "flagship",
+   "core_modules": 4
+  },
+  {
+   "roadmap": "qgis",
+   "need": "environmental-monitoring",
+   "kind": "auto",
+   "core_modules": 1
+  },
+  {
+   "roadmap": "spreadsheets",
+   "need": "food-safety",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "spreadsheets",
+   "need": "recipe-costing",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "canva",
+   "need": "property-marketing",
+   "kind": "flagship",
+   "core_modules": 6
+  },
+  {
+   "roadmap": "capcut",
+   "need": "property-marketing",
+   "kind": "auto",
+   "core_modules": 1
+  },
+  {
+   "roadmap": "spreadsheets",
+   "need": "property-management",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "bookkeeping",
+   "need": "trade-quotes-invoicing",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "spreadsheets",
+   "need": "site-measurement",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "spreadsheets",
+   "need": "production-planning",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "spreadsheets",
+   "need": "quality-statistics",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "python",
+   "need": "quality-statistics",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "spreadsheets",
+   "need": "lean-six-sigma",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "spreadsheets",
+   "need": "driver-earnings",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "canva",
+   "need": "visual-portfolio",
+   "kind": "auto",
+   "core_modules": 1
+  },
+  {
+   "roadmap": "capcut",
+   "need": "visual-portfolio",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "kobotoolbox",
+   "need": "incident-reporting",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "whatsapp-business",
+   "need": "emergency-comms",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "python",
+   "need": "scientific-computing",
+   "kind": "auto",
+   "core_modules": 2
+  },
+  {
+   "roadmap": "matlab",
+   "need": "scientific-computing",
+   "kind": "auto",
+   "core_modules": 1
+  },
+  {
+   "roadmap": "python",
+   "need": "scientific-figures",
+   "kind": "auto",
+   "core_modules": 1
+  },
+  {
+   "roadmap": "git-github",
+   "need": "research-data-management",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "spreadsheets",
+   "need": "case-management",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "translation",
+   "need": "service-referral",
+   "kind": "flagship",
+   "core_modules": 5
+  },
+  {
+   "roadmap": "whatsapp-business",
+   "need": "care-coordination",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "spreadsheets",
+   "need": "stage-production",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "notion",
+   "need": "stage-production",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "capcut",
+   "need": "auditions-casting",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "whatsapp-business",
+   "need": "family-organisation",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "whatsapp-business",
+   "need": "digital-basics",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "meetings",
+   "need": "digital-basics",
+   "kind": "auto",
+   "core_modules": 1
+  },
+  {
+   "roadmap": "linkedin",
+   "need": "freelancing",
+   "kind": "auto",
+   "core_modules": 0
+  },
+  {
+   "roadmap": "abaqus",
+   "need": "fea-simulation",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "ableton-live",
+   "need": "audio-production",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "activityinfo",
+   "need": "monitoring-evaluation",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "adobe-acrobat",
+   "need": "pdf-work",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "adobe-acrobat",
+   "need": "e-signatures",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "adobe-acrobat",
+   "need": "drawing-markup",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "adobe-acrobat",
+   "need": "contract-drafting",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "adobe-after-effects",
+   "need": "motion-graphics",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "adobe-illustrator",
+   "need": "graphic-design-pro",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "adobe-illustrator",
+   "need": "brand-identity",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "adobe-illustrator",
+   "need": "fashion-design",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "adobe-lightroom",
+   "need": "photo-editing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "adobe-lightroom",
+   "need": "photography-workflow",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "adobe-photoshop",
+   "need": "graphic-design-pro",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "adobe-premiere-pro",
+   "need": "video-editing-pro",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "adobe-scan",
+   "need": "scan-documents",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "affinity",
+   "need": "graphic-design-pro",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "agisoft-metashape",
+   "need": "surveying-photogrammetry",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "agrivi",
+   "need": "farm-records",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "agriwebb",
+   "need": "livestock-management",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "aha",
+   "need": "roadmapping",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "ahrefs",
+   "need": "seo",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "airbnb",
+   "need": "hotel-management",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "airtable",
+   "need": "no-code-apps",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "airtable",
+   "need": "case-management",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "alison",
+   "need": "learn-online",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "alteryx",
+   "need": "data-cleaning",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "amazon-kdp",
+   "need": "book-writing-publishing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "amazon-seller-central",
+   "need": "marketplace-selling",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "amplitude",
+   "need": "product-analytics",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "anaplan",
+   "need": "budgeting-fpa",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "android-studio",
+   "need": "mobile-app-dev",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "anki",
+   "need": "language-learning",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "anki",
+   "need": "cpd-learning",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "anki",
+   "need": "memorise-knowledge",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "anki",
+   "need": "study-skills",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "ansys",
+   "need": "fea-simulation",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "anthropic-api",
+   "need": "ai-app-development",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "anydesk",
+   "need": "it-helpdesk",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "apache-airflow",
+   "need": "data-pipelines",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "apache-jmeter",
+   "need": "performance-testing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "apache-superset",
+   "need": "dashboards-bi",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "apicbase",
+   "need": "recipe-costing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "appfolio",
+   "need": "property-management",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "appium",
+   "need": "test-automation",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "apple-health",
+   "need": "personal-health-tracking",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "apple-screen-time",
+   "need": "kids-online-safety",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "appsheet",
+   "need": "no-code-apps",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "archicad",
+   "need": "bim-modelling",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "asana",
+   "need": "project-management",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "aspen-hysys",
+   "need": "process-simulation",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "aspen-plus",
+   "need": "process-simulation",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "atlas-ti",
+   "need": "qualitative-analysis",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "audacity",
+   "need": "audio-production",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "audacity",
+   "need": "podcast-production",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "audiomack",
+   "need": "release-music",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "audiomack",
+   "need": "artist-profiles",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "autocad-electrical",
+   "need": "electrical-design",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "autodesk-build",
+   "need": "site-management",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "autodesk-inventor",
+   "need": "mechanical-design",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "autodesk-maya",
+   "need": "3d-modelling",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "autopsy",
+   "need": "digital-forensics",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "ava",
+   "need": "accessible-communication",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "avogadro",
+   "need": "chemistry-drawing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "aws",
+   "need": "cloud-infrastructure",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "backstage",
+   "need": "auditions-casting",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "bailii",
+   "need": "legal-research",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "bamboohr",
+   "need": "recruitment",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "bamboohr",
+   "need": "people-management",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "bambu-studio",
+   "need": "3d-printing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "bandlab",
+   "need": "audio-production",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "bandlab",
+   "need": "release-music",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "be-my-eyes",
+   "need": "accessibility-tools",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "be-my-eyes",
+   "need": "accessible-communication",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "beehiiv",
+   "need": "newsletter-publishing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "behance",
+   "need": "visual-portfolio",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "benchling",
+   "need": "lab-data",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "benchling",
+   "need": "molecular-biology",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "biodigital-human",
+   "need": "anatomy-3d",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "biorender",
+   "need": "scientific-figures",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "bitbucket",
+   "need": "version-control",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "bitwarden",
+   "need": "online-safety",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "bizagi-modeler",
+   "need": "process-mapping",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "blender",
+   "need": "game-development",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "blender",
+   "need": "motion-graphics",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "blender",
+   "need": "3d-modelling",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "blender",
+   "need": "architectural-visualisation",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "bloomberg-terminal",
+   "need": "market-research-finance",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "blue-letter-bible",
+   "need": "scripture-study",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "bluebeam-revu",
+   "need": "cost-estimation",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "bluebeam-revu",
+   "need": "drawing-markup",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "bmj-best-practice",
+   "need": "clinical-reference",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "bmj-learning",
+   "need": "cpd-learning",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "bnf",
+   "need": "drug-information",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "bokun",
+   "need": "tour-booking",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "bolt",
+   "need": "driver-earnings",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "booking-com",
+   "need": "hotel-management",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "booksy",
+   "need": "salon-booking",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "boxcast",
+   "need": "service-livestream",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "breeze",
+   "need": "congregation-management",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "brevo",
+   "need": "email-marketing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "bubble",
+   "need": "no-code-apps",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "buffer",
+   "need": "social-media-presence",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "buffer",
+   "need": "content-planning",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "buffer",
+   "need": "social-media-management",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "buildium",
+   "need": "property-management",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "burp-suite",
+   "need": "security-testing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "busuu",
+   "need": "language-learning",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "buzzsprout",
+   "need": "podcast-production",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "calculix",
+   "need": "fea-simulation",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "calendly",
+   "need": "clinic-scheduling",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "calendly",
+   "need": "booking-appointments",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "calm",
+   "need": "mindfulness-wellbeing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "candid",
+   "need": "grant-finding",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "canvas-lms",
+   "need": "virtual-classroom",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "capture-one",
+   "need": "photography-workflow",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "carly",
+   "need": "vehicle-diagnostics",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "caseware-idea",
+   "need": "audit-analytics",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "cattlemax",
+   "need": "livestock-management",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "chemcad",
+   "need": "process-simulation",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "chemdraw",
+   "need": "chemistry-drawing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "churchsuite",
+   "need": "congregation-management",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "cinema-4d",
+   "need": "3d-modelling",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "circuit",
+   "need": "route-planning-fleet",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "cisco-packet-tracer",
+   "need": "networking",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "civil-3d",
+   "need": "bim-modelling",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "civil-3d",
+   "need": "surveying-photogrammetry",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "ckan",
+   "need": "open-data",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "clickup",
+   "need": "project-management",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "climate-fieldview",
+   "need": "crop-monitoring",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "clio",
+   "need": "legal-practice-management",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "clip-studio-paint",
+   "need": "digital-illustration",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "clo-3d",
+   "need": "fashion-design",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "cloudbeds",
+   "need": "hotel-management",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "cloudflare",
+   "need": "cloud-infrastructure",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "cmg",
+   "need": "reservoir-modelling",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "cochrane-library",
+   "need": "evidence-based-medicine",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "codesys",
+   "need": "plc-automation",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "complete-anatomy",
+   "need": "anatomy-3d",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "comsol",
+   "need": "fea-simulation",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "confluence",
+   "need": "technical-writing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "connected-papers",
+   "need": "literature-review",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "contra",
+   "need": "freelancing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "costx",
+   "need": "cost-estimation",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "coursera",
+   "need": "learn-online",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "coursera",
+   "need": "cpd-learning",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "covetrus-pulse",
+   "need": "veterinary-practice",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "cozi",
+   "need": "family-organisation",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "crisp",
+   "need": "customer-support",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "cronometer",
+   "need": "nutrition-planning",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "csi-safe",
+   "need": "structural-analysis",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "curve-dental",
+   "need": "dental-practice",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "cutlist-optimizer",
+   "need": "woodworking-design",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "d5-render",
+   "need": "architectural-visualisation",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "darktable",
+   "need": "photography-workflow",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "dartfish",
+   "need": "movement-analysis",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "dartfish",
+   "need": "match-video-analysis",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "databricks",
+   "need": "data-pipelines",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "datadog",
+   "need": "observability",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "datamine",
+   "need": "mine-planning",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "datawrapper",
+   "need": "data-visualisation",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "datawrapper",
+   "need": "open-data",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "dbt",
+   "need": "data-pipelines",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "decidim",
+   "need": "public-consultation",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "deel",
+   "need": "payroll",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "deel",
+   "need": "people-management",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "dentrix",
+   "need": "dental-practice",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "deputy",
+   "need": "shift-rota",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "descript",
+   "need": "podcast-production",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "deswik",
+   "need": "mine-planning",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "dhis2",
+   "need": "public-health-data",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "dhis2",
+   "need": "monitoring-evaluation",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "dialux",
+   "need": "electrical-design",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "distrokid",
+   "need": "release-music",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "docker",
+   "need": "devops-cicd",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "docker",
+   "need": "containers-orchestration",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "docusaurus",
+   "need": "technical-writing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "docusign",
+   "need": "e-signatures",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "docusign",
+   "need": "contract-drafting",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "donorbox",
+   "need": "fundraising",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "donorbox",
+   "need": "online-giving",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "dorico",
+   "need": "music-notation",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "dovetail",
+   "need": "product-discovery",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "dovetail",
+   "need": "user-research",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "doxy-me",
+   "need": "telemedicine",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "doxy-me",
+   "need": "therapy-practice-admin",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "draw-io",
+   "need": "diagramming",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "draw-io",
+   "need": "process-mapping",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "drawboard-pdf",
+   "need": "drawing-markup",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "dropbox",
+   "need": "files-cloud-storage",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "drugs-com",
+   "need": "drug-information",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "duolingo",
+   "need": "language-learning",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "dwsim",
+   "need": "process-simulation",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "easyship",
+   "need": "shipment-tracking",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "ebay",
+   "need": "marketplace-selling",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "ebird",
+   "need": "environmental-monitoring",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "eclipse",
+   "need": "reservoir-modelling",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "edx",
+   "need": "learn-online",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "elabftw",
+   "need": "lab-data",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "elastic",
+   "need": "security-operations",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "enscape",
+   "need": "interior-design",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "enscape",
+   "need": "architectural-visualisation",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "eos-crop-monitoring",
+   "need": "crop-monitoring",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "epa-swmm",
+   "need": "hydraulic-modelling",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "epanet",
+   "need": "hydraulic-modelling",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "epi-info",
+   "need": "health-research-data",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "epi-info",
+   "need": "public-health-data",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "epic",
+   "need": "electronic-health-records",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "eplan",
+   "need": "electrical-design",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "epocrates",
+   "need": "drug-information",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "erpnext",
+   "need": "erp",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "esoko",
+   "need": "agri-market-access",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "etabs",
+   "need": "structural-analysis",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "etap",
+   "need": "electrical-design",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "etsy",
+   "need": "sell-art-online",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "etsy",
+   "need": "marketplace-selling",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "eventbrite",
+   "need": "events-management",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "everbridge",
+   "need": "emergency-comms",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "everfit",
+   "need": "online-coaching",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "everlaw",
+   "need": "ediscovery",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "excalidraw",
+   "need": "diagramming",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "expo",
+   "need": "mobile-app-dev",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "ezyvet",
+   "need": "veterinary-practice",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "facebook-marketplace",
+   "need": "agri-market-access",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "fareharbor",
+   "need": "tour-booking",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "farmbrite",
+   "need": "farm-records",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "fieldwire",
+   "need": "site-management",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "figshare",
+   "need": "research-data-management",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "fiix",
+   "need": "maintenance-cmms",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "final-cut-pro",
+   "need": "video-editing-pro",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "findhelp",
+   "need": "service-referral",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "firefox",
+   "need": "browser-productivity",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "fiverr",
+   "need": "freelancing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "fl-studio",
+   "need": "audio-production",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "flightradar24",
+   "need": "shipment-tracking",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "flourish",
+   "need": "data-visualisation",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "flutter",
+   "need": "mobile-app-dev",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "flutterwave",
+   "need": "online-payments",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "foreflight",
+   "need": "flight-planning",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "framer",
+   "need": "ui-ux-design",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "freecad",
+   "need": "cad-drafting",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "freecad",
+   "need": "mechanical-design",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "freecad",
+   "need": "cnc-cam",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "freecodecamp",
+   "need": "learn-online",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "freightos",
+   "need": "shipment-tracking",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "fresha",
+   "need": "booking-appointments",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "fresha",
+   "need": "salon-booking",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "freshdesk",
+   "need": "customer-support",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "freshservice",
+   "need": "it-helpdesk",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "ftk-imager",
+   "need": "digital-forensics",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "fundsforngos",
+   "need": "grant-finding",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "fusion-360",
+   "need": "mechanical-design",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "fusion-360",
+   "need": "woodworking-design",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "fusion-360",
+   "need": "cnc-cam",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "ganttproject",
+   "need": "project-scheduling",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "garageband",
+   "need": "audio-production",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "garmin-pilot",
+   "need": "flight-planning",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "gatling",
+   "need": "performance-testing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "gcfglobal",
+   "need": "digital-basics",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "geostudio",
+   "need": "geotechnical-analysis",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "getyourguide",
+   "need": "tour-booking",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "ghost",
+   "need": "newsletter-publishing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "gimp",
+   "need": "photo-editing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "gimp",
+   "need": "graphic-design-pro",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "gitbook",
+   "need": "technical-writing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "github-actions",
+   "need": "devops-cicd",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "github-copilot",
+   "need": "write-code",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "glassdoor",
+   "need": "job-search",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "glide",
+   "need": "no-code-apps",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "global-forest-watch",
+   "need": "environmental-monitoring",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "glofox",
+   "need": "gym-membership",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "glpi",
+   "need": "it-helpdesk",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "gmail",
+   "need": "email-and-calendar",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "gns3",
+   "need": "networking",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "godot",
+   "need": "game-development",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "gofundme",
+   "need": "fundraising",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-ads",
+   "need": "online-ads",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-alerts",
+   "need": "pr-media-monitoring",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-analytics",
+   "need": "product-analytics",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-analytics",
+   "need": "seo",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-analytics",
+   "need": "web-analytics",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-apps-script",
+   "need": "automation-workflows",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-authenticator",
+   "need": "online-safety",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-business-profile",
+   "need": "property-marketing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-business-profile",
+   "need": "reviews-reputation",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-calendar",
+   "need": "email-and-calendar",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-calendar",
+   "need": "clinic-scheduling",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-calendar",
+   "need": "veterinary-practice",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-calendar",
+   "need": "pastoral-care",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-calendar",
+   "need": "care-coordination",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-calendar",
+   "need": "family-organisation",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-chrome",
+   "need": "browser-productivity",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-classroom",
+   "need": "virtual-classroom",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-classroom",
+   "need": "grading-feedback",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-cloud",
+   "need": "cloud-infrastructure",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-drive",
+   "need": "files-cloud-storage",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-drive",
+   "need": "scan-documents",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-drive",
+   "need": "records-management",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-earth-engine",
+   "need": "gis-mapping",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-earth-engine",
+   "need": "crop-monitoring",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-earth-pro",
+   "need": "gis-mapping",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-earth-pro",
+   "need": "osint-research",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-fact-check-explorer",
+   "need": "fact-check",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-fact-check-explorer",
+   "need": "media-verification",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-family-link",
+   "need": "kids-online-safety",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-forms",
+   "need": "forms-surveys",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-forms",
+   "need": "user-research",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-forms",
+   "need": "quizzes-assessment",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-forms",
+   "need": "research-surveys",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-forms",
+   "need": "events-management",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-forms",
+   "need": "recruitment",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-forms",
+   "need": "public-consultation",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-forms",
+   "need": "food-safety",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-forms",
+   "need": "incident-reporting",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-lens",
+   "need": "fact-check",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-lens",
+   "need": "media-verification",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-lens",
+   "need": "digital-basics",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-live-transcribe",
+   "need": "accessibility-tools",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-live-transcribe",
+   "need": "voice-typing-transcription",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-live-transcribe",
+   "need": "accessible-communication",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-maps",
+   "need": "maps-navigation",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-maps",
+   "need": "route-planning-fleet",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-maps",
+   "need": "travel-planning",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-maps",
+   "need": "service-referral",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-scholar",
+   "need": "find-information",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-scholar",
+   "need": "evidence-based-medicine",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-scholar",
+   "need": "legal-research",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-scholar",
+   "need": "literature-review",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-scholar",
+   "need": "policy-research",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-search-console",
+   "need": "seo",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-search",
+   "need": "find-information",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-sites",
+   "need": "professional-profile",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "google-trends",
+   "need": "market-research",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "gradescope",
+   "need": "grading-feedback",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "grafana",
+   "need": "observability",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "grammarly",
+   "need": "write-clearly",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "grammarly",
+   "need": "copywriting",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "graphpad-prism",
+   "need": "scientific-figures",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "gumroad",
+   "need": "creator-income",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "gusto",
+   "need": "payroll",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "have-i-been-pwned",
+   "need": "online-safety",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "headspace",
+   "need": "mindfulness-wellbeing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "hec-ras",
+   "need": "hydraulic-modelling",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "heja",
+   "need": "team-organisation",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "hemingway-editor",
+   "need": "write-clearly",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "hemingway-editor",
+   "need": "copywriting",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "herdwatch",
+   "need": "livestock-management",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "homer-pro",
+   "need": "energy-systems-modelling",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "homestyler",
+   "need": "interior-design",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "hootsuite",
+   "need": "social-media-management",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "hubspot",
+   "need": "crm-sales",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "hubspot",
+   "need": "fundraising",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "hudl",
+   "need": "movement-analysis",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "hudl",
+   "need": "match-video-analysis",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "hugging-face",
+   "need": "machine-learning",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "hugging-face",
+   "need": "ai-app-development",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "ibm-maximo",
+   "need": "maintenance-cmms",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "idealist",
+   "need": "volunteering",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "ifixit",
+   "need": "repair-guides",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "ilovepdf",
+   "need": "pdf-work",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "inaturalist",
+   "need": "environmental-monitoring",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "indeed",
+   "need": "job-search",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "infoworks-icm",
+   "need": "hydraulic-modelling",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "inkscape",
+   "need": "graphic-design-pro",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "inkscape",
+   "need": "brand-identity",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "inkscape",
+   "need": "scientific-figures",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "insight-timer",
+   "need": "mindfulness-wellbeing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "insomnia",
+   "need": "api-testing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "instagram",
+   "need": "artist-profiles",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "instagram",
+   "need": "visual-portfolio",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "interactive-petrophysics",
+   "need": "petrophysics",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "invid-wevrify",
+   "need": "media-verification",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "invoice-ninja",
+   "need": "invoicing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "invoice-ninja",
+   "need": "trade-quotes-invoicing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "italki",
+   "need": "language-learning",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "jamovi",
+   "need": "statistical-analysis",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "jane-app",
+   "need": "therapy-practice-admin",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "jane-app",
+   "need": "clinic-scheduling",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "jasp",
+   "need": "statistical-analysis",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "jenkins",
+   "need": "devops-cicd",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "jest",
+   "need": "test-automation",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "jetbrains-ides",
+   "need": "write-code",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "jewelsuite",
+   "need": "geomechanics",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "jiji",
+   "need": "marketplace-selling",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "jiji",
+   "need": "agri-market-access",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "jira-service-management",
+   "need": "it-helpdesk",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "jmp",
+   "need": "quality-statistics",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "jobber",
+   "need": "trade-quotes-invoicing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "julia",
+   "need": "scientific-computing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "jumia",
+   "need": "marketplace-selling",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "k6",
+   "need": "performance-testing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "kahoot",
+   "need": "quizzes-assessment",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "kali-linux",
+   "need": "security-testing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "katana-mrp",
+   "need": "production-planning",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "ketcher",
+   "need": "chemistry-drawing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "khan-academy",
+   "need": "learn-online",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "khan-academy",
+   "need": "study-skills",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "kicad",
+   "need": "electrical-design",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "kicad",
+   "need": "repair-guides",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "kinovea",
+   "need": "movement-analysis",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "kinovea",
+   "need": "match-video-analysis",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "kit",
+   "need": "email-marketing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "ko-fi",
+   "need": "creator-income",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "koyfin",
+   "need": "market-research-finance",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "krita",
+   "need": "digital-illustration",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "kubernetes",
+   "need": "containers-orchestration",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "labguru",
+   "need": "lab-data",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "landmark-decisionspace",
+   "need": "well-planning-design",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "langchain",
+   "need": "ai-app-development",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "languagetool",
+   "need": "write-clearly",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "languagetool",
+   "need": "academic-writing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "lawpavilion",
+   "need": "legal-research",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "leapfrog",
+   "need": "mine-planning",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "lexicomp",
+   "need": "drug-information",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "lexisnexis",
+   "need": "legal-research",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "life-qi",
+   "need": "clinical-audit-qi",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "lightspeed",
+   "need": "restaurant-operations",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "limesurvey",
+   "need": "research-surveys",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "lingvano",
+   "need": "sign-language",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "linkedin-learning",
+   "need": "learn-online",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "little-hotelier",
+   "need": "hotel-management",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "logic-pro",
+   "need": "audio-production",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "logos-bible-software",
+   "need": "scripture-study",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "lookback",
+   "need": "user-research",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "looker-studio",
+   "need": "dashboards-bi",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "loom",
+   "need": "screen-recording",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "lotsa-helping-hands",
+   "need": "care-coordination",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "loyverse",
+   "need": "point-of-sale",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "loyverse",
+   "need": "restaurant-operations",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "lseg-workspace",
+   "need": "market-research-finance",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "lucidchart",
+   "need": "diagramming",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "lucidchart",
+   "need": "process-mapping",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "luma",
+   "need": "events-management",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "lumion",
+   "need": "architectural-visualisation",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "m-files",
+   "need": "records-management",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "magicplan",
+   "need": "site-measurement",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "mailchimp",
+   "need": "newsletter-publishing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "mailchimp",
+   "need": "email-marketing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "mailchimp",
+   "need": "fundraising",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "mailerlite",
+   "need": "email-marketing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "make",
+   "need": "automation-workflows",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "maltego",
+   "need": "osint-research",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "maptek-vulcan",
+   "need": "mine-planning",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "marinetraffic",
+   "need": "shipment-tracking",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "marinetraffic",
+   "need": "maritime-navigation",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "marvinsketch",
+   "need": "chemistry-drawing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "mastercam",
+   "need": "cnc-cam",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "matomo",
+   "need": "web-analytics",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "matterport",
+   "need": "property-marketing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "maze",
+   "need": "user-research",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "mbal",
+   "need": "well-performance",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "mdcalc",
+   "need": "medical-calculators",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "medbridge",
+   "need": "exercise-prescription",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "medisafe",
+   "need": "care-coordination",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "medisafe",
+   "need": "personal-health-tracking",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "meditech",
+   "need": "electronic-health-records",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "medscape",
+   "need": "clinical-reference",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "medscape",
+   "need": "drug-information",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "medscape",
+   "need": "medical-calculators",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "medscape",
+   "need": "cpd-learning",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "meez",
+   "need": "recipe-costing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "meltwater",
+   "need": "pr-media-monitoring",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "mentimeter",
+   "need": "quizzes-assessment",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "mentimeter",
+   "need": "interactive-teaching",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "mentimeter",
+   "need": "workshop-facilitation",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "mermaid",
+   "need": "diagramming",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "meta-ads-manager",
+   "need": "online-ads",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "meta-business-suite",
+   "need": "social-media-presence",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "meta-business-suite",
+   "need": "social-media-management",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "metabase",
+   "need": "dashboards-bi",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "meteoblue",
+   "need": "weather-planning",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "metricool",
+   "need": "content-planning",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "metricool",
+   "need": "social-media-management",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "microsoft-authenticator",
+   "need": "online-safety",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "microsoft-azure",
+   "need": "cloud-infrastructure",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "microsoft-clarity",
+   "need": "web-analytics",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "microsoft-dynamics-365",
+   "need": "erp",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "microsoft-edge",
+   "need": "browser-productivity",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "microsoft-family-safety",
+   "need": "kids-online-safety",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "microsoft-forms",
+   "need": "forms-surveys",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "microsoft-forms",
+   "need": "quality-hse",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "microsoft-immersive-reader",
+   "need": "accessibility-tools",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "microsoft-immersive-reader",
+   "need": "accessible-materials",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "microsoft-onedrive",
+   "need": "files-cloud-storage",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "microsoft-outlook",
+   "need": "email-and-calendar",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "microsoft-project",
+   "need": "project-scheduling",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "microsoft-project",
+   "need": "project-management",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "microsoft-sentinel",
+   "need": "security-operations",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "microsoft-to-do",
+   "need": "personal-productivity",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "microsoft-visio",
+   "need": "process-mapping",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "microsoft-visio",
+   "need": "lean-six-sigma",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "mindbody",
+   "need": "gym-membership",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "minitab",
+   "need": "quality-statistics",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "minitab",
+   "need": "lean-six-sigma",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "miro",
+   "need": "product-discovery",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "miro",
+   "need": "roadmapping",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "miro",
+   "need": "diagramming",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "miro",
+   "need": "interactive-teaching",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "miro",
+   "need": "business-planning",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "miro",
+   "need": "process-mapping",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "miro",
+   "need": "consulting-deliverables",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "miro",
+   "need": "workshop-facilitation",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "miro",
+   "need": "lean-six-sigma",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "mixpanel",
+   "need": "product-analytics",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "mode",
+   "need": "sql-querying",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "monday-com",
+   "need": "project-management",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "mongodb",
+   "need": "databases",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "moniepoint",
+   "need": "point-of-sale",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "moodle",
+   "need": "virtual-classroom",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "muck-rack",
+   "need": "pr-media-monitoring",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "mural",
+   "need": "workshop-facilitation",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "musescore",
+   "need": "music-notation",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "mycase",
+   "need": "legal-practice-management",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "myfitnesspal",
+   "need": "nutrition-planning",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "n8n",
+   "need": "automation-workflows",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "navionics",
+   "need": "maritime-navigation",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "navisworks",
+   "need": "bim-modelling",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "ncbi-blast",
+   "need": "molecular-biology",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "nearpod",
+   "need": "interactive-teaching",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "netlify",
+   "need": "cloud-infrastructure",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "netlify",
+   "need": "web-development",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "nextjs",
+   "need": "web-development",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "nice-guidance",
+   "need": "clinical-reference",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "nmap",
+   "need": "security-testing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "node-red",
+   "need": "plc-automation",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "nrel-sam",
+   "need": "energy-systems-modelling",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "nutritics",
+   "need": "nutrition-planning",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "nvda",
+   "need": "accessibility-tools",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "nvivo",
+   "need": "qualitative-analysis",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "obd-auto-doctor",
+   "need": "vehicle-diagnostics",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "odoo",
+   "need": "inventory-procurement",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "odoo",
+   "need": "erp",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "odoo",
+   "need": "production-planning",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "odoo",
+   "need": "warehouse-inventory",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "olga",
+   "need": "well-performance",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "onfleet",
+   "need": "route-planning-fleet",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "onshape",
+   "need": "mechanical-design",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "open-dental",
+   "need": "dental-practice",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "openai-api",
+   "need": "ai-app-development",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "opencpn",
+   "need": "maritime-navigation",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "opendtect",
+   "need": "reservoir-modelling",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "openmrs",
+   "need": "electronic-health-records",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "openrefine",
+   "need": "data-cleaning",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "openstreetmap",
+   "need": "maps-navigation",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "openwells",
+   "need": "drilling-reporting",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "oracle-health",
+   "need": "electronic-health-records",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "oracle-netsuite",
+   "need": "erp",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "oracle-netsuite",
+   "need": "warehouse-inventory",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "origin",
+   "need": "scientific-figures",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "osf",
+   "need": "research-data-management",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "osirix-md",
+   "need": "medical-imaging-viewing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "osmosis",
+   "need": "memorise-knowledge",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "otter-ai",
+   "need": "voice-typing-transcription",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "otter-ai",
+   "need": "meeting-minutes",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "overleaf",
+   "need": "technical-reporting",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "overleaf",
+   "need": "academic-writing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "owasp-zap",
+   "need": "security-testing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "padlet",
+   "need": "interactive-teaching",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "patreon",
+   "need": "creator-income",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "paypal",
+   "need": "online-payments",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "paystack",
+   "need": "online-payments",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "paystack",
+   "need": "invoicing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "paystack",
+   "need": "online-giving",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "pdf24",
+   "need": "pdf-work",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "perplexity",
+   "need": "use-ai-assistants",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "perplexity",
+   "need": "find-information",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "petex-gap",
+   "need": "well-performance",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "petrel",
+   "need": "reservoir-modelling",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "photopea",
+   "need": "photo-editing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "photoroom",
+   "need": "product-photography",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "physitrack",
+   "need": "exercise-prescription",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "picturethis",
+   "need": "plant-health",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "pinterest",
+   "need": "visual-portfolio",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "pipedrive",
+   "need": "crm-sales",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "pipesim",
+   "need": "well-performance",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "pix4d",
+   "need": "surveying-photogrammetry",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "planner-5d",
+   "need": "interior-design",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "planning-center",
+   "need": "congregation-management",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "planning-center",
+   "need": "pastoral-care",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "planswift",
+   "need": "cost-estimation",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "plantix",
+   "need": "plant-health",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "plantnet",
+   "need": "plant-health",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "plausible",
+   "need": "web-analytics",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "plaxis",
+   "need": "geotechnical-analysis",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "podman",
+   "need": "containers-orchestration",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "polis",
+   "need": "public-consultation",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "posthog",
+   "need": "product-analytics",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "postman",
+   "need": "api-testing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "power-apps",
+   "need": "no-code-apps",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "power-automate",
+   "need": "automation-workflows",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "power-query",
+   "need": "data-cleaning",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "powerscribe",
+   "need": "radiology-reporting",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "practicepanther",
+   "need": "legal-practice-management",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "primavera-p6",
+   "need": "project-scheduling",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "procore",
+   "need": "site-management",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "procreate",
+   "need": "digital-illustration",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "productboard",
+   "need": "product-discovery",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "productboard",
+   "need": "roadmapping",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "proloquo2go",
+   "need": "accessible-communication",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "prometheus",
+   "need": "observability",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "prosper",
+   "need": "well-performance",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "proton-mail",
+   "need": "email-and-calendar",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "prusaslicer",
+   "need": "3d-printing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "pubmed",
+   "need": "evidence-based-medicine",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "pushpay",
+   "need": "online-giving",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "putty",
+   "need": "networking",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "pvsyst",
+   "need": "energy-systems-modelling",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "pymol",
+   "need": "molecular-biology",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "pytorch",
+   "need": "machine-learning",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "qase",
+   "need": "test-management",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "qlab",
+   "need": "stage-production",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "qualtrics",
+   "need": "research-surveys",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "quizlet",
+   "need": "memorise-knowledge",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "quizlet",
+   "need": "study-skills",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "quran-com",
+   "need": "scripture-study",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "qxmd",
+   "need": "medical-calculators",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "r",
+   "need": "health-research-data",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "r",
+   "need": "public-health-data",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "r",
+   "need": "statistical-analysis",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "r",
+   "need": "risk-modelling",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "r",
+   "need": "sports-analytics",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "r",
+   "need": "scientific-computing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "radreport",
+   "need": "radiology-reporting",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "rayyan",
+   "need": "evidence-based-medicine",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "rayyan",
+   "need": "literature-review",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "react-native",
+   "need": "mobile-app-dev",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "reaper",
+   "need": "audio-production",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "redbubble",
+   "need": "sell-art-online",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "redcap",
+   "need": "clinical-audit-qi",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "redcap",
+   "need": "health-research-data",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "reedsy",
+   "need": "book-writing-publishing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "relativity",
+   "need": "ediscovery",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "remove-bg",
+   "need": "product-photography",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "retscreen",
+   "need": "energy-systems-modelling",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "revit",
+   "need": "bim-modelling",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "rive",
+   "need": "motion-graphics",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "riverside",
+   "need": "podcast-production",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "robot-structural-analysis",
+   "need": "structural-analysis",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "rocscience-slide2",
+   "need": "geotechnical-analysis",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "rotacloud",
+   "need": "shift-rota",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "routific",
+   "need": "route-planning-fleet",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "rstudio",
+   "need": "notebooks",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "safetyculture",
+   "need": "quality-hse",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "safetyculture",
+   "need": "food-safety",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "safetyculture",
+   "need": "site-management",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "safetyculture",
+   "need": "incident-reporting",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "sage",
+   "need": "bookkeeping",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "sage",
+   "need": "payroll",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "salesforce",
+   "need": "crm-sales",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "salesforce",
+   "need": "case-management",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "samsara",
+   "need": "route-planning-fleet",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "sap",
+   "need": "maintenance-cmms",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "sap",
+   "need": "erp",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "sap",
+   "need": "production-planning",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "sap2000",
+   "need": "structural-analysis",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "scikit-learn",
+   "need": "machine-learning",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "scrivener",
+   "need": "book-writing-publishing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "seamly2d",
+   "need": "fashion-design",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "sefaria",
+   "need": "scripture-study",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "selar",
+   "need": "creator-income",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "selar",
+   "need": "sell-art-online",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "selar",
+   "need": "online-store",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "semantic-scholar",
+   "need": "literature-review",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "semrush",
+   "need": "seo",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "sentinel-hub",
+   "need": "crop-monitoring",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "sentry",
+   "need": "observability",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "sessionlab",
+   "need": "workshop-facilitation",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "setmore",
+   "need": "clinic-scheduling",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "setmore",
+   "need": "booking-appointments",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "sharepoint",
+   "need": "regulatory-reporting",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "sharepoint",
+   "need": "records-management",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "sharpcap",
+   "need": "astronomy-observation",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "shopify",
+   "need": "sell-art-online",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "shopify",
+   "need": "online-store",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "sibelius",
+   "need": "music-notation",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "signal",
+   "need": "group-messaging",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "signal",
+   "need": "emergency-comms",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "signupgenius",
+   "need": "volunteer-coordination",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "similarweb",
+   "need": "market-research",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "simplepractice",
+   "need": "therapy-practice-admin",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "siril",
+   "need": "astronomy-observation",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "sketch",
+   "need": "ui-ux-design",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "sketchup",
+   "need": "cad-drafting",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "sketchup",
+   "need": "3d-modelling",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "sketchup",
+   "need": "interior-design",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "sketchup",
+   "need": "site-measurement",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "sketchup",
+   "need": "woodworking-design",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "skydemon",
+   "need": "flight-planning",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "skyscanner",
+   "need": "travel-planning",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "slack",
+   "need": "group-messaging",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "slb-drillplan",
+   "need": "well-planning-design",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "smallpdf",
+   "need": "pdf-work",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "smallpdf",
+   "need": "e-signatures",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "smartsheet",
+   "need": "project-scheduling",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "smath-studio",
+   "need": "engineering-calculations",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "snapgene",
+   "need": "molecular-biology",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "snapseed",
+   "need": "photo-editing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "snapseed",
+   "need": "product-photography",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "snowflake",
+   "need": "data-pipelines",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "socrative",
+   "need": "quizzes-assessment",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "solidworks",
+   "need": "fea-simulation",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "solidworks",
+   "need": "mechanical-design",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "sortly",
+   "need": "pharmacy-stock",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "sortly",
+   "need": "inventory-procurement",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "sortly",
+   "need": "warehouse-inventory",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "splunk",
+   "need": "security-operations",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "spond",
+   "need": "team-organisation",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "spotfire",
+   "need": "production-surveillance",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "spotify-for-artists",
+   "need": "artist-profiles",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "spotlight",
+   "need": "auditions-casting",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "spreadthesign",
+   "need": "sign-language",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "spss",
+   "need": "health-research-data",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "spss",
+   "need": "statistical-analysis",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "square",
+   "need": "booking-appointments",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "square",
+   "need": "point-of-sale",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "square",
+   "need": "restaurant-operations",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "square",
+   "need": "salon-booking",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "staad-pro",
+   "need": "structural-analysis",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "stata",
+   "need": "health-research-data",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "stata",
+   "need": "statistical-analysis",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "statista",
+   "need": "market-research",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "stellarium",
+   "need": "astronomy-observation",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "step-bible",
+   "need": "scripture-study",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "stripe",
+   "need": "online-payments",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "studio-5000",
+   "need": "plc-automation",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "substack",
+   "need": "newsletter-publishing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "sumup",
+   "need": "point-of-sale",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "swagger",
+   "need": "api-testing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "tableau",
+   "need": "dashboards-bi",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "tableau",
+   "need": "data-visualisation",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "tableau",
+   "need": "sports-analytics",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "taguette",
+   "need": "qualitative-analysis",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "teamsnap",
+   "need": "team-organisation",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "techlog",
+   "need": "geomechanics",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "techlog",
+   "need": "petrophysics",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "tekla-structures",
+   "need": "bim-modelling",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "telegram",
+   "need": "group-messaging",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "terraform",
+   "need": "devops-cicd",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "testrail",
+   "need": "test-management",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "think-cell",
+   "need": "consulting-deliverables",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "tia-portal",
+   "need": "plc-automation",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "tineye",
+   "need": "fact-check",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "tineye",
+   "need": "media-verification",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "tineye",
+   "need": "osint-research",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "tinkercad",
+   "need": "3d-printing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "tithely",
+   "need": "online-giving",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "tnavigator",
+   "need": "reservoir-modelling",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "toast",
+   "need": "restaurant-operations",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "todoist",
+   "need": "personal-productivity",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "torque-pro",
+   "need": "vehicle-diagnostics",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "tradify",
+   "need": "trade-quotes-invoicing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "tradingview",
+   "need": "market-research-finance",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "trainerize",
+   "need": "online-coaching",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "trimble-business-center",
+   "need": "surveying-photogrammetry",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "tripadvisor",
+   "need": "reviews-reputation",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "tripit",
+   "need": "travel-planning",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "truecoach",
+   "need": "online-coaching",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "trustpilot",
+   "need": "reviews-reputation",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "tunecore",
+   "need": "release-music",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "turnitin",
+   "need": "grading-feedback",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "twinmotion",
+   "need": "architectural-visualisation",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "typeform",
+   "need": "forms-surveys",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "typeform",
+   "need": "market-research",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "uber",
+   "need": "driver-earnings",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "ugene",
+   "need": "molecular-biology",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "ultimaker-cura",
+   "need": "3d-printing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "un-online-volunteering",
+   "need": "volunteering",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "unity",
+   "need": "game-development",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "unreal-engine",
+   "need": "game-development",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "upkeep",
+   "need": "maintenance-cmms",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "uptodate",
+   "need": "clinical-reference",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "upwork",
+   "need": "freelancing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "ushahidi",
+   "need": "incident-reporting",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "vagaro",
+   "need": "salon-booking",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "vale",
+   "need": "technical-writing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "visible-body",
+   "need": "anatomy-3d",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "volunteermatch",
+   "need": "volunteering",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "wanderlog",
+   "need": "travel-planning",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "wayback-machine",
+   "need": "osint-research",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "wazuh",
+   "need": "security-operations",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "wellview",
+   "need": "drilling-reporting",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "westlaw",
+   "need": "legal-research",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "what3words",
+   "need": "maps-navigation",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "when-i-work",
+   "need": "shift-rota",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "who-guidelines",
+   "need": "clinical-reference",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "wikipedia",
+   "need": "find-information",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "windy",
+   "need": "weather-planning",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "wireshark",
+   "need": "security-testing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "wireshark",
+   "need": "networking",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "wireshark",
+   "need": "digital-forensics",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "wise",
+   "need": "online-payments",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "woocommerce",
+   "need": "online-store",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "workable",
+   "need": "recruitment",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "wyscout",
+   "need": "sports-analytics",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "x-plane",
+   "need": "flight-planning",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "xcode",
+   "need": "mobile-app-dev",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "xray",
+   "need": "test-management",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "yahoo-finance",
+   "need": "market-research-finance",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "ynab",
+   "need": "personal-finance",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "youversion",
+   "need": "scripture-study",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "zapier",
+   "need": "automation-workflows",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "zello",
+   "need": "emergency-comms",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "zendesk",
+   "need": "it-helpdesk",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "zendesk",
+   "need": "customer-support",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "zenodo",
+   "need": "research-data-management",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "zephyr",
+   "need": "test-management",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "zoho-crm",
+   "need": "crm-sales",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "zoho-inventory",
+   "need": "pharmacy-stock",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "zoho-inventory",
+   "need": "inventory-procurement",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "zoho-inventory",
+   "need": "warehouse-inventory",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "zoho-invoice",
+   "need": "invoicing",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "zoho-people",
+   "need": "people-management",
+   "kind": "auto",
+   "core_modules": 10
+  }
+ ]
+}

@@ -1,0 +1,105 @@
+{
+ "schema_version": "2.1",
+ "id": "lens_python__machine_learning",
+ "roadmap_id": "rm_python",
+ "roadmap": "python",
+ "need_id": "need_machine_learning",
+ "need": "machine-learning",
+ "title": "Python for data scientists",
+ "kind": "flagship",
+ "for_identities": [
+  "data-scientist",
+  "machine-learning-engineer",
+  "ai-engineer",
+  "data-analyst",
+  "ai-researcher"
+ ],
+ "why": "Python is the main language of modern data science and machine learning.",
+ "what_is_different": "Data scientists must frame problems, build honest evaluation, avoid leakage, and communicate uncertainty — model accuracy alone isn't value.",
+ "priority_modules": [
+  "py-pandas",
+  "py-plots",
+  "py-ml",
+  "py-numeric",
+  "py-ship"
+ ],
+ "extra_modules": [
+  {
+   "level": "expert",
+   "title": "Responsible evaluation",
+   "outcome": "You can: evaluate models fairly and honestly",
+   "topics": [
+    "validation strategy",
+    "leakage checks",
+    "bias across groups",
+    "documentation (model cards)"
+   ],
+   "practice": "Write a model card for a model you trained"
+  }
+ ],
+ "starter_project": "Build an end-to-end project: problem framing, data cleaning, baseline, model, honest evaluation, and a short write-up for non-technical readers.",
+ "pitfalls": [
+  "Data leakage",
+  "No baseline",
+  "Reporting only accuracy"
+ ],
+ "pairs_with": [
+  "tool_jupyter",
+  "tool_google_colab",
+  "tool_scikit_learn",
+  "tool_hugging_face"
+ ],
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false,
+ "composed_path": {
+  "beginner": [
+   {
+    "module": "py-first",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "py-files",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ],
+  "intermediate": [
+   {
+    "module": "py-pandas",
+    "relevance": "core",
+    "rank": 0
+   },
+   {
+    "module": "py-plots",
+    "relevance": "core",
+    "rank": 1
+   },
+   {
+    "module": "py-numeric",
+    "relevance": "core",
+    "rank": 3
+   }
+  ],
+  "expert": [
+   {
+    "extra": "Responsible evaluation",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "module": "py-ml",
+    "relevance": "core",
+    "rank": 2
+   },
+   {
+    "module": "py-ship",
+    "relevance": "core",
+    "rank": 4
+   }
+  ]
+ }
+}

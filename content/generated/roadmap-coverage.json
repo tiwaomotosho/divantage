@@ -1,0 +1,892 @@
+{
+ "tools": 723,
+ "handwritten_tools": 87,
+ "generated": {
+  "archetype+signature": 636
+ },
+ "coverage_pct": 100.0,
+ "tool_specific_pct": 100.0,
+ "archetypes": {
+  "ai-tool": {
+   "label": "AI assistants and AI platforms",
+   "tools": [
+    "anthropic-api",
+    "github-copilot",
+    "hugging-face",
+    "langchain",
+    "openai-api",
+    "perplexity"
+   ]
+  },
+  "audio-production": {
+   "label": "Audio, music and podcast production",
+   "tools": [
+    "ableton-live",
+    "audacity",
+    "bandlab",
+    "buzzsprout",
+    "descript",
+    "fl-studio",
+    "garageband",
+    "logic-pro",
+    "reaper",
+    "riverside"
+   ]
+  },
+  "notation": {
+   "label": "Music notation",
+   "tools": [
+    "dorico",
+    "musescore",
+    "qlab",
+    "sibelius"
+   ]
+  },
+  "automation": {
+   "label": "Automation and no-code apps",
+   "tools": [
+    "airtable",
+    "appsheet",
+    "bubble",
+    "glide",
+    "google-apps-script",
+    "make",
+    "n8n",
+    "node-red",
+    "power-apps",
+    "power-automate",
+    "zapier"
+   ]
+  },
+  "business-app": {
+   "label": "Business operations apps (booking, POS, HR, property, CRM-style operations)",
+   "tools": [
+    "airbnb",
+    "appfolio",
+    "bokun",
+    "booking-com",
+    "booksy",
+    "buildium",
+    "calendly",
+    "circuit",
+    "cloudbeds",
+    "fareharbor",
+    "fresha",
+    "getyourguide",
+    "glofox",
+    "jane-app",
+    "jobber",
+    "life-qi",
+    "lightspeed",
+    "little-hotelier",
+    "loyverse",
+    "mindbody",
+    "moniepoint",
+    "onfleet",
+    "routific",
+    "samsara",
+    "setmore",
+    "simplepractice",
+    "square",
+    "sumup",
+    "toast",
+    "tradify",
+    "vagaro"
+   ]
+  },
+  "hr-people": {
+   "label": "HR, payroll and workforce tools",
+   "tools": [
+    "bamboohr",
+    "deel",
+    "deputy",
+    "gusto",
+    "rotacloud",
+    "sage",
+    "when-i-work",
+    "workable",
+    "zoho-people"
+   ]
+  },
+  "finance-payments": {
+   "label": "Accounting, invoicing and payments",
+   "tools": [
+    "flutterwave",
+    "invoice-ninja",
+    "paypal",
+    "paystack",
+    "pushpay",
+    "stripe",
+    "tithely",
+    "wise",
+    "ynab",
+    "zoho-invoice"
+   ]
+  },
+  "erp-ops": {
+   "label": "ERP, inventory, project and planning systems",
+   "tools": [
+    "aha",
+    "anaplan",
+    "bizagi-modeler",
+    "candid",
+    "easyship",
+    "erpnext",
+    "fiix",
+    "freightos",
+    "fundsforngos",
+    "ganttproject",
+    "ibm-maximo",
+    "katana-mrp",
+    "m-files",
+    "microsoft-dynamics-365",
+    "microsoft-project",
+    "odoo",
+    "oracle-netsuite",
+    "primavera-p6",
+    "productboard",
+    "safetyculture",
+    "sap",
+    "signupgenius",
+    "smartsheet",
+    "sortly",
+    "upkeep",
+    "zoho-inventory"
+   ]
+  },
+  "legal-practice": {
+   "label": "Legal practice and e-discovery",
+   "tools": [
+    "clio",
+    "everlaw",
+    "mycase",
+    "practicepanther",
+    "relativity"
+   ]
+  },
+  "faith-admin": {
+   "label": "Church and faith community management",
+   "tools": [
+    "breeze",
+    "churchsuite",
+    "planning-center"
+   ]
+  },
+  "job-platform": {
+   "label": "Job, freelance, casting and volunteering platforms",
+   "tools": [
+    "backstage",
+    "bolt",
+    "contra",
+    "fiverr",
+    "glassdoor",
+    "idealist",
+    "indeed",
+    "spotlight",
+    "uber",
+    "un-online-volunteering",
+    "upwork",
+    "volunteermatch"
+   ]
+  },
+  "collaboration": {
+   "label": "Collaboration, messaging and workspace tools",
+   "tools": [
+    "anydesk",
+    "asana",
+    "clickup",
+    "confluence",
+    "decidim",
+    "doxy-me",
+    "everbridge",
+    "miro",
+    "monday-com",
+    "mural",
+    "polis",
+    "sessionlab",
+    "sharepoint",
+    "signal",
+    "slack",
+    "telegram",
+    "zello"
+   ]
+  },
+  "bi-analytics": {
+   "label": "BI, analytics and statistics software",
+   "tools": [
+    "activityinfo",
+    "alteryx",
+    "amplitude",
+    "apache-airflow",
+    "apache-superset",
+    "caseware-idea",
+    "ckan",
+    "databricks",
+    "datawrapper",
+    "dbt",
+    "dhis2",
+    "epi-info",
+    "flourish",
+    "google-analytics",
+    "graphpad-prism",
+    "jamovi",
+    "jasp",
+    "jmp",
+    "julia",
+    "looker-studio",
+    "matomo",
+    "metabase",
+    "microsoft-clarity",
+    "minitab",
+    "mixpanel",
+    "mode",
+    "openrefine",
+    "origin",
+    "plausible",
+    "posthog",
+    "power-query",
+    "r",
+    "rstudio",
+    "snowflake",
+    "spotfire",
+    "spss",
+    "stata",
+    "tableau",
+    "ushahidi"
+   ]
+  },
+  "market-data": {
+   "label": "Financial market data and trading platforms",
+   "tools": [
+    "bloomberg-terminal",
+    "koyfin",
+    "lseg-workspace",
+    "tradingview",
+    "yahoo-finance"
+   ]
+  },
+  "design-graphics": {
+   "label": "Graphic design, photo and illustration software",
+   "tools": [
+    "adobe-illustrator",
+    "adobe-lightroom",
+    "adobe-photoshop",
+    "affinity",
+    "behance",
+    "biorender",
+    "capture-one",
+    "clip-studio-paint",
+    "darktable",
+    "gimp",
+    "inkscape",
+    "krita",
+    "photopea",
+    "photoroom",
+    "procreate",
+    "remove-bg",
+    "rive",
+    "sketch",
+    "snapseed"
+   ]
+  },
+  "three-d": {
+   "label": "3D modelling, visualisation and interiors",
+   "tools": [
+    "autodesk-maya",
+    "blender",
+    "cinema-4d",
+    "clo-3d",
+    "d5-render",
+    "enscape",
+    "homestyler",
+    "lumion",
+    "matterport",
+    "planner-5d",
+    "seamly2d",
+    "sketchup",
+    "tinkercad",
+    "twinmotion"
+   ]
+  },
+  "video-pro": {
+   "label": "Professional video and motion software",
+   "tools": [
+    "adobe-after-effects",
+    "adobe-premiere-pro",
+    "boxcast",
+    "final-cut-pro",
+    "loom"
+   ]
+  },
+  "cad-bim": {
+   "label": "CAD, BIM and engineering design software",
+   "tools": [
+    "archicad",
+    "autocad-electrical",
+    "autodesk-inventor",
+    "bluebeam-revu",
+    "civil-3d",
+    "costx",
+    "cutlist-optimizer",
+    "drawboard-pdf",
+    "eplan",
+    "freecad",
+    "fusion-360",
+    "kicad",
+    "magicplan",
+    "navisworks",
+    "onshape",
+    "planswift",
+    "revit",
+    "solidworks",
+    "tekla-structures",
+    "trimble-business-center"
+   ]
+  },
+  "engineering-sim": {
+   "label": "Engineering analysis and simulation software",
+   "tools": [
+    "abaqus",
+    "ansys",
+    "aspen-hysys",
+    "aspen-plus",
+    "calculix",
+    "chemcad",
+    "comsol",
+    "csi-safe",
+    "dialux",
+    "dwsim",
+    "epa-swmm",
+    "epanet",
+    "etabs",
+    "etap",
+    "geostudio",
+    "hec-ras",
+    "homer-pro",
+    "infoworks-icm",
+    "mbal",
+    "nrel-sam",
+    "olga",
+    "petex-gap",
+    "pipesim",
+    "plaxis",
+    "prosper",
+    "pvsyst",
+    "retscreen",
+    "robot-structural-analysis",
+    "rocscience-slide2",
+    "sap2000",
+    "smath-studio",
+    "staad-pro"
+   ]
+  },
+  "subsurface": {
+   "label": "Subsurface, wells and mining software",
+   "tools": [
+    "cmg",
+    "datamine",
+    "deswik",
+    "eclipse",
+    "interactive-petrophysics",
+    "jewelsuite",
+    "landmark-decisionspace",
+    "leapfrog",
+    "maptek-vulcan",
+    "opendtect",
+    "petrel",
+    "slb-drillplan",
+    "techlog",
+    "tnavigator"
+   ]
+  },
+  "ops-reporting": {
+   "label": "Operations data and reporting systems (drilling, maintenance, sites)",
+   "tools": [
+    "autodesk-build",
+    "fieldwire",
+    "openwells",
+    "procore",
+    "wellview"
+   ]
+  },
+  "industrial-automation": {
+   "label": "Industrial automation, CAM and fabrication",
+   "tools": [
+    "bambu-studio",
+    "codesys",
+    "mastercam",
+    "prusaslicer",
+    "studio-5000",
+    "tia-portal",
+    "ultimaker-cura"
+   ]
+  },
+  "health-system": {
+   "label": "Health records and clinical practice systems",
+   "tools": [
+    "covetrus-pulse",
+    "curve-dental",
+    "dentrix",
+    "epic",
+    "ezyvet",
+    "medbridge",
+    "meditech",
+    "open-dental",
+    "openmrs",
+    "oracle-health",
+    "osirix-md",
+    "physitrack",
+    "powerscribe",
+    "redcap"
+   ]
+  },
+  "clinical-reference": {
+   "label": "Clinical and drug reference tools",
+   "tools": [
+    "bmj-best-practice",
+    "bmj-learning",
+    "bnf",
+    "drugs-com",
+    "epocrates",
+    "lexicomp",
+    "mdcalc",
+    "medscape",
+    "nice-guidance",
+    "osmosis",
+    "qxmd",
+    "radreport",
+    "uptodate",
+    "who-guidelines"
+   ]
+  },
+  "research-database": {
+   "label": "Research databases and scholarly search",
+   "tools": [
+    "bailii",
+    "cochrane-library",
+    "connected-papers",
+    "google-fact-check-explorer",
+    "google-scholar",
+    "google-search",
+    "google-trends",
+    "invid-wevrify",
+    "lawpavilion",
+    "lexisnexis",
+    "maltego",
+    "ncbi-blast",
+    "pubmed",
+    "rayyan",
+    "semantic-scholar",
+    "similarweb",
+    "statista",
+    "tineye",
+    "wayback-machine",
+    "westlaw",
+    "wikipedia"
+   ]
+  },
+  "lab-science": {
+   "label": "Laboratory and scientific software",
+   "tools": [
+    "avogadro",
+    "benchling",
+    "chemdraw",
+    "elabftw",
+    "figshare",
+    "ketcher",
+    "labguru",
+    "marvinsketch",
+    "osf",
+    "pymol",
+    "sharpcap",
+    "siril",
+    "snapgene",
+    "stellarium",
+    "ugene",
+    "zenodo"
+   ]
+  },
+  "qualitative-ux": {
+   "label": "Qualitative research and user testing tools",
+   "tools": [
+    "atlas-ti",
+    "dovetail",
+    "limesurvey",
+    "lookback",
+    "maze",
+    "nvivo",
+    "qualtrics",
+    "taguette"
+   ]
+  },
+  "dev-tool": {
+   "label": "Developer tools, frameworks and platforms",
+   "tools": [
+    "android-studio",
+    "apache-jmeter",
+    "appium",
+    "aws",
+    "bitbucket",
+    "cisco-packet-tracer",
+    "cloudflare",
+    "datadog",
+    "docker",
+    "docusaurus",
+    "expo",
+    "flutter",
+    "gatling",
+    "github-actions",
+    "gns3",
+    "godot",
+    "google-cloud",
+    "grafana",
+    "insomnia",
+    "jenkins",
+    "jest",
+    "jetbrains-ides",
+    "k6",
+    "kubernetes",
+    "mermaid",
+    "microsoft-azure",
+    "mongodb",
+    "netlify",
+    "nextjs",
+    "podman",
+    "postman",
+    "prometheus",
+    "putty",
+    "pytorch",
+    "react-native",
+    "scikit-learn",
+    "sentry",
+    "swagger",
+    "terraform",
+    "unity",
+    "unreal-engine",
+    "wireshark",
+    "x-plane",
+    "xcode"
+   ]
+  },
+  "it-service": {
+   "label": "IT service, test management and helpdesk tools",
+   "tools": [
+    "crisp",
+    "freshdesk",
+    "freshservice",
+    "glpi",
+    "jira-service-management",
+    "qase",
+    "testrail",
+    "xray",
+    "zendesk",
+    "zephyr"
+   ]
+  },
+  "security-tool": {
+   "label": "Security and digital forensics tools (authorised use only)",
+   "tools": [
+    "autopsy",
+    "burp-suite",
+    "elastic",
+    "ftk-imager",
+    "kali-linux",
+    "microsoft-sentinel",
+    "nmap",
+    "owasp-zap",
+    "splunk",
+    "wazuh"
+   ]
+  },
+  "personal-security": {
+   "label": "Personal security and privacy tools",
+   "tools": [
+    "bitwarden",
+    "google-authenticator",
+    "have-i-been-pwned",
+    "microsoft-authenticator",
+    "proton-mail"
+   ]
+  },
+  "accessibility-tool": {
+   "label": "Accessibility and assistive technology",
+   "tools": [
+    "ava",
+    "be-my-eyes",
+    "google-live-transcribe",
+    "lingvano",
+    "microsoft-immersive-reader",
+    "nvda",
+    "proloquo2go",
+    "spreadthesign"
+   ]
+  },
+  "learning-platform": {
+   "label": "Learning platforms and study tools",
+   "tools": [
+    "alison",
+    "anki",
+    "biodigital-human",
+    "busuu",
+    "complete-anatomy",
+    "coursera",
+    "duolingo",
+    "edx",
+    "freecodecamp",
+    "gcfglobal",
+    "italki",
+    "khan-academy",
+    "linkedin-learning",
+    "quizlet",
+    "visible-body"
+   ]
+  },
+  "teaching-platform": {
+   "label": "Teaching, classroom and assessment platforms",
+   "tools": [
+    "canvas-lms",
+    "everfit",
+    "google-classroom",
+    "gradescope",
+    "kahoot",
+    "mentimeter",
+    "moodle",
+    "nearpod",
+    "padlet",
+    "socrative",
+    "trainerize",
+    "truecoach",
+    "turnitin"
+   ]
+  },
+  "scripture-tool": {
+   "label": "Scripture study and faith apps",
+   "tools": [
+    "blue-letter-bible",
+    "logos-bible-software",
+    "quran-com",
+    "sefaria",
+    "step-bible",
+    "youversion"
+   ]
+  },
+  "marketing-tool": {
+   "label": "Marketing, social, email, SEO and CRM tools",
+   "tools": [
+    "ahrefs",
+    "beehiiv",
+    "brevo",
+    "buffer",
+    "ghost",
+    "google-ads",
+    "google-alerts",
+    "google-business-profile",
+    "google-search-console",
+    "gumroad",
+    "hootsuite",
+    "hubspot",
+    "instagram",
+    "kit",
+    "ko-fi",
+    "mailchimp",
+    "mailerlite",
+    "meltwater",
+    "meta-ads-manager",
+    "meta-business-suite",
+    "metricool",
+    "muck-rack",
+    "patreon",
+    "pinterest",
+    "pipedrive",
+    "salesforce",
+    "selar",
+    "semrush",
+    "substack",
+    "tripadvisor",
+    "trustpilot",
+    "zoho-crm"
+   ]
+  },
+  "ecommerce": {
+   "label": "Online stores and marketplaces",
+   "tools": [
+    "amazon-kdp",
+    "amazon-seller-central",
+    "ebay",
+    "etsy",
+    "facebook-marketplace",
+    "framer",
+    "google-sites",
+    "jiji",
+    "jumia",
+    "redbubble",
+    "reedsy",
+    "shopify",
+    "woocommerce"
+   ]
+  },
+  "productivity-app": {
+   "label": "Everyday productivity apps (mail, calendar, files, PDFs, forms, notes)",
+   "tools": [
+    "adobe-acrobat",
+    "adobe-scan",
+    "cozi",
+    "docusign",
+    "dropbox",
+    "firefox",
+    "gmail",
+    "google-calendar",
+    "google-chrome",
+    "google-drive",
+    "google-forms",
+    "ilovepdf",
+    "microsoft-edge",
+    "microsoft-forms",
+    "microsoft-onedrive",
+    "microsoft-outlook",
+    "microsoft-to-do",
+    "otter-ai",
+    "pdf24",
+    "smallpdf",
+    "think-cell",
+    "todoist",
+    "typeform"
+   ]
+  },
+  "diagram-tool": {
+   "label": "Diagramming and whiteboard tools",
+   "tools": [
+    "draw-io",
+    "excalidraw",
+    "lucidchart",
+    "microsoft-visio"
+   ]
+  },
+  "writing-tool": {
+   "label": "Writing, editing and publishing tools",
+   "tools": [
+    "gitbook",
+    "grammarly",
+    "hemingway-editor",
+    "languagetool",
+    "overleaf",
+    "scrivener",
+    "vale"
+   ]
+  },
+  "gis-earth": {
+   "label": "GIS, satellite and earth-observation tools",
+   "tools": [
+    "agisoft-metashape",
+    "climate-fieldview",
+    "eos-crop-monitoring",
+    "global-forest-watch",
+    "google-earth-engine",
+    "google-earth-pro",
+    "pix4d",
+    "sentinel-hub"
+   ]
+  },
+  "field-app": {
+   "label": "Field, farm and community apps",
+   "tools": [
+    "agrivi",
+    "agriwebb",
+    "apicbase",
+    "carly",
+    "cattlemax",
+    "ebird",
+    "esoko",
+    "farmbrite",
+    "herdwatch",
+    "ifixit",
+    "inaturalist",
+    "meez",
+    "meteoblue",
+    "obd-auto-doctor",
+    "picturethis",
+    "plantix",
+    "plantnet",
+    "torque-pro",
+    "windy"
+   ]
+  },
+  "navigation-travel": {
+   "label": "Navigation, aviation, maritime and travel apps",
+   "tools": [
+    "flightradar24",
+    "foreflight",
+    "garmin-pilot",
+    "google-maps",
+    "marinetraffic",
+    "navionics",
+    "opencpn",
+    "openstreetmap",
+    "skydemon",
+    "skyscanner",
+    "tripit",
+    "wanderlog",
+    "what3words"
+   ]
+  },
+  "health-wellbeing-app": {
+   "label": "Health, fitness and wellbeing apps",
+   "tools": [
+    "apple-health",
+    "calm",
+    "cronometer",
+    "findhelp",
+    "headspace",
+    "insight-timer",
+    "lotsa-helping-hands",
+    "medisafe",
+    "myfitnesspal",
+    "nutritics"
+   ]
+  },
+  "sports-tool": {
+   "label": "Sports video, team and performance tools",
+   "tools": [
+    "dartfish",
+    "heja",
+    "hudl",
+    "kinovea",
+    "spond",
+    "teamsnap",
+    "wyscout"
+   ]
+  },
+  "family-safety": {
+   "label": "Family, parental and household apps",
+   "tools": [
+    "apple-screen-time",
+    "google-family-link",
+    "microsoft-family-safety"
+   ]
+  },
+  "events-donations": {
+   "label": "Fundraising and events platforms",
+   "tools": [
+    "donorbox",
+    "eventbrite",
+    "gofundme",
+    "luma"
+   ]
+  },
+  "marketplace-consumer": {
+   "label": "Everyday consumer services and platforms",
+   "tools": [
+    "google-lens"
+   ]
+  },
+  "music-release": {
+   "label": "Music distribution and artist platforms",
+   "tools": [
+    "audiomack",
+    "distrokid",
+    "spotify-for-artists",
+    "tunecore"
+   ]
+  }
+ }
+}

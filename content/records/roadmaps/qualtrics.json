@@ -1,0 +1,239 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_qualtrics",
+ "slug": "qualtrics",
+ "title": "Qualtrics skill roadmap",
+ "tool_ids": [
+  "tool_qualtrics"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_qualtrics_qualitative_ux_0",
+    "slug": "qualtrics-qualitative-ux-0",
+    "title": "Get started with Qualtrics",
+    "outcome": "You can: set up Qualtrics, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "research-surveys"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_qualtrics_qualitative_ux_1",
+    "slug": "qualtrics-qualitative-ux-1",
+    "title": "Collect good data",
+    "outcome": "You can: gather interviews, tests or responses",
+    "topics": [
+     "recruiting",
+     "consent",
+     "recording",
+     "questions"
+    ],
+    "practice": "Run or import two interviews or tests",
+    "need_tags": [
+     "user-research",
+     "qualitative-analysis",
+     "research-surveys"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_qualtrics_qualitative_ux_2",
+    "slug": "qualtrics-qualitative-ux-2",
+    "title": "Code and tag",
+    "outcome": "You can: label data consistently",
+    "topics": [
+     "codes/tags",
+     "codebooks",
+     "highlights"
+    ],
+    "practice": "Code two transcripts with a simple codebook",
+    "need_tags": [
+     "qualitative-analysis",
+     "research-surveys"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_qualtrics_qualitative_ux_3",
+    "slug": "qualtrics-qualitative-ux-3",
+    "title": "Find themes",
+    "outcome": "You can: turn codes into insights",
+    "topics": [
+     "grouping",
+     "frequency vs importance",
+     "quotes"
+    ],
+    "practice": "Write three insight statements with evidence",
+    "need_tags": [
+     "qualitative-analysis",
+     "product-discovery",
+     "research-surveys"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_qualtrics_qualitative_ux_4",
+    "slug": "qualtrics-qualitative-ux-4",
+    "title": "Survey and test design",
+    "outcome": "You can: design studies that answer the question",
+    "topics": [
+     "question design",
+     "logic",
+     "sampling",
+     "pilot"
+    ],
+    "practice": "Design and pilot a short study",
+    "need_tags": [
+     "research-surveys"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_qualtrics_qualitative_ux_8",
+    "slug": "qualtrics-qualitative-ux-8",
+    "title": "Signature skills in Qualtrics",
+    "outcome": "You can: use the features that make Qualtrics distinctive",
+    "topics": [
+     "survey flow",
+     "question types",
+     "logic",
+     "reports"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "research-surveys"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_qualtrics_qualitative_ux_9",
+    "slug": "qualtrics-qualitative-ux-9",
+    "title": "Advanced Qualtrics",
+    "outcome": "You can: use Qualtrics's advanced capabilities with confidence",
+    "topics": [
+     "embedded data",
+     "quotas",
+     "text iQ analysis"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "research-surveys"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_qualtrics_qualitative_ux_5",
+    "slug": "qualtrics-qualitative-ux-5",
+    "title": "Share and operationalise research",
+    "outcome": "You can: make insights usable by others",
+    "topics": [
+     "repositories",
+     "reports",
+     "stakeholder sessions"
+    ],
+    "practice": "Present findings to stakeholders",
+    "need_tags": [
+     "product-discovery",
+     "research-surveys"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_qualtrics_qualitative_ux_10",
+    "slug": "qualtrics-qualitative-ux-10",
+    "title": "Integrate Qualtrics into your workflow",
+    "outcome": "You can: connect Qualtrics with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Qualtrics to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "research-surveys"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_qualtrics_qualitative_ux_11",
+    "slug": "qualtrics-qualitative-ux-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Qualtrics well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Qualtrics\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "research-surveys"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "qualitative-ux",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

@@ -1,0 +1,133 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_git_github",
+ "slug": "git-github",
+ "title": "Git and GitHub",
+ "tool_ids": [
+  "tool_git",
+  "tool_github",
+  "tool_gitlab"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_git_basics",
+    "slug": "git-basics",
+    "title": "Track changes with Git",
+    "outcome": "You can: save versions of your work safely",
+    "topics": [
+     "init/clone",
+     "add/commit",
+     "log",
+     ".gitignore"
+    ],
+    "practice": "Put a project folder under version control",
+    "need_tags": [
+     "version-control"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_gh_collab",
+    "slug": "gh-collab",
+    "title": "Collaborate on GitHub",
+    "outcome": "You can: work with others through pull requests",
+    "topics": [
+     "branches",
+     "push/pull",
+     "pull requests",
+     "reviews"
+    ],
+    "practice": "Open and merge your first pull request",
+    "need_tags": [
+     "version-control",
+     "technical-writing"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_git_merge",
+    "slug": "git-merge",
+    "title": "Branching and conflicts",
+    "outcome": "You can: handle real team workflows",
+    "topics": [
+     "merge vs rebase",
+     "resolving conflicts",
+     "tags",
+     "releases"
+    ],
+    "practice": "Resolve a deliberate merge conflict",
+    "need_tags": [
+     "version-control"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_gh_actions",
+    "slug": "gh-actions",
+    "title": "Automation with GitHub Actions",
+    "outcome": "You can: run tests and checks automatically",
+    "topics": [
+     "workflows",
+     "triggers",
+     "secrets",
+     "matrix builds"
+    ],
+    "practice": "Add a test workflow to a repository",
+    "need_tags": [
+     "devops-cicd",
+     "test-automation"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_gh_project",
+    "slug": "gh-project",
+    "title": "Run an open project",
+    "outcome": "You can: maintain projects others contribute to",
+    "topics": [
+     "issues and templates",
+     "project boards",
+     "code owners",
+     "branch protection",
+     "security alerts"
+    ],
+    "practice": "Set up branch protection and a contribution guide",
+    "need_tags": [
+     "version-control",
+     "agile-tracking"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false
+}

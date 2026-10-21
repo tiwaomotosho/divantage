@@ -1,0 +1,159 @@
+{
+  "schema_version": "2.0",
+  "is_illustrative": false,
+  "redirect_from": [],
+  "disclosure": {
+    "commercial_relationship": "none"
+  },
+  "id": "tool_shotcut",
+  "slug": "shotcut",
+  "name": "Shotcut",
+  "official_name": "Shotcut",
+  "official_url": "https://www.shotcut.org/",
+  "developer_or_publisher": "Shotcut project (Meltytech)",
+  "summary": "A free, open-source video editor for Windows, Mac and Linux.",
+  "description": "Shotcut is a free, open-source desktop video editor. You can use it to trim and arrange clips on a timeline, add titles, transitions and audio, and export a finished video. Because it is open source there is no paid edition to upgrade to, and it runs on Windows, macOS and Linux. It is a sensible starting point when you want to edit videos on a computer without paying or creating an account.",
+  "category_ids": [
+    "video"
+  ],
+  "task_ids": [
+    "task_edit_video_free"
+  ],
+  "audience_ids": [
+    "student",
+    "creator",
+    "exploring"
+  ],
+  "skill_level": "beginner",
+  "pricing": {
+    "model": "open_source",
+    "verification_status": "verified",
+    "source_ids": [
+      "src_shotcut_home"
+    ],
+    "checked_at": "2026-10-21",
+    "free_tier_details": "Free and open source; the official site describes it as 'a free, open source, cross-platform video editor'.",
+    "price_points": []
+  },
+  "platforms": {
+    "values": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "verification_status": "verified",
+    "source_ids": [
+      "src_shotcut_home"
+    ]
+  },
+  "deployment": [
+    "desktop"
+  ],
+  "ai_involvement": "unknown",
+  "availability_status": "active",
+  "account_required": "unknown",
+  "open_source": {
+    "is_open_source": true,
+    "licence": "GPL-3.0",
+    "repository_url": "https://github.com/mltframework/shotcut",
+    "source_ids": [
+      "src_shotcut_repo"
+    ]
+  },
+  "key_capabilities": [
+    {
+      "text": "Free, open-source, cross-platform video editing for Windows, Mac and Linux.",
+      "kind": "fact",
+      "source_ids": [
+        "src_shotcut_home"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Desktop only: the official site lists Windows, Mac and Linux, with no web or mobile version.",
+      "kind": "fact",
+      "source_ids": [
+        "src_shotcut_home"
+      ]
+    },
+    {
+      "text": "Reviewers should add verified feature limits (e.g. advanced colour or effects) from the official documentation before publishing.",
+      "kind": "editorial",
+      "source_ids": []
+    }
+  ],
+  "best_for": [
+    "Beginners who want a no-cost editor on a laptop or desktop",
+    "People who prefer open-source software"
+  ],
+  "not_ideal_for": [
+    "Editing on a phone or tablet"
+  ],
+  "learning_curve": "moderate",
+  "getting_started": [
+    "Download Shotcut from the official website for your operating system.",
+    "Import a few clips, drag them to the timeline and practise trimming.",
+    "Export a short test video to check the settings work on your device."
+  ],
+  "resource_ids": [],
+  "alternative_tool_ids": [
+    "tool_kdenlive",
+    "tool_davinci_resolve"
+  ],
+  "comparison_ids": [
+    "cmp_free_video_editors"
+  ],
+  "playbook_ids": [],
+  "search_aliases": [
+    "shot cut",
+    "video editor",
+    "free video editor",
+    "open source video editor"
+  ],
+  "sources": [
+    {
+      "id": "src_shotcut_home",
+      "type": "official_site",
+      "url": "https://www.shotcut.org/",
+      "title": "Shotcut home page",
+      "publisher": "Shotcut",
+      "checked_at": "2026-10-21",
+      "supports": [
+        "identity",
+        "capabilities",
+        "platforms",
+        "pricing"
+      ],
+      "quote": "a free, open source, cross-platform video editor for Windows, Mac and Linux"
+    },
+    {
+      "id": "src_shotcut_repo",
+      "type": "official_repository",
+      "url": "https://github.com/mltframework/shotcut",
+      "title": "Shotcut source repository",
+      "publisher": "mltframework (GitHub)",
+      "checked_at": "2026-10-21",
+      "supports": [
+        "licence"
+      ],
+      "quote": "GPLv3. See COPYING"
+    }
+  ],
+  "editorial": {
+    "status": "published",
+    "author": "V2 research pass (AI-assisted, Claude)",
+    "reviewer": "Product owner — blanket MVP approval (D-044)",
+    "created_at": "2026-10-21",
+    "updated_at": "2026-10-21",
+    "published_at": "2026-10-21",
+    "last_verified_at": "2026-10-21",
+    "review_interval_days": 90,
+    "next_review_at": "2027-01-19",
+    "confidence": "high",
+    "solo_approval": true,
+    "change_summary": "Researched from official sources 2026-10-21; published under owner's blanket MVP approval (D-044). Domain-expert review pending.",
+    "public_corrections": [],
+    "internal_notes": ""
+  }
+}

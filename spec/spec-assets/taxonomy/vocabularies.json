@@ -1,0 +1,562 @@
+{
+  "version": "2.0.0",
+  "pricing_model": {
+    "applies_to": "tool",
+    "values": [
+      {
+        "id": "free",
+        "label": "Free",
+        "description": "The core use described on the page is available without payment, subject to stated conditions.",
+        "starts_without_paying": true
+      },
+      {
+        "id": "freemium",
+        "label": "Free tier + paid plans",
+        "description": "A usable free tier exists alongside paid plans. Limits of the free tier must be stated.",
+        "starts_without_paying": true
+      },
+      {
+        "id": "free_trial",
+        "label": "Free trial",
+        "description": "Access is time-limited or trial-based; payment is needed afterwards.",
+        "starts_without_paying": false
+      },
+      {
+        "id": "paid_subscription",
+        "label": "Subscription",
+        "description": "Ongoing payment is required for the described use.",
+        "starts_without_paying": false
+      },
+      {
+        "id": "paid_once",
+        "label": "One-time purchase",
+        "description": "A single purchase for the described product or edition.",
+        "starts_without_paying": false
+      },
+      {
+        "id": "open_source",
+        "label": "Open source",
+        "description": "Source code is available under a stated licence. This does not automatically mean hosting or use costs nothing.",
+        "starts_without_paying": true
+      },
+      {
+        "id": "usage_based",
+        "label": "Pay as you go",
+        "description": "Cost depends on usage.",
+        "starts_without_paying": false
+      },
+      {
+        "id": "enterprise_quote",
+        "label": "Quote on request",
+        "description": "Pricing requires a sales quote.",
+        "starts_without_paying": false
+      },
+      {
+        "id": "mixed",
+        "label": "Several pricing options",
+        "description": "Different editions or features use materially different models; see details.",
+        "starts_without_paying": null
+      },
+      {
+        "id": "unknown",
+        "label": "Price not confirmed",
+        "description": "Not verified. Never displayed as free.",
+        "starts_without_paying": null
+      }
+    ],
+    "rules": [
+      "'Free' must never stand in for freemium or a trial.",
+      "starts_without_paying=null means the record's free_tier_details decides; for 'mixed' it is true only if a free edition is verified.",
+      "A pricing_model other than 'unknown' requires pricing.source_ids with at least one source of type official_pricing or official_site checked within the review interval."
+    ]
+  },
+  "resource_cost_status": {
+    "applies_to": "resource",
+    "values": [
+      {
+        "id": "free",
+        "label": "Free"
+      },
+      {
+        "id": "freemium",
+        "label": "Free with paid extras"
+      },
+      {
+        "id": "paid",
+        "label": "Paid"
+      },
+      {
+        "id": "subscription",
+        "label": "Subscription"
+      },
+      {
+        "id": "institution_access",
+        "label": "May need library or institution access"
+      },
+      {
+        "id": "unknown",
+        "label": "Cost not confirmed"
+      }
+    ]
+  },
+  "registration_required": {
+    "values": [
+      {
+        "id": "yes",
+        "label": "Sign-up needed"
+      },
+      {
+        "id": "no",
+        "label": "No sign-up"
+      },
+      {
+        "id": "unknown",
+        "label": "Sign-up not confirmed"
+      }
+    ]
+  },
+  "platform": {
+    "values": [
+      {
+        "id": "web",
+        "label": "Web browser"
+      },
+      {
+        "id": "windows",
+        "label": "Windows"
+      },
+      {
+        "id": "macos",
+        "label": "macOS"
+      },
+      {
+        "id": "linux",
+        "label": "Linux"
+      },
+      {
+        "id": "android",
+        "label": "Android"
+      },
+      {
+        "id": "ios",
+        "label": "iPhone and iPad"
+      },
+      {
+        "id": "chromeos",
+        "label": "ChromeOS"
+      },
+      {
+        "id": "browser_extension",
+        "label": "Browser extension"
+      },
+      {
+        "id": "api",
+        "label": "API"
+      },
+      {
+        "id": "bsd",
+        "label": "BSD"
+      }
+    ],
+    "rule": "Platform claims must be verified. Unverified = field absent, displayed as 'Platform not confirmed'."
+  },
+  "deployment": {
+    "values": [
+      {
+        "id": "hosted",
+        "label": "Online service"
+      },
+      {
+        "id": "self_hosted",
+        "label": "Self-hosted"
+      },
+      {
+        "id": "desktop",
+        "label": "Desktop app"
+      },
+      {
+        "id": "mobile",
+        "label": "Mobile app"
+      },
+      {
+        "id": "hybrid",
+        "label": "Online and installable"
+      }
+    ]
+  },
+  "ai_involvement": {
+    "values": [
+      {
+        "id": "core_ai",
+        "label": "AI is the main feature"
+      },
+      {
+        "id": "optional_ai",
+        "label": "Has optional AI features"
+      },
+      {
+        "id": "no_ai",
+        "label": "No AI features"
+      },
+      {
+        "id": "unknown",
+        "label": "AI use not confirmed"
+      }
+    ]
+  },
+  "availability_status": {
+    "values": [
+      {
+        "id": "active",
+        "label": "Available",
+        "public_notice": null
+      },
+      {
+        "id": "beta",
+        "label": "Beta",
+        "public_notice": "This product is in beta; features may change."
+      },
+      {
+        "id": "limited",
+        "label": "Limited availability",
+        "public_notice": "Availability is limited (for example by region or invitation)."
+      },
+      {
+        "id": "temporarily_unavailable",
+        "label": "Temporarily unavailable",
+        "public_notice": "This product appears to be temporarily unavailable. We will recheck it."
+      },
+      {
+        "id": "discontinued",
+        "label": "Discontinued",
+        "public_notice": "This product has been discontinued. See alternatives below."
+      },
+      {
+        "id": "unknown",
+        "label": "Availability not confirmed",
+        "public_notice": null
+      }
+    ]
+  },
+  "editorial_status": {
+    "values": [
+      {
+        "id": "draft",
+        "label": "Draft",
+        "public": false,
+        "description": "Being researched or written. Includes 'in research'."
+      },
+      {
+        "id": "in_review",
+        "label": "In review",
+        "public": false,
+        "description": "Pull request open and awaiting approval. Visible in preview deployments only."
+      },
+      {
+        "id": "published",
+        "label": "Published",
+        "public": true,
+        "description": "Passed validation and approval."
+      },
+      {
+        "id": "needs_review",
+        "label": "Needs review",
+        "public": true,
+        "description": "Flagged (correction, broken link, overdue). Stays public with a 'being rechecked' notice if a material claim is affected."
+      },
+      {
+        "id": "archived",
+        "label": "Archived",
+        "public": true,
+        "description": "No longer recommended. Page stays live with an archive notice and alternatives; excluded from recommendations, search ranks it last, sitemap excludes it."
+      }
+    ],
+    "computed_flags": {
+      "is_overdue": "today > next_review_at; shown to editors; public pages show 'Last reviewed <date>' and, when overdue by >30 days, 'Review due — details may have changed'."
+    }
+  },
+  "skill_level": {
+    "values": [
+      {
+        "id": "beginner",
+        "label": "Beginner",
+        "criteria": "No prior experience with this type of tool needed. Steps use plain language. Done in one sitting."
+      },
+      {
+        "id": "intermediate",
+        "label": "Intermediate",
+        "criteria": "Assumes comfort with basic concepts in this area (e.g. timelines, formulas, accounts and permissions) or a prior beginner task."
+      },
+      {
+        "id": "advanced",
+        "label": "Advanced",
+        "criteria": "Assumes technical setup (installation, servers, code, APIs) or significant domain knowledge."
+      }
+    ]
+  },
+  "content_type": {
+    "values": [
+      {
+        "id": "tool",
+        "label": "Tool",
+        "route": "/tools/{slug}",
+        "release": "R1"
+      },
+      {
+        "id": "task",
+        "label": "How-to",
+        "route": "/tasks/{slug}",
+        "release": "R1"
+      },
+      {
+        "id": "resource",
+        "label": "Learning resource",
+        "route": "/resources/{slug}",
+        "release": "R1"
+      },
+      {
+        "id": "playbook",
+        "label": "Playbook",
+        "route": "/playbooks/{slug}",
+        "release": "R1"
+      },
+      {
+        "id": "comparison",
+        "label": "Comparison",
+        "route": "/compare/{slug}",
+        "release": "R1"
+      },
+      {
+        "id": "collection",
+        "label": "Collection",
+        "route": "/collections/{slug}",
+        "release": "R1.5"
+      },
+      {
+        "id": "learning_path",
+        "label": "Learning path",
+        "route": "/learn/paths/{slug}",
+        "release": "R2"
+      },
+      {
+        "id": "project",
+        "label": "Project",
+        "route": "/projects/{slug}",
+        "release": "R2"
+      }
+    ]
+  },
+  "resource_type": {
+    "values": [
+      {
+        "id": "official_docs",
+        "label": "Official documentation"
+      },
+      {
+        "id": "official_tutorial",
+        "label": "Official tutorial"
+      },
+      {
+        "id": "video",
+        "label": "Video"
+      },
+      {
+        "id": "course",
+        "label": "Course"
+      },
+      {
+        "id": "article",
+        "label": "Article"
+      },
+      {
+        "id": "template",
+        "label": "Template"
+      },
+      {
+        "id": "community_guide",
+        "label": "Community guide"
+      },
+      {
+        "id": "reference",
+        "label": "Reference manual"
+      }
+    ]
+  },
+  "source_type": {
+    "values": [
+      {
+        "id": "official_pricing",
+        "label": "Official pricing page",
+        "may_support": [
+          "pricing",
+          "free_tier",
+          "trial",
+          "capabilities"
+        ]
+      },
+      {
+        "id": "official_site",
+        "label": "Official website",
+        "may_support": [
+          "identity",
+          "capabilities",
+          "platforms",
+          "pricing",
+          "licence",
+          "availability"
+        ]
+      },
+      {
+        "id": "official_docs",
+        "label": "Official documentation",
+        "may_support": [
+          "capabilities",
+          "platforms",
+          "system_requirements",
+          "accessibility",
+          "privacy",
+          "pricing",
+          "free_tier",
+          "trial"
+        ]
+      },
+      {
+        "id": "official_changelog",
+        "label": "Official changelog",
+        "may_support": [
+          "capabilities",
+          "availability"
+        ]
+      },
+      {
+        "id": "official_status",
+        "label": "Official status page",
+        "may_support": [
+          "availability"
+        ]
+      },
+      {
+        "id": "official_repository",
+        "label": "Official source repository",
+        "may_support": [
+          "licence",
+          "platforms",
+          "capabilities"
+        ]
+      },
+      {
+        "id": "official_legal",
+        "label": "Official terms, licence or privacy page",
+        "may_support": [
+          "licence",
+          "privacy",
+          "pricing"
+        ]
+      },
+      {
+        "id": "independent",
+        "label": "Reputable independent source",
+        "may_support": [
+          "context"
+        ]
+      },
+      {
+        "id": "community",
+        "label": "Community or tutorial source",
+        "may_support": [
+          "tips"
+        ]
+      }
+    ],
+    "rule": "A claim of kind K may cite a source only if K is in that source type's may_support list. 'independent' and 'community' can never be the sole support for pricing, platform, licence or availability claims."
+  },
+  "claim_kind": {
+    "values": [
+      "identity",
+      "capabilities",
+      "platforms",
+      "system_requirements",
+      "pricing",
+      "free_tier",
+      "trial",
+      "licence",
+      "availability",
+      "privacy",
+      "accessibility",
+      "context",
+      "tips"
+    ]
+  },
+  "verification_status": {
+    "values": [
+      {
+        "id": "verified",
+        "label": "Verified"
+      },
+      {
+        "id": "partially_verified",
+        "label": "Partly verified"
+      },
+      {
+        "id": "unverified",
+        "label": "Not verified"
+      }
+    ]
+  },
+  "correction_issue_type": {
+    "values": [
+      {
+        "id": "pricing",
+        "label": "Price or plan is wrong"
+      },
+      {
+        "id": "availability",
+        "label": "Product unavailable or discontinued"
+      },
+      {
+        "id": "broken_link",
+        "label": "Link doesn't work"
+      },
+      {
+        "id": "feature",
+        "label": "Feature or platform information is wrong"
+      },
+      {
+        "id": "outdated_steps",
+        "label": "Steps or tutorial are out of date"
+      },
+      {
+        "id": "accessibility",
+        "label": "Accessibility problem on this page"
+      },
+      {
+        "id": "other",
+        "label": "Something else"
+      },
+      {
+        "id": "suggest_tool",
+        "label": "Suggest a tool we're missing"
+      },
+      {
+        "id": "suggest_identity",
+        "label": "My profession or role isn't listed"
+      },
+      {
+        "id": "suggest_need",
+        "label": "Suggest something people like me need to do"
+      },
+      {
+        "id": "suggest_helper",
+        "label": "I want a helper for my work"
+      },
+      {
+        "id": "roadmap_feedback",
+        "label": "This course outline is wrong or missing something"
+      },
+      {
+        "id": "tool_discontinued",
+        "label": "This tool has been renamed, acquired or shut down"
+      }
+    ]
+  }
+}

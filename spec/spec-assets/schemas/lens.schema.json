@@ -1,0 +1,277 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://digitaladvantage.example/schemas/v2/lens.schema.json",
+  "title": "Lens \u2014 a tool roadmap seen through one need (and the professions that have it)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "id",
+    "roadmap_id",
+    "roadmap",
+    "need_id",
+    "need",
+    "title",
+    "kind",
+    "for_identities",
+    "why",
+    "what_is_different",
+    "priority_modules",
+    "extra_modules",
+    "starter_project",
+    "pitfalls",
+    "pairs_with",
+    "expert_validation",
+    "is_illustrative"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "2.1"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^lens_[a-z0-9_]+$"
+    },
+    "roadmap_id": {
+      "type": "string"
+    },
+    "roadmap": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "maxLength": 80
+    },
+    "need_id": {
+      "type": "string"
+    },
+    "need": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "maxLength": 80
+    },
+    "title": {
+      "type": "string",
+      "minLength": 5,
+      "maxLength": 100
+    },
+    "kind": {
+      "enum": [
+        "flagship",
+        "auto"
+      ]
+    },
+    "for_identities": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+        "maxLength": 80
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "why": {
+      "type": "string",
+      "minLength": 20,
+      "maxLength": 500
+    },
+    "what_is_different": {
+      "type": "string",
+      "minLength": 20,
+      "maxLength": 600
+    },
+    "priority_modules": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+        "maxLength": 80
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "extra_modules": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "level",
+          "title",
+          "outcome",
+          "topics",
+          "practice"
+        ],
+        "properties": {
+          "level": {
+            "enum": [
+              "beginner",
+              "intermediate",
+              "expert"
+            ]
+          },
+          "title": {
+            "type": "string",
+            "minLength": 3,
+            "maxLength": 80
+          },
+          "outcome": {
+            "type": "string",
+            "minLength": 10,
+            "maxLength": 200
+          },
+          "topics": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 2,
+              "maxLength": 160
+            },
+            "minItems": 1,
+            "uniqueItems": true,
+            "maxItems": 10
+          },
+          "practice": {
+            "type": "string",
+            "minLength": 5,
+            "maxLength": 200
+          }
+        }
+      }
+    },
+    "starter_project": {
+      "type": "string",
+      "minLength": 20,
+      "maxLength": 500
+    },
+    "pitfalls": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 5,
+        "maxLength": 200
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "pairs_with": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^tool_[a-z0-9_]+$"
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "expert_validation": {
+      "type": "object",
+      "required": [
+        "status"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "pending",
+            "in_review",
+            "validated"
+          ]
+        },
+        "note": {
+          "type": "string"
+        },
+        "validator": {
+          "type": "string"
+        },
+        "validated_at": {
+          "type": "string",
+          "format": "date"
+        },
+        "domain": {
+          "type": "string"
+        }
+      }
+    },
+    "is_illustrative": {
+      "const": false
+    },
+    "composed_path": {
+      "type": "object",
+      "properties": {
+        "beginner": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "module": {
+                "type": "string",
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "maxLength": 80
+              },
+              "extra": {
+                "type": "string"
+              },
+              "relevance": {
+                "enum": [
+                  "core",
+                  "also_useful"
+                ]
+              },
+              "rank": {
+                "type": "integer"
+              }
+            }
+          }
+        },
+        "intermediate": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "module": {
+                "type": "string",
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "maxLength": 80
+              },
+              "extra": {
+                "type": "string"
+              },
+              "relevance": {
+                "enum": [
+                  "core",
+                  "also_useful"
+                ]
+              },
+              "rank": {
+                "type": "integer"
+              }
+            }
+          }
+        },
+        "expert": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "module": {
+                "type": "string",
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "maxLength": 80
+              },
+              "extra": {
+                "type": "string"
+              },
+              "relevance": {
+                "enum": [
+                  "core",
+                  "also_useful"
+                ]
+              },
+              "rank": {
+                "type": "integer"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

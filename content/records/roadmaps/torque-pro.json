@@ -1,0 +1,234 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_torque_pro",
+ "slug": "torque-pro",
+ "title": "Torque Pro skill roadmap",
+ "tool_ids": [
+  "tool_torque_pro"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_torque_pro_field_app_0",
+    "slug": "torque-pro-field-app-0",
+    "title": "Get started with Torque Pro",
+    "outcome": "You can: set up Torque Pro, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "vehicle-diagnostics"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_torque_pro_field_app_1",
+    "slug": "torque-pro-field-app-1",
+    "title": "Set up for your situation",
+    "outcome": "You can: configure Torque Pro for your farm, site or community",
+    "topics": [
+     "profile",
+     "locations",
+     "units",
+     "offline settings"
+    ],
+    "practice": "Set up your locations and units",
+    "need_tags": [
+     "vehicle-diagnostics"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_torque_pro_field_app_2",
+    "slug": "torque-pro-field-app-2",
+    "title": "Record in the field",
+    "outcome": "You can: record quickly and accurately",
+    "topics": [
+     "photos",
+     "GPS",
+     "observations",
+     "offline use"
+    ],
+    "practice": "Record five observations in the field",
+    "need_tags": [
+     "vehicle-diagnostics"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_torque_pro_field_app_3",
+    "slug": "torque-pro-field-app-3",
+    "title": "Use the insights",
+    "outcome": "You can: turn records into decisions",
+    "topics": [
+     "reports",
+     "alerts",
+     "recommendations"
+    ],
+    "practice": "Act on one insight from Torque Pro",
+    "need_tags": [
+     "vehicle-diagnostics"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_torque_pro_field_app_4",
+    "slug": "torque-pro-field-app-4",
+    "title": "Share and collaborate",
+    "outcome": "You can: share data with your team or advisers",
+    "topics": [
+     "sharing",
+     "exports",
+     "permissions"
+    ],
+    "practice": "Share a report with an adviser or buyer",
+    "need_tags": [
+     "vehicle-diagnostics"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_torque_pro_field_app_8",
+    "slug": "torque-pro-field-app-8",
+    "title": "Signature skills in Torque Pro",
+    "outcome": "You can: use the features that make Torque Pro distinctive",
+    "topics": [
+     "OBD connection",
+     "dashboards",
+     "fault codes",
+     "logging"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "vehicle-diagnostics"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_torque_pro_field_app_9",
+    "slug": "torque-pro-field-app-9",
+    "title": "Advanced Torque Pro",
+    "outcome": "You can: use Torque Pro's advanced capabilities with confidence",
+    "topics": [
+     "custom PIDs",
+     "plugins",
+     "track recording"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "vehicle-diagnostics"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_torque_pro_field_app_5",
+    "slug": "torque-pro-field-app-5",
+    "title": "Data you can trust",
+    "outcome": "You can: keep good records over seasons",
+    "topics": [
+     "consistency",
+     "backups",
+     "comparing seasons"
+    ],
+    "practice": "Compare this season with last",
+    "need_tags": [
+     "farm-records",
+     "vehicle-diagnostics"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_torque_pro_field_app_10",
+    "slug": "torque-pro-field-app-10",
+    "title": "Integrate Torque Pro into your workflow",
+    "outcome": "You can: connect Torque Pro with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Torque Pro to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "vehicle-diagnostics"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_torque_pro_field_app_11",
+    "slug": "torque-pro-field-app-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Torque Pro well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Torque Pro\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "vehicle-diagnostics"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "field-app",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

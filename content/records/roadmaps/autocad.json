@@ -1,0 +1,133 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_autocad",
+ "slug": "autocad",
+ "title": "AutoCAD (and similar 2D CAD)",
+ "tool_ids": [
+  "tool_autocad",
+  "tool_librecad",
+  "tool_draftsight"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_cad_draw",
+    "slug": "cad-draw",
+    "title": "Draw accurately",
+    "outcome": "You can: draw lines, shapes and dimensions to scale",
+    "topics": [
+     "units",
+     "coordinates",
+     "object snaps",
+     "lines/polylines/circles",
+     "dimensions"
+    ],
+    "practice": "Draw a simple floor plan",
+    "need_tags": [
+     "cad-drafting"
+    ],
+    "estimated_hours": {
+     "value": 4.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_cad_layers",
+    "slug": "cad-layers",
+    "title": "Layers and annotation",
+    "outcome": "You can: organise and annotate drawings to standard",
+    "topics": [
+     "layers",
+     "text styles",
+     "dimension styles",
+     "hatching"
+    ],
+    "practice": "Annotate a plan with dimensions and notes",
+    "need_tags": [
+     "cad-drafting"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_cad_blocks",
+    "slug": "cad-blocks",
+    "title": "Blocks, xrefs and templates",
+    "outcome": "You can: reuse content across drawings",
+    "topics": [
+     "blocks and attributes",
+     "external references",
+     "templates"
+    ],
+    "practice": "Build a title block with attributes",
+    "need_tags": [
+     "cad-drafting",
+     "drawing-markup"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_cad_layouts",
+    "slug": "cad-layouts",
+    "title": "Layouts and plotting",
+    "outcome": "You can: produce drawings ready to issue",
+    "topics": [
+     "paper space",
+     "viewports",
+     "scales",
+     "plot styles",
+     "PDF"
+    ],
+    "practice": "Plot a sheet set to PDF at correct scale",
+    "need_tags": [
+     "cad-drafting",
+     "technical-reporting"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_cad_automate",
+    "slug": "cad-automate",
+    "title": "Productivity and automation",
+    "outcome": "You can: speed up repetitive drafting",
+    "topics": [
+     "parametric constraints",
+     "dynamic blocks",
+     "scripts/LISP basics",
+     "data extraction"
+    ],
+    "practice": "Extract a schedule of blocks to a spreadsheet",
+    "need_tags": [
+     "cad-drafting",
+     "cost-estimation"
+    ],
+    "estimated_hours": {
+     "value": 4.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false
+}

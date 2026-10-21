@@ -1,0 +1,370 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://digitaladvantage.example/schemas/v2/roadmap.schema.json",
+  "title": "Tool skill roadmap (course outline)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "id",
+    "slug",
+    "title",
+    "tool_ids",
+    "levels",
+    "expert_validation",
+    "is_illustrative"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "2.1"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^rm_[a-z0-9_]+$"
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "maxLength": 80
+    },
+    "title": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 120
+    },
+    "tool_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^tool_[a-z0-9_]+$"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "levels": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "beginner",
+        "intermediate",
+        "expert"
+      ],
+      "properties": {
+        "beginner": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "slug",
+              "title",
+              "outcome",
+              "topics",
+              "practice",
+              "need_tags",
+              "estimated_hours",
+              "level"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^mod_[a-z0-9_]+$"
+              },
+              "slug": {
+                "type": "string",
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "maxLength": 80
+              },
+              "title": {
+                "type": "string",
+                "minLength": 3,
+                "maxLength": 80
+              },
+              "outcome": {
+                "type": "string",
+                "minLength": 10,
+                "maxLength": 200
+              },
+              "topics": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 2,
+                  "maxLength": 120
+                },
+                "minItems": 2,
+                "uniqueItems": true,
+                "maxItems": 10
+              },
+              "practice": {
+                "type": "string",
+                "minLength": 5,
+                "maxLength": 200
+              },
+              "need_tags": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                  "maxLength": 80
+                },
+                "minItems": 0,
+                "uniqueItems": true
+              },
+              "estimated_hours": {
+                "type": "object",
+                "required": [
+                  "value",
+                  "is_estimate"
+                ],
+                "properties": {
+                  "value": {
+                    "type": "number",
+                    "minimum": 0.25,
+                    "maximum": 40
+                  },
+                  "is_estimate": {
+                    "const": true
+                  }
+                }
+              },
+              "level": {
+                "enum": [
+                  "beginner",
+                  "intermediate",
+                  "expert"
+                ]
+              }
+            }
+          },
+          "minItems": 1
+        },
+        "intermediate": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "slug",
+              "title",
+              "outcome",
+              "topics",
+              "practice",
+              "need_tags",
+              "estimated_hours",
+              "level"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^mod_[a-z0-9_]+$"
+              },
+              "slug": {
+                "type": "string",
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "maxLength": 80
+              },
+              "title": {
+                "type": "string",
+                "minLength": 3,
+                "maxLength": 80
+              },
+              "outcome": {
+                "type": "string",
+                "minLength": 10,
+                "maxLength": 200
+              },
+              "topics": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 2,
+                  "maxLength": 120
+                },
+                "minItems": 2,
+                "uniqueItems": true,
+                "maxItems": 10
+              },
+              "practice": {
+                "type": "string",
+                "minLength": 5,
+                "maxLength": 200
+              },
+              "need_tags": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                  "maxLength": 80
+                },
+                "minItems": 0,
+                "uniqueItems": true
+              },
+              "estimated_hours": {
+                "type": "object",
+                "required": [
+                  "value",
+                  "is_estimate"
+                ],
+                "properties": {
+                  "value": {
+                    "type": "number",
+                    "minimum": 0.25,
+                    "maximum": 40
+                  },
+                  "is_estimate": {
+                    "const": true
+                  }
+                }
+              },
+              "level": {
+                "enum": [
+                  "beginner",
+                  "intermediate",
+                  "expert"
+                ]
+              }
+            }
+          },
+          "minItems": 1
+        },
+        "expert": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "slug",
+              "title",
+              "outcome",
+              "topics",
+              "practice",
+              "need_tags",
+              "estimated_hours",
+              "level"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^mod_[a-z0-9_]+$"
+              },
+              "slug": {
+                "type": "string",
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "maxLength": 80
+              },
+              "title": {
+                "type": "string",
+                "minLength": 3,
+                "maxLength": 80
+              },
+              "outcome": {
+                "type": "string",
+                "minLength": 10,
+                "maxLength": 200
+              },
+              "topics": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 2,
+                  "maxLength": 120
+                },
+                "minItems": 2,
+                "uniqueItems": true,
+                "maxItems": 10
+              },
+              "practice": {
+                "type": "string",
+                "minLength": 5,
+                "maxLength": 200
+              },
+              "need_tags": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                  "maxLength": 80
+                },
+                "minItems": 0,
+                "uniqueItems": true
+              },
+              "estimated_hours": {
+                "type": "object",
+                "required": [
+                  "value",
+                  "is_estimate"
+                ],
+                "properties": {
+                  "value": {
+                    "type": "number",
+                    "minimum": 0.25,
+                    "maximum": 40
+                  },
+                  "is_estimate": {
+                    "const": true
+                  }
+                }
+              },
+              "level": {
+                "enum": [
+                  "beginner",
+                  "intermediate",
+                  "expert"
+                ]
+              }
+            }
+          },
+          "minItems": 1
+        }
+      }
+    },
+    "expert_validation": {
+      "type": "object",
+      "required": [
+        "status"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "pending",
+            "in_review",
+            "validated"
+          ]
+        },
+        "note": {
+          "type": "string"
+        },
+        "validator": {
+          "type": "string"
+        },
+        "validated_at": {
+          "type": "string",
+          "format": "date"
+        },
+        "domain": {
+          "type": "string"
+        }
+      }
+    },
+    "is_illustrative": {
+      "const": false
+    },
+    "authoring": {
+      "enum": [
+        "handwritten",
+        "archetype",
+        "archetype+signature"
+      ],
+      "description": "How the outline was produced: handwritten by an author, generated from a tool-type archetype, or archetype plus tool-specific signature skills. All require expert validation before is_illustrative/expert_validation is upgraded."
+    },
+    "archetype": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "maxLength": 60
+    }
+  }
+}

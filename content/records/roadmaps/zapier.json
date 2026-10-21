@@ -1,0 +1,237 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_zapier",
+ "slug": "zapier",
+ "title": "Zapier skill roadmap",
+ "tool_ids": [
+  "tool_zapier"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_zapier_automation_0",
+    "slug": "zapier-automation-0",
+    "title": "Get started with Zapier",
+    "outcome": "You can: set up Zapier, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "automation-workflows"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_zapier_automation_1",
+    "slug": "zapier-automation-1",
+    "title": "Describe the process",
+    "outcome": "You can: turn a repetitive task into a rule",
+    "topics": [
+     "trigger",
+     "action",
+     "inputs and outputs",
+     "frequency"
+    ],
+    "practice": "Write one \"when X, do Y\" rule from your work",
+    "need_tags": [
+     "automation-workflows"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_zapier_automation_2",
+    "slug": "zapier-automation-2",
+    "title": "Build a first flow or app",
+    "outcome": "You can: build a simple working automation or app",
+    "topics": [
+     "connecting accounts",
+     "mapping fields",
+     "testing"
+    ],
+    "practice": "Build and test one simple flow or app",
+    "need_tags": [
+     "automation-workflows",
+     "no-code-apps"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_zapier_automation_3",
+    "slug": "zapier-automation-3",
+    "title": "Logic and data",
+    "outcome": "You can: add conditions, loops and data handling",
+    "topics": [
+     "filters",
+     "branches",
+     "formatting",
+     "lookups"
+    ],
+    "practice": "Add a condition and a lookup to your flow",
+    "need_tags": [
+     "automation-workflows"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_zapier_automation_4",
+    "slug": "zapier-automation-4",
+    "title": "Reliability",
+    "outcome": "You can: keep automations running",
+    "topics": [
+     "error alerts",
+     "retries",
+     "logs",
+     "usage limits"
+    ],
+    "practice": "Add an error alert and review usage limits",
+    "need_tags": [
+     "automation-workflows"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_zapier_automation_8",
+    "slug": "zapier-automation-8",
+    "title": "Signature skills in Zapier",
+    "outcome": "You can: use the features that make Zapier distinctive",
+    "topics": [
+     "Zaps with triggers and actions",
+     "field mapping",
+     "filters",
+     "Zap history"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "automation-workflows"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_zapier_automation_9",
+    "slug": "zapier-automation-9",
+    "title": "Advanced Zapier",
+    "outcome": "You can: use Zapier's advanced capabilities with confidence",
+    "topics": [
+     "multi-step Zaps with paths",
+     "Formatter and Code steps",
+     "Tables and Interfaces",
+     "task-usage optimisation"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "automation-workflows"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_zapier_automation_5",
+    "slug": "zapier-automation-5",
+    "title": "Govern automations",
+    "outcome": "You can: run automations safely for a team",
+    "topics": [
+     "permissions",
+     "documentation",
+     "data privacy",
+     "ownership"
+    ],
+    "practice": "Document and hand over an automation to a colleague",
+    "need_tags": [
+     "automation-workflows",
+     "process-mapping"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_zapier_automation_10",
+    "slug": "zapier-automation-10",
+    "title": "Integrate Zapier into your workflow",
+    "outcome": "You can: connect Zapier with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Zapier to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_zapier_automation_11",
+    "slug": "zapier-automation-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Zapier well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Zapier\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "automation-workflows"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "automation",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://digitaladvantage.example/schemas/v2/need.schema.json",
+  "title": "Digital need \u2014 one item of taxonomy/needs.json values[]",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "slug",
+    "label",
+    "task_family",
+    "section",
+    "universal",
+    "description",
+    "tool_ids",
+    "expert_validation"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^need_[a-z0-9_]+$"
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "maxLength": 80
+    },
+    "label": {
+      "type": "string",
+      "minLength": 5,
+      "maxLength": 90
+    },
+    "task_family": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "maxLength": 80
+    },
+    "section": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 80
+    },
+    "universal": {
+      "type": "boolean"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 300
+    },
+    "tool_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^tool_[a-z0-9_]+$"
+      },
+      "minItems": 1,
+      "uniqueItems": true,
+      "maxItems": 12
+    },
+    "expert_validation": {
+      "type": "object",
+      "required": [
+        "status"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "pending",
+            "in_review",
+            "validated"
+          ]
+        },
+        "note": {
+          "type": "string"
+        },
+        "validator": {
+          "type": "string"
+        },
+        "validated_at": {
+          "type": "string",
+          "format": "date"
+        },
+        "domain": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

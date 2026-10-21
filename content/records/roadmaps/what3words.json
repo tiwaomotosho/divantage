@@ -1,0 +1,239 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_what3words",
+ "slug": "what3words",
+ "title": "what3words skill roadmap",
+ "tool_ids": [
+  "tool_what3words"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_what3words_navigation_travel_0",
+    "slug": "what3words-navigation-travel-0",
+    "title": "Get started with what3words",
+    "outcome": "You can: set up what3words, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "maps-navigation"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_what3words_navigation_travel_1",
+    "slug": "what3words-navigation-travel-1",
+    "title": "Find and save places",
+    "outcome": "You can: find places and save them",
+    "topics": [
+     "search",
+     "saved lists",
+     "sharing locations"
+    ],
+    "practice": "Save your ten most-used places",
+    "need_tags": [
+     "maps-navigation",
+     "travel-planning"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_what3words_navigation_travel_2",
+    "slug": "what3words-navigation-travel-2",
+    "title": "Plan a route",
+    "outcome": "You can: plan a journey or flight/passage",
+    "topics": [
+     "routes",
+     "timing",
+     "alternatives",
+     "weather"
+    ],
+    "practice": "Plan one real journey",
+    "need_tags": [
+     "maps-navigation",
+     "flight-planning",
+     "maritime-navigation"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_what3words_navigation_travel_3",
+    "slug": "what3words-navigation-travel-3",
+    "title": "Live information",
+    "outcome": "You can: use live data safely",
+    "topics": [
+     "traffic/AIS/flight data",
+     "alerts",
+     "limitations"
+    ],
+    "practice": "Monitor a live journey or vessel/flight",
+    "need_tags": [
+     "shipment-tracking",
+     "maps-navigation"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_what3words_navigation_travel_4",
+    "slug": "what3words-navigation-travel-4",
+    "title": "Offline and safety",
+    "outcome": "You can: stay safe without signal",
+    "topics": [
+     "offline maps/charts",
+     "emergency features",
+     "sharing ETA"
+    ],
+    "practice": "Prepare an offline pack for a trip",
+    "need_tags": [
+     "maps-navigation"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_what3words_navigation_travel_8",
+    "slug": "what3words-navigation-travel-8",
+    "title": "Signature skills in what3words",
+    "outcome": "You can: use the features that make what3words distinctive",
+    "topics": [
+     "3-word addresses",
+     "sharing locations",
+     "navigation apps",
+     "offline use"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "maps-navigation"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_what3words_navigation_travel_9",
+    "slug": "what3words-navigation-travel-9",
+    "title": "Advanced what3words",
+    "outcome": "You can: use what3words's advanced capabilities with confidence",
+    "topics": [
+     "emergency services use",
+     "integrations"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "maps-navigation"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_what3words_navigation_travel_5",
+    "slug": "what3words-navigation-travel-5",
+    "title": "Professional planning",
+    "outcome": "You can: plan professionally with what3words",
+    "topics": [
+     "briefings",
+     "logs",
+     "regulations",
+     "data accuracy"
+    ],
+    "practice": "Produce a full plan or briefing",
+    "need_tags": [
+     "flight-planning",
+     "maritime-navigation",
+     "route-planning-fleet",
+     "maps-navigation"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_what3words_navigation_travel_10",
+    "slug": "what3words-navigation-travel-10",
+    "title": "Integrate what3words into your workflow",
+    "outcome": "You can: connect what3words with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect what3words to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "maps-navigation"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_what3words_navigation_travel_11",
+    "slug": "what3words-navigation-travel-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use what3words well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use what3words\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "maps-navigation"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "navigation-travel",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

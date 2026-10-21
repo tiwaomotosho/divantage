@@ -1,0 +1,234 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_lseg_workspace",
+ "slug": "lseg-workspace",
+ "title": "LSEG Workspace skill roadmap",
+ "tool_ids": [
+  "tool_lseg_workspace"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_lseg_workspace_market_data_0",
+    "slug": "lseg-workspace-market-data-0",
+    "title": "Get started with LSEG Workspace",
+    "outcome": "You can: set up LSEG Workspace, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "market-research-finance"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_lseg_workspace_market_data_1",
+    "slug": "lseg-workspace-market-data-1",
+    "title": "Read a quote and a chart",
+    "outcome": "You can: understand prices and charts",
+    "topics": [
+     "tickers",
+     "price/volume",
+     "timeframes",
+     "chart types"
+    ],
+    "practice": "Build a watchlist of five instruments",
+    "need_tags": [
+     "market-research-finance"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_lseg_workspace_market_data_2",
+    "slug": "lseg-workspace-market-data-2",
+    "title": "Fundamentals and news",
+    "outcome": "You can: find company and economic information",
+    "topics": [
+     "financial statements",
+     "ratios",
+     "news filters"
+    ],
+    "practice": "Compare two companies on three ratios",
+    "need_tags": [
+     "market-research-finance"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_lseg_workspace_market_data_3",
+    "slug": "lseg-workspace-market-data-3",
+    "title": "Screens and alerts",
+    "outcome": "You can: find opportunities systematically",
+    "topics": [
+     "screeners",
+     "alerts",
+     "custom indicators"
+    ],
+    "practice": "Build a screen and set two alerts",
+    "need_tags": [
+     "market-research-finance"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_lseg_workspace_market_data_4",
+    "slug": "lseg-workspace-market-data-4",
+    "title": "Export to your model",
+    "outcome": "You can: move data into your analysis",
+    "topics": [
+     "exports",
+     "spreadsheet add-ins",
+     "APIs"
+    ],
+    "practice": "Pull data into a spreadsheet model",
+    "need_tags": [
+     "financial-modelling",
+     "market-research-finance"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_lseg_workspace_market_data_8",
+    "slug": "lseg-workspace-market-data-8",
+    "title": "Signature skills in LSEG Workspace",
+    "outcome": "You can: use the features that make LSEG Workspace distinctive",
+    "topics": [
+     "quotes and charts",
+     "company data",
+     "news",
+     "Excel add-in"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "market-research-finance"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_lseg_workspace_market_data_9",
+    "slug": "lseg-workspace-market-data-9",
+    "title": "Advanced LSEG Workspace",
+    "outcome": "You can: use LSEG Workspace's advanced capabilities with confidence",
+    "topics": [
+     "screening",
+     "Python API (Data Library)",
+     "analytics apps"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "market-research-finance"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_lseg_workspace_market_data_5",
+    "slug": "lseg-workspace-market-data-5",
+    "title": "Risk-aware use",
+    "outcome": "You can: use data responsibly in decisions",
+    "topics": [
+     "data quality",
+     "survivorship bias",
+     "risk limits"
+    ],
+    "practice": "Write a checklist for using LSEG Workspace data in decisions",
+    "need_tags": [
+     "risk-modelling",
+     "market-research-finance"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_lseg_workspace_market_data_10",
+    "slug": "lseg-workspace-market-data-10",
+    "title": "Integrate LSEG Workspace into your workflow",
+    "outcome": "You can: connect LSEG Workspace with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect LSEG Workspace to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "market-research-finance"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_lseg_workspace_market_data_11",
+    "slug": "lseg-workspace-market-data-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use LSEG Workspace well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use LSEG Workspace\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "market-research-finance"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "market-data",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

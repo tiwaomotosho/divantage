@@ -1,0 +1,474 @@
+{
+  "version": "2.0.0",
+  "catalogue": "08_Starter_Catalogue pilot (2026-10-21)",
+  "note": "Expand with every catalogue batch. Each query records the reason it exists.",
+  "queries": [
+    {
+      "query": "DaVinci Resolve",
+      "category": "exact",
+      "expected_any_top3": [
+        "tool_davinci_resolve"
+      ],
+      "must_be_first": "tool_davinci_resolve"
+    },
+    {
+      "query": "zotero",
+      "category": "exact",
+      "expected_any_top3": [
+        "tool_zotero"
+      ],
+      "must_be_first": "tool_zotero"
+    },
+    {
+      "query": "n8n",
+      "category": "exact",
+      "expected_any_top3": [
+        "tool_n8n"
+      ],
+      "must_be_first": "tool_n8n"
+    },
+    {
+      "query": "davinchi resolve",
+      "category": "misspelling",
+      "expected_any_top3": [
+        "tool_davinci_resolve"
+      ]
+    },
+    {
+      "query": "kden live",
+      "category": "misspelling",
+      "expected_any_top3": [
+        "tool_kdenlive"
+      ]
+    },
+    {
+      "query": "shotcutt",
+      "category": "misspelling",
+      "expected_any_top3": [
+        "tool_shotcut"
+      ]
+    },
+    {
+      "query": "Edit videos for free",
+      "category": "natural_language",
+      "expected_any_top3": [
+        "task_edit_video_free",
+        "tool_shotcut",
+        "tool_kdenlive"
+      ],
+      "cost_intent": true,
+      "must_not_rank_first_as_free": true
+    },
+    {
+      "query": "Research a topic",
+      "category": "natural_language",
+      "expected_any_top3": [
+        "task_find_scholarly_sources",
+        "pb_research_topic_cited_summary"
+      ]
+    },
+    {
+      "query": "Automate repetitive work",
+      "category": "natural_language",
+      "expected_any_top3": [
+        "task_automate_repetitive_task"
+      ]
+    },
+    {
+      "query": "Build a website",
+      "category": "natural_language",
+      "expected_any_top3": [
+        "task_build_website"
+      ]
+    },
+    {
+      "query": "Learn a digital skill",
+      "category": "natural_language",
+      "expected_any_top3": [
+        "task_learn_to_code_free"
+      ]
+    },
+    {
+      "query": "how do I cite sources in my essay",
+      "category": "natural_language",
+      "expected_any_top3": [
+        "task_manage_references",
+        "tool_zotero"
+      ]
+    },
+    {
+      "query": "referencing tool",
+      "category": "synonym",
+      "expected_any_top3": [
+        "tool_zotero",
+        "task_manage_references"
+      ]
+    },
+    {
+      "query": "make a poster",
+      "category": "synonym",
+      "expected_any_top3": [
+        "task_design_social_graphic",
+        "tool_canva"
+      ]
+    },
+    {
+      "query": "film editor",
+      "category": "synonym",
+      "expected_any_top3": [
+        "tool_shotcut",
+        "tool_kdenlive",
+        "tool_davinci_resolve",
+        "task_edit_video_free"
+      ]
+    },
+    {
+      "query": "free video editor linux",
+      "category": "platform_constraint",
+      "expected_any_top3": [
+        "tool_kdenlive",
+        "tool_shotcut",
+        "tool_davinci_resolve"
+      ],
+      "cost_intent": true
+    },
+    {
+      "query": "reference manager android",
+      "category": "platform_constraint",
+      "expected_any_top3": [
+        "tool_zotero"
+      ]
+    },
+    {
+      "query": "open source automation self hosted",
+      "category": "budget_constraint",
+      "expected_any_top3": [
+        "tool_n8n"
+      ],
+      "note": "n8n is source-available, not open source; it should still match on self-hosted while its card shows the correct licence label."
+    },
+    {
+      "query": "learn to code free",
+      "category": "budget_constraint",
+      "expected_any_top3": [
+        "tool_freecodecamp",
+        "task_learn_to_code_free"
+      ],
+      "cost_intent": true
+    },
+    {
+      "query": "beginner video editing",
+      "category": "beginner",
+      "expected_any_top3": [
+        "task_edit_video_free",
+        "tool_shotcut"
+      ]
+    },
+    {
+      "query": "colour grading",
+      "category": "spelling_variant",
+      "expected_any_top3": [
+        "tool_davinci_resolve"
+      ]
+    },
+    {
+      "query": "organise references",
+      "category": "spelling_variant",
+      "expected_any_top3": [
+        "task_manage_references"
+      ]
+    },
+    {
+      "query": "remove image background",
+      "category": "none",
+      "expected_any_top3": [],
+      "note": "No pilot task covers this yet. AND stage must be empty; the OR fallback may surface Canva (background removal is a Pro feature) with the 'match some of your words' notice. Becomes a positive test when the Batch 2 task is added."
+    },
+    {
+      "query": "asdfghjkl",
+      "category": "none",
+      "expected_any_top3": []
+    },
+    {
+      "query": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "category": "invalid",
+      "expected_any_top3": [],
+      "note": "Truncated to 120 chars with notice; must not error."
+    }
+  ],
+  "last_run": {
+    "date": "2026-10-21",
+    "engine": "minisearch@7.1.2 via reference-harness.mjs",
+    "positive_top3": "22/22",
+    "exact_first": "3/3",
+    "all_pass": true
+  },
+  "identity_queries": [
+    {
+      "query": "rad",
+      "expect_any_top5": [
+        "radiologist",
+        "radiographer"
+      ],
+      "category": "prefix"
+    },
+    {
+      "query": "doctor",
+      "expect_first": "medical-doctor",
+      "category": "alias"
+    },
+    {
+      "query": "wells engineer",
+      "expect_first": "drilling-engineer",
+      "category": "alias"
+    },
+    {
+      "query": "physio",
+      "expect_first": "physiotherapist",
+      "category": "alias-prefix"
+    },
+    {
+      "query": "nurses",
+      "expect_first": "nurse",
+      "category": "plural"
+    },
+    {
+      "query": "I'm a pastor",
+      "expect_first": "pastor",
+      "category": "phrase"
+    },
+    {
+      "query": "okada",
+      "expect_first": "motorcycle-taxi-rider",
+      "category": "regional alias"
+    },
+    {
+      "query": "keke",
+      "expect_first": "tricycle-rider",
+      "category": "regional alias"
+    },
+    {
+      "query": "qa tester",
+      "expect_first": "qa-tester",
+      "category": "tech"
+    },
+    {
+      "query": "product manager",
+      "expect_first": "product-manager",
+      "category": "tech"
+    },
+    {
+      "query": "data analyst",
+      "expect_first": "data-analyst",
+      "category": "tech"
+    },
+    {
+      "query": "software developer",
+      "expect_first": "software-engineer",
+      "category": "alias"
+    },
+    {
+      "query": "civil engineers",
+      "expect_first": "civil-engineer",
+      "category": "plural"
+    },
+    {
+      "query": "athlete",
+      "expect_first": "athlete",
+      "category": "exact"
+    },
+    {
+      "query": "content creator",
+      "expect_first": "content-creator",
+      "category": "exact"
+    },
+    {
+      "query": "farmer",
+      "expect_first": "farmer",
+      "category": "exact"
+    },
+    {
+      "query": "imam",
+      "expect_first": "imam",
+      "category": "exact"
+    },
+    {
+      "query": "radiologst",
+      "expect_any_top5": [
+        "radiologist"
+      ],
+      "category": "misspelling"
+    },
+    {
+      "query": "mum",
+      "expect_any_top5": [
+        "parent"
+      ],
+      "category": "life role alias"
+    },
+    {
+      "query": "blind",
+      "expect_any_top5": [
+        "person-with-a-disability"
+      ],
+      "category": "life role alias"
+    },
+    {
+      "query": "musician",
+      "expect_first": "musician",
+      "category": "music"
+    },
+    {
+      "query": "guitarist",
+      "expect_first": "guitarist",
+      "category": "music"
+    },
+    {
+      "query": "music producer",
+      "expect_first": "music-producer",
+      "category": "music"
+    },
+    {
+      "query": "talking drummer",
+      "expect_first": "talking-drummer",
+      "category": "music"
+    },
+    {
+      "query": "composer",
+      "expect_first": "composer",
+      "category": "music"
+    },
+    {
+      "query": "rapper",
+      "expect_first": "rapper",
+      "category": "music"
+    },
+    {
+      "query": "afrobeats",
+      "expect_first": "afrobeats-artist",
+      "category": "music"
+    },
+    {
+      "query": "DJ",
+      "expect_first": "dj",
+      "category": "music"
+    },
+    {
+      "query": "mastering engineer",
+      "expect_first": "mastering-engineer",
+      "category": "music"
+    },
+    {
+      "query": "worship leader",
+      "expect_first": "worship-leader",
+      "category": "music"
+    },
+    {
+      "query": "piano tuner",
+      "expect_first": "piano-tuner",
+      "category": "music"
+    },
+    {
+      "query": "singer",
+      "expect_first": "singer",
+      "category": "music"
+    }
+  ],
+  "route_queries": [
+    {
+      "query": "excel for civil engineers",
+      "expect_route": "/for/civil-engineer/microsoft-excel"
+    },
+    {
+      "query": "canva for pastors",
+      "expect_route": "/for/pastor/canva"
+    },
+    {
+      "query": "power bi for production engineers",
+      "expect_route": "/for/production-engineer/power-bi"
+    },
+    {
+      "query": "python for drilling engineers",
+      "expect_route": "/for/drilling-engineer/python"
+    }
+  ],
+  "identity_last_run": {
+    "date": "2026-10-21",
+    "passed": "48/48"
+  },
+  "skill_queries": [
+    {
+      "query": "video editing",
+      "expect_any_top3": [
+        "video"
+      ]
+    },
+    {
+      "query": "excel",
+      "expect_any_top3": [
+        "spreadsheets",
+        "financial-modelling"
+      ]
+    },
+    {
+      "query": "coding",
+      "expect_any_top3": [
+        "coding"
+      ]
+    },
+    {
+      "query": "translate",
+      "expect_any_top3": [
+        "translation"
+      ]
+    },
+    {
+      "query": "marketing",
+      "expect_any_top3": [
+        "digital-marketing"
+      ]
+    },
+    {
+      "query": "mixing",
+      "expect_any_top3": [
+        "audio-music"
+      ]
+    },
+    {
+      "query": "dashboards",
+      "expect_any_top3": [
+        "data-visualisation"
+      ]
+    },
+    {
+      "query": "cyber security",
+      "expect_any_top3": [
+        "cybersecurity"
+      ]
+    },
+    {
+      "query": "passwords",
+      "expect_any_top3": [
+        "online-safety"
+      ]
+    },
+    {
+      "query": "revit",
+      "expect_any_top3": [
+        "engineering-design"
+      ]
+    },
+    {
+      "query": "sell online",
+      "expect_any_top3": [
+        "selling-online"
+      ]
+    },
+    {
+      "query": "teaching",
+      "expect_any_top3": [
+        "learning-teaching"
+      ]
+    }
+  ]
+}

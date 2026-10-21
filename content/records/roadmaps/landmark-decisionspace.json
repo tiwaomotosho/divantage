@@ -1,0 +1,239 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_landmark_decisionspace",
+ "slug": "landmark-decisionspace",
+ "title": "Landmark DecisionSpace well engineering skill roadmap",
+ "tool_ids": [
+  "tool_landmark_decisionspace"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_landmark_decisionspace_subsurface_0",
+    "slug": "landmark-decisionspace-subsurface-0",
+    "title": "Get started with Landmark DecisionSpace well engineering",
+    "outcome": "You can: set up Landmark DecisionSpace well engineering, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "well-planning-design"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_landmark_decisionspace_subsurface_1",
+    "slug": "landmark-decisionspace-subsurface-1",
+    "title": "Projects and data",
+    "outcome": "You can: load and QC subsurface data",
+    "topics": [
+     "coordinate systems",
+     "units",
+     "well/log/seismic/survey data",
+     "QC"
+    ],
+    "practice": "Load and QC a sample dataset",
+    "need_tags": [
+     "well-planning-design"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_landmark_decisionspace_subsurface_2",
+    "slug": "landmark-decisionspace-subsurface-2",
+    "title": "Core interpretation",
+    "outcome": "You can: complete the core workflow in Landmark DecisionSpace well engineering",
+    "topics": [
+     "correlation/picks",
+     "surfaces",
+     "trajectories or blocks"
+    ],
+    "practice": "Complete a basic interpretation",
+    "need_tags": [
+     "well-planning-design"
+    ],
+    "estimated_hours": {
+     "value": 4.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_landmark_decisionspace_subsurface_3",
+    "slug": "landmark-decisionspace-subsurface-3",
+    "title": "Build the model",
+    "outcome": "You can: build a model fit for decisions",
+    "topics": [
+     "grids/blocks",
+     "properties",
+     "constraints"
+    ],
+    "practice": "Build a simple model from your interpretation",
+    "need_tags": [
+     "reservoir-modelling",
+     "mine-planning",
+     "well-planning-design"
+    ],
+    "estimated_hours": {
+     "value": 5.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_landmark_decisionspace_subsurface_4",
+    "slug": "landmark-decisionspace-subsurface-4",
+    "title": "Uncertainty and scenarios",
+    "outcome": "You can: quantify what you don't know",
+    "topics": [
+     "ranges",
+     "realisations",
+     "P10/P50/P90"
+    ],
+    "practice": "Run three scenarios and compare",
+    "need_tags": [
+     "risk-modelling",
+     "well-planning-design"
+    ],
+    "estimated_hours": {
+     "value": 4.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_landmark_decisionspace_subsurface_8",
+    "slug": "landmark-decisionspace-subsurface-8",
+    "title": "Signature skills in Landmark DecisionSpace well engineering",
+    "outcome": "You can: use the features that make Landmark DecisionSpace well engineering distinctive",
+    "topics": [
+     "well planning (COMPASS)",
+     "torque and drag and hydraulics (WELLPLAN)",
+     "casing design (StressCheck)",
+     "data management"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "well-planning-design"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_landmark_decisionspace_subsurface_9",
+    "slug": "landmark-decisionspace-subsurface-9",
+    "title": "Advanced Landmark DecisionSpace well engineering",
+    "outcome": "You can: use Landmark DecisionSpace well engineering's advanced capabilities with confidence",
+    "topics": [
+     "tubular stress analysis (WellCat)",
+     "anti-collision",
+     "engineering data model",
+     "reporting"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "well-planning-design"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_landmark_decisionspace_subsurface_5",
+    "slug": "landmark-decisionspace-subsurface-5",
+    "title": "Integrate and report",
+    "outcome": "You can: hand over results to engineering and management",
+    "topics": [
+     "exports",
+     "reporting",
+     "peer review",
+     "regulatory submissions"
+    ],
+    "practice": "Prepare a peer-review pack",
+    "need_tags": [
+     "regulatory-reporting",
+     "technical-reporting",
+     "well-planning-design"
+    ],
+    "estimated_hours": {
+     "value": 4.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_landmark_decisionspace_subsurface_10",
+    "slug": "landmark-decisionspace-subsurface-10",
+    "title": "Integrate Landmark DecisionSpace well engineering into your workflow",
+    "outcome": "You can: connect Landmark DecisionSpace well engineering with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Landmark DecisionSpace well engineering to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "well-planning-design"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_landmark_decisionspace_subsurface_11",
+    "slug": "landmark-decisionspace-subsurface-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Landmark DecisionSpace well engineering well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Landmark DecisionSpace well engineering\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "well-planning-design"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "subsurface",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

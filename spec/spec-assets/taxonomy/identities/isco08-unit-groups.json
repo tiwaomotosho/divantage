@@ -1,0 +1,3059 @@
+{
+ "standard": "ISCO-08 unit groups (4-digit), International Labour Organization",
+ "source_note": "Codes and titles transcribed from the ISCO-08-based CITP codelist published by CCSS Luxembourg (ccss.public.lu/en/codes-citp.html), national-only codes removed and typos corrected; total 436 unit groups matches ISCO-08.",
+ "count": 436,
+ "values": [
+  {
+   "code": "0110",
+   "title": "Commissioned armed forces officers",
+   "sub_major": "01",
+   "minor": "011",
+   "identity_count": 3
+  },
+  {
+   "code": "0210",
+   "title": "Non-commissioned armed forces officers",
+   "sub_major": "02",
+   "minor": "021",
+   "identity_count": 1
+  },
+  {
+   "code": "0310",
+   "title": "Armed forces occupations, other ranks",
+   "sub_major": "03",
+   "minor": "031",
+   "identity_count": 1
+  },
+  {
+   "code": "1111",
+   "title": "Legislators",
+   "sub_major": "11",
+   "minor": "111",
+   "identity_count": 3
+  },
+  {
+   "code": "1112",
+   "title": "Senior government officials",
+   "sub_major": "11",
+   "minor": "111",
+   "identity_count": 13
+  },
+  {
+   "code": "1113",
+   "title": "Traditional chiefs and heads of villages",
+   "sub_major": "11",
+   "minor": "111",
+   "identity_count": 2
+  },
+  {
+   "code": "1114",
+   "title": "Senior officials of special-interest organizations",
+   "sub_major": "11",
+   "minor": "111",
+   "identity_count": 9
+  },
+  {
+   "code": "1120",
+   "title": "Managing directors and chief executives",
+   "sub_major": "11",
+   "minor": "112",
+   "identity_count": 7
+  },
+  {
+   "code": "1211",
+   "title": "Finance managers",
+   "sub_major": "12",
+   "minor": "121",
+   "identity_count": 5
+  },
+  {
+   "code": "1212",
+   "title": "Human resource managers",
+   "sub_major": "12",
+   "minor": "121",
+   "identity_count": 5
+  },
+  {
+   "code": "1213",
+   "title": "Policy and planning managers",
+   "sub_major": "12",
+   "minor": "121",
+   "identity_count": 3
+  },
+  {
+   "code": "1219",
+   "title": "Business services and administration managers not elsewhere classified",
+   "sub_major": "12",
+   "minor": "121",
+   "identity_count": 7
+  },
+  {
+   "code": "1221",
+   "title": "Sales and marketing managers",
+   "sub_major": "12",
+   "minor": "122",
+   "identity_count": 6
+  },
+  {
+   "code": "1222",
+   "title": "Advertising and public relations managers",
+   "sub_major": "12",
+   "minor": "122",
+   "identity_count": 3
+  },
+  {
+   "code": "1223",
+   "title": "Research and development managers",
+   "sub_major": "12",
+   "minor": "122",
+   "identity_count": 5
+  },
+  {
+   "code": "1311",
+   "title": "Agricultural and forestry production managers",
+   "sub_major": "13",
+   "minor": "131",
+   "identity_count": 4
+  },
+  {
+   "code": "1312",
+   "title": "Aquaculture and fisheries production managers",
+   "sub_major": "13",
+   "minor": "131",
+   "identity_count": 2
+  },
+  {
+   "code": "1321",
+   "title": "Manufacturing managers",
+   "sub_major": "13",
+   "minor": "132",
+   "identity_count": 4
+  },
+  {
+   "code": "1322",
+   "title": "Mining managers",
+   "sub_major": "13",
+   "minor": "132",
+   "identity_count": 2
+  },
+  {
+   "code": "1323",
+   "title": "Construction managers",
+   "sub_major": "13",
+   "minor": "132",
+   "identity_count": 7
+  },
+  {
+   "code": "1324",
+   "title": "Supply, distribution and related managers",
+   "sub_major": "13",
+   "minor": "132",
+   "identity_count": 8
+  },
+  {
+   "code": "1330",
+   "title": "Information and communications technology service managers",
+   "sub_major": "13",
+   "minor": "133",
+   "identity_count": 7
+  },
+  {
+   "code": "1341",
+   "title": "Child care services managers",
+   "sub_major": "13",
+   "minor": "134",
+   "identity_count": 2
+  },
+  {
+   "code": "1342",
+   "title": "Health services managers",
+   "sub_major": "13",
+   "minor": "134",
+   "identity_count": 7
+  },
+  {
+   "code": "1343",
+   "title": "Aged care services managers",
+   "sub_major": "13",
+   "minor": "134",
+   "identity_count": 2
+  },
+  {
+   "code": "1344",
+   "title": "Social welfare managers",
+   "sub_major": "13",
+   "minor": "134",
+   "identity_count": 3
+  },
+  {
+   "code": "1345",
+   "title": "Education managers",
+   "sub_major": "13",
+   "minor": "134",
+   "identity_count": 7
+  },
+  {
+   "code": "1346",
+   "title": "Financial and insurance services branch managers",
+   "sub_major": "13",
+   "minor": "134",
+   "identity_count": 2
+  },
+  {
+   "code": "1349",
+   "title": "Professional services managers not elsewhere classified",
+   "sub_major": "13",
+   "minor": "134",
+   "identity_count": 6
+  },
+  {
+   "code": "1411",
+   "title": "Hotel managers",
+   "sub_major": "14",
+   "minor": "141",
+   "identity_count": 4
+  },
+  {
+   "code": "1412",
+   "title": "Restaurant managers",
+   "sub_major": "14",
+   "minor": "141",
+   "identity_count": 3
+  },
+  {
+   "code": "1420",
+   "title": "Retail and wholesale trade managers",
+   "sub_major": "14",
+   "minor": "142",
+   "identity_count": 8
+  },
+  {
+   "code": "1431",
+   "title": "Sports, recreation and cultural centre managers",
+   "sub_major": "14",
+   "minor": "143",
+   "identity_count": 8
+  },
+  {
+   "code": "1439",
+   "title": "Services managers not elsewhere classified",
+   "sub_major": "14",
+   "minor": "143",
+   "identity_count": 10
+  },
+  {
+   "code": "2111",
+   "title": "Physicists and astronomers",
+   "sub_major": "21",
+   "minor": "211",
+   "identity_count": 6
+  },
+  {
+   "code": "2112",
+   "title": "Meteorologists",
+   "sub_major": "21",
+   "minor": "211",
+   "identity_count": 2
+  },
+  {
+   "code": "2113",
+   "title": "Chemists",
+   "sub_major": "21",
+   "minor": "211",
+   "identity_count": 7
+  },
+  {
+   "code": "2114",
+   "title": "Geologists and geophysicists",
+   "sub_major": "21",
+   "minor": "211",
+   "identity_count": 13
+  },
+  {
+   "code": "2120",
+   "title": "Mathematicians, actuaries and statisticians",
+   "sub_major": "21",
+   "minor": "212",
+   "identity_count": 8
+  },
+  {
+   "code": "2131",
+   "title": "Biologists, botanists, zoologists and related professionals",
+   "sub_major": "21",
+   "minor": "213",
+   "identity_count": 15
+  },
+  {
+   "code": "2132",
+   "title": "Farming, forestry and fisheries advisers",
+   "sub_major": "21",
+   "minor": "213",
+   "identity_count": 10
+  },
+  {
+   "code": "2133",
+   "title": "Environmental protection professionals",
+   "sub_major": "21",
+   "minor": "213",
+   "identity_count": 10
+  },
+  {
+   "code": "2141",
+   "title": "Industrial and production engineers",
+   "sub_major": "21",
+   "minor": "214",
+   "identity_count": 8
+  },
+  {
+   "code": "2142",
+   "title": "Civil engineers",
+   "sub_major": "21",
+   "minor": "214",
+   "identity_count": 12
+  },
+  {
+   "code": "2143",
+   "title": "Environmental engineers",
+   "sub_major": "21",
+   "minor": "214",
+   "identity_count": 5
+  },
+  {
+   "code": "2144",
+   "title": "Mechanical engineers",
+   "sub_major": "21",
+   "minor": "214",
+   "identity_count": 13
+  },
+  {
+   "code": "2145",
+   "title": "Chemical engineers",
+   "sub_major": "21",
+   "minor": "214",
+   "identity_count": 8
+  },
+  {
+   "code": "2146",
+   "title": "Mining engineers, metallurgists and related professionals",
+   "sub_major": "21",
+   "minor": "214",
+   "identity_count": 13
+  },
+  {
+   "code": "2149",
+   "title": "Engineering professionals not elsewhere classified",
+   "sub_major": "21",
+   "minor": "214",
+   "identity_count": 13
+  },
+  {
+   "code": "2151",
+   "title": "Electrical engineers",
+   "sub_major": "21",
+   "minor": "215",
+   "identity_count": 9
+  },
+  {
+   "code": "2152",
+   "title": "Electronics engineers",
+   "sub_major": "21",
+   "minor": "215",
+   "identity_count": 6
+  },
+  {
+   "code": "2153",
+   "title": "Telecommunications engineers",
+   "sub_major": "21",
+   "minor": "215",
+   "identity_count": 7
+  },
+  {
+   "code": "2161",
+   "title": "Building architects",
+   "sub_major": "21",
+   "minor": "216",
+   "identity_count": 4
+  },
+  {
+   "code": "2162",
+   "title": "Landscape architects",
+   "sub_major": "21",
+   "minor": "216",
+   "identity_count": 1
+  },
+  {
+   "code": "2163",
+   "title": "Product and garment designers",
+   "sub_major": "21",
+   "minor": "216",
+   "identity_count": 9
+  },
+  {
+   "code": "2164",
+   "title": "Town and traffic planners",
+   "sub_major": "21",
+   "minor": "216",
+   "identity_count": 4
+  },
+  {
+   "code": "2165",
+   "title": "Cartographers and surveyors",
+   "sub_major": "21",
+   "minor": "216",
+   "identity_count": 9
+  },
+  {
+   "code": "2166",
+   "title": "Graphic and multimedia designers",
+   "sub_major": "21",
+   "minor": "216",
+   "identity_count": 14
+  },
+  {
+   "code": "2211",
+   "title": "Generalist medical practitioners",
+   "sub_major": "22",
+   "minor": "221",
+   "identity_count": 2
+  },
+  {
+   "code": "2212",
+   "title": "Specialist medical practitioners",
+   "sub_major": "22",
+   "minor": "221",
+   "identity_count": 34
+  },
+  {
+   "code": "2221",
+   "title": "Nursing professionals",
+   "sub_major": "22",
+   "minor": "222",
+   "identity_count": 14
+  },
+  {
+   "code": "2222",
+   "title": "Midwifery professionals",
+   "sub_major": "22",
+   "minor": "222",
+   "identity_count": 1
+  },
+  {
+   "code": "2230",
+   "title": "Traditional and complementary medicine professionals",
+   "sub_major": "22",
+   "minor": "223",
+   "identity_count": 8
+  },
+  {
+   "code": "2240",
+   "title": "Paramedical practitioners",
+   "sub_major": "22",
+   "minor": "224",
+   "identity_count": 4
+  },
+  {
+   "code": "2250",
+   "title": "Veterinarians",
+   "sub_major": "22",
+   "minor": "225",
+   "identity_count": 1
+  },
+  {
+   "code": "2261",
+   "title": "Dentists",
+   "sub_major": "22",
+   "minor": "226",
+   "identity_count": 7
+  },
+  {
+   "code": "2262",
+   "title": "Pharmacists",
+   "sub_major": "22",
+   "minor": "226",
+   "identity_count": 7
+  },
+  {
+   "code": "2263",
+   "title": "Environmental and occupational health and hygiene professionals",
+   "sub_major": "22",
+   "minor": "226",
+   "identity_count": 6
+  },
+  {
+   "code": "2264",
+   "title": "Physiotherapists",
+   "sub_major": "22",
+   "minor": "226",
+   "identity_count": 6
+  },
+  {
+   "code": "2265",
+   "title": "Dieticians and nutritionists",
+   "sub_major": "22",
+   "minor": "226",
+   "identity_count": 5
+  },
+  {
+   "code": "2266",
+   "title": "Audiologists and speech therapists",
+   "sub_major": "22",
+   "minor": "226",
+   "identity_count": 3
+  },
+  {
+   "code": "2267",
+   "title": "Optometrists and ophthalmic opticians",
+   "sub_major": "22",
+   "minor": "226",
+   "identity_count": 3
+  },
+  {
+   "code": "2269",
+   "title": "Health professionals not elsewhere classified",
+   "sub_major": "22",
+   "minor": "226",
+   "identity_count": 12
+  },
+  {
+   "code": "2310",
+   "title": "University and higher education teachers",
+   "sub_major": "23",
+   "minor": "231",
+   "identity_count": 5
+  },
+  {
+   "code": "2320",
+   "title": "Vocational education teachers",
+   "sub_major": "23",
+   "minor": "232",
+   "identity_count": 6
+  },
+  {
+   "code": "2330",
+   "title": "Secondary education teachers",
+   "sub_major": "23",
+   "minor": "233",
+   "identity_count": 13
+  },
+  {
+   "code": "2341",
+   "title": "Primary school teachers",
+   "sub_major": "23",
+   "minor": "234",
+   "identity_count": 3
+  },
+  {
+   "code": "2342",
+   "title": "Early childhood educators",
+   "sub_major": "23",
+   "minor": "234",
+   "identity_count": 2
+  },
+  {
+   "code": "2351",
+   "title": "Education methods specialists",
+   "sub_major": "23",
+   "minor": "235",
+   "identity_count": 7
+  },
+  {
+   "code": "2352",
+   "title": "Special needs teachers",
+   "sub_major": "23",
+   "minor": "235",
+   "identity_count": 6
+  },
+  {
+   "code": "2353",
+   "title": "Other language teachers",
+   "sub_major": "23",
+   "minor": "235",
+   "identity_count": 9
+  },
+  {
+   "code": "2354",
+   "title": "Other music teachers",
+   "sub_major": "23",
+   "minor": "235",
+   "identity_count": 4
+  },
+  {
+   "code": "2355",
+   "title": "Other arts teachers",
+   "sub_major": "23",
+   "minor": "235",
+   "identity_count": 6
+  },
+  {
+   "code": "2356",
+   "title": "Information technology trainers",
+   "sub_major": "23",
+   "minor": "235",
+   "identity_count": 6
+  },
+  {
+   "code": "2359",
+   "title": "Teaching professionals not elsewhere classified",
+   "sub_major": "23",
+   "minor": "235",
+   "identity_count": 8
+  },
+  {
+   "code": "2411",
+   "title": "Accountants",
+   "sub_major": "24",
+   "minor": "241",
+   "identity_count": 9
+  },
+  {
+   "code": "2412",
+   "title": "Financial and investment advisers",
+   "sub_major": "24",
+   "minor": "241",
+   "identity_count": 5
+  },
+  {
+   "code": "2413",
+   "title": "Financial analysts",
+   "sub_major": "24",
+   "minor": "241",
+   "identity_count": 15
+  },
+  {
+   "code": "2421",
+   "title": "Management and organization analysts",
+   "sub_major": "24",
+   "minor": "242",
+   "identity_count": 12
+  },
+  {
+   "code": "2422",
+   "title": "Policy administration professionals",
+   "sub_major": "24",
+   "minor": "242",
+   "identity_count": 8
+  },
+  {
+   "code": "2423",
+   "title": "Personnel and careers professionals",
+   "sub_major": "24",
+   "minor": "242",
+   "identity_count": 5
+  },
+  {
+   "code": "2424",
+   "title": "Training and staff development professionals",
+   "sub_major": "24",
+   "minor": "242",
+   "identity_count": 5
+  },
+  {
+   "code": "2431",
+   "title": "Advertising and marketing professionals",
+   "sub_major": "24",
+   "minor": "243",
+   "identity_count": 17
+  },
+  {
+   "code": "2432",
+   "title": "Public relations professionals",
+   "sub_major": "24",
+   "minor": "243",
+   "identity_count": 7
+  },
+  {
+   "code": "2433",
+   "title": "Technical and medical sales professionals (excluding ICT)",
+   "sub_major": "24",
+   "minor": "243",
+   "identity_count": 7
+  },
+  {
+   "code": "2434",
+   "title": "Information and communications technology sales professionals",
+   "sub_major": "24",
+   "minor": "243",
+   "identity_count": 5
+  },
+  {
+   "code": "2511",
+   "title": "Systems analysts",
+   "sub_major": "25",
+   "minor": "251",
+   "identity_count": 8
+  },
+  {
+   "code": "2512",
+   "title": "Software developers",
+   "sub_major": "25",
+   "minor": "251",
+   "identity_count": 22
+  },
+  {
+   "code": "2513",
+   "title": "Web and multimedia developers",
+   "sub_major": "25",
+   "minor": "251",
+   "identity_count": 11
+  },
+  {
+   "code": "2514",
+   "title": "Applications programmers",
+   "sub_major": "25",
+   "minor": "251",
+   "identity_count": 9
+  },
+  {
+   "code": "2519",
+   "title": "Software and applications developers and analysts not elsewhere classified",
+   "sub_major": "25",
+   "minor": "251",
+   "identity_count": 11
+  },
+  {
+   "code": "2521",
+   "title": "Database designers and administrators",
+   "sub_major": "25",
+   "minor": "252",
+   "identity_count": 6
+  },
+  {
+   "code": "2522",
+   "title": "Systems administrators",
+   "sub_major": "25",
+   "minor": "252",
+   "identity_count": 11
+  },
+  {
+   "code": "2523",
+   "title": "Computer network professionals",
+   "sub_major": "25",
+   "minor": "252",
+   "identity_count": 5
+  },
+  {
+   "code": "2529",
+   "title": "Database and network professionals not elsewhere classified",
+   "sub_major": "25",
+   "minor": "252",
+   "identity_count": 14
+  },
+  {
+   "code": "2611",
+   "title": "Lawyers",
+   "sub_major": "26",
+   "minor": "261",
+   "identity_count": 22
+  },
+  {
+   "code": "2612",
+   "title": "Judges",
+   "sub_major": "26",
+   "minor": "261",
+   "identity_count": 5
+  },
+  {
+   "code": "2619",
+   "title": "Legal professionals not elsewhere classified",
+   "sub_major": "26",
+   "minor": "261",
+   "identity_count": 8
+  },
+  {
+   "code": "2621",
+   "title": "Archivists and curators",
+   "sub_major": "26",
+   "minor": "262",
+   "identity_count": 7
+  },
+  {
+   "code": "2622",
+   "title": "Librarians and related information professionals",
+   "sub_major": "26",
+   "minor": "262",
+   "identity_count": 7
+  },
+  {
+   "code": "2631",
+   "title": "Economists",
+   "sub_major": "26",
+   "minor": "263",
+   "identity_count": 7
+  },
+  {
+   "code": "2632",
+   "title": "Sociologists, anthropologists and related professionals",
+   "sub_major": "26",
+   "minor": "263",
+   "identity_count": 9
+  },
+  {
+   "code": "2633",
+   "title": "Philosophers, historians and political scientists",
+   "sub_major": "26",
+   "minor": "263",
+   "identity_count": 9
+  },
+  {
+   "code": "2634",
+   "title": "Psychologists",
+   "sub_major": "26",
+   "minor": "263",
+   "identity_count": 10
+  },
+  {
+   "code": "2635",
+   "title": "Social work and counselling professionals",
+   "sub_major": "26",
+   "minor": "263",
+   "identity_count": 12
+  },
+  {
+   "code": "2636",
+   "title": "Religious professionals",
+   "sub_major": "26",
+   "minor": "263",
+   "identity_count": 21
+  },
+  {
+   "code": "2641",
+   "title": "Authors and related writers",
+   "sub_major": "26",
+   "minor": "264",
+   "identity_count": 17
+  },
+  {
+   "code": "2642",
+   "title": "Journalists",
+   "sub_major": "26",
+   "minor": "264",
+   "identity_count": 16
+  },
+  {
+   "code": "2643",
+   "title": "Translators, interpreters and other linguists",
+   "sub_major": "26",
+   "minor": "264",
+   "identity_count": 10
+  },
+  {
+   "code": "2651",
+   "title": "Visual artists",
+   "sub_major": "26",
+   "minor": "265",
+   "identity_count": 12
+  },
+  {
+   "code": "2652",
+   "title": "Musicians, singers and composers",
+   "sub_major": "26",
+   "minor": "265",
+   "identity_count": 50
+  },
+  {
+   "code": "2653",
+   "title": "Dancers and choreographers",
+   "sub_major": "26",
+   "minor": "265",
+   "identity_count": 6
+  },
+  {
+   "code": "2654",
+   "title": "Film, stage and related directors and producers",
+   "sub_major": "26",
+   "minor": "265",
+   "identity_count": 15
+  },
+  {
+   "code": "2655",
+   "title": "Actors",
+   "sub_major": "26",
+   "minor": "265",
+   "identity_count": 6
+  },
+  {
+   "code": "2656",
+   "title": "Announcers on radio, television and other media",
+   "sub_major": "26",
+   "minor": "265",
+   "identity_count": 11
+  },
+  {
+   "code": "2659",
+   "title": "Creative and performing artists not elsewhere classified",
+   "sub_major": "26",
+   "minor": "265",
+   "identity_count": 11
+  },
+  {
+   "code": "3111",
+   "title": "Chemical and physical science technicians",
+   "sub_major": "31",
+   "minor": "311",
+   "identity_count": 7
+  },
+  {
+   "code": "3112",
+   "title": "Civil engineering technicians",
+   "sub_major": "31",
+   "minor": "311",
+   "identity_count": 6
+  },
+  {
+   "code": "3113",
+   "title": "Electrical engineering technicians",
+   "sub_major": "31",
+   "minor": "311",
+   "identity_count": 5
+  },
+  {
+   "code": "3114",
+   "title": "Electronics engineering technicians",
+   "sub_major": "31",
+   "minor": "311",
+   "identity_count": 6
+  },
+  {
+   "code": "3115",
+   "title": "Mechanical engineering technicians",
+   "sub_major": "31",
+   "minor": "311",
+   "identity_count": 5
+  },
+  {
+   "code": "3116",
+   "title": "Chemical engineering technicians",
+   "sub_major": "31",
+   "minor": "311",
+   "identity_count": 4
+  },
+  {
+   "code": "3117",
+   "title": "Mining and metallurgical technicians",
+   "sub_major": "31",
+   "minor": "311",
+   "identity_count": 5
+  },
+  {
+   "code": "3118",
+   "title": "Draughtspersons",
+   "sub_major": "31",
+   "minor": "311",
+   "identity_count": 8
+  },
+  {
+   "code": "3119",
+   "title": "Physical and engineering science technicians not elsewhere classified",
+   "sub_major": "31",
+   "minor": "311",
+   "identity_count": 8
+  },
+  {
+   "code": "3121",
+   "title": "Mining supervisors",
+   "sub_major": "31",
+   "minor": "312",
+   "identity_count": 1
+  },
+  {
+   "code": "3122",
+   "title": "Manufacturing supervisors",
+   "sub_major": "31",
+   "minor": "312",
+   "identity_count": 1
+  },
+  {
+   "code": "3123",
+   "title": "Construction supervisors",
+   "sub_major": "31",
+   "minor": "312",
+   "identity_count": 5
+  },
+  {
+   "code": "3131",
+   "title": "Power production plant operators",
+   "sub_major": "31",
+   "minor": "313",
+   "identity_count": 5
+  },
+  {
+   "code": "3132",
+   "title": "Incinerator and water treatment plant operators",
+   "sub_major": "31",
+   "minor": "313",
+   "identity_count": 4
+  },
+  {
+   "code": "3133",
+   "title": "Chemical processing plant controllers",
+   "sub_major": "31",
+   "minor": "313",
+   "identity_count": 1
+  },
+  {
+   "code": "3134",
+   "title": "Petroleum and natural gas refining plant operators",
+   "sub_major": "31",
+   "minor": "313",
+   "identity_count": 8
+  },
+  {
+   "code": "3135",
+   "title": "Metal production process controllers",
+   "sub_major": "31",
+   "minor": "313",
+   "identity_count": 1
+  },
+  {
+   "code": "3139",
+   "title": "Process control technicians not elsewhere classified",
+   "sub_major": "31",
+   "minor": "313",
+   "identity_count": 4
+  },
+  {
+   "code": "3141",
+   "title": "Life science technicians (excluding medical)",
+   "sub_major": "31",
+   "minor": "314",
+   "identity_count": 5
+  },
+  {
+   "code": "3142",
+   "title": "Agricultural technicians",
+   "sub_major": "31",
+   "minor": "314",
+   "identity_count": 7
+  },
+  {
+   "code": "3143",
+   "title": "Forestry technicians",
+   "sub_major": "31",
+   "minor": "314",
+   "identity_count": 2
+  },
+  {
+   "code": "3151",
+   "title": "Ships' engineers",
+   "sub_major": "31",
+   "minor": "315",
+   "identity_count": 1
+  },
+  {
+   "code": "3152",
+   "title": "Ships' deck officers and pilots",
+   "sub_major": "31",
+   "minor": "315",
+   "identity_count": 7
+  },
+  {
+   "code": "3153",
+   "title": "Aircraft pilots and related associate professionals",
+   "sub_major": "31",
+   "minor": "315",
+   "identity_count": 8
+  },
+  {
+   "code": "3154",
+   "title": "Air traffic controllers",
+   "sub_major": "31",
+   "minor": "315",
+   "identity_count": 1
+  },
+  {
+   "code": "3155",
+   "title": "Air traffic safety electronics technicians",
+   "sub_major": "31",
+   "minor": "315",
+   "identity_count": 2
+  },
+  {
+   "code": "3211",
+   "title": "Medical imaging and therapeutic equipment technicians",
+   "sub_major": "32",
+   "minor": "321",
+   "identity_count": 8
+  },
+  {
+   "code": "3212",
+   "title": "Medical and pathology laboratory technicians",
+   "sub_major": "32",
+   "minor": "321",
+   "identity_count": 7
+  },
+  {
+   "code": "3213",
+   "title": "Pharmaceutical technicians and assistants",
+   "sub_major": "32",
+   "minor": "321",
+   "identity_count": 3
+  },
+  {
+   "code": "3214",
+   "title": "Medical and dental prosthetic technicians",
+   "sub_major": "32",
+   "minor": "321",
+   "identity_count": 6
+  },
+  {
+   "code": "3221",
+   "title": "Nursing associate professionals",
+   "sub_major": "32",
+   "minor": "322",
+   "identity_count": 3
+  },
+  {
+   "code": "3222",
+   "title": "Midwifery associate professionals",
+   "sub_major": "32",
+   "minor": "322",
+   "identity_count": 2
+  },
+  {
+   "code": "3230",
+   "title": "Traditional and complementary medicine associate professionals",
+   "sub_major": "32",
+   "minor": "323",
+   "identity_count": 3
+  },
+  {
+   "code": "3240",
+   "title": "Veterinary technicians and assistants",
+   "sub_major": "32",
+   "minor": "324",
+   "identity_count": 2
+  },
+  {
+   "code": "3251",
+   "title": "Dental assistants and therapists",
+   "sub_major": "32",
+   "minor": "325",
+   "identity_count": 2
+  },
+  {
+   "code": "3252",
+   "title": "Medical records and health information technicians",
+   "sub_major": "32",
+   "minor": "325",
+   "identity_count": 4
+  },
+  {
+   "code": "3253",
+   "title": "Community health workers",
+   "sub_major": "32",
+   "minor": "325",
+   "identity_count": 5
+  },
+  {
+   "code": "3254",
+   "title": "Dispensing opticians",
+   "sub_major": "32",
+   "minor": "325",
+   "identity_count": 1
+  },
+  {
+   "code": "3255",
+   "title": "Physiotherapy technicians and assistants",
+   "sub_major": "32",
+   "minor": "325",
+   "identity_count": 1
+  },
+  {
+   "code": "3256",
+   "title": "Medical assistants",
+   "sub_major": "32",
+   "minor": "325",
+   "identity_count": 4
+  },
+  {
+   "code": "3257",
+   "title": "Environmental and occupational health inspectors and associates",
+   "sub_major": "32",
+   "minor": "325",
+   "identity_count": 6
+  },
+  {
+   "code": "3258",
+   "title": "Ambulance workers",
+   "sub_major": "32",
+   "minor": "325",
+   "identity_count": 4
+  },
+  {
+   "code": "3259",
+   "title": "Health associate professionals not elsewhere classified",
+   "sub_major": "32",
+   "minor": "325",
+   "identity_count": 9
+  },
+  {
+   "code": "3311",
+   "title": "Securities and finance dealers and brokers",
+   "sub_major": "33",
+   "minor": "331",
+   "identity_count": 6
+  },
+  {
+   "code": "3312",
+   "title": "Credit and loans officers",
+   "sub_major": "33",
+   "minor": "331",
+   "identity_count": 5
+  },
+  {
+   "code": "3313",
+   "title": "Accounting associate professionals",
+   "sub_major": "33",
+   "minor": "331",
+   "identity_count": 5
+  },
+  {
+   "code": "3314",
+   "title": "Statistical, mathematical and related associate professionals",
+   "sub_major": "33",
+   "minor": "331",
+   "identity_count": 5
+  },
+  {
+   "code": "3315",
+   "title": "Valuers and loss assessors",
+   "sub_major": "33",
+   "minor": "331",
+   "identity_count": 7
+  },
+  {
+   "code": "3321",
+   "title": "Insurance representatives",
+   "sub_major": "33",
+   "minor": "332",
+   "identity_count": 3
+  },
+  {
+   "code": "3322",
+   "title": "Commercial sales representatives",
+   "sub_major": "33",
+   "minor": "332",
+   "identity_count": 7
+  },
+  {
+   "code": "3323",
+   "title": "Buyers",
+   "sub_major": "33",
+   "minor": "332",
+   "identity_count": 6
+  },
+  {
+   "code": "3324",
+   "title": "Trade brokers",
+   "sub_major": "33",
+   "minor": "332",
+   "identity_count": 7
+  },
+  {
+   "code": "3331",
+   "title": "Clearing and forwarding agents",
+   "sub_major": "33",
+   "minor": "333",
+   "identity_count": 3
+  },
+  {
+   "code": "3332",
+   "title": "Conference and event planners",
+   "sub_major": "33",
+   "minor": "333",
+   "identity_count": 6
+  },
+  {
+   "code": "3333",
+   "title": "Employment agents and contractors",
+   "sub_major": "33",
+   "minor": "333",
+   "identity_count": 4
+  },
+  {
+   "code": "3334",
+   "title": "Real estate agents and property managers",
+   "sub_major": "33",
+   "minor": "333",
+   "identity_count": 6
+  },
+  {
+   "code": "3339",
+   "title": "Business services agents not elsewhere classified",
+   "sub_major": "33",
+   "minor": "333",
+   "identity_count": 8
+  },
+  {
+   "code": "3341",
+   "title": "Office supervisors",
+   "sub_major": "33",
+   "minor": "334",
+   "identity_count": 4
+  },
+  {
+   "code": "3342",
+   "title": "Legal secretaries",
+   "sub_major": "33",
+   "minor": "334",
+   "identity_count": 1
+  },
+  {
+   "code": "3343",
+   "title": "Administrative and executive secretaries",
+   "sub_major": "33",
+   "minor": "334",
+   "identity_count": 4
+  },
+  {
+   "code": "3344",
+   "title": "Medical secretaries",
+   "sub_major": "33",
+   "minor": "334",
+   "identity_count": 2
+  },
+  {
+   "code": "3351",
+   "title": "Customs and border inspectors",
+   "sub_major": "33",
+   "minor": "335",
+   "identity_count": 5
+  },
+  {
+   "code": "3352",
+   "title": "Government tax and excise officials",
+   "sub_major": "33",
+   "minor": "335",
+   "identity_count": 3
+  },
+  {
+   "code": "3353",
+   "title": "Government social benefits officials",
+   "sub_major": "33",
+   "minor": "335",
+   "identity_count": 3
+  },
+  {
+   "code": "3354",
+   "title": "Government licensing officials",
+   "sub_major": "33",
+   "minor": "335",
+   "identity_count": 5
+  },
+  {
+   "code": "3355",
+   "title": "Police inspectors and detectives",
+   "sub_major": "33",
+   "minor": "335",
+   "identity_count": 4
+  },
+  {
+   "code": "3359",
+   "title": "Regulatory government associate professionals not elsewhere classified",
+   "sub_major": "33",
+   "minor": "335",
+   "identity_count": 8
+  },
+  {
+   "code": "3411",
+   "title": "Legal and related associate professionals",
+   "sub_major": "34",
+   "minor": "341",
+   "identity_count": 6
+  },
+  {
+   "code": "3412",
+   "title": "Social work associate professionals",
+   "sub_major": "34",
+   "minor": "341",
+   "identity_count": 9
+  },
+  {
+   "code": "3413",
+   "title": "Religious associate professionals",
+   "sub_major": "34",
+   "minor": "341",
+   "identity_count": 11
+  },
+  {
+   "code": "3421",
+   "title": "Athletes and sports players",
+   "sub_major": "34",
+   "minor": "342",
+   "identity_count": 28
+  },
+  {
+   "code": "3422",
+   "title": "Sports coaches, instructors and officials",
+   "sub_major": "34",
+   "minor": "342",
+   "identity_count": 13
+  },
+  {
+   "code": "3423",
+   "title": "Fitness and recreation instructors and programme leaders",
+   "sub_major": "34",
+   "minor": "342",
+   "identity_count": 9
+  },
+  {
+   "code": "3431",
+   "title": "Photographers",
+   "sub_major": "34",
+   "minor": "343",
+   "identity_count": 10
+  },
+  {
+   "code": "3432",
+   "title": "Interior designers and decorators",
+   "sub_major": "34",
+   "minor": "343",
+   "identity_count": 7
+  },
+  {
+   "code": "3433",
+   "title": "Gallery, museum and library technicians",
+   "sub_major": "34",
+   "minor": "343",
+   "identity_count": 5
+  },
+  {
+   "code": "3434",
+   "title": "Chefs",
+   "sub_major": "34",
+   "minor": "343",
+   "identity_count": 5
+  },
+  {
+   "code": "3435",
+   "title": "Other artistic and cultural associate professionals",
+   "sub_major": "34",
+   "minor": "343",
+   "identity_count": 12
+  },
+  {
+   "code": "3511",
+   "title": "Information and communications technology operations technicians",
+   "sub_major": "35",
+   "minor": "351",
+   "identity_count": 5
+  },
+  {
+   "code": "3512",
+   "title": "Information and communications technology user support technicians",
+   "sub_major": "35",
+   "minor": "351",
+   "identity_count": 5
+  },
+  {
+   "code": "3513",
+   "title": "Computer network and systems technicians",
+   "sub_major": "35",
+   "minor": "351",
+   "identity_count": 4
+  },
+  {
+   "code": "3514",
+   "title": "Web technicians",
+   "sub_major": "35",
+   "minor": "351",
+   "identity_count": 3
+  },
+  {
+   "code": "3521",
+   "title": "Broadcasting and audiovisual technicians",
+   "sub_major": "35",
+   "minor": "352",
+   "identity_count": 14
+  },
+  {
+   "code": "3522",
+   "title": "Telecommunications engineering technicians",
+   "sub_major": "35",
+   "minor": "352",
+   "identity_count": 5
+  },
+  {
+   "code": "4110",
+   "title": "General office clerks",
+   "sub_major": "41",
+   "minor": "411",
+   "identity_count": 5
+  },
+  {
+   "code": "4120",
+   "title": "Secretaries (general)",
+   "sub_major": "41",
+   "minor": "412",
+   "identity_count": 3
+  },
+  {
+   "code": "4131",
+   "title": "Typists and word processing operators",
+   "sub_major": "41",
+   "minor": "413",
+   "identity_count": 1
+  },
+  {
+   "code": "4132",
+   "title": "Data entry clerks",
+   "sub_major": "41",
+   "minor": "413",
+   "identity_count": 3
+  },
+  {
+   "code": "4211",
+   "title": "Bank tellers and related clerks",
+   "sub_major": "42",
+   "minor": "421",
+   "identity_count": 5
+  },
+  {
+   "code": "4212",
+   "title": "Bookmakers, croupiers and related gaming workers",
+   "sub_major": "42",
+   "minor": "421",
+   "identity_count": 6
+  },
+  {
+   "code": "4213",
+   "title": "Pawnbrokers and money-lenders",
+   "sub_major": "42",
+   "minor": "421",
+   "identity_count": 2
+  },
+  {
+   "code": "4214",
+   "title": "Debt-collectors and related workers",
+   "sub_major": "42",
+   "minor": "421",
+   "identity_count": 3
+  },
+  {
+   "code": "4221",
+   "title": "Travel consultants and clerks",
+   "sub_major": "42",
+   "minor": "422",
+   "identity_count": 5
+  },
+  {
+   "code": "4222",
+   "title": "Contact centre information clerks",
+   "sub_major": "42",
+   "minor": "422",
+   "identity_count": 5
+  },
+  {
+   "code": "4223",
+   "title": "Telephone switchboard operators",
+   "sub_major": "42",
+   "minor": "422",
+   "identity_count": 1
+  },
+  {
+   "code": "4224",
+   "title": "Hotel receptionists",
+   "sub_major": "42",
+   "minor": "422",
+   "identity_count": 3
+  },
+  {
+   "code": "4225",
+   "title": "Enquiry clerks",
+   "sub_major": "42",
+   "minor": "422",
+   "identity_count": 1
+  },
+  {
+   "code": "4226",
+   "title": "Receptionists (general)",
+   "sub_major": "42",
+   "minor": "422",
+   "identity_count": 4
+  },
+  {
+   "code": "4227",
+   "title": "Survey and market research interviewers",
+   "sub_major": "42",
+   "minor": "422",
+   "identity_count": 3
+  },
+  {
+   "code": "4229",
+   "title": "Client information workers not elsewhere classified",
+   "sub_major": "42",
+   "minor": "422",
+   "identity_count": 4
+  },
+  {
+   "code": "4311",
+   "title": "Accounting and bookkeeping clerks",
+   "sub_major": "43",
+   "minor": "431",
+   "identity_count": 5
+  },
+  {
+   "code": "4312",
+   "title": "Statistical, finance and insurance clerks",
+   "sub_major": "43",
+   "minor": "431",
+   "identity_count": 5
+  },
+  {
+   "code": "4313",
+   "title": "Payroll clerks",
+   "sub_major": "43",
+   "minor": "431",
+   "identity_count": 3
+  },
+  {
+   "code": "4321",
+   "title": "Stock clerks",
+   "sub_major": "43",
+   "minor": "432",
+   "identity_count": 5
+  },
+  {
+   "code": "4322",
+   "title": "Production clerks",
+   "sub_major": "43",
+   "minor": "432",
+   "identity_count": 4
+  },
+  {
+   "code": "4323",
+   "title": "Transport clerks",
+   "sub_major": "43",
+   "minor": "432",
+   "identity_count": 6
+  },
+  {
+   "code": "4411",
+   "title": "Library clerks",
+   "sub_major": "44",
+   "minor": "441",
+   "identity_count": 1
+  },
+  {
+   "code": "4412",
+   "title": "Mail carriers and sorting clerks",
+   "sub_major": "44",
+   "minor": "441",
+   "identity_count": 5
+  },
+  {
+   "code": "4413",
+   "title": "Coding, proof-reading and related clerks",
+   "sub_major": "44",
+   "minor": "441",
+   "identity_count": 2
+  },
+  {
+   "code": "4414",
+   "title": "Scribes and related workers",
+   "sub_major": "44",
+   "minor": "441",
+   "identity_count": 1
+  },
+  {
+   "code": "4415",
+   "title": "Filing and copying clerks",
+   "sub_major": "44",
+   "minor": "441",
+   "identity_count": 5
+  },
+  {
+   "code": "4416",
+   "title": "Personnel clerks",
+   "sub_major": "44",
+   "minor": "441",
+   "identity_count": 4
+  },
+  {
+   "code": "4419",
+   "title": "Clerical support workers not elsewhere classified",
+   "sub_major": "44",
+   "minor": "441",
+   "identity_count": 5
+  },
+  {
+   "code": "5111",
+   "title": "Travel attendants and travel stewards",
+   "sub_major": "51",
+   "minor": "511",
+   "identity_count": 6
+  },
+  {
+   "code": "5112",
+   "title": "Transport conductors",
+   "sub_major": "51",
+   "minor": "511",
+   "identity_count": 4
+  },
+  {
+   "code": "5113",
+   "title": "Travel guides",
+   "sub_major": "51",
+   "minor": "511",
+   "identity_count": 6
+  },
+  {
+   "code": "5120",
+   "title": "Cooks",
+   "sub_major": "51",
+   "minor": "512",
+   "identity_count": 9
+  },
+  {
+   "code": "5131",
+   "title": "Waiters",
+   "sub_major": "51",
+   "minor": "513",
+   "identity_count": 4
+  },
+  {
+   "code": "5132",
+   "title": "Bartenders",
+   "sub_major": "51",
+   "minor": "513",
+   "identity_count": 4
+  },
+  {
+   "code": "5141",
+   "title": "Hairdressers",
+   "sub_major": "51",
+   "minor": "514",
+   "identity_count": 6
+  },
+  {
+   "code": "5142",
+   "title": "Beauticians and related workers",
+   "sub_major": "51",
+   "minor": "514",
+   "identity_count": 10
+  },
+  {
+   "code": "5151",
+   "title": "Cleaning and housekeeping supervisors in offices, hotels and other establishments",
+   "sub_major": "51",
+   "minor": "515",
+   "identity_count": 4
+  },
+  {
+   "code": "5152",
+   "title": "Domestic housekeepers",
+   "sub_major": "51",
+   "minor": "515",
+   "identity_count": 1
+  },
+  {
+   "code": "5153",
+   "title": "Building caretakers",
+   "sub_major": "51",
+   "minor": "515",
+   "identity_count": 4
+  },
+  {
+   "code": "5161",
+   "title": "Astrologers, fortune-tellers and related workers",
+   "sub_major": "51",
+   "minor": "516",
+   "identity_count": 5
+  },
+  {
+   "code": "5162",
+   "title": "Companions and valets",
+   "sub_major": "51",
+   "minor": "516",
+   "identity_count": 5
+  },
+  {
+   "code": "5163",
+   "title": "Undertakers and embalmers",
+   "sub_major": "51",
+   "minor": "516",
+   "identity_count": 5
+  },
+  {
+   "code": "5164",
+   "title": "Pet groomers and animal care workers",
+   "sub_major": "51",
+   "minor": "516",
+   "identity_count": 4
+  },
+  {
+   "code": "5165",
+   "title": "Driving instructors",
+   "sub_major": "51",
+   "minor": "516",
+   "identity_count": 1
+  },
+  {
+   "code": "5169",
+   "title": "Personal services workers not elsewhere classified",
+   "sub_major": "51",
+   "minor": "516",
+   "identity_count": 9
+  },
+  {
+   "code": "5211",
+   "title": "Stall and market salespersons",
+   "sub_major": "52",
+   "minor": "521",
+   "identity_count": 6
+  },
+  {
+   "code": "5212",
+   "title": "Street food salespersons",
+   "sub_major": "52",
+   "minor": "521",
+   "identity_count": 7
+  },
+  {
+   "code": "5221",
+   "title": "Shop keepers",
+   "sub_major": "52",
+   "minor": "522",
+   "identity_count": 7
+  },
+  {
+   "code": "5222",
+   "title": "Shop supervisors",
+   "sub_major": "52",
+   "minor": "522",
+   "identity_count": 2
+  },
+  {
+   "code": "5223",
+   "title": "Shop sales assistants",
+   "sub_major": "52",
+   "minor": "522",
+   "identity_count": 3
+  },
+  {
+   "code": "5230",
+   "title": "Cashiers and ticket clerks",
+   "sub_major": "52",
+   "minor": "523",
+   "identity_count": 5
+  },
+  {
+   "code": "5241",
+   "title": "Fashion and other models",
+   "sub_major": "52",
+   "minor": "524",
+   "identity_count": 4
+  },
+  {
+   "code": "5242",
+   "title": "Sales demonstrators",
+   "sub_major": "52",
+   "minor": "524",
+   "identity_count": 5
+  },
+  {
+   "code": "5243",
+   "title": "Door to door salespersons",
+   "sub_major": "52",
+   "minor": "524",
+   "identity_count": 2
+  },
+  {
+   "code": "5244",
+   "title": "Contact centre salespersons",
+   "sub_major": "52",
+   "minor": "524",
+   "identity_count": 3
+  },
+  {
+   "code": "5245",
+   "title": "Service station attendants",
+   "sub_major": "52",
+   "minor": "524",
+   "identity_count": 3
+  },
+  {
+   "code": "5246",
+   "title": "Food service counter attendants",
+   "sub_major": "52",
+   "minor": "524",
+   "identity_count": 3
+  },
+  {
+   "code": "5249",
+   "title": "Sales workers not elsewhere classified",
+   "sub_major": "52",
+   "minor": "524",
+   "identity_count": 5
+  },
+  {
+   "code": "5311",
+   "title": "Child care workers",
+   "sub_major": "53",
+   "minor": "531",
+   "identity_count": 5
+  },
+  {
+   "code": "5312",
+   "title": "Teachers' aides",
+   "sub_major": "53",
+   "minor": "531",
+   "identity_count": 2
+  },
+  {
+   "code": "5321",
+   "title": "Health care assistants",
+   "sub_major": "53",
+   "minor": "532",
+   "identity_count": 3
+  },
+  {
+   "code": "5322",
+   "title": "Home-based personal care workers",
+   "sub_major": "53",
+   "minor": "532",
+   "identity_count": 4
+  },
+  {
+   "code": "5329",
+   "title": "Personal care workers in health services not elsewhere classified",
+   "sub_major": "53",
+   "minor": "532",
+   "identity_count": 5
+  },
+  {
+   "code": "5411",
+   "title": "Firefighters",
+   "sub_major": "54",
+   "minor": "541",
+   "identity_count": 3
+  },
+  {
+   "code": "5412",
+   "title": "Police officers",
+   "sub_major": "54",
+   "minor": "541",
+   "identity_count": 7
+  },
+  {
+   "code": "5413",
+   "title": "Prison guards",
+   "sub_major": "54",
+   "minor": "541",
+   "identity_count": 2
+  },
+  {
+   "code": "5414",
+   "title": "Security guards",
+   "sub_major": "54",
+   "minor": "541",
+   "identity_count": 7
+  },
+  {
+   "code": "5419",
+   "title": "Protective services workers not elsewhere classified",
+   "sub_major": "54",
+   "minor": "541",
+   "identity_count": 9
+  },
+  {
+   "code": "6111",
+   "title": "Field crop and vegetable growers",
+   "sub_major": "61",
+   "minor": "611",
+   "identity_count": 16
+  },
+  {
+   "code": "6112",
+   "title": "Tree and shrub crop growers",
+   "sub_major": "61",
+   "minor": "611",
+   "identity_count": 8
+  },
+  {
+   "code": "6113",
+   "title": "Gardeners, horticultural and nursery growers",
+   "sub_major": "61",
+   "minor": "611",
+   "identity_count": 8
+  },
+  {
+   "code": "6114",
+   "title": "Mixed crop growers",
+   "sub_major": "61",
+   "minor": "611",
+   "identity_count": 1
+  },
+  {
+   "code": "6121",
+   "title": "Livestock and dairy producers",
+   "sub_major": "61",
+   "minor": "612",
+   "identity_count": 8
+  },
+  {
+   "code": "6122",
+   "title": "Poultry producers",
+   "sub_major": "61",
+   "minor": "612",
+   "identity_count": 5
+  },
+  {
+   "code": "6123",
+   "title": "Apiarists and sericulturists",
+   "sub_major": "61",
+   "minor": "612",
+   "identity_count": 2
+  },
+  {
+   "code": "6129",
+   "title": "Animal producers not elsewhere classified",
+   "sub_major": "61",
+   "minor": "612",
+   "identity_count": 7
+  },
+  {
+   "code": "6130",
+   "title": "Mixed crop and animal producers",
+   "sub_major": "61",
+   "minor": "613",
+   "identity_count": 2
+  },
+  {
+   "code": "6210",
+   "title": "Forestry and related workers",
+   "sub_major": "62",
+   "minor": "621",
+   "identity_count": 8
+  },
+  {
+   "code": "6221",
+   "title": "Aquaculture workers",
+   "sub_major": "62",
+   "minor": "622",
+   "identity_count": 5
+  },
+  {
+   "code": "6222",
+   "title": "Inland and coastal waters fishery workers",
+   "sub_major": "62",
+   "minor": "622",
+   "identity_count": 4
+  },
+  {
+   "code": "6223",
+   "title": "Deep-sea fishery workers",
+   "sub_major": "62",
+   "minor": "622",
+   "identity_count": 3
+  },
+  {
+   "code": "6224",
+   "title": "Hunters and trappers",
+   "sub_major": "62",
+   "minor": "622",
+   "identity_count": 4
+  },
+  {
+   "code": "6310",
+   "title": "Subsistence crop farmers",
+   "sub_major": "63",
+   "minor": "631",
+   "identity_count": 1
+  },
+  {
+   "code": "6320",
+   "title": "Subsistence livestock farmers",
+   "sub_major": "63",
+   "minor": "632",
+   "identity_count": 1
+  },
+  {
+   "code": "6330",
+   "title": "Subsistence mixed crop and livestock farmers",
+   "sub_major": "63",
+   "minor": "633",
+   "identity_count": 1
+  },
+  {
+   "code": "6340",
+   "title": "Subsistence fishers, hunters, trappers and gatherers",
+   "sub_major": "63",
+   "minor": "634",
+   "identity_count": 2
+  },
+  {
+   "code": "7111",
+   "title": "House builders",
+   "sub_major": "71",
+   "minor": "711",
+   "identity_count": 5
+  },
+  {
+   "code": "7112",
+   "title": "Bricklayers and related workers",
+   "sub_major": "71",
+   "minor": "711",
+   "identity_count": 2
+  },
+  {
+   "code": "7113",
+   "title": "Stonemasons, stone cutters, splitters and carvers",
+   "sub_major": "71",
+   "minor": "711",
+   "identity_count": 5
+  },
+  {
+   "code": "7114",
+   "title": "Concrete placers, concrete finishers and related workers",
+   "sub_major": "71",
+   "minor": "711",
+   "identity_count": 4
+  },
+  {
+   "code": "7115",
+   "title": "Carpenters and joiners",
+   "sub_major": "71",
+   "minor": "711",
+   "identity_count": 6
+  },
+  {
+   "code": "7119",
+   "title": "Building frame and related trades workers not elsewhere classified",
+   "sub_major": "71",
+   "minor": "711",
+   "identity_count": 7
+  },
+  {
+   "code": "7121",
+   "title": "Roofers",
+   "sub_major": "71",
+   "minor": "712",
+   "identity_count": 1
+  },
+  {
+   "code": "7122",
+   "title": "Floor layers and tile setters",
+   "sub_major": "71",
+   "minor": "712",
+   "identity_count": 3
+  },
+  {
+   "code": "7123",
+   "title": "Plasterers",
+   "sub_major": "71",
+   "minor": "712",
+   "identity_count": 3
+  },
+  {
+   "code": "7124",
+   "title": "Insulation workers",
+   "sub_major": "71",
+   "minor": "712",
+   "identity_count": 1
+  },
+  {
+   "code": "7125",
+   "title": "Glaziers",
+   "sub_major": "71",
+   "minor": "712",
+   "identity_count": 2
+  },
+  {
+   "code": "7126",
+   "title": "Plumbers and pipe fitters",
+   "sub_major": "71",
+   "minor": "712",
+   "identity_count": 4
+  },
+  {
+   "code": "7127",
+   "title": "Air conditioning and refrigeration mechanics",
+   "sub_major": "71",
+   "minor": "712",
+   "identity_count": 3
+  },
+  {
+   "code": "7131",
+   "title": "Painters and related workers",
+   "sub_major": "71",
+   "minor": "713",
+   "identity_count": 4
+  },
+  {
+   "code": "7132",
+   "title": "Spray painters and varnishers",
+   "sub_major": "71",
+   "minor": "713",
+   "identity_count": 4
+  },
+  {
+   "code": "7133",
+   "title": "Building structure cleaners",
+   "sub_major": "71",
+   "minor": "713",
+   "identity_count": 2
+  },
+  {
+   "code": "7211",
+   "title": "Metal moulders and coremakers",
+   "sub_major": "72",
+   "minor": "721",
+   "identity_count": 1
+  },
+  {
+   "code": "7212",
+   "title": "Welders and flame cutters",
+   "sub_major": "72",
+   "minor": "721",
+   "identity_count": 4
+  },
+  {
+   "code": "7213",
+   "title": "Sheet-metal workers",
+   "sub_major": "72",
+   "minor": "721",
+   "identity_count": 4
+  },
+  {
+   "code": "7214",
+   "title": "Structural-metal preparers and erectors",
+   "sub_major": "72",
+   "minor": "721",
+   "identity_count": 2
+  },
+  {
+   "code": "7215",
+   "title": "Riggers and cable splicers",
+   "sub_major": "72",
+   "minor": "721",
+   "identity_count": 4
+  },
+  {
+   "code": "7221",
+   "title": "Blacksmiths, hammersmiths and forging press workers",
+   "sub_major": "72",
+   "minor": "722",
+   "identity_count": 2
+  },
+  {
+   "code": "7222",
+   "title": "Toolmakers and related workers",
+   "sub_major": "72",
+   "minor": "722",
+   "identity_count": 4
+  },
+  {
+   "code": "7223",
+   "title": "Metal working machine tool setters and operators",
+   "sub_major": "72",
+   "minor": "722",
+   "identity_count": 5
+  },
+  {
+   "code": "7224",
+   "title": "Metal polishers, wheel grinders and tool sharpeners",
+   "sub_major": "72",
+   "minor": "722",
+   "identity_count": 2
+  },
+  {
+   "code": "7231",
+   "title": "Motor vehicle mechanics and repairers",
+   "sub_major": "72",
+   "minor": "723",
+   "identity_count": 11
+  },
+  {
+   "code": "7232",
+   "title": "Aircraft engine mechanics and repairers",
+   "sub_major": "72",
+   "minor": "723",
+   "identity_count": 4
+  },
+  {
+   "code": "7233",
+   "title": "Agricultural and industrial machinery mechanics and repairers",
+   "sub_major": "72",
+   "minor": "723",
+   "identity_count": 9
+  },
+  {
+   "code": "7234",
+   "title": "Bicycle and related repairers",
+   "sub_major": "72",
+   "minor": "723",
+   "identity_count": 3
+  },
+  {
+   "code": "7311",
+   "title": "Precision-instrument makers and repairers",
+   "sub_major": "73",
+   "minor": "731",
+   "identity_count": 5
+  },
+  {
+   "code": "7312",
+   "title": "Musical instrument makers and tuners",
+   "sub_major": "73",
+   "minor": "731",
+   "identity_count": 2
+  },
+  {
+   "code": "7313",
+   "title": "Jewellery and precious-metal workers",
+   "sub_major": "73",
+   "minor": "731",
+   "identity_count": 4
+  },
+  {
+   "code": "7314",
+   "title": "Potters and related workers",
+   "sub_major": "73",
+   "minor": "731",
+   "identity_count": 1
+  },
+  {
+   "code": "7315",
+   "title": "Glass makers, cutters, grinders and finishers",
+   "sub_major": "73",
+   "minor": "731",
+   "identity_count": 1
+  },
+  {
+   "code": "7316",
+   "title": "Sign writers, decorative painters, engravers and etchers",
+   "sub_major": "73",
+   "minor": "731",
+   "identity_count": 6
+  },
+  {
+   "code": "7317",
+   "title": "Handicraft workers in wood, basketry and related materials",
+   "sub_major": "73",
+   "minor": "731",
+   "identity_count": 7
+  },
+  {
+   "code": "7318",
+   "title": "Handicraft workers in textile, leather and related materials",
+   "sub_major": "73",
+   "minor": "731",
+   "identity_count": 8
+  },
+  {
+   "code": "7319",
+   "title": "Handicraft workers not elsewhere classified",
+   "sub_major": "73",
+   "minor": "731",
+   "identity_count": 7
+  },
+  {
+   "code": "7321",
+   "title": "Pre-press technicians",
+   "sub_major": "73",
+   "minor": "732",
+   "identity_count": 4
+  },
+  {
+   "code": "7322",
+   "title": "Printers",
+   "sub_major": "73",
+   "minor": "732",
+   "identity_count": 7
+  },
+  {
+   "code": "7323",
+   "title": "Print finishing and binding workers",
+   "sub_major": "73",
+   "minor": "732",
+   "identity_count": 4
+  },
+  {
+   "code": "7411",
+   "title": "Building and related electricians",
+   "sub_major": "74",
+   "minor": "741",
+   "identity_count": 4
+  },
+  {
+   "code": "7412",
+   "title": "Electrical mechanics and fitters",
+   "sub_major": "74",
+   "minor": "741",
+   "identity_count": 5
+  },
+  {
+   "code": "7413",
+   "title": "Electrical line installers and repairers",
+   "sub_major": "74",
+   "minor": "741",
+   "identity_count": 3
+  },
+  {
+   "code": "7421",
+   "title": "Electronics mechanics and servicers",
+   "sub_major": "74",
+   "minor": "742",
+   "identity_count": 8
+  },
+  {
+   "code": "7422",
+   "title": "Information and communications technology installers and servicers",
+   "sub_major": "74",
+   "minor": "742",
+   "identity_count": 6
+  },
+  {
+   "code": "7511",
+   "title": "Butchers, fishmongers and related food preparers",
+   "sub_major": "75",
+   "minor": "751",
+   "identity_count": 6
+  },
+  {
+   "code": "7512",
+   "title": "Bakers, pastry-cooks and confectionery makers",
+   "sub_major": "75",
+   "minor": "751",
+   "identity_count": 7
+  },
+  {
+   "code": "7513",
+   "title": "Dairy-products makers",
+   "sub_major": "75",
+   "minor": "751",
+   "identity_count": 2
+  },
+  {
+   "code": "7514",
+   "title": "Fruit, vegetable and related preservers",
+   "sub_major": "75",
+   "minor": "751",
+   "identity_count": 7
+  },
+  {
+   "code": "7515",
+   "title": "Food and beverage tasters and graders",
+   "sub_major": "75",
+   "minor": "751",
+   "identity_count": 6
+  },
+  {
+   "code": "7516",
+   "title": "Tobacco preparers and tobacco products makers",
+   "sub_major": "75",
+   "minor": "751",
+   "identity_count": 1
+  },
+  {
+   "code": "7521",
+   "title": "Wood treaters",
+   "sub_major": "75",
+   "minor": "752",
+   "identity_count": 1
+  },
+  {
+   "code": "7522",
+   "title": "Cabinet-makers and related workers",
+   "sub_major": "75",
+   "minor": "752",
+   "identity_count": 5
+  },
+  {
+   "code": "7523",
+   "title": "Woodworking-machine tool setters and operators",
+   "sub_major": "75",
+   "minor": "752",
+   "identity_count": 1
+  },
+  {
+   "code": "7531",
+   "title": "Tailors, dressmakers, furriers and hatters",
+   "sub_major": "75",
+   "minor": "753",
+   "identity_count": 8
+  },
+  {
+   "code": "7532",
+   "title": "Garment and related patternmakers and cutters",
+   "sub_major": "75",
+   "minor": "753",
+   "identity_count": 4
+  },
+  {
+   "code": "7533",
+   "title": "Sewing, embroidery and related workers",
+   "sub_major": "75",
+   "minor": "753",
+   "identity_count": 5
+  },
+  {
+   "code": "7534",
+   "title": "Upholsterers and related workers",
+   "sub_major": "75",
+   "minor": "753",
+   "identity_count": 1
+  },
+  {
+   "code": "7535",
+   "title": "Pelt dressers, tanners and fellmongers",
+   "sub_major": "75",
+   "minor": "753",
+   "identity_count": 2
+  },
+  {
+   "code": "7536",
+   "title": "Shoemakers and related workers",
+   "sub_major": "75",
+   "minor": "753",
+   "identity_count": 4
+  },
+  {
+   "code": "7541",
+   "title": "Underwater divers",
+   "sub_major": "75",
+   "minor": "754",
+   "identity_count": 2
+  },
+  {
+   "code": "7542",
+   "title": "Shotfirers and blasters",
+   "sub_major": "75",
+   "minor": "754",
+   "identity_count": 1
+  },
+  {
+   "code": "7543",
+   "title": "Product graders and testers (excluding foods and beverages)",
+   "sub_major": "75",
+   "minor": "754",
+   "identity_count": 3
+  },
+  {
+   "code": "7544",
+   "title": "Fumigators and other pest and weed controllers",
+   "sub_major": "75",
+   "minor": "754",
+   "identity_count": 3
+  },
+  {
+   "code": "7549",
+   "title": "Craft and related workers not elsewhere classified",
+   "sub_major": "75",
+   "minor": "754",
+   "identity_count": 2
+  },
+  {
+   "code": "8111",
+   "title": "Miners and quarriers",
+   "sub_major": "81",
+   "minor": "811",
+   "identity_count": 5
+  },
+  {
+   "code": "8112",
+   "title": "Mineral and stone processing plant operators",
+   "sub_major": "81",
+   "minor": "811",
+   "identity_count": 2
+  },
+  {
+   "code": "8113",
+   "title": "Well drillers and borers and related workers",
+   "sub_major": "81",
+   "minor": "811",
+   "identity_count": 5
+  },
+  {
+   "code": "8114",
+   "title": "Cement, stone and other mineral products machine operators",
+   "sub_major": "81",
+   "minor": "811",
+   "identity_count": 2
+  },
+  {
+   "code": "8121",
+   "title": "Metal processing plant operators",
+   "sub_major": "81",
+   "minor": "812",
+   "identity_count": 2
+  },
+  {
+   "code": "8122",
+   "title": "Metal finishing, plating and coating machine operators",
+   "sub_major": "81",
+   "minor": "812",
+   "identity_count": 2
+  },
+  {
+   "code": "8131",
+   "title": "Chemical products plant and machine operators",
+   "sub_major": "81",
+   "minor": "813",
+   "identity_count": 2
+  },
+  {
+   "code": "8132",
+   "title": "Photographic products machine operators",
+   "sub_major": "81",
+   "minor": "813",
+   "identity_count": 1
+  },
+  {
+   "code": "8141",
+   "title": "Rubber products machine operators",
+   "sub_major": "81",
+   "minor": "814",
+   "identity_count": 1
+  },
+  {
+   "code": "8142",
+   "title": "Plastic products machine operators",
+   "sub_major": "81",
+   "minor": "814",
+   "identity_count": 1
+  },
+  {
+   "code": "8143",
+   "title": "Paper products machine operators",
+   "sub_major": "81",
+   "minor": "814",
+   "identity_count": 1
+  },
+  {
+   "code": "8151",
+   "title": "Fibre preparing, spinning and winding machine operators",
+   "sub_major": "81",
+   "minor": "815",
+   "identity_count": 1
+  },
+  {
+   "code": "8152",
+   "title": "Weaving and knitting machine operators",
+   "sub_major": "81",
+   "minor": "815",
+   "identity_count": 2
+  },
+  {
+   "code": "8153",
+   "title": "Sewing machine operators",
+   "sub_major": "81",
+   "minor": "815",
+   "identity_count": 2
+  },
+  {
+   "code": "8154",
+   "title": "Bleaching, dyeing and fabric cleaning machine operators",
+   "sub_major": "81",
+   "minor": "815",
+   "identity_count": 1
+  },
+  {
+   "code": "8155",
+   "title": "Fur and leather preparing machine operators",
+   "sub_major": "81",
+   "minor": "815",
+   "identity_count": 1
+  },
+  {
+   "code": "8156",
+   "title": "Shoemaking and related machine operators",
+   "sub_major": "81",
+   "minor": "815",
+   "identity_count": 1
+  },
+  {
+   "code": "8157",
+   "title": "Laundry machine operators",
+   "sub_major": "81",
+   "minor": "815",
+   "identity_count": 2
+  },
+  {
+   "code": "8159",
+   "title": "Textile, fur and leather products machine operators not elsewhere classified",
+   "sub_major": "81",
+   "minor": "815",
+   "identity_count": 2
+  },
+  {
+   "code": "8160",
+   "title": "Food and related products machine operators",
+   "sub_major": "81",
+   "minor": "816",
+   "identity_count": 8
+  },
+  {
+   "code": "8171",
+   "title": "Pulp and papermaking plant operators",
+   "sub_major": "81",
+   "minor": "817",
+   "identity_count": 1
+  },
+  {
+   "code": "8172",
+   "title": "Wood processing plant operators",
+   "sub_major": "81",
+   "minor": "817",
+   "identity_count": 1
+  },
+  {
+   "code": "8181",
+   "title": "Glass and ceramics plant operators",
+   "sub_major": "81",
+   "minor": "818",
+   "identity_count": 2
+  },
+  {
+   "code": "8182",
+   "title": "Steam engine and boiler operators",
+   "sub_major": "81",
+   "minor": "818",
+   "identity_count": 2
+  },
+  {
+   "code": "8183",
+   "title": "Packing, bottling and labelling machine operators",
+   "sub_major": "81",
+   "minor": "818",
+   "identity_count": 5
+  },
+  {
+   "code": "8189",
+   "title": "Stationary plant and machine operators not elsewhere classified",
+   "sub_major": "81",
+   "minor": "818",
+   "identity_count": 5
+  },
+  {
+   "code": "8211",
+   "title": "Mechanical machinery assemblers",
+   "sub_major": "82",
+   "minor": "821",
+   "identity_count": 1
+  },
+  {
+   "code": "8212",
+   "title": "Electrical and electronic equipment assemblers",
+   "sub_major": "82",
+   "minor": "821",
+   "identity_count": 4
+  },
+  {
+   "code": "8219",
+   "title": "Assemblers not elsewhere classified",
+   "sub_major": "82",
+   "minor": "821",
+   "identity_count": 4
+  },
+  {
+   "code": "8311",
+   "title": "Locomotive engine drivers",
+   "sub_major": "83",
+   "minor": "831",
+   "identity_count": 3
+  },
+  {
+   "code": "8312",
+   "title": "Railway brake, signal and switch operators",
+   "sub_major": "83",
+   "minor": "831",
+   "identity_count": 2
+  },
+  {
+   "code": "8321",
+   "title": "Motorcycle drivers",
+   "sub_major": "83",
+   "minor": "832",
+   "identity_count": 4
+  },
+  {
+   "code": "8322",
+   "title": "Car, taxi and van drivers",
+   "sub_major": "83",
+   "minor": "832",
+   "identity_count": 8
+  },
+  {
+   "code": "8331",
+   "title": "Bus and tram drivers",
+   "sub_major": "83",
+   "minor": "833",
+   "identity_count": 4
+  },
+  {
+   "code": "8332",
+   "title": "Heavy truck and lorry drivers",
+   "sub_major": "83",
+   "minor": "833",
+   "identity_count": 6
+  },
+  {
+   "code": "8341",
+   "title": "Mobile farm and forestry plant operators",
+   "sub_major": "83",
+   "minor": "834",
+   "identity_count": 4
+  },
+  {
+   "code": "8342",
+   "title": "Earthmoving and related plant operators",
+   "sub_major": "83",
+   "minor": "834",
+   "identity_count": 6
+  },
+  {
+   "code": "8343",
+   "title": "Crane, hoist and related plant operators",
+   "sub_major": "83",
+   "minor": "834",
+   "identity_count": 5
+  },
+  {
+   "code": "8344",
+   "title": "Lifting truck operators",
+   "sub_major": "83",
+   "minor": "834",
+   "identity_count": 3
+  },
+  {
+   "code": "8350",
+   "title": "Ships' deck crews and related workers",
+   "sub_major": "83",
+   "minor": "835",
+   "identity_count": 7
+  },
+  {
+   "code": "9111",
+   "title": "Domestic cleaners and helpers",
+   "sub_major": "91",
+   "minor": "911",
+   "identity_count": 4
+  },
+  {
+   "code": "9112",
+   "title": "Cleaners and helpers in offices, hotels and other establishments",
+   "sub_major": "91",
+   "minor": "911",
+   "identity_count": 6
+  },
+  {
+   "code": "9121",
+   "title": "Hand launderers and pressers",
+   "sub_major": "91",
+   "minor": "912",
+   "identity_count": 4
+  },
+  {
+   "code": "9122",
+   "title": "Vehicle cleaners",
+   "sub_major": "91",
+   "minor": "912",
+   "identity_count": 2
+  },
+  {
+   "code": "9123",
+   "title": "Window cleaners",
+   "sub_major": "91",
+   "minor": "912",
+   "identity_count": 1
+  },
+  {
+   "code": "9129",
+   "title": "Other cleaning workers",
+   "sub_major": "91",
+   "minor": "912",
+   "identity_count": 6
+  },
+  {
+   "code": "9211",
+   "title": "Crop farm labourers",
+   "sub_major": "92",
+   "minor": "921",
+   "identity_count": 5
+  },
+  {
+   "code": "9212",
+   "title": "Livestock farm labourers",
+   "sub_major": "92",
+   "minor": "921",
+   "identity_count": 4
+  },
+  {
+   "code": "9213",
+   "title": "Mixed crop and livestock farm labourers",
+   "sub_major": "92",
+   "minor": "921",
+   "identity_count": 1
+  },
+  {
+   "code": "9214",
+   "title": "Garden and horticultural labourers",
+   "sub_major": "92",
+   "minor": "921",
+   "identity_count": 3
+  },
+  {
+   "code": "9215",
+   "title": "Forestry labourers",
+   "sub_major": "92",
+   "minor": "921",
+   "identity_count": 1
+  },
+  {
+   "code": "9216",
+   "title": "Fishery and aquaculture labourers",
+   "sub_major": "92",
+   "minor": "921",
+   "identity_count": 3
+  },
+  {
+   "code": "9311",
+   "title": "Mining and quarrying labourers",
+   "sub_major": "93",
+   "minor": "931",
+   "identity_count": 4
+  },
+  {
+   "code": "9312",
+   "title": "Civil engineering labourers",
+   "sub_major": "93",
+   "minor": "931",
+   "identity_count": 4
+  },
+  {
+   "code": "9313",
+   "title": "Building construction labourers",
+   "sub_major": "93",
+   "minor": "931",
+   "identity_count": 4
+  },
+  {
+   "code": "9321",
+   "title": "Hand packers",
+   "sub_major": "93",
+   "minor": "932",
+   "identity_count": 3
+  },
+  {
+   "code": "9329",
+   "title": "Manufacturing labourers not elsewhere classified",
+   "sub_major": "93",
+   "minor": "932",
+   "identity_count": 4
+  },
+  {
+   "code": "9331",
+   "title": "Hand and pedal vehicle drivers",
+   "sub_major": "93",
+   "minor": "933",
+   "identity_count": 4
+  },
+  {
+   "code": "9332",
+   "title": "Drivers of animal-drawn vehicles and machinery",
+   "sub_major": "93",
+   "minor": "933",
+   "identity_count": 1
+  },
+  {
+   "code": "9333",
+   "title": "Freight handlers",
+   "sub_major": "93",
+   "minor": "933",
+   "identity_count": 3
+  },
+  {
+   "code": "9334",
+   "title": "Shelf fillers",
+   "sub_major": "93",
+   "minor": "933",
+   "identity_count": 3
+  },
+  {
+   "code": "9411",
+   "title": "Fast food preparers",
+   "sub_major": "94",
+   "minor": "941",
+   "identity_count": 4
+  },
+  {
+   "code": "9412",
+   "title": "Kitchen helpers",
+   "sub_major": "94",
+   "minor": "941",
+   "identity_count": 5
+  },
+  {
+   "code": "9510",
+   "title": "Street and related service workers",
+   "sub_major": "95",
+   "minor": "951",
+   "identity_count": 6
+  },
+  {
+   "code": "9520",
+   "title": "Street vendors (excluding food)",
+   "sub_major": "95",
+   "minor": "952",
+   "identity_count": 7
+  },
+  {
+   "code": "9611",
+   "title": "Garbage and recycling collectors",
+   "sub_major": "96",
+   "minor": "961",
+   "identity_count": 5
+  },
+  {
+   "code": "9612",
+   "title": "Refuse sorters",
+   "sub_major": "96",
+   "minor": "961",
+   "identity_count": 3
+  },
+  {
+   "code": "9613",
+   "title": "Sweepers and related labourers",
+   "sub_major": "96",
+   "minor": "961",
+   "identity_count": 3
+  },
+  {
+   "code": "9621",
+   "title": "Messengers, package deliverers and luggage porters",
+   "sub_major": "96",
+   "minor": "962",
+   "identity_count": 5
+  },
+  {
+   "code": "9622",
+   "title": "Odd job persons",
+   "sub_major": "96",
+   "minor": "962",
+   "identity_count": 2
+  },
+  {
+   "code": "9623",
+   "title": "Meter readers and vending-machine collectors",
+   "sub_major": "96",
+   "minor": "962",
+   "identity_count": 4
+  },
+  {
+   "code": "9624",
+   "title": "Water and firewood collectors",
+   "sub_major": "96",
+   "minor": "962",
+   "identity_count": 2
+  },
+  {
+   "code": "9629",
+   "title": "Elementary workers not elsewhere classified",
+   "sub_major": "96",
+   "minor": "962",
+   "identity_count": 5
+  }
+ ]
+}

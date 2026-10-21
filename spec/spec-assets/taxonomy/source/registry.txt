@@ -1,0 +1,726 @@
+# Tool registry — lightweight entries for every tool referenced by a need.
+# slug | Display name | Publisher | official URL (- = to confirm) | primary category
+# All URLs: url_status "to_confirm" until the weekly link check passes. No pricing/platform claims are made in the registry.
+3d-slicer | 3D Slicer | Slicer community | https://www.slicer.org/ | research
+abaqus | Abaqus | Dassault Systèmes (SIMULIA) | https://www.3ds.com/products/simulia/abaqus | development
+ableton-live | Ableton Live | Ableton | https://www.ableton.com/ | audio
+activityinfo | ActivityInfo | BeDataDriven | https://www.activityinfo.org/ | data
+adobe-acrobat | Adobe Acrobat | Adobe | https://www.adobe.com/acrobat.html | productivity
+adobe-after-effects | Adobe After Effects | Adobe | https://www.adobe.com/products/aftereffects.html | video
+adobe-express | Adobe Express | Adobe | https://www.adobe.com/express/ | design
+adobe-illustrator | Adobe Illustrator | Adobe | https://www.adobe.com/products/illustrator.html | design
+adobe-lightroom | Adobe Lightroom | Adobe | https://www.adobe.com/products/photoshop-lightroom.html | design
+adobe-photoshop | Adobe Photoshop | Adobe | https://www.adobe.com/products/photoshop.html | design
+adobe-premiere-pro | Adobe Premiere Pro | Adobe | https://www.adobe.com/products/premiere.html | video
+adobe-scan | Adobe Scan | Adobe | https://www.adobe.com/acrobat/mobile/scanner-app.html | productivity
+affinity | Affinity (Designer, Photo, Publisher) | Serif / Canva | https://affinity.serif.com/ | design
+agisoft-metashape | Agisoft Metashape | Agisoft | https://www.agisoft.com/ | data
+agrivi | AGRIVI | AGRIVI | https://www.agrivi.com/ | industry
+agriwebb | AgriWebb | AgriWebb | https://www.agriwebb.com/ | industry
+aha | Aha! Roadmaps | Aha! Labs | https://www.aha.io/ | business-operations
+ahrefs | Ahrefs | Ahrefs | https://ahrefs.com/ | marketing
+airbnb | Airbnb (hosting) | Airbnb | https://www.airbnb.com/ | business-operations
+airtable | Airtable | Airtable | https://www.airtable.com/ | productivity
+alison | Alison | Alison | https://alison.com/ | education
+alteryx | Alteryx | Alteryx | https://www.alteryx.com/ | data
+amazon-kdp | Amazon Kindle Direct Publishing | Amazon | https://kdp.amazon.com/ | writing
+amazon-seller-central | Amazon Seller Central | Amazon | https://sellercentral.amazon.com/ | websites
+amplitude | Amplitude | Amplitude | https://amplitude.com/ | data
+anaplan | Anaplan | Anaplan | https://www.anaplan.com/ | business-operations
+android-studio | Android Studio | Google | https://developer.android.com/studio | development
+anki | Anki | Ankitects | https://apps.ankiweb.net/ | education
+ansys | Ansys | Ansys (Synopsys) | https://www.ansys.com/ | development
+anthropic-api | Claude API | Anthropic | https://docs.claude.com/ | development
+anydesk | AnyDesk | AnyDesk | https://anydesk.com/ | collaboration
+apache-airflow | Apache Airflow | Apache Software Foundation | https://airflow.apache.org/ | data
+apache-jmeter | Apache JMeter | Apache Software Foundation | https://jmeter.apache.org/ | development
+apache-superset | Apache Superset | Apache Software Foundation | https://superset.apache.org/ | data
+apicbase | Apicbase | Apicbase | https://get.apicbase.com/ | industry
+appfolio | AppFolio | AppFolio | https://www.appfolio.com/ | business-operations
+appium | Appium | OpenJS Foundation | https://appium.io/ | development
+apple-health | Apple Health | Apple | https://www.apple.com/health/ | everyday
+apple-keynote | Keynote | Apple | https://www.apple.com/keynote/ | productivity
+apple-screen-time | Screen Time | Apple | https://support.apple.com/ | everyday
+appsheet | AppSheet | Google | https://about.appsheet.com/ | automation
+arcgis-pro | ArcGIS Pro | Esri | https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview | data
+archicad | Archicad | Graphisoft | https://graphisoft.com/ | industry
+asana | Asana | Asana | https://asana.com/ | collaboration
+aspen-hysys | Aspen HYSYS | AspenTech | https://www.aspentech.com/ | industry
+aspen-plus | Aspen Plus | AspenTech | https://www.aspentech.com/ | industry
+atlas-ti | ATLAS.ti | ATLAS.ti | https://atlasti.com/ | research
+audacity | Audacity | Audacity / Muse Group | https://www.audacityteam.org/ | audio
+autocad | AutoCAD | Autodesk | https://www.autodesk.com/products/autocad/overview | industry
+autocad-electrical | AutoCAD Electrical | Autodesk | https://www.autodesk.com/ | industry
+autodesk-build | Autodesk Build | Autodesk | https://construction.autodesk.com/ | industry
+autodesk-inventor | Autodesk Inventor | Autodesk | https://www.autodesk.com/products/inventor/overview | industry
+autodesk-maya | Autodesk Maya | Autodesk | https://www.autodesk.com/products/maya/overview | design
+autopsy | Autopsy | Basis Technology / Sleuth Kit | https://www.autopsy.com/ | security-privacy-accessibility
+ava | Ava | Ava | https://www.ava.me/ | security-privacy-accessibility
+avogadro | Avogadro | Avogadro project | https://avogadro.cc/ | research
+aws | Amazon Web Services | Amazon | https://aws.amazon.com/ | development
+azure-devops | Azure DevOps | Microsoft | https://azure.microsoft.com/products/devops | development
+backstage | Backstage (casting) | Backstage | https://www.backstage.com/ | career
+bailii | BAILII | British and Irish Legal Information Institute | https://www.bailii.org/ | research
+bamboohr | BambooHR | BambooHR | https://www.bamboohr.com/ | business-operations
+bambu-studio | Bambu Studio | Bambu Lab | https://bambulab.com/ | industry
+be-my-eyes | Be My Eyes | Be My Eyes | https://www.bemyeyes.com/ | security-privacy-accessibility
+beehiiv | beehiiv | beehiiv | https://www.beehiiv.com/ | writing
+behance | Behance | Adobe | https://www.behance.net/ | design
+benchling | Benchling | Benchling | https://www.benchling.com/ | research
+bigquery | BigQuery | Google Cloud | https://cloud.google.com/bigquery | data
+biodigital-human | BioDigital Human | BioDigital | https://www.biodigital.com/ | education
+biorender | BioRender | BioRender | https://www.biorender.com/ | research
+bitbucket | Bitbucket | Atlassian | https://bitbucket.org/ | development
+bitwarden | Bitwarden | Bitwarden | https://bitwarden.com/ | security-privacy-accessibility
+bizagi-modeler | Bizagi Modeler | Bizagi | https://www.bizagi.com/ | business-operations
+blender | Blender | Blender Foundation | https://www.blender.org/ | design
+bloomberg-terminal | Bloomberg Terminal | Bloomberg | https://www.bloomberg.com/professional/ | data
+blue-letter-bible | Blue Letter Bible | Blue Letter Bible | https://www.blueletterbible.org/ | education
+bluebeam-revu | Bluebeam Revu | Bluebeam (Nemetschek) | https://www.bluebeam.com/ | industry
+bmj-best-practice | BMJ Best Practice | BMJ | https://bestpractice.bmj.com/ | research
+bmj-learning | BMJ Learning | BMJ | https://new-learning.bmj.com/ | education
+bnf | BNF (British National Formulary) | NICE / BMJ / RPS | https://bnf.nice.org.uk/ | research
+bokun | Bókun | Bókun (Tripadvisor) | https://www.bokun.io/ | business-operations
+bolt | Bolt (driver) | Bolt | https://bolt.eu/ | everyday
+booking-com | Booking.com (Partner Hub) | Booking.com | https://partner.booking.com/ | business-operations
+booksy | Booksy | Booksy | https://booksy.com/ | business-operations
+boxcast | BoxCast | BoxCast | https://www.boxcast.com/ | video
+breeze | Breeze ChMS | Breeze | https://www.breezechms.com/ | business-operations
+brevo | Brevo | Brevo | https://www.brevo.com/ | marketing
+bubble | Bubble | Bubble | https://bubble.io/ | development
+buffer | Buffer | Buffer | https://buffer.com/ | marketing
+buildium | Buildium | RealPage | https://www.buildium.com/ | business-operations
+burp-suite | Burp Suite | PortSwigger | https://portswigger.net/burp | security-privacy-accessibility
+busuu | Busuu | Busuu (Chegg) | https://www.busuu.com/ | education
+buzzsprout | Buzzsprout | Buzzsprout | https://www.buzzsprout.com/ | audio
+calculix | CalculiX | CalculiX project | http://www.calculix.de/ | development
+calendly | Calendly | Calendly | https://calendly.com/ | productivity
+calm | Calm | Calm | https://www.calm.com/ | everyday
+candid | Candid (Foundation Directory) | Candid | https://candid.org/ | business-operations
+canva | Canva | Canva | https://www.canva.com/ | design
+canvas-lms | Canvas LMS | Instructure | https://www.instructure.com/canvas | education
+capcut | CapCut | ByteDance | https://www.capcut.com/ | video
+capture-one | Capture One | Capture One | https://www.captureone.com/ | design
+carly | Carly | Carly | https://www.mycarly.com/ | industry
+caseware-idea | CaseWare IDEA | Caseware | https://www.caseware.com/ | data
+cattlemax | CattleMax | CattleMax | https://www.cattlemax.com/ | industry
+chatgpt | ChatGPT | OpenAI | https://chatgpt.com/ | ai-assistants
+chemcad | CHEMCAD | Chemstations | https://www.chemstations.com/ | industry
+chemdraw | ChemDraw | Revvity Signals | https://revvitysignals.com/products/research/chemdraw | research
+churchsuite | ChurchSuite | ChurchSuite | https://churchsuite.com/ | business-operations
+cinema-4d | Cinema 4D | Maxon | https://www.maxon.net/cinema-4d | design
+circuit | Circuit Route Planner | Circuit | https://getcircuit.com/ | business-operations
+cisco-packet-tracer | Cisco Packet Tracer | Cisco Networking Academy | https://www.netacad.com/ | development
+civil-3d | Civil 3D | Autodesk | https://www.autodesk.com/products/civil-3d/overview | industry
+ckan | CKAN | Open Knowledge Foundation | https://ckan.org/ | data
+claude | Claude | Anthropic | https://claude.ai/ | ai-assistants
+clickup | ClickUp | ClickUp | https://clickup.com/ | collaboration
+climate-fieldview | Climate FieldView | Bayer | https://climate.com/ | industry
+clio | Clio | Clio | https://www.clio.com/ | business-operations
+clip-studio-paint | Clip Studio Paint | Celsys | https://www.clipstudio.net/ | design
+clipchamp | Clipchamp | Microsoft | https://clipchamp.com/ | video
+clo-3d | CLO 3D | CLO Virtual Fashion | https://www.clo3d.com/ | design
+cloudbeds | Cloudbeds | Cloudbeds | https://www.cloudbeds.com/ | business-operations
+cloudflare | Cloudflare | Cloudflare | https://www.cloudflare.com/ | development
+cmg | CMG reservoir simulation | Computer Modelling Group | https://www.cmgl.ca/ | industry
+cochrane-library | Cochrane Library | Cochrane / Wiley | https://www.cochranelibrary.com/ | research
+codesys | CODESYS | CODESYS Group | https://www.codesys.com/ | industry
+complete-anatomy | Complete Anatomy | Elsevier (3D4Medical) | https://3d4medical.com/ | education
+comsol | COMSOL Multiphysics | COMSOL | https://www.comsol.com/ | development
+confluence | Confluence | Atlassian | https://www.atlassian.com/software/confluence | collaboration
+connected-papers | Connected Papers | Connected Papers | https://www.connectedpapers.com/ | research
+contra | Contra | Contra | https://contra.com/ | career
+costx | CostX | RIB Software | https://www.rib-software.com/en/rib-costx | industry
+coursera | Coursera | Coursera | https://www.coursera.org/ | education
+covetrus-pulse | Covetrus Pulse | Covetrus | https://covetrus.com/covetrus-platform/workflow-and-productivity-tools/covetrus-pulse/ | industry
+cozi | Cozi Family Organizer | Cozi | https://www.cozi.com/ | everyday
+crisp | Crisp | Crisp | https://crisp.chat/ | marketing
+cronometer | Cronometer | Cronometer | https://cronometer.com/ | everyday
+csi-safe | CSI SAFE | Computers and Structures, Inc. | https://www.csiamerica.com/ | industry
+cursor | Cursor | Anysphere | https://cursor.com/ | development
+curve-dental | Curve Dental | Curve Dental | https://www.curvedental.com/ | industry
+cutlist-optimizer | CutList Optimizer | CutList Optimizer | https://www.cutlistoptimizer.com/ | industry
+cypress | Cypress | Cypress.io | https://www.cypress.io/ | development
+d5-render | D5 Render | D5 | https://www.d5render.com/ | design
+dartfish | Dartfish | Dartfish | https://www.dartfish.com/ | everyday
+darktable | darktable | darktable project | https://www.darktable.org/ | design
+databricks | Databricks | Databricks | https://www.databricks.com/ | data
+datadog | Datadog | Datadog | https://www.datadoghq.com/ | development
+datamine | Datamine | Datamine | https://www.dataminesoftware.com/ | industry
+datawrapper | Datawrapper | Datawrapper | https://www.datawrapper.de/ | data
+davinci-resolve | DaVinci Resolve | Blackmagic Design | https://www.blackmagicdesign.com/products/davinciresolve | video
+dbeaver | DBeaver | DBeaver | https://dbeaver.io/ | data
+dbt | dbt | dbt Labs | https://www.getdbt.com/ | data
+decidim | Decidim | Decidim Association | https://decidim.org/ | collaboration
+deel | Deel | Deel | https://www.deel.com/ | business-operations
+deepl | DeepL | DeepL | https://www.deepl.com/ | writing
+dentrix | Dentrix | Henry Schein One | https://www.dentrix.com/ | industry
+deputy | Deputy | Deputy | https://www.deputy.com/ | business-operations
+descript | Descript | Descript | https://www.descript.com/ | audio
+deswik | Deswik | Deswik (Sandvik) | https://www.deswik.com/ | industry
+dhis2 | DHIS2 | University of Oslo HISP | https://dhis2.org/ | data
+dialux | DIALux | DIAL | https://www.dialux.com/ | industry
+docker | Docker | Docker | https://www.docker.com/ | development
+docusaurus | Docusaurus | Meta (open source) | https://docusaurus.io/ | development
+docusign | Docusign | Docusign | https://www.docusign.com/ | productivity
+donorbox | Donorbox | Donorbox | https://donorbox.org/ | business-operations
+dorico | Dorico | Steinberg | https://www.steinberg.net/dorico/ | audio
+dovetail | Dovetail | Dovetail | https://dovetail.com/ | research
+doxy-me | Doxy.me | Doxy.me | https://doxy.me/ | collaboration
+draftsight | DraftSight | Dassault Systèmes | https://www.draftsight.com/ | industry
+draw-io | draw.io (diagrams.net) | JGraph | https://www.drawio.com/ | productivity
+drawboard-pdf | Drawboard PDF | Drawboard | https://www.drawboard.com/ | productivity
+dropbox | Dropbox | Dropbox | https://www.dropbox.com/ | productivity
+drugs-com | Drugs.com | Drugs.com | https://www.drugs.com/ | research
+duolingo | Duolingo | Duolingo | https://www.duolingo.com/ | education
+dwsim | DWSIM | DWSIM project | https://dwsim.org/ | industry
+easyship | Easyship | Easyship | https://www.easyship.com/ | business-operations
+easyworship | EasyWorship | Softouch Development | https://www.easyworship.com/ | business-operations
+ebay | eBay (selling) | eBay | https://www.ebay.com/ | websites
+ebird | eBird | Cornell Lab of Ornithology | https://ebird.org/ | research
+eclipse | ECLIPSE reservoir simulator | SLB | https://www.slb.com/ | industry
+edx | edX | 2U | https://www.edx.org/ | education
+elabftw | eLabFTW | Deltablot | https://www.elabftw.net/ | research
+elastic | Elastic Security | Elastic | https://www.elastic.co/security | security-privacy-accessibility
+enscape | Enscape | Chaos | https://www.chaos.com/enscape | design
+eos-crop-monitoring | EOS Crop Monitoring | EOS Data Analytics | https://eos.com/products/crop-monitoring/ | industry
+epa-swmm | EPA SWMM | US Environmental Protection Agency | https://www.epa.gov/water-research/storm-water-management-model-swmm | industry
+epanet | EPANET | US Environmental Protection Agency | https://www.epa.gov/water-research/epanet | industry
+epi-info | Epi Info | US CDC | https://www.cdc.gov/epiinfo/ | data
+epic | Epic | Epic Systems | https://www.epic.com/ | industry
+eplan | EPLAN | EPLAN | https://www.eplan.com/ | industry
+epocrates | Epocrates | Epocrates | https://www.epocrates.com/ | research
+erpnext | ERPNext | Frappe | https://erpnext.com/ | business-operations
+esoko | Esoko | Esoko | https://esoko.com/ | industry
+etabs | ETABS | Computers and Structures, Inc. | https://www.csiamerica.com/products/etabs | industry
+etap | ETAP | ETAP (Schneider Electric) | https://etap.com/ | industry
+etsy | Etsy (selling) | Etsy | https://www.etsy.com/sell | websites
+eventbrite | Eventbrite | Eventbrite | https://www.eventbrite.com/ | marketing
+everbridge | Everbridge | Everbridge | https://www.everbridge.com/ | collaboration
+everfit | Everfit | Everfit | https://everfit.io/ | education
+everlaw | Everlaw | Everlaw | https://www.everlaw.com/ | business-operations
+excalidraw | Excalidraw | Excalidraw | https://excalidraw.com/ | productivity
+expo | Expo | Expo | https://expo.dev/ | development
+ezyvet | ezyVet | IDEXX | https://www.ezyvet.com/ | industry
+facebook-marketplace | Facebook Marketplace | Meta | https://www.facebook.com/marketplace/ | websites
+fareharbor | FareHarbor | FareHarbor (Booking Holdings) | https://fareharbor.com/ | business-operations
+farmbrite | Farmbrite | Farmbrite | https://www.farmbrite.com/ | industry
+fieldwire | Fieldwire | Fieldwire (Hilti) | https://www.fieldwire.com/ | industry
+figma | Figma | Figma | https://www.figma.com/ | design
+figshare | Figshare | Digital Science | https://figshare.com/ | research
+fiix | Fiix | Rockwell Automation | https://fiixsoftware.com/ | industry
+final-cut-pro | Final Cut Pro | Apple | https://www.apple.com/final-cut-pro/ | video
+findhelp | findhelp | findhelp | https://www.findhelp.org/ | everyday
+firefox | Firefox | Mozilla | https://www.mozilla.org/firefox/ | productivity
+fiverr | Fiverr | Fiverr | https://www.fiverr.com/ | career
+fl-studio | FL Studio | Image-Line | https://www.image-line.com/ | audio
+flightradar24 | Flightradar24 | Flightradar24 | https://www.flightradar24.com/ | everyday
+flourish | Flourish | Canva | https://flourish.studio/ | data
+flutter | Flutter | Google | https://flutter.dev/ | development
+flutterwave | Flutterwave | Flutterwave | https://flutterwave.com/ | business-operations
+foreflight | ForeFlight | Boeing | https://foreflight.com/ | industry
+framer | Framer | Framer | https://www.framer.com/ | websites
+freecad | FreeCAD | FreeCAD project | https://www.freecad.org/ | industry
+freecodecamp | freeCodeCamp | freeCodeCamp | https://www.freecodecamp.org/ | development
+freeshow | FreeShow | ChurchApps | https://freeshow.app/ | business-operations
+freightos | Freightos | Freightos | https://www.freightos.com/ | business-operations
+fresha | Fresha | Fresha | https://www.fresha.com/ | business-operations
+freshdesk | Freshdesk | Freshworks | https://www.freshworks.com/freshdesk/ | marketing
+freshservice | Freshservice | Freshworks | https://www.freshworks.com/freshservice/ | development
+ftk-imager | FTK Imager | Exterro | https://www.exterro.com/ | security-privacy-accessibility
+fundsforngos | FundsforNGOs | FundsforNGOs | https://www.fundsforngos.org/ | business-operations
+fusion-360 | Fusion | Autodesk | https://www.autodesk.com/products/fusion-360/overview | industry
+ganttproject | GanttProject | GanttProject | https://www.ganttproject.biz/ | business-operations
+garageband | GarageBand | Apple | https://www.apple.com/mac/garageband/ | audio
+garmin-connect | Garmin Connect | Garmin | https://connect.garmin.com/ | everyday
+garmin-pilot | Garmin Pilot | Garmin | https://www.garmin.com/ | industry
+gatling | Gatling | Gatling | https://gatling.io/ | development
+gcfglobal | GCFGlobal (GCFLearnFree) | Goodwill Community Foundation | https://edu.gcfglobal.org/ | education
+gemini | Gemini | Google | https://gemini.google.com/ | ai-assistants
+geostudio | GeoStudio | Seequent (Bentley) | https://www.seequent.com/ | industry
+getyourguide | GetYourGuide (suppliers) | GetYourGuide | https://supply.getyourguide.com/ | business-operations
+ghost | Ghost | Ghost Foundation | https://ghost.org/ | writing
+gimp | GIMP | GIMP project | https://www.gimp.org/ | design
+git | Git | Git project | https://git-scm.com/ | development
+gitbook | GitBook | GitBook | https://www.gitbook.com/ | writing
+github | GitHub | GitHub (Microsoft) | https://github.com/ | development
+github-actions | GitHub Actions | GitHub | https://github.com/features/actions | development
+github-copilot | GitHub Copilot | GitHub | https://github.com/features/copilot | ai-assistants
+gitlab | GitLab | GitLab | https://about.gitlab.com/ | development
+glassdoor | Glassdoor | Glassdoor | https://www.glassdoor.com/ | career
+glide | Glide | Glide | https://www.glideapps.com/ | automation
+global-forest-watch | Global Forest Watch | World Resources Institute | https://www.globalforestwatch.org/ | research
+glofox | Glofox | ABC Glofox | https://www.glofox.com/ | business-operations
+glpi | GLPI | Teclib' | https://glpi-project.org/ | development
+gmail | Gmail | Google | https://mail.google.com/ | productivity
+gns3 | GNS3 | GNS3 | https://www.gns3.com/ | development
+godot | Godot Engine | Godot Foundation | https://godotengine.org/ | development
+gofundme | GoFundMe | GoFundMe | https://www.gofundme.com/ | business-operations
+google-ads | Google Ads | Google | https://ads.google.com/ | marketing
+google-alerts | Google Alerts | Google | https://www.google.com/alerts | marketing
+google-analytics | Google Analytics | Google | https://marketingplatform.google.com/about/analytics/ | marketing
+google-apps-script | Google Apps Script | Google | https://developers.google.com/apps-script | automation
+google-authenticator | Google Authenticator | Google | https://support.google.com/accounts/answer/1066447 | security-privacy-accessibility
+google-business-profile | Google Business Profile | Google | https://www.google.com/business/ | marketing
+google-calendar | Google Calendar | Google | https://calendar.google.com/ | productivity
+google-chrome | Google Chrome | Google | https://www.google.com/chrome/ | productivity
+google-classroom | Google Classroom | Google | https://edu.google.com/workspace-for-education/classroom/ | education
+google-cloud | Google Cloud | Google | https://cloud.google.com/ | development
+google-colab | Google Colab | Google | https://colab.research.google.com/ | data
+google-docs | Google Docs | Google | https://docs.google.com/ | productivity
+google-drive | Google Drive | Google | https://drive.google.com/ | productivity
+google-earth-engine | Google Earth Engine | Google | https://earthengine.google.com/ | data
+google-earth-pro | Google Earth Pro | Google | https://www.google.com/earth/ | data
+google-fact-check-explorer | Google Fact Check Explorer | Google | https://toolbox.google.com/factcheck/explorer | research
+google-family-link | Google Family Link | Google | https://families.google/familylink/ | everyday
+google-forms | Google Forms | Google | https://forms.google.com/ | productivity
+google-keep | Google Keep | Google | https://keep.google.com/ | productivity
+google-lens | Google Lens | Google | https://lens.google/ | everyday
+google-live-transcribe | Live Transcribe | Google | https://www.android.com/accessibility/audio/ | security-privacy-accessibility
+google-maps | Google Maps | Google | https://maps.google.com/ | everyday
+google-meet | Google Meet | Google | https://meet.google.com/ | collaboration
+google-scholar | Google Scholar | Google | https://scholar.google.com/ | research
+google-search | Google Search | Google | https://www.google.com/ | research
+google-search-console | Google Search Console | Google | https://search.google.com/search-console | marketing
+google-sheets | Google Sheets | Google | https://sheets.google.com/ | productivity
+google-sites | Google Sites | Google | https://sites.google.com/ | websites
+google-slides | Google Slides | Google | https://slides.google.com/ | productivity
+google-translate | Google Translate | Google | https://translate.google.com/ | writing
+google-trends | Google Trends | Google | https://trends.google.com/ | marketing
+gradescope | Gradescope | Turnitin | https://www.gradescope.com/ | education
+grafana | Grafana | Grafana Labs | https://grafana.com/ | development
+grammarly | Grammarly | Grammarly (Superhuman) | https://www.grammarly.com/ | writing
+graphpad-prism | GraphPad Prism | GraphPad (Dotmatics) | https://www.graphpad.com/ | research
+gumroad | Gumroad | Gumroad | https://gumroad.com/ | marketing
+gusto | Gusto | Gusto | https://gusto.com/ | business-operations
+have-i-been-pwned | Have I Been Pwned | Troy Hunt | https://haveibeenpwned.com/ | security-privacy-accessibility
+headspace | Headspace | Headspace | https://www.headspace.com/ | everyday
+hec-ras | HEC-RAS | US Army Corps of Engineers | https://www.hec.usace.army.mil/software/hec-ras/ | industry
+heja | Heja | Heja | https://heja.io/ | everyday
+hemingway-editor | Hemingway Editor | Hemingway | https://hemingwayapp.com/ | writing
+herdwatch | Herdwatch | Herdwatch | https://herdwatch.com/ | industry
+homer-pro | HOMER Pro | UL Solutions | https://homerenergy.com/ | industry
+homestyler | Homestyler | Homestyler | https://www.homestyler.com/ | design
+hootsuite | Hootsuite | Hootsuite | https://www.hootsuite.com/ | marketing
+horos | Horos | Horos Project | https://horosproject.org/ | research
+hubspot | HubSpot | HubSpot | https://www.hubspot.com/ | marketing
+hudl | Hudl | Hudl | https://www.hudl.com/ | everyday
+hugging-face | Hugging Face | Hugging Face | https://huggingface.co/ | ai-assistants
+ibm-maximo | IBM Maximo | IBM | https://www.ibm.com/products/maximo | industry
+idealist | Idealist | Idealist | https://www.idealist.org/ | career
+ifixit | iFixit | iFixit | https://www.ifixit.com/ | everyday
+ilovepdf | iLovePDF | iLovePDF | https://www.ilovepdf.com/ | productivity
+inaturalist | iNaturalist | iNaturalist | https://www.inaturalist.org/ | research
+indeed | Indeed | Indeed | https://www.indeed.com/ | career
+infoworks-icm | InfoWorks ICM | Autodesk | https://www.autodesk.com/ | industry
+inkscape | Inkscape | Inkscape project | https://inkscape.org/ | design
+insight-timer | Insight Timer | Insight Network | https://insighttimer.com/ | everyday
+insomnia | Insomnia | Kong | https://insomnia.rest/ | development
+instagram | Instagram | Meta | https://www.instagram.com/ | marketing
+interactive-petrophysics | Interactive Petrophysics (IP) | Geoactive | https://www.geoactive.com/interactive-petrophysics | industry
+intervals-icu | Intervals.icu | Intervals.icu | https://intervals.icu/ | everyday
+invid-wevrify | InVID-WeVerify plugin | WeVerify consortium | https://www.invid-project.eu/ | research
+invoice-ninja | Invoice Ninja | Invoice Ninja | https://invoiceninja.com/ | business-operations
+italki | italki | italki | https://www.italki.com/ | education
+jamovi | jamovi | jamovi project | https://www.jamovi.org/ | data
+jane-app | Jane | Jane Software | https://jane.app/ | business-operations
+jasp | JASP | University of Amsterdam | https://jasp-stats.org/ | data
+jenkins | Jenkins | Jenkins project | https://www.jenkins.io/ | development
+jest | Jest | OpenJS Foundation | https://jestjs.io/ | development
+jetbrains-ides | JetBrains IDEs (IntelliJ IDEA, PyCharm…) | JetBrains | https://www.jetbrains.com/ | development
+jewelsuite | JewelSuite | Baker Hughes | https://www.bakerhughes.com/JewelSuite-Geomechnics | industry
+jiji | Jiji | Jiji | https://jiji.ng/ | websites
+jira | Jira | Atlassian | https://www.atlassian.com/software/jira | collaboration
+jira-service-management | Jira Service Management | Atlassian | https://www.atlassian.com/software/jira/service-management | development
+jitsi-meet | Jitsi Meet | 8x8 / Jitsi community | https://jitsi.org/ | collaboration
+jmp | JMP | JMP Statistical Discovery | https://www.jmp.com/ | data
+jobber | Jobber | Jobber | https://getjobber.com/ | business-operations
+julia | Julia | Julia project | https://julialang.org/ | development
+jumia | Jumia (sellers) | Jumia | https://www.jumia.com/ | websites
+jupyter | Jupyter | Project Jupyter | https://jupyter.org/ | data
+k6 | Grafana k6 | Grafana Labs | https://k6.io/ | development
+kahoot | Kahoot! | Kahoot! | https://kahoot.com/ | education
+kali-linux | Kali Linux | OffSec | https://www.kali.org/ | security-privacy-accessibility
+katana-mrp | Katana | Katana | https://katanamrp.com/ | industry
+kdenlive | Kdenlive | KDE | https://kdenlive.org/ | video
+ketcher | Ketcher | EPAM | https://lifescience.opensource.epam.com/ketcher/ | research
+khan-academy | Khan Academy | Khan Academy | https://www.khanacademy.org/ | education
+kicad | KiCad | KiCad project | https://www.kicad.org/ | industry
+kinovea | Kinovea | Kinovea | https://www.kinovea.org/ | everyday
+kit | Kit (formerly ConvertKit) | Kit | https://kit.com/ | marketing
+ko-fi | Ko-fi | Ko-fi | https://ko-fi.com/ | marketing
+kobotoolbox | KoboToolbox | Kobo Inc. | https://www.kobotoolbox.org/ | data
+koyfin | Koyfin | Koyfin | https://www.koyfin.com/ | data
+krita | Krita | Krita Foundation | https://krita.org/ | design
+kubernetes | Kubernetes | CNCF | https://kubernetes.io/ | development
+labguru | Labguru | BioData | https://www.labguru.com/ | research
+landmark-decisionspace | Landmark DecisionSpace well engineering (COMPASS, WELLPLAN, StressCheck, WellCat) | Halliburton Landmark | https://www.landmark.solutions/ | industry
+langchain | LangChain | LangChain | https://www.langchain.com/ | development
+languagetool | LanguageTool | LanguageTooler | https://languagetool.org/ | writing
+lawpavilion | LawPavilion | LawPavilion | https://lawpavilion.com/ | research
+leapfrog | Leapfrog | Seequent (Bentley) | https://www.seequent.com/ | industry
+lexicomp | UpToDate Lexidrug (Lexicomp) | Wolters Kluwer | https://www.wolterskluwer.com/en/solutions/uptodate/enterprise/lexidrug | research
+lexisnexis | LexisNexis | LexisNexis | https://www.lexisnexis.com/ | research
+librecad | LibreCAD | LibreCAD project | https://librecad.org/ | industry
+libreoffice | LibreOffice | The Document Foundation | https://www.libreoffice.org/ | productivity
+life-qi | Life QI | Life QI | https://lifeqisystem.com/ | business-operations
+lightspeed | Lightspeed | Lightspeed | https://www.lightspeedhq.com/ | business-operations
+limesurvey | LimeSurvey | LimeSurvey | https://www.limesurvey.org/ | research
+linear | Linear | Linear | https://linear.app/ | development
+lingvano | Lingvano | Lingvano | https://www.lingvano.com/ | education
+linkedin | LinkedIn | LinkedIn (Microsoft) | https://www.linkedin.com/ | career
+linkedin-learning | LinkedIn Learning | LinkedIn | https://www.linkedin.com/learning/ | education
+little-hotelier | Little Hotelier | SiteMinder | https://www.littlehotelier.com/ | business-operations
+logic-pro | Logic Pro | Apple | https://www.apple.com/logic-pro/ | audio
+logos-bible-software | Logos Bible Software | Faithlife | https://www.logos.com/ | education
+lookback | Lookback | Lookback | https://www.lookback.com/ | research
+looker-studio | Looker Studio | Google | https://lookerstudio.google.com/ | data
+loom | Loom | Atlassian | https://www.loom.com/ | video
+lotsa-helping-hands | Lotsa Helping Hands | Lotsa | https://lotsahelpinghands.com/ | everyday
+loyverse | Loyverse POS | Loyverse | https://loyverse.com/ | business-operations
+lseg-workspace | LSEG Workspace | London Stock Exchange Group | https://www.lseg.com/en/data-analytics/products/workspace | data
+lucidchart | Lucidchart | Lucid Software | https://www.lucidchart.com/ | productivity
+luma | Luma | Luma | https://lu.ma/ | marketing
+lumion | Lumion | Lumion | https://lumion.com/ | design
+m-files | M-Files | M-Files | https://www.m-files.com/ | business-operations
+magicplan | magicplan | magicplan | https://www.magicplan.app/ | industry
+mailchimp | Mailchimp | Intuit | https://mailchimp.com/ | marketing
+mailerlite | MailerLite | MailerLite | https://www.mailerlite.com/ | marketing
+make | Make | Make (Celonis) | https://www.make.com/ | automation
+maltego | Maltego | Maltego Technologies | https://www.maltego.com/ | security-privacy-accessibility
+maptek-vulcan | Maptek Vulcan | Maptek | https://www.maptek.com/ | industry
+marinetraffic | MarineTraffic | Kpler | https://www.marinetraffic.com/ | industry
+marvinsketch | Marvin (MarvinSketch) | Chemaxon | https://chemaxon.com/ | research
+mastercam | Mastercam | CNC Software | https://www.mastercam.com/ | industry
+mathcad | Mathcad | PTC | https://www.mathcad.com/ | development
+matlab | MATLAB | MathWorks | https://www.mathworks.com/products/matlab.html | development
+matomo | Matomo | InnoCraft | https://matomo.org/ | marketing
+matterport | Matterport | Matterport (CoStar) | https://matterport.com/ | industry
+maze | Maze | Maze | https://maze.co/ | research
+mbal | MBAL | Petroleum Experts | https://www.petex.com/ | industry
+mdcalc | MDCalc | MDCalc | https://www.mdcalc.com/ | research
+medbridge | MedBridge | MedBridge | https://www.medbridge.com/ | education
+medisafe | Medisafe | Medisafe | https://www.medisafe.com/ | everyday
+meditech | MEDITECH | MEDITECH | https://ehr.meditech.com/ | industry
+medscape | Medscape | WebMD | https://www.medscape.com/ | research
+meez | meez | meez | https://www.getmeez.com/ | industry
+meltwater | Meltwater | Meltwater | https://www.meltwater.com/ | marketing
+mentimeter | Mentimeter | Mentimeter | https://www.mentimeter.com/ | education
+mermaid | Mermaid | Mermaid project | https://mermaid.js.org/ | development
+meta-ads-manager | Meta Ads Manager | Meta | https://www.facebook.com/business/tools/ads-manager | marketing
+meta-business-suite | Meta Business Suite | Meta | https://business.facebook.com/ | marketing
+metabase | Metabase | Metabase | https://www.metabase.com/ | data
+meteoblue | meteoblue | meteoblue | https://www.meteoblue.com/ | industry
+metricool | Metricool | Metricool | https://metricool.com/ | marketing
+microsoft-authenticator | Microsoft Authenticator | Microsoft | https://www.microsoft.com/en-us/security/mobile-authenticator-app | security-privacy-accessibility
+microsoft-azure | Microsoft Azure | Microsoft | https://azure.microsoft.com/ | development
+microsoft-clarity | Microsoft Clarity | Microsoft | https://clarity.microsoft.com/ | marketing
+microsoft-copilot | Microsoft Copilot | Microsoft | https://copilot.microsoft.com/ | ai-assistants
+microsoft-dynamics-365 | Microsoft Dynamics 365 | Microsoft | https://dynamics.microsoft.com/ | business-operations
+microsoft-edge | Microsoft Edge | Microsoft | https://www.microsoft.com/edge | productivity
+microsoft-excel | Microsoft Excel | Microsoft | https://www.microsoft.com/microsoft-365/excel | productivity
+microsoft-family-safety | Microsoft Family Safety | Microsoft | https://www.microsoft.com/en-us/microsoft-365/family-safety | everyday
+microsoft-forms | Microsoft Forms | Microsoft | https://forms.office.com/ | productivity
+microsoft-immersive-reader | Immersive Reader | Microsoft | https://www.microsoft.com/en-us/education/learning-tools | security-privacy-accessibility
+microsoft-onedrive | OneDrive | Microsoft | https://www.microsoft.com/microsoft-365/onedrive | productivity
+microsoft-onenote | OneNote | Microsoft | https://www.onenote.com/ | productivity
+microsoft-outlook | Outlook | Microsoft | https://outlook.com/ | productivity
+microsoft-powerpoint | Microsoft PowerPoint | Microsoft | https://www.microsoft.com/microsoft-365/powerpoint | productivity
+microsoft-project | Microsoft Project | Microsoft | https://www.microsoft.com/microsoft-365/project | business-operations
+microsoft-sentinel | Microsoft Sentinel | Microsoft | https://azure.microsoft.com/products/microsoft-sentinel | security-privacy-accessibility
+microsoft-teams | Microsoft Teams | Microsoft | https://www.microsoft.com/microsoft-teams | collaboration
+microsoft-to-do | Microsoft To Do | Microsoft | https://to-do.office.com/ | productivity
+microsoft-translator | Microsoft Translator | Microsoft | https://www.microsoft.com/translator/ | writing
+microsoft-visio | Microsoft Visio | Microsoft | https://www.microsoft.com/microsoft-365/visio | productivity
+microsoft-word | Microsoft Word | Microsoft | https://www.microsoft.com/microsoft-365/word | productivity
+mindbody | Mindbody | Mindbody | https://www.mindbodyonline.com/ | business-operations
+minitab | Minitab | Minitab | https://www.minitab.com/ | data
+miro | Miro | Miro | https://miro.com/ | collaboration
+mixpanel | Mixpanel | Mixpanel | https://mixpanel.com/ | data
+mode | Mode | ThoughtSpot | https://mode.com/ | data
+monday-com | monday.com | monday.com | https://monday.com/ | collaboration
+mongodb | MongoDB | MongoDB | https://www.mongodb.com/ | development
+moniepoint | Moniepoint | Moniepoint | https://moniepoint.com/ | business-operations
+moodle | Moodle | Moodle | https://moodle.org/ | education
+muck-rack | Muck Rack | Muck Rack | https://muckrack.com/ | marketing
+mural | Mural | Mural | https://www.mural.co/ | collaboration
+musescore | MuseScore Studio | Muse Group | https://musescore.org/ | audio
+mycase | MyCase | AffiniPay | https://www.mycase.com/ | business-operations
+myfitnesspal | MyFitnessPal | MyFitnessPal | https://www.myfitnesspal.com/ | everyday
+mysql | MySQL | Oracle | https://www.mysql.com/ | development
+n8n | n8n | n8n | https://n8n.io/ | automation
+navionics | Navionics | Garmin | https://www.navionics.com/ | industry
+navisworks | Navisworks | Autodesk | https://www.autodesk.com/products/navisworks/overview | industry
+ncbi-blast | NCBI BLAST | US National Center for Biotechnology Information | https://blast.ncbi.nlm.nih.gov/ | research
+nearpod | Nearpod | Renaissance | https://nearpod.com/ | education
+netlify | Netlify | Netlify | https://www.netlify.com/ | development
+nextjs | Next.js | Vercel | https://nextjs.org/ | development
+nice-guidance | NICE guidance | National Institute for Health and Care Excellence | https://www.nice.org.uk/guidance | research
+nmap | Nmap | Nmap project | https://nmap.org/ | security-privacy-accessibility
+node-red | Node-RED | OpenJS Foundation | https://nodered.org/ | automation
+notion | Notion | Notion Labs | https://www.notion.com/ | productivity
+nrel-sam | System Advisor Model (SAM) | US NREL | https://sam.nrel.gov/ | industry
+nutritics | Nutritics | Nutritics | https://www.nutritics.com/ | everyday
+nvda | NVDA screen reader | NV Access | https://www.nvaccess.org/ | security-privacy-accessibility
+nvivo | NVivo | Lumivero | https://lumivero.com/products/nvivo/ | research
+obd-auto-doctor | OBD Auto Doctor | Creosys | https://www.obdautodoctor.com/ | industry
+obs-studio | OBS Studio | OBS Project | https://obsproject.com/ | video
+odk | ODK | Get ODK | https://getodk.org/ | data
+odoo | Odoo | Odoo | https://www.odoo.com/ | business-operations
+olga | OLGA | SLB | https://www.slb.com/ | industry
+onfleet | Onfleet | Onfleet | https://onfleet.com/ | business-operations
+onshape | Onshape | PTC | https://www.onshape.com/ | industry
+open-dental | Open Dental | Open Dental Software | https://www.opendental.com/ | industry
+openai-api | OpenAI API | OpenAI | https://platform.openai.com/ | development
+opencpn | OpenCPN | OpenCPN project | https://opencpn.org/ | industry
+opendtect | OpendTect | dGB Earth Sciences | https://dgbes.com/ | industry
+openlp | OpenLP | OpenLP project | https://openlp.org/ | business-operations
+openmrs | OpenMRS | OpenMRS community | https://openmrs.org/ | industry
+openrefine | OpenRefine | OpenRefine project | https://openrefine.org/ | data
+openstreetmap | OpenStreetMap | OpenStreetMap Foundation | https://www.openstreetmap.org/ | everyday
+openwells | OpenWells | Halliburton Landmark | https://www.landmark.solutions/ | industry
+oracle-health | Oracle Health (formerly Cerner) | Oracle | https://www.oracle.com/health/ | industry
+oracle-netsuite | Oracle NetSuite | Oracle | https://www.netsuite.com/ | business-operations
+origin | Origin | OriginLab | https://www.originlab.com/ | research
+osf | OSF (Open Science Framework) | Center for Open Science | https://osf.io/ | research
+osirix-md | OsiriX MD | Pixmeo | https://www.osirix-viewer.com/ | research
+osmosis | Osmosis | Elsevier | https://www.osmosis.org/ | education
+otter-ai | Otter.ai | Otter.ai | https://otter.ai/ | productivity
+overleaf | Overleaf | Digital Science | https://www.overleaf.com/ | writing
+owasp-zap | ZAP | ZAP / Checkmarx | https://www.zaproxy.org/ | security-privacy-accessibility
+padlet | Padlet | Padlet | https://padlet.com/ | education
+patreon | Patreon | Patreon | https://www.patreon.com/ | marketing
+paypal | PayPal | PayPal | https://www.paypal.com/ | business-operations
+paystack | Paystack | Paystack (Stripe) | https://paystack.com/ | business-operations
+pdf24 | PDF24 Tools | Geek Software | https://tools.pdf24.org/ | productivity
+penpot | Penpot | Kaleidos | https://penpot.app/ | design
+perplexity | Perplexity | Perplexity AI | https://www.perplexity.ai/ | ai-assistants
+petex-gap | GAP | Petroleum Experts | https://www.petex.com/ | industry
+petrel | Petrel | SLB | https://www.slb.com/ | industry
+photopea | Photopea | Photopea | https://www.photopea.com/ | design
+photoroom | Photoroom | Photoroom | https://www.photoroom.com/ | design
+physitrack | Physitrack | Physitrack | https://www.physitrack.com/ | industry
+picturethis | PictureThis | Glority | https://www.picturethisai.com/ | everyday
+pinterest | Pinterest | Pinterest | https://www.pinterest.com/ | marketing
+pipedrive | Pipedrive | Pipedrive | https://www.pipedrive.com/ | marketing
+pipesim | PIPESIM | SLB | https://www.slb.com/ | industry
+pix4d | PIX4D | Pix4D | https://www.pix4d.com/ | data
+planner-5d | Planner 5D | Planner 5D | https://planner5d.com/ | design
+planning-center | Planning Center | Planning Center | https://www.planningcenter.com/ | business-operations
+planswift | PlanSwift | ConstructConnect | https://www.planswift.com/ | industry
+plantix | Plantix | PEAT | https://plantix.net/ | industry
+plantnet | Pl@ntNet | Pl@ntNet consortium | https://plantnet.org/ | research
+plausible | Plausible Analytics | Plausible | https://plausible.io/ | marketing
+plaxis | PLAXIS | Bentley Systems | https://www.bentley.com/software/plaxis-2d/ | industry
+playwright | Playwright | Microsoft | https://playwright.dev/ | development
+podman | Podman | Podman project | https://podman.io/ | development
+polis | Polis | The Computational Democracy Project | https://pol.is/ | collaboration
+postgresql | PostgreSQL | PostgreSQL Global Development Group | https://www.postgresql.org/ | development
+posthog | PostHog | PostHog | https://posthog.com/ | data
+postman | Postman | Postman | https://www.postman.com/ | development
+power-apps | Power Apps | Microsoft | https://www.microsoft.com/power-platform/products/power-apps | automation
+power-automate | Power Automate | Microsoft | https://www.microsoft.com/power-platform/products/power-automate | automation
+power-bi | Power BI | Microsoft | https://www.microsoft.com/power-platform/products/power-bi | data
+power-query | Power Query (in Excel and Power BI) | Microsoft | https://learn.microsoft.com/power-query/ | data
+powerscribe | PowerScribe | Microsoft (Nuance) | https://nuance.com/healthcare/medical-imaging/powerscribe-360-reporting.html | industry
+practicepanther | PracticePanther | PracticePanther | https://www.practicepanther.com/ | business-operations
+primavera-p6 | Primavera P6 | Oracle | https://www.oracle.com/construction-engineering/primavera-p6/ | business-operations
+procore | Procore | Procore | https://www.procore.com/ | industry
+procreate | Procreate | Savage Interactive | https://procreate.com/ | design
+productboard | Productboard | Productboard | https://www.productboard.com/ | business-operations
+proloquo2go | Proloquo2Go | AssistiveWare | https://www.assistiveware.com/products/proloquo2go | security-privacy-accessibility
+prometheus | Prometheus | CNCF | https://prometheus.io/ | development
+propresenter | ProPresenter | Renewed Vision | https://renewedvision.com/propresenter/ | business-operations
+prosper | PROSPER | Petroleum Experts | https://www.petex.com/ | industry
+proton-mail | Proton Mail | Proton | https://proton.me/mail | security-privacy-accessibility
+prusaslicer | PrusaSlicer | Prusa Research | https://www.prusa3d.com/page/prusaslicer_424/ | industry
+pubmed | PubMed | US National Library of Medicine | https://pubmed.ncbi.nlm.nih.gov/ | research
+pushpay | Pushpay | Pushpay | https://pushpay.com/ | business-operations
+putty | PuTTY | Simon Tatham | https://www.putty.org/ | development
+pvsyst | PVsyst | PVsyst | https://www.pvsyst.com/ | industry
+pymol | PyMOL | Schrödinger | https://pymol.org/ | research
+python | Python | Python Software Foundation | https://www.python.org/ | development
+pytorch | PyTorch | PyTorch Foundation | https://pytorch.org/ | development
+qase | Qase | Qase | https://qase.io/ | development
+qgis | QGIS | QGIS project | https://qgis.org/ | data
+qlab | QLab | Figure 53 | https://qlab.app/ | audio
+qualtrics | Qualtrics | Qualtrics | https://www.qualtrics.com/ | research
+quickbooks | QuickBooks | Intuit | https://quickbooks.intuit.com/ | business-operations
+quizlet | Quizlet | Quizlet | https://quizlet.com/ | education
+quran-com | Quran.com | Quran Foundation | https://quran.com/ | education
+qxmd | QxMD | QxMD | https://qxmd.com/ | research
+r | R | R Foundation | https://www.r-project.org/ | data
+radiant-dicom-viewer | RadiAnt DICOM Viewer | Medixant | https://www.radiantviewer.com/ | research
+radreport | RadReport template library | RSNA | https://radreport.org/ | research
+rayyan | Rayyan | Rayyan | https://www.rayyan.ai/ | research
+react-native | React Native | Meta (open source) | https://reactnative.dev/ | development
+reaper | REAPER | Cockos | https://www.reaper.fm/ | audio
+redbubble | Redbubble | Redbubble | https://www.redbubble.com/ | websites
+redcap | REDCap | Vanderbilt University | https://projectredcap.org/ | research
+reedsy | Reedsy Studio | Reedsy | https://reedsy.com/ | writing
+relativity | RelativityOne | Relativity | https://www.relativity.com/ | business-operations
+remove-bg | remove.bg | Canva | https://www.remove.bg/ | design
+restream | Restream | Restream | https://restream.io/ | video
+retscreen | RETScreen | Natural Resources Canada | https://natural-resources.canada.ca/maps-tools-publications/tools/modelling-tools/retscreen/7465 | industry
+revit | Revit | Autodesk | https://www.autodesk.com/products/revit/overview | industry
+rive | Rive | Rive | https://rive.app/ | design
+riverside | Riverside | Riverside.fm | https://riverside.fm/ | audio
+robot-structural-analysis | Robot Structural Analysis | Autodesk | https://www.autodesk.com/ | industry
+rocscience-slide2 | Slide2 | Rocscience | https://www.rocscience.com/ | industry
+rotacloud | RotaCloud | RotaCloud | https://rotacloud.com/ | business-operations
+routific | Routific | Routific | https://www.routific.com/ | business-operations
+rstudio | RStudio | Posit | https://posit.co/ | data
+safetyculture | SafetyCulture | SafetyCulture | https://safetyculture.com/ | business-operations
+sage | Sage | Sage Group | https://www.sage.com/ | business-operations
+salesforce | Salesforce | Salesforce | https://www.salesforce.com/ | marketing
+samsara | Samsara | Samsara | https://www.samsara.com/ | business-operations
+sap | SAP (S/4HANA and modules) | SAP | https://www.sap.com/ | business-operations
+sap2000 | SAP2000 | Computers and Structures, Inc. | https://www.csiamerica.com/products/sap2000 | industry
+scikit-learn | scikit-learn | scikit-learn project | https://scikit-learn.org/ | development
+scrivener | Scrivener | Literature & Latte | https://www.literatureandlatte.com/scrivener/overview | writing
+seamly2d | Seamly2D | Seamly2D project | https://seamly.net/ | design
+sefaria | Sefaria | Sefaria | https://www.sefaria.org/ | education
+selar | Selar | Selar | https://selar.com/ | marketing
+selenium | Selenium | Selenium project | https://www.selenium.dev/ | development
+semantic-scholar | Semantic Scholar | Allen Institute for AI | https://www.semanticscholar.org/ | research
+semrush | Semrush | Semrush | https://www.semrush.com/ | marketing
+sentinel-hub | Sentinel Hub / EO Browser | Planet / Sinergise | https://www.sentinel-hub.com/ | data
+sentry | Sentry | Sentry | https://sentry.io/ | development
+sessionlab | SessionLab | SessionLab | https://www.sessionlab.com/ | collaboration
+setmore | Setmore | Setmore | https://www.setmore.com/ | business-operations
+sharepoint | SharePoint | Microsoft | https://www.microsoft.com/microsoft-365/sharepoint | collaboration
+sharpcap | SharpCap | SharpCap | https://www.sharpcap.co.uk/ | research
+shopify | Shopify | Shopify | https://www.shopify.com/ | websites
+shotcut | Shotcut | Shotcut project | https://www.shotcut.org/ | video
+sibelius | Sibelius | Avid | https://www.avid.com/sibelius | audio
+signal | Signal | Signal Foundation | https://signal.org/ | security-privacy-accessibility
+signupgenius | SignUpGenius | SignUpGenius | https://www.signupgenius.com/ | collaboration
+similarweb | Similarweb | Similarweb | https://www.similarweb.com/ | marketing
+simplepractice | SimplePractice | SimplePractice | https://www.simplepractice.com/ | business-operations
+siril | Siril | Siril project | https://siril.org/ | research
+sketch | Sketch | Sketch | https://www.sketch.com/ | design
+sketchup | SketchUp | Trimble | https://www.sketchup.com/ | design
+skydemon | SkyDemon | SkyDemon | https://www.skydemon.aero/ | industry
+skyscanner | Skyscanner | Skyscanner | https://www.skyscanner.net/ | everyday
+slack | Slack | Salesforce | https://slack.com/ | collaboration
+slb-drillplan | DrillPlan | SLB | https://www.slb.com/ | industry
+smallpdf | Smallpdf | Smallpdf | https://smallpdf.com/ | productivity
+smartsheet | Smartsheet | Smartsheet | https://www.smartsheet.com/ | business-operations
+smath-studio | SMath Studio | SMath | https://en.smath.com/ | development
+snapgene | SnapGene | Dotmatics | https://www.snapgene.com/ | research
+snapseed | Snapseed | Google | https://play.google.com/store/apps/details?id=com.niksoftware.snapseed | design
+snowflake | Snowflake | Snowflake | https://www.snowflake.com/ | data
+socrative | Socrative | Showbie | https://www.socrative.com/ | education
+solidworks | SOLIDWORKS | Dassault Systèmes | https://www.solidworks.com/ | industry
+sortly | Sortly | Sortly | https://www.sortly.com/ | business-operations
+splunk | Splunk | Cisco | https://www.splunk.com/ | security-privacy-accessibility
+spond | Spond | Spond | https://www.spond.com/ | everyday
+spotfire | Spotfire | Cloud Software Group | https://www.spotfire.com/ | data
+spotlight | Spotlight (casting) | Spotlight | https://www.spotlight.com/ | career
+spreadthesign | Spread The Sign | European Sign Language Centre | https://www.spreadthesign.com/ | education
+spss | IBM SPSS Statistics | IBM | https://www.ibm.com/products/spss-statistics | data
+sqlite | SQLite | SQLite project | https://sqlite.org/ | development
+square | Square | Block | https://squareup.com/ | business-operations
+staad-pro | STAAD.Pro | Bentley Systems | https://www.bentley.com/software/staad/ | industry
+stata | Stata | StataCorp | https://www.stata.com/ | data
+statista | Statista | Statista | https://www.statista.com/ | research
+stellarium | Stellarium | Stellarium project | https://stellarium.org/ | research
+step-bible | STEPBible | Tyndale House, Cambridge | https://www.stepbible.org/ | education
+strava | Strava | Strava | https://www.strava.com/ | everyday
+streamyard | StreamYard | Hopin / Bending Spoons | https://streamyard.com/ | video
+stripe | Stripe | Stripe | https://stripe.com/ | business-operations
+studio-5000 | Studio 5000 | Rockwell Automation | https://www.rockwellautomation.com/ | industry
+substack | Substack | Substack | https://substack.com/ | writing
+sumup | SumUp | SumUp | https://www.sumup.com/ | business-operations
+swagger | Swagger / OpenAPI tools | SmartBear | https://swagger.io/ | development
+tableau | Tableau | Salesforce | https://www.tableau.com/ | data
+taguette | Taguette | Taguette project | https://www.taguette.org/ | research
+teamsnap | TeamSnap | TeamSnap | https://www.teamsnap.com/ | everyday
+techlog | Techlog | SLB | https://www.slb.com/ | industry
+tekla-structures | Tekla Structures | Trimble | https://www.tekla.com/ | industry
+telegram | Telegram | Telegram | https://telegram.org/ | collaboration
+terraform | Terraform | HashiCorp (IBM) | https://www.terraform.io/ | development
+testrail | TestRail | Idera | https://www.testrail.com/ | development
+think-cell | think-cell | think-cell | https://www.think-cell.com/ | productivity
+tia-portal | TIA Portal | Siemens | https://www.siemens.com/ | industry
+tineye | TinEye | Idée | https://tineye.com/ | research
+tinkercad | Tinkercad | Autodesk | https://www.tinkercad.com/ | design
+tithely | Tithe.ly | Tithe.ly | https://get.tithe.ly/ | business-operations
+tnavigator | tNavigator | Rock Flow Dynamics | https://rfdyn.com/ | industry
+toast | Toast | Toast | https://pos.toasttab.com/ | business-operations
+todoist | Todoist | Doist | https://todoist.com/ | productivity
+torque-pro | Torque Pro | Ian Hawkins | https://play.google.com/store/apps/details?id=org.prowl.torque | industry
+tradify | Tradify | Tradify | https://www.tradifyhq.com/ | business-operations
+tradingview | TradingView | TradingView | https://www.tradingview.com/ | data
+trainerize | Trainerize | ABC Trainerize | https://www.trainerize.com/ | education
+trainingpeaks | TrainingPeaks | TrainingPeaks | https://www.trainingpeaks.com/ | everyday
+trello | Trello | Atlassian | https://trello.com/ | collaboration
+trimble-business-center | Trimble Business Center | Trimble | https://geospatial.trimble.com/ | industry
+tripadvisor | Tripadvisor (business) | Tripadvisor | https://www.tripadvisor.com/Owners | marketing
+tripit | TripIt | SAP Concur | https://www.tripit.com/ | everyday
+truecoach | TrueCoach | TrueCoach | https://truecoach.co/ | education
+trustpilot | Trustpilot (business) | Trustpilot | https://business.trustpilot.com/ | marketing
+turnitin | Turnitin | Turnitin | https://www.turnitin.com/ | education
+twinmotion | Twinmotion | Epic Games | https://www.twinmotion.com/ | design
+typeform | Typeform | Typeform | https://www.typeform.com/ | productivity
+uber | Uber (driver) | Uber | https://www.uber.com/ | everyday
+ugene | UGENE | UGENE | https://ugene.net/ | research
+ultimaker-cura | UltiMaker Cura | UltiMaker | https://ultimaker.com/software/ultimaker-cura/ | industry
+un-online-volunteering | UN Volunteers online volunteering | United Nations Volunteers | https://app.unv.org/ | career
+unity | Unity | Unity Technologies | https://unity.com/ | development
+unreal-engine | Unreal Engine | Epic Games | https://www.unrealengine.com/ | development
+upkeep | UpKeep | UpKeep | https://upkeep.com/ | industry
+uptodate | UpToDate | Wolters Kluwer | https://www.wolterskluwer.com/en/solutions/uptodate | research
+upwork | Upwork | Upwork | https://www.upwork.com/ | career
+ushahidi | Ushahidi | Ushahidi | https://www.ushahidi.com/ | data
+vagaro | Vagaro | Vagaro | https://www.vagaro.com/ | business-operations
+vale | Vale | Vale project | https://vale.sh/ | writing
+visible-body | Visible Body | Visible Body | https://www.visiblebody.com/ | education
+volunteermatch | VolunteerMatch | Idealist | https://www.volunteermatch.org/ | career
+vs-code | Visual Studio Code | Microsoft | https://code.visualstudio.com/ | development
+wanderlog | Wanderlog | Wanderlog | https://wanderlog.com/ | everyday
+wave | Wave | Wave Financial | https://www.waveapps.com/ | business-operations
+wayback-machine | Wayback Machine | Internet Archive | https://web.archive.org/ | research
+wazuh | Wazuh | Wazuh | https://wazuh.com/ | security-privacy-accessibility
+weasis | Weasis | Weasis project | https://weasis.org/ | research
+webflow | Webflow | Webflow | https://webflow.com/ | websites
+wellview | WellView | Peloton | https://www.peloton.com/ | industry
+westlaw | Westlaw | Thomson Reuters | https://legal.thomsonreuters.com/en/westlaw | research
+what3words | what3words | what3words | https://what3words.com/ | everyday
+whatsapp | WhatsApp | Meta | https://www.whatsapp.com/ | collaboration
+whatsapp-business | WhatsApp Business | Meta | https://business.whatsapp.com/ | marketing
+when-i-work | When I Work | When I Work | https://wheniwork.com/ | business-operations
+who-guidelines | WHO guidelines | World Health Organization | https://www.who.int/publications/who-guidelines | research
+wikipedia | Wikipedia | Wikimedia Foundation | https://www.wikipedia.org/ | research
+windy | Windy | Windyty | https://www.windy.com/ | everyday
+wireshark | Wireshark | Wireshark Foundation | https://www.wireshark.org/ | development
+wise | Wise | Wise | https://wise.com/ | everyday
+wix | Wix | Wix.com | https://www.wix.com/ | websites
+woocommerce | WooCommerce | Automattic | https://woocommerce.com/ | websites
+wordpress | WordPress (software) | WordPress project | https://wordpress.org/ | websites
+workable | Workable | Workable | https://www.workable.com/ | business-operations
+wyscout | Wyscout | Hudl | https://www.hudl.com/products/wyscout | everyday
+x-plane | X-Plane | Laminar Research | https://www.x-plane.com/ | industry
+xcode | Xcode | Apple | https://developer.apple.com/xcode/ | development
+xero | Xero | Xero | https://www.xero.com/ | business-operations
+xray | Xray Test Management | Idera | https://www.getxray.app/ | development
+yahoo-finance | Yahoo Finance | Yahoo | https://finance.yahoo.com/ | data
+ynab | YNAB (You Need A Budget) | YNAB | https://www.ynab.com/ | everyday
+youversion | YouVersion Bible App | Life.Church | https://www.youversion.com/ | education
+zapier | Zapier | Zapier | https://zapier.com/ | automation
+zello | Zello | Zello | https://zello.com/ | collaboration
+zendesk | Zendesk | Zendesk | https://www.zendesk.com/ | marketing
+zenodo | Zenodo | CERN / OpenAIRE | https://zenodo.org/ | research
+zephyr | Zephyr | SmartBear | https://smartbear.com/test-management/zephyr/ | development
+zoho-books | Zoho Books | Zoho | https://www.zoho.com/books/ | business-operations
+zoho-crm | Zoho CRM | Zoho | https://www.zoho.com/crm/ | marketing
+zoho-inventory | Zoho Inventory | Zoho | https://www.zoho.com/inventory/ | business-operations
+zoho-invoice | Zoho Invoice | Zoho | https://www.zoho.com/invoice/ | business-operations
+zoho-people | Zoho People | Zoho | https://www.zoho.com/people/ | business-operations
+zoom | Zoom | Zoom Communications | https://www.zoom.com/ | collaboration
+zotero | Zotero | Digital Scholar | https://www.zotero.org/ | research
+bandlab | BandLab | BandLab | https://www.bandlab.com/ | audio
+distrokid | DistroKid | DistroKid | https://distrokid.com/ | audio
+tunecore | TuneCore | TuneCore | https://www.tunecore.com/ | audio
+spotify-for-artists | Spotify for Artists | Spotify | https://artists.spotify.com/ | marketing
+audiomack | Audiomack | Audiomack | https://audiomack.com/ | audio

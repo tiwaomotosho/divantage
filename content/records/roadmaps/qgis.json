@@ -1,0 +1,134 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_qgis",
+ "slug": "qgis",
+ "title": "QGIS",
+ "tool_ids": [
+  "tool_qgis",
+  "tool_arcgis_pro"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_gis_layers",
+    "slug": "gis-layers",
+    "title": "Maps and layers",
+    "outcome": "You can: open data and make a clear map",
+    "topics": [
+     "vector vs raster",
+     "coordinate systems",
+     "styling",
+     "labels"
+    ],
+    "practice": "Map your town's clinics or schools",
+    "need_tags": [
+     "gis-mapping"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_gis_print",
+    "slug": "gis-print",
+    "title": "Print layouts",
+    "outcome": "You can: produce a finished map",
+    "topics": [
+     "layout",
+     "legend",
+     "scale bar",
+     "north arrow"
+    ],
+    "practice": "Export an A4 map",
+    "need_tags": [
+     "gis-mapping",
+     "technical-reporting"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_gis_analysis",
+    "slug": "gis-analysis",
+    "title": "Spatial analysis",
+    "outcome": "You can: answer \"where\" questions",
+    "topics": [
+     "buffers",
+     "intersections",
+     "joins",
+     "field calculator"
+    ],
+    "practice": "Find communities more than 5 km from a health facility",
+    "need_tags": [
+     "gis-mapping",
+     "public-health-data",
+     "monitoring-evaluation"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_gis_field",
+    "slug": "gis-field",
+    "title": "Field data and GPS",
+    "outcome": "You can: bring field-collected points into maps",
+    "topics": [
+     "CSV/GPS import",
+     "KoboToolbox/ODK exports",
+     "QField basics"
+    ],
+    "practice": "Map survey points collected on phones",
+    "need_tags": [
+     "gis-mapping",
+     "research-surveys",
+     "crop-monitoring"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_gis_raster",
+    "slug": "gis-raster",
+    "title": "Raster, terrain and satellite data",
+    "outcome": "You can: analyse elevation and imagery",
+    "topics": [
+     "DEMs",
+     "slope",
+     "NDVI",
+     "raster calculator"
+    ],
+    "practice": "Calculate vegetation health from satellite imagery",
+    "need_tags": [
+     "crop-monitoring",
+     "environmental-monitoring",
+     "hydraulic-modelling"
+    ],
+    "estimated_hours": {
+     "value": 4.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false
+}

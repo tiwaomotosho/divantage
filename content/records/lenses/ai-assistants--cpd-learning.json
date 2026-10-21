@@ -1,0 +1,112 @@
+{
+ "schema_version": "2.1",
+ "id": "lens_ai_assistants__cpd_learning",
+ "roadmap_id": "rm_ai_assistants",
+ "roadmap": "ai-assistants",
+ "need_id": "need_cpd_learning",
+ "need": "cpd-learning",
+ "title": "AI assistants for health professionals' learning",
+ "kind": "flagship",
+ "for_identities": [
+  "medical-doctor",
+  "nurse",
+  "pharmacist",
+  "physiotherapist",
+  "medical-student",
+  "nursing-student",
+  "midwife",
+  "dentist"
+ ],
+ "why": "AI can explain concepts, generate practice questions and summarise long guidance — useful for revision and CPD.",
+ "what_is_different": "Health professionals must never rely on AI for clinical decisions, must verify against guidelines and trusted references, and must never enter identifiable patient information.",
+ "priority_modules": [
+  "ai-safe",
+  "ai-verify",
+  "ai-first",
+  "ai-domain",
+  "ai-files"
+ ],
+ "extra_modules": [
+  {
+   "level": "intermediate",
+   "title": "Revision with spaced repetition",
+   "outcome": "You can: turn guidelines into flashcards",
+   "topics": [
+    "AI-drafted questions",
+    "checking against source",
+    "importing into Anki"
+   ],
+   "practice": "Create 20 verified flashcards from a guideline"
+  }
+ ],
+ "starter_project": "Build a monthly CPD routine: summarise one guideline update with AI, verify against the source, create flashcards, and log reflections.",
+ "pitfalls": [
+  "Using AI answers clinically",
+  "Entering patient-identifiable information",
+  "Outdated or region-inappropriate guidance"
+ ],
+ "pairs_with": [
+  "tool_anki",
+  "tool_uptodate",
+  "tool_bmj_best_practice",
+  "tool_medscape"
+ ],
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false,
+ "composed_path": {
+  "beginner": [
+   {
+    "module": "ai-safe",
+    "relevance": "core",
+    "rank": 0
+   },
+   {
+    "module": "ai-first",
+    "relevance": "core",
+    "rank": 2
+   },
+   {
+    "module": "ai-write",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ],
+  "intermediate": [
+   {
+    "extra": "Revision with spaced repetition",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "module": "ai-verify",
+    "relevance": "core",
+    "rank": 1
+   },
+   {
+    "module": "ai-domain",
+    "relevance": "core",
+    "rank": 3
+   },
+   {
+    "module": "ai-files",
+    "relevance": "core",
+    "rank": 4
+   }
+  ],
+  "expert": [
+   {
+    "module": "ai-agents",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "ai-teach",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ]
+ }
+}

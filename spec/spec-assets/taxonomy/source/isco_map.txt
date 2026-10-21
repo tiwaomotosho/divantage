@@ -1,0 +1,795 @@
+# ISCO-08 unit group → Digital Advantage family → occupation titles.
+# Each title is matched to an existing identity (label or alias). If none matches, a new identity is created in the family.
+# code | family | Title [alias, alias]; Title; ...
+# New families:
+@family clerical-support | Clerical, customer & information services | business | 42 | email-and-calendar, documents-basics, spreadsheets-basics, customer-support, data-cleaning
+@family retail-street-trade | Shop, market & street trade | business | 52 | point-of-sale, inventory-procurement, online-payments, marketplace-selling, customer-support
+@family plant-machine-operators | Plant & machine operators | manufacturing | 81 | maintenance-cmms, quality-hse, production-planning
+@family assemblers-labourers | Assemblers & manufacturing labourers | manufacturing | 82 | quality-hse, digital-basics
+@family crafts-printing | Handicraft & printing trades | manufacturing | 73 | sell-art-online, product-photography, visual-portfolio, online-payments
+@family food-processing-trades | Food processing trades | manufacturing | 75 | food-safety, recipe-costing, point-of-sale
+@family forestry-fishery | Forestry, fishing & hunting | agriculture | 62 | weather-planning, maps-navigation, agri-market-access
+@family farm-labour | Farm, garden & forestry labourers | agriculture | 92 | weather-planning, digital-basics, driver-earnings
+@family social-sciences-humanities | Social sciences & humanities | science | 26 | literature-review, statistical-analysis, qualitative-analysis, research-surveys, academic-writing
+@family leisure-gaming | Leisure, recreation & gaming | hospitality | 42 | customer-support, point-of-sale, events-management
+@family cleaning-helpers | Cleaning & household help | beauty | 91 | booking-appointments, online-payments, trade-quotes-invoicing
+@family delivery-porterage | Delivery, porterage & transport labour | transport | 93 | driver-earnings, maps-navigation, route-planning-fleet
+@family waste-services | Waste & environmental services workers | agriculture | 96 | route-planning-fleet, maps-navigation, incident-reporting
+@family construction-labour | Construction & mining labourers | construction | 93 | quality-hse, site-management
+@family managers-services | Service, trade & facility managers | business | 14 | kpi-tracking, people-management, booking-appointments, customer-support
+1111 | government | Legislator [lawmaker, parliamentarian]; Senator; Member of Parliament [MP, House of Representatives member]; State Assembly Member [state legislator]; Local Government Councillor [ward councillor]
+1112 | government | Minister [cabinet minister, commissioner (government)]; Permanent Secretary; Ambassador [high commissioner]; Director-General (government); Mayor [local government chairman, LGA chairman]; Governor [state governor]; Senior Government Official
+1113 | community | Traditional Ruler [king, oba, emir, obi, chief]; Village Head [baale, village chief]
+1114 | nonprofit | NGO Executive Director [NGO director]; Trade Union Leader [union official]; Political Party Official [party chairman, party secretary]; Professional Association President; Chamber of Commerce Executive
+1120 | leadership | CEO; Managing Director; Executive Director; Country Manager; Founder and CEO
+1211 | leadership | Finance Manager; CFO; Financial Controller; Treasurer (corporate)
+1212 | hr | HR Manager; Chief People Officer; HR Director
+1213 | government | Policy and Planning Manager; Strategy Manager; Corporate Planning Manager
+1219 | leadership | Administration Manager [admin manager]; Facilities Manager [facility manager]; Corporate Services Manager; Business Services Manager
+1221 | marketing-roles | Marketing Manager; Sales Manager; Business Development Manager; Commercial Director
+1222 | communications | Advertising Manager; PR Manager [public relations manager]; Corporate Communications Manager
+1223 | natural-sciences | Research and Development Manager [R&D manager]; Innovation Manager; Head of Research
+1311 | farming | Farm Manager; Plantation Manager; Agricultural Production Manager; Forestry Manager
+1312 | forestry-fishery | Aquaculture Manager [fish farm manager]; Fisheries Manager
+1321 | manufacturing-roles | Production Manager; Plant Manager; Factory Manager; Manufacturing Manager
+1322 | mining | Mine Manager; Quarry Manager
+1323 | building-trades | Construction Manager; Project Manager (construction); Site Manager; Builder
+1324 | administration | Supply Chain Manager; Logistics Manager; Warehouse Manager; Distribution Manager; Procurement Manager
+1330 | it-support | IT Manager; CTO; Chief Information Officer [CIO]; ICT Director
+1341 | managers-services | Childcare Centre Manager [creche owner, daycare owner]; Nursery School Proprietor
+1342 | health-admin | Hospital Administrator; Practice Manager; Medical Director; Director of Nursing
+1343 | social-work | Elderly Care Manager; Nursing Home Manager
+1344 | social-work | Social Welfare Manager; Children's Home Manager; Community Services Manager
+1345 | teachers | Head Teacher; School Proprietor [school owner]; Dean; Education Officer (district) [education secretary]; Vice-Chancellor [university president, rector]
+1346 | banking-insurance | Branch Manager (bank); Insurance Branch Manager
+1349 | managers-services | Library Manager; Law Firm Manager [practice administrator (legal)]; Professional Services Manager
+1411 | tourism-lodging | Hotel Manager; Resort Manager; Guesthouse Owner
+1412 | food-service | Restaurant Manager; Restaurant Owner; Catering Manager
+1420 | retail-street-trade | Retail Store Manager [shop manager]; Supermarket Owner; Wholesale Distributor [wholesaler]; Store Manager
+1431 | managers-services | Sports Centre Manager [leisure centre manager]; Club Manager; Cultural Centre Manager; Cinema Manager
+1439 | managers-services | Event Centre Manager [event hall owner]; Travel Agency Manager; Salon Owner; Laundry Owner; Car Wash Owner; Filling Station Manager [petrol station manager]
+2111 | natural-sciences | Physicist; Astronomer; Nuclear Physicist
+2112 | natural-sciences | Meteorologist; Climatologist [climate scientist]
+2113 | natural-sciences | Chemist; Analytical Chemist; Industrial Chemist
+2114 | geoscience | Geologist; Geophysicist; Petroleum Geologist; Seismologist; Hydrogeologist
+2120 | data-roles | Mathematician; Actuary; Statistician; Data Scientist
+2131 | natural-sciences | Biologist; Microbiologist; Botanist; Zoologist; Marine Biologist; Entomologist; Ecologist
+2132 | farming | Agronomist; Agricultural Extension Officer; Forestry Adviser; Fisheries Adviser
+2133 | food-env | Environmental Scientist; Conservationist; Environmental Protection Officer; Sustainability Manager
+2141 | industrial-systems | Industrial Engineer; Production Engineer; Quality Engineer
+2142 | civil-structural | Civil Engineer; Structural Engineer; Geotechnical Engineer; Transportation Engineer
+2143 | civil-structural | Environmental Engineer; Water Treatment Engineer
+2144 | mechanical | Mechanical Engineer; Aerospace Engineer; Automotive Engineer; Marine Engineer
+2145 | chemical-process | Chemical Engineer; Petrochemical Engineer
+2146 | mining | Mining Engineer; Metallurgist; Petroleum Engineer; Drilling Engineer
+2149 | industrial-systems | Biomedical Engineer; Agricultural Engineer; Nuclear Engineer; Materials Engineer; Safety Engineer [Health and Safety Engineer]
+2151 | electrical-electronic | Electrical Engineer; Power Systems Engineer
+2152 | electrical-electronic | Electronics Engineer; Embedded Systems Engineer; Control Systems Engineer
+2153 | electrical-electronic | Telecommunications Engineer; Network Planning Engineer (telecoms)
+2161 | architecture-planning | Architect
+2162 | architecture-planning | Landscape Architect
+2163 | visual-design | Fashion Designer; Product Designer (industrial); Jewellery Designer; Footwear Designer; Furniture Designer; Textile Designer
+2164 | architecture-planning | Urban Planner; Traffic Planner [transport planner]
+2165 | surveying-geomatics | Land Surveyor; Cartographer; Hydrographic Surveyor; Photogrammetrist
+2166 | visual-design | Graphic Designer; Web Designer; Animator; Motion Designer; Illustrator; UI Designer; Game Artist
+2211 | medical-doctors | General Practitioner; Medical Officer [house officer]
+2212 | medical-doctors | Surgeon; Paediatrician; Cardiologist; Psychiatrist; Radiologist; Anaesthetist; Obstetrician and Gynaecologist; Ophthalmologist; Dermatologist; Pathologist
+2221 | nursing-midwifery | Nurse; Nurse Practitioner; Critical Care Nurse
+2222 | nursing-midwifery | Midwife
+2230 | traditional-complementary | Traditional Medicine Practitioner; Acupuncturist; Homeopath; Naturopath; Ayurvedic Practitioner
+2240 | allied-health | Clinical Officer [physician assistant, PA (medical)]; Advanced Paramedic
+2250 | veterinary | Veterinarian
+2261 | dentistry | Dentist; Orthodontist
+2262 | pharmacy | Pharmacist; Clinical Pharmacist
+2263 | public-health | Environmental Health Officer; Occupational Hygienist; Occupational Health and Safety Specialist
+2264 | allied-health | Physiotherapist
+2265 | allied-health | Dietitian; Nutritionist (clinical)
+2266 | allied-health | Audiologist; Speech and Language Therapist
+2267 | allied-health | Optometrist
+2269 | allied-health | Occupational Therapist; Podiatrist; Chiropractor; Osteopath; Art Therapist; Music Therapist; Respiratory Therapist
+2310 | higher-ed-research | Lecturer; Professor; Senior Lecturer
+2320 | teachers | Vocational Instructor; Technical College Lecturer [polytechnic lecturer]
+2330 | teachers | Secondary School Teacher
+2341 | teachers | Primary School Teacher
+2342 | teachers | Early Years Teacher; Montessori Teacher
+2351 | higher-ed-research | Curriculum Developer; Education Consultant; Instructional Designer; School Inspector [education inspector]
+2352 | teachers | Special Education Teacher; Braille Teacher
+2353 | teachers | Foreign Language Teacher; TEFL Teacher; Sign Language Teacher
+2354 | teachers | Music Teacher [piano teacher, guitar teacher, voice coach, singing teacher]
+2355 | teachers | Art Teacher; Dance Teacher [dance instructor]; Drama Teacher
+2356 | teachers | IT Trainer; Coding Instructor
+2359 | teachers | Private Tutor; Exam Coach [lesson teacher]; Religious Teacher
+2411 | accounting | Accountant; Auditor; Tax Accountant; Management Accountant
+2412 | banking-insurance | Financial Adviser; Investment Adviser; Wealth Manager
+2413 | finance-investment | Financial Analyst; Investment Analyst; Equity Research Analyst; Credit Analyst
+2421 | consulting | Management Consultant; Business Analyst; Organisational Development Specialist [OD specialist]; Strategy Consultant
+2422 | government | Policy Analyst; Programme Officer (government)
+2423 | hr | Recruiter; Career Counsellor; HR Officer
+2424 | hr | Learning and Development Manager; Corporate Trainer
+2431 | marketing-roles | Digital Marketer; Brand Manager; Marketing Manager; SEO Specialist; Market Researcher
+2432 | communications | PR Specialist; Communications Officer
+2433 | sales | Medical Sales Representative; Technical Sales Engineer [sales engineer]
+2434 | sales | IT Sales Executive [software sales, SaaS account executive]; Solutions Engineer
+2511 | product-design-tech | Systems Analyst; Business Analyst; Solutions Architect
+2512 | software-engineering | Software Engineer; Backend Developer; Mobile Developer; Game Developer
+2513 | software-engineering | Web Developer [frontend developer]; Full-Stack Developer; Multimedia Developer
+2514 | software-engineering | Applications Programmer; Salesforce Developer; SAP Consultant
+2519 | quality-testing | QA Tester; QA Automation Engineer; Software Tester
+2521 | devops-cloud | Database Administrator; Data Architect
+2522 | devops-cloud | Systems Administrator; DevOps Engineer; Cloud Engineer
+2523 | it-support | Network Engineer; Network Architect
+2529 | security | Cybersecurity Analyst; Penetration Tester; Security Engineer; Digital Forensics Investigator
+2611 | legal-professionals | Lawyer; Barrister; Solicitor; Prosecutor
+2612 | legal-professionals | Judge; Magistrate
+2619 | legal-professionals | Notary Public; Legal Adviser [in-house counsel]; Arbitrator; Coroner
+2621 | social-sciences-humanities | Archivist; Museum Curator [gallery curator]; Conservator (art)
+2622 | higher-ed-research | Librarian; Information Scientist
+2631 | finance-investment | Economist
+2632 | social-sciences-humanities | Sociologist; Anthropologist; Archaeologist; Demographer
+2633 | social-sciences-humanities | Historian; Philosopher; Political Scientist; Political Analyst
+2634 | mental-health | Psychologist; Clinical Psychologist
+2635 | social-work | Social Worker; Counsellor; Marriage Counsellor [family therapist]
+2636 | clergy | Pastor; Priest; Imam; Rabbi; Bishop; Theologian; Monk
+2641 | writing-journalism | Writer; Novelist; Poet; Screenwriter; Copywriter; Technical Writer; Playwright
+2642 | writing-journalism | Journalist; Editor; Columnist; News Reporter [reporter]
+2643 | writing-journalism | Translator; Interpreter; Linguist; Sign Language Interpreter; Lexicographer
+2651 | visual-arts-crafts | Visual Artist; Painter (artist) [fine art painter]; Sculptor; Cartoonist; Printmaker
+2652 | music-performing | Musician; Singer; Songwriter; Composer; Music Producer; Conductor [orchestra conductor, choirmaster]; Guitarist; Pianist; Drummer; Bass Guitarist [bassist]; Keyboardist; Violinist; Saxophonist; Trumpeter; Organist; Opera Singer; Backup Singer [backing vocalist]; Talking Drummer; Music Arranger; Music Director; DJ; Rapper; Gospel Artist; Session Musician; Choir Director; Film Composer
+2653 | performing-arts | Dancer; Choreographer
+2654 | film-video-photo | Film Director; Film Producer; Theatre Director [stage director]; TV Producer; Music Video Director
+2655 | performing-arts | Actor; Voice-over Artist
+2656 | writing-journalism | Radio Presenter; TV Presenter [television host]; News Presenter; Sports Commentator; Event MC
+2659 | performing-arts | Comedian; Magician; Puppeteer; Circus Performer; Street Performer [busker]; Spoken Word Artist
+3111 | natural-sciences | Laboratory Technician; Chemistry Lab Technician
+3112 | engineering-technicians | Civil Engineering Technician; Materials Testing Technician [Laboratory Technician (engineering)]
+3113 | engineering-technicians | Electrical Technician
+3114 | engineering-technicians | Electronics Technician [Phone and Electronics Repairer]; Instrumentation Technician
+3115 | engineering-technicians | Mechanical Technician
+3116 | engineering-technicians | Chemical Engineering Technician; Process Technician
+3117 | mining | Mining Technician; Metallurgical Technician
+3118 | engineering-technicians | Draughtsperson; CAD Technician; Architectural Technologist
+3119 | engineering-technicians | Quality Inspector; Non-Destructive Testing Technician; Calibration Technician; Forensic Technician
+3121 | mining | Mine Supervisor [shift boss (mine)]
+3122 | manufacturing-roles | Production Supervisor; Shift Supervisor
+3123 | building-trades | Site Supervisor; Construction Foreman; Clerk of Works
+3131 | energy-power | Power Plant Operator; Control Room Operator
+3132 | plant-machine-operators | Water Treatment Plant Operator; Incinerator Operator
+3133 | plant-machine-operators | Chemical Plant Operator
+3134 | energy-ops | Refinery Operator; Process Operator (oil and gas); Gas Plant Operator
+3135 | plant-machine-operators | Steel Plant Controller [metal production controller]
+3139 | plant-machine-operators | Robot Operator [automated line operator]; Process Control Technician
+3141 | natural-sciences | Biology Lab Technician; Biotechnology Technician
+3142 | farming | Agricultural Technician; Farm Technician; Soil Testing Technician
+3143 | forestry-fishery | Forestry Technician; Forest Guard
+3151 | maritime-rail | Marine Engineer (seafarer)
+3152 | maritime-rail | Ship Captain; Marine Officer; Marine Pilot [harbour pilot]
+3153 | aviation | Pilot; Flight Engineer; Drone Pilot
+3154 | aviation | Air Traffic Controller
+3155 | aviation | Air Traffic Safety Electronics Technician [ATSEP]
+3211 | diagnostics | Radiographer; Sonographer; Radiation Therapist
+3212 | diagnostics | Medical Laboratory Scientist; Phlebotomist
+3213 | pharmacy | Pharmacy Technician
+3214 | dentistry | Dental Technician; Prosthetist and Orthotist; Hearing Aid Technician
+3221 | nursing-midwifery | Enrolled Nurse [nursing associate, auxiliary nurse]
+3222 | nursing-midwifery | Community Midwife [auxiliary midwife]; Traditional Birth Attendant
+3230 | traditional-complementary | Herbalist; Bone Setter [traditional bonesetter]; Massage Therapist
+3240 | veterinary | Veterinary Nurse; Animal Health Technician
+3251 | dentistry | Dental Nurse; Dental Hygienist
+3252 | health-admin | Medical Records Officer; Medical Coder
+3253 | public-health | Community Health Worker; Community Health Extension Worker [CHEW]
+3254 | allied-health | Dispensing Optician
+3255 | allied-health | Physiotherapy Assistant
+3256 | allied-health | Medical Assistant; Clinic Assistant
+3257 | public-health | Environmental Health Inspector; Food Safety Inspector; Occupational Safety Inspector
+3258 | allied-health | Paramedic; Ambulance Driver; Emergency Medical Technician
+3259 | allied-health | Anaesthetic Technician; Optical Technician; Health Assistant
+3311 | finance-investment | Stockbroker; Securities Trader; Bureau de Change Operator
+3312 | banking-insurance | Loan Officer; Microfinance Officer; Credit Officer
+3313 | accounting | Bookkeeper; Accounts Officer; Accounts Clerk
+3314 | data-roles | Statistical Assistant; Data Analyst
+3315 | banking-insurance | Claims Adjuster; Estate Surveyor and Valuer; Auctioneer
+3321 | banking-insurance | Insurance Agent
+3322 | sales | Sales Representative; Field Sales Representative; Account Executive
+3323 | administration | Procurement Officer; Buyer (retail); Purchasing Agent
+3324 | retail-street-trade | Commodity Broker; Trade Broker; Commission Agent
+3331 | driving-logistics | Freight Forwarder; Clearing Agent
+3332 | communications | Event Planner; Conference Organiser; Wedding Planner
+3333 | hr | Employment Agent [recruitment agent]; Labour Contractor
+3334 | property | Real Estate Agent; Property Manager; Letting Agent
+3339 | communications | Talent Manager; Literary Agent; Sports Agent; Music Manager
+3341 | administration | Office Manager; Office Supervisor
+3342 | legal-support | Legal Secretary
+3343 | administration | Executive Assistant; Administrative Assistant
+3344 | health-admin | Medical Secretary
+3351 | government | Customs Officer; Immigration Officer; Border Patrol Officer
+3352 | government | Tax Officer
+3353 | government | Social Security Officer
+3354 | government | Licensing Officer [permit officer]; Vehicle Licensing Officer
+3355 | protective | Detective; Police Inspector
+3359 | government | Regulator; Building Inspector; Weights and Measures Inspector; Fire Safety Inspector
+3411 | legal-support | Paralegal; Court Clerk; Bailiff
+3412 | social-work | Youth Worker; Welfare Officer; Community Development Worker
+3413 | faith-workers | Deacon; Catechist; Evangelist (lay); Church Worker [church administrator]
+3421 | athletes | Athlete; Footballer; Basketball Player; Boxer
+3422 | coaching | Sports Coach; Referee; Swimming Instructor; Golf Instructor
+3423 | coaching | Fitness Instructor; Personal Trainer; Yoga Teacher; Recreation Officer
+3431 | film-video-photo | Photographer
+3432 | architecture-planning | Interior Designer; Interior Decorator; Window Dresser [visual merchandiser]
+3433 | higher-ed-research | Museum Technician; Library Technician
+3434 | food-service | Chef
+3435 | performing-arts | Stage Manager; Theatre Technician; Make-up Artist (theatre); Costume Designer; Tattoo Artist
+3511 | it-support | IT Operations Technician; Data Centre Technician
+3512 | it-support | IT Support Technician
+3513 | it-support | Network Technician; Systems Technician
+3514 | it-support | Web Administrator
+3521 | film-video-photo | Sound Engineer; Camera Operator; Broadcast Technician; Video Editor; Lighting Technician (film) [Gaffer]
+3522 | engineering-technicians | Telecom Technician
+4110 | clerical-support | Office Clerk [general clerk]; Administrative Officer
+4120 | clerical-support | Secretary
+4131 | clerical-support | Typist [word processor operator]
+4132 | clerical-support | Data Entry Clerk
+4211 | banking-insurance | Bank Teller; Cashier (bank)
+4212 | leisure-gaming | Croupier [casino dealer]; Bookmaker; Lottery Agent
+4213 | banking-insurance | Pawnbroker; Money Lender [licensed moneylender]
+4214 | banking-insurance | Debt Collector [recovery officer]
+4221 | tourism-lodging | Travel Agent; Ticketing Officer [airline ticketing agent]
+4222 | clerical-support | Call Centre Agent [Customer Service Representative]
+4223 | clerical-support | Switchboard Operator [telephone operator]
+4224 | tourism-lodging | Hotel Receptionist
+4225 | clerical-support | Enquiry Clerk [information desk officer]
+4226 | administration | Receptionist
+4227 | clerical-support | Survey Interviewer [market research interviewer, field enumerator]
+4229 | clerical-support | Customer Information Officer; Patient Registration Clerk
+4311 | accounting | Accounts Payable Clerk; Accounts Receivable Clerk; Billing Clerk
+4312 | clerical-support | Insurance Clerk; Statistical Clerk
+4313 | accounting | Payroll Administrator
+4321 | driving-logistics | Storekeeper [stock clerk]; Inventory Clerk
+4322 | manufacturing-roles | Production Clerk; Production Planner
+4323 | driving-logistics | Transport Clerk; Shipping Clerk; Dispatcher
+4411 | clerical-support | Library Clerk
+4412 | delivery-porterage | Postman [mail carrier, postal worker]; Mail Sorter
+4413 | clerical-support | Proofreader; Coding Clerk
+4414 | clerical-support | Letter Writer [public scribe]
+4415 | clerical-support | Filing Clerk; Photocopy Operator; Records Clerk
+4416 | hr | Personnel Clerk [HR assistant]
+4419 | clerical-support | Correspondence Clerk; Clerical Assistant
+5111 | aviation | Flight Attendant; Train Attendant; Ship Steward
+5112 | driving-logistics | Bus Conductor [conductor (bus)]; Ticket Inspector
+5113 | tourism-lodging | Tour Guide; Museum Guide
+5120 | food-service | Cook; Caterer; Private Chef
+5131 | food-service | Waiter
+5132 | food-service | Bartender; Barista
+5141 | beauty-roles | Hairdresser; Barber; Braider [hair braider]
+5142 | beauty-roles | Beautician; Makeup Artist; Nail Technician; Lash Technician
+5151 | cleaning-helpers | Housekeeping Supervisor; Cleaning Supervisor
+5152 | cleaning-helpers | Housekeeper (domestic)
+5153 | cleaning-helpers | Caretaker [building caretaker, janitor]; Estate Manager (residential)
+5161 | personal-services | Astrologer; Fortune Teller
+5162 | personal-services | Personal Companion [Elderly Companion]; Valet
+5163 | personal-services | Funeral Director; Embalmer
+5164 | personal-services | Pet Groomer; Dog Trainer; Animal Shelter Worker [Animal Care Worker]
+5165 | personal-services | Driving Instructor
+5169 | personal-services | Personal Shopper; Wedding Coordinator; Errand Runner
+5211 | retail-street-trade | Market Trader [Trader]; Stall Holder
+5212 | retail-street-trade | Street Food Vendor [Food Vendor]; Roadside Food Seller [mama put, buka owner]
+5221 | retail-street-trade | Shop Keeper [shop owner, provision store owner]; Kiosk Owner
+5222 | retail-street-trade | Shop Supervisor; Floor Manager (retail)
+5223 | retail-street-trade | Retail Sales Assistant
+5230 | retail-street-trade | Cashier; Ticket Seller
+5241 | beauty-roles | Model
+5242 | sales | Sales Demonstrator; Brand Ambassador; Product Promoter
+5243 | sales | Door-to-door Salesperson; Hawker [itinerant trader]
+5244 | sales | Telemarketer
+5245 | retail-street-trade | Fuel Attendant [petrol attendant, pump attendant]
+5246 | food-service | Fast Food Server [counter attendant]
+5249 | retail-street-trade | Rental Clerk [Event Rentals Business Owner]; Sales Clerk
+5311 | personal-services | Nanny; Childminder; Daycare Worker
+5312 | teachers | Teaching Assistant
+5321 | nursing-midwifery | Healthcare Assistant
+5322 | social-work | Home Care Worker [Care Worker]
+5329 | allied-health | Patient Care Assistant [ward assistant]; Pharmacy Assistant
+5411 | protective | Firefighter
+5412 | protective | Police Officer; Traffic Warden
+5413 | protective | Prison Officer
+5414 | protective | Security Guard; Night Watchman [watchman, maiguard]
+5419 | protective | Lifeguard; Road Safety Officer; Community Vigilante [neighbourhood watch]
+6111 | farming | Crop Farmer; Vegetable Farmer; Rice Farmer; Cassava Farmer
+6112 | farming | Cocoa Farmer; Plantation Farmer; Fruit Farmer [orchard farmer]
+6113 | farming | Greenhouse Grower; Nursery Grower [plant nursery owner]; Landscape Gardener; Florist
+6114 | farming | Mixed Crop Farmer
+6121 | farming | Livestock Farmer; Dairy Farmer; Goat Farmer; Pig Farmer
+6122 | farming | Poultry Farmer
+6123 | farming | Beekeeper; Silk Farmer [sericulturist]
+6129 | farming | Snail Farmer; Rabbit Farmer; Grasscutter Farmer [cane rat farmer]
+6130 | farming | Farmer; Mixed Farmer
+6210 | forestry-fishery | Forester; Logger [timber feller]; Charcoal Producer
+6221 | forestry-fishery | Fish Farmer
+6222 | forestry-fishery | Fisherman [fisher, artisanal fisher]
+6223 | forestry-fishery | Deep-sea Fisher [trawler crew]
+6224 | forestry-fishery | Hunter; Trapper
+6310 | farming | Smallholder Farmer
+6320 | farming | Subsistence Livestock Keeper [pastoralist, herder]
+6330 | farming | Subsistence Farmer
+6340 | forestry-fishery | Subsistence Fisher; Gatherer [forest produce gatherer]
+7111 | building-trades | Builder; House Builder
+7112 | building-trades | Bricklayer
+7113 | building-trades | Stonemason; Stone Carver
+7114 | building-trades | Concrete Finisher [concreter]; Paver
+7115 | building-trades | Carpenter; Joiner; Roof Carpenter
+7119 | building-trades | Scaffolder; Steel Fixer; Demolition Worker
+7121 | building-trades | Roofer
+7122 | building-trades | Tiler; Floor Layer
+7123 | building-trades | Plasterer; POP Ceiling Installer
+7124 | building-trades | Insulation Installer
+7125 | building-trades | Glazier; Aluminium Fabricator
+7126 | building-trades | Plumber; Pipefitter
+7127 | building-trades | HVAC Technician; Refrigeration Technician
+7131 | building-trades | Painter and Decorator; Wallpaper Hanger
+7132 | repair-trades | Auto Spray Painter; Furniture Varnisher
+7133 | cleaning-helpers | Facade Cleaner [building cleaner]; Chimney Sweep
+7211 | repair-trades | Metal Moulder [foundry worker]
+7212 | building-trades | Welder
+7213 | repair-trades | Sheet Metal Worker; Panel Beater
+7214 | building-trades | Structural Steel Erector; Ironworker
+7215 | building-trades | Rigger; Cable Splicer
+7221 | repair-trades | Blacksmith
+7222 | repair-trades | Toolmaker; Locksmith
+7223 | manufacturing-roles | Machine Operator; CNC Machinist
+7224 | repair-trades | Knife Sharpener [tool sharpener]; Metal Polisher
+7231 | repair-trades | Mechanic; Motorcycle Mechanic; Auto Electrician; Vulcaniser
+7232 | aviation | Aircraft Maintenance Engineer
+7233 | repair-trades | Agricultural Machinery Mechanic [tractor mechanic]; Industrial Machinery Mechanic; Generator Technician
+7234 | repair-trades | Bicycle Mechanic
+7311 | repair-trades | Watch Repairer; Precision Instrument Maker
+7312 | crafts-printing | Musical Instrument Maker [luthier, drum maker]; Piano Tuner
+7313 | crafts-printing | Jeweller [goldsmith, silversmith]; Bead Maker
+7314 | crafts-printing | Potter
+7315 | crafts-printing | Glassblower [glass maker]
+7316 | crafts-printing | Signwriter; Engraver
+7317 | crafts-printing | Basket Weaver; Woodcarver; Cane Furniture Maker
+7318 | crafts-printing | Leatherworker [bag maker]; Weaver (handloom) [adire maker, aso-oke weaver, kente weaver]; Textile Dyer
+7319 | crafts-printing | Craftsperson; Candle Maker; Soap and Cosmetics Maker
+7321 | crafts-printing | Pre-press Technician; Graphic Prepress Operator
+7322 | crafts-printing | Printer; Printing Business Owner
+7323 | crafts-printing | Bookbinder; Print Finisher
+7411 | building-trades | Electrician
+7412 | repair-trades | Electrical Fitter; Motor Rewinder [coil winder]
+7413 | energy-power | Utility Lineworker
+7421 | repair-trades | Electronics Repairer; Appliance Repair Technician; TV Repairer
+7422 | it-support | Computer Repair Technician; Telecom Installer [fibre installer]; CCTV Installer
+7511 | food-processing-trades | Butcher; Fishmonger; Fish Smoker
+7512 | food-processing-trades | Baker; Cake Maker; Confectioner
+7513 | food-processing-trades | Cheese Maker [dairy products maker]; Yoghurt Maker
+7514 | food-processing-trades | Food Processor; Garri Processor [cassava processor]; Fruit Juice Maker
+7515 | food-processing-trades | Food Taster [quality grader (food)]; Coffee Taster; Wine Taster
+7516 | food-processing-trades | Tobacco Processor
+7521 | crafts-printing | Wood Treater [timber treater]
+7522 | crafts-printing | Cabinet Maker; Furniture Maker
+7523 | manufacturing-roles | Sawmill Operator [woodworking machine operator]
+7531 | repair-trades | Tailor; Hatter; Fashion Designer
+7532 | crafts-printing | Pattern Maker; Garment Cutter
+7533 | crafts-printing | Embroiderer; Seamstress
+7534 | repair-trades | Upholsterer
+7535 | crafts-printing | Tanner; Leather Dresser
+7536 | repair-trades | Shoemaker; Cobbler
+7541 | energy-ops | Commercial Diver [underwater diver, saturation diver]
+7542 | mining | Shotfirer [blaster]
+7543 | manufacturing-roles | Product Tester [quality grader]
+7544 | personal-services | Fumigator [pest control technician]
+7549 | crafts-printing | Optical Lens Grinder; Taxidermist
+8111 | mining | Miner; Quarry Worker; Mine Worker
+8112 | mining | Mineral Processing Operator; Stone Crusher Operator
+8113 | energy-ops | Borehole Driller; Rig Worker; Water Well Driller
+8114 | plant-machine-operators | Cement Plant Operator; Block Moulding Machine Operator [block maker]
+8121 | plant-machine-operators | Metal Processing Plant Operator; Furnace Operator
+8122 | plant-machine-operators | Electroplater; Galvaniser
+8131 | plant-machine-operators | Chemical Products Machine Operator; Paint Manufacturing Operator
+8132 | plant-machine-operators | Photographic Lab Operator [photo printer]
+8141 | plant-machine-operators | Rubber Products Machine Operator
+8142 | plant-machine-operators | Plastic Products Machine Operator [Plastics Technician]
+8143 | plant-machine-operators | Paper Products Machine Operator
+8151 | plant-machine-operators | Spinning Machine Operator
+8152 | plant-machine-operators | Weaving Machine Operator; Knitting Machine Operator
+8153 | plant-machine-operators | Sewing Machine Operator; Garment Factory Machinist
+8154 | plant-machine-operators | Dyeing Machine Operator
+8155 | plant-machine-operators | Leather Preparing Machine Operator
+8156 | plant-machine-operators | Shoe Factory Machine Operator
+8157 | plant-machine-operators | Laundry Machine Operator; Dry Cleaner
+8159 | plant-machine-operators | Textile Machine Operator; Fabric Finishing Machine Operator
+8160 | food-processing-trades | Food Processing Machine Operator; Bottling Plant Operator; Flour Mill Operator; Rice Mill Operator
+8171 | plant-machine-operators | Paper Mill Operator
+8172 | plant-machine-operators | Wood Processing Plant Operator
+8181 | plant-machine-operators | Glass Plant Operator; Ceramics Kiln Operator
+8182 | plant-machine-operators | Boiler Operator; Steam Engine Operator
+8183 | plant-machine-operators | Packaging Operator; Bottling Machine Operator; Labelling Machine Operator
+8189 | plant-machine-operators | Water Packaging Machine Operator [sachet water producer, pure water producer]; Generator Operator
+8211 | assemblers-labourers | Mechanical Assembler
+8212 | assemblers-labourers | Electronics Assembler; Solar Panel Assembler
+8219 | assemblers-labourers | Assembly Worker; Furniture Assembler
+8311 | maritime-rail | Train Driver
+8312 | maritime-rail | Railway Signal Operator; Rail Operations Controller
+8321 | driving-logistics | Motorcycle Taxi Rider; Delivery Rider; Dispatch Rider
+8322 | driving-logistics | Driver; Taxi Driver; Ride-hailing Driver; Chauffeur; Tricycle Rider
+8331 | driving-logistics | Bus Driver; Tram Driver
+8332 | driving-logistics | Truck Driver; Tanker Driver
+8341 | farming | Tractor Operator; Combine Harvester Operator
+8342 | building-trades | Heavy Equipment Operator; Excavator Operator; Bulldozer Operator
+8343 | building-trades | Crane Operator; Offshore Crane Operator
+8344 | driving-logistics | Forklift Operator [Warehouse Operative]
+8350 | maritime-rail | Seafarer; Deckhand; Boat Operator [boat driver, ferry operator]
+9111 | cleaning-helpers | Domestic Worker; House Cleaner
+9112 | cleaning-helpers | Cleaner; Office Cleaner; Hospital Cleaner
+9121 | cleaning-helpers | Launderer [washerman, dry cleaner (hand)]; Ironing Service Provider
+9122 | cleaning-helpers | Car Washer [car wash attendant]
+9123 | cleaning-helpers | Window Cleaner
+9129 | cleaning-helpers | Swimming Pool Cleaner; Carpet Cleaner; Fumigation and Cleaning Contractor
+9211 | farm-labour | Farm Worker; Farm Labourer
+9212 | farm-labour | Herdsman [livestock labourer, cattle herder]
+9213 | farm-labour | Farmhand
+9214 | farm-labour | Gardener [garden labourer]; Groundskeeper
+9215 | farm-labour | Forestry Labourer [tree planter]
+9216 | farm-labour | Fish Farm Labourer; Fishing Crew Member
+9311 | construction-labour | Mining Labourer; Quarry Labourer
+9312 | construction-labour | Road Construction Labourer; Civil Works Labourer
+9313 | construction-labour | Construction Labourer; Site Labourer [labourer]
+9321 | assemblers-labourers | Hand Packer [packer]
+9329 | assemblers-labourers | Factory Worker; Factory Labourer
+9331 | delivery-porterage | Cart Pusher [wheelbarrow pusher, truck pusher]; Pedicab Rider [cycle rickshaw rider]
+9332 | delivery-porterage | Animal Cart Driver
+9333 | delivery-porterage | Loader [freight handler, dock worker, mover]; Removal Company Owner
+9334 | retail-street-trade | Shelf Stacker [shelf filler]
+9411 | food-service | Fast Food Cook [fast food preparer]
+9412 | food-service | Kitchen Porter; Kitchen Assistant
+9510 | delivery-porterage | Shoe Shiner; Car Park Attendant [park attendant]; Bus Station Tout [loader (motor park)]
+9520 | retail-street-trade | Street Vendor; Newspaper Vendor; Recharge Card Seller [airtime vendor]
+9611 | waste-services | Waste Collector [garbage collector, refuse collector]; Recycling Collector [scavenger, scrap collector]
+9612 | waste-services | Waste Sorter [recycling sorter]
+9613 | waste-services | Street Sweeper
+9621 | delivery-porterage | Messenger [office messenger, courier]; Porter [hotel porter, luggage porter]
+9622 | delivery-porterage | Handyman [odd job worker]
+9623 | delivery-porterage | Meter Reader; Vending Machine Collector
+9624 | delivery-porterage | Water Vendor [water carrier, mai ruwa]; Firewood Seller
+9629 | delivery-porterage | Usher (events); Errand Boy [office assistant (junior)]
+0110 | armed-forces | Military Officer; Military Pilot; Military Intelligence Officer
+0210 | armed-forces | Non-commissioned Officer [sergeant, NCO]
+0310 | armed-forces | Soldier
+# ---- Additional specific titles (exhaustiveness pass) ----
+1112 | government | Special Adviser (government); Chief of Staff (government); Head of Service [head of civil service]; Accountant-General; Auditor-General; Electoral Commissioner
+1114 | nonprofit | Cooperative Union Chairman; Market Association Leader [iyaloja, market leader]; Transport Union Chairman [NURTW chairman, motor park chairman]; Alumni Association President
+1120 | leadership | Group Managing Director; Regional Director; General Manager (operations)
+1211 | leadership | Head of Finance; Finance and Admin Manager
+1212 | hr | Head of HR; HR Business Partner; Talent Manager (HR)
+1219 | leadership | Risk and Compliance Manager; Head of Administration; Programme Director
+1221 | marketing-roles | Chief Marketing Officer [CMO]; Head of Growth; Regional Sales Manager
+1223 | natural-sciences | Research Director; Head of Product Development
+1321 | manufacturing-roles | Head of Operations (manufacturing); Quality Assurance Manager
+1323 | building-trades | Project Engineer (construction); Contracts Manager; Estimator
+1324 | administration | Fleet Manager; Port Manager; Distribution Centre Manager; Inventory Manager
+1330 | it-support | Head of IT Infrastructure; Head of Software Engineering; Digital Director
+1342 | health-admin | Chief Medical Director [CMD]; Health Facility Manager; Primary Health Care Coordinator
+1345 | teachers | Principal [school principal]; Registrar (university); Provost; Rector
+1349 | managers-services | Head of Legal Practice; Museum Director; Archive Manager
+1411 | tourism-lodging | Front Office Manager; Lodge Owner
+1420 | retail-street-trade | Wholesale Trader; Pharmacy Owner; Boutique Owner; Mini-mart Manager
+1431 | managers-services | Gym Owner; Stadium Manager; Theme Park Manager; Recreation Centre Manager
+1439 | managers-services | Laundry Business Owner; Beauty Salon Manager; Call Centre Manager; Courier Company Manager
+2111 | natural-sciences | Astrophysicist; Medical Physicist; Optical Physicist; Space Scientist
+2113 | natural-sciences | Organic Chemist; Polymer Chemist; Forensic Chemist; Quality Control Chemist; Cosmetic Chemist; Petroleum Chemist
+2114 | geoscience | Exploration Geologist; Engineering Geologist; Structural Geologist; Sedimentologist; Geochemist; Geomechanics Specialist; Petrophysicist; Mud Logger
+2120 | data-roles | Biostatistician; Operations Research Analyst; Quantitative Analyst; Data Mining Specialist
+2131 | natural-sciences | Geneticist; Biochemist; Biotechnologist; Immunologist; Virologist; Parasitologist; Mycologist; Wildlife Biologist; Marine Scientist; Plant Pathologist; Animal Scientist
+2132 | farming | Soil Scientist; Animal Nutritionist; Plant Breeder; Agricultural Economist; Horticulturist; Fisheries Scientist
+2133 | food-env | Environmental Consultant; Ecologist (consultant); Climate Change Specialist; Air Quality Specialist; Waste Management Specialist; Environmental Impact Assessor
+2141 | industrial-systems | Process Improvement Engineer; Lean Engineer; Packaging Engineer; Supply Chain Engineer; Ergonomist
+2142 | civil-structural | Highway Engineer; Bridge Engineer; Railway Engineer; Coastal Engineer; Tunnel Engineer; Dam Engineer; Pavement Engineer; Construction Engineer; Site Engineer; Resident Engineer
+2143 | civil-structural | Wastewater Engineer; Solid Waste Engineer; Air Pollution Engineer; Environmental Compliance Engineer
+2144 | mechanical | HVAC Engineer; Piping Engineer; Rotating Equipment Engineer; Thermal Engineer; Maintenance Engineer; Design Engineer; Robotics Engineer; Mechatronics Engineer; Naval Architect; Tribologist
+2145 | chemical-process | Process Engineer; Process Safety Engineer; Polymer Engineer; Biochemical Engineer; Corrosion Engineer; Food Process Engineer; Pharmaceutical Process Engineer
+2146 | mining | Mineral Processing Engineer; Metallurgical Engineer; Reservoir Engineer; Production Engineer; Completions Engineer; Well Planner; Subsea Engineer; Pipeline Engineer; Flow Assurance Engineer; Well Integrity Engineer
+2149 | industrial-systems | Fire Engineer; Acoustic Engineer; Ocean Engineer; Geomatics Engineer; Explosives Engineer; Optical Engineer; Textile Engineer; Packaging Technologist
+2151 | electrical-electronic | Substation Engineer; Protection Engineer; Renewable Energy Engineer; Smart Grid Engineer; Lighting Designer; Electrical Design Engineer; Energy Engineer
+2152 | electrical-electronic | Hardware Engineer; PCB Designer; RF Engineer; Instrumentation Engineer; Semiconductor Engineer; Avionics Engineer
+2153 | electrical-electronic | Network Planning Engineer; Fibre Optic Engineer; Satellite Communications Engineer; Broadcast Engineer; 5G Engineer
+2161 | architecture-planning | Conservation Architect; Sustainable Building Consultant; Architectural Designer
+2163 | visual-design | Industrial Designer; Toy Designer; Accessories Designer; Costume Designer (fashion)
+2164 | architecture-planning | Regional Planner; Environmental Planner; Land Use Planner
+2165 | surveying-geomatics | Quantity Surveyor; Mine Surveyor; GIS Analyst; Remote Sensing Analyst; Geodesist
+2166 | visual-design | Brand Designer; Packaging Designer; Presentation Designer; Infographic Designer; 3D Artist; Visual Designer; Multimedia Designer; Digital Artist
+2212 | medical-doctors | Neurologist; Oncologist; Nephrologist; Gastroenterologist; Endocrinologist; Pulmonologist; Rheumatologist; Haematologist; Urologist; ENT Surgeon; Neurosurgeon; Orthopaedic Surgeon; Emergency Physician; Geriatrician; Neonatologist; Public Health Physician; Sports Medicine Physician; Forensic Pathologist; Nuclear Medicine Physician; Infectious Disease Physician; Plastic Surgeon; Cardiothoracic Surgeon; Vascular Surgeon; Interventional Radiologist
+2221 | nursing-midwifery | Paediatric Nurse; Mental Health Nurse; Theatre Nurse; Oncology Nurse; Community Health Nurse; Nurse Educator; Occupational Health Nurse; Dialysis Nurse; Neonatal Nurse; Emergency Nurse; Public Health Nurse; Nurse Manager [matron, nursing officer]
+2230 | traditional-complementary | Chinese Medicine Practitioner [TCM practitioner]; Reflexologist; Aromatherapist
+2240 | allied-health | Physician Associate; Surgical Assistant
+2261 | dentistry | Periodontist; Oral and Maxillofacial Surgeon; Endodontist; Prosthodontist; Paediatric Dentist; Dental Surgeon
+2262 | pharmacy | Hospital Pharmacist; Community Pharmacist; Industrial Pharmacist; Regulatory Affairs Pharmacist; Pharmacovigilance Officer
+2263 | public-health | Health, Safety and Environment Advisor [HSE Advisor]; Infection Control Officer; Industrial Hygienist
+2264 | allied-health | Sports Physiotherapist; Neurological Physiotherapist; Paediatric Physiotherapist; Musculoskeletal Physiotherapist; Respiratory Physiotherapist
+2265 | allied-health | Sports Nutritionist; Clinical Dietitian; Public Health Nutritionist
+2266 | allied-health | Speech Therapist; Hearing Therapist
+2267 | allied-health | Optician; Orthoptist; Contact Lens Specialist
+2269 | allied-health | Exercise Physiologist; Genetic Counsellor; Lactation Consultant; Drama Therapist; Recreational Therapist; Perfusionist; Clinical Embryologist
+2310 | higher-ed-research | Associate Professor; Teaching Fellow; Graduate Teaching Assistant; Postdoctoral Researcher
+2320 | teachers | Agricultural College Instructor; Nursing Tutor; Catering Instructor; Fashion Design Instructor
+2330 | teachers | Mathematics Teacher; Science Teacher; English Teacher; History Teacher; Computer Science Teacher; Physical Education Teacher; Business Studies Teacher; Agricultural Science Teacher; Technical Drawing Teacher; Religious Education Teacher; Geography Teacher; Economics Teacher; Literature Teacher; Chemistry Teacher; Physics Teacher; Biology Teacher; French Teacher
+2341 | teachers | Class Teacher (primary); Primary Mathematics Teacher
+2342 | teachers | Kindergarten Teacher; Nursery Teacher; Preschool Teacher
+2351 | higher-ed-research | Assessment Specialist; Examination Officer; E-learning Developer; Educational Technologist
+2352 | teachers | Teacher of the Deaf; Teacher of the Visually Impaired; Autism Specialist Teacher; Learning Support Teacher
+2353 | teachers | English as a Foreign Language Teacher; Arabic Teacher; Yoruba Teacher; Hausa Teacher; Igbo Teacher; Chinese Teacher; Swahili Teacher
+2354 | teachers | Piano Teacher; Guitar Teacher; Voice Coach; Choir Trainer; Drum Teacher; Violin Teacher
+2355 | teachers | Photography Teacher; Painting Teacher; Film Instructor
+2356 | teachers | Digital Skills Trainer; Microsoft Office Trainer; Data Analytics Instructor; Cybersecurity Instructor
+2359 | teachers | Adult Literacy Teacher; Homeschool Tutor; Swimming Teacher; Chess Coach; Driving Theory Instructor
+2411 | accounting | Chartered Accountant; Cost Accountant; Forensic Accountant; Public Sector Accountant; Internal Auditor; IT Auditor; External Auditor; Audit Associate; Tax Consultant
+2412 | banking-insurance | Pension Adviser; Retirement Planner; Mortgage Adviser; Financial Planner
+2413 | finance-investment | Credit Risk Analyst; Risk Analyst; Treasury Analyst; FP&A Analyst; Valuation Analyst; ESG Analyst; Project Finance Analyst; Investment Banker; Portfolio Manager; Fund Manager; Private Equity Associate; Venture Capital Analyst; Financial Modeller
+2421 | consulting | Change Management Consultant; Process Consultant; Operations Consultant; HR Consultant; Business Process Analyst; Digital Transformation Consultant; Sustainability Consultant; Development Consultant
+2422 | government | Public Policy Officer; Legislative Aide; Grants Officer (government); Budget Officer; Planning Officer; Monitoring and Evaluation Officer
+2423 | hr | Talent Acquisition Specialist; Headhunter; Career Coach; Job Placement Officer
+2424 | hr | Training Officer; Instructional Coordinator; Onboarding Specialist
+2431 | marketing-roles | Content Marketing Manager; Social Media Manager; Email Marketing Specialist; PPC Specialist; Growth Marketer; Influencer Marketing Manager; Marketing Analyst; Product Marketing Manager; Advertising Executive; Media Planner; Media Buyer; Copy Strategist
+2432 | communications | Corporate Affairs Manager; Internal Communications Manager; Crisis Communications Specialist; Spokesperson; Public Affairs Manager; Media Relations Officer; Speechwriter
+2433 | sales | Pharmaceutical Sales Representative; Medical Device Sales Representative; Industrial Equipment Sales Engineer; Agricultural Input Sales Representative; Solar Sales Representative
+2434 | sales | Cloud Sales Specialist; Software Account Manager; Telecoms Sales Executive
+2511 | product-design-tech | Product Manager; Product Owner; Technical Product Manager; Scrum Master; Requirements Analyst; Systems Architect; Enterprise Architect; Software Architect
+2512 | software-engineering | Frontend Developer; Embedded Software Engineer; AI Engineer; Machine Learning Engineer; Blockchain Developer; Systems Programmer; Software Engineering Manager; Python Developer; Java Developer; JavaScript Developer; .NET Developer; Go Developer; Rust Developer; PHP Developer; Flutter Developer; React Developer; Android Developer; iOS Developer; Unity Developer; Compiler Engineer
+2513 | software-engineering | UX Designer; UI Designer; Product Designer; Webflow Developer; Shopify Developer; WordPress Developer; Creative Technologist; Interactive Media Developer
+2514 | software-engineering | Mainframe Developer; ERP Developer; Low-code Developer [No-Code Developer]; Power Platform Developer; RPA Developer [robotic process automation developer]; Integration Developer
+2519 | quality-testing | Performance Test Engineer; Accessibility Tester; Game Tester; Mobile QA Tester; UAT Tester; QA Lead; Test Manager; Security Tester; Test Analyst
+2521 | devops-cloud | Database Developer; Data Engineer; Database Architect; Data Warehouse Architect
+2522 | devops-cloud | Site Reliability Engineer; Platform Engineer; Linux Administrator; Windows Server Administrator; Cloud Architect; MLOps Engineer; Release Manager; Build Engineer; FinOps Analyst
+2523 | it-support | Network Security Engineer; VoIP Engineer; Wireless Network Engineer
+2529 | security | Security Architect; Incident Responder; GRC Analyst; CISO; Malware Analyst; Threat Intelligence Analyst; Cloud Security Engineer; Bug Bounty Hunter; SOC Analyst; Identity and Access Management Engineer; Application Security Engineer; Data Protection Officer
+2611 | legal-professionals | Corporate Lawyer; Litigation Lawyer; Criminal Lawyer; Family Lawyer; Intellectual Property Lawyer; Tax Lawyer; Employment Lawyer; Real Estate Lawyer; Immigration Lawyer; Energy Lawyer; Human Rights Lawyer; Technology Lawyer; Maritime Lawyer; Sports Lawyer; Entertainment Lawyer; Compliance Lawyer; Banking and Finance Lawyer; Arbitration Lawyer; Constitutional Lawyer; Legal Aid Lawyer; Patent Attorney; Public Prosecutor
+2612 | legal-professionals | High Court Judge; Customary Court Judge; Sharia Court Judge [khadi]; Tribunal Chair
+2619 | legal-professionals | Legal Researcher; Legal Operations Specialist; Mediator; Law Lecturer; Legislative Drafter
+2621 | social-sciences-humanities | Heritage Manager; Records Manager; Digital Archivist; Art Conservator
+2622 | higher-ed-research | Academic Librarian; School Librarian; Law Librarian; Medical Librarian; Knowledge Manager; Information Officer
+2631 | finance-investment | Development Economist; Agricultural Economist; Health Economist; Energy Economist; Econometrician; Petroleum Economist
+2632 | social-sciences-humanities | Social Researcher; Criminologist; Ethnographer; Gender Specialist; Population Scientist
+2633 | social-sciences-humanities | Political Risk Analyst; Policy Researcher; Ethicist; Genealogist; Oral Historian
+2634 | mental-health | Counselling Psychologist; Educational Psychologist; Organisational Psychologist; Forensic Psychologist; Neuropsychologist; Health Psychologist; Sports Psychologist; Child Psychologist
+2635 | social-work | Child Protection Social Worker; Medical Social Worker; Addiction Counsellor; Psychiatric Social Worker; School Counsellor; Grief Counsellor; Rehabilitation Counsellor; Probation Officer; Refugee Caseworker
+2636 | clergy | Senior Pastor; Youth Pastor; Missionary; Chaplain; Evangelist; Prophet [Apostle]; Reverend; Vicar; Archbishop; Cardinal; Muezzin; Hindu Priest; Buddhist Teacher; Church Planter; Worship Pastor; Islamic Scholar [alfa, mallam (scholar)]; Quran Reciter [qari]
+2641 | writing-journalism | Children's Book Author; Ghostwriter; Content Writer; Grant Writer; Speechwriter; Lyricist; Script Writer (TV); Comic Book Writer; Biographer; Book Reviewer; Blogger
+2642 | writing-journalism | Investigative Journalist; Data Journalist; Broadcast Journalist; Sports Journalist; Photojournalist; Foreign Correspondent; Fact-checker; Sub-editor; Managing Editor; Business Journalist; Health Journalist; Music Journalist; Fashion Journalist; Tech Journalist
+2643 | writing-journalism | Conference Interpreter; Medical Interpreter; Legal Translator; Subtitler; Localisation Specialist; Bible Translator; Transcriptionist
+2651 | visual-arts-crafts | Muralist; Portrait Artist; Calligrapher; Digital Illustrator; Ceramic Artist; Installation Artist; Textile Artist; Art Director
+2652 | music-performing | Cellist; Flautist; Clarinettist; Percussionist; Harpist; Bandleader; Afrobeats Artist; Highlife Musician; Fuji Musician; Juju Musician; Jazz Musician; Hip-hop Producer; Beatmaker; Mixing Engineer; Mastering Engineer; Choral Singer; Gospel Singer; Worship Leader; Church Musician; Orchestral Musician; Folk Musician; Kora Player; Sound Designer (music); Music Arranger (church); Recording Artist; Singer-songwriter; Live Sound Engineer
+2653 | performing-arts | Ballet Dancer; Contemporary Dancer; Traditional Dancer [cultural dancer]; Dance Crew Member [backup dancer]; Dance Fitness Instructor
+2654 | film-video-photo | Documentary Filmmaker; Casting Director; Executive Producer; Line Producer; Assistant Director; Creative Director; Animation Director; Podcast Producer; Radio Producer; Event Producer
+2655 | performing-arts | Stage Actor; Film Actor; Voice Actor; Stunt Performer; Extra [background actor]
+2656 | writing-journalism | Disc Jockey (radio) [radio DJ]; Podcast Host; YouTuber; Livestream Host; Newsreader; Weather Presenter
+2659 | performing-arts | Clown; Mime Artist; Ventriloquist; Storyteller; Content Creator; Influencer
+3111 | natural-sciences | Physics Lab Technician; Geology Lab Technician; Petroleum Lab Technician; Water Quality Analyst; QC Lab Analyst
+3112 | engineering-technicians | Highway Technician; Building Technician; Surveying Technician; Soil Testing Technician (civil)
+3113 | engineering-technicians | Electrical Maintenance Technician; Substation Technician; Solar Technician; Electrical Estimator
+3114 | engineering-technicians | Avionics Technician; Biomedical Equipment Technician; Robotics Technician; Telecommunications Technician
+3115 | engineering-technicians | HVAC Design Technician; Maintenance Technician; Automotive Technician; Marine Technician
+3116 | engineering-technicians | Petrochemical Technician; Laboratory Analyst (chemical)
+3117 | mining | Assayer; Mine Ventilation Technician; Geology Technician
+3118 | engineering-technicians | Architectural Draughtsperson; Structural Draughtsperson; Piping Designer; Electrical Draughtsperson; BIM Technician; BIM Coordinator
+3119 | engineering-technicians | Energy Auditor; Fire Protection Technician; Metrology Technician; Lift Technician
+3123 | building-trades | Building Services Supervisor; Interior Fit-out Contractor
+3131 | energy-power | Hydro Plant Operator; Solar Farm Operator; Wind Farm Technician [Wind Turbine Technician]; Grid Control Operator
+3132 | plant-machine-operators | Wastewater Treatment Operator; Water Utility Operator
+3134 | energy-ops | Gas Compression Operator; LNG Plant Operator; Tank Farm Operator; Offshore Production Operator; Control Room Operator (oil and gas)
+3139 | plant-machine-operators | Automation Technician; Industrial Robot Programmer
+3141 | natural-sciences | Microbiology Lab Technician; Seed Lab Technician; Entomology Technician
+3142 | farming | Veterinary Field Assistant; Irrigation Technician; Crop Protection Technician; Hatchery Technician
+3152 | maritime-rail | Chief Officer [first mate]; Dynamic Positioning Officer [DPO]; Tugboat Captain; Dredge Master
+3153 | aviation | Helicopter Pilot; Flight Instructor; Cargo Pilot; Air Ambulance Pilot; Crop Duster Pilot
+3155 | aviation | Navigation Aids Technician
+3211 | diagnostics | MRI Technologist; CT Technologist; Mammographer; Nuclear Medicine Technologist; Interventional Radiographer
+3212 | diagnostics | Histotechnologist; Cytotechnologist; Blood Bank Technologist; Microbiology Laboratory Technician; Haematology Technician
+3213 | pharmacy | Pharmacy Dispenser; Pharmacy Stock Controller
+3214 | dentistry | Orthotic Technician; Prosthetic Technician; Denture Maker
+3221 | nursing-midwifery | Licensed Practical Nurse [LPN]; Community Nurse Assistant
+3252 | health-admin | Health Information Officer; Clinical Coder; Health Records Technician
+3253 | public-health | Village Health Worker; Immunisation Officer; Community Health Volunteer; Health Promoter
+3256 | allied-health | Clinical Support Worker; Outpatient Assistant
+3257 | public-health | Public Health Inspector; Meat Inspector; Port Health Officer
+3258 | allied-health | First Responder; Emergency Care Assistant
+3259 | allied-health | Theatre Technician (medical) [operating department practitioner]; Sterile Services Technician; ECG Technician [Cardiac Physiologist]; Sleep Technologist; Dialysis Technician; Orthopaedic Technician
+3311 | finance-investment | Forex Dealer; Commodity Trader; Crypto Trader; Investment Dealer
+3312 | banking-insurance | Mortgage Officer; Credit Controller; Cooperative Society Officer
+3313 | accounting | Accounts Technician; Audit Assistant; Tax Preparer
+3314 | data-roles | Data Collector; Research Assistant (statistics); Reporting Analyst
+3315 | banking-insurance | Loss Assessor; Quantity Valuer; Art Appraiser; Vehicle Assessor
+3321 | banking-insurance | Insurance Broker; Bancassurance Officer; Takaful Agent
+3322 | sales | Key Account Manager; Distributor Sales Representative; FMCG Sales Representative; Van Sales Representative
+3323 | administration | Merchandise Buyer; Supply Officer; Sourcing Specialist
+3324 | retail-street-trade | Produce Aggregator; Agro-dealer; Cattle Dealer; Grain Merchant
+3331 | driving-logistics | Customs Broker; Shipping Agent; Import Clearing Officer
+3332 | communications | Exhibition Organiser; Festival Organiser; Concert Promoter; Event Decorator
+3333 | hr | Domestic Staff Agent; Outsourcing Agent
+3334 | property | Shortlet Manager [Short-let Host]; Land Agent; Facility Management Officer
+3339 | communications | Booking Agent; Brand Influencer Agent; Model Agent; Advertising Sales Agent
+3341 | administration | Administrative Supervisor; Front Office Supervisor
+3343 | administration | Personal Assistant; Virtual Assistant; Board Secretary
+3344 | health-admin | Ward Clerk; Clinic Receptionist
+3351 | government | Port Inspector; Quarantine Officer
+3352 | government | Revenue Collector; Excise Officer
+3353 | government | Pension Officer; Social Benefits Officer
+3354 | government | Business Registration Officer; Passport Officer; Land Registry Officer
+3355 | protective | Criminal Investigator; Cybercrime Investigator; Fraud Investigator
+3359 | government | Food and Drug Inspector; Standards Inspector; Labour Inspector; Environmental Inspector
+3411 | legal-support | Legal Executive; Process Server; Court Interpreter; Conveyancing Clerk
+3412 | social-work | Community Support Worker; Family Support Worker; Housing Officer; Domestic Violence Advocate; Mental Health Support Worker; Rehabilitation Worker
+3413 | faith-workers | Church Administrator; Mosque Administrator; Sunday School Superintendent; Choir Member; Usher; Prayer Ministry Leader; Children's Church Teacher; Church Media Team Member
+3421 | athletes | Track and Field Athlete; Marathon Runner; Swimmer; Cyclist; Tennis Player; Golfer; Rugby Player; Cricketer; Volleyball Player; Weightlifter; Gymnast; Martial Artist; Wrestler; Table Tennis Player; Badminton Player; Handball Player; Hockey Player; Chess Player; Racing Driver; Jockey; Triathlete; Rower; Esports Player; Para-athlete
+3422 | coaching | Football Coach; Athletics Coach; Basketball Coach; Strength and Conditioning Coach; Goalkeeping Coach; Esports Coach; Umpire; Match Commissioner; Talent Scout; Performance Analyst; Sports Scientist; Kit Manager
+3423 | coaching | Pilates Instructor; Aerobics Instructor; Zumba Instructor; Spin Instructor; Outdoor Activity Instructor; Camp Counsellor; Martial Arts Instructor; Dance Fitness Instructor
+3431 | film-video-photo | Wedding Photographer; Product Photographer; Event Photographer; Fashion Photographer; Real Estate Photographer; Drone Photographer; Passport Photographer; Photo Retoucher; Sports Photographer
+3432 | architecture-planning | Kitchen Designer; Set Designer; Exhibition Designer; Home Stager; Event Stylist
+3433 | higher-ed-research | Gallery Technician; Archive Assistant; Conservation Technician
+3434 | food-service | Head Chef; Sous Chef; Pastry Chef; Executive Chef; Sushi Chef; Grill Chef
+3435 | performing-arts | Prop Maker; Special Effects Technician; Wardrobe Supervisor; Script Supervisor; Production Assistant; Lighting Designer (stage); Rigger (stage); Stage Hand
+3511 | it-support | NOC Engineer [network operations centre engineer]; Backup Administrator; IT Asset Manager
+3512 | it-support | Helpdesk Analyst; Desktop Support Engineer; Field Service Technician (IT); Cloud Support Engineer
+3513 | it-support | Network Support Technician; Server Technician
+3514 | it-support | Webmaster; CMS Administrator [content management administrator]; SEO Technician
+3521 | film-video-photo | Studio Engineer; Boom Operator; Live Stream Technician; Projectionist; Video Technician; Colourist; VFX Artist; Drone Videographer; Event Videographer; Videographer
+3522 | engineering-technicians | Fibre Splicer; Cell Tower Technician; Satellite Installer [DSTV installer]; Radio Technician
+4110 | clerical-support | Administrative Clerk; Office Assistant; Front Desk Clerk
+4120 | clerical-support | Company Secretary Assistant; Typist Secretary
+4132 | clerical-support | Data Capture Officer; Transcription Clerk
+4211 | banking-insurance | Cash Officer; Teller Supervisor; Mobile Money Agent; Agent Banker [POS operator]
+4212 | leisure-gaming | Betting Shop Attendant [sports betting agent]; Casino Floor Supervisor; Bingo Caller
+4214 | banking-insurance | Collections Officer; Repossession Agent
+4221 | tourism-lodging | Visa Consultant; Travel Desk Officer; Reservations Agent
+4222 | clerical-support | Customer Care Agent; Contact Centre Team Leader; Live Chat Agent; Technical Support Agent (call centre)
+4224 | tourism-lodging | Night Auditor; Concierge
+4226 | administration | Dental Receptionist; Veterinary Receptionist; Salon Receptionist
+4227 | clerical-support | Census Enumerator; Poll Interviewer; Mystery Shopper
+4229 | clerical-support | Admissions Clerk; Booking Clerk
+4311 | accounting | Accounts Assistant; Ledger Clerk; Invoice Clerk
+4312 | clerical-support | Claims Clerk; Loans Clerk; Securities Clerk
+4313 | accounting | Payroll Clerk; Payroll Specialist
+4321 | driving-logistics | Store Officer; Warehouse Clerk; Inventory Controller
+4322 | manufacturing-roles | Production Scheduler; Material Planner
+4323 | driving-logistics | Freight Clerk; Logistics Coordinator; Traffic Clerk; Fleet Coordinator
+4412 | delivery-porterage | Courier; Parcel Sorter; Post Office Counter Clerk
+4415 | clerical-support | Archive Clerk; Document Controller; Scanning Operator
+4416 | hr | HR Administrator; Recruitment Coordinator; Leave Administrator
+4419 | clerical-support | Medical Transcriptionist; Office Runner; Court Recorder
+5111 | aviation | Cabin Crew Manager [purser]; Cruise Ship Attendant; Train Hostess
+5112 | driving-logistics | Train Conductor; Ferry Conductor
+5113 | tourism-lodging | Safari Guide; City Tour Guide; Heritage Site Guide; Mountain Guide
+5120 | food-service | Line Cook; Short-order Cook; School Cook; Hospital Cook; Home Cook (for hire); Small Chops Maker [Snack Business Owner]
+5131 | food-service | Head Waiter; Banquet Server; Room Service Attendant
+5132 | food-service | Mixologist; Sommelier; Palm Wine Seller [palm wine tapper]
+5141 | beauty-roles | Wig Maker; Loctician [dreadlocks stylist]; Hair Colourist; Trichologist; Gele Stylist
+5142 | beauty-roles | Esthetician; Skincare Specialist; Spa Therapist; Henna Artist; Brow Technician; Cosmetologist; Skincare Formulator
+5151 | cleaning-helpers | Facility Supervisor; Housekeeping Manager
+5153 | cleaning-helpers | Estate Caretaker [estate officer]; Gateman [gate keeper]
+5161 | personal-services | Numerologist; Palm Reader; Tarot Reader
+5162 | personal-services | Butler; Personal Attendant; Valet Parking Attendant
+5163 | personal-services | Mortician; Crematorium Operator; Grave Digger [cemetery worker]
+5164 | personal-services | Dog Walker; Pet Sitter; Horse Groom [stable hand]; Zookeeper
+5169 | personal-services | Matchmaker; Event Usher; Image Consultant; Personal Stylist; Tattooist [Tattoo Artist]; Body Piercer; Photobooth Operator
+5211 | retail-street-trade | Foodstuff Seller [market woman, foodstuff trader]; Fabric Seller [lace merchant]; Spare Parts Dealer; Phone Accessories Seller
+5212 | retail-street-trade | Suya Seller [suya spot owner]; Corn Roaster; Akara Seller [bean cake seller]; Ice Cream Vendor; Fruit Seller
+5221 | retail-street-trade | Pharmacy Shop Owner [patent medicine vendor, chemist shop owner]; Bookshop Owner; Hardware Store Owner; Electronics Shop Owner; Building Materials Dealer
+5223 | retail-street-trade | Sales Girl [sales boy, shop attendant]; Pharmacy Sales Assistant
+5230 | retail-street-trade | Checkout Operator; Toll Collector; Box Office Cashier
+5241 | beauty-roles | Fashion Model; Commercial Model; Fitness Model; Hand Model
+5242 | sales | Promoter (events) [hype man]; In-store Promoter
+5244 | sales | Outbound Sales Agent; Telesales Executive
+5245 | retail-street-trade | Gas Refill Attendant [cooking gas seller]; Car Park Cashier
+5246 | food-service | Cafeteria Attendant; Canteen Operator
+5249 | retail-street-trade | Auctioneer's Assistant; Pawnshop Assistant; Live Shopping Host
+5311 | personal-services | Au Pair; Creche Attendant; After-school Care Worker
+5312 | teachers | Classroom Assistant; Learning Support Assistant
+5321 | nursing-midwifery | Nursing Aide; Orderly [hospital porter]
+5322 | social-work | Personal Support Worker; Live-in Carer; Disability Support Worker
+5329 | allied-health | Dental Chair Assistant; Optometry Assistant; Laboratory Aide
+5411 | protective | Fire Officer; Fire Station Officer; Airport Firefighter
+5412 | protective | Police Sergeant; Traffic Officer; Mounted Police Officer; Community Police Officer; Marine Police Officer
+5413 | protective | Correctional Officer; Juvenile Detention Officer
+5414 | protective | Close Protection Officer; CCTV Operator; Event Security Steward; Cash-in-transit Guard; Security Supervisor
+5419 | protective | Search and Rescue Volunteer; Park Ranger; Beach Patrol Officer; Civil Defence Officer [NSCDC officer]; Coast Guard Officer; Wildlife Ranger
+6111 | farming | Maize Farmer; Yam Farmer; Sorghum Farmer; Millet Farmer; Groundnut Farmer; Soybean Farmer; Tomato Farmer; Pepper Farmer; Onion Farmer; Wheat Farmer; Cotton Farmer; Sugarcane Farmer; Potato Farmer; Organic Farmer; Urban Farmer
+6112 | farming | Oil Palm Farmer; Rubber Farmer; Cashew Farmer; Coffee Farmer; Tea Farmer; Plantain Farmer; Citrus Farmer; Mango Farmer; Vineyard Grower [winegrower]
+6113 | farming | Mushroom Farmer; Flower Grower; Seedling Producer; Turf Grower
+6121 | farming | Cattle Rancher; Sheep Farmer; Camel Herder; Horse Breeder; Feedlot Operator
+6122 | farming | Broiler Farmer; Layer Farmer [egg farmer]; Turkey Farmer; Hatchery Operator
+6129 | farming | Pig Breeder; Fish Fingerling Producer; Insect Farmer [black soldier fly farmer]; Dog Breeder
+6210 | forestry-fishery | Tree Nursery Worker; Sawyer; Rubber Tapper; Gum Arabic Collector; Timber Contractor
+6221 | forestry-fishery | Catfish Farmer; Tilapia Farmer; Shrimp Farmer; Seaweed Farmer; Hatchery Manager (fish)
+6222 | forestry-fishery | Canoe Fisher; Lake Fisher; Fish Trader
+6223 | forestry-fishery | Trawler Skipper; Industrial Fisherman
+6224 | forestry-fishery | Game Hunter; Wildlife Trapper
+7111 | building-trades | Building Contractor; Mud House Builder [traditional builder]; Prefabricated Home Builder
+7112 | building-trades | Block Layer; Chimney Builder
+7113 | building-trades | Granite Worker; Terrazzo Worker; Marble Fitter
+7114 | building-trades | Screed Layer; Concrete Pump Operator
+7115 | building-trades | Formwork Carpenter; Shuttering Carpenter; Door Fitter; Kitchen Fitter
+7119 | building-trades | Fence Installer; Interlocking Stone Installer; Solar Installer; Borehole Pump Installer
+7122 | building-trades | Epoxy Floor Installer; Carpet Fitter
+7123 | building-trades | Drywall Installer [gypsum board installer]
+7125 | building-trades | Window Fitter
+7126 | building-trades | Gas Fitter; Drainage Technician; Water Tank Installer
+7127 | building-trades | Air Conditioner Installer; Cold Room Technician
+7131 | building-trades | Screeding and Painting Contractor; Spray Painter (building)
+7132 | repair-trades | Car Paint Technician; Furniture Polisher
+7212 | building-trades | Pipeline Welder; Underwater Welder; Gate Fabricator [iron bender]
+7213 | repair-trades | Roofing Sheet Fabricator; Car Body Repairer
+7215 | building-trades | Crane Rigger; Elevator Installer
+7221 | repair-trades | Farrier
+7222 | repair-trades | Die Maker; Key Cutter
+7223 | manufacturing-roles | Lathe Operator; Milling Machine Operator; Turner
+7231 | repair-trades | Truck Mechanic; Diesel Mechanic; Car AC Technician; Tyre Fitter; Auto Diagnostic Technician; EV Mechanic [Electric Vehicle Technician]; Panel Beater
+7232 | aviation | Helicopter Mechanic; Avionics Mechanic; Aircraft Structures Technician
+7233 | repair-trades | Heavy Equipment Mechanic; Marine Engine Mechanic; Elevator Mechanic; Pump Repairer; Sewing Machine Repairer; Grinding Machine Repairer
+7234 | repair-trades | Motorcycle Repairer; Wheelchair Repairer
+7311 | repair-trades | Camera Repairer; Medical Equipment Repairer; Calibration Specialist
+7313 | crafts-printing | Gemstone Cutter [lapidary]; Watchmaker
+7316 | crafts-printing | Billboard Painter; Etcher; Trophy Engraver; Screen Printer
+7317 | crafts-printing | Calabash Carver; Mat Weaver; Bamboo Craftsperson; Broom Maker
+7318 | crafts-printing | Tie-dye Artisan; Bead Embroiderer; Crochet Maker; Leather Sandal Maker; Bag Designer
+7319 | crafts-printing | Perfumer; Candle and Incense Maker; Doll Maker; Artificial Flower Maker
+7321 | crafts-printing | Plate Maker (printing); Desktop Publisher
+7322 | crafts-printing | Offset Printer; Digital Printer; Large Format Printer; T-shirt Printer [garment printer]; Flex Banner Printer
+7323 | crafts-printing | Laminator; Book Finisher
+7411 | building-trades | Building Wireman; Solar Electrician; Smart Home Installer
+7412 | repair-trades | Transformer Repairer; Electric Motor Mechanic; Inverter Technician
+7413 | energy-power | Cable Jointer; Street Lighting Technician
+7421 | repair-trades | Phone Repairer; Laptop Repairer; Audio Equipment Repairer; Game Console Repairer; Solar Inverter Repairer
+7422 | it-support | ISP Installer [internet installer]; Network Cabling Technician; POS Terminal Technician
+7511 | food-processing-trades | Abattoir Worker [slaughterhouse worker]; Poultry Processor; Meat Smoker
+7512 | food-processing-trades | Bread Baker; Chin-chin Maker; Chocolatier; Pizza Maker
+7514 | food-processing-trades | Palm Oil Processor; Shea Butter Processor; Spice Processor; Tomato Paste Maker
+7515 | food-processing-trades | Cocoa Grader; Tea Taster; Grain Inspector
+7522 | crafts-printing | Wood Furniture Designer; Coffin Maker; Door Maker
+7531 | repair-trades | Bespoke Tailor; Bridal Wear Designer; Agbada Tailor [kaftan tailor]; Alterations Tailor; Milliner [hat maker]
+7532 | crafts-printing | Garment Technologist; Fashion Pattern Grader
+7533 | crafts-printing | Machine Embroiderer; Quilter; Bead Worker (fashion)
+7536 | repair-trades | Sandal Maker; Shoe Designer [Footwear Designer]; Shoe Repairer
+7541 | energy-ops | Saturation Diver; Inspection Diver
+7543 | manufacturing-roles | Quality Control Inspector; Textile Grader
+7544 | personal-services | Pest Control Operator; Termite Treatment Specialist
+8111 | mining | Artisanal Miner; Gold Miner; Tin Miner; Quarry Operator
+8113 | energy-ops | Driller (oil and gas); Assistant Driller; Floorhand; Derrickman; Motorman (rig)
+8160 | food-processing-trades | Bakery Machine Operator; Beverage Plant Operator; Noodles Plant Operator; Dairy Plant Operator
+8183 | plant-machine-operators | Filling Machine Operator; Shrink Wrap Operator
+8189 | plant-machine-operators | Printing Press Operator; Recycling Plant Operator; Block Industry Owner
+8212 | assemblers-labourers | Phone Assembler; Battery Assembler
+8219 | assemblers-labourers | Bicycle Assembler; Vehicle Assembler
+8311 | maritime-rail | Metro Train Operator; Freight Train Driver
+8321 | driving-logistics | Okada Rider; Courier Rider; Food Delivery Rider
+8322 | driving-logistics | Chauffeur-driver; School Bus Driver; Danfo Driver [minibus driver]; Car Hire Operator; Shuttle Driver
+8331 | driving-logistics | BRT Driver; Coach Driver (intercity)
+8332 | driving-logistics | Haulage Driver; Long-distance Truck Driver; Container Truck Driver; Fuel Tanker Driver
+8341 | farming | Farm Machinery Operator; Logging Machine Operator
+8342 | building-trades | Grader Operator; Road Roller Operator; Backhoe Operator; Asphalt Paver Operator
+8343 | building-trades | Tower Crane Operator; Hoist Operator; Port Crane Operator
+8344 | driving-logistics | Reach Truck Operator; Pallet Jack Operator
+8350 | maritime-rail | Able Seaman; Bosun; Ship Cook; Canoe Operator [boatman]; Dredger Crew
+9111 | cleaning-helpers | Housemaid; House Help; Live-in Domestic Worker
+9112 | cleaning-helpers | Hotel Cleaner; Industrial Cleaner; Post-construction Cleaner
+9121 | cleaning-helpers | Laundry Attendant; Dry Cleaning Presser
+9122 | cleaning-helpers | Car Detailer
+9129 | cleaning-helpers | Tank Cleaner; Septic Tank Cleaner [Sewage Truck Operator]; Upholstery Cleaner
+9211 | farm-labour | Harvest Worker; Planting Labourer; Weeding Labourer
+9212 | farm-labour | Poultry Attendant; Stable Hand; Milker
+9214 | farm-labour | Lawn Mower Operator; Landscape Labourer
+9216 | farm-labour | Fish Pond Attendant
+9311 | construction-labour | Sand Miner [sand dredger]; Stone Breaker
+9312 | construction-labour | Trench Digger; Drainage Labourer
+9313 | construction-labour | Bricklayer's Labourer [mason labourer]; Site Cleaner; Concrete Mixer Labourer
+9321 | assemblers-labourers | Packaging Labourer; Labeller
+9329 | assemblers-labourers | Production Helper; Warehouse Labourer
+9331 | delivery-porterage | Tricycle Cargo Rider; Water Cart Pusher [mai ruwa]
+9333 | delivery-porterage | Dock Worker; Market Porter [alabaru, kaya-kaya]; Airport Porter
+9334 | retail-street-trade | Merchandising Assistant; Shelf Replenisher
+9411 | food-service | Shawarma Maker; Burger Cook; Puff-puff Maker
+9412 | food-service | Dishwasher; Kitchen Steward; Catering Assistant
+9510 | delivery-porterage | Shoe Repair Vendor (street) [roadside cobbler]; Phone Charging Vendor; Car Wash Boy [roadside car washer]
+9520 | retail-street-trade | Traffic Hawker; Recharge Card Vendor; Newspaper Distributor; Sachet Water Seller
+9611 | waste-services | PSP Operator [private sector waste operator]; Scrap Metal Dealer; Plastic Bottle Collector
+9612 | waste-services | Recycling Plant Sorter; E-waste Dismantler
+9613 | waste-services | Drain Cleaner; Environmental Sanitation Worker
+9621 | delivery-porterage | Despatch Clerk; Bike Messenger; Bellhop
+9622 | delivery-porterage | Odd Job Worker; Fumigation Assistant
+9623 | delivery-porterage | Prepaid Meter Installer; ATM Cash Loader
+9629 | delivery-porterage | Car Park Marshal; Traffic Marshal [agbero (official levy collector)]; Event Steward

@@ -1,0 +1,84 @@
+{
+ "schema_version": "2.1",
+ "id": "lens_dicom_viewers__medical_imaging_viewing",
+ "roadmap_id": "rm_dicom_viewers",
+ "roadmap": "dicom-viewers",
+ "need_id": "need_medical_imaging_viewing",
+ "need": "medical-imaging-viewing",
+ "title": "DICOM viewers for radiographers and radiologists",
+ "kind": "flagship",
+ "for_identities": [
+  "radiologist",
+  "radiographer",
+  "sonographer",
+  "medical-student",
+  "orthopaedic-surgeon",
+  "medical-physicist",
+  "neurologist"
+ ],
+ "why": "Outside the hospital PACS, a desktop viewer lets you review teaching files, prepare presentations and learn anatomy across modalities.",
+ "what_is_different": "Imaging work requires strict de-identification, correct window/level presets per modality, and never using non-certified viewers for primary diagnosis unless approved by your institution.",
+ "priority_modules": [
+  "dc-open",
+  "dc-measure",
+  "dc-3d"
+ ],
+ "extra_modules": [
+  {
+   "level": "beginner",
+   "title": "De-identification and governance",
+   "outcome": "You can: handle images lawfully",
+   "topics": [
+    "DICOM tags",
+    "anonymisation tools",
+    "institutional approval",
+    "what counts as primary diagnosis"
+   ],
+   "practice": "Anonymise a sample study and confirm the tags are removed"
+  }
+ ],
+ "starter_project": "Build a de-identified teaching file of ten cases with measurements and 3D reconstructions for a teaching session.",
+ "pitfalls": [
+  "Patient identifiers left in DICOM tags or file names",
+  "Using unapproved software for reporting",
+  "Wrong window settings leading to missed findings"
+ ],
+ "pairs_with": [
+  "tool_radreport",
+  "tool_microsoft_powerpoint",
+  "tool_anki"
+ ],
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false,
+ "composed_path": {
+  "beginner": [
+   {
+    "extra": "De-identification and governance",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "module": "dc-open",
+    "relevance": "core",
+    "rank": 0
+   }
+  ],
+  "intermediate": [
+   {
+    "module": "dc-measure",
+    "relevance": "core",
+    "rank": 1
+   }
+  ],
+  "expert": [
+   {
+    "module": "dc-3d",
+    "relevance": "core",
+    "rank": 2
+   }
+  ]
+ }
+}

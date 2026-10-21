@@ -1,0 +1,6 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    { "name": "preview", "runtimeExecutable": "bun", "runtimeArgs": ["run", "scripts/preview.ts"], "port": 4173 }
+  ]
+}

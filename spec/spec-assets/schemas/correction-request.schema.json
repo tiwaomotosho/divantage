@@ -1,0 +1,149 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://digitaladvantage.example/schemas/v2/correction-request.schema.json",
+  "title": "POST /api/v1/corrections request body",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "page_url",
+    "issue_type",
+    "turnstile_token"
+  ],
+  "properties": {
+    "page_url": {
+      "type": "string",
+      "maxLength": 500,
+      "description": "Must be a path on this site (starts with '/') or an absolute URL on SITE_URL; anything else is rejected."
+    },
+    "record_id": {
+      "type": "string",
+      "pattern": "^(tool|task|res|pb|cmp|id|need|rm|lens|skill)_[a-z0-9_]+$",
+      "description": "Optional. V2.2 adds identity (id_), need, roadmap (rm_), lens and skill ids so feedback can point at the identity layer."
+    },
+    "issue_type": {
+      "enum": [
+        "pricing",
+        "availability",
+        "broken_link",
+        "feature",
+        "outdated_steps",
+        "accessibility",
+        "other",
+        "suggest_tool",
+        "suggest_identity",
+        "suggest_need",
+        "suggest_helper",
+        "roadmap_feedback",
+        "tool_discontinued"
+      ]
+    },
+    "description": {
+      "type": "string",
+      "maxLength": 2000,
+      "description": "V2.3: shown as 'What's wrong or missing?'"
+    },
+    "supporting_url": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https://",
+      "maxLength": 2048
+    },
+    "contact_email": {
+      "type": "string",
+      "format": "email",
+      "maxLength": 254
+    },
+    "consent_contact": {
+      "type": "boolean",
+      "description": "Required true if contact_email is provided."
+    },
+    "website": {
+      "type": "string",
+      "maxLength": 0,
+      "description": "Honeypot. Must be empty."
+    },
+    "turnstile_token": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 2048
+    },
+    "proposed_text": {
+      "type": "string",
+      "maxLength": 2000,
+      "description": "V2.3: what the contributor thinks it should say (optional)."
+    },
+    "conflict_of_interest": {
+      "type": "boolean",
+      "description": "V2.3: 'I work for or with this tool's company'. Labelled in the issue; never changes ranking."
+    },
+    "credit_name": {
+      "type": "string",
+      "maxLength": 60,
+      "pattern": "^[^<>@\\n]*$",
+      "description": "V2.3: optional public thank-you name, e.g. 'Ada, Lagos'. No emails or markup."
+    },
+    "credit_consent": {
+      "type": "boolean",
+      "description": "V2.3: required true if credit_name is provided."
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "required": [
+          "contact_email"
+        ]
+      },
+      "then": {
+        "required": [
+          "consent_contact"
+        ],
+        "properties": {
+          "consent_contact": {
+            "const": true
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "required": [
+          "credit_name"
+        ]
+      },
+      "then": {
+        "required": [
+          "credit_consent"
+        ],
+        "properties": {
+          "credit_consent": {
+            "const": true
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "issue_type": {
+            "enum": [
+              "pricing",
+              "feature",
+              "availability",
+              "tool_discontinued"
+            ]
+          }
+        },
+        "required": [
+          "issue_type"
+        ]
+      },
+      "then": {
+        "required": [
+          "supporting_url"
+        ]
+      }
+    }
+  ],
+  "description": " V2.3: also the 'Suggest an edit' payload (22 §3). Facts (pricing, feature, availability, discontinued) require a supporting_url."
+}

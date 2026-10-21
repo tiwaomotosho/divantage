@@ -1,0 +1,328 @@
+{
+  "version": "2.0.0",
+  "engine": "minisearch",
+  "engine_note": "Pin the exact MiniSearch version in package.json. Index is built at build time from published records (preview builds also include in_review) and served as /api/v1/search-index.json.",
+  "documents": {
+    "id_field": "id",
+    "stored_fields": [
+      "id",
+      "type",
+      "slug",
+      "title",
+      "summary",
+      "pricing_model",
+      "starts_without_paying",
+      "platforms",
+      "platform_verified",
+      "skill_level",
+      "category_ids",
+      "audience_ids",
+      "ai_involvement",
+      "availability_status",
+      "editorial_status",
+      "last_reviewed_at",
+      "url"
+    ],
+    "searchable_fields": {
+      "title": "tool.name | task.title + task.short_title | playbook.title | resource.title | comparison.title",
+      "aliases": "search_aliases joined + taxonomy aliases of assigned categories",
+      "summary": "summary / problem_statement / outcome",
+      "taxonomy": "category labels + task family label + audience labels",
+      "description": "description / expected_outcome / learning_outcome",
+      "body": "step titles + step instructions + best_for + key_capabilities text"
+    }
+  },
+  "options": {
+    "boost": {
+      "title": 6,
+      "aliases": 4,
+      "summary": 2,
+      "taxonomy": 1.5,
+      "description": 1,
+      "body": 0.5
+    },
+    "fuzzy": "term.length >= 5 ? 0.2 : (term.length >= 4 ? 0.1 : false)",
+    "prefix": "true only for the last term of the query (search-as-you-type)",
+    "combineWith": "AND; if zero results, rerun with OR and show the notice 'Showing results that match some of your words.'",
+    "tokenize": "lowercase, split on non-alphanumerics, keep 'c++', 'c#', '.net' as tokens",
+    "processTerm": "NFKD-normalise, strip diacritics, apply british/american spelling map, drop stopwords",
+    "stopwords": [
+      "a",
+      "an",
+      "the",
+      "how",
+      "do",
+      "i",
+      "to",
+      "for",
+      "my",
+      "me",
+      "can",
+      "what",
+      "is",
+      "of",
+      "and",
+      "with",
+      "in",
+      "on",
+      "best",
+      "way",
+      "using",
+      "use",
+      "some",
+      "want"
+    ],
+    "spelling_variants": {
+      "colour": "color",
+      "organise": "organize",
+      "organisation": "organization",
+      "analyse": "analyze",
+      "visualisation": "visualization",
+      "optimise": "optimize",
+      "programme": "program",
+      "catalogue": "catalog",
+      "centre": "center",
+      "licence": "license",
+      "favourite": "favorite"
+    },
+    "synonyms": {
+      "video": [
+        "film",
+        "clip",
+        "clips",
+        "movie",
+        "footage",
+        "vlog"
+      ],
+      "edit": [
+        "editing",
+        "editor",
+        "cut",
+        "trim"
+      ],
+      "website": [
+        "site",
+        "webpage",
+        "web page",
+        "homepage",
+        "web"
+      ],
+      "citation": [
+        "citations",
+        "cite",
+        "referencing",
+        "reference",
+        "references",
+        "bibliography"
+      ],
+      "research": [
+        "sources",
+        "literature",
+        "papers",
+        "articles",
+        "academic",
+        "journal",
+        "scholarly"
+      ],
+      "automate": [
+        "automation",
+        "automatic",
+        "automatically",
+        "workflow",
+        "repetitive",
+        "zap"
+      ],
+      "code": [
+        "coding",
+        "programming",
+        "programmer",
+        "developer"
+      ],
+      "graphic": [
+        "graphics",
+        "poster",
+        "flyer",
+        "banner",
+        "thumbnail",
+        "design",
+        "image"
+      ],
+      "learn": [
+        "course",
+        "courses",
+        "tutorial",
+        "study",
+        "skill",
+        "skills",
+        "training"
+      ],
+      "free": [
+        "no-cost",
+        "gratis",
+        "zero-cost"
+      ],
+      "spreadsheet": [
+        "excel",
+        "sheets",
+        "csv"
+      ],
+      "presentation": [
+        "slides",
+        "deck",
+        "powerpoint"
+      ]
+    },
+    "synonym_rule": "Expand each query term to itself (weight 1) plus its synonyms (weight 0.6). Synonym groups are editorial content: changes go through PR review and must not reduce the test-set score."
+  },
+  "ranking_adjustments": [
+    {
+      "rule": "exact_title_match",
+      "effect": "Pin the record whose normalised title or alias equals the normalised query to position 1."
+    },
+    {
+      "rule": "editorial_status",
+      "effect": "needs_review ×0.9; archived ×0.25 (and always below non-archived results)."
+    },
+    {
+      "rule": "availability_status",
+      "effect": "discontinued ×0.25; temporarily_unavailable ×0.6."
+    },
+    {
+      "rule": "cost_intent",
+      "trigger_terms": [
+        "free",
+        "no-cost",
+        "gratis",
+        "open source",
+        "without paying",
+        "cheap",
+        "budget"
+      ],
+      "effect": "×1.4 for starts_without_paying=true; never a hard filter. Show a suggestion chip 'Only show options you can start without paying'."
+    },
+    {
+      "rule": "platform_intent",
+      "trigger_terms": {
+        "android": "android",
+        "iphone": "ios",
+        "ipad": "ios",
+        "ios": "ios",
+        "linux": "linux",
+        "mac": "macos",
+        "macos": "macos",
+        "windows": "windows",
+        "chromebook": "chromeos",
+        "browser": "web",
+        "online": "web"
+      },
+      "effect": "×1.3 for records with that platform verified; suggestion chip for the platform filter."
+    },
+    {
+      "rule": "natural_language_intent",
+      "trigger": "query has >=3 non-stopword terms or starts with how/what/where/which",
+      "effect": "×1.2 for task and playbook records."
+    },
+    {
+      "rule": "no_paid_placement",
+      "effect": "No adjustment may be based on commercial relationships (D-001)."
+    }
+  ],
+  "facets": {
+    "type": {
+      "values": "content_type ids"
+    },
+    "category": {
+      "values": "category slugs"
+    },
+    "cost": {
+      "values": {
+        "can-start-free": "starts_without_paying=true",
+        "open-source": "pricing_model=open_source",
+        "free-trial": "pricing_model=free_trial",
+        "paid": "pricing_model in [paid_subscription,paid_once,usage_based,enterprise_quote]",
+        "unknown": "pricing_model=unknown"
+      }
+    },
+    "platform": {
+      "values": "platform ids; only verified platforms match unless include_unconfirmed=1"
+    },
+    "level": {
+      "values": "skill_level ids"
+    },
+    "audience": {
+      "values": "audience slugs (affects result order only when chosen as a filter; never set implicitly)"
+    },
+    "ai": {
+      "values": "ai_involvement ids"
+    }
+  },
+  "facet_logic": "OR within a facet, AND across facets. Facet values with zero matches are hidden unless selected.",
+  "url_state": {
+    "pattern": "/search?q=<query>&type=<id,id>&cat=<slug,slug>&cost=<id>&platform=<id,id>&include_unconfirmed=1&level=<id>&audience=<slug>&ai=<id>&sort=relevance|reviewed&page=<n>",
+    "rules": [
+      "Comma-separated multi-values.",
+      "Omit empty params.",
+      "Update with history.replaceState while typing; pushState on submit or filter change, so Back returns to the previous result set.",
+      "Query max 120 chars; longer input is truncated with a visible notice."
+    ]
+  },
+  "pagination": {
+    "page_size": 20,
+    "control": "'Show more results' button appends 20; URL page param updates; focus moves to the first newly added result."
+  },
+  "suggestions": {
+    "min_chars": 2,
+    "max": 6,
+    "debounce_ms": 120,
+    "content": "Top records by title/alias prefix match, grouped as Tasks first, then Tools, then Playbooks; plus up to 2 category suggestions."
+  },
+  "zero_results": {
+    "show": [
+      "The query and 'No matches yet' message",
+      "Button: Remove all filters (if any)",
+      "Spelling suggestion (closest title/alias by edit distance <=2)",
+      "Up to 6 category tiles",
+      "Link: Suggest something we should cover (opens the report form with issue_type=other and the query prefilled)"
+    ],
+    "analytics": "search_zero_results with normalised query (see analytics events)"
+  },
+  "quality_gate": {
+    "test_set": "search/search-test-set.json",
+    "threshold": "For queries with expected results: >=90% have an expected id in the top 3, and 100% of 'exact' queries have it at position 1. For 'none' queries: the AND stage returns zero results (the UI then shows either the zero-result state or the OR-fallback notice 'Showing results that match some of your words'). For 'must_not_rank_first_as_free': the highest-ranked TOOL result must have starts_without_paying=true (tasks and playbooks may rank above it).",
+    "ci": "Run on every PR that changes content, search config or search code; fail below threshold.",
+    "reference_harness": "search/reference-harness.mjs — a working prototype of this config on MiniSearch 7.1.2; run: node reference-harness.mjs <pack-root>. Pilot result on 2026-10-21: see search-test-set.json last_run."
+  },
+  "scale_trigger": "Re-evaluate the engine when the gzip index exceeds 400 KB or records exceed 5,000.",
+  "identity_search": {
+    "purpose": "Powers the 'Who are you?' entry and identity suggestions in every search box (D-046).",
+    "index_file": "/api/v1/identities-index.json (built from taxonomy/identities; fields: slug, label, aliases, family label, sector label, kind, parent label). Budget ≤ 60 KB gzip.",
+    "fields": {
+      "label": 4,
+      "aliases": 3,
+      "parent": 0.6,
+      "family": 0.5,
+      "sector": 0.3
+    },
+    "prefix": "true on every term (type-ahead)",
+    "fuzzy": "term.length >= 5 ? 0.2 : false",
+    "plural_stemming": "Lower-case; on terms longer than 4 characters strip 'es' after sses/xes/ches/shes (classes→class, coaches→coach), otherwise strip a single trailing 's' unless the word ends in 'ss' (nurses→nurse, pastors→pastor). Apply to documents and queries.",
+    "query_cleanup": "Strip leading phrases: 'i am a', 'i'm a', 'im a', 'i am an', 'i'm an', 'i work as a', 'i work as an', 'as a', 'as an', 'for a', 'for an'.",
+    "ranking": [
+      "exact label or alias match → position 1",
+      "label prefix match",
+      "alias prefix match",
+      "parent professions before specialisms when scores tie",
+      "life roles after professions when scores tie"
+    ],
+    "suggestion_count": 8,
+    "combined_query_rule": {
+      "pattern": "<tool> for <identity>  |  <identity> <tool>  |  <tool> <identity>",
+      "resolution": "If the query contains ' for ' and the left part matches a registry tool name/slug exactly (case-insensitive) and the right part matches an identity (top identity result with score above threshold), the first suggestion is the route /for/{identity}/{tool}. Otherwise identities and content results are shown in separate groups."
+    },
+    "mixed_suggestions_order": [
+      "Identity matches (max 3) labelled 'You are a…'",
+      "Tool × identity route (if detected)",
+      "Content suggestions per main config"
+    ]
+  }
+}

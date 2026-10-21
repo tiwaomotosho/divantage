@@ -1,0 +1,235 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_bmj_best_practice",
+ "slug": "bmj-best-practice",
+ "title": "BMJ Best Practice skill roadmap",
+ "tool_ids": [
+  "tool_bmj_best_practice"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_bmj_best_practice_clinical_reference_0",
+    "slug": "bmj-best-practice-clinical-reference-0",
+    "title": "Get started with BMJ Best Practice",
+    "outcome": "You can: set up BMJ Best Practice, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "clinical-reference"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_bmj_best_practice_clinical_reference_1",
+    "slug": "bmj-best-practice-clinical-reference-1",
+    "title": "Find answers fast",
+    "outcome": "You can: search BMJ Best Practice efficiently at the point of care",
+    "topics": [
+     "search terms",
+     "topic structure",
+     "key recommendations"
+    ],
+    "practice": "Answer three clinical questions from your practice",
+    "need_tags": [
+     "clinical-reference"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_bmj_best_practice_clinical_reference_2",
+    "slug": "bmj-best-practice-clinical-reference-2",
+    "title": "Read with judgement",
+    "outcome": "You can: understand strength of evidence",
+    "topics": [
+     "evidence grades",
+     "dates",
+     "local vs international guidance"
+    ],
+    "practice": "Compare BMJ Best Practice's advice with a local guideline",
+    "need_tags": [
+     "evidence-based-medicine",
+     "clinical-reference"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_bmj_best_practice_clinical_reference_3",
+    "slug": "bmj-best-practice-clinical-reference-3",
+    "title": "Drugs and calculations",
+    "outcome": "You can: check doses and interactions safely",
+    "topics": [
+     "dosing",
+     "renal/hepatic adjustment",
+     "interactions",
+     "calculators"
+    ],
+    "practice": "Check three prescriptions for interactions",
+    "need_tags": [
+     "drug-information",
+     "medical-calculators",
+     "clinical-reference"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_bmj_best_practice_clinical_reference_4",
+    "slug": "bmj-best-practice-clinical-reference-4",
+    "title": "Use on mobile",
+    "outcome": "You can: use BMJ Best Practice quickly on a phone",
+    "topics": [
+     "app features",
+     "offline access",
+     "bookmarks"
+    ],
+    "practice": "Set up bookmarks for your top 10 topics",
+    "need_tags": [
+     "clinical-reference"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_bmj_best_practice_clinical_reference_8",
+    "slug": "bmj-best-practice-clinical-reference-8",
+    "title": "Signature skills in BMJ Best Practice",
+    "outcome": "You can: use the features that make BMJ Best Practice distinctive",
+    "topics": [
+     "topic overviews",
+     "diagnosis and management",
+     "evidence",
+     "calculators"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "clinical-reference"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_bmj_best_practice_clinical_reference_9",
+    "slug": "bmj-best-practice-clinical-reference-9",
+    "title": "Advanced BMJ Best Practice",
+    "outcome": "You can: use BMJ Best Practice's advanced capabilities with confidence",
+    "topics": [
+     "CPD logging",
+     "local guidance comparison"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "clinical-reference"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_bmj_best_practice_clinical_reference_5",
+    "slug": "bmj-best-practice-clinical-reference-5",
+    "title": "Teach and audit with it",
+    "outcome": "You can: use BMJ Best Practice for teaching and CPD",
+    "topics": [
+     "CPD logging",
+     "teaching cases",
+     "audit standards"
+    ],
+    "practice": "Turn one topic into a teaching session",
+    "need_tags": [
+     "cpd-learning",
+     "clinical-reference"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_bmj_best_practice_clinical_reference_10",
+    "slug": "bmj-best-practice-clinical-reference-10",
+    "title": "Integrate BMJ Best Practice into your workflow",
+    "outcome": "You can: connect BMJ Best Practice with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect BMJ Best Practice to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "clinical-reference"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_bmj_best_practice_clinical_reference_11",
+    "slug": "bmj-best-practice-clinical-reference-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use BMJ Best Practice well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use BMJ Best Practice\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "clinical-reference"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "clinical-reference",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

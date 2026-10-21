@@ -1,0 +1,66 @@
+{
+  "schema_version": "2.0",
+  "is_illustrative": false,
+  "redirect_from": [],
+  "disclosure": {
+    "commercial_relationship": "none"
+  },
+  "id": "res_davinci_resolve_training",
+  "slug": "davinci-resolve-official-training",
+  "title": "DaVinci Resolve training (official)",
+  "publisher": "Blackmagic Design",
+  "canonical_url": "https://www.blackmagicdesign.com/products/davinciresolve/training",
+  "resource_type": "official_tutorial",
+  "summary": "Blackmagic Design's training page with downloadable training videos, project files and training books with lesson files.",
+  "learning_outcome": "Learn DaVinci Resolve's editing workflow using the official lessons and practice files.",
+  "language": "en",
+  "cost_status": "unknown",
+  "registration_required": "unknown",
+  "prerequisites": [],
+  "limitations": [
+    "Some videos were labelled for an older version (DR17) at the time of checking.",
+    "The page offers PDF downloads and print books for purchase; whether the PDFs are free was not stated."
+  ],
+  "publisher_updated_at": null,
+  "embed_policy": "link_only",
+  "link_check": {
+    "last_checked_at": "2026-10-21",
+    "last_status": "ok",
+    "consecutive_failures": 0
+  },
+  "related_tool_ids": [
+    "tool_davinci_resolve"
+  ],
+  "related_task_ids": [
+    "task_edit_video_free"
+  ],
+  "sources": [
+    {
+      "id": "src_res_davinci_training",
+      "type": "official_site",
+      "url": "https://www.blackmagicdesign.com/products/davinciresolve/training",
+      "title": "DaVinci Resolve training",
+      "publisher": "Blackmagic Design",
+      "checked_at": "2026-10-21",
+      "supports": [
+        "capabilities"
+      ]
+    }
+  ],
+  "editorial": {
+    "status": "published",
+    "author": "V2 research pass (AI-assisted, Claude)",
+    "reviewer": "Product owner — blanket MVP approval (D-044)",
+    "created_at": "2026-10-21",
+    "updated_at": "2026-10-21",
+    "published_at": "2026-10-21",
+    "last_verified_at": "2026-10-21",
+    "review_interval_days": 180,
+    "next_review_at": "2027-04-19",
+    "confidence": "medium",
+    "solo_approval": true,
+    "change_summary": "Researched from official sources 2026-10-21; published under owner's blanket MVP approval (D-044). Domain-expert review pending.",
+    "public_corrections": [],
+    "internal_notes": ""
+  }
+}

@@ -1,0 +1,112 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_jira",
+ "slug": "jira",
+ "title": "Jira (and agile boards)",
+ "tool_ids": [
+  "tool_jira",
+  "tool_linear",
+  "tool_trello",
+  "tool_azure_devops"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_jr_board",
+    "slug": "jr-board",
+    "title": "Boards and issues",
+    "outcome": "You can: track work visibly",
+    "topics": [
+     "issues",
+     "statuses",
+     "boards",
+     "assignees"
+    ],
+    "practice": "Set up a board for a small project",
+    "need_tags": [
+     "agile-tracking",
+     "project-management"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_jr_sprints",
+    "slug": "jr-sprints",
+    "title": "Backlogs and sprints",
+    "outcome": "You can: run sprints",
+    "topics": [
+     "backlog grooming",
+     "estimates",
+     "sprint planning",
+     "burndown"
+    ],
+    "practice": "Plan a two-week sprint",
+    "need_tags": [
+     "agile-tracking"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_jr_bugs",
+    "slug": "jr-bugs",
+    "title": "Bug reports that get fixed",
+    "outcome": "You can: write clear, reproducible bug reports",
+    "topics": [
+     "steps to reproduce",
+     "expected vs actual",
+     "severity",
+     "attachments"
+    ],
+    "practice": "Write three model bug reports",
+    "need_tags": [
+     "agile-tracking",
+     "test-management"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_jr_reporting",
+    "slug": "jr-reporting",
+    "title": "Workflows and reporting",
+    "outcome": "You can: configure workflows and report on delivery",
+    "topics": [
+     "custom workflows",
+     "JQL",
+     "dashboards",
+     "automation rules"
+    ],
+    "practice": "Build a dashboard of cycle time and open bugs",
+    "need_tags": [
+     "agile-tracking",
+     "kpi-tracking"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false
+}

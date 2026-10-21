@@ -1,0 +1,237 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_adobe_premiere_pro",
+ "slug": "adobe-premiere-pro",
+ "title": "Adobe Premiere Pro skill roadmap",
+ "tool_ids": [
+  "tool_adobe_premiere_pro"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_adobe_premiere_pro_video_pro_0",
+    "slug": "adobe-premiere-pro-video-pro-0",
+    "title": "Get started with Adobe Premiere Pro",
+    "outcome": "You can: set up Adobe Premiere Pro, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "video-editing-pro"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_adobe_premiere_pro_video_pro_1",
+    "slug": "adobe-premiere-pro-video-pro-1",
+    "title": "Edit a first sequence",
+    "outcome": "You can: assemble and trim a video",
+    "topics": [
+     "importing",
+     "timeline",
+     "trimming",
+     "audio levels"
+    ],
+    "practice": "Edit a 1-minute piece",
+    "need_tags": [
+     "video-editing-pro",
+     "short-video"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_adobe_premiere_pro_video_pro_2",
+    "slug": "adobe-premiere-pro-video-pro-2",
+    "title": "Titles and captions",
+    "outcome": "You can: add text people can read",
+    "topics": [
+     "titles",
+     "lower thirds",
+     "captions"
+    ],
+    "practice": "Add captions and a title to your piece",
+    "need_tags": [
+     "video-editing-pro",
+     "accessible-materials"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_adobe_premiere_pro_video_pro_3",
+    "slug": "adobe-premiere-pro-video-pro-3",
+    "title": "Colour and sound",
+    "outcome": "You can: make it look and sound professional",
+    "topics": [
+     "colour correction",
+     "audio cleanup",
+     "music"
+    ],
+    "practice": "Correct colour and balance audio",
+    "need_tags": [
+     "video-editing-pro"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_adobe_premiere_pro_video_pro_4",
+    "slug": "adobe-premiere-pro-video-pro-4",
+    "title": "Motion and effects",
+    "outcome": "You can: add motion with purpose",
+    "topics": [
+     "keyframes",
+     "transitions",
+     "templates"
+    ],
+    "practice": "Create an animated intro",
+    "need_tags": [
+     "motion-graphics",
+     "video-editing-pro"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_adobe_premiere_pro_video_pro_8",
+    "slug": "adobe-premiere-pro-video-pro-8",
+    "title": "Signature skills in Adobe Premiere Pro",
+    "outcome": "You can: use the features that make Adobe Premiere Pro distinctive",
+    "topics": [
+     "projects and bins",
+     "timeline editing",
+     "audio mixing",
+     "export"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "video-editing-pro"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_adobe_premiere_pro_video_pro_9",
+    "slug": "adobe-premiere-pro-video-pro-9",
+    "title": "Advanced Adobe Premiere Pro",
+    "outcome": "You can: use Adobe Premiere Pro's advanced capabilities with confidence",
+    "topics": [
+     "multicam",
+     "Lumetri colour",
+     "motion graphics templates",
+     "proxies"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "video-editing-pro"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_adobe_premiere_pro_video_pro_5",
+    "slug": "adobe-premiere-pro-video-pro-5",
+    "title": "Deliver to spec",
+    "outcome": "You can: deliver for broadcast, web and social",
+    "topics": [
+     "codecs",
+     "aspect ratios",
+     "loudness",
+     "archiving"
+    ],
+    "practice": "Deliver three platform versions",
+    "need_tags": [
+     "video-editing-pro"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_adobe_premiere_pro_video_pro_10",
+    "slug": "adobe-premiere-pro-video-pro-10",
+    "title": "Integrate Adobe Premiere Pro into your workflow",
+    "outcome": "You can: connect Adobe Premiere Pro with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Adobe Premiere Pro to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "video-editing-pro"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_adobe_premiere_pro_video_pro_11",
+    "slug": "adobe-premiere-pro-video-pro-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Adobe Premiere Pro well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Adobe Premiere Pro\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "video-editing-pro"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "video-pro",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

@@ -1,0 +1,240 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_lotsa_helping_hands",
+ "slug": "lotsa-helping-hands",
+ "title": "Lotsa Helping Hands skill roadmap",
+ "tool_ids": [
+  "tool_lotsa_helping_hands"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_lotsa_helping_hands_health_wellbeing_app_0",
+    "slug": "lotsa-helping-hands-health-wellbeing-app-0",
+    "title": "Get started with Lotsa Helping Hands",
+    "outcome": "You can: set up Lotsa Helping Hands, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "care-coordination"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_lotsa_helping_hands_health_wellbeing_app_1",
+    "slug": "lotsa-helping-hands-health-wellbeing-app-1",
+    "title": "Set up with privacy in mind",
+    "outcome": "You can: set up Lotsa Helping Hands and control your data",
+    "topics": [
+     "profile",
+     "permissions",
+     "privacy settings"
+    ],
+    "practice": "Review and tighten privacy settings",
+    "need_tags": [
+     "personal-health-tracking",
+     "online-safety",
+     "care-coordination"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_lotsa_helping_hands_health_wellbeing_app_2",
+    "slug": "lotsa-helping-hands-health-wellbeing-app-2",
+    "title": "Daily habit",
+    "outcome": "You can: use Lotsa Helping Hands daily without effort",
+    "topics": [
+     "logging",
+     "reminders",
+     "widgets"
+    ],
+    "practice": "Use Lotsa Helping Hands daily for a week",
+    "need_tags": [
+     "personal-health-tracking",
+     "mindfulness-wellbeing",
+     "care-coordination"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_lotsa_helping_hands_health_wellbeing_app_3",
+    "slug": "lotsa-helping-hands-health-wellbeing-app-3",
+    "title": "Read your trends",
+    "outcome": "You can: understand what the data says",
+    "topics": [
+     "trends",
+     "averages",
+     "limits of the data"
+    ],
+    "practice": "Review a month of data and set one goal",
+    "need_tags": [
+     "training-load",
+     "nutrition-planning",
+     "care-coordination"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_lotsa_helping_hands_health_wellbeing_app_4",
+    "slug": "lotsa-helping-hands-health-wellbeing-app-4",
+    "title": "Share with a professional",
+    "outcome": "You can: share useful summaries",
+    "topics": [
+     "exports",
+     "reports",
+     "consent"
+    ],
+    "practice": "Prepare a summary for a coach or clinician",
+    "need_tags": [
+     "online-coaching",
+     "care-coordination"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_lotsa_helping_hands_health_wellbeing_app_8",
+    "slug": "lotsa-helping-hands-health-wellbeing-app-8",
+    "title": "Signature skills in Lotsa Helping Hands",
+    "outcome": "You can: use the features that make Lotsa Helping Hands distinctive",
+    "topics": [
+     "care calendar",
+     "volunteers",
+     "announcements",
+     "message board"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "care-coordination"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_lotsa_helping_hands_health_wellbeing_app_9",
+    "slug": "lotsa-helping-hands-health-wellbeing-app-9",
+    "title": "Advanced Lotsa Helping Hands",
+    "outcome": "You can: use Lotsa Helping Hands's advanced capabilities with confidence",
+    "topics": [
+     "coordinating long-term care communities",
+     "trends",
+     "goals",
+     "sharing with professionals"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "care-coordination"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_lotsa_helping_hands_health_wellbeing_app_5",
+    "slug": "lotsa-helping-hands-health-wellbeing-app-5",
+    "title": "Coach others",
+    "outcome": "You can: use Lotsa Helping Hands to support clients or family",
+    "topics": [
+     "client accounts",
+     "group features",
+     "safeguarding"
+    ],
+    "practice": "Set up Lotsa Helping Hands for a client or family member",
+    "need_tags": [
+     "online-coaching",
+     "care-coordination"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_lotsa_helping_hands_health_wellbeing_app_10",
+    "slug": "lotsa-helping-hands-health-wellbeing-app-10",
+    "title": "Integrate Lotsa Helping Hands into your workflow",
+    "outcome": "You can: connect Lotsa Helping Hands with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Lotsa Helping Hands to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "care-coordination"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_lotsa_helping_hands_health_wellbeing_app_11",
+    "slug": "lotsa-helping-hands-health-wellbeing-app-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Lotsa Helping Hands well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Lotsa Helping Hands\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "care-coordination"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "health-wellbeing-app",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

@@ -1,0 +1,387 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_spreadsheets",
+ "slug": "spreadsheets",
+ "title": "Spreadsheets (Excel, Google Sheets, LibreOffice Calc)",
+ "tool_ids": [
+  "tool_microsoft_excel",
+  "tool_google_sheets",
+  "tool_libreoffice"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_xl_basics",
+    "slug": "xl-basics",
+    "title": "Find your way around",
+    "outcome": "You can: create, enter, format and save a tidy worksheet",
+    "topics": [
+     "cells, ranges and sheets",
+     "data entry and autofill",
+     "number and date formats",
+     "freeze panes",
+     "printing and sharing"
+    ],
+    "practice": "Build a weekly expense tracker",
+    "need_tags": [
+     "spreadsheets-basics",
+     "personal-finance",
+     "farm-records"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_xl_formulas_1",
+    "slug": "xl-formulas-1",
+    "title": "Your first formulas",
+    "outcome": "You can: write formulas that update themselves",
+    "topics": [
+     "arithmetic and order of operations",
+     "SUM, AVERAGE, MIN, MAX, COUNT",
+     "relative vs absolute references ($A$1)",
+     "copying formulas safely"
+    ],
+    "practice": "Total and average a month of sales",
+    "need_tags": [
+     "spreadsheets-basics",
+     "personal-finance",
+     "kpi-tracking",
+     "financial-modelling",
+     "engineering-calculations"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_xl_tables_sort",
+    "slug": "xl-tables-sort",
+    "title": "Tables, sorting and filtering",
+    "outcome": "You can: turn a list into a table you can sort, filter and extend",
+    "topics": [
+     "Format as Table",
+     "sort and multi-level sort",
+     "filters",
+     "removing duplicates",
+     "data validation drop-downs"
+    ],
+    "practice": "Turn a contact list into a filterable table with drop-downs",
+    "need_tags": [
+     "spreadsheets-basics",
+     "inventory-procurement",
+     "farm-records",
+     "grading-feedback"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_xl_charts_1",
+    "slug": "xl-charts-1",
+    "title": "Simple charts",
+    "outcome": "You can: pick and build the right basic chart",
+    "topics": [
+     "column, bar, line and pie (and when not to use pie)",
+     "titles and labels",
+     "chart from a table"
+    ],
+    "practice": "Chart six months of income vs spending",
+    "need_tags": [
+     "spreadsheets-basics",
+     "data-visualisation",
+     "kpi-tracking"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_xl_logic",
+    "slug": "xl-logic",
+    "title": "Logic and lookups",
+    "outcome": "You can: make the sheet decide and fetch for you",
+    "topics": [
+     "IF, IFS, AND/OR",
+     "XLOOKUP / VLOOKUP / INDEX-MATCH",
+     "IFERROR",
+     "COUNTIFS, SUMIFS, AVERAGEIFS"
+    ],
+    "practice": "Grade a class automatically from a marks table",
+    "need_tags": [
+     "grading-feedback",
+     "kpi-tracking",
+     "financial-modelling",
+     "clinical-audit-qi",
+     "inventory-procurement"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_xl_pivots",
+    "slug": "xl-pivots",
+    "title": "PivotTables",
+    "outcome": "You can: summarise thousands of rows in seconds",
+    "topics": [
+     "pivot rows, columns, values",
+     "grouping dates",
+     "slicers",
+     "pivot charts",
+     "refreshing"
+    ],
+    "practice": "Summarise sales by month and product",
+    "need_tags": [
+     "kpi-tracking",
+     "data-cleaning",
+     "dashboards-bi",
+     "clinical-audit-qi",
+     "audit-analytics",
+     "production-surveillance"
+    ],
+    "estimated_hours": {
+     "value": 2.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_xl_cleaning",
+    "slug": "xl-cleaning",
+    "title": "Cleaning messy data",
+    "outcome": "You can: fix imported data quickly and safely",
+    "topics": [
+     "TRIM, CLEAN, TEXT functions",
+     "Text to Columns",
+     "Flash Fill",
+     "dates stored as text",
+     "Power Query basics"
+    ],
+    "practice": "Clean an exported bank statement",
+    "need_tags": [
+     "data-cleaning",
+     "bookkeeping",
+     "audit-analytics",
+     "drilling-reporting"
+    ],
+    "estimated_hours": {
+     "value": 2.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_xl_dates_text",
+    "slug": "xl-dates-text",
+    "title": "Dates, times and text",
+    "outcome": "You can: work confidently with dates, durations and text",
+    "topics": [
+     "DATE, EDATE, EOMONTH, NETWORKDAYS",
+     "time arithmetic",
+     "TEXTJOIN, LEFT/MID/RIGHT",
+     "custom formats"
+    ],
+    "practice": "Build a project calendar with working days",
+    "need_tags": [
+     "project-scheduling",
+     "shift-rota",
+     "drilling-reporting",
+     "payroll"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_xl_conditional",
+    "slug": "xl-conditional",
+    "title": "Conditional formatting and dashboards-lite",
+    "outcome": "You can: make important numbers jump out",
+    "topics": [
+     "rules, colour scales, data bars, icon sets",
+     "formula-based rules",
+     "a one-page summary sheet"
+    ],
+    "practice": "Highlight overdue items and low stock",
+    "need_tags": [
+     "kpi-tracking",
+     "inventory-procurement",
+     "clinical-audit-qi",
+     "farm-records"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_xl_protect_share",
+    "slug": "xl-protect-share",
+    "title": "Sharing, protection and collaboration",
+    "outcome": "You can: share workbooks without breaking them",
+    "topics": [
+     "protecting sheets and ranges",
+     "comments and notes",
+     "version history",
+     "co-authoring"
+    ],
+    "practice": "Share a team tracker with locked formulas",
+    "need_tags": [
+     "project-management",
+     "kpi-tracking"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_xl_dynamic_arrays",
+    "slug": "xl-dynamic-arrays",
+    "title": "Dynamic arrays and LAMBDA",
+    "outcome": "You can: write modern formulas that spill and reuse logic",
+    "topics": [
+     "FILTER, SORT, UNIQUE, SEQUENCE",
+     "LET",
+     "LAMBDA and named functions"
+    ],
+    "practice": "Build a self-updating top-10 list",
+    "need_tags": [
+     "financial-modelling",
+     "engineering-calculations",
+     "kpi-tracking"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_xl_what_if",
+    "slug": "xl-what-if",
+    "title": "Scenarios and what-if analysis",
+    "outcome": "You can: test assumptions and find answers backwards",
+    "topics": [
+     "Goal Seek",
+     "Data Tables (one- and two-variable)",
+     "Scenario Manager",
+     "Solver"
+    ],
+    "practice": "Find break-even price with Goal Seek and a sensitivity table",
+    "need_tags": [
+     "financial-modelling",
+     "engineering-calculations",
+     "risk-modelling",
+     "budgeting-fpa",
+     "cost-estimation"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_xl_power_query",
+    "slug": "xl-power-query",
+    "title": "Power Query and the data model",
+    "outcome": "You can: automate repeatable imports and join data sources",
+    "topics": [
+     "queries and steps",
+     "merge/append",
+     "unpivot",
+     "refresh",
+     "Power Pivot and DAX basics"
+    ],
+    "practice": "Combine 12 monthly files into one refreshable table",
+    "need_tags": [
+     "data-cleaning",
+     "dashboards-bi",
+     "production-surveillance",
+     "drilling-reporting",
+     "regulatory-reporting"
+    ],
+    "estimated_hours": {
+     "value": 4.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_xl_model_design",
+    "slug": "xl-model-design",
+    "title": "Model design and auditing",
+    "outcome": "You can: build models others can trust and check",
+    "topics": [
+     "inputs-calcs-outputs layout",
+     "named ranges",
+     "error checks",
+     "trace precedents",
+     "model documentation"
+    ],
+    "practice": "Restructure a messy workbook into inputs, calculations and outputs",
+    "need_tags": [
+     "financial-modelling",
+     "engineering-calculations",
+     "audit-analytics",
+     "regulatory-reporting"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_xl_automation",
+    "slug": "xl-automation",
+    "title": "Automation with macros and scripts",
+    "outcome": "You can: automate repetitive work",
+    "topics": [
+     "recording macros",
+     "VBA basics (loops, ranges)",
+     "Office Scripts / Apps Script",
+     "when to move to Python"
+    ],
+    "practice": "Automate a weekly report export",
+    "need_tags": [
+     "automation-workflows",
+     "drilling-reporting",
+     "regulatory-reporting"
+    ],
+    "estimated_hours": {
+     "value": 5.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false
+}

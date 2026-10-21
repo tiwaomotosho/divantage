@@ -1,0 +1,238 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_eos_crop_monitoring",
+ "slug": "eos-crop-monitoring",
+ "title": "EOS Crop Monitoring skill roadmap",
+ "tool_ids": [
+  "tool_eos_crop_monitoring"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_eos_crop_monitoring_gis_earth_0",
+    "slug": "eos-crop-monitoring-gis-earth-0",
+    "title": "Get started with EOS Crop Monitoring",
+    "outcome": "You can: set up EOS Crop Monitoring, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "crop-monitoring"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_eos_crop_monitoring_gis_earth_1",
+    "slug": "eos-crop-monitoring-gis-earth-1",
+    "title": "Open and explore",
+    "outcome": "You can: explore places and layers",
+    "topics": [
+     "navigation",
+     "layers",
+     "measuring",
+     "coordinates"
+    ],
+    "practice": "Explore and measure an area you know",
+    "need_tags": [
+     "gis-mapping",
+     "crop-monitoring"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_eos_crop_monitoring_gis_earth_2",
+    "slug": "eos-crop-monitoring-gis-earth-2",
+    "title": "Imagery basics",
+    "outcome": "You can: read satellite and aerial imagery",
+    "topics": [
+     "bands",
+     "true/false colour",
+     "dates",
+     "clouds"
+    ],
+    "practice": "Compare two dates over the same area",
+    "need_tags": [
+     "crop-monitoring",
+     "environmental-monitoring"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_eos_crop_monitoring_gis_earth_3",
+    "slug": "eos-crop-monitoring-gis-earth-3",
+    "title": "Analyse change",
+    "outcome": "You can: detect and quantify change",
+    "topics": [
+     "indices (e.g. NDVI)",
+     "time series",
+     "thresholds"
+    ],
+    "practice": "Measure vegetation change over a season",
+    "need_tags": [
+     "crop-monitoring",
+     "environmental-monitoring"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_eos_crop_monitoring_gis_earth_4",
+    "slug": "eos-crop-monitoring-gis-earth-4",
+    "title": "Share maps",
+    "outcome": "You can: communicate spatial findings",
+    "topics": [
+     "exports",
+     "story maps",
+     "KML/GeoJSON"
+    ],
+    "practice": "Share a map with notes",
+    "need_tags": [
+     "gis-mapping",
+     "crop-monitoring"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_eos_crop_monitoring_gis_earth_8",
+    "slug": "eos-crop-monitoring-gis-earth-8",
+    "title": "Signature skills in EOS Crop Monitoring",
+    "outcome": "You can: use the features that make EOS Crop Monitoring distinctive",
+    "topics": [
+     "field boundaries",
+     "vegetation indices",
+     "weather data",
+     "alerts"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "crop-monitoring"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_eos_crop_monitoring_gis_earth_9",
+    "slug": "eos-crop-monitoring-gis-earth-9",
+    "title": "Advanced EOS Crop Monitoring",
+    "outcome": "You can: use EOS Crop Monitoring's advanced capabilities with confidence",
+    "topics": [
+     "zoning",
+     "scouting tasks",
+     "yield analytics"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "crop-monitoring"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_eos_crop_monitoring_gis_earth_5",
+    "slug": "eos-crop-monitoring-gis-earth-5",
+    "title": "Scale and automate",
+    "outcome": "You can: analyse large areas reliably",
+    "topics": [
+     "scripting",
+     "batch processing",
+     "validation with ground truth"
+    ],
+    "practice": "Automate a monthly analysis",
+    "need_tags": [
+     "scientific-computing",
+     "crop-monitoring"
+    ],
+    "estimated_hours": {
+     "value": 4.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_eos_crop_monitoring_gis_earth_10",
+    "slug": "eos-crop-monitoring-gis-earth-10",
+    "title": "Integrate EOS Crop Monitoring into your workflow",
+    "outcome": "You can: connect EOS Crop Monitoring with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect EOS Crop Monitoring to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "crop-monitoring"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_eos_crop_monitoring_gis_earth_11",
+    "slug": "eos-crop-monitoring-gis-earth-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use EOS Crop Monitoring well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use EOS Crop Monitoring\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "crop-monitoring"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "gis-earth",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

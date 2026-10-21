@@ -1,0 +1,165 @@
+{
+ "schema_version": "2.1",
+ "id": "lens_spreadsheets__farm_records",
+ "roadmap_id": "rm_spreadsheets",
+ "roadmap": "spreadsheets",
+ "need_id": "need_farm_records",
+ "need": "farm-records",
+ "title": "Spreadsheets for farm records and profit",
+ "kind": "flagship",
+ "for_identities": [
+  "farmer",
+  "crop-farmer",
+  "livestock-farmer",
+  "poultry-farmer",
+  "fish-farmer",
+  "farm-manager",
+  "agribusiness-owner",
+  "smallholder-farmer",
+  "cooperative-member"
+ ],
+ "why": "Knowing your real costs, yields and profit per crop, pond or pen is the difference between guessing and growing.",
+ "what_is_different": "Farm records follow the season and the field or flock, not the calendar month. They mix money, inputs, labour and yields, and must be quick to fill in on a phone in the field.",
+ "priority_modules": [
+  "xl-basics",
+  "xl-tables-sort",
+  "xl-formulas-1",
+  "xl-logic",
+  "xl-pivots",
+  "xl-conditional"
+ ],
+ "extra_modules": [
+  {
+   "level": "beginner",
+   "title": "Phone-friendly record sheets",
+   "outcome": "You can: record in the field with Google Sheets on your phone",
+   "topics": [
+    "simple forms",
+    "drop-downs for crop/field",
+    "date and quantity columns",
+    "offline use"
+   ],
+   "practice": "Set up an inputs and sales log on your phone"
+  },
+  {
+   "level": "intermediate",
+   "title": "Cost and profit per enterprise",
+   "outcome": "You can: see which crop or batch actually makes money",
+   "topics": [
+    "gross margin per hectare/bird/pond",
+    "cost allocation",
+    "break-even price"
+   ],
+   "practice": "Compare gross margin for two crops or two batches"
+  }
+ ],
+ "starter_project": "Track one full season (or one poultry or fish batch): inputs, labour, sales and mortality/yield, ending with gross margin and break-even price.",
+ "pitfalls": [
+  "Forgetting family labour and transport costs",
+  "Mixing household and farm money",
+  "Recording at the end of the season from memory"
+ ],
+ "pairs_with": [
+  "tool_google_forms",
+  "tool_farmbrite",
+  "tool_whatsapp_business"
+ ],
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false,
+ "composed_path": {
+  "beginner": [
+   {
+    "extra": "Phone-friendly record sheets",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "module": "xl-basics",
+    "relevance": "core",
+    "rank": 0
+   },
+   {
+    "module": "xl-tables-sort",
+    "relevance": "core",
+    "rank": 1
+   },
+   {
+    "module": "xl-formulas-1",
+    "relevance": "core",
+    "rank": 2
+   },
+   {
+    "module": "xl-charts-1",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ],
+  "intermediate": [
+   {
+    "extra": "Cost and profit per enterprise",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "module": "xl-logic",
+    "relevance": "core",
+    "rank": 3
+   },
+   {
+    "module": "xl-pivots",
+    "relevance": "core",
+    "rank": 4
+   },
+   {
+    "module": "xl-conditional",
+    "relevance": "core",
+    "rank": 5
+   },
+   {
+    "module": "xl-cleaning",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "xl-dates-text",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "xl-protect-share",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ],
+  "expert": [
+   {
+    "module": "xl-dynamic-arrays",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "xl-what-if",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "xl-power-query",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "xl-model-design",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "xl-automation",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ]
+ }
+}

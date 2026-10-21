@@ -1,0 +1,258 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_sortly",
+ "slug": "sortly",
+ "title": "Sortly skill roadmap",
+ "tool_ids": [
+  "tool_sortly"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_sortly_erp_ops_0",
+    "slug": "sortly-erp-ops-0",
+    "title": "Get started with Sortly",
+    "outcome": "You can: set up Sortly, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "pharmacy-stock",
+     "inventory-procurement",
+     "warehouse-inventory"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_sortly_erp_ops_1",
+    "slug": "sortly-erp-ops-1",
+    "title": "Navigate the system",
+    "outcome": "You can: find, create and update records",
+    "topics": [
+     "modules",
+     "master data",
+     "search",
+     "permissions"
+    ],
+    "practice": "Create and update one record end to end",
+    "need_tags": [
+     "pharmacy-stock",
+     "inventory-procurement",
+     "warehouse-inventory"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_sortly_erp_ops_2",
+    "slug": "sortly-erp-ops-2",
+    "title": "Core workflow",
+    "outcome": "You can: complete your role's main workflow",
+    "topics": [
+     "orders/tasks/stock moves",
+     "approvals",
+     "statuses"
+    ],
+    "practice": "Complete one full workflow for your role",
+    "need_tags": [
+     "pharmacy-stock",
+     "inventory-procurement",
+     "warehouse-inventory"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_sortly_erp_ops_3",
+    "slug": "sortly-erp-ops-3",
+    "title": "Planning and scheduling",
+    "outcome": "You can: plan work, stock or projects",
+    "topics": [
+     "schedules",
+     "dependencies",
+     "reorder points",
+     "resources"
+    ],
+    "practice": "Build a plan or schedule for a real piece of work",
+    "need_tags": [
+     "project-scheduling",
+     "inventory-procurement",
+     "pharmacy-stock",
+     "warehouse-inventory"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_sortly_erp_ops_4",
+    "slug": "sortly-erp-ops-4",
+    "title": "Reports and dashboards",
+    "outcome": "You can: answer management questions",
+    "topics": [
+     "standard reports",
+     "filters",
+     "exports"
+    ],
+    "practice": "Build a report your manager asks for",
+    "need_tags": [
+     "kpi-tracking",
+     "pharmacy-stock",
+     "inventory-procurement",
+     "warehouse-inventory"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_sortly_erp_ops_8",
+    "slug": "sortly-erp-ops-8",
+    "title": "Signature skills in Sortly",
+    "outcome": "You can: use the features that make Sortly distinctive",
+    "topics": [
+     "items with photos",
+     "folders",
+     "barcode/QR scanning",
+     "low-stock alerts"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "pharmacy-stock",
+     "inventory-procurement",
+     "warehouse-inventory"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_sortly_erp_ops_9",
+    "slug": "sortly-erp-ops-9",
+    "title": "Advanced Sortly",
+    "outcome": "You can: use Sortly's advanced capabilities with confidence",
+    "topics": [
+     "custom fields",
+     "reports",
+     "integrations"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "pharmacy-stock",
+     "inventory-procurement",
+     "warehouse-inventory"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_sortly_erp_ops_5",
+    "slug": "sortly-erp-ops-5",
+    "title": "Configure and integrate",
+    "outcome": "You can: adapt Sortly to how your organisation works",
+    "topics": [
+     "custom fields",
+     "workflows",
+     "integrations",
+     "data quality"
+    ],
+    "practice": "Propose and test one configuration improvement",
+    "need_tags": [
+     "erp",
+     "process-mapping",
+     "pharmacy-stock",
+     "inventory-procurement",
+     "warehouse-inventory"
+    ],
+    "estimated_hours": {
+     "value": 4.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_sortly_erp_ops_10",
+    "slug": "sortly-erp-ops-10",
+    "title": "Integrate Sortly into your workflow",
+    "outcome": "You can: connect Sortly with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Sortly to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "pharmacy-stock",
+     "inventory-procurement",
+     "warehouse-inventory"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_sortly_erp_ops_11",
+    "slug": "sortly-erp-ops-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Sortly well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Sortly\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "pharmacy-stock",
+     "inventory-procurement",
+     "warehouse-inventory"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "erp-ops",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

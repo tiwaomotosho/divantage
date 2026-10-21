@@ -1,0 +1,64 @@
+# slug | everyday words people type for this skill (feeds search only)
+digital-basics | computer, smartphone, internet, browser, files, pdf, scanning, accessibility
+online-safety | passwords, password manager, 2fa, two-factor, scams, phishing, privacy, parental controls, hacked
+ai-assistants | ai, chatgpt, prompts, prompting, chatbot, gemini, claude, copilot
+translation | translate, interpreter, foreign language, language learning, sign language
+productivity | email, calendar, to-do, organisation, time management, e-signature
+clear-writing | writing, grammar, spelling, word processing, dictation, plain language
+professional-writing | report writing, minutes, documentation, technical writing
+specialist-writing | contracts, thesis, book, copywriting, journal paper, publishing
+presentations | slides, powerpoint, keynote, pitch deck, public speaking
+meetings-messaging | zoom, teams, whatsapp, video call, group chat, webinar
+graphic-design | design, logo, flyer, poster, branding, canva, illustration
+photography | photos, photo editing, lightroom, retouching, camera
+video | video editing, reels, tiktok, youtube videos, animation, capcut
+audio-music | music production, mixing, mastering, beat making, recording, podcast, daw, sound, release music, distribution, spotify, streaming
+live-streaming | livestream, go live, broadcast, obs, church stream
+ui-ux | ux, ui, product design, figma, wireframes, prototyping, usability
+three-d | 3d, rendering, cad modelling, 3d printing, interior design, fashion design
+spreadsheets | excel, google sheets, formulas, budget, pivot tables, vlookup
+data-analysis | data, sql, python, analytics, data cleaning, jupyter
+statistics | stats, regression, hypothesis testing, six sigma, spc
+data-visualisation | charts, graphs, dashboards, power bi, tableau, kpi
+financial-modelling | valuation, dcf, financial model, forecasting, audit
+product-web-analytics | google analytics, website traffic, funnels, a/b testing
+monitoring-evaluation | m&e, indicators, impact measurement, clinical audit, dhis2
+qual-research | surveys, interviews, questionnaires, focus groups, thematic analysis
+research-skills | research, literature review, references, citations, zotero
+fact-checking | fake news, misinformation, verify, reverse image, osint
+clinical-evidence | guidelines, drug interactions, clinical decision, evidence-based practice
+legal-research | case law, statutes, law reports, e-discovery
+market-research | competitor analysis, customer interviews, market size, grants
+social-media | instagram, facebook, tiktok, linkedin, influencer, content calendar
+digital-marketing | marketing, seo, ads, email marketing, newsletter, pr
+selling-online | ecommerce, online shop, payments, invoices, pos, sell
+customer-relationships | crm, customers, sales pipeline, help desk, bookings, reviews
+business-admin | accounting, bookkeeping, tax, payroll, business plan, quickbooks
+fundraising | donations, crowdfunding, charity, volunteers, giving
+career | job search, cv, resume, linkedin, portfolio, freelancing, interview
+project-management | project management, scheduling, gantt, agile, scrum, kanban, events
+operations | inventory, erp, compliance, hse, safety, procurement, records
+people-management | hr, hiring, recruitment, rota, staff scheduling
+learning-teaching | teaching, training, coaching, lesson plans, quizzes, lms, classroom
+self-learning | studying, online courses, flashcards, cpd, exams
+coding | programming, software development, javascript, python, git, apps, websites
+cloud-devops | aws, azure, docker, kubernetes, ci/cd, devops, servers
+data-engineering | databases, etl, data pipelines, postgres, warehouse
+ai-ml | machine learning, deep learning, llm, ai apps, models
+software-testing | qa, testing, test automation, selenium, playwright, bugs
+cybersecurity | cyber security, security, hacking, penetration testing, soc, network security
+it-support | helpdesk, tech support, it tickets, remote support
+automation | automation, zapier, no-code, workflows, apps without code
+engineering-design | cad, autocad, revit, bim, drawings, drafting, solidworks
+engineering-analysis | simulation, fea, cfd, structural analysis, hydraulics
+subsurface-energy | oil and gas, petroleum, reservoir, wells, drilling, mining
+geospatial | gis, maps, qgis, surveying, drones, satellite
+industrial-automation | plc, cnc, manufacturing, maintenance, scada
+science-lab | lab, laboratory, chemistry, biology, sequencing, astronomy
+health-records | ehr, emr, clinic system, patient records, telehealth
+legal-practice | law firm software, case management, matters, billing
+faith-community | bible study, church, mosque, ministry, sermons
+agriculture | farming, livestock, crops, restaurant, kitchen, food safety
+property-construction | construction, site management, real estate, landlord
+transport-travel | logistics, delivery, routes, fleet, flights, travel, hotel
+sport-fitness | sport, fitness, training, coaching athletes, video analysis, wellbeing

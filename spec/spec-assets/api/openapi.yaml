@@ -1,0 +1,139 @@
+openapi: 3.1.0
+info:
+  title: Digital Advantage public API (R1)
+  version: 1.0.0
+  description: |
+    R1 has a static site plus three Pages Functions. Everything else is static JSON generated at build time.
+    Versioning: path prefix /api/v1. Breaking changes require /api/v2; v1 stays available for 6 months after v2 ships
+    and responds with a `Deprecation` header during that period.
+    Errors always use the Error schema. No endpoint returns private editorial fields (fields marked x-visibility: private
+    in spec-assets/schemas are stripped at build time).
+servers:
+  - url: https://digitaladvantage.example
+paths:
+  /api/v1/search-index.json:
+    get:
+      summary: Prebuilt MiniSearch index of public records
+      description: Static file. Loaded lazily on first search interaction. Contains only stored_fields from search-config.json.
+      responses:
+        '200':
+          description: Serialised MiniSearch index plus build metadata
+          headers:
+            Cache-Control: { schema: { type: string, example: 'public, max-age=300, stale-while-revalidate=86400' } }
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [built_at, record_count, index]
+                properties:
+                  built_at: { type: string, format: date-time }
+                  record_count: { type: integer }
+                  index: { type: object, description: MiniSearch.toJSON() output }
+  /api/v1/records/{type}/{slug}.json:
+    get:
+      summary: Public record (read model) for one content item
+      description: Static file per published record. Used by related-content widgets and as the portable read API. Private fields stripped.
+      parameters:
+        - { name: type, in: path, required: true, schema: { enum: [tools, tasks, resources, playbooks, comparisons] } }
+        - { name: slug, in: path, required: true, schema: { type: string, pattern: '^[a-z0-9]+(?:-[a-z0-9]+)*$' } }
+      responses:
+        '200': { description: Record JSON conforming to the matching schema minus private fields }
+        '404': { description: Not found (static 404) }
+  /export/catalogue-v2.json:
+    get:
+      summary: Full public export (FR-030)
+      description: All published records, taxonomy and redirects in one file, with schema_version. Licensed CC BY 4.0. Regenerated each build.
+      responses:
+        '200': { description: Export bundle }
+  /api/v1/corrections:
+    post:
+      summary: Submit a correction report
+      description: |
+        Validates the body against correction-request.schema.json, verifies the Turnstile token server-side, rate-limits,
+        then creates an issue in the private corrections repository. Never echoes user input into HTML.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: { $ref: '../schemas/correction-request.schema.json' }
+            example:
+              page_url: /tools/zotero
+              record_id: tool_zotero
+              issue_type: pricing
+              description: The storage plan prices have changed.
+              supporting_url: https://www.zotero.org/storage
+              website: ''
+              turnstile_token: 'token-from-widget'
+      responses:
+        '201':
+          description: Accepted
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [ok, reference]
+                properties:
+                  ok: { const: true }
+                  reference: { type: string, pattern: '^DA-[0-9]{8}-[A-Z0-9]{4}$', description: 'Shown to the user. Not the GitHub issue number.' }
+        '400': { $ref: '#/components/responses/Error' }
+        '403': { $ref: '#/components/responses/Error' }
+        '413': { $ref: '#/components/responses/Error' }
+        '415': { $ref: '#/components/responses/Error' }
+        '429': { $ref: '#/components/responses/Error' }
+        '502': { $ref: '#/components/responses/Error' }
+      x-rate-limit: 5 requests per 10 minutes per IP (in-memory/KV counter keyed by a salted hash that rotates daily; hash not stored beyond the window)
+      x-idempotency: 'Optional Idempotency-Key header (UUID). Same key within 24 h returns the original 201 without creating a duplicate issue.'
+      x-cors: Same-origin only; no Access-Control-Allow-Origin header.
+  /api/v1/events:
+    post:
+      summary: Record an aggregate analytics event
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: false
+              required: [name, props]
+              properties:
+                name: { type: string, description: 'One of spec-assets/analytics/events.json names' }
+                props: { type: object, description: 'Only props listed for the event; others dropped' }
+      responses:
+        '204': { description: Counted (or silently dropped if invalid — never errors to the client) }
+        '429': { description: Rate-limited (60 events per minute per IP) }
+      x-failure-behaviour: Client uses navigator.sendBeacon and ignores all failures. Analytics outages must never affect pages (NFR-006).
+  /api/v1/health:
+    get:
+      summary: Health check for uptime monitoring
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status: { const: ok }
+                  build: { type: string, description: Git commit SHA of the deployment }
+                  content_built_at: { type: string, format: date-time }
+components:
+  schemas:
+    Error:
+      type: object
+      required: [error]
+      properties:
+        error:
+          type: object
+          required: [code, message, retryable]
+          properties:
+            code: { enum: [invalid_body, invalid_field, unsupported_media_type, payload_too_large, bot_check_failed, rate_limited, upstream_unavailable, internal] }
+            message: { type: string, description: Plain-language, safe to show to the user }
+            field: { type: string, description: Present for invalid_field }
+            retryable: { type: boolean }
+            retry_after_seconds: { type: integer }
+  responses:
+    Error:
+      description: Error
+      content:
+        application/json:
+          schema: { $ref: '#/components/schemas/Error' }

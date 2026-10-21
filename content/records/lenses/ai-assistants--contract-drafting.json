@@ -1,0 +1,127 @@
+{
+ "schema_version": "2.1",
+ "id": "lens_ai_assistants__contract_drafting",
+ "roadmap_id": "rm_ai_assistants",
+ "roadmap": "ai-assistants",
+ "need_id": "need_contract_drafting",
+ "need": "contract-drafting",
+ "title": "AI assistants for lawyers",
+ "kind": "flagship",
+ "for_identities": [
+  "lawyer",
+  "corporate-lawyer",
+  "in-house-counsel",
+  "paralegal",
+  "compliance-lawyer",
+  "legal-operations-specialist"
+ ],
+ "why": "AI can speed up first drafts, summaries and clause comparisons — if used within professional and confidentiality rules.",
+ "what_is_different": "Legal use demands confidentiality (client data only in approved tools), verification of every authority (AI can invent cases), and jurisdiction-specific accuracy. AI drafts are starting points, never advice.",
+ "priority_modules": [
+  "ai-safe",
+  "ai-verify",
+  "ai-write",
+  "ai-files",
+  "ai-domain"
+ ],
+ "extra_modules": [
+  {
+   "level": "intermediate",
+   "title": "Clause review and comparison",
+   "outcome": "You can: compare a draft against your preferred positions",
+   "topics": [
+    "playbook prompts",
+    "issue lists",
+    "redline suggestions to review in Word"
+   ],
+   "practice": "Compare an NDA against a firm checklist and list deviations"
+  },
+  {
+   "level": "expert",
+   "title": "Firm policy and approved tools",
+   "outcome": "You can: set up compliant AI use for a team",
+   "topics": [
+    "approved tools and data handling",
+    "client consent",
+    "audit trail",
+    "training"
+   ],
+   "practice": "Draft an AI-use policy for a small practice"
+  }
+ ],
+ "starter_project": "Create a reusable, verified workflow for first-pass NDA review: approved tool, prompt playbook, checklist, and a human sign-off step.",
+ "pitfalls": [
+  "Pasting client-confidential data into unapproved tools",
+  "Citing authorities without checking them",
+  "Treating AI output as legal advice"
+ ],
+ "pairs_with": [
+  "tool_microsoft_word",
+  "tool_westlaw",
+  "tool_lexisnexis",
+  "tool_lawpavilion"
+ ],
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false,
+ "composed_path": {
+  "beginner": [
+   {
+    "module": "ai-safe",
+    "relevance": "core",
+    "rank": 0
+   },
+   {
+    "module": "ai-write",
+    "relevance": "core",
+    "rank": 2
+   },
+   {
+    "module": "ai-first",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ],
+  "intermediate": [
+   {
+    "extra": "Clause review and comparison",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "module": "ai-verify",
+    "relevance": "core",
+    "rank": 1
+   },
+   {
+    "module": "ai-files",
+    "relevance": "core",
+    "rank": 3
+   },
+   {
+    "module": "ai-domain",
+    "relevance": "core",
+    "rank": 4
+   }
+  ],
+  "expert": [
+   {
+    "extra": "Firm policy and approved tools",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "module": "ai-agents",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "ai-teach",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ]
+ }
+}

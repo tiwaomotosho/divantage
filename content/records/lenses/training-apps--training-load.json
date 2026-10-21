@@ -1,0 +1,72 @@
+{
+ "schema_version": "2.1",
+ "id": "lens_training_apps__training_load",
+ "roadmap_id": "rm_training_apps",
+ "roadmap": "training-apps",
+ "need_id": "need_training_load",
+ "need": "training-load",
+ "title": "Training apps for athletes",
+ "kind": "flagship",
+ "for_identities": [
+  "athlete",
+  "marathon-runner",
+  "cyclist",
+  "triathlete",
+  "swimmer",
+  "track-and-field-athlete",
+  "student-athlete"
+ ],
+ "why": "Training data helps you improve steadily and avoid injury from doing too much too soon.",
+ "what_is_different": "Athletes need the right zones, honest logging, attention to recovery and sleep, and a plan that peaks for key events.",
+ "priority_modules": [
+  "tn-record",
+  "tn-load",
+  "tn-plan",
+  "tn-coach"
+ ],
+ "extra_modules": [],
+ "starter_project": "Set up your zones, log four weeks honestly, and build a peak-and-taper plan for your next event with your coach.",
+ "pitfalls": [
+  "Chasing daily numbers",
+  "Wrong heart-rate zones",
+  "Ignoring rest weeks"
+ ],
+ "pairs_with": [
+  "tool_garmin_connect",
+  "tool_strava",
+  "tool_google_sheets"
+ ],
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false,
+ "composed_path": {
+  "beginner": [
+   {
+    "module": "tn-record",
+    "relevance": "core",
+    "rank": 0
+   }
+  ],
+  "intermediate": [
+   {
+    "module": "tn-load",
+    "relevance": "core",
+    "rank": 1
+   },
+   {
+    "module": "tn-plan",
+    "relevance": "core",
+    "rank": 2
+   }
+  ],
+  "expert": [
+   {
+    "module": "tn-coach",
+    "relevance": "core",
+    "rank": 3
+   }
+  ]
+ }
+}

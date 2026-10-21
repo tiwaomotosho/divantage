@@ -1,0 +1,165 @@
+{
+ "schema_version": "2.1",
+ "id": "lens_spreadsheets__inventory_procurement",
+ "roadmap_id": "rm_spreadsheets",
+ "roadmap": "spreadsheets",
+ "need_id": "need_inventory_procurement",
+ "need": "inventory-procurement",
+ "title": "Spreadsheets for shop stock and sales",
+ "kind": "flagship",
+ "for_identities": [
+  "small-business-owner",
+  "supermarket-owner",
+  "trader",
+  "pharmacist",
+  "community-pharmacist",
+  "e-commerce-seller",
+  "restaurant-owner",
+  "agro-dealer"
+ ],
+ "why": "Stock is money sitting on shelves. A simple stock sheet stops stock-outs, theft and expired goods.",
+ "what_is_different": "Retail stock needs reorder levels, expiry dates and fast daily updates — usually by someone busy serving customers.",
+ "priority_modules": [
+  "xl-tables-sort",
+  "xl-formulas-1",
+  "xl-logic",
+  "xl-conditional",
+  "xl-pivots"
+ ],
+ "extra_modules": [
+  {
+   "level": "beginner",
+   "title": "Stock in, stock out",
+   "outcome": "You can: keep a running stock balance",
+   "topics": [
+    "opening stock",
+    "receipts",
+    "sales",
+    "closing stock",
+    "SUMIFS by item"
+   ],
+   "practice": "Track stock for your top 20 items"
+  },
+  {
+   "level": "intermediate",
+   "title": "Reorder levels and expiry alerts",
+   "outcome": "You can: get warned before you run out or stock expires",
+   "topics": [
+    "reorder point",
+    "lead time",
+    "expiry highlighting",
+    "slow movers"
+   ],
+   "practice": "Highlight items below reorder level and expiring within 30 days"
+  }
+ ],
+ "starter_project": "Build a stock and sales workbook for your top 30 products with reorder alerts, expiry alerts and a weekly best-sellers pivot.",
+ "pitfalls": [
+  "Not counting physical stock regularly",
+  "One sheet per day instead of one table",
+  "No record of who changed what"
+ ],
+ "pairs_with": [
+  "tool_loyverse",
+  "tool_zoho_inventory",
+  "tool_whatsapp_business"
+ ],
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false,
+ "composed_path": {
+  "beginner": [
+   {
+    "extra": "Stock in, stock out",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "module": "xl-tables-sort",
+    "relevance": "core",
+    "rank": 0
+   },
+   {
+    "module": "xl-formulas-1",
+    "relevance": "core",
+    "rank": 1
+   },
+   {
+    "module": "xl-basics",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "xl-charts-1",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ],
+  "intermediate": [
+   {
+    "extra": "Reorder levels and expiry alerts",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "module": "xl-logic",
+    "relevance": "core",
+    "rank": 2
+   },
+   {
+    "module": "xl-conditional",
+    "relevance": "core",
+    "rank": 3
+   },
+   {
+    "module": "xl-pivots",
+    "relevance": "core",
+    "rank": 4
+   },
+   {
+    "module": "xl-cleaning",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "xl-dates-text",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "xl-protect-share",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ],
+  "expert": [
+   {
+    "module": "xl-dynamic-arrays",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "xl-what-if",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "xl-power-query",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "xl-model-design",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "xl-automation",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ]
+ }
+}

@@ -1,0 +1,181 @@
+{
+  "schema_version": "2.0",
+  "is_illustrative": false,
+  "redirect_from": [],
+  "disclosure": {
+    "commercial_relationship": "none"
+  },
+  "id": "tool_wordpress",
+  "slug": "wordpress",
+  "name": "WordPress (software)",
+  "official_name": "WordPress",
+  "official_url": "https://wordpress.org/",
+  "developer_or_publisher": "WordPress project",
+  "summary": "Free, open-source software for building websites and blogs on your own hosting.",
+  "description": "WordPress is open-source software for creating a website, blog or app. This record covers the software from WordPress.org, which you install on web hosting you choose; the software itself costs nothing, but hosting and a domain name usually do. Thousands of themes and plugins extend it, and the official Learn WordPress site offers free courses and lessons. Note: this is different from hosted website services that use the WordPress name.",
+  "category_ids": [
+    "websites"
+  ],
+  "task_ids": [
+    "task_build_website"
+  ],
+  "audience_ids": [
+    "business-owner",
+    "creator",
+    "freelancer",
+    "nonprofit"
+  ],
+  "skill_level": "intermediate",
+  "pricing": {
+    "model": "open_source",
+    "verification_status": "verified",
+    "source_ids": [
+      "src_wordpress_licence",
+      "src_wordpress_home"
+    ],
+    "checked_at": "2026-10-21",
+    "free_tier_details": "The software is released under the GPLv2 (or later).",
+    "costs_beyond_price": "You need web hosting and usually a domain name; the official site directs you to 'find hosting' separately.",
+    "price_points": []
+  },
+  "platforms": {
+    "values": [
+      "web"
+    ],
+    "verification_status": "partially_verified",
+    "source_ids": [
+      "src_wordpress_home"
+    ]
+  },
+  "deployment": [
+    "self_hosted"
+  ],
+  "ai_involvement": "unknown",
+  "availability_status": "active",
+  "account_required": "no",
+  "open_source": {
+    "is_open_source": true,
+    "licence": "GPL-2.0-or-later",
+    "repository_url": "https://wordpress.org/download/",
+    "source_ids": [
+      "src_wordpress_licence"
+    ]
+  },
+  "key_capabilities": [
+    {
+      "text": "Open-source software for creating a website, blog or app.",
+      "kind": "fact",
+      "source_ids": [
+        "src_wordpress_home"
+      ]
+    },
+    {
+      "text": "Official documentation and free learning resources are available from WordPress.org.",
+      "kind": "fact",
+      "source_ids": [
+        "src_wordpress_home",
+        "src_learn_wordpress"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Requires separate web hosting; the software alone does not put a site online.",
+      "kind": "fact",
+      "source_ids": [
+        "src_wordpress_home"
+      ]
+    },
+    {
+      "text": "You are responsible for updates, backups and security of your site, including any plugins you install.",
+      "kind": "editorial",
+      "source_ids": []
+    }
+  ],
+  "best_for": [
+    "Blogs and small-business sites that may grow over time",
+    "People who want to own and move their site freely"
+  ],
+  "not_ideal_for": [
+    "Someone who wants a site live in minutes with no setup or maintenance"
+  ],
+  "learning_curve": "moderate",
+  "getting_started": [
+    "Choose web hosting (many hosts offer WordPress installation).",
+    "Install WordPress and pick a simple theme.",
+    "Follow a beginner course on Learn WordPress to build your first pages."
+  ],
+  "resource_ids": [
+    "res_learn_wordpress",
+    "res_wordpress_documentation"
+  ],
+  "alternative_tool_ids": [],
+  "comparison_ids": [],
+  "playbook_ids": [],
+  "search_aliases": [
+    "wordpress.org",
+    "wp",
+    "blog",
+    "website builder",
+    "cms",
+    "make a website"
+  ],
+  "sources": [
+    {
+      "id": "src_wordpress_home",
+      "type": "official_site",
+      "url": "https://wordpress.org/",
+      "title": "WordPress.org home page",
+      "publisher": "WordPress.org",
+      "checked_at": "2026-10-21",
+      "supports": [
+        "identity",
+        "capabilities",
+        "platforms",
+        "pricing"
+      ],
+      "quote": "Open source software which you can use to easily create a beautiful website, blog, or app."
+    },
+    {
+      "id": "src_wordpress_licence",
+      "type": "official_legal",
+      "url": "https://wordpress.org/about/license/",
+      "title": "WordPress licence",
+      "publisher": "WordPress.org",
+      "checked_at": "2026-10-21",
+      "supports": [
+        "licence",
+        "pricing"
+      ],
+      "quote": "The license under which the WordPress software is released is the GPLv2 (or later) from the Free Software Foundation."
+    },
+    {
+      "id": "src_learn_wordpress",
+      "type": "official_site",
+      "url": "https://learn.wordpress.org/",
+      "title": "Learn WordPress",
+      "publisher": "WordPress.org",
+      "checked_at": "2026-10-21",
+      "supports": [
+        "capabilities"
+      ],
+      "quote": "free educational resources for all levels"
+    }
+  ],
+  "editorial": {
+    "status": "published",
+    "author": "V2 research pass (AI-assisted, Claude)",
+    "reviewer": "Product owner — blanket MVP approval (D-044)",
+    "created_at": "2026-10-21",
+    "updated_at": "2026-10-21",
+    "published_at": "2026-10-21",
+    "last_verified_at": "2026-10-21",
+    "review_interval_days": 90,
+    "next_review_at": "2027-01-19",
+    "confidence": "high",
+    "solo_approval": true,
+    "change_summary": "Researched from official sources 2026-10-21; published under owner's blanket MVP approval (D-044). Domain-expert review pending.",
+    "public_corrections": [],
+    "internal_notes": ""
+  }
+}

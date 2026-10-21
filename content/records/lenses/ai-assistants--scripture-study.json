@@ -1,0 +1,115 @@
+{
+ "schema_version": "2.1",
+ "id": "lens_ai_assistants__scripture_study",
+ "roadmap_id": "rm_ai_assistants",
+ "roadmap": "ai-assistants",
+ "need_id": "need_scripture_study",
+ "need": "scripture-study",
+ "title": "AI assistants for sermon and Bible-study preparation",
+ "kind": "flagship",
+ "for_identities": [
+  "pastor",
+  "senior-pastor",
+  "youth-pastor",
+  "priest",
+  "imam",
+  "rabbi",
+  "religious-teacher",
+  "theologian",
+  "missionary"
+ ],
+ "why": "AI can help organise research, suggest outlines, explain historical context and draft study questions — saving hours each week.",
+ "what_is_different": "Faith leaders must check every reference against the text and trusted commentaries, guard their own voice and theological convictions, and never outsource discernment. AI can misquote verses.",
+ "priority_modules": [
+  "ai-first",
+  "ai-verify",
+  "ai-domain",
+  "ai-write",
+  "ai-safe"
+ ],
+ "extra_modules": [
+  {
+   "level": "intermediate",
+   "title": "Research, not replacement",
+   "outcome": "You can: use AI as a research assistant",
+   "topics": [
+    "historical context",
+    "cross-references to verify",
+    "discussion questions",
+    "illustrations to adapt"
+   ],
+   "practice": "Generate study questions for a passage and verify every reference"
+  }
+ ],
+ "starter_project": "Build a weekly preparation workflow: passage study in your scripture tool, AI-assisted outline and questions, verification against the text, and your own final draft.",
+ "pitfalls": [
+  "Quoting verses from AI without checking",
+  "Losing your own voice",
+  "Sharing confidential pastoral situations"
+ ],
+ "pairs_with": [
+  "tool_logos_bible_software",
+  "tool_youversion",
+  "tool_blue_letter_bible",
+  "tool_quran_com",
+  "tool_sefaria"
+ ],
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false,
+ "composed_path": {
+  "beginner": [
+   {
+    "module": "ai-first",
+    "relevance": "core",
+    "rank": 0
+   },
+   {
+    "module": "ai-write",
+    "relevance": "core",
+    "rank": 3
+   },
+   {
+    "module": "ai-safe",
+    "relevance": "core",
+    "rank": 4
+   }
+  ],
+  "intermediate": [
+   {
+    "extra": "Research, not replacement",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "module": "ai-verify",
+    "relevance": "core",
+    "rank": 1
+   },
+   {
+    "module": "ai-domain",
+    "relevance": "core",
+    "rank": 2
+   },
+   {
+    "module": "ai-files",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ],
+  "expert": [
+   {
+    "module": "ai-agents",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "ai-teach",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ]
+ }
+}

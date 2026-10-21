@@ -1,0 +1,130 @@
+{
+ "schema_version": "2.1",
+ "id": "lens_canva__patient_education",
+ "roadmap_id": "rm_canva",
+ "roadmap": "canva",
+ "need_id": "need_patient_education",
+ "need": "patient-education",
+ "title": "Canva for patient information",
+ "kind": "flagship",
+ "for_identities": [
+  "medical-doctor",
+  "nurse",
+  "health-promotion-specialist",
+  "pharmacist",
+  "dietitian",
+  "physiotherapist",
+  "community-health-worker",
+  "midwife",
+  "dentist"
+ ],
+ "why": "Patients remember a clear leaflet far better than a rushed explanation. Good visuals improve understanding and adherence.",
+ "what_is_different": "Health materials must be accurate, plain-language (around reading age 11–12), culturally appropriate, translatable, and reviewed before use. Pictograms and large fonts matter more than decoration.",
+ "priority_modules": [
+  "cv-readable",
+  "cv-docs",
+  "cv-start",
+  "cv-brand",
+  "cv-bulk"
+ ],
+ "extra_modules": [
+  {
+   "level": "beginner",
+   "title": "Plain-language health writing",
+   "outcome": "You can: write instructions patients understand",
+   "topics": [
+    "short sentences",
+    "one message per section",
+    "teach-back questions",
+    "avoiding jargon"
+   ],
+   "practice": "Rewrite a medication instruction in plain language"
+  },
+  {
+   "level": "intermediate",
+   "title": "Multilingual versions",
+   "outcome": "You can: produce leaflets in local languages",
+   "topics": [
+    "machine translation drafts",
+    "native-speaker review",
+    "layout for longer text"
+   ],
+   "practice": "Produce a leaflet in two languages"
+  }
+ ],
+ "starter_project": "Create a one-page leaflet for a common condition or medicine with pictograms, a plain-language version reviewed by a colleague, and a translated version reviewed by a native speaker.",
+ "pitfalls": [
+  "Copying copyrighted medical images",
+  "Unreviewed machine translation",
+  "Too much text",
+  "No date or source for clinical information"
+ ],
+ "pairs_with": [
+  "tool_deepl",
+  "tool_google_translate",
+  "tool_microsoft_word"
+ ],
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false,
+ "composed_path": {
+  "beginner": [
+   {
+    "extra": "Plain-language health writing",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "module": "cv-readable",
+    "relevance": "core",
+    "rank": 0
+   },
+   {
+    "module": "cv-start",
+    "relevance": "core",
+    "rank": 2
+   },
+   {
+    "module": "cv-photos",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ],
+  "intermediate": [
+   {
+    "extra": "Multilingual versions",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "module": "cv-docs",
+    "relevance": "core",
+    "rank": 1
+   },
+   {
+    "module": "cv-brand",
+    "relevance": "core",
+    "rank": 3
+   },
+   {
+    "module": "cv-video",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ],
+  "expert": [
+   {
+    "module": "cv-bulk",
+    "relevance": "core",
+    "rank": 4
+   },
+   {
+    "module": "cv-limits",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ]
+ }
+}

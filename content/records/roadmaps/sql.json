@@ -1,0 +1,131 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_sql",
+ "slug": "sql",
+ "title": "SQL",
+ "tool_ids": [
+  "tool_dbeaver",
+  "tool_postgresql",
+  "tool_sqlite",
+  "tool_mysql",
+  "tool_bigquery"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_sql_select",
+    "slug": "sql-select",
+    "title": "Ask questions with SELECT",
+    "outcome": "You can: retrieve exactly the rows and columns you need",
+    "topics": [
+     "SELECT, WHERE, ORDER BY, LIMIT",
+     "operators"
+    ],
+    "practice": "Find all orders over a value last month",
+    "need_tags": [
+     "sql-querying"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_sql_agg",
+    "slug": "sql-agg",
+    "title": "Summaries with GROUP BY",
+    "outcome": "You can: aggregate data",
+    "topics": [
+     "COUNT, SUM, AVG",
+     "GROUP BY",
+     "HAVING"
+    ],
+    "practice": "Count customers by city",
+    "need_tags": [
+     "sql-querying",
+     "kpi-tracking"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_sql_joins",
+    "slug": "sql-joins",
+    "title": "Joins",
+    "outcome": "You can: combine tables correctly",
+    "topics": [
+     "INNER/LEFT joins",
+     "keys",
+     "avoiding duplicates"
+    ],
+    "practice": "Join orders to customers and products",
+    "need_tags": [
+     "sql-querying",
+     "databases"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_sql_window",
+    "slug": "sql-window",
+    "title": "Window functions and CTEs",
+    "outcome": "You can: write analytic queries",
+    "topics": [
+     "CTEs",
+     "ROW_NUMBER",
+     "running totals",
+     "LAG/LEAD"
+    ],
+    "practice": "Calculate month-on-month growth",
+    "need_tags": [
+     "sql-querying",
+     "dashboards-bi"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_sql_design",
+    "slug": "sql-design",
+    "title": "Design and performance",
+    "outcome": "You can: design tables and fast queries",
+    "topics": [
+     "normalisation",
+     "indexes",
+     "query plans",
+     "transactions"
+    ],
+    "practice": "Design a schema for a small app",
+    "need_tags": [
+     "databases",
+     "data-pipelines"
+    ],
+    "estimated_hours": {
+     "value": 5.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false
+}

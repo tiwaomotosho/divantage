@@ -1,0 +1,98 @@
+{
+ "schema_version": "2.1",
+ "id": "lens_translation__customer_support",
+ "roadmap_id": "rm_translation",
+ "roadmap": "translation",
+ "need_id": "need_customer_support",
+ "need": "customer-support",
+ "title": "Translation tools for serving customers in any language",
+ "kind": "flagship",
+ "for_identities": [
+  "small-business-owner",
+  "customer-service-representative",
+  "hotel-receptionist",
+  "tour-guide",
+  "e-commerce-seller",
+  "trader",
+  "flight-attendant"
+ ],
+ "why": "Serving customers in their language wins trust and sales.",
+ "what_is_different": "Customer messages are short and informal; tone matters. Saved translated replies and a glossary of product names keep answers consistent.",
+ "priority_modules": [
+  "tr-text",
+  "tr-voice",
+  "tr-camera",
+  "tr-workflow",
+  "tr-quality"
+ ],
+ "extra_modules": [
+  {
+   "level": "intermediate",
+   "title": "Saved replies in several languages",
+   "outcome": "You can: answer common questions instantly",
+   "topics": [
+    "quick replies",
+    "glossary of product names",
+    "checking tone"
+   ],
+   "practice": "Create quick replies in two languages for your top five questions"
+  }
+ ],
+ "starter_project": "Set up multilingual quick replies for your top questions on WhatsApp Business, reviewed by a native speaker.",
+ "pitfalls": [
+  "Literal translations that sound rude",
+  "Translating prices or measurements incorrectly"
+ ],
+ "pairs_with": [
+  "tool_whatsapp_business",
+  "tool_zendesk"
+ ],
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false,
+ "composed_path": {
+  "beginner": [
+   {
+    "module": "tr-text",
+    "relevance": "core",
+    "rank": 0
+   },
+   {
+    "module": "tr-voice",
+    "relevance": "core",
+    "rank": 1
+   },
+   {
+    "module": "tr-camera",
+    "relevance": "core",
+    "rank": 2
+   }
+  ],
+  "intermediate": [
+   {
+    "extra": "Saved replies in several languages",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "module": "tr-quality",
+    "relevance": "core",
+    "rank": 4
+   },
+   {
+    "module": "tr-docs",
+    "relevance": "core",
+    "rank": 5
+   }
+  ],
+  "expert": [
+   {
+    "module": "tr-workflow",
+    "relevance": "core",
+    "rank": 3
+   }
+  ]
+ }
+}

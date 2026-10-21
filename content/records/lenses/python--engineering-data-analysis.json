@@ -1,0 +1,127 @@
+{
+ "schema_version": "2.1",
+ "id": "lens_python__engineering_data_analysis",
+ "roadmap_id": "rm_python",
+ "roadmap": "python",
+ "need_id": "need_engineering_data_analysis",
+ "need": "engineering-data-analysis",
+ "title": "Python for engineers",
+ "kind": "flagship",
+ "for_identities": [
+  "civil-engineer",
+  "mechanical-engineer",
+  "petroleum-engineer",
+  "drilling-engineer",
+  "reservoir-engineer",
+  "electrical-engineer",
+  "chemical-engineer",
+  "geomechanics-specialist",
+  "petrophysicist",
+  "engineering-technician"
+ ],
+ "why": "Python handles data and calculations too big or repetitive for spreadsheets — sensor logs, survey files, batch calculations — and makes the work repeatable.",
+ "what_is_different": "Engineering Python uses NumPy/SciPy for numerical methods, pandas for time/depth series, units libraries, and domain file formats (e.g. LAS well logs, CSV from loggers). Results must be traceable and checked against known answers.",
+ "priority_modules": [
+  "py-first",
+  "py-pandas",
+  "py-numeric",
+  "py-plots",
+  "py-files",
+  "py-ship"
+ ],
+ "extra_modules": [
+  {
+   "level": "intermediate",
+   "title": "Domain file formats",
+   "outcome": "You can: read the files your discipline produces",
+   "topics": [
+    "LAS (lasio) for well logs",
+    "logger CSVs",
+    "Excel inputs",
+    "units with pint"
+   ],
+   "practice": "Load a well log or logger file and plot it"
+  },
+  {
+   "level": "expert",
+   "title": "Validated calculation tools",
+   "outcome": "You can: turn a calculation into a tested tool",
+   "topics": [
+    "unit tests against hand calcs",
+    "documentation",
+    "sharing with colleagues"
+   ],
+   "practice": "Package a calculation with tests and a short user guide"
+  }
+ ],
+ "starter_project": "Automate one recurring engineering analysis from your work: load raw data, run the calculation, plot results and export a report — verified against a hand calculation.",
+ "pitfalls": [
+  "No validation against known results",
+  "Silent unit errors",
+  "Notebooks no one else can rerun"
+ ],
+ "pairs_with": [
+  "tool_jupyter",
+  "tool_microsoft_excel",
+  "tool_matlab",
+  "tool_power_bi"
+ ],
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false,
+ "composed_path": {
+  "beginner": [
+   {
+    "module": "py-first",
+    "relevance": "core",
+    "rank": 0
+   },
+   {
+    "module": "py-files",
+    "relevance": "core",
+    "rank": 4
+   }
+  ],
+  "intermediate": [
+   {
+    "extra": "Domain file formats",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "module": "py-pandas",
+    "relevance": "core",
+    "rank": 1
+   },
+   {
+    "module": "py-numeric",
+    "relevance": "core",
+    "rank": 2
+   },
+   {
+    "module": "py-plots",
+    "relevance": "core",
+    "rank": 3
+   }
+  ],
+  "expert": [
+   {
+    "extra": "Validated calculation tools",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "module": "py-ship",
+    "relevance": "core",
+    "rank": 5
+   },
+   {
+    "module": "py-ml",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ]
+ }
+}

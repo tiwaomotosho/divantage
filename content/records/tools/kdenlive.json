@@ -1,0 +1,162 @@
+{
+  "schema_version": "2.0",
+  "is_illustrative": false,
+  "redirect_from": [],
+  "disclosure": {
+    "commercial_relationship": "none"
+  },
+  "id": "tool_kdenlive",
+  "slug": "kdenlive",
+  "name": "Kdenlive",
+  "official_name": "Kdenlive",
+  "official_url": "https://kdenlive.org/",
+  "developer_or_publisher": "KDE community",
+  "summary": "A free and open-source video editor for Linux, Windows, macOS and BSD.",
+  "description": "Kdenlive is a free and open-source desktop video editor from the KDE community. It covers the core editing workflow (organising footage, editing on a multi-track timeline, adding effects, transitions and titles, and exporting) and has an official user manual with a quick-start section. It runs on Linux, Windows, macOS and BSD, which makes it one of the few full editors with strong Linux support.",
+  "category_ids": [
+    "video"
+  ],
+  "task_ids": [
+    "task_edit_video_free"
+  ],
+  "audience_ids": [
+    "student",
+    "creator",
+    "developer"
+  ],
+  "skill_level": "beginner",
+  "pricing": {
+    "model": "open_source",
+    "verification_status": "verified",
+    "source_ids": [
+      "src_kdenlive_home"
+    ],
+    "checked_at": "2026-10-21",
+    "free_tier_details": "Free and open source, as stated on the official site.",
+    "price_points": []
+  },
+  "platforms": {
+    "values": [
+      "linux",
+      "windows",
+      "macos",
+      "bsd"
+    ],
+    "verification_status": "verified",
+    "source_ids": [
+      "src_kdenlive_home"
+    ]
+  },
+  "deployment": [
+    "desktop"
+  ],
+  "ai_involvement": "unknown",
+  "availability_status": "active",
+  "account_required": "unknown",
+  "open_source": {
+    "is_open_source": true,
+    "source_ids": [
+      "src_kdenlive_home"
+    ]
+  },
+  "key_capabilities": [
+    {
+      "text": "Free and open-source video editing on Linux, Windows, macOS and BSD.",
+      "kind": "fact",
+      "source_ids": [
+        "src_kdenlive_home"
+      ]
+    },
+    {
+      "text": "Official manual covers project and asset management, editing, effects and filters, transitions, titles and exporting.",
+      "kind": "fact",
+      "source_ids": [
+        "src_kdenlive_manual"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Desktop only: no web or mobile version is listed on the official site.",
+      "kind": "fact",
+      "source_ids": [
+        "src_kdenlive_home"
+      ]
+    }
+  ],
+  "best_for": [
+    "Linux users who want a full video editor",
+    "People who prefer open-source software"
+  ],
+  "not_ideal_for": [
+    "Editing on a phone or tablet"
+  ],
+  "learning_curve": "moderate",
+  "getting_started": [
+    "Download Kdenlive from the official site.",
+    "Follow the 'Quick Start' section of the official manual.",
+    "Export a short test clip before starting a longer project."
+  ],
+  "resource_ids": [
+    "res_kdenlive_manual"
+  ],
+  "alternative_tool_ids": [
+    "tool_shotcut",
+    "tool_davinci_resolve"
+  ],
+  "comparison_ids": [
+    "cmp_free_video_editors"
+  ],
+  "playbook_ids": [],
+  "search_aliases": [
+    "kden live",
+    "kde video editor",
+    "linux video editor",
+    "video editor"
+  ],
+  "sources": [
+    {
+      "id": "src_kdenlive_home",
+      "type": "official_site",
+      "url": "https://kdenlive.org/",
+      "title": "Kdenlive home page",
+      "publisher": "KDE",
+      "checked_at": "2026-10-21",
+      "supports": [
+        "identity",
+        "capabilities",
+        "platforms",
+        "pricing",
+        "licence"
+      ],
+      "quote": "Kdenlive - Free and Open Source Video Editor ... works on Linux, Windows, macOS, and BSD"
+    },
+    {
+      "id": "src_kdenlive_manual",
+      "type": "official_docs",
+      "url": "https://docs.kdenlive.org/",
+      "title": "Kdenlive user manual",
+      "publisher": "KDE",
+      "checked_at": "2026-10-21",
+      "supports": [
+        "capabilities"
+      ]
+    }
+  ],
+  "editorial": {
+    "status": "published",
+    "author": "V2 research pass (AI-assisted, Claude)",
+    "reviewer": "Product owner — blanket MVP approval (D-044)",
+    "created_at": "2026-10-21",
+    "updated_at": "2026-10-21",
+    "published_at": "2026-10-21",
+    "last_verified_at": "2026-10-21",
+    "review_interval_days": 90,
+    "next_review_at": "2027-01-19",
+    "confidence": "high",
+    "solo_approval": true,
+    "change_summary": "Researched from official sources 2026-10-21; published under owner's blanket MVP approval (D-044). Domain-expert review pending.",
+    "public_corrections": [],
+    "internal_notes": ""
+  }
+}

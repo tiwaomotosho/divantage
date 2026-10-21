@@ -1,0 +1,109 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_vs_code",
+ "slug": "vs-code",
+ "title": "Visual Studio Code",
+ "tool_ids": [
+  "tool_vs_code",
+  "tool_cursor"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_vsc_start",
+    "slug": "vsc-start",
+    "title": "Set up your editor",
+    "outcome": "You can: edit, run and navigate code comfortably",
+    "topics": [
+     "extensions",
+     "terminal",
+     "command palette",
+     "multi-cursor"
+    ],
+    "practice": "Configure VS Code for your main language",
+    "need_tags": [
+     "write-code"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_vsc_debug",
+    "slug": "vsc-debug",
+    "title": "Debugging",
+    "outcome": "You can: find bugs with breakpoints",
+    "topics": [
+     "breakpoints",
+     "watch",
+     "call stack",
+     "launch configs"
+    ],
+    "practice": "Debug a failing function step by step",
+    "need_tags": [
+     "write-code",
+     "test-automation"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_vsc_ai",
+    "slug": "vsc-ai",
+    "title": "AI pair programming",
+    "outcome": "You can: use AI assistance without losing understanding",
+    "topics": [
+     "inline completions",
+     "chat",
+     "reviewing AI code",
+     "tests first"
+    ],
+    "practice": "Refactor a function with AI, then write tests for it",
+    "need_tags": [
+     "write-code",
+     "use-ai-assistants"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_vsc_remote",
+    "slug": "vsc-remote",
+    "title": "Remote and container development",
+    "outcome": "You can: develop inside containers and remote machines",
+    "topics": [
+     "Dev Containers",
+     "SSH remote",
+     "settings sync"
+    ],
+    "practice": "Open a project in a dev container",
+    "need_tags": [
+     "containers-orchestration",
+     "cloud-infrastructure"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false
+}

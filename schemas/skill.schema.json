@@ -1,0 +1,141 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://digitaladvantage.example/schemas/v2/skill.schema.json",
+  "title": "Skill (alternative entry point: 'What do you want to get good at?')",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "slug",
+    "label",
+    "group",
+    "description",
+    "levels",
+    "need_ids",
+    "tool_ids",
+    "roadmaps",
+    "identity_count",
+    "expert_validation"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^skill_[a-z0-9_]+$"
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "maxLength": 60
+    },
+    "label": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 60
+    },
+    "group": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 200
+    },
+    "levels": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "beginner",
+        "intermediate",
+        "expert"
+      ],
+      "properties": {
+        "beginner": {
+          "type": "string",
+          "minLength": 5,
+          "maxLength": 160
+        },
+        "intermediate": {
+          "type": "string",
+          "minLength": 5,
+          "maxLength": 160
+        },
+        "expert": {
+          "type": "string",
+          "minLength": 5,
+          "maxLength": 160
+        }
+      }
+    },
+    "need_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^need_[a-z0-9_]+$"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "tool_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^tool_[a-z0-9_]+$"
+      },
+      "minItems": 1,
+      "uniqueItems": true,
+      "description": "Derived: union of the needs' tools, ranked by how often and how early they appear."
+    },
+    "roadmaps": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true,
+      "description": "Derived: roadmap slugs for the tools, same order."
+    },
+    "identity_count": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Derived: identities whose resolved needs include any of this skill's needs (all identities if a need is universal)."
+    },
+    "expert_validation": {
+      "type": "object",
+      "required": [
+        "status"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "pending",
+            "in_review",
+            "validated"
+          ]
+        },
+        "note": {
+          "type": "string"
+        },
+        "validator": {
+          "type": "string"
+        },
+        "validated_at": {
+          "type": "string",
+          "format": "date"
+        },
+        "domain": {
+          "type": "string"
+        }
+      }
+    },
+    "keywords": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2,
+        "maxLength": 40
+      },
+      "uniqueItems": true,
+      "description": "Everyday words people type for this skill; search only."
+    }
+  }
+}

@@ -1,0 +1,239 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_gmail",
+ "slug": "gmail",
+ "title": "Gmail skill roadmap",
+ "tool_ids": [
+  "tool_gmail"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_gmail_productivity_app_0",
+    "slug": "gmail-productivity-app-0",
+    "title": "Get started with Gmail",
+    "outcome": "You can: set up Gmail, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "email-and-calendar"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_gmail_productivity_app_1",
+    "slug": "gmail-productivity-app-1",
+    "title": "Set up and sync",
+    "outcome": "You can: set up Gmail on your devices",
+    "topics": [
+     "account",
+     "sync",
+     "mobile app",
+     "settings"
+    ],
+    "practice": "Install Gmail on phone and computer",
+    "need_tags": [
+     "email-and-calendar"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_gmail_productivity_app_2",
+    "slug": "gmail-productivity-app-2",
+    "title": "Daily use",
+    "outcome": "You can: do your daily tasks faster",
+    "topics": [
+     "core actions",
+     "shortcuts",
+     "search"
+    ],
+    "practice": "Use Gmail for a week and note one saved hour",
+    "need_tags": [
+     "personal-productivity",
+     "email-and-calendar"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_gmail_productivity_app_3",
+    "slug": "gmail-productivity-app-3",
+    "title": "Organise",
+    "outcome": "You can: build a simple system",
+    "topics": [
+     "folders/labels/tags",
+     "templates",
+     "naming conventions"
+    ],
+    "practice": "Reorganise your Gmail with a clear system",
+    "need_tags": [
+     "personal-productivity",
+     "records-management",
+     "email-and-calendar"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_gmail_productivity_app_4",
+    "slug": "gmail-productivity-app-4",
+    "title": "Share safely",
+    "outcome": "You can: collaborate without oversharing",
+    "topics": [
+     "sharing permissions",
+     "links",
+     "version history"
+    ],
+    "practice": "Audit your shared items",
+    "need_tags": [
+     "files-cloud-storage",
+     "online-safety",
+     "email-and-calendar"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_gmail_productivity_app_8",
+    "slug": "gmail-productivity-app-8",
+    "title": "Signature skills in Gmail",
+    "outcome": "You can: use the features that make Gmail distinctive",
+    "topics": [
+     "labels",
+     "filters",
+     "search operators",
+     "templates"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "email-and-calendar"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_gmail_productivity_app_9",
+    "slug": "gmail-productivity-app-9",
+    "title": "Advanced Gmail",
+    "outcome": "You can: use Gmail's advanced capabilities with confidence",
+    "topics": [
+     "scheduling send",
+     "confidential mode",
+     "delegation",
+     "Gemini in Gmail"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "email-and-calendar"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_gmail_productivity_app_5",
+    "slug": "gmail-productivity-app-5",
+    "title": "Automate",
+    "outcome": "You can: let Gmail work for you",
+    "topics": [
+     "rules",
+     "integrations",
+     "scheduled tasks"
+    ],
+    "practice": "Create two automation rules",
+    "need_tags": [
+     "automation-workflows",
+     "email-and-calendar"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_gmail_productivity_app_10",
+    "slug": "gmail-productivity-app-10",
+    "title": "Integrate Gmail into your workflow",
+    "outcome": "You can: connect Gmail with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Gmail to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "email-and-calendar"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_gmail_productivity_app_11",
+    "slug": "gmail-productivity-app-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Gmail well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Gmail\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "email-and-calendar"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "productivity-app",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

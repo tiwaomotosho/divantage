@@ -1,0 +1,128 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_davinci_resolve",
+ "slug": "davinci-resolve",
+ "title": "DaVinci Resolve",
+ "tool_ids": [
+  "tool_davinci_resolve",
+  "tool_shotcut",
+  "tool_kdenlive"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_dr_edit",
+    "slug": "dr-edit",
+    "title": "Edit a first project",
+    "outcome": "You can: import, cut and export a video",
+    "topics": [
+     "media pool",
+     "timeline",
+     "cuts and trims",
+     "export presets"
+    ],
+    "practice": "Edit a 2-minute video",
+    "need_tags": [
+     "video-editing-pro"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_dr_audio",
+    "slug": "dr-audio",
+    "title": "Clean, clear audio",
+    "outcome": "You can: make speech easy to hear",
+    "topics": [
+     "levels",
+     "noise reduction basics",
+     "music ducking"
+    ],
+    "practice": "Balance voice and music",
+    "need_tags": [
+     "video-editing-pro",
+     "audio-production"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_dr_colour",
+    "slug": "dr-colour",
+    "title": "Colour correction",
+    "outcome": "You can: make shots look natural and consistent",
+    "topics": [
+     "scopes",
+     "white balance",
+     "matching shots"
+    ],
+    "practice": "Match three shots from different cameras",
+    "need_tags": [
+     "video-editing-pro"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_dr_titles",
+    "slug": "dr-titles",
+    "title": "Titles and graphics",
+    "outcome": "You can: add professional titles",
+    "topics": [
+     "text",
+     "lower thirds",
+     "simple motion"
+    ],
+    "practice": "Add lower thirds to an interview",
+    "need_tags": [
+     "video-editing-pro",
+     "motion-graphics"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_dr_grade",
+    "slug": "dr-grade",
+    "title": "Grading and delivery",
+    "outcome": "You can: deliver to broadcast or platform specs",
+    "topics": [
+     "nodes",
+     "LUTs",
+     "HDR/colour spaces",
+     "delivery specs"
+    ],
+    "practice": "Grade and deliver to a platform specification",
+    "need_tags": [
+     "video-editing-pro"
+    ],
+    "estimated_hours": {
+     "value": 6.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false
+}

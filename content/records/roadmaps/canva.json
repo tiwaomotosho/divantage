@@ -1,0 +1,209 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_canva",
+ "slug": "canva",
+ "title": "Canva",
+ "tool_ids": [
+  "tool_canva",
+  "tool_adobe_express"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_cv_start",
+    "slug": "cv-start",
+    "title": "Start from the right size and template",
+    "outcome": "You can: pick a design type and customise a template",
+    "topics": [
+     "design types and sizes",
+     "templates",
+     "replacing text and images",
+     "downloading"
+    ],
+    "practice": "Make a flyer for an event",
+    "need_tags": [
+     "design-simple-graphics",
+     "social-media-presence",
+     "events-management"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_cv_readable",
+    "slug": "cv-readable",
+    "title": "Make it readable",
+    "outcome": "You can: design something people can read on a phone",
+    "topics": [
+     "contrast",
+     "font pairing",
+     "hierarchy",
+     "white space",
+     "alignment"
+    ],
+    "practice": "Fix a cluttered poster",
+    "need_tags": [
+     "design-simple-graphics",
+     "accessible-materials",
+     "patient-education"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_cv_photos",
+    "slug": "cv-photos",
+    "title": "Work with photos",
+    "outcome": "You can: crop, adjust and place photos well",
+    "topics": [
+     "cropping",
+     "filters",
+     "frames",
+     "grids",
+     "free elements"
+    ],
+    "practice": "Create a photo collage post",
+    "need_tags": [
+     "photo-editing",
+     "product-photography",
+     "visual-portfolio"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_cv_brand",
+    "slug": "cv-brand",
+    "title": "Brand kit and consistency",
+    "outcome": "You can: keep everything on-brand",
+    "topics": [
+     "brand colours and fonts",
+     "logos",
+     "reusable templates for a team"
+    ],
+    "practice": "Build a 3-post template set for your brand",
+    "need_tags": [
+     "brand-identity",
+     "social-media-management",
+     "congregation-management"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_cv_video",
+    "slug": "cv-video",
+    "title": "Short video and animation",
+    "outcome": "You can: make short animated posts and reels",
+    "topics": [
+     "timeline",
+     "animations",
+     "captions",
+     "music",
+     "exporting for platforms"
+    ],
+    "practice": "Create a 15-second reel with captions",
+    "need_tags": [
+     "short-video",
+     "social-media-presence",
+     "athlete-brand",
+     "property-marketing"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_cv_docs",
+    "slug": "cv-docs",
+    "title": "Documents, presentations and print",
+    "outcome": "You can: produce printed and presentation material",
+    "topics": [
+     "presentations",
+     "documents",
+     "print bleed and margins",
+     "PDF print"
+    ],
+    "practice": "Design a two-sided A5 leaflet ready for print",
+    "need_tags": [
+     "presentations",
+     "patient-education",
+     "lesson-planning",
+     "property-marketing"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_cv_bulk",
+    "slug": "cv-bulk",
+    "title": "Bulk create and team workflows",
+    "outcome": "You can: produce many variations quickly with a team",
+    "topics": [
+     "bulk create from spreadsheets",
+     "team folders",
+     "approval workflows",
+     "scheduling"
+    ],
+    "practice": "Generate 30 personalised certificates from a sheet",
+    "need_tags": [
+     "events-management",
+     "social-media-management",
+     "lesson-planning"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_cv_limits",
+    "slug": "cv-limits",
+    "title": "Know when to move up",
+    "outcome": "You can: recognise when you need pro tools",
+    "topics": [
+     "vector vs raster",
+     "print colour (CMYK)",
+     "handing off to Illustrator/Figma"
+    ],
+    "practice": "Prepare a logo brief for a professional designer",
+    "need_tags": [
+     "brand-identity",
+     "graphic-design-pro"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false
+}

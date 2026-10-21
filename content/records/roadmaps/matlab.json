@@ -1,0 +1,109 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_matlab",
+ "slug": "matlab",
+ "title": "MATLAB",
+ "tool_ids": [
+  "tool_matlab",
+  "tool_mathcad"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_ml_basics",
+    "slug": "ml-basics",
+    "title": "Matrices and scripts",
+    "outcome": "You can: calculate and plot with MATLAB",
+    "topics": [
+     "variables",
+     "vectors/matrices",
+     "scripts",
+     "plotting"
+    ],
+    "practice": "Plot a function from your field",
+    "need_tags": [
+     "engineering-calculations",
+     "scientific-computing"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_ml_functions",
+    "slug": "ml-functions",
+    "title": "Functions and data import",
+    "outcome": "You can: build reusable analysis tools",
+    "topics": [
+     "functions",
+     "importing data",
+     "tables",
+     "logical indexing"
+    ],
+    "practice": "Analyse a test-data file with a function",
+    "need_tags": [
+     "engineering-data-analysis"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_ml_solve",
+    "slug": "ml-solve",
+    "title": "Solving and optimising",
+    "outcome": "You can: solve equations and fit models",
+    "topics": [
+     "fzero/fsolve",
+     "ODEs",
+     "curve fitting",
+     "optimisation"
+    ],
+    "practice": "Fit a model to experimental data",
+    "need_tags": [
+     "engineering-calculations",
+     "fea-simulation"
+    ],
+    "estimated_hours": {
+     "value": 4.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_ml_sim",
+    "slug": "ml-sim",
+    "title": "Simulation and apps",
+    "outcome": "You can: build simulations and apps",
+    "topics": [
+     "Simulink basics",
+     "App Designer",
+     "code generation concepts"
+    ],
+    "practice": "Build a small app that runs your calculation",
+    "need_tags": [
+     "engineering-calculations",
+     "plc-automation"
+    ],
+    "estimated_hours": {
+     "value": 6.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false
+}

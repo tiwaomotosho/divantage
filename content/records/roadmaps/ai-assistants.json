@@ -1,0 +1,206 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_ai_assistants",
+ "slug": "ai-assistants",
+ "title": "AI assistants (Claude, ChatGPT, Gemini, Copilot)",
+ "tool_ids": [
+  "tool_claude",
+  "tool_chatgpt",
+  "tool_gemini",
+  "tool_microsoft_copilot"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_ai_first",
+    "slug": "ai-first",
+    "title": "Your first useful conversations",
+    "outcome": "You can: get helpful answers by giving context",
+    "topics": [
+     "role, task, context, format",
+     "follow-up questions",
+     "what AI is bad at"
+    ],
+    "practice": "Ask for a plain-language explanation of a term from your field",
+    "need_tags": [
+     "use-ai-assistants",
+     "learn-online"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_ai_safe",
+    "slug": "ai-safe",
+    "title": "Use AI safely",
+    "outcome": "You can: protect private information and avoid being misled",
+    "topics": [
+     "never paste confidential or personal data without approval",
+     "check facts and sources",
+     "hallucinations",
+     "your organisation's policy"
+    ],
+    "practice": "Fact-check three claims an AI made about your field",
+    "need_tags": [
+     "use-ai-assistants",
+     "fact-check"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_ai_write",
+    "slug": "ai-write",
+    "title": "Draft and improve writing",
+    "outcome": "You can: turn rough notes into clear writing — in your voice",
+    "topics": [
+     "drafting",
+     "rewriting for audience",
+     "summarising",
+     "translating tone"
+    ],
+    "practice": "Turn bullet notes into a polite email",
+    "need_tags": [
+     "write-clearly",
+     "copywriting",
+     "email-and-calendar"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_ai_files",
+    "slug": "ai-files",
+    "title": "Work with documents and data",
+    "outcome": "You can: analyse files you are allowed to share",
+    "topics": [
+     "uploading documents",
+     "summarising long reports",
+     "extracting tables",
+     "asking for citations to the page"
+    ],
+    "practice": "Summarise a 20-page public report into 5 key points with page references",
+    "need_tags": [
+     "literature-review",
+     "policy-research",
+     "consulting-deliverables"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_ai_domain",
+    "slug": "ai-domain",
+    "title": "Prompts for your profession",
+    "outcome": "You can: build reusable prompts for your daily tasks",
+    "topics": [
+     "prompt templates",
+     "examples",
+     "checklists",
+     "projects/custom instructions"
+    ],
+    "practice": "Create 3 reusable prompts for your weekly tasks",
+    "need_tags": [
+     "lesson-planning",
+     "contract-drafting",
+     "scripture-study",
+     "business-planning",
+     "cpd-learning"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_ai_verify",
+    "slug": "ai-verify",
+    "title": "Verification habits",
+    "outcome": "You can: catch errors before they cost you",
+    "topics": [
+     "asking for sources",
+     "cross-checking",
+     "asking the AI to critique itself",
+     "when to ask a human expert"
+    ],
+    "practice": "Build a personal checklist for AI-assisted work",
+    "need_tags": [
+     "use-ai-assistants",
+     "clinical-reference",
+     "legal-research"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_ai_agents",
+    "slug": "ai-agents",
+    "title": "Automate with AI tools",
+    "outcome": "You can: connect AI to your workflow responsibly",
+    "topics": [
+     "AI in spreadsheets and docs",
+     "automations with AI steps",
+     "APIs (for builders)"
+    ],
+    "practice": "Automate a weekly summary of form responses",
+    "need_tags": [
+     "automation-workflows",
+     "ai-app-development"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_ai_teach",
+    "slug": "ai-teach",
+    "title": "Teach others to use AI well",
+    "outcome": "You can: advise family, friends and colleagues safely",
+    "topics": [
+     "common mistakes",
+     "age-appropriate use",
+     "privacy",
+     "workplace policy"
+    ],
+    "practice": "Run a 20-minute AI basics session for your family or team",
+    "need_tags": [
+     "use-ai-assistants",
+     "digital-basics",
+     "workshop-facilitation"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false
+}

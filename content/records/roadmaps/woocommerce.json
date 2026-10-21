@@ -1,0 +1,243 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_woocommerce",
+ "slug": "woocommerce",
+ "title": "WooCommerce skill roadmap",
+ "tool_ids": [
+  "tool_woocommerce"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_woocommerce_ecommerce_0",
+    "slug": "woocommerce-ecommerce-0",
+    "title": "Get started with WooCommerce",
+    "outcome": "You can: set up WooCommerce, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "online-store"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_woocommerce_ecommerce_1",
+    "slug": "woocommerce-ecommerce-1",
+    "title": "Open your shop",
+    "outcome": "You can: set up a store or seller account",
+    "topics": [
+     "account",
+     "policies",
+     "payments",
+     "verification"
+    ],
+    "practice": "Set up your seller profile",
+    "need_tags": [
+     "online-store",
+     "marketplace-selling"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_woocommerce_ecommerce_2",
+    "slug": "woocommerce-ecommerce-2",
+    "title": "List products that sell",
+    "outcome": "You can: create great listings",
+    "topics": [
+     "titles",
+     "photos",
+     "prices",
+     "variants"
+    ],
+    "practice": "List five products",
+    "need_tags": [
+     "online-store",
+     "product-photography"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_woocommerce_ecommerce_3",
+    "slug": "woocommerce-ecommerce-3",
+    "title": "Orders, delivery and returns",
+    "outcome": "You can: fulfil orders reliably",
+    "topics": [
+     "order flow",
+     "shipping options",
+     "returns",
+     "customer messages"
+    ],
+    "practice": "Process a test order end to end",
+    "need_tags": [
+     "online-store",
+     "customer-support"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_woocommerce_ecommerce_4",
+    "slug": "woocommerce-ecommerce-4",
+    "title": "Promote",
+    "outcome": "You can: bring buyers to your listings",
+    "topics": [
+     "promotions",
+     "SEO for listings",
+     "ads",
+     "reviews"
+    ],
+    "practice": "Run one promotion",
+    "need_tags": [
+     "seo",
+     "online-ads",
+     "online-store"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_woocommerce_ecommerce_8",
+    "slug": "woocommerce-ecommerce-8",
+    "title": "Signature skills in WooCommerce",
+    "outcome": "You can: use the features that make WooCommerce distinctive",
+    "topics": [
+     "products",
+     "payment gateways",
+     "shipping",
+     "orders"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "online-store"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_woocommerce_ecommerce_9",
+    "slug": "woocommerce-ecommerce-9",
+    "title": "Advanced WooCommerce",
+    "outcome": "You can: use WooCommerce's advanced capabilities with confidence",
+    "topics": [
+     "extensions",
+     "subscriptions",
+     "performance and security"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "online-store"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_woocommerce_ecommerce_5",
+    "slug": "woocommerce-ecommerce-5",
+    "title": "Grow with data",
+    "outcome": "You can: use sales data to grow",
+    "topics": [
+     "analytics",
+     "inventory sync",
+     "integrations",
+     "fees review"
+    ],
+    "practice": "Review margins after fees and adjust prices",
+    "need_tags": [
+     "kpi-tracking",
+     "inventory-procurement",
+     "online-store"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_woocommerce_ecommerce_10",
+    "slug": "woocommerce-ecommerce-10",
+    "title": "Integrate WooCommerce into your workflow",
+    "outcome": "You can: connect WooCommerce with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect WooCommerce to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "online-store"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_woocommerce_ecommerce_11",
+    "slug": "woocommerce-ecommerce-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use WooCommerce well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use WooCommerce\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "online-store"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "ecommerce",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

@@ -1,0 +1,111 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_training_apps",
+ "slug": "training-apps",
+ "title": "Training apps (Strava, Garmin Connect, TrainingPeaks, Intervals.icu)",
+ "tool_ids": [
+  "tool_strava",
+  "tool_garmin_connect",
+  "tool_trainingpeaks",
+  "tool_intervals_icu"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_tn_record",
+    "slug": "tn-record",
+    "title": "Record and review sessions",
+    "outcome": "You can: log training accurately",
+    "topics": [
+     "syncing devices",
+     "activity types",
+     "heart rate zones",
+     "privacy settings"
+    ],
+    "practice": "Set your zones and review a week of sessions",
+    "need_tags": [
+     "training-load"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_tn_load",
+    "slug": "tn-load",
+    "title": "Understand training load",
+    "outcome": "You can: balance load and recovery",
+    "topics": [
+     "training load metrics (e.g. TSS/acute vs chronic load)",
+     "rest days",
+     "trends"
+    ],
+    "practice": "Plan a recovery week from your data",
+    "need_tags": [
+     "training-load",
+     "sports-analytics"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_tn_plan",
+    "slug": "tn-plan",
+    "title": "Plan a training block",
+    "outcome": "You can: build a periodised plan",
+    "topics": [
+     "goals",
+     "phases",
+     "workouts library",
+     "calendar"
+    ],
+    "practice": "Build a 4-week plan for an event",
+    "need_tags": [
+     "training-load",
+     "online-coaching"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_tn_coach",
+    "slug": "tn-coach",
+    "title": "Coach others with data",
+    "outcome": "You can: manage athletes remotely",
+    "topics": [
+     "athlete accounts",
+     "comments",
+     "compliance",
+     "exporting data"
+    ],
+    "practice": "Review three athletes' weeks and give feedback",
+    "need_tags": [
+     "online-coaching",
+     "sports-analytics"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false
+}

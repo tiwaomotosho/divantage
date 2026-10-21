@@ -1,0 +1,103 @@
+{
+  "schema_version": "2.0",
+  "is_illustrative": false,
+  "redirect_from": [],
+  "disclosure": {
+    "commercial_relationship": "none"
+  },
+  "id": "task_design_social_graphic",
+  "slug": "design-a-social-media-graphic",
+  "title": "How do I design a social media graphic?",
+  "short_title": "Design a social graphic",
+  "family_id": "create",
+  "problem_statement": "You need an eye-catching image for a social media post, event or announcement and aren't a designer.",
+  "expected_outcome": "A correctly sized graphic that is readable on a phone screen.",
+  "difficulty": "beginner",
+  "steps": [
+    {
+      "n": 1,
+      "title": "Pick the right size",
+      "instructions": "Choose the design type for the platform you're posting to so the size and shape are correct.",
+      "tool_ids": [
+        "tool_canva"
+      ],
+      "expected_result": "A blank canvas at the right size."
+    },
+    {
+      "n": 2,
+      "title": "Start from a template",
+      "instructions": "Choose a template close to your message and replace text and images with your own.",
+      "tool_ids": [
+        "tool_canva"
+      ],
+      "expected_result": "A draft with your content."
+    },
+    {
+      "n": 3,
+      "title": "Make it readable",
+      "instructions": "Keep text short, use high contrast between text and background, and check it at phone size.",
+      "expected_result": "Text that is readable on a small screen."
+    },
+    {
+      "n": 4,
+      "title": "Export and post",
+      "instructions": "Download as PNG or JPG and add alt text describing the image when you post.",
+      "expected_result": "A posted graphic with alt text."
+    }
+  ],
+  "recommended_tool_ids": [
+    "tool_canva"
+  ],
+  "quality_checks": [
+    "Text is readable at phone size.",
+    "The image isn't cropped by the platform.",
+    "Alt text is added when posting."
+  ],
+  "category_ids": [
+    "design"
+  ],
+  "sources": [],
+  "editorial": {
+    "status": "published",
+    "author": "V2 research pass (AI-assisted, Claude)",
+    "reviewer": "Product owner — blanket MVP approval (D-044)",
+    "created_at": "2026-10-21",
+    "updated_at": "2026-10-21",
+    "published_at": "2026-10-21",
+    "last_verified_at": "2026-10-21",
+    "review_interval_days": 365,
+    "next_review_at": "2027-10-21",
+    "confidence": "medium",
+    "solo_approval": true,
+    "change_summary": "Researched from official sources 2026-10-21; published under owner's blanket MVP approval (D-044). Domain-expert review pending.",
+    "public_corrections": [],
+    "internal_notes": ""
+  },
+  "estimated_time": {
+    "label": "About 20–30 minutes",
+    "minutes_min": 20,
+    "minutes_max": 30,
+    "is_estimate": true
+  },
+  "common_mistakes": [
+    "Too much text",
+    "Low contrast text on busy photos",
+    "Using images you don't have rights to"
+  ],
+  "audience_ids": [
+    "business-owner",
+    "creator",
+    "nonprofit",
+    "student"
+  ],
+  "search_aliases": [
+    "poster",
+    "flyer",
+    "instagram post",
+    "social media post",
+    "make a graphic",
+    "design graphics",
+    "thumbnail",
+    "banner"
+  ]
+}

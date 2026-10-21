@@ -1,0 +1,239 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_testrail",
+ "slug": "testrail",
+ "title": "TestRail skill roadmap",
+ "tool_ids": [
+  "tool_testrail"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_testrail_it_service_0",
+    "slug": "testrail-it-service-0",
+    "title": "Get started with TestRail",
+    "outcome": "You can: set up TestRail, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "test-management"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_testrail_it_service_1",
+    "slug": "testrail-it-service-1",
+    "title": "Create and work cases",
+    "outcome": "You can: log and resolve tickets or test cases",
+    "topics": [
+     "fields",
+     "priorities",
+     "statuses",
+     "assignment"
+    ],
+    "practice": "Log and resolve three sample items",
+    "need_tags": [
+     "it-helpdesk",
+     "test-management"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_testrail_it_service_2",
+    "slug": "testrail-it-service-2",
+    "title": "Knowledge and templates",
+    "outcome": "You can: reuse answers and test steps",
+    "topics": [
+     "templates",
+     "knowledge base",
+     "shared steps"
+    ],
+    "practice": "Write two knowledge articles or reusable test steps",
+    "need_tags": [
+     "it-helpdesk",
+     "test-management"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_testrail_it_service_3",
+    "slug": "testrail-it-service-3",
+    "title": "Workflows and SLAs",
+    "outcome": "You can: keep work moving",
+    "topics": [
+     "workflows",
+     "SLAs",
+     "escalation",
+     "automation rules"
+    ],
+    "practice": "Add an SLA and an escalation rule",
+    "need_tags": [
+     "it-helpdesk",
+     "test-management"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_testrail_it_service_4",
+    "slug": "testrail-it-service-4",
+    "title": "Reporting",
+    "outcome": "You can: report status and quality",
+    "topics": [
+     "dashboards",
+     "coverage/backlog",
+     "trends"
+    ],
+    "practice": "Build a weekly status dashboard",
+    "need_tags": [
+     "kpi-tracking",
+     "test-management"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_testrail_it_service_8",
+    "slug": "testrail-it-service-8",
+    "title": "Signature skills in TestRail",
+    "outcome": "You can: use the features that make TestRail distinctive",
+    "topics": [
+     "test cases",
+     "suites",
+     "runs",
+     "results"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "test-management"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_testrail_it_service_9",
+    "slug": "testrail-it-service-9",
+    "title": "Advanced TestRail",
+    "outcome": "You can: use TestRail's advanced capabilities with confidence",
+    "topics": [
+     "milestones",
+     "integrations",
+     "API reporting"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "test-management"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_testrail_it_service_5",
+    "slug": "testrail-it-service-5",
+    "title": "Integrate and govern",
+    "outcome": "You can: connect TestRail to the rest of the stack",
+    "topics": [
+     "integrations",
+     "permissions",
+     "audit",
+     "asset/CI data"
+    ],
+    "practice": "Integrate TestRail with your issue tracker or CI",
+    "need_tags": [
+     "agile-tracking",
+     "test-management"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_testrail_it_service_10",
+    "slug": "testrail-it-service-10",
+    "title": "Integrate TestRail into your workflow",
+    "outcome": "You can: connect TestRail with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect TestRail to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "test-management"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_testrail_it_service_11",
+    "slug": "testrail-it-service-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use TestRail well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use TestRail\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "test-management"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "it-service",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

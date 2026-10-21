@@ -1,0 +1,246 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_google_sites",
+ "slug": "google-sites",
+ "title": "Google Sites skill roadmap",
+ "tool_ids": [
+  "tool_google_sites"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_google_sites_ecommerce_0",
+    "slug": "google-sites-ecommerce-0",
+    "title": "Get started with Google Sites",
+    "outcome": "You can: set up Google Sites, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "professional-profile"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_google_sites_ecommerce_1",
+    "slug": "google-sites-ecommerce-1",
+    "title": "Open your shop",
+    "outcome": "You can: set up a store or seller account",
+    "topics": [
+     "account",
+     "policies",
+     "payments",
+     "verification"
+    ],
+    "practice": "Set up your seller profile",
+    "need_tags": [
+     "online-store",
+     "marketplace-selling",
+     "professional-profile"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_google_sites_ecommerce_2",
+    "slug": "google-sites-ecommerce-2",
+    "title": "List products that sell",
+    "outcome": "You can: create great listings",
+    "topics": [
+     "titles",
+     "photos",
+     "prices",
+     "variants"
+    ],
+    "practice": "List five products",
+    "need_tags": [
+     "online-store",
+     "product-photography",
+     "professional-profile"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_google_sites_ecommerce_3",
+    "slug": "google-sites-ecommerce-3",
+    "title": "Orders, delivery and returns",
+    "outcome": "You can: fulfil orders reliably",
+    "topics": [
+     "order flow",
+     "shipping options",
+     "returns",
+     "customer messages"
+    ],
+    "practice": "Process a test order end to end",
+    "need_tags": [
+     "online-store",
+     "customer-support",
+     "professional-profile"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_google_sites_ecommerce_4",
+    "slug": "google-sites-ecommerce-4",
+    "title": "Promote",
+    "outcome": "You can: bring buyers to your listings",
+    "topics": [
+     "promotions",
+     "SEO for listings",
+     "ads",
+     "reviews"
+    ],
+    "practice": "Run one promotion",
+    "need_tags": [
+     "seo",
+     "online-ads",
+     "professional-profile"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_google_sites_ecommerce_8",
+    "slug": "google-sites-ecommerce-8",
+    "title": "Signature skills in Google Sites",
+    "outcome": "You can: use the features that make Google Sites distinctive",
+    "topics": [
+     "pages",
+     "layouts",
+     "embeds",
+     "publishing"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "professional-profile"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_google_sites_ecommerce_9",
+    "slug": "google-sites-ecommerce-9",
+    "title": "Advanced Google Sites",
+    "outcome": "You can: use Google Sites's advanced capabilities with confidence",
+    "topics": [
+     "custom domains",
+     "permissions",
+     "Google Workspace integration"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "professional-profile"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_google_sites_ecommerce_5",
+    "slug": "google-sites-ecommerce-5",
+    "title": "Grow with data",
+    "outcome": "You can: use sales data to grow",
+    "topics": [
+     "analytics",
+     "inventory sync",
+     "integrations",
+     "fees review"
+    ],
+    "practice": "Review margins after fees and adjust prices",
+    "need_tags": [
+     "kpi-tracking",
+     "inventory-procurement",
+     "professional-profile"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_google_sites_ecommerce_10",
+    "slug": "google-sites-ecommerce-10",
+    "title": "Integrate Google Sites into your workflow",
+    "outcome": "You can: connect Google Sites with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Google Sites to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "professional-profile"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_google_sites_ecommerce_11",
+    "slug": "google-sites-ecommerce-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Google Sites well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Google Sites\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "professional-profile"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "ecommerce",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

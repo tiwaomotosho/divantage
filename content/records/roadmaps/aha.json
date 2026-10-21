@@ -1,0 +1,239 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_aha",
+ "slug": "aha",
+ "title": "Aha! Roadmaps skill roadmap",
+ "tool_ids": [
+  "tool_aha"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_aha_erp_ops_0",
+    "slug": "aha-erp-ops-0",
+    "title": "Get started with Aha! Roadmaps",
+    "outcome": "You can: set up Aha! Roadmaps, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "roadmapping"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_aha_erp_ops_1",
+    "slug": "aha-erp-ops-1",
+    "title": "Navigate the system",
+    "outcome": "You can: find, create and update records",
+    "topics": [
+     "modules",
+     "master data",
+     "search",
+     "permissions"
+    ],
+    "practice": "Create and update one record end to end",
+    "need_tags": [
+     "roadmapping"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_aha_erp_ops_2",
+    "slug": "aha-erp-ops-2",
+    "title": "Core workflow",
+    "outcome": "You can: complete your role's main workflow",
+    "topics": [
+     "orders/tasks/stock moves",
+     "approvals",
+     "statuses"
+    ],
+    "practice": "Complete one full workflow for your role",
+    "need_tags": [
+     "roadmapping"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_aha_erp_ops_3",
+    "slug": "aha-erp-ops-3",
+    "title": "Planning and scheduling",
+    "outcome": "You can: plan work, stock or projects",
+    "topics": [
+     "schedules",
+     "dependencies",
+     "reorder points",
+     "resources"
+    ],
+    "practice": "Build a plan or schedule for a real piece of work",
+    "need_tags": [
+     "project-scheduling",
+     "inventory-procurement",
+     "roadmapping"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_aha_erp_ops_4",
+    "slug": "aha-erp-ops-4",
+    "title": "Reports and dashboards",
+    "outcome": "You can: answer management questions",
+    "topics": [
+     "standard reports",
+     "filters",
+     "exports"
+    ],
+    "practice": "Build a report your manager asks for",
+    "need_tags": [
+     "kpi-tracking",
+     "roadmapping"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_aha_erp_ops_8",
+    "slug": "aha-erp-ops-8",
+    "title": "Signature skills in Aha! Roadmaps",
+    "outcome": "You can: use the features that make Aha! Roadmaps distinctive",
+    "topics": [
+     "product roadmaps",
+     "ideas portal",
+     "features and releases",
+     "prioritisation scorecards"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "roadmapping"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_aha_erp_ops_9",
+    "slug": "aha-erp-ops-9",
+    "title": "Advanced Aha! Roadmaps",
+    "outcome": "You can: use Aha! Roadmaps's advanced capabilities with confidence",
+    "topics": [
+     "strategy models",
+     "capacity planning",
+     "integrations with Jira"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "roadmapping"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_aha_erp_ops_5",
+    "slug": "aha-erp-ops-5",
+    "title": "Configure and integrate",
+    "outcome": "You can: adapt Aha! Roadmaps to how your organisation works",
+    "topics": [
+     "custom fields",
+     "workflows",
+     "integrations",
+     "data quality"
+    ],
+    "practice": "Propose and test one configuration improvement",
+    "need_tags": [
+     "erp",
+     "process-mapping",
+     "roadmapping"
+    ],
+    "estimated_hours": {
+     "value": 4.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_aha_erp_ops_10",
+    "slug": "aha-erp-ops-10",
+    "title": "Integrate Aha! Roadmaps into your workflow",
+    "outcome": "You can: connect Aha! Roadmaps with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Aha! Roadmaps to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "roadmapping"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_aha_erp_ops_11",
+    "slug": "aha-erp-ops-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Aha! Roadmaps well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Aha! Roadmaps\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "roadmapping"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "erp-ops",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

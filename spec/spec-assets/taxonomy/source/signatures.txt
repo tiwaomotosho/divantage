@@ -1,0 +1,686 @@
+# Tool signature skills — what makes each tool distinctive. Feeds the "Signature skills" (intermediate) and "Advanced" (expert) modules.
+# slug | core skill ; core skill ; ... || advanced skill ; advanced skill ; ...
+# AI
+github-copilot | inline code completions ; Copilot Chat in the editor ; explaining and refactoring code ; generating tests || custom instructions for a repository ; agent mode for multi-file changes ; reviewing AI-generated pull requests ; security and licence checks
+hugging-face | finding models on the Hub ; model cards and licences ; datasets library ; trying models in Spaces || fine-tuning with Transformers ; hosting with Inference Endpoints ; publishing models and datasets ; evaluation and benchmarks
+perplexity | answers with cited sources ; follow-up questions ; focus modes for academic or web search ; collections/spaces || deep research reports ; verifying citations against originals ; organising research threads for a team
+anthropic-api | Messages API basics ; system prompts ; tool use ; token and cost management || prompt caching ; batch processing ; evaluation of outputs ; safety and guardrail design
+openai-api | chat/responses API basics ; function calling ; embeddings ; rate limits and costs || structured outputs ; batch jobs ; fine-tuning ; evaluation and monitoring
+langchain | chains and prompts ; document loaders ; retrievers and vector stores ; tool calling || agents with LangGraph ; tracing and evaluation ; production deployment patterns
+# Audio and music
+ableton-live | Session and Arrangement views ; clips and scenes ; warping audio ; MIDI recording || racks and macros ; Max for Live devices ; live performance setups ; mixing and mastering in Live
+audacity | recording and trimming ; noise reduction ; envelope tool ; exporting MP3/WAV || macros for batch processing ; spectral editing ; plugins (VST/LV2) ; loudness normalisation
+buzzsprout | uploading and scheduling episodes ; episode metadata and artwork ; distribution to podcast directories ; embed players || statistics and audience insights ; transcripts and chapter markers ; monetisation options ; Magic Mastering
+descript | editing audio and video by editing text ; automatic transcription ; filler-word removal ; screen recording || Overdub/AI voice (with consent) ; Studio Sound ; multitrack sequences ; collaboration and review
+fl-studio | step sequencer ; piano roll ; playlist arrangement ; mixer channels || automation clips ; sampling and slicing ; synth sound design ; mixing and mastering chains
+garageband | Live Loops and tracks ; virtual instruments ; recording vocals and instruments ; Smart Drummer || automation ; arrangement markers ; exporting to Logic Pro ; mastering basics
+logic-pro | tracks and regions ; Drummer and Session Players ; Flex Time and Flex Pitch ; Smart Tempo || Dolby Atmos mixing ; scripting MIDI ; advanced automation ; stem export and delivery
+reaper | tracks and routing ; recording and comping ; FX chains ; customisable actions || custom actions and scripts (ReaScript) ; advanced routing ; render queues ; theme and workflow customisation
+riverside | remote recording in separate tracks ; guest invitations ; local recording quality ; AI transcripts || magic clips for social ; text-based editing ; live streaming ; team workspaces
+dorico | Write mode note input ; popovers ; Engrave mode layout ; Play mode playback || flows and layouts for parts ; condensing ; expression maps ; engraving options
+musescore | note input by keyboard ; palettes ; lyrics and chord symbols ; parts || score layout and spacing ; MuseScore Studio playback (Muse Sounds) ; publishing on MuseScore.com ; custom styles
+sibelius | note input ; Magnetic Layout ; Ideas/quick inserts ; parts || house styles ; ManuScript plug-ins ; advanced engraving ; worksheet creator for teaching
+qlab | audio cues ; video cues ; lighting cues ; cue lists and GO || networked show control (OSC/MIDI) ; projection mapping ; show file management and backup
+# Automation and no-code
+appsheet | apps from Google Sheets ; views and forms ; actions ; offline use || automation bots ; security filters ; expressions ; deploying to a team
+glide | apps from spreadsheets ; components and screens ; user sign-in ; computed columns || workflows ; integrations ; publishing and access rules
+google-apps-script | scripts bound to Sheets/Docs ; custom functions ; triggers ; reading/writing ranges || web apps ; calling external APIs ; libraries ; quotas and error handling
+make | scenarios and modules ; data mapping ; filters and routers ; scheduling || iterators and aggregators ; error handlers ; webhooks ; data stores
+n8n | nodes and workflows ; credentials ; triggers ; expressions || self-hosting with Docker ; AI agent nodes ; error workflows ; custom code nodes
+node-red | flows and nodes ; MQTT and HTTP nodes ; dashboards ; deploying flows || custom nodes ; function nodes in JavaScript ; edge/IoT deployment ; securing the editor
+power-apps | canvas apps ; data sources (SharePoint, Dataverse) ; forms and galleries ; Power Fx formulas || model-driven apps ; components ; ALM and solutions ; governance with environments
+power-automate | cloud flows ; triggers and actions ; approvals ; connectors || desktop flows (RPA) ; error handling and scopes ; expressions ; solution-aware flows
+zapier | Zaps with triggers and actions ; field mapping ; filters ; Zap history || multi-step Zaps with paths ; Formatter and Code steps ; Tables and Interfaces ; task-usage optimisation
+bubble | visual page editor ; database things and fields ; workflows ; responsive design || privacy rules ; API Connector ; plugins ; performance and capacity
+airtable | bases, tables and fields ; views (grid, kanban, calendar) ; linked records ; forms || automations ; interfaces ; scripting ; sync and permissions
+# Business apps
+airbnb | listing setup and photos ; calendar and pricing ; guest messaging ; house rules || dynamic pricing tools ; co-hosting ; reviews and Superhost standards ; local regulations
+appfolio | property and unit setup ; tenant portal ; rent collection ; maintenance requests || owner reporting ; accounting workflows ; leasing pipeline ; automation
+bokun | product setup ; availability and pricing ; booking widget ; channel connections || reseller network ; marketplace distribution ; reports
+booking-com | property listing ; rates and availability ; guest messages ; reviews || Genius and promotions ; channel manager connection ; performance analytics
+booksy | services and staff setup ; online booking ; reminders ; client profiles || marketing boosts ; payments and deposits ; reviews ; reports
+buildium | properties and leases ; online rent payments ; maintenance tracking ; tenant screening || owner portals ; accounting and budgeting ; association management
+cloudbeds | property management ; channel manager ; booking engine ; front desk || revenue management ; reports ; integrations
+fareharbor | activity setup ; booking calendar ; online checkout ; waivers || affiliate partners ; reporting ; dashboard customisation
+fresha | services and staff ; online bookings ; payments ; client records || marketing campaigns ; memberships ; reports
+getyourguide | supplier listing setup ; availability ; booking management ; reviews || pricing strategy ; performance insights ; content quality
+glofox | class schedules ; memberships ; member app ; payments || reporting ; marketing automations ; integrations
+jane-app | online booking ; charting ; billing ; telehealth || insurance billing ; reports ; multi-location setup
+jobber | quotes ; job scheduling ; invoicing ; client hub || automations and follow-ups ; route optimisation ; reporting
+lightspeed | product catalogue ; POS sales ; inventory ; customer records || multi-store management ; e-commerce sync ; analytics
+little-hotelier | front desk calendar ; channel manager ; booking engine ; payments || reports ; rate plans ; guest communication
+loyverse | POS sales ; inventory ; receipts ; customer loyalty || multi-store ; employee management ; reports ; integrations
+mindbody | class and appointment scheduling ; memberships ; payments ; client app || marketing suite ; reports ; staff management
+setmore | booking page ; staff calendars ; reminders ; payments || integrations ; team management ; analytics
+simplepractice | client portal ; scheduling ; notes and treatment plans ; telehealth || insurance billing ; measurement-based care ; reports
+square | point of sale ; item library ; payments and receipts ; customer directory || inventory management ; invoices and online store ; team permissions ; reports and analytics
+sumup | card reader setup ; payment links ; invoices ; transaction history || online store ; business account ; reports
+toast | menu setup ; order taking ; kitchen display ; payments || online ordering ; inventory and costing ; reports ; labour management
+tradify | quotes ; job scheduling ; timesheets ; invoices || purchase orders ; reporting ; accounting integration
+vagaro | bookings ; client profiles ; payments ; marketing || memberships and packages ; inventory ; reports
+moniepoint | POS terminal operations ; transfers and withdrawals ; agent banking ; transaction history || business account features ; reconciliation ; dispute resolution
+calendly | booking links ; availability rules ; event types ; calendar connections || routing forms ; team scheduling ; workflows and reminders ; integrations
+life-qi | QI project setup ; PDSA cycles ; run charts ; driver diagrams || collaboration across teams ; reporting ; spreading improvements
+circuit | route optimisation ; stops import ; proof of delivery ; driver app || team dispatch ; customer notifications ; analytics
+onfleet | task creation ; driver app ; auto-dispatch ; tracking links || analytics ; API integrations ; route optimisation
+routific | route planning ; time windows ; driver app ; customer notifications || multi-vehicle optimisation ; analytics ; integrations
+samsara | vehicle telematics ; GPS tracking ; driver safety ; maintenance alerts || dash cams and coaching ; fuel analytics ; compliance reports ; API
+# HR
+bamboohr | employee records ; time off ; onboarding ; reports || performance management ; payroll integration ; custom workflows
+deel | hiring contractors and employees abroad ; contracts ; payments ; compliance documents || global payroll ; equity and benefits ; HRIS features
+deputy | shift scheduling ; time clock ; leave management ; team messaging || labour cost forecasting ; award/compliance rules ; reports
+gusto | payroll runs ; benefits ; onboarding ; tax filings || time tracking ; compliance alerts ; reports
+rotacloud | rota building ; leave and availability ; time clock ; mobile app || labour cost reports ; templates ; integrations
+when-i-work | scheduling ; shift swaps ; time clock ; messaging || labour forecasting ; reports ; payroll exports
+workable | job posts and job boards ; candidate pipeline ; interviews ; scorecards || AI sourcing ; assessments ; hiring reports
+zoho-people | employee database ; leave ; attendance ; self-service || performance appraisals ; workflows ; analytics
+sage | accounting setup ; invoices and bills ; bank reconciliation ; VAT/tax returns || payroll ; multi-company ; reports and budgeting
+# Finance & payments
+flutterwave | payment links ; checkout integration ; transfers ; dashboard || subaccounts and split payments ; webhooks ; dispute management ; multi-currency
+invoice-ninja | clients and invoices ; recurring invoices ; payments ; client portal || self-hosting ; expenses and projects ; API
+paypal | sending and receiving payments ; invoices ; buyer/seller protection ; payment buttons || business account tools ; disputes ; reports
+paystack | dashboard ; payment pages and links ; transfers ; transactions || subscriptions ; split payments ; webhooks ; API integration
+stripe | payments and checkout ; invoicing ; customer records ; dashboard || subscriptions (Billing) ; Connect for platforms ; webhooks ; Radar fraud rules
+wise | multi-currency account ; international transfers ; exchange rates ; receiving details || business account ; batch payments ; API
+zoho-invoice | invoices and estimates ; payments ; client portal ; recurring invoices || time tracking ; workflows ; reports
+pushpay | giving app ; recurring gifts ; donor statements ; giving forms || church management integration ; insights ; campaigns
+tithely | online giving ; text giving ; church app ; events || ChMS features ; reports ; donor statements
+ynab | giving every unit of money a job ; categories ; account syncing ; goals || reports ; reconciliation ; shared budgets
+# ERP / ops
+aha | product roadmaps ; ideas portal ; features and releases ; prioritisation scorecards || strategy models ; capacity planning ; integrations with Jira
+anaplan | modules and line items ; lists ; dashboards ; planning cycles || connected planning across teams ; model optimisation ; data integrations
+bizagi-modeler | BPMN process diagrams ; pools and lanes ; documentation export ; simulation basics || process simulation scenarios ; publishing to wikis ; moving to Bizagi Studio
+erpnext | doctypes and masters ; sales and purchase cycles ; stock ledger ; accounts || custom fields and scripts ; workflows ; manufacturing and BOMs ; self-hosting
+ganttproject | tasks and dependencies ; Gantt chart ; resources ; critical path || baselines ; export to MS Project/PDF ; resource load charts
+m-files | metadata-based document storage ; vaults ; versions ; workflows || compliance settings ; integrations with Office ; automated classification
+microsoft-dynamics-365 | modules (Sales, Finance, Supply Chain) ; records and views ; dashboards ; Outlook integration || Power Platform customisation ; workflows ; data management
+microsoft-project | tasks and durations ; dependencies ; resources ; Gantt and timelines || baselines and tracking ; earned value ; portfolio views
+odoo | apps (Sales, Inventory, Accounting) ; quotations ; stock moves ; invoicing || Studio customisation ; manufacturing (MRP) ; multi-company ; reports
+oracle-netsuite | records and transactions ; saved searches ; dashboards ; financials || SuiteFlow workflows ; SuiteScript ; multi-subsidiary consolidation
+primavera-p6 | WBS ; activities and relationships ; calendars ; scheduling (F9) || resource loading ; baselines and progress ; earned value ; schedule quality checks (DCMA)
+productboard | insights inbox ; features board ; prioritisation ; roadmaps || customer segments ; objectives ; portal for customer feedback
+sap | navigating SAP GUI/Fiori ; transactions and T-codes ; master data ; standard reports || module workflows (FI/CO, MM, SD, PM) ; variants and layouts ; data extraction ; authorisations
+smartsheet | sheets and Gantt ; forms ; automations ; reports || dashboards ; Control Center ; resource management
+sortly | items with photos ; folders ; barcode/QR scanning ; low-stock alerts || custom fields ; reports ; integrations
+zoho-inventory | items and warehouses ; sales and purchase orders ; stock tracking ; shipping || multi-channel selling ; batch/serial tracking ; reports
+katana-mrp | products and BOMs ; manufacturing orders ; stock ; purchasing || production planning ; batch tracking ; integrations
+ibm-maximo | assets and locations ; work orders ; preventive maintenance ; inventory || reliability analytics ; mobile work execution ; predictive maintenance
+upkeep | work orders ; preventive maintenance ; asset records ; mobile app || meters and sensors ; reports ; parts inventory
+fiix | work orders ; maintenance schedules ; asset hierarchy ; parts || analytics ; integrations ; AI insights
+easyship | shipping rates comparison ; labels ; tracking ; duties and taxes || automation rules ; integrations with stores ; returns
+freightos | instant freight quotes ; booking ; shipment tracking ; documents || multi-modal comparison ; procurement insights
+safetyculture | inspection templates ; mobile inspections ; issues and actions ; reports || analytics ; training courses ; sensors and assets
+candid | foundation search ; funder profiles ; grant history ; nonprofit profiles || prospect lists ; research reports
+fundsforngos | grant listings ; deadline alerts ; proposal guides ; donor research || premium resources ; proposal templates
+signupgenius | sign-up sheets ; time slots ; reminders ; sharing || payments ; groups ; reports
+# Legal
+clio | matters and contacts ; calendar ; time tracking ; billing || client portal ; document automation ; trust accounting ; reports
+everlaw | uploading and processing data ; search ; coding and tagging ; review batches || storybuilder ; predictive coding ; production
+mycase | cases and contacts ; calendar ; time and billing ; client portal || document templates ; workflows ; reports
+practicepanther | matters ; time tracking ; billing ; client portal || workflows ; integrations ; reports
+relativity | workspaces ; searching ; coding layouts ; review batches || active learning ; analytics ; productions
+# Faith admin
+breeze | people records ; tags ; giving ; events || forms ; reports ; volunteer scheduling
+churchsuite | address book ; small groups ; rotas ; children's check-in || giving ; bookings ; embed modules on website
+planning-center | People ; Services (worship planning) ; Check-Ins ; Giving || Groups ; Registrations ; workflows ; reports
+# Jobs & platforms
+backstage | profile and headshots ; casting calls ; self-tape submissions ; resume || talent profile optimisation ; casting notifications
+contra | portfolio profile ; commission-free projects ; proposals ; payments || services and packages ; client invoices
+fiverr | gig creation ; packages and pricing ; buyer messages ; delivery || seller levels ; promoted gigs ; analytics
+glassdoor | company reviews ; salary insights ; job search ; interview reviews || employer research for negotiation ; community bowls
+idealist | nonprofit job search ; volunteer opportunities ; alerts ; organisation profiles || career resources ; posting opportunities
+indeed | job search ; alerts ; resume upload ; applications || assessments ; employer research ; application tracking
+spotlight | performer profile ; casting breakdowns ; showreels ; agent connections || profile optimisation ; industry resources
+un-online-volunteering | volunteer profile ; searching assignments ; applications ; certificates || skills matching ; long-term engagements
+upwork | profile ; proposals and Connects ; contracts ; payments || specialised profiles ; Project Catalog ; Top Rated status
+volunteermatch | search opportunities ; profile ; signing up ; virtual volunteering || organisation tools ; tracking hours
+uber | driver app basics ; accepting trips ; navigation ; earnings dashboard || ratings and quality ; maximising earnings (surge, quests) ; tax records
+bolt | driver app basics ; ride acceptance ; navigation ; earnings || ratings ; bonuses ; safety features
+# Collaboration
+asana | projects and tasks ; boards, lists and timelines ; assignees and due dates ; comments || rules and automation ; portfolios and goals ; workload ; forms
+clickup | spaces, folders and lists ; tasks and statuses ; views ; docs || automations ; dashboards ; goals ; time tracking
+confluence | spaces and pages ; templates ; page tree ; comments || macros ; permissions ; knowledge base with Jira Service Management
+decidim | participatory spaces ; proposals ; debates ; meetings || participatory budgeting ; voting ; accountability tracking
+everbridge | contact lists ; mass notifications ; templates ; incident communications || critical event management ; integrations ; reports
+miro | infinite canvas ; sticky notes ; templates ; frames || facilitation tools (timer, voting) ; diagramming ; integrations ; Miro AI
+monday-com | boards and items ; columns ; views ; automations || dashboards ; integrations ; workdocs
+mural | canvases ; templates ; facilitation features ; sticky notes || rooms and permissions ; voting ; integrations
+polis | creating conversations ; seeding statements ; voting ; consensus reports || moderation ; analysis of opinion groups
+sessionlab | session planning ; methods library ; timing ; sharing agendas || templates ; team libraries ; printing facilitation guides
+sharepoint | sites and libraries ; document versioning ; sharing ; lists || permissions and inheritance ; Power Automate integration ; search and metadata ; site design
+slack | channels ; threads ; huddles ; integrations || workflows ; Slack Connect ; canvases ; admin and retention
+telegram | groups and channels ; bots ; file sharing ; polls || admin permissions ; channel analytics ; bot API
+zello | push-to-talk channels ; contacts ; message history ; offline handling || dispatch features ; emergency alerts ; admin console
+signal | end-to-end encrypted messaging ; disappearing messages ; groups ; safety numbers || usernames and phone privacy ; linked devices ; group admin settings
+anydesk | remote connection ; unattended access ; file transfer ; session permissions || address book ; custom clients ; security settings
+doxy-me | personal virtual waiting room ; video consultation ; screen sharing ; check-in || clinic accounts ; payments ; integrations
+# BI and analytics
+activityinfo | databases and forms ; indicators ; offline data entry ; reports || permissions by partner ; linked databases ; API
+alteryx | workflows and tools ; input/output ; joins ; formulas || macros ; spatial tools ; predictive tools ; scheduling
+amplitude | event tracking ; charts ; funnels ; retention || cohorts ; experiments ; data governance
+apache-airflow | DAGs ; operators ; scheduling ; web UI || sensors ; XComs ; deployment and scaling ; monitoring
+apache-superset | datasets ; charts ; dashboards ; SQL Lab || custom visualisations ; row-level security ; deployment
+caseware-idea | importing data ; extraction ; summarisation ; stratification || duplicate and gap tests ; Benford analysis ; IDEAScript
+ckan | datasets and resources ; organisations ; search ; previews || API ; extensions ; harvesting
+databricks | workspaces and notebooks ; clusters ; Delta tables ; SQL warehouses || Unity Catalog ; jobs and workflows ; MLflow
+datawrapper | charts ; maps ; tables ; embedding || themes ; annotations ; API
+dbt | models ; ref() and sources ; tests ; documentation || incremental models ; macros and Jinja ; packages ; CI
+dhis2 | data entry ; data elements and indicators ; pivot tables ; dashboards || metadata configuration ; tracker programs ; maps ; API
+epi-info | form design ; data entry ; analysis ; maps || statistical commands ; visual dashboards
+flourish | templates ; data sheet ; storytelling ; embedding || scrollytelling ; animations ; API
+jamovi | spreadsheet interface ; descriptives ; t-tests and ANOVA ; regression || modules ; R syntax mode ; reproducible analyses
+jasp | descriptives ; frequentist tests ; Bayesian tests ; APA output || modules ; meta-analysis ; SEM
+jmp | data tables ; Graph Builder ; distributions ; fit model || design of experiments ; scripting (JSL) ; quality tools
+looker-studio | data sources ; charts and tables ; filters ; sharing || calculated fields ; blending ; community connectors
+metabase | questions ; dashboards ; SQL editor ; sharing || models ; permissions ; embedding
+minitab | worksheets ; graphs ; hypothesis tests ; control charts || DOE ; capability analysis ; regression
+mixpanel | event tracking ; insights ; funnels ; retention || cohorts ; flows ; experiments
+mode | SQL editor ; reports ; charts ; notebooks || Python/R notebooks ; scheduled reports ; embedded analytics
+openrefine | facets ; clustering ; transformations ; undo/redo history || GREL expressions ; reconciliation ; extensions
+posthog | product analytics ; session replays ; feature flags ; surveys || experiments ; data warehouse ; self-hosting
+power-query | connecting to sources ; transforming steps ; merge and append ; refresh || M language ; parameters ; query folding ; error handling
+r | vectors and data frames ; tidyverse (dplyr, ggplot2) ; reading data ; basic stats || modelling ; R Markdown/Quarto ; packages ; Shiny apps
+rstudio | projects ; console and editor ; plots ; packages || Quarto reports ; Git integration ; debugging ; Shiny
+snowflake | warehouses ; databases and schemas ; SQL ; loading data || time travel ; data sharing ; Snowpark ; cost management
+spotfire | data loading ; visualisations ; filters ; marking || data functions (Python/R) ; IronPython ; information links
+spss | variable view ; descriptive statistics ; crosstabs ; regression || syntax ; complex samples ; custom tables
+stata | do-files ; data management ; regression ; graphs || panel data ; survey estimation ; programming
+tableau | connecting data ; worksheets ; dashboards ; filters || calculated fields and LOD expressions ; parameters ; Tableau Prep ; publishing
+ushahidi | deployments ; crowdsourced reports ; maps ; categories || verification workflows ; data exports ; integrations (SMS)
+google-analytics | properties and data streams ; reports ; events ; conversions (key events) || explorations ; audiences ; BigQuery export ; consent mode
+matomo | tracking setup ; visitors log ; goals ; reports || self-hosting ; privacy settings ; heatmaps ; custom dimensions
+plausible | script installation ; dashboard ; goals ; referrers || custom events ; funnels ; self-hosting
+microsoft-clarity | session recordings ; heatmaps ; insights ; filters || dashboards ; integration with Google Analytics ; masking sensitive content
+julia | REPL ; arrays and broadcasting ; packages ; plotting || multiple dispatch ; performance tuning ; DifferentialEquations ecosystem
+graphpad-prism | data tables ; graphs ; t-tests and ANOVA ; curve fitting || nonlinear regression ; survival analysis ; layouts
+origin | worksheets ; plotting ; fitting ; graph customisation || batch processing ; Origin C/LabTalk ; peak analysis
+# Market data
+bloomberg-terminal | security functions (DES, GP) ; news ; Excel add-in ; Launchpad || screening (EQS) ; BQL queries ; portfolio analytics (PORT)
+koyfin | dashboards ; charts ; fundamental data ; watchlists || screens ; custom formulas ; model portfolios
+lseg-workspace | quotes and charts ; company data ; news ; Excel add-in || screening ; Python API (Data Library) ; analytics apps
+tradingview | charts and timeframes ; indicators ; drawing tools ; watchlists || Pine Script ; alerts ; screeners ; backtesting
+yahoo-finance | quotes ; charts ; financials ; news || portfolios ; screeners ; historical data downloads
+# Design
+adobe-illustrator | artboards ; pen tool ; shapes and pathfinder ; type || symbols and libraries ; gradients and patterns ; image trace ; packaging for print
+adobe-lightroom | importing and organising ; Develop adjustments ; presets ; exporting || masks ; batch editing ; catalogue management ; colour grading
+adobe-photoshop | layers and masks ; selections ; adjustment layers ; retouching tools || smart objects ; actions and batch ; compositing ; Generative Fill (with care)
+affinity | Designer, Photo and Publisher personas ; vector and pixel tools ; layers ; export || StudioLink ; master pages ; print-ready PDFs
+behance | project creation ; portfolio presentation ; moodboards ; appreciation and following || case-study storytelling ; getting featured ; hiring and freelance tools
+capture-one | sessions and catalogues ; tethered shooting ; layers ; colour tools || styles ; batch processing ; colour grading
+clip-studio-paint | brushes ; layers ; vector layers ; panels and frames || 3D models for posing ; animation timeline ; comic page layout
+darktable | lighttable ; darkroom modules ; masks ; export || scene-referred workflow ; styles ; Lua scripting
+gimp | layers ; selections ; colours ; exporting || masks and channels ; plugins and scripts ; batch processing
+inkscape | objects and paths ; text ; fills and strokes ; export || boolean operations ; clones and patterns ; extensions ; plotting/laser files
+krita | brushes ; layers ; colour ; canvas tools || animation ; brush engines ; resource bundles
+photopea | layers ; selections ; adjustments ; PSD compatibility || smart objects ; actions ; plugins
+photoroom | background removal ; templates ; batch editing ; shadows || brand kits ; API ; team use
+procreate | brushes ; layers ; QuickShape ; colour tools || animation assist ; brush studio ; 3D painting
+remove-bg | automatic background removal ; downloads ; edit backgrounds ; formats || bulk processing ; API ; integrations
+snapseed | tools and filters ; selective edits ; healing ; exporting || curves ; masking with brushes ; stacks
+sketch | artboards ; symbols ; styles ; prototyping || libraries ; smart layout ; plugins
+rive | artboards ; animations ; state machines ; exporting || inputs and listeners ; runtime integration ; data binding
+biorender | icon library ; templates ; layouts ; exporting || graphing ; collaboration ; publication licensing
+# 3D
+autodesk-maya | modelling ; UVs ; rigging basics ; animation || character rigging ; simulation ; rendering with Arnold ; Python scripting
+blender | modelling ; materials ; lighting ; rendering (Eevee/Cycles) || sculpting ; animation and rigging ; geometry nodes ; video editing and compositing
+cinema-4d | modelling ; MoGraph ; materials ; rendering || simulations ; Redshift rendering ; motion design workflows
+d5-render | importing models ; materials ; lighting ; real-time rendering || animations ; asset library ; video exports
+enscape | real-time view from CAD/BIM ; materials ; lighting ; screenshots || walkthrough videos ; VR ; asset library
+homestyler | floor plans ; furnishing ; materials ; renders || panoramas ; walkthroughs ; sharing with clients
+lumion | importing models ; materials ; environments ; renders || animation ; effects ; LiveSync
+planner-5d | 2D/3D floor plans ; furniture library ; materials ; snapshots || renders ; project sharing
+sketchup | push/pull ; groups and components ; tags (layers) ; scenes || LayOut for drawings ; extensions ; dynamic components
+twinmotion | importing models ; materials ; environment ; renders || animations ; path tracer ; VR
+clo-3d | pattern drafting ; sewing ; fabric properties ; avatars || fitting ; colourways ; tech packs
+seamly2d | measurements ; pattern drafting ; pieces ; layouts || parametric patterns ; grading ; export for cutting
+tinkercad | 3D shapes ; grouping and holes ; workplanes ; export for 3D printing || circuits ; codeblocks ; classroom use
+matterport | 3D scanning ; virtual tours ; floor plans ; sharing || measurements ; tags and notes ; integrations
+# Video
+adobe-after-effects | compositions ; layers ; keyframes ; text animation || expressions ; masks and tracking ; effects ; Essential Graphics templates
+adobe-premiere-pro | projects and bins ; timeline editing ; audio mixing ; export || multicam ; Lumetri colour ; motion graphics templates ; proxies
+final-cut-pro | magnetic timeline ; libraries and events ; titles ; export || multicam ; colour grading ; roles and audio lanes
+loom | screen and camera recording ; sharing links ; trimming ; comments || transcripts ; workspaces ; calls to action
+boxcast | live streaming setup ; scheduling ; embedding ; archives || multi-destination streaming ; analytics ; hardware encoders
+# CAD/BIM
+archicad | walls, slabs and roofs ; floors and views ; layouts ; schedules || teamwork ; parametric objects (GDL) ; BIMcloud
+autocad-electrical | schematics ; component libraries ; wire numbering ; reports || panel layouts ; PLC I/O drawings ; project standards
+autodesk-inventor | sketches and parts ; assemblies ; drawings ; constraints || iLogic ; sheet metal ; stress analysis
+civil-3d | surfaces ; alignments ; profiles ; corridors || pipe networks ; grading ; quantity take-off
+fusion-360 | sketches ; parametric modelling ; assemblies ; drawings || CAM toolpaths ; simulation ; generative design
+freecad | Part Design workbench ; sketches ; assemblies ; TechDraw || FEM workbench ; Path (CAM) ; Python scripting
+kicad | schematic editor ; symbol libraries ; PCB editor ; footprints || design rule checks ; 3D viewer ; Gerber export
+navisworks | model aggregation ; navigation ; clash detection ; TimeLiner || quantification ; animation ; coordination reports
+onshape | part studios ; assemblies ; drawings ; versions and branches || FeatureScript ; collaboration ; PDM
+revit | walls, floors and roofs ; views and sheets ; families ; schedules || worksharing ; Dynamo ; MEP and structural modelling ; phasing
+solidworks | sketches and features ; assemblies ; drawings ; configurations || simulation ; sheet metal and weldments ; PDM
+tekla-structures | grids and members ; connections ; drawings ; reports || custom components ; model sharing ; fabrication outputs
+eplan | schematics ; device management ; reports ; macros || cabinet layouts (Pro Panel) ; automation ; data exchange
+magicplan | scanning rooms with a phone ; floor plans ; measurements ; estimates || reports ; templates ; team use
+bluebeam-revu | markups ; measurements ; Sessions ; tool chest || quantity take-off ; Studio Projects ; batch processing ; PDF compare
+drawboard-pdf | pen markups ; measurement tools ; PDF compare ; sharing || templates ; grid overlays ; team projects
+cutlist-optimizer | parts and stock sheets ; cutting layouts ; material usage ; exports || edge banding ; cost estimates ; saving projects
+planswift | importing plans ; area and linear take-offs ; counts ; assemblies || custom assemblies ; reports to Excel ; estimates
+costx | 2D/3D take-off ; dimension groups ; workbooks ; rate libraries || revisions comparison ; BIM take-off ; reports
+trimble-business-center | importing survey data ; processing GNSS ; point clouds ; surfaces || adjustments ; CAD outputs ; machine control data
+# Engineering simulation
+abaqus | pre-processing in CAE ; materials and sections ; steps and loads ; results visualisation || non-linear analysis ; contact ; scripting with Python
+ansys | geometry and meshing ; structural analysis (Mechanical) ; CFD (Fluent) ; results || coupled multiphysics ; optimisation ; scripting
+calculix | input deck structure ; meshing with external tools ; static analysis ; results with CGX || non-linear and contact ; thermal analysis ; automation
+comsol | geometry ; physics interfaces ; meshing ; studies || multiphysics coupling ; Application Builder ; LiveLink integrations
+smath-studio | worksheets ; units ; functions ; plots || programming blocks ; templates ; documentation of calculations
+aspen-hysys | fluid packages ; streams ; unit operations ; convergence || dynamics ; optimisation ; case studies
+aspen-plus | components and property methods ; blocks ; sensitivity analysis ; design specs || rigorous columns ; reactions ; optimisation
+chemcad | component database ; flowsheets ; unit operations ; results || dynamic simulation ; equipment sizing ; optimisation
+dwsim | compounds and property packages ; flowsheets ; unit operations ; reports || Python scripting ; dynamic mode ; optimisation
+csi-safe | slab and foundation models ; loads ; analysis ; design checks || post-tensioning ; punching shear ; detailing reports
+etabs | grids and stories ; frame and shell objects ; load patterns ; analysis || response spectrum and seismic design ; design to codes ; API
+sap2000 | frame and shell modelling ; loads ; analysis ; results || non-linear and staged construction ; bridge modules ; API
+staad-pro | geometry ; properties and supports ; loads ; analysis and design || load combinations by code ; dynamic analysis ; OpenSTAAD
+robot-structural-analysis | structure modelling ; loads ; analysis ; code checks || dynamic and seismic analysis ; Revit integration ; reports
+plaxis | soil models ; staged construction ; mesh ; results || advanced constitutive models ; consolidation ; scripting
+geostudio | SLOPE/W stability ; SEEP/W seepage ; materials ; results || coupled analyses ; probabilistic analysis ; staged models
+rocscience-slide2 | slope geometry ; materials ; analysis methods ; results || probabilistic analysis ; groundwater ; support design
+hec-ras | geometry ; flow data ; steady flow ; results || unsteady and 2D modelling ; sediment transport ; RAS Mapper floodplains
+epanet | network layout ; pipes, pumps and tanks ; extended period simulation ; results || water quality ; scenarios ; toolkit/API
+epa-swmm | subcatchments ; conduits and nodes ; rainfall ; simulation || LID controls ; water quality ; calibration
+infoworks-icm | network import ; 1D/2D modelling ; rainfall events ; results || real-time control ; flood risk mapping ; scenarios
+homer-pro | load profiles ; resources (solar, wind) ; components ; optimisation results || sensitivity analysis ; multi-year analysis ; grid options
+nrel-sam | system configuration ; weather files ; financial model ; results || parametric and stochastic analysis ; scripting (SSC) ; batteries
+pvsyst | project site and meteo ; orientation and shading ; system design ; simulation report || 3D near shadings ; batteries ; loss diagram analysis
+retscreen | benchmark analysis ; feasibility analysis ; emissions ; financial analysis || performance analysis ; sensitivity and risk
+etap | one-line diagrams ; load flow ; short circuit ; reports || arc flash ; protective device coordination ; transient stability
+dialux | room geometry ; luminaires ; calculation ; results || exterior lighting ; daylight ; emergency lighting
+prosper | PVT ; IPR models ; VLP correlations ; nodal analysis || artificial lift design (gas lift, ESP) ; matching to test data ; sensitivity runs
+mbal | tank model ; PVT ; history matching ; prediction || multi-tank models ; aquifer models ; Monte Carlo
+petex-gap | network building ; well models from PROSPER ; optimisation ; prediction || integrated asset modelling ; constraints ; scripting (OpenServer)
+pipesim | well and network models ; flow correlations ; nodal analysis ; results || artificial lift ; network optimisation ; Python toolkit
+olga | pipeline geometry ; fluid models ; transient simulation ; trends and profiles || slugging ; hydrate and wax management ; shutdown/restart scenarios
+# Subsurface
+cmg | builder ; IMEX black-oil ; GEM compositional ; results || STARS thermal ; history matching (CMOST) ; optimisation
+datamine | drillhole data ; wireframing ; block models ; grade estimation || mine design ; scheduling ; geostatistics
+deswik | CAD ; mine design ; scheduling ; reporting || interactive scheduling ; optimisation ; integration
+eclipse | input deck sections ; grid and properties ; wells and schedule ; results || compositional modelling ; history matching ; restarts
+interactive-petrophysics | loading logs ; QC ; porosity and saturation ; plots || multi-well analysis ; Monte Carlo uncertainty ; scripting
+jewelsuite | geomechanics models ; stress and pore pressure ; wellbore stability ; results || 3D geomechanics ; subsidence and compaction ; integration with reservoir models
+landmark-decisionspace | well planning (COMPASS) ; torque and drag and hydraulics (WELLPLAN) ; casing design (StressCheck) ; data management || tubular stress analysis (WellCat) ; anti-collision ; engineering data model ; reporting
+leapfrog | drillhole data ; geological modelling ; implicit modelling ; visualisation || block models ; estimation ; cloud collaboration
+maptek-vulcan | data import ; triangulation ; block models ; pit design || scheduling ; grade control ; automation
+opendtect | seismic loading ; horizons and faults ; attributes ; visualisation || machine learning plugins ; HorizonCube ; scripting
+petrel | project setup ; seismic interpretation ; well correlation ; structural modelling || property modelling ; uncertainty workflows ; plug-ins ; integration with simulators
+slb-drillplan | well design workflow ; trajectories ; engineering checks ; collaboration || automated design ; offset analysis ; approvals
+techlog | data loading ; log QC ; petrophysical interpretation ; plots || geomechanics (wellbore stability) ; Python scripting ; multi-well workflows
+tnavigator | geology and model designer ; simulation ; results ; assisted history matching || uncertainty ; network modelling ; GPU/parallel performance
+# Ops reporting
+wellview | well and job setup ; daily reports ; time logs and codes ; costs || reports and dashboards ; data administration ; integrations with BI
+openwells | operations data entry ; daily reports ; time codes ; well records || EDM data model ; reporting ; integration with engineering apps
+procore | projects and directory ; drawings ; RFIs and submittals ; daily logs || budgets and change orders ; quality and safety ; integrations
+fieldwire | plans ; tasks ; punch lists ; forms || BIM viewer ; reports ; integrations
+autodesk-build | document management ; issues ; RFIs ; daily logs || cost management ; schedules ; Autodesk Construction Cloud integration
+# Industrial automation
+codesys | project and devices ; IEC 61131-3 languages ; visualisation ; simulation || libraries ; motion control ; fieldbus configuration
+studio-5000 | controller organiser ; ladder logic ; tags ; online editing || add-on instructions ; motion ; safety controllers
+tia-portal | devices and networks ; PLC programming ; HMI screens ; simulation (PLCSIM) || safety programs ; drives ; diagnostics
+mastercam | geometry import ; 2D toolpaths ; tool libraries ; post-processing || multi-axis machining ; simulation ; dynamic motion
+bambu-studio | importing models ; slicing settings ; supports ; printing || multi-colour printing ; custom profiles ; cloud printing
+prusaslicer | print settings ; supports ; variable layer height ; G-code export || modifiers ; multi-material ; custom G-code
+ultimaker-cura | printer profiles ; slicing settings ; supports and adhesion ; preview || custom profiles ; plugins ; per-model settings
+# Health systems
+epic | patient chart navigation ; notes and SmartPhrases ; orders ; In Basket || SmartSets and preference lists ; reports (Reporting Workbench) ; MyChart workflows
+oracle-health | patient lookup ; documentation ; orders ; results review || PowerPlans ; dynamic documentation ; reports
+openmrs | patient registration ; encounters and forms ; concepts dictionary ; reports || modules ; implementation configuration ; data exchange (FHIR)
+meditech | patient records ; documentation ; orders ; results || reports ; care plans ; interoperability
+dentrix | patient charts ; scheduling ; treatment plans ; billing || imaging integration ; reports ; insurance management
+curve-dental | charting ; scheduling ; imaging ; billing || reports ; patient communications ; multi-location
+open-dental | patient records ; charting ; scheduling ; billing || custom reports ; eServices ; open-source customisation
+ezyvet | patient and client records ; appointments ; clinical records ; invoicing || inventory ; reminders ; reports
+covetrus-pulse | patient records ; scheduling ; clinical notes ; billing || inventory ; client communications ; reports
+physitrack | exercise library ; building programmes ; patient app ; adherence tracking || outcome measures ; telehealth ; clinic templates
+medbridge | home exercise programmes ; patient education ; continuing education courses ; telehealth || remote therapeutic monitoring ; analytics
+powerscribe | voice recognition ; report templates ; auto-text ; sign-off || critical results communication ; structured reporting ; analytics
+redcap | projects ; instruments and fields ; data entry ; exports || longitudinal events ; surveys ; branching logic and calculations ; API
+osirix-md | DICOM viewing ; window/level ; measurements ; MPR || 3D volume rendering ; plugins ; PACS connections
+# Clinical reference
+bmj-best-practice | topic overviews ; diagnosis and management ; evidence ; calculators || CPD logging ; local guidance comparison
+bnf | drug monographs ; interactions checker ; dosing in special populations ; treatment summaries || prescribing in renal impairment ; BNF for Children
+drugs-com | drug information ; interactions checker ; pill identifier ; side effects || professional monographs ; medication guides
+epocrates | drug monographs ; interaction check ; dosing ; pill ID || clinical calculators ; disease content
+lexicomp | drug monographs ; interactions ; dosing tools ; patient leaflets || IV compatibility ; pharmacogenomics ; paediatric dosing
+mdcalc | searching calculators ; evidence notes ; next steps ; favourites || using scores in audits ; understanding validation populations
+medscape | drug reference ; interaction checker ; disease topics ; CME || news and specialty content ; calculators ; image collections
+nice-guidance | guidance search ; recommendations ; pathways ; quality standards || evidence reviews ; implementation tools
+qxmd | Read (literature feeds) ; calculators ; saved papers ; institution access || building calculators ; following journals
+uptodate | topic search ; graded recommendations ; drug information ; patient education || CME tracking ; Lexidrug integration ; what's new updates
+who-guidelines | guideline search ; recommendations ; implementation tools ; languages || evidence profiles (GRADE) ; adapting guidelines locally
+radreport | template library ; structured reporting templates ; downloading ; specialty sections || adapting templates locally ; coding (RadLex)
+osmosis | videos ; flashcards ; questions ; study schedules || spaced repetition ; exam preparation
+bmj-learning | modules ; CPD certificates ; specialty pathways ; tracking || appraisal portfolios
+# Research databases
+bailii | case law search ; legislation ; citation search ; jurisdictions || advanced search operators ; tracking judgments
+cochrane-library | systematic reviews ; PICO search ; plain-language summaries ; trials register || search strategies with MeSH ; evidence grading
+connected-papers | graph of related papers ; prior and derivative works ; saving graphs ; exporting || mapping a field ; finding seminal papers
+google-search | search operators ; filters ; reverse image search ; Google Lens || advanced search ; alerts ; verifying sources
+lawpavilion | case law search ; law reports ; legislation ; legal research tools || citation analysis ; analytics ; practice notes
+lexisnexis | case law ; legislation ; commentary ; citator || alerts ; practical guidance ; litigation analytics
+pubmed | search with MeSH ; filters ; clinical queries ; saving searches || advanced search builder ; alerts ; exporting citations
+semantic-scholar | paper search ; TLDR summaries ; citations ; research feeds || library and alerts ; API ; influential citations
+statista | statistics search ; charts ; reports ; downloads || market insights ; dossiers ; citation of sources
+westlaw | case law ; legislation ; KeyCite ; secondary sources || alerts ; litigation analytics ; practical law
+wikipedia | reading and navigating ; references section ; talk pages ; languages || editing responsibly ; assessing article quality ; citing original sources
+wayback-machine | viewing archived pages ; saving pages ; timeline ; comparing versions || bulk archiving ; using archives as evidence
+rayyan | importing references ; screening ; blinding ; conflicts || deduplication ; labels and reasons ; PRISMA reporting
+ncbi-blast | nucleotide BLAST ; protein BLAST ; interpreting results ; databases || specialised BLAST ; command-line BLAST+ ; batch queries
+google-fact-check-explorer | searching fact-checks ; publishers ; ratings ; image search || monitoring claims ; ClaimReview markup
+tineye | reverse image search ; sorting results ; oldest match ; browser extension || monitoring image use ; verification workflows
+invid-wevrify | keyframe extraction ; reverse search ; metadata ; magnifier || video forensics ; contextual analysis ; verification reports
+maltego | entities and graphs ; transforms ; data sources ; investigations || custom transforms ; collaboration ; OSINT methodology and ethics
+google-trends | interest over time ; regions ; related queries ; comparisons || category filters ; seasonality analysis ; data exports
+similarweb | website traffic ; traffic sources ; audience ; competitors || keyword research ; market analysis ; API
+google-scholar | search operators ; Cited by ; Related articles ; library links || alerts ; author profiles ; citation exports
+# Lab science
+avogadro | building molecules ; geometry optimisation ; visualisation ; file formats || input generation for quantum chemistry ; plugins
+benchling | notebook entries ; molecular biology tools ; registry ; inventory || workflows ; results tables ; integrations
+chemdraw | drawing structures ; reactions ; naming ; properties || templates ; structure-to-name ; publication figures
+elabftw | experiments ; database items ; templates ; timestamps || scheduler ; API ; team permissions
+ketcher | drawing structures ; templates ; reactions ; exports || integration in web apps ; SMILES/Molfile handling
+labguru | electronic notebook ; inventory ; protocols ; projects || workflows ; reports ; integrations
+marvinsketch | structure drawing ; calculations ; naming ; templates || plugins ; batch tools
+pymol | loading structures ; representations ; selections ; rendering images || scripting ; movies ; alignments
+snapgene | sequence maps ; primers ; cloning simulation ; features || Gibson assembly ; alignments ; history tracking
+ugene | sequence viewing ; alignment ; primer design ; workflows || workflow designer ; NGS tools
+zenodo | uploading datasets ; DOIs ; versions ; communities || GitHub integration ; licences ; metadata quality
+figshare | uploading items ; DOIs ; collections ; licences || institutional repositories ; API ; metrics
+osf | projects and components ; files ; pre-registration ; collaborators || add-ons ; registrations ; preprints
+sharpcap | camera control ; live stacking ; capture settings ; focus tools || polar alignment ; scripting
+siril | image calibration ; stacking ; background extraction ; colour calibration || photometry ; scripting ; deconvolution
+stellarium | sky view ; object search ; time controls ; landscapes || telescope control ; scripts ; observation planning
+# Qual/UX research
+atlas-ti | documents and quotations ; codes ; memos ; networks || co-occurrence analysis ; team projects ; AI coding (with checks)
+dovetail | importing data ; tagging ; highlights ; insights || research repository ; templates ; integrations
+limesurvey | survey editor ; question types ; conditions ; responses || quotas ; multilingual surveys ; self-hosting
+lookback | live and self-guided tests ; recording ; notes ; highlights || team observation ; analysis workflows
+maze | prototype tests ; surveys ; tasks ; reports || card sorting ; tree testing ; panel recruitment
+nvivo | importing data ; coding ; queries ; memos || framework matrices ; mixed methods ; team collaboration
+qualtrics | survey flow ; question types ; logic ; reports || embedded data ; quotas ; text iQ analysis
+taguette | documents ; highlights ; tags ; exports || collaboration ; self-hosting
+# Dev tools
+android-studio | projects and Gradle ; layout editor/Compose ; emulator ; debugging || profiling ; testing ; publishing to Google Play
+appium | drivers and capabilities ; inspector ; locators ; test sessions || parallel runs ; cloud device farms ; CI integration
+apache-jmeter | test plans ; thread groups ; samplers ; listeners || parameterisation ; distributed testing ; CI integration
+aws | console and IAM basics ; EC2 ; S3 ; billing alerts || VPC networking ; serverless (Lambda) ; infrastructure as code ; Well-Architected reviews
+bitbucket | repositories ; branches ; pull requests ; Jira integration || Pipelines CI/CD ; branch permissions ; deployments
+cisco-packet-tracer | building topologies ; device configuration ; IP addressing ; simulation mode || routing protocols ; VLANs ; troubleshooting labs
+cloudflare | DNS ; SSL/TLS ; caching ; firewall rules || Workers ; Pages ; Zero Trust ; analytics
+datadog | infrastructure monitoring ; dashboards ; logs ; alerts || APM tracing ; synthetics ; SLOs
+docker | images and containers ; Dockerfile ; volumes ; Docker Compose || multi-stage builds ; registries ; security scanning
+docusaurus | docs pages ; sidebars ; versioning ; deployment || plugins ; search ; internationalisation
+expo | creating a project ; Expo Go ; components ; publishing builds || EAS Build and Submit ; updates ; native modules
+flutter | widgets ; layouts ; state management ; hot reload || platform channels ; testing ; performance profiling ; publishing
+gatling | simulations ; scenarios ; injection profiles ; reports || feeders ; CI integration ; enterprise features
+github-actions | workflows and triggers ; jobs and steps ; marketplace actions ; secrets || matrix builds ; reusable workflows ; environments and approvals
+gns3 | topologies ; device images ; links ; console access || automation labs ; integration with real networks
+godot | scenes and nodes ; GDScript ; physics ; exporting games || shaders ; animation trees ; networking
+google-cloud | console and IAM ; Compute Engine ; Cloud Storage ; billing || Cloud Run ; BigQuery ; Kubernetes Engine ; infrastructure as code
+grafana | data sources ; dashboards ; panels ; alerts || variables and templating ; Loki/Tempo ; provisioning as code
+insomnia | requests ; environments ; collections ; authentication || design-first OpenAPI ; testing ; plugins
+jenkins | jobs ; pipelines (Jenkinsfile) ; agents ; plugins || shared libraries ; security ; scaling agents
+jest | writing tests ; matchers ; mocks ; coverage || snapshot testing ; async testing ; configuration
+jetbrains-ides | project setup ; code navigation ; refactoring ; debugger || profiling ; database tools ; AI Assistant ; plugins
+k6 | scripts ; virtual users ; checks and thresholds ; results || scenarios ; CI integration ; cloud runs
+kubernetes | pods and deployments ; services ; kubectl ; config maps and secrets || Helm ; autoscaling ; RBAC ; observability
+mermaid | flowcharts ; sequence diagrams ; syntax ; rendering in Markdown || class/ER diagrams ; theming ; diagrams in CI docs
+microsoft-azure | portal and Entra ID basics ; virtual machines ; storage ; cost management || App Service ; Functions ; networking ; infrastructure as code (Bicep)
+mongodb | documents and collections ; CRUD ; Compass ; indexes || aggregation pipeline ; replication ; Atlas features
+netlify | deploying sites ; build settings ; custom domains ; forms || serverless functions ; edge functions ; deploy previews
+nextjs | pages and routing ; components ; data fetching ; deployment || server components ; API routes ; performance and caching
+podman | containers ; images ; pods ; rootless mode || systemd integration ; Kubernetes YAML ; security
+postman | requests ; collections ; environments ; tests || mock servers ; monitors ; Newman/CLI in CI ; API design
+prometheus | metrics and exporters ; PromQL ; targets ; alert rules || recording rules ; Alertmanager ; scaling
+putty | SSH sessions ; saved sessions ; keys (PuTTYgen) ; terminal settings || port forwarding ; Pageant ; serial connections
+pytorch | tensors ; autograd ; nn.Module ; training loops || GPU training ; distributed training ; deployment (TorchScript/ONNX)
+react-native | components ; styling ; navigation ; native APIs || performance ; native modules ; testing ; app store release
+scikit-learn | estimators and fit/predict ; train/test split ; preprocessing ; metrics || pipelines ; cross-validation and tuning ; model selection
+sentry | error monitoring ; issues ; releases ; alerts || performance tracing ; session replay ; source maps
+swagger | OpenAPI documents ; Swagger UI ; Swagger Editor ; code generation || API design-first workflows ; validation
+terraform | providers ; resources ; plan and apply ; state || modules ; remote state ; workspaces ; policy as code
+unity | scenes and GameObjects ; components ; C# scripts ; building || prefabs and ScriptableObjects ; physics ; performance profiling ; multiplayer
+unreal-engine | levels and actors ; Blueprints ; materials ; lighting || C++ gameplay ; Niagara effects ; Sequencer ; packaging
+wireshark | capturing packets ; display filters ; following streams ; protocol details || statistics ; troubleshooting latency ; decrypting TLS (with keys)
+xcode | projects and targets ; SwiftUI previews ; simulator ; debugging || Instruments profiling ; testing ; App Store submission
+x-plane | aircraft and flight controls ; navigation ; weather ; flight planning || IFR procedures ; failures training ; plugins
+google-colab | notebooks ; GPU runtimes ; Google Drive integration ; sharing || libraries and installs ; long-running jobs ; Colab AI
+# IT service / QA mgmt
+freshservice | tickets ; service catalogue ; knowledge base ; SLAs || asset management ; change management ; workflow automator
+glpi | tickets ; inventory ; assets ; knowledge base || plugins ; automatic inventory ; reports
+jira-service-management | request types ; queues ; SLAs ; knowledge base || automation ; asset management ; incident and change management
+qase | test cases ; test runs ; plans ; defects || automation integration ; reports ; shared steps
+testrail | test cases ; suites ; runs ; results || milestones ; integrations ; API reporting
+xray | test issues in Jira ; test executions ; plans ; coverage || Gherkin/BDD ; automation import ; reports
+zephyr | test cases ; cycles ; executions ; Jira integration || automation ; reports ; traceability
+freshdesk | tickets ; canned responses ; knowledge base ; SLAs || automations ; omnichannel ; reports
+zendesk | tickets ; macros ; help centre ; SLAs || triggers and automations ; messaging ; analytics (Explore)
+crisp | shared inbox ; chat widget ; canned responses ; contacts || chatbots ; knowledge base ; integrations
+# Security tools
+autopsy | creating cases ; adding data sources ; ingest modules ; keyword search || timeline analysis ; reporting ; plugins
+burp-suite | proxy ; target scope ; repeater ; intruder || scanner (Pro) ; extensions ; reporting
+elastic | Elasticsearch and Kibana basics ; ingesting logs ; searches ; dashboards || detection rules ; Elastic Agent ; machine learning jobs
+ftk-imager | creating forensic images ; hashing ; previewing evidence ; memory capture || chain of custody ; mounting images
+kali-linux | installing and updating ; core tools ; lab networking ; documentation || building custom images ; automation ; responsible disclosure
+microsoft-sentinel | data connectors ; analytics rules ; incidents ; workbooks || KQL hunting ; playbooks (automation) ; threat intelligence
+nmap | host discovery ; port scanning ; service detection ; output formats || NSE scripts ; timing and evasion (authorised) ; reporting
+owasp-zap | proxy ; spidering ; passive and active scanning ; alerts || authenticated scans ; automation framework ; CI integration
+splunk | searching with SPL ; dashboards ; alerts ; data inputs || correlation searches ; apps ; Enterprise Security
+wazuh | agents ; alerts ; dashboards ; file integrity monitoring || rules and decoders ; compliance modules ; active response
+# Personal security
+bitwarden | vault ; browser extension ; password generator ; autofill || two-step login ; organisations and sharing ; emergency access ; Send
+google-authenticator | adding accounts by QR ; codes ; transferring accounts ; backup || cloud sync choice ; recovery planning
+have-i-been-pwned | checking an email ; understanding breaches ; notifications ; Pwned Passwords || domain search ; responding to breaches
+microsoft-authenticator | push approvals ; codes ; passwordless sign-in ; backup || number matching ; work account policies
+proton-mail | encrypted email ; folders and labels ; aliases ; mobile apps || custom domains ; password-protected emails ; Bridge
+# Accessibility
+ava | live captions ; conversations ; saving transcripts ; group captions || professional captioning ; meeting integrations
+be-my-eyes | video call with volunteers ; AI image descriptions ; specialised help ; settings || using it at work ; privacy considerations
+google-live-transcribe | live captions ; languages ; sound notifications ; saving transcripts || custom words ; external microphones
+microsoft-immersive-reader | read aloud ; text spacing ; line focus ; picture dictionary || translation ; grammar options ; classroom use
+nvda | starting and voices ; navigation commands ; browse and focus modes ; braille || add-ons ; profiles ; testing web accessibility
+proloquo2go | vocabulary and grid sets ; personalising buttons ; voices ; typing view || modelling with learners ; backup and sharing
+spreadthesign | searching signs ; languages ; videos ; categories || comparing sign languages ; teaching use
+lingvano | lessons ; sign recognition practice ; dialogues ; vocabulary || progress tracking ; regional sign languages
+# Learning platforms
+freecodecamp | curriculum sections ; interactive lessons ; projects ; certifications || forum and community ; contributing to open source
+alison | course search ; modules and assessments ; certificates ; learning paths || career guides ; publishing courses
+anki | decks and notes ; spaced repetition ; card types ; syncing || add-ons ; cloze deletions ; card templates ; image occlusion
+biodigital-human | 3D anatomy ; layers ; conditions ; quizzes || custom tours ; classroom sharing
+busuu | lessons ; speaking practice ; community corrections ; review || study plans ; certificates
+complete-anatomy | 3D atlas ; layers and dissection ; quizzes ; courses || screens and AR ; custom content
+coursera | course and specialisation search ; video lessons ; graded assignments ; certificates || professional certificates ; degrees ; financial aid
+duolingo | lessons ; streaks ; practice ; leagues || stories ; speaking and listening practice ; Duolingo English Test
+edx | course search ; audit vs verified ; assignments ; certificates || MicroMasters and programs ; Xseries
+gcfglobal | topic tutorials ; interactive lessons ; videos ; quizzes || teaching others with GCF materials
+italki | finding teachers ; booking lessons ; lesson packages ; community || structured courses ; exam preparation
+khan-academy | courses ; practice exercises ; mastery ; videos || teacher tools ; Khanmigo ; course challenges
+linkedin-learning | course search ; learning paths ; certificates ; LinkedIn profile integration || collections for teams ; exercise files
+quizlet | study sets ; flashcards ; learn mode ; tests || Magic Notes ; classes ; spaced practice
+visible-body | 3D models ; quizzes ; animations ; labelling || courseware ; AR features
+# Teaching platforms
+canvas-lms | courses and modules ; assignments ; SpeedGrader ; discussions || rubrics and outcomes ; analytics ; LTI integrations
+google-classroom | classes ; assignments ; grading ; Stream || rubrics ; originality reports ; guardian summaries
+gradescope | assignments ; AI-assisted grouping ; rubrics ; returning grades || regrade requests ; code autograders ; analytics
+kahoot | creating kahoots ; question types ; hosting live ; student-paced games || reports ; team mode ; question banks
+mentimeter | presentations ; live polls ; quizzes ; Q&A || word clouds ; result exports ; templates
+moodle | courses ; activities and resources ; gradebook ; enrolment || quizzes and question banks ; plugins ; completion tracking
+nearpod | interactive lessons ; formative assessment ; virtual field trips ; student-paced mode || reports ; lesson library ; collaborate boards
+padlet | boards ; posts ; layouts ; sharing || moderation ; templates ; exports
+socrative | quizzes ; space race ; exit tickets ; reports || question banks ; rooms
+turnitin | similarity reports ; feedback studio ; rubrics ; assignments || AI-writing indicators (use with care) ; peer review
+trainerize | client programmes ; workout builder ; nutrition ; messaging || automation ; habit coaching ; branded app
+truecoach | programme builder ; exercise library ; client check-ins ; messaging || templates ; metrics ; payments
+everfit | workout builder ; client app ; habits ; messaging || automation ; on-demand content ; payments
+# Scripture
+blue-letter-bible | reading ; interlinear ; lexicon ; commentaries || word studies ; cross-references ; mobile app
+logos-bible-software | library ; passage guides ; word studies ; notes || sermon builder ; factbook ; original language tools ; workflows
+quran-com | reading ; translations ; recitations ; tafsir || word-by-word ; search by topic ; bookmarks and notes
+sefaria | texts library ; connections ; translations ; source sheets || commentary chains ; study guides ; API
+step-bible | translations ; original language tools ; search ; maps || morphology ; parallel views
+youversion | reading plans ; versions ; highlights and notes ; audio Bibles || sharing verse images ; church events ; offline versions
+# Marketing
+ahrefs | Site Explorer ; Keywords Explorer ; backlinks ; Site Audit || content gap ; rank tracking ; competitor analysis
+brevo | email campaigns ; contacts ; SMS/WhatsApp ; transactional email || automations ; segmentation ; A/B tests
+buffer | scheduling posts ; queues ; ideas ; analytics || team approvals ; start pages ; engagement inbox
+google-ads | campaigns ; keywords ; ads ; budgets and bidding || Performance Max ; conversion tracking ; audiences ; experiments
+google-alerts | creating alerts ; search operators ; delivery options ; sources || monitoring brands and competitors
+google-business-profile | profile setup ; photos ; posts ; reviews || insights ; messaging ; products and services
+google-search-console | property verification ; performance report ; indexing ; sitemaps || Core Web Vitals ; URL inspection ; rich results
+gumroad | products ; checkout ; payouts ; customers || memberships ; workflows and emails ; discounts
+hootsuite | scheduling ; streams ; analytics ; inbox || team workflows ; social listening ; ads
+hubspot | contacts and companies ; deals pipeline ; email ; forms || workflows ; sequences ; reporting dashboards ; marketing automation
+instagram | profile and bio ; posts, reels and stories ; captions and hashtags ; insights || Instagram Shopping ; collaborations ; ads ; content strategy
+kit | subscribers and tags ; forms and landing pages ; broadcasts ; sequences || visual automations ; creator network ; paid newsletters
+ko-fi | page setup ; donations ; memberships ; shop || commissions ; integrations ; payouts
+mailchimp | audiences ; campaigns ; templates ; reports || customer journeys ; segmentation ; A/B tests ; e-commerce integrations
+meltwater | media monitoring ; searches ; alerts ; dashboards || social listening ; media relations ; reports
+meta-ads-manager | campaigns and objectives ; audiences ; ad creative ; budgets || Pixel/Conversions API ; A/B tests ; Advantage+ ; reporting
+meta-business-suite | managing Facebook and Instagram ; scheduling ; inbox ; insights || ads ; business settings ; automated responses
+metricool | planning and scheduling ; analytics ; competitors ; reports || ads analytics ; link in bio ; team brands
+muck-rack | journalist database ; pitching ; monitoring ; reports || media lists ; coverage reports
+patreon | page and tiers ; posts ; members ; payouts || membership benefits ; insights ; apps and integrations
+pinterest | pins and boards ; business account ; Idea pins ; analytics || shopping catalogues ; ads ; SEO for Pinterest
+pipedrive | deals and pipeline ; activities ; contacts ; email sync || automations ; insights ; integrations
+salesforce | objects and records ; leads and opportunities ; reports and dashboards ; Chatter || flows ; custom objects ; AppExchange ; security model
+selar | product listing ; checkout ; payouts ; affiliates || memberships and courses ; discounts ; analytics
+semrush | keyword research ; site audit ; position tracking ; competitor analysis || content marketing toolkit ; backlink audits ; local SEO
+tripadvisor | business listing ; reviews ; responses ; photos || management center insights ; sponsored placements
+trustpilot | business profile ; inviting reviews ; responding ; widgets || insights ; integrations ; review rules
+zoho-crm | modules and records ; pipelines ; workflows ; reports || Blueprint processes ; Zia AI ; customisation
+beehiiv | newsletter editor ; subscribers ; growth tools ; analytics || referral program ; ad network ; paid subscriptions
+ghost | posts and pages ; themes ; members ; newsletters || paid memberships ; integrations ; self-hosting
+substack | posts and newsletters ; subscribers ; podcasts ; Notes || paid subscriptions ; recommendations ; analytics
+donorbox | donation forms ; recurring giving ; donor management ; receipts || peer-to-peer fundraising ; events ; integrations
+gofundme | campaign setup ; story and updates ; sharing ; withdrawals || team fundraising ; charity fundraisers
+eventbrite | event creation ; tickets ; promotion ; check-in || reports ; email marketing ; integrations
+luma | event pages ; registration and approvals ; reminders ; check-in || calendars ; paid tickets ; integrations
+# Ecommerce
+amazon-seller-central | listings ; inventory ; orders ; performance metrics || FBA ; advertising ; brand registry
+ebay | listings ; shipping ; payments ; feedback || promoted listings ; Seller Hub ; international selling
+etsy | shop setup ; listings ; shipping profiles ; Etsy payments || Etsy Ads ; stats ; SEO for listings
+facebook-marketplace | listings ; messaging buyers ; pricing ; safety || shops ; boosting listings
+jiji | posting adverts ; photos and descriptions ; chats ; promotion || premium packages ; safety and verification
+jumia | vendor centre ; product listing ; orders ; payouts || Jumia Express ; promotions ; performance scores
+redbubble | uploading designs ; products ; pricing ; storefront || tags and SEO ; collections
+shopify | products ; themes ; checkout and payments ; orders || apps ; discounts and marketing ; analytics ; Shopify Flow
+woocommerce | products ; payment gateways ; shipping ; orders || extensions ; subscriptions ; performance and security
+framer | page builder ; components ; CMS ; publishing || interactions and animations ; localisation ; SEO
+google-sites | pages ; layouts ; embeds ; publishing || custom domains ; permissions ; Google Workspace integration
+amazon-kdp | manuscript upload ; cover creator ; pricing and royalties ; publishing || KDP Select ; Amazon Ads ; paperback formatting
+reedsy | book editor ; formatting ; exporting ePub/PDF ; marketplace for editors || collaboration ; Reedsy Discovery
+# Productivity
+adobe-acrobat | editing PDFs ; comments ; combining files ; e-sign || forms ; redaction ; OCR ; accessibility checker
+adobe-scan | scanning documents ; auto-crop ; OCR ; sharing || business cards ; batch scanning
+docusign | sending envelopes ; signer fields ; templates ; tracking || bulk send ; PowerForms ; integrations
+dropbox | file sync ; sharing links ; file requests ; version history || Dropbox Transfer ; Paper ; admin controls
+gmail | labels ; filters ; search operators ; templates || scheduling send ; confidential mode ; delegation ; Gemini in Gmail
+google-calendar | events and invites ; multiple calendars ; appointment schedules ; reminders || time insights ; shared calendars ; working hours and location
+google-drive | uploading and folders ; sharing permissions ; shared drives ; search || version history ; offline access ; Drive for desktop
+google-forms | question types ; sections and branching ; response validation ; responses to Sheets || quizzes with grading ; add-ons ; file uploads
+ilovepdf | merge and split ; compress ; convert ; sign || OCR ; batch processing ; desktop app
+microsoft-forms | question types ; branching ; quizzes ; responses || Excel integration ; Power Automate flows
+microsoft-onedrive | file sync ; sharing ; version history ; Files On-Demand || Personal Vault ; ransomware recovery ; admin settings
+microsoft-outlook | email folders and rules ; calendar ; Focused Inbox ; search || shared mailboxes ; Quick Steps ; Copilot features
+microsoft-to-do | lists and tasks ; My Day ; reminders ; sharing lists || Outlook integration ; recurring tasks
+otter-ai | live transcription ; meeting assistant ; highlights ; summaries || custom vocabulary ; team workspaces ; integrations
+pdf24 | merge and split ; compress ; convert ; edit || OCR ; desktop creator ; workflows
+smallpdf | compress ; convert ; edit ; e-sign || batch processing ; mobile app ; team workspace
+todoist | tasks and projects ; due dates in natural language ; labels and filters ; priorities || templates ; integrations ; productivity reports
+typeform | conversational forms ; logic jumps ; hidden fields ; integrations || calculations ; payments ; analytics
+google-chrome | profiles ; bookmarks ; extensions ; password manager || tab groups ; DevTools ; site settings ; sync
+microsoft-edge | profiles ; collections ; vertical tabs ; read aloud || Copilot sidebar ; workspaces ; security settings
+firefox | containers ; extensions ; privacy protections ; sync || DevTools ; about:config ; Firefox Relay
+think-cell | charts from data ; waterfall charts ; Gantt charts ; layout tools || Excel links ; agenda tools ; automation
+cozi | shared family calendar ; shopping lists ; to-do lists ; recipe box || reminders ; meal planning
+google-keep | notes ; checklists ; labels ; reminders || collaboration ; Docs integration ; image text extraction
+# Diagrams
+draw-io | shapes and connectors ; templates ; layers ; export || custom libraries ; diagrams from data/CSV ; integrations (Confluence, VS Code)
+excalidraw | sketch-style drawing ; libraries ; collaboration ; export || embedding ; Mermaid import
+lucidchart | templates ; shapes ; collaboration ; integrations || data linking ; conditional formatting ; diagrams from data
+microsoft-visio | stencils ; flowcharts ; org charts ; swimlanes || data-linked diagrams ; validation rules ; Power Automate export
+# Writing
+gitbook | spaces and pages ; editor ; publishing ; integrations || Git sync ; versions ; access controls
+grammarly | corrections ; clarity suggestions ; tone detector ; browser extension || style guides ; generative AI features ; plagiarism check
+hemingway-editor | readability grade ; highlights ; formatting ; publishing || app editing workflow ; AI fixes (with judgement)
+languagetool | grammar and spelling ; style suggestions ; multilingual checking ; browser add-on || personal dictionary ; picky mode ; self-hosted server
+overleaf | LaTeX editor ; templates ; compiling ; collaboration || bibliography with BibTeX ; track changes ; Git integration
+scrivener | binder ; corkboard ; outliner ; compile || snapshots ; collections ; custom compile formats
+vale | style rules ; vocabularies ; CI integration ; editor plugins || custom styles ; configuration per project
+# GIS / earth
+google-earth-engine | Code Editor ; image collections ; filtering ; visualisation || reducers ; time-series analysis ; exporting ; machine learning classification
+google-earth-pro | placemarks and paths ; measuring ; historical imagery ; KML || importing GIS data ; movie maker ; elevation profiles
+sentinel-hub | EO Browser ; layers and indices ; time-lapse ; downloads || custom scripts ; statistical API ; processing API
+eos-crop-monitoring | field boundaries ; vegetation indices ; weather data ; alerts || zoning ; scouting tasks ; yield analytics
+climate-fieldview | field data ; yield maps ; imagery ; planting data || prescriptions ; reports ; equipment connections
+global-forest-watch | forest change maps ; alerts ; areas of interest ; dashboards || data downloads ; Forest Watcher app
+pix4d | image processing ; point clouds ; orthomosaics ; DSM || GCPs and accuracy ; volumes ; reports
+agisoft-metashape | photo alignment ; dense clouds ; meshes ; orthomosaics || GCPs ; scripting ; multispectral processing
+# Field apps
+agrivi | farm setup ; activities ; inventory ; financials || analytics ; traceability ; advisory
+agriwebb | livestock records ; paddock maps ; grazing ; inventory || reports ; compliance ; integrations
+cattlemax | herd records ; breeding ; health ; weights || pedigrees ; reports ; mobile use
+farmbrite | crops and livestock ; tasks ; inventory ; accounting || reports ; marketplace ; mapping
+herdwatch | animal records ; medicine records ; breeding ; compliance || reports ; grass management
+esoko | market prices ; weather and advice SMS ; farmer profiling ; surveys || buyer connections ; insurance services
+plantix | photo diagnosis ; crop advice ; community ; fertiliser calculator || local disease alerts ; retailer connections
+plantnet | photo identification ; flora selection ; contributions ; observations || citizen science projects ; API
+picturethis | plant identification ; care guides ; diagnosis ; reminders || collections ; expert consultations
+inaturalist | observations ; identification help ; projects ; research grade || data exports ; bioblitz events
+ebird | checklists ; species maps ; alerts ; Merlin ID || data exports ; hotspots ; science use
+apicbase | recipe management ; menu costing ; inventory ; procurement || allergen management ; production planning ; analytics
+meez | recipes ; scaling ; costing ; prep lists || training ; menu engineering ; nutrition
+meteoblue | forecasts ; meteograms ; weather maps ; history || agriculture weather ; API ; climate data
+windy | weather maps ; forecast models ; radar and satellite ; alerts || comparing models ; webcams ; route planning
+carly | OBD connection ; fault codes ; live data ; reports || coding (vehicle-specific) ; used-car check ; maintenance tracking
+obd-auto-doctor | connecting adapters ; fault codes ; sensor data ; freeze frames || readiness monitors ; data logging ; exports
+torque-pro | OBD connection ; dashboards ; fault codes ; logging || custom PIDs ; plugins ; track recording
+ifixit | repair guides ; parts and tools ; teardowns ; community answers || writing guides ; right-to-repair resources
+# Navigation & travel
+flightradar24 | live flight map ; flight details ; airports ; alerts || playback ; augmented reality view ; data exports
+foreflight | flight planning ; weather briefing ; charts ; navigation logs || synthetic vision ; W&B ; logbook
+garmin-pilot | flight planning ; charts ; weather ; navigation || connext devices ; logbook ; synthetic vision
+google-maps | search and directions ; saved lists ; offline maps ; sharing location || Timeline ; Street View ; contributing reviews and edits ; business listings
+marinetraffic | live vessel map ; vessel details ; port calls ; alerts || voyage history ; fleets ; API
+navionics | charts ; route planning ; sonar charts ; community edits || autorouting ; plotter sync ; offline use
+opencpn | chart loading ; route planning ; AIS ; GPS connection || plugins (weather routing) ; tides and currents
+openstreetmap | browsing maps ; editing with iD ; tags ; GPS traces || mapping campaigns ; JOSM ; using OSM data
+skydemon | flight planning ; airspace awareness ; NOTAMs ; navigation || logging ; plates ; synthetic view
+skyscanner | flight search ; flexible dates ; price alerts ; filters || multi-city searches ; hotels and car hire
+tripit | itinerary building from emails ; sharing ; reminders ; documents || flight alerts (Pro) ; travel stats
+wanderlog | trip planning ; maps ; budgets ; collaboration || offline access ; route optimisation
+what3words | 3-word addresses ; sharing locations ; navigation apps ; offline use || emergency services use ; integrations
+# Health & wellbeing apps
+apple-health | health data dashboard ; sources and permissions ; medications ; sharing || health records ; trends ; exporting data
+calm | meditations ; sleep stories ; breathing exercises ; daily calm || programmes ; Calm for organisations
+cronometer | food logging ; nutrient targets ; biometrics ; reports || custom foods and recipes ; professional dashboard
+headspace | meditations ; sleep content ; focus music ; courses || mindfulness programmes ; workplace plans
+insight-timer | free meditations ; timer ; courses ; groups || teacher programmes ; live events
+medisafe | medication reminders ; schedules ; refill alerts ; Medfriend || reports for doctors ; interaction warnings
+myfitnesspal | food diary ; barcode scanning ; goals ; exercise logging || recipes ; meal planning ; integrations
+nutritics | recipe analysis ; meal plans ; client records ; reports || food labels ; menu analysis ; allergen management
+lotsa-helping-hands | care calendar ; volunteers ; announcements ; message board || coordinating long-term care communities
+findhelp | searching services by location ; categories ; saving programmes ; referrals || organisation listings ; referral tracking
+# Sports
+dartfish | capturing video ; tagging ; slow motion and drawing ; sharing || live tagging panels ; analytics ; side-by-side comparison
+heja | team setup ; schedules ; attendance ; chat || payments ; parent communication
+hudl | uploading film ; tagging ; highlights ; sharing with athletes || breakdown data ; scouting reports ; Hudl Assist
+kinovea | video playback ; slow motion ; angles and distances ; side-by-side || trajectories ; timers and chronometers ; capture
+spond | events ; availability ; group chat ; payments || subgroups ; fundraising ; club admin
+teamsnap | roster ; schedule ; availability ; messaging || payments ; club and league tools ; photos
+wyscout | match videos ; player search ; statistics ; reports || scouting lists ; data exports ; video analysis tools
+# Family
+apple-screen-time | app limits ; downtime ; content and privacy restrictions ; Family Sharing || communication limits ; reports ; Ask to Buy
+google-family-link | supervising accounts ; app approvals ; screen time ; location || Chrome filters ; school time ; teen supervision
+microsoft-family-safety | screen time ; content filters ; activity reports ; location sharing || spending controls ; Xbox settings
+# Consumer
+google-lens | text translation from camera ; object search ; copy text ; homework help || shopping search ; identifying plants and animals ; verifying images
+mailerlite | subscribers and groups ; drag-and-drop email editor ; landing pages and forms ; campaign reports || automation workflows ; segmentation ; A/B testing ; e-commerce integrations
+bandlab | Studio on phone and web ; recording vocals and instruments ; loops and virtual instruments ; inviting collaborators ; free mastering || AutoPitch and effects chains ; Splitter (stem separation) ; mixing in Studio ; releasing and promoting from BandLab
+distrokid | uploading a release ; metadata, artwork and release date ; HyperFollow pre-save pages ; splits with collaborators || multiple artists or bands ; synced lyrics ; release timing for editorial pitching ; payout and tax setup
+tunecore | creating a release ; choosing stores ; artist and song metadata ; earnings reports || publishing administration ; splits ; release scheduling ; YouTube Content ID considerations
+spotify-for-artists | claiming your profile ; profile picture, bio and Artist Pick ; audience stats ; mobile app || pitching unreleased songs to editors ; Canvas and Countdown Pages ; Marquee and Discovery Mode (where available) ; team access
+audiomack | uploading songs free ; artist profile ; private links ; stats || monetisation programme ; playlist and trending opportunities ; supporters and fan engagement ; using stats to plan shows

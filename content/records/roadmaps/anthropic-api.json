@@ -1,0 +1,239 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_anthropic_api",
+ "slug": "anthropic-api",
+ "title": "Claude API skill roadmap",
+ "tool_ids": [
+  "tool_anthropic_api"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_anthropic_api_ai_tool_0",
+    "slug": "anthropic-api-ai-tool-0",
+    "title": "Get started with Claude API",
+    "outcome": "You can: set up Claude API, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "ai-app-development"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_anthropic_api_ai_tool_1",
+    "slug": "anthropic-api-ai-tool-1",
+    "title": "Ask well, check everything",
+    "outcome": "You can: get useful, checkable answers from Claude API",
+    "topics": [
+     "giving role, task, context and format",
+     "follow-up questions",
+     "spotting made-up facts"
+    ],
+    "practice": "Ask Claude API to explain a concept from your work, then verify two claims",
+    "need_tags": [
+     "use-ai-assistants",
+     "fact-check",
+     "ai-app-development"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_anthropic_api_ai_tool_2",
+    "slug": "anthropic-api-ai-tool-2",
+    "title": "Use it safely",
+    "outcome": "You can: protect private data while using Claude API",
+    "topics": [
+     "what not to paste",
+     "workplace policy",
+     "privacy settings"
+    ],
+    "practice": "Write your personal \"never paste\" list",
+    "need_tags": [
+     "use-ai-assistants",
+     "online-safety",
+     "ai-app-development"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_anthropic_api_ai_tool_3",
+    "slug": "anthropic-api-ai-tool-3",
+    "title": "Reusable prompts for your job",
+    "outcome": "You can: build prompt templates for repeated tasks",
+    "topics": [
+     "templates",
+     "examples",
+     "checklists"
+    ],
+    "practice": "Create three prompts for your weekly tasks",
+    "need_tags": [
+     "ai-app-development"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_anthropic_api_ai_tool_4",
+    "slug": "anthropic-api-ai-tool-4",
+    "title": "Research and summarise with sources",
+    "outcome": "You can: summarise documents and find sources responsibly",
+    "topics": [
+     "citations",
+     "page references",
+     "cross-checking"
+    ],
+    "practice": "Summarise a public report with page references",
+    "need_tags": [
+     "literature-review",
+     "find-information",
+     "ai-app-development"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_anthropic_api_ai_tool_8",
+    "slug": "anthropic-api-ai-tool-8",
+    "title": "Signature skills in Claude API",
+    "outcome": "You can: use the features that make Claude API distinctive",
+    "topics": [
+     "Messages API basics",
+     "system prompts",
+     "tool use",
+     "token and cost management"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "ai-app-development"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_anthropic_api_ai_tool_9",
+    "slug": "anthropic-api-ai-tool-9",
+    "title": "Advanced Claude API",
+    "outcome": "You can: use Claude API's advanced capabilities with confidence",
+    "topics": [
+     "prompt caching",
+     "batch processing",
+     "evaluation of outputs",
+     "safety and guardrail design"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "ai-app-development"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_anthropic_api_ai_tool_5",
+    "slug": "anthropic-api-ai-tool-5",
+    "title": "Build with it",
+    "outcome": "You can: put Claude API inside a workflow or product",
+    "topics": [
+     "APIs or integrations",
+     "evaluation",
+     "human review steps"
+    ],
+    "practice": "Automate one recurring task with a human sign-off step",
+    "need_tags": [
+     "automation-workflows",
+     "ai-app-development"
+    ],
+    "estimated_hours": {
+     "value": 4.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_anthropic_api_ai_tool_10",
+    "slug": "anthropic-api-ai-tool-10",
+    "title": "Integrate Claude API into your workflow",
+    "outcome": "You can: connect Claude API with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Claude API to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "ai-app-development"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_anthropic_api_ai_tool_11",
+    "slug": "anthropic-api-ai-tool-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Claude API well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Claude API\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "ai-app-development"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "ai-tool",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

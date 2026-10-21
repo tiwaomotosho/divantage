@@ -1,0 +1,240 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_lingvano",
+ "slug": "lingvano",
+ "title": "Lingvano skill roadmap",
+ "tool_ids": [
+  "tool_lingvano"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_lingvano_accessibility_tool_0",
+    "slug": "lingvano-accessibility-tool-0",
+    "title": "Get started with Lingvano",
+    "outcome": "You can: set up Lingvano, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "sign-language"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_lingvano_accessibility_tool_1",
+    "slug": "lingvano-accessibility-tool-1",
+    "title": "Turn it on and set it up",
+    "outcome": "You can: start using Lingvano",
+    "topics": [
+     "installation",
+     "settings",
+     "voices/languages",
+     "shortcuts"
+    ],
+    "practice": "Set up Lingvano for your needs",
+    "need_tags": [
+     "accessibility-tools",
+     "accessible-communication",
+     "sign-language"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_lingvano_accessibility_tool_2",
+    "slug": "lingvano-accessibility-tool-2",
+    "title": "Everyday tasks",
+    "outcome": "You can: use Lingvano for daily tasks",
+    "topics": [
+     "reading",
+     "messaging",
+     "navigation",
+     "documents"
+    ],
+    "practice": "Complete three daily tasks with Lingvano",
+    "need_tags": [
+     "accessibility-tools",
+     "sign-language"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_lingvano_accessibility_tool_3",
+    "slug": "lingvano-accessibility-tool-3",
+    "title": "Customise",
+    "outcome": "You can: tailor Lingvano to you",
+    "topics": [
+     "speed",
+     "vocabulary",
+     "profiles",
+     "gestures"
+    ],
+    "practice": "Customise three settings",
+    "need_tags": [
+     "accessibility-tools",
+     "sign-language"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_lingvano_accessibility_tool_4",
+    "slug": "lingvano-accessibility-tool-4",
+    "title": "Work and study",
+    "outcome": "You can: use Lingvano at work or school",
+    "topics": [
+     "meetings",
+     "documents",
+     "forms",
+     "requesting adjustments"
+    ],
+    "practice": "Use Lingvano in one meeting or class",
+    "need_tags": [
+     "accessible-communication",
+     "sign-language"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_lingvano_accessibility_tool_8",
+    "slug": "lingvano-accessibility-tool-8",
+    "title": "Signature skills in Lingvano",
+    "outcome": "You can: use the features that make Lingvano distinctive",
+    "topics": [
+     "lessons",
+     "sign recognition practice",
+     "dialogues",
+     "vocabulary"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "sign-language"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_lingvano_accessibility_tool_9",
+    "slug": "lingvano-accessibility-tool-9",
+    "title": "Advanced Lingvano",
+    "outcome": "You can: use Lingvano's advanced capabilities with confidence",
+    "topics": [
+     "progress tracking",
+     "regional sign languages"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "sign-language"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_lingvano_accessibility_tool_5",
+    "slug": "lingvano-accessibility-tool-5",
+    "title": "Support and advocate",
+    "outcome": "You can: help others and test accessibility",
+    "topics": [
+     "teaching others",
+     "testing content",
+     "reporting barriers"
+    ],
+    "practice": "Test a document or website with Lingvano",
+    "need_tags": [
+     "accessible-materials",
+     "sign-language"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_lingvano_accessibility_tool_10",
+    "slug": "lingvano-accessibility-tool-10",
+    "title": "Integrate Lingvano into your workflow",
+    "outcome": "You can: connect Lingvano with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Lingvano to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "sign-language"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_lingvano_accessibility_tool_11",
+    "slug": "lingvano-accessibility-tool-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Lingvano well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Lingvano\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "sign-language"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "accessibility-tool",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

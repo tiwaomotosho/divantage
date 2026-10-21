@@ -1,0 +1,127 @@
+{
+ "schema_version": "2.1",
+ "id": "lens_canva__property_marketing",
+ "roadmap_id": "rm_canva",
+ "roadmap": "canva",
+ "need_id": "need_property_marketing",
+ "need": "property-marketing",
+ "title": "Canva for real estate agents",
+ "kind": "flagship",
+ "for_identities": [
+  "real-estate-agent",
+  "property-manager",
+  "real-estate-developer",
+  "short-let-host",
+  "landlord"
+ ],
+ "why": "Listings compete on visuals. Consistent flyers, carousels and short video tours help properties sell or let faster.",
+ "what_is_different": "Property marketing needs listing templates (price, location, features), floor-plan visuals, \"Just listed / Sold\" series, and video tours — repeated for every property, on brand.",
+ "priority_modules": [
+  "cv-start",
+  "cv-brand",
+  "cv-video",
+  "cv-photos",
+  "cv-docs",
+  "cv-bulk"
+ ],
+ "extra_modules": [
+  {
+   "level": "beginner",
+   "title": "Listing post templates",
+   "outcome": "You can: create a reusable listing template",
+   "topics": [
+    "price, location, beds/baths, contact",
+    "consistent layout",
+    "agency branding"
+   ],
+   "practice": "Build a \"Just listed\" template and use it for one property"
+  },
+  {
+   "level": "intermediate",
+   "title": "Video tours from photos and clips",
+   "outcome": "You can: turn phone footage into a short tour",
+   "topics": [
+    "shot list",
+    "vertical video",
+    "captions with key features",
+    "music"
+   ],
+   "practice": "Make a 30-second tour reel for a listing"
+  }
+ ],
+ "starter_project": "Create a full listing kit for one property: flyer, Instagram carousel, a 30-second reel and a WhatsApp status image, all on brand.",
+ "pitfalls": [
+  "Over-edited photos that mislead buyers",
+  "Missing price or contact details",
+  "Inconsistent branding across listings"
+ ],
+ "pairs_with": [
+  "tool_capcut",
+  "tool_matterport",
+  "tool_whatsapp_business",
+  "tool_google_business_profile"
+ ],
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false,
+ "composed_path": {
+  "beginner": [
+   {
+    "extra": "Listing post templates",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "module": "cv-start",
+    "relevance": "core",
+    "rank": 0
+   },
+   {
+    "module": "cv-photos",
+    "relevance": "core",
+    "rank": 3
+   },
+   {
+    "module": "cv-readable",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ],
+  "intermediate": [
+   {
+    "extra": "Video tours from photos and clips",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "module": "cv-brand",
+    "relevance": "core",
+    "rank": 1
+   },
+   {
+    "module": "cv-video",
+    "relevance": "core",
+    "rank": 2
+   },
+   {
+    "module": "cv-docs",
+    "relevance": "core",
+    "rank": 4
+   }
+  ],
+  "expert": [
+   {
+    "module": "cv-bulk",
+    "relevance": "core",
+    "rank": 5
+   },
+   {
+    "module": "cv-limits",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ]
+ }
+}

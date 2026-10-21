@@ -1,0 +1,111 @@
+{
+ "schema_version": "2.1",
+ "id": "lens_canva__lesson_planning",
+ "roadmap_id": "rm_canva",
+ "roadmap": "canva",
+ "need_id": "need_lesson_planning",
+ "need": "lesson-planning",
+ "title": "Canva for teachers",
+ "kind": "flagship",
+ "for_identities": [
+  "teacher",
+  "primary-school-teacher",
+  "secondary-school-teacher",
+  "early-years-teacher",
+  "special-education-teacher",
+  "private-tutor",
+  "religious-teacher",
+  "corporate-trainer"
+ ],
+ "why": "Worksheets, slides and classroom displays take hours. Templates turn that into minutes, and better visuals help students understand.",
+ "what_is_different": "Teaching materials must suit an age group, print well in black and white, work for students with additional needs, and be reused every year.",
+ "priority_modules": [
+  "cv-start",
+  "cv-readable",
+  "cv-docs",
+  "cv-bulk",
+  "cv-video"
+ ],
+ "extra_modules": [
+  {
+   "level": "intermediate",
+   "title": "Worksheets and visual aids",
+   "outcome": "You can: design printable worksheets that work in black and white",
+   "topics": [
+    "layout for writing space",
+    "dyslexia-friendly fonts",
+    "greyscale printing"
+   ],
+   "practice": "Make a worksheet and test-print it in greyscale"
+  }
+ ],
+ "starter_project": "Build a unit pack: lesson slides, two worksheets, a classroom poster and certificates generated in bulk from a class list.",
+ "pitfalls": [
+  "Colour-only meaning that disappears when printed",
+  "Busy backgrounds behind text",
+  "Fonts too small for young readers"
+ ],
+ "pairs_with": [
+  "tool_google_classroom",
+  "tool_kahoot",
+  "tool_google_slides"
+ ],
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false,
+ "composed_path": {
+  "beginner": [
+   {
+    "module": "cv-start",
+    "relevance": "core",
+    "rank": 0
+   },
+   {
+    "module": "cv-readable",
+    "relevance": "core",
+    "rank": 1
+   },
+   {
+    "module": "cv-photos",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ],
+  "intermediate": [
+   {
+    "extra": "Worksheets and visual aids",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "module": "cv-docs",
+    "relevance": "core",
+    "rank": 2
+   },
+   {
+    "module": "cv-video",
+    "relevance": "core",
+    "rank": 4
+   },
+   {
+    "module": "cv-brand",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ],
+  "expert": [
+   {
+    "module": "cv-bulk",
+    "relevance": "core",
+    "rank": 3
+   },
+   {
+    "module": "cv-limits",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ]
+ }
+}

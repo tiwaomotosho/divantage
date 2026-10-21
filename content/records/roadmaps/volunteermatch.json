@@ -1,0 +1,242 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_volunteermatch",
+ "slug": "volunteermatch",
+ "title": "VolunteerMatch skill roadmap",
+ "tool_ids": [
+  "tool_volunteermatch"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_volunteermatch_job_platform_0",
+    "slug": "volunteermatch-job-platform-0",
+    "title": "Get started with VolunteerMatch",
+    "outcome": "You can: set up VolunteerMatch, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "volunteering"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_volunteermatch_job_platform_1",
+    "slug": "volunteermatch-job-platform-1",
+    "title": "A profile that gets noticed",
+    "outcome": "You can: create a strong profile on VolunteerMatch",
+    "topics": [
+     "headline",
+     "skills",
+     "portfolio samples",
+     "photo"
+    ],
+    "practice": "Complete your profile to 100%",
+    "need_tags": [
+     "cv-portfolio",
+     "professional-profile",
+     "volunteering"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_volunteermatch_job_platform_2",
+    "slug": "volunteermatch-job-platform-2",
+    "title": "Find the right opportunities",
+    "outcome": "You can: search and filter effectively",
+    "topics": [
+     "keywords",
+     "alerts",
+     "filters",
+     "spotting scams"
+    ],
+    "practice": "Save three searches and set alerts",
+    "need_tags": [
+     "job-search",
+     "volunteering"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_volunteermatch_job_platform_3",
+    "slug": "volunteermatch-job-platform-3",
+    "title": "Apply or pitch well",
+    "outcome": "You can: write applications that win",
+    "topics": [
+     "tailoring",
+     "proposals",
+     "self-tapes or samples",
+     "follow-up"
+    ],
+    "practice": "Send three tailored applications or proposals",
+    "need_tags": [
+     "job-search",
+     "freelancing",
+     "volunteering"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_volunteermatch_job_platform_4",
+    "slug": "volunteermatch-job-platform-4",
+    "title": "Pricing, terms and safety",
+    "outcome": "You can: agree fair terms and stay safe",
+    "topics": [
+     "rates",
+     "milestones",
+     "platform rules",
+     "red flags"
+    ],
+    "practice": "Draft your rate card and terms checklist",
+    "need_tags": [
+     "freelancing",
+     "online-payments",
+     "volunteering"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_volunteermatch_job_platform_8",
+    "slug": "volunteermatch-job-platform-8",
+    "title": "Signature skills in VolunteerMatch",
+    "outcome": "You can: use the features that make VolunteerMatch distinctive",
+    "topics": [
+     "search opportunities",
+     "profile",
+     "signing up",
+     "virtual volunteering"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "volunteering"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_volunteermatch_job_platform_9",
+    "slug": "volunteermatch-job-platform-9",
+    "title": "Advanced VolunteerMatch",
+    "outcome": "You can: use VolunteerMatch's advanced capabilities with confidence",
+    "topics": [
+     "organisation tools",
+     "tracking hours"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "volunteering"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_volunteermatch_job_platform_5",
+    "slug": "volunteermatch-job-platform-5",
+    "title": "Build reputation",
+    "outcome": "You can: grow repeat work and referrals",
+    "topics": [
+     "reviews",
+     "portfolio updates",
+     "long-term clients"
+    ],
+    "practice": "Turn one completed job into a case study",
+    "need_tags": [
+     "professional-profile",
+     "volunteering"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_volunteermatch_job_platform_10",
+    "slug": "volunteermatch-job-platform-10",
+    "title": "Integrate VolunteerMatch into your workflow",
+    "outcome": "You can: connect VolunteerMatch with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect VolunteerMatch to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "volunteering"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_volunteermatch_job_platform_11",
+    "slug": "volunteermatch-job-platform-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use VolunteerMatch well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use VolunteerMatch\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "volunteering"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "job-platform",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

@@ -1,0 +1,103 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_zotero",
+ "slug": "zotero",
+ "title": "Zotero",
+ "tool_ids": [
+  "tool_zotero"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_zt_save",
+    "slug": "zt-save",
+    "title": "Save and organise sources",
+    "outcome": "You can: build a reference library",
+    "topics": [
+     "browser saving",
+     "collections",
+     "tags",
+     "PDFs"
+    ],
+    "practice": "Save 10 sources for a topic",
+    "need_tags": [
+     "literature-review"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_zt_cite",
+    "slug": "zt-cite",
+    "title": "Cite while you write",
+    "outcome": "You can: insert citations and a bibliography",
+    "topics": [
+     "word processor plugin",
+     "citation styles"
+    ],
+    "practice": "Write a paragraph with 3 citations",
+    "need_tags": [
+     "academic-writing"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_zt_notes",
+    "slug": "zt-notes",
+    "title": "Annotate and take notes",
+    "outcome": "You can: turn reading into usable notes",
+    "topics": [
+     "PDF annotations",
+     "notes",
+     "related items"
+    ],
+    "practice": "Annotate 3 papers and extract notes",
+    "need_tags": [
+     "literature-review"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_zt_groups",
+    "slug": "zt-groups",
+    "title": "Group libraries",
+    "outcome": "You can: collaborate on references",
+    "topics": [
+     "group libraries",
+     "syncing",
+     "storage"
+    ],
+    "practice": "Set up a shared library for a team project",
+    "need_tags": [
+     "literature-review",
+     "research-data-management"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false
+}

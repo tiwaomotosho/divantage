@@ -1,0 +1,224 @@
+{
+ "schema_version": "2.1",
+ "id": "lens_spreadsheets__financial_modelling",
+ "roadmap_id": "rm_spreadsheets",
+ "roadmap": "spreadsheets",
+ "need_id": "need_financial_modelling",
+ "need": "financial-modelling",
+ "title": "Excel for financial modelling",
+ "kind": "flagship",
+ "for_identities": [
+  "financial-analyst",
+  "fpa-analyst",
+  "investment-banker",
+  "financial-modeller",
+  "private-equity-associate",
+  "cfo",
+  "startup-founder",
+  "accountant",
+  "equity-research-analyst",
+  "project-finance-analyst",
+  "real-estate-analyst"
+ ],
+ "why": "Almost every valuation, budget and investment decision is first built in a spreadsheet model. A clear, auditable model is how finance people earn trust.",
+ "what_is_different": "Financial modellers live in the keyboard, build three linked statements, separate inputs from calculations, and obsess over checks and sign conventions. Charts matter less than integrity, flexibility and speed.",
+ "priority_modules": [
+  "xl-formulas-1",
+  "xl-model-design",
+  "xl-logic",
+  "xl-what-if",
+  "xl-dates-text",
+  "xl-dynamic-arrays",
+  "xl-conditional",
+  "xl-power-query"
+ ],
+ "extra_modules": [
+  {
+   "level": "beginner",
+   "title": "Keyboard-first working",
+   "outcome": "You can: navigate and build without the mouse",
+   "topics": [
+    "shortcuts for navigation, selection, fill and formatting",
+    "consistent colour coding (inputs blue, formulas black)"
+   ],
+   "practice": "Rebuild a small table using only the keyboard"
+  },
+  {
+   "level": "intermediate",
+   "title": "Three-statement model",
+   "outcome": "You can: link income statement, balance sheet and cash flow",
+   "topics": [
+    "revenue and cost drivers",
+    "working capital",
+    "depreciation schedule",
+    "debt schedule",
+    "balance check"
+   ],
+   "practice": "Build a five-year three-statement model for a simple business"
+  },
+  {
+   "level": "intermediate",
+   "title": "Time-series and timing flags",
+   "outcome": "You can: model monthly, quarterly and annual periods correctly",
+   "topics": [
+    "period headers",
+    "flags for start/end dates",
+    "EOMONTH",
+    "annualising"
+   ],
+   "practice": "Add a construction period and an operating period flag"
+  },
+  {
+   "level": "expert",
+   "title": "Valuation",
+   "outcome": "You can: value a business or project",
+   "topics": [
+    "discounted cash flow",
+    "XNPV/XIRR",
+    "terminal value",
+    "WACC inputs",
+    "comparable multiples"
+   ],
+   "practice": "Value the model's business with a DCF and sensitivity table"
+  },
+  {
+   "level": "expert",
+   "title": "Scenarios and model review",
+   "outcome": "You can: stress-test and review a model like an auditor",
+   "topics": [
+    "scenario switches",
+    "sensitivity tornado",
+    "circularity handling",
+    "model audit checklist"
+   ],
+   "practice": "Add base/upside/downside scenarios and review another person's model"
+  }
+ ],
+ "starter_project": "Build a three-statement model and DCF for a small business (for example, a bakery or a solar mini-grid) with three scenarios and a one-page dashboard.",
+ "pitfalls": [
+  "Hard-coding numbers inside formulas",
+  "Mixing inputs and calculations on the same sheet",
+  "No balance-sheet check",
+  "Sign errors between cash flow and balance sheet",
+  "Circular references hidden with iterative calculation"
+ ],
+ "pairs_with": [
+  "tool_microsoft_powerpoint",
+  "tool_power_bi",
+  "tool_python",
+  "tool_think_cell"
+ ],
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false,
+ "composed_path": {
+  "beginner": [
+   {
+    "extra": "Keyboard-first working",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "module": "xl-formulas-1",
+    "relevance": "core",
+    "rank": 0
+   },
+   {
+    "module": "xl-basics",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "xl-tables-sort",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "xl-charts-1",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ],
+  "intermediate": [
+   {
+    "extra": "Time-series and timing flags",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "extra": "Three-statement model",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "module": "xl-logic",
+    "relevance": "core",
+    "rank": 2
+   },
+   {
+    "module": "xl-dates-text",
+    "relevance": "core",
+    "rank": 4
+   },
+   {
+    "module": "xl-conditional",
+    "relevance": "core",
+    "rank": 6
+   },
+   {
+    "module": "xl-pivots",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "xl-cleaning",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "xl-protect-share",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ],
+  "expert": [
+   {
+    "extra": "Scenarios and model review",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "extra": "Valuation",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "module": "xl-model-design",
+    "relevance": "core",
+    "rank": 1
+   },
+   {
+    "module": "xl-what-if",
+    "relevance": "core",
+    "rank": 3
+   },
+   {
+    "module": "xl-dynamic-arrays",
+    "relevance": "core",
+    "rank": 5
+   },
+   {
+    "module": "xl-power-query",
+    "relevance": "core",
+    "rank": 7
+   },
+   {
+    "module": "xl-automation",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ]
+ }
+}

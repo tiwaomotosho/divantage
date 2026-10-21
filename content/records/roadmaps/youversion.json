@@ -1,0 +1,234 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_youversion",
+ "slug": "youversion",
+ "title": "YouVersion Bible App skill roadmap",
+ "tool_ids": [
+  "tool_youversion"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_youversion_scripture_tool_0",
+    "slug": "youversion-scripture-tool-0",
+    "title": "Get started with YouVersion Bible App",
+    "outcome": "You can: set up YouVersion Bible App, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "scripture-study"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_youversion_scripture_tool_1",
+    "slug": "youversion-scripture-tool-1",
+    "title": "Read and search",
+    "outcome": "You can: find and read passages",
+    "topics": [
+     "translations",
+     "search",
+     "bookmarks"
+    ],
+    "practice": "Set up a reading plan",
+    "need_tags": [
+     "scripture-study"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_youversion_scripture_tool_2",
+    "slug": "youversion-scripture-tool-2",
+    "title": "Notes and highlights",
+    "outcome": "You can: capture insights",
+    "topics": [
+     "notes",
+     "highlights",
+     "tags",
+     "sharing"
+    ],
+    "practice": "Study one passage with notes",
+    "need_tags": [
+     "scripture-study"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_youversion_scripture_tool_3",
+    "slug": "youversion-scripture-tool-3",
+    "title": "Cross-references and context",
+    "outcome": "You can: study in depth",
+    "topics": [
+     "cross-references",
+     "commentaries",
+     "dictionaries",
+     "maps"
+    ],
+    "practice": "Trace a theme across five passages",
+    "need_tags": [
+     "scripture-study"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_youversion_scripture_tool_4",
+    "slug": "youversion-scripture-tool-4",
+    "title": "Original languages",
+    "outcome": "You can: look beneath the translation",
+    "topics": [
+     "word studies",
+     "lexicons",
+     "interlinears"
+    ],
+    "practice": "Do a word study on one key term",
+    "need_tags": [
+     "scripture-study"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_youversion_scripture_tool_8",
+    "slug": "youversion-scripture-tool-8",
+    "title": "Signature skills in YouVersion Bible App",
+    "outcome": "You can: use the features that make YouVersion Bible App distinctive",
+    "topics": [
+     "reading plans",
+     "versions",
+     "highlights and notes",
+     "audio Bibles"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "scripture-study"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_youversion_scripture_tool_9",
+    "slug": "youversion-scripture-tool-9",
+    "title": "Advanced YouVersion Bible App",
+    "outcome": "You can: use YouVersion Bible App's advanced capabilities with confidence",
+    "topics": [
+     "sharing verse images",
+     "church events",
+     "offline versions"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "scripture-study"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_youversion_scripture_tool_5",
+    "slug": "youversion-scripture-tool-5",
+    "title": "Prepare teaching",
+    "outcome": "You can: turn study into teaching",
+    "topics": [
+     "outlines",
+     "discussion questions",
+     "sharing with groups"
+    ],
+    "practice": "Prepare a study guide for a small group",
+    "need_tags": [
+     "lesson-planning",
+     "scripture-study"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_youversion_scripture_tool_10",
+    "slug": "youversion-scripture-tool-10",
+    "title": "Integrate YouVersion Bible App into your workflow",
+    "outcome": "You can: connect YouVersion Bible App with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect YouVersion Bible App to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "scripture-study"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_youversion_scripture_tool_11",
+    "slug": "youversion-scripture-tool-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use YouVersion Bible App well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use YouVersion Bible App\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "scripture-study"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "scripture-tool",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

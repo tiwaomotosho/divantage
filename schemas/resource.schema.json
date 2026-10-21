@@ -1,0 +1,184 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://digitaladvantage.example/schemas/v2/resource.schema.json",
+  "title": "External resource record",
+  "type": "object",
+  "allOf": [
+    {
+      "$ref": "common.schema.json#/$defs/record_base"
+    }
+  ],
+  "unevaluatedProperties": false,
+  "required": [
+    "id",
+    "slug",
+    "title",
+    "publisher",
+    "canonical_url",
+    "resource_type",
+    "summary",
+    "learning_outcome",
+    "language",
+    "cost_status",
+    "registration_required",
+    "embed_policy",
+    "link_check"
+  ],
+  "properties": {
+    "schema_version": {},
+    "is_illustrative": {},
+    "redirect_from": {},
+    "sources": {},
+    "editorial": {},
+    "disclosure": {},
+    "id": {
+      "type": "string",
+      "pattern": "^res_[a-z0-9_]+$",
+      "maxLength": 64
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "minLength": 2,
+      "maxLength": 80
+    },
+    "title": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 140
+    },
+    "publisher": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 120
+    },
+    "canonical_url": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https://",
+      "maxLength": 2048
+    },
+    "resource_type": {
+      "$ref": "common.schema.json#/$defs/resource_type"
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 20,
+      "maxLength": 400
+    },
+    "learning_outcome": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 240
+    },
+    "language": {
+      "type": "string",
+      "pattern": "^[a-z]{2,3}(-[A-Z]{2})?$"
+    },
+    "cost_status": {
+      "$ref": "common.schema.json#/$defs/resource_cost_status"
+    },
+    "registration_required": {
+      "$ref": "common.schema.json#/$defs/yes_no_unknown"
+    },
+    "estimated_duration": {
+      "$ref": "common.schema.json#/$defs/estimate"
+    },
+    "skill_level": {
+      "$ref": "common.schema.json#/$defs/skill_level"
+    },
+    "prerequisites": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 3,
+        "maxLength": 200
+      },
+      "minItems": 0,
+      "uniqueItems": true,
+      "maxItems": 5
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 3,
+        "maxLength": 300
+      },
+      "minItems": 0,
+      "uniqueItems": true,
+      "maxItems": 5
+    },
+    "publisher_updated_at": {
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "date",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "embed_policy": {
+      "const": "link_only",
+      "description": "R1: no embedding of third-party media."
+    },
+    "link_check": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "last_checked_at",
+        "last_status"
+      ],
+      "properties": {
+        "last_checked_at": {
+          "type": "string",
+          "format": "date",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "last_status": {
+          "enum": [
+            "ok",
+            "redirected",
+            "temporary_error",
+            "not_found",
+            "blocked",
+            "unchecked"
+          ]
+        },
+        "consecutive_failures": {
+          "type": "integer",
+          "minimum": 0,
+          "default": 0
+        }
+      }
+    },
+    "related_tool_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^tool_[a-z0-9_]+$",
+        "maxLength": 64
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "related_task_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^task_[a-z0-9_]+$",
+        "maxLength": 64
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "replacement_resource_id": {
+      "type": "string",
+      "pattern": "^res_[a-z0-9_]+$",
+      "maxLength": 64
+    }
+  }
+}

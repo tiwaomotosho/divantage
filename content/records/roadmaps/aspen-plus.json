@@ -1,0 +1,240 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_aspen_plus",
+ "slug": "aspen-plus",
+ "title": "Aspen Plus skill roadmap",
+ "tool_ids": [
+  "tool_aspen_plus"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_aspen_plus_engineering_sim_0",
+    "slug": "aspen-plus-engineering-sim-0",
+    "title": "Get started with Aspen Plus",
+    "outcome": "You can: set up Aspen Plus, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "process-simulation"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_aspen_plus_engineering_sim_1",
+    "slug": "aspen-plus-engineering-sim-1",
+    "title": "Understand the method",
+    "outcome": "You can: know what Aspen Plus calculates and its limits",
+    "topics": [
+     "governing theory",
+     "assumptions",
+     "units",
+     "when not to use it"
+    ],
+    "practice": "Write a one-page note on Aspen Plus's assumptions",
+    "need_tags": [
+     "engineering-calculations",
+     "process-simulation"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_aspen_plus_engineering_sim_2",
+    "slug": "aspen-plus-engineering-sim-2",
+    "title": "Build a first model",
+    "outcome": "You can: set up a simple model correctly",
+    "topics": [
+     "geometry/network",
+     "properties",
+     "inputs",
+     "checks"
+    ],
+    "practice": "Rebuild a published tutorial example",
+    "need_tags": [
+     "engineering-calculations",
+     "process-simulation"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_aspen_plus_engineering_sim_3",
+    "slug": "aspen-plus-engineering-sim-3",
+    "title": "Run and interpret",
+    "outcome": "You can: run analyses and read results critically",
+    "topics": [
+     "solver settings",
+     "convergence",
+     "results review",
+     "sanity checks"
+    ],
+    "practice": "Compare results with a hand calculation",
+    "need_tags": [
+     "engineering-data-analysis",
+     "process-simulation"
+    ],
+    "estimated_hours": {
+     "value": 4.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_aspen_plus_engineering_sim_4",
+    "slug": "aspen-plus-engineering-sim-4",
+    "title": "Sensitivity and scenarios",
+    "outcome": "You can: test what matters",
+    "topics": [
+     "sensitivity runs",
+     "scenarios",
+     "uncertainty"
+    ],
+    "practice": "Run a sensitivity study on two inputs",
+    "need_tags": [
+     "risk-modelling",
+     "process-simulation"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_aspen_plus_engineering_sim_8",
+    "slug": "aspen-plus-engineering-sim-8",
+    "title": "Signature skills in Aspen Plus",
+    "outcome": "You can: use the features that make Aspen Plus distinctive",
+    "topics": [
+     "components and property methods",
+     "blocks",
+     "sensitivity analysis",
+     "design specs"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "process-simulation"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_aspen_plus_engineering_sim_9",
+    "slug": "aspen-plus-engineering-sim-9",
+    "title": "Advanced Aspen Plus",
+    "outcome": "You can: use Aspen Plus's advanced capabilities with confidence",
+    "topics": [
+     "rigorous columns",
+     "reactions",
+     "optimisation"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "process-simulation"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_aspen_plus_engineering_sim_5",
+    "slug": "aspen-plus-engineering-sim-5",
+    "title": "Verify, document and automate",
+    "outcome": "You can: deliver defensible analysis",
+    "topics": [
+     "verification",
+     "calibration to data",
+     "reports",
+     "scripting/batch runs"
+    ],
+    "practice": "Produce a verified analysis report",
+    "need_tags": [
+     "technical-reporting",
+     "process-simulation"
+    ],
+    "estimated_hours": {
+     "value": 6.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_aspen_plus_engineering_sim_10",
+    "slug": "aspen-plus-engineering-sim-10",
+    "title": "Integrate Aspen Plus into your workflow",
+    "outcome": "You can: connect Aspen Plus with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Aspen Plus to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "process-simulation"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_aspen_plus_engineering_sim_11",
+    "slug": "aspen-plus-engineering-sim-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Aspen Plus well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Aspen Plus\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "process-simulation"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "engineering-sim",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

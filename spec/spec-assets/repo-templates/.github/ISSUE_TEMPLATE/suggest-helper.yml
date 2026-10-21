@@ -1,0 +1,17 @@
+name: I want a helper for my work
+description: Ask for a guided path (a helper) for a profession or goal
+labels: ["suggestion", "type:suggest_helper", "status:new"]
+body:
+  - type: input
+    id: work
+    attributes: { label: "Whose work or goal should the helper cover?", placeholder: "e.g. poultry farmers, nurses moving into health data, church media teams" }
+    validations: { required: true }
+  - type: textarea
+    id: stages
+    attributes: { label: "What are the main steps, in order?", description: "Rough is fine. A reviewer will turn it into stages." }
+  - type: textarea
+    id: tools
+    attributes: { label: "Which tools matter most at each step?" }
+  - type: input
+    id: where
+    attributes: { label: "Country or region (optional)" }

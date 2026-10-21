@@ -1,0 +1,17 @@
+name: My profession or role isn't listed
+description: Add a profession, specialism, life role or another name for one
+labels: ["suggestion", "type:suggest_identity", "status:new"]
+body:
+  - type: input
+    id: name
+    attributes: { label: "What do you call your work?", placeholder: "e.g. beat maker, reservoir surveillance engineer, keke rider" }
+    validations: { required: true }
+  - type: input
+    id: closest
+    attributes: { label: "Closest existing profession on the site (if any)", placeholder: "e.g. Music Producer" }
+  - type: textarea
+    id: tools
+    attributes: { label: "Which digital tools do people in this work use?" }
+  - type: input
+    id: where
+    attributes: { label: "Country or region where this name is used (optional)" }

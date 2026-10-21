@@ -1,0 +1,241 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_asana",
+ "slug": "asana",
+ "title": "Asana skill roadmap",
+ "tool_ids": [
+  "tool_asana"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_asana_collaboration_0",
+    "slug": "asana-collaboration-0",
+    "title": "Get started with Asana",
+    "outcome": "You can: set up Asana, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "project-management"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_asana_collaboration_1",
+    "slug": "asana-collaboration-1",
+    "title": "Join and communicate",
+    "outcome": "You can: communicate clearly in Asana",
+    "topics": [
+     "spaces/channels/boards",
+     "messages",
+     "mentions",
+     "files"
+    ],
+    "practice": "Post an update and share a file with your team",
+    "need_tags": [
+     "group-messaging",
+     "project-management"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_asana_collaboration_2",
+    "slug": "asana-collaboration-2",
+    "title": "Stay focused",
+    "outcome": "You can: manage notifications and find things",
+    "topics": [
+     "notification settings",
+     "search",
+     "pinning",
+     "status"
+    ],
+    "practice": "Set notifications so only what matters reaches you",
+    "need_tags": [
+     "personal-productivity",
+     "project-management"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_asana_collaboration_3",
+    "slug": "asana-collaboration-3",
+    "title": "Organise work",
+    "outcome": "You can: structure work for a team",
+    "topics": [
+     "projects/channels",
+     "templates",
+     "task assignment"
+    ],
+    "practice": "Set up a space for a real project",
+    "need_tags": [
+     "project-management"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_asana_collaboration_4",
+    "slug": "asana-collaboration-4",
+    "title": "Run meetings and workshops",
+    "outcome": "You can: use Asana before, during and after meetings",
+    "topics": [
+     "agendas",
+     "live collaboration",
+     "follow-ups"
+    ],
+    "practice": "Run one meeting entirely through Asana",
+    "need_tags": [
+     "meeting-minutes",
+     "workshop-facilitation",
+     "project-management"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_asana_collaboration_8",
+    "slug": "asana-collaboration-8",
+    "title": "Signature skills in Asana",
+    "outcome": "You can: use the features that make Asana distinctive",
+    "topics": [
+     "projects and tasks",
+     "boards, lists and timelines",
+     "assignees and due dates",
+     "comments"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "project-management"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_asana_collaboration_9",
+    "slug": "asana-collaboration-9",
+    "title": "Advanced Asana",
+    "outcome": "You can: use Asana's advanced capabilities with confidence",
+    "topics": [
+     "rules and automation",
+     "portfolios and goals",
+     "workload",
+     "forms"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "project-management"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_asana_collaboration_5",
+    "slug": "asana-collaboration-5",
+    "title": "Govern the workspace",
+    "outcome": "You can: keep the workspace secure and tidy",
+    "topics": [
+     "roles",
+     "guest access",
+     "retention",
+     "archiving"
+    ],
+    "practice": "Review who has access and archive stale spaces",
+    "need_tags": [
+     "records-management",
+     "online-safety",
+     "project-management"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_asana_collaboration_10",
+    "slug": "asana-collaboration-10",
+    "title": "Integrate Asana into your workflow",
+    "outcome": "You can: connect Asana with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Asana to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "project-management"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_asana_collaboration_11",
+    "slug": "asana-collaboration-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Asana well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Asana\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "project-management"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "collaboration",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

@@ -1,0 +1,242 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_appsheet",
+ "slug": "appsheet",
+ "title": "AppSheet skill roadmap",
+ "tool_ids": [
+  "tool_appsheet"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_appsheet_automation_0",
+    "slug": "appsheet-automation-0",
+    "title": "Get started with AppSheet",
+    "outcome": "You can: set up AppSheet, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "no-code-apps"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_appsheet_automation_1",
+    "slug": "appsheet-automation-1",
+    "title": "Describe the process",
+    "outcome": "You can: turn a repetitive task into a rule",
+    "topics": [
+     "trigger",
+     "action",
+     "inputs and outputs",
+     "frequency"
+    ],
+    "practice": "Write one \"when X, do Y\" rule from your work",
+    "need_tags": [
+     "automation-workflows",
+     "no-code-apps"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_appsheet_automation_2",
+    "slug": "appsheet-automation-2",
+    "title": "Build a first flow or app",
+    "outcome": "You can: build a simple working automation or app",
+    "topics": [
+     "connecting accounts",
+     "mapping fields",
+     "testing"
+    ],
+    "practice": "Build and test one simple flow or app",
+    "need_tags": [
+     "automation-workflows",
+     "no-code-apps"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_appsheet_automation_3",
+    "slug": "appsheet-automation-3",
+    "title": "Logic and data",
+    "outcome": "You can: add conditions, loops and data handling",
+    "topics": [
+     "filters",
+     "branches",
+     "formatting",
+     "lookups"
+    ],
+    "practice": "Add a condition and a lookup to your flow",
+    "need_tags": [
+     "automation-workflows",
+     "no-code-apps"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_appsheet_automation_4",
+    "slug": "appsheet-automation-4",
+    "title": "Reliability",
+    "outcome": "You can: keep automations running",
+    "topics": [
+     "error alerts",
+     "retries",
+     "logs",
+     "usage limits"
+    ],
+    "practice": "Add an error alert and review usage limits",
+    "need_tags": [
+     "automation-workflows",
+     "no-code-apps"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_appsheet_automation_8",
+    "slug": "appsheet-automation-8",
+    "title": "Signature skills in AppSheet",
+    "outcome": "You can: use the features that make AppSheet distinctive",
+    "topics": [
+     "apps from Google Sheets",
+     "views and forms",
+     "actions",
+     "offline use"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "no-code-apps"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_appsheet_automation_9",
+    "slug": "appsheet-automation-9",
+    "title": "Advanced AppSheet",
+    "outcome": "You can: use AppSheet's advanced capabilities with confidence",
+    "topics": [
+     "automation bots",
+     "security filters",
+     "expressions",
+     "deploying to a team"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "no-code-apps"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_appsheet_automation_5",
+    "slug": "appsheet-automation-5",
+    "title": "Govern automations",
+    "outcome": "You can: run automations safely for a team",
+    "topics": [
+     "permissions",
+     "documentation",
+     "data privacy",
+     "ownership"
+    ],
+    "practice": "Document and hand over an automation to a colleague",
+    "need_tags": [
+     "automation-workflows",
+     "process-mapping",
+     "no-code-apps"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_appsheet_automation_10",
+    "slug": "appsheet-automation-10",
+    "title": "Integrate AppSheet into your workflow",
+    "outcome": "You can: connect AppSheet with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect AppSheet to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "no-code-apps"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_appsheet_automation_11",
+    "slug": "appsheet-automation-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use AppSheet well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use AppSheet\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "no-code-apps"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "automation",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

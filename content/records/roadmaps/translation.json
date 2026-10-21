@@ -1,0 +1,154 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_translation",
+ "slug": "translation",
+ "title": "Translation tools (Google Translate, DeepL, Microsoft Translator)",
+ "tool_ids": [
+  "tool_google_translate",
+  "tool_deepl",
+  "tool_microsoft_translator"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_tr_text",
+    "slug": "tr-text",
+    "title": "Translate text and messages",
+    "outcome": "You can: translate everyday text and check it",
+    "topics": [
+     "typing and pasting",
+     "choosing languages",
+     "listening to pronunciation",
+     "saving phrases"
+    ],
+    "practice": "Translate a message and back-translate it to check meaning",
+    "need_tags": [
+     "translate-languages"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_tr_camera",
+    "slug": "tr-camera",
+    "title": "Translate signs and documents with your camera",
+    "outcome": "You can: read menus, signs and forms in other languages",
+    "topics": [
+     "camera translation",
+     "photo import",
+     "offline language packs"
+    ],
+    "practice": "Download an offline pack and translate a printed page",
+    "need_tags": [
+     "translate-languages",
+     "digital-basics"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_tr_voice",
+    "slug": "tr-voice",
+    "title": "Have a conversation across languages",
+    "outcome": "You can: talk with someone who speaks another language",
+    "topics": [
+     "conversation mode",
+     "speaking clearly",
+     "short sentences"
+    ],
+    "practice": "Practise a two-way conversation with a friend",
+    "need_tags": [
+     "translate-languages",
+     "customer-support"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_tr_docs",
+    "slug": "tr-docs",
+    "title": "Translate whole documents",
+    "outcome": "You can: translate files while keeping layout",
+    "topics": [
+     "document upload",
+     "formality settings",
+     "glossaries"
+    ],
+    "practice": "Translate a one-page leaflet and compare tools",
+    "need_tags": [
+     "translate-languages",
+     "patient-education",
+     "customer-support"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_tr_quality",
+    "slug": "tr-quality",
+    "title": "Judge translation quality",
+    "outcome": "You can: know when machine translation is good enough",
+    "topics": [
+     "back-translation",
+     "simple source text",
+     "high-risk content (medical, legal)",
+     "when to use a professional"
+    ],
+    "practice": "Rewrite a complex paragraph so it translates well",
+    "need_tags": [
+     "translate-languages",
+     "patient-education",
+     "contract-drafting"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_tr_workflow",
+    "slug": "tr-workflow",
+    "title": "Multilingual workflows",
+    "outcome": "You can: publish and support in several languages",
+    "topics": [
+     "glossaries/term bases",
+     "review by native speakers",
+     "translation memory concepts"
+    ],
+    "practice": "Set up a glossary of 20 terms for your work",
+    "need_tags": [
+     "translate-languages",
+     "customer-support",
+     "scripture-study"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false
+}

@@ -1,0 +1,751 @@
+{
+ "resolve": {
+  "nurse": {
+   "core": [
+    "shift-rota",
+    "drug-information",
+    "medical-calculators",
+    "memorise-knowledge"
+   ],
+   "sector": [
+    "clinical-reference",
+    "evidence-based-medicine",
+    "cpd-learning",
+    "patient-education",
+    "electronic-health-records",
+    "telemedicine"
+   ],
+   "universal": [
+    "translate-languages",
+    "write-clearly",
+    "use-ai-assistants",
+    "email-and-calendar",
+    "video-meetings",
+    "documents-basics",
+    "spreadsheets-basics",
+    "presentations",
+    "files-cloud-storage",
+    "online-safety",
+    "learn-online",
+    "personal-productivity",
+    "professional-profile",
+    "personal-finance",
+    "design-simple-graphics",
+    "find-information",
+    "fact-check",
+    "accessibility-tools",
+    "voice-typing-transcription",
+    "pdf-work",
+    "scan-documents",
+    "e-signatures",
+    "group-messaging",
+    "forms-surveys",
+    "job-search",
+    "cv-portfolio",
+    "social-media-presence",
+    "short-video",
+    "photo-editing",
+    "maps-navigation",
+    "online-payments",
+    "language-learning"
+   ]
+  },
+  "pastor": {
+   "core": [
+    "group-messaging",
+    "social-media-presence",
+    "video-meetings"
+   ],
+   "sector": [
+    "scripture-study",
+    "worship-presentation",
+    "service-livestream",
+    "congregation-management",
+    "online-giving",
+    "pastoral-care"
+   ],
+   "universal": [
+    "translate-languages",
+    "write-clearly",
+    "use-ai-assistants",
+    "email-and-calendar",
+    "documents-basics",
+    "spreadsheets-basics",
+    "presentations",
+    "files-cloud-storage",
+    "online-safety",
+    "learn-online",
+    "personal-productivity",
+    "professional-profile",
+    "personal-finance",
+    "design-simple-graphics",
+    "find-information",
+    "fact-check",
+    "accessibility-tools",
+    "voice-typing-transcription",
+    "pdf-work",
+    "scan-documents",
+    "e-signatures",
+    "forms-surveys",
+    "job-search",
+    "cv-portfolio",
+    "short-video",
+    "photo-editing",
+    "maps-navigation",
+    "online-payments",
+    "language-learning"
+   ]
+  },
+  "radiologist": {
+   "core": [
+    "medical-imaging-viewing",
+    "radiology-reporting",
+    "drug-information",
+    "medical-calculators",
+    "memorise-knowledge",
+    "clinical-audit-qi",
+    "health-research-data"
+   ],
+   "sector": [
+    "clinical-reference",
+    "evidence-based-medicine",
+    "cpd-learning",
+    "patient-education",
+    "electronic-health-records",
+    "telemedicine"
+   ],
+   "universal": [
+    "translate-languages",
+    "write-clearly",
+    "use-ai-assistants",
+    "email-and-calendar",
+    "video-meetings",
+    "documents-basics",
+    "spreadsheets-basics",
+    "presentations",
+    "files-cloud-storage",
+    "online-safety",
+    "learn-online",
+    "personal-productivity",
+    "professional-profile",
+    "personal-finance",
+    "design-simple-graphics",
+    "find-information",
+    "fact-check",
+    "accessibility-tools",
+    "voice-typing-transcription",
+    "pdf-work",
+    "scan-documents",
+    "e-signatures",
+    "group-messaging",
+    "forms-surveys",
+    "job-search",
+    "cv-portfolio",
+    "social-media-presence",
+    "short-video",
+    "photo-editing",
+    "maps-navigation",
+    "online-payments",
+    "language-learning"
+   ]
+  },
+  "data-analyst": {
+   "core": [
+    "sql-querying",
+    "dashboards-bi",
+    "spreadsheets-basics",
+    "data-cleaning",
+    "data-visualisation",
+    "kpi-tracking",
+    "statistical-analysis"
+   ],
+   "sector": [
+    "notebooks"
+   ],
+   "universal": [
+    "translate-languages",
+    "write-clearly",
+    "use-ai-assistants",
+    "email-and-calendar",
+    "video-meetings",
+    "documents-basics",
+    "presentations",
+    "files-cloud-storage",
+    "online-safety",
+    "learn-online",
+    "personal-productivity",
+    "professional-profile",
+    "personal-finance",
+    "design-simple-graphics",
+    "find-information",
+    "fact-check",
+    "accessibility-tools",
+    "voice-typing-transcription",
+    "pdf-work",
+    "scan-documents",
+    "e-signatures",
+    "group-messaging",
+    "forms-surveys",
+    "job-search",
+    "cv-portfolio",
+    "social-media-presence",
+    "short-video",
+    "photo-editing",
+    "maps-navigation",
+    "online-payments",
+    "language-learning"
+   ]
+  },
+  "musician": {
+   "core": [
+    "audio-production",
+    "music-notation",
+    "release-music",
+    "artist-profiles"
+   ],
+   "sector": [
+    "visual-portfolio",
+    "social-media-presence",
+    "creator-income",
+    "content-planning"
+   ],
+   "universal": [
+    "translate-languages",
+    "write-clearly",
+    "use-ai-assistants",
+    "email-and-calendar",
+    "video-meetings",
+    "documents-basics",
+    "spreadsheets-basics",
+    "presentations",
+    "files-cloud-storage",
+    "online-safety",
+    "learn-online",
+    "personal-productivity",
+    "professional-profile",
+    "personal-finance",
+    "design-simple-graphics",
+    "find-information",
+    "fact-check",
+    "accessibility-tools",
+    "voice-typing-transcription",
+    "pdf-work",
+    "scan-documents",
+    "e-signatures",
+    "group-messaging",
+    "forms-surveys",
+    "job-search",
+    "cv-portfolio",
+    "short-video",
+    "photo-editing",
+    "maps-navigation",
+    "online-payments",
+    "language-learning"
+   ]
+  },
+  "farmer": {
+   "core": [
+    "crop-monitoring",
+    "plant-health",
+    "livestock-management"
+   ],
+   "sector": [
+    "farm-records",
+    "weather-planning",
+    "agri-market-access"
+   ],
+   "universal": [
+    "translate-languages",
+    "write-clearly",
+    "use-ai-assistants",
+    "email-and-calendar",
+    "video-meetings",
+    "documents-basics",
+    "spreadsheets-basics",
+    "presentations",
+    "files-cloud-storage",
+    "online-safety",
+    "learn-online",
+    "personal-productivity",
+    "professional-profile",
+    "personal-finance",
+    "design-simple-graphics",
+    "find-information",
+    "fact-check",
+    "accessibility-tools",
+    "voice-typing-transcription",
+    "pdf-work",
+    "scan-documents",
+    "e-signatures",
+    "group-messaging",
+    "forms-surveys",
+    "job-search",
+    "cv-portfolio",
+    "social-media-presence",
+    "short-video",
+    "photo-editing",
+    "maps-navigation",
+    "online-payments",
+    "language-learning"
+   ]
+  },
+  "motorcycle-taxi-rider": {
+   "core": [
+    "driver-earnings",
+    "warehouse-inventory"
+   ],
+   "sector": [
+    "route-planning-fleet",
+    "shipment-tracking",
+    "maps-navigation"
+   ],
+   "universal": [
+    "translate-languages",
+    "write-clearly",
+    "use-ai-assistants",
+    "email-and-calendar",
+    "video-meetings",
+    "documents-basics",
+    "spreadsheets-basics",
+    "presentations",
+    "files-cloud-storage",
+    "online-safety",
+    "learn-online",
+    "personal-productivity",
+    "professional-profile",
+    "personal-finance",
+    "design-simple-graphics",
+    "find-information",
+    "fact-check",
+    "accessibility-tools",
+    "voice-typing-transcription",
+    "pdf-work",
+    "scan-documents",
+    "e-signatures",
+    "group-messaging",
+    "forms-surveys",
+    "job-search",
+    "cv-portfolio",
+    "social-media-presence",
+    "short-video",
+    "photo-editing",
+    "online-payments",
+    "language-learning"
+   ]
+  },
+  "student": {
+   "core": [
+    "study-skills",
+    "learn-online",
+    "academic-writing"
+   ],
+   "sector": [
+    "digital-basics",
+    "family-organisation"
+   ],
+   "universal": [
+    "translate-languages",
+    "write-clearly",
+    "use-ai-assistants",
+    "email-and-calendar",
+    "video-meetings",
+    "documents-basics",
+    "spreadsheets-basics",
+    "presentations",
+    "files-cloud-storage",
+    "online-safety",
+    "personal-productivity",
+    "professional-profile",
+    "personal-finance",
+    "design-simple-graphics",
+    "find-information",
+    "fact-check",
+    "accessibility-tools",
+    "voice-typing-transcription",
+    "pdf-work",
+    "scan-documents",
+    "e-signatures",
+    "group-messaging",
+    "forms-surveys",
+    "job-search",
+    "cv-portfolio",
+    "social-media-presence",
+    "short-video",
+    "photo-editing",
+    "maps-navigation",
+    "online-payments",
+    "language-learning"
+   ]
+  }
+ },
+ "lens": {
+  "pastor|canva": {
+   "need": "worship-presentation",
+   "lens": {
+    "flagship": true,
+    "title": "Canva for church and ministry media",
+    "path": {
+     "beginner": [
+      {
+       "title": "Readable scripture and lyric slides",
+       "relevance": "core",
+       "specific": true
+      },
+      {
+       "title": "Start from the right size and template",
+       "relevance": "core"
+      },
+      {
+       "title": "Make it readable",
+       "relevance": "core"
+      },
+      {
+       "title": "Work with photos",
+       "relevance": "also_useful"
+      }
+     ],
+     "intermediate": [
+      {
+       "title": "Sermon series packs",
+       "relevance": "core",
+       "specific": true
+      },
+      {
+       "title": "Brand kit and consistency",
+       "relevance": "core"
+      },
+      {
+       "title": "Documents, presentations and print",
+       "relevance": "core"
+      },
+      {
+       "title": "Short video and animation",
+       "relevance": "core"
+      }
+     ],
+     "expert": [
+      {
+       "title": "Bulk create and team workflows",
+       "relevance": "core"
+      },
+      {
+       "title": "Know when to move up",
+       "relevance": "also_useful"
+      }
+     ]
+    },
+    "tailored": true
+   },
+   "others": [
+    "social-media-presence",
+    "presentations",
+    "professional-profile",
+    "design-simple-graphics",
+    "cv-portfolio",
+    "short-video",
+    "photo-editing"
+   ]
+  },
+  "data-analyst|microsoft-excel": {
+   "need": "spreadsheets-basics",
+   "lens": {
+    "flagship": false,
+    "title": "Using Spreadsheets (Excel, Google Sheets, LibreOffice Calc) to track and calculate with spreadsheets",
+    "path": {
+     "beginner": [
+      {
+       "title": "Find your way around",
+       "relevance": "core"
+      },
+      {
+       "title": "Your first formulas",
+       "relevance": "core"
+      },
+      {
+       "title": "Tables, sorting and filtering",
+       "relevance": "core"
+      },
+      {
+       "title": "Simple charts",
+       "relevance": "core"
+      }
+     ],
+     "intermediate": [
+      {
+       "title": "Logic and lookups",
+       "relevance": "also_useful"
+      },
+      {
+       "title": "PivotTables",
+       "relevance": "also_useful"
+      },
+      {
+       "title": "Cleaning messy data",
+       "relevance": "also_useful"
+      },
+      {
+       "title": "Dates, times and text",
+       "relevance": "also_useful"
+      },
+      {
+       "title": "Conditional formatting and dashboards-lite",
+       "relevance": "also_useful"
+      },
+      {
+       "title": "Sharing, protection and collaboration",
+       "relevance": "also_useful"
+      }
+     ],
+     "expert": [
+      {
+       "title": "Dynamic arrays and LAMBDA",
+       "relevance": "also_useful"
+      },
+      {
+       "title": "Scenarios and what-if analysis",
+       "relevance": "also_useful"
+      },
+      {
+       "title": "Power Query and the data model",
+       "relevance": "also_useful"
+      },
+      {
+       "title": "Model design and auditing",
+       "relevance": "also_useful"
+      },
+      {
+       "title": "Automation with macros and scripts",
+       "relevance": "also_useful"
+      }
+     ]
+    },
+    "tailored": true
+   },
+   "others": [
+    "data-cleaning",
+    "data-visualisation",
+    "kpi-tracking",
+    "personal-finance"
+   ]
+  },
+  "nurse|canva": {
+   "need": "patient-education",
+   "lens": {
+    "flagship": true,
+    "title": "Canva for patient information",
+    "path": {
+     "beginner": [
+      {
+       "title": "Plain-language health writing",
+       "relevance": "core",
+       "specific": true
+      },
+      {
+       "title": "Make it readable",
+       "relevance": "core"
+      },
+      {
+       "title": "Start from the right size and template",
+       "relevance": "core"
+      },
+      {
+       "title": "Work with photos",
+       "relevance": "also_useful"
+      }
+     ],
+     "intermediate": [
+      {
+       "title": "Multilingual versions",
+       "relevance": "core",
+       "specific": true
+      },
+      {
+       "title": "Documents, presentations and print",
+       "relevance": "core"
+      },
+      {
+       "title": "Brand kit and consistency",
+       "relevance": "core"
+      },
+      {
+       "title": "Short video and animation",
+       "relevance": "also_useful"
+      }
+     ],
+     "expert": [
+      {
+       "title": "Bulk create and team workflows",
+       "relevance": "core"
+      },
+      {
+       "title": "Know when to move up",
+       "relevance": "also_useful"
+      }
+     ]
+    },
+    "tailored": true
+   },
+   "others": [
+    "presentations",
+    "professional-profile",
+    "design-simple-graphics",
+    "cv-portfolio",
+    "social-media-presence",
+    "short-video",
+    "photo-editing"
+   ]
+  },
+  "farmer|microsoft-excel": {
+   "need": "farm-records",
+   "lens": {
+    "flagship": true,
+    "title": "Spreadsheets for farm records and profit",
+    "path": {
+     "beginner": [
+      {
+       "title": "Phone-friendly record sheets",
+       "relevance": "core",
+       "specific": true
+      },
+      {
+       "title": "Find your way around",
+       "relevance": "core"
+      },
+      {
+       "title": "Tables, sorting and filtering",
+       "relevance": "core"
+      },
+      {
+       "title": "Your first formulas",
+       "relevance": "core"
+      },
+      {
+       "title": "Simple charts",
+       "relevance": "also_useful"
+      }
+     ],
+     "intermediate": [
+      {
+       "title": "Cost and profit per enterprise",
+       "relevance": "core",
+       "specific": true
+      },
+      {
+       "title": "Logic and lookups",
+       "relevance": "core"
+      },
+      {
+       "title": "PivotTables",
+       "relevance": "core"
+      },
+      {
+       "title": "Conditional formatting and dashboards-lite",
+       "relevance": "core"
+      },
+      {
+       "title": "Cleaning messy data",
+       "relevance": "also_useful"
+      },
+      {
+       "title": "Dates, times and text",
+       "relevance": "also_useful"
+      },
+      {
+       "title": "Sharing, protection and collaboration",
+       "relevance": "also_useful"
+      }
+     ],
+     "expert": [
+      {
+       "title": "Dynamic arrays and LAMBDA",
+       "relevance": "also_useful"
+      },
+      {
+       "title": "Scenarios and what-if analysis",
+       "relevance": "also_useful"
+      },
+      {
+       "title": "Power Query and the data model",
+       "relevance": "also_useful"
+      },
+      {
+       "title": "Model design and auditing",
+       "relevance": "also_useful"
+      },
+      {
+       "title": "Automation with macros and scripts",
+       "relevance": "also_useful"
+      }
+     ]
+    },
+    "tailored": true
+   },
+   "others": [
+    "spreadsheets-basics",
+    "personal-finance"
+   ]
+  },
+  "musician|canva": {
+   "need": "visual-portfolio",
+   "lens": {
+    "flagship": false,
+    "title": "Using Canva to showcase your work visually",
+    "path": {
+     "beginner": [
+      {
+       "title": "Work with photos",
+       "relevance": "core"
+      },
+      {
+       "title": "Start from the right size and template",
+       "relevance": "also_useful"
+      },
+      {
+       "title": "Make it readable",
+       "relevance": "also_useful"
+      }
+     ],
+     "intermediate": [
+      {
+       "title": "Brand kit and consistency",
+       "relevance": "also_useful"
+      },
+      {
+       "title": "Short video and animation",
+       "relevance": "also_useful"
+      },
+      {
+       "title": "Documents, presentations and print",
+       "relevance": "also_useful"
+      }
+     ],
+     "expert": [
+      {
+       "title": "Bulk create and team workflows",
+       "relevance": "also_useful"
+      },
+      {
+       "title": "Know when to move up",
+       "relevance": "also_useful"
+      }
+     ]
+    },
+    "tailored": true
+   },
+   "others": [
+    "social-media-presence",
+    "presentations",
+    "professional-profile",
+    "design-simple-graphics",
+    "cv-portfolio",
+    "short-video",
+    "photo-editing"
+   ]
+  },
+  "radiologist|python": {
+   "need": null,
+   "note": "Tool not part of this identity's toolkit; show full roadmap + better-fit tools.",
+   "others": []
+  }
+ }
+}

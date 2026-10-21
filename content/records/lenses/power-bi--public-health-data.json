@@ -1,0 +1,100 @@
+{
+ "schema_version": "2.1",
+ "id": "lens_power_bi__public_health_data",
+ "roadmap_id": "rm_power_bi",
+ "roadmap": "power-bi",
+ "need_id": "need_public_health_data",
+ "need": "public-health-data",
+ "title": "Power BI for public health and programmes",
+ "kind": "flagship",
+ "for_identities": [
+  "epidemiologist",
+  "public-health-officer",
+  "monitoring-and-evaluation-officer",
+  "health-data-manager",
+  "ngo-programme-manager"
+ ],
+ "why": "Programme and surveillance data only drive decisions when they are timely, visual and trusted.",
+ "what_is_different": "Public health dashboards combine facility data, survey data and population denominators; they need disaggregation (age, sex, location), maps, and careful handling of small numbers and data quality.",
+ "priority_modules": [
+  "pbi-clean",
+  "pbi-model",
+  "pbi-design",
+  "pbi-dax",
+  "pbi-govern"
+ ],
+ "extra_modules": [
+  {
+   "level": "intermediate",
+   "title": "Indicators with denominators",
+   "outcome": "You can: calculate rates and coverage correctly",
+   "topics": [
+    "population denominators",
+    "rates per 1,000",
+    "target lines",
+    "data-quality flags"
+   ],
+   "practice": "Build coverage indicators by district with targets"
+  }
+ ],
+ "starter_project": "Build a programme dashboard: indicator coverage by district on a map, trends against targets, and a data-quality page.",
+ "pitfalls": [
+  "Rates without correct denominators",
+  "Publishing small numbers that identify people",
+  "Ignoring reporting completeness"
+ ],
+ "pairs_with": [
+  "tool_dhis2",
+  "tool_kobotoolbox",
+  "tool_qgis",
+  "tool_microsoft_excel"
+ ],
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false,
+ "composed_path": {
+  "beginner": [
+   {
+    "module": "pbi-clean",
+    "relevance": "core",
+    "rank": 0
+   },
+   {
+    "module": "pbi-first",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ],
+  "intermediate": [
+   {
+    "extra": "Indicators with denominators",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "module": "pbi-model",
+    "relevance": "core",
+    "rank": 1
+   },
+   {
+    "module": "pbi-dax",
+    "relevance": "core",
+    "rank": 3
+   }
+  ],
+  "expert": [
+   {
+    "module": "pbi-design",
+    "relevance": "core",
+    "rank": 2
+   },
+   {
+    "module": "pbi-govern",
+    "relevance": "core",
+    "rank": 4
+   }
+  ]
+ }
+}

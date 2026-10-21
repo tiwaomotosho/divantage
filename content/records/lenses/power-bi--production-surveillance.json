@@ -1,0 +1,101 @@
+{
+ "schema_version": "2.1",
+ "id": "lens_power_bi__production_surveillance",
+ "roadmap_id": "rm_power_bi",
+ "roadmap": "power-bi",
+ "need_id": "need_production_surveillance",
+ "need": "production-surveillance",
+ "title": "Power BI for production and operations surveillance",
+ "kind": "flagship",
+ "for_identities": [
+  "production-engineer",
+  "petroleum-engineer",
+  "reservoir-engineer",
+  "energy-analyst",
+  "operations-analyst",
+  "offshore-installation-manager",
+  "production-manager"
+ ],
+ "why": "Daily production data hides early warnings — declines, deferments, downtime. Dashboards make them visible to the whole team.",
+ "what_is_different": "Operational dashboards need daily refresh from historians or reports, allocation logic, deferment categories and exception-based views that point engineers to the wells or units that need attention.",
+ "priority_modules": [
+  "pbi-clean",
+  "pbi-model",
+  "pbi-dax",
+  "pbi-design",
+  "pbi-govern"
+ ],
+ "extra_modules": [
+  {
+   "level": "intermediate",
+   "title": "Exception-based dashboards",
+   "outcome": "You can: highlight the few items that need action",
+   "topics": [
+    "thresholds",
+    "deviation from forecast",
+    "top-N losses",
+    "drill-through to well/unit"
+   ],
+   "practice": "Build a page listing wells with the largest deviation from forecast"
+  }
+ ],
+ "starter_project": "Build a daily production dashboard: actual vs forecast, deferment by cause, top losers with drill-through, refreshed automatically.",
+ "pitfalls": [
+  "Dashboards nobody acts on",
+  "Allocation errors hidden by totals",
+  "Manual refresh that stops when one person is away"
+ ],
+ "pairs_with": [
+  "tool_microsoft_excel",
+  "tool_python",
+  "tool_spotfire"
+ ],
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false,
+ "composed_path": {
+  "beginner": [
+   {
+    "module": "pbi-clean",
+    "relevance": "core",
+    "rank": 0
+   },
+   {
+    "module": "pbi-first",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ],
+  "intermediate": [
+   {
+    "extra": "Exception-based dashboards",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "module": "pbi-model",
+    "relevance": "core",
+    "rank": 1
+   },
+   {
+    "module": "pbi-dax",
+    "relevance": "core",
+    "rank": 2
+   }
+  ],
+  "expert": [
+   {
+    "module": "pbi-design",
+    "relevance": "core",
+    "rank": 3
+   },
+   {
+    "module": "pbi-govern",
+    "relevance": "core",
+    "rank": 4
+   }
+  ]
+ }
+}

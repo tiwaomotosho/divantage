@@ -1,0 +1,242 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_homestyler",
+ "slug": "homestyler",
+ "title": "Homestyler skill roadmap",
+ "tool_ids": [
+  "tool_homestyler"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_homestyler_three_d_0",
+    "slug": "homestyler-three-d-0",
+    "title": "Get started with Homestyler",
+    "outcome": "You can: set up Homestyler, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "interior-design"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_homestyler_three_d_1",
+    "slug": "homestyler-three-d-1",
+    "title": "Navigate 3D space",
+    "outcome": "You can: move around and select confidently",
+    "topics": [
+     "views",
+     "navigation",
+     "selection",
+     "units"
+    ],
+    "practice": "Navigate and measure a sample scene",
+    "need_tags": [
+     "3d-modelling",
+     "interior-design"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_homestyler_three_d_2",
+    "slug": "homestyler-three-d-2",
+    "title": "Model simple objects",
+    "outcome": "You can: build simple 3D forms",
+    "topics": [
+     "primitives",
+     "extrude",
+     "edit modes",
+     "precision"
+    ],
+    "practice": "Model a chair or a room",
+    "need_tags": [
+     "3d-modelling",
+     "interior-design"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_homestyler_three_d_3",
+    "slug": "homestyler-three-d-3",
+    "title": "Materials and lighting",
+    "outcome": "You can: make models look real",
+    "topics": [
+     "materials",
+     "textures",
+     "lights",
+     "cameras"
+    ],
+    "practice": "Light and texture your model",
+    "need_tags": [
+     "3d-modelling",
+     "architectural-visualisation",
+     "interior-design"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_homestyler_three_d_4",
+    "slug": "homestyler-three-d-4",
+    "title": "Render and present",
+    "outcome": "You can: produce images or walkthroughs",
+    "topics": [
+     "render settings",
+     "composition",
+     "exporting"
+    ],
+    "practice": "Render three views for a client",
+    "need_tags": [
+     "architectural-visualisation",
+     "interior-design"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_homestyler_three_d_8",
+    "slug": "homestyler-three-d-8",
+    "title": "Signature skills in Homestyler",
+    "outcome": "You can: use the features that make Homestyler distinctive",
+    "topics": [
+     "floor plans",
+     "furnishing",
+     "materials",
+     "renders"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "interior-design"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_homestyler_three_d_9",
+    "slug": "homestyler-three-d-9",
+    "title": "Advanced Homestyler",
+    "outcome": "You can: use Homestyler's advanced capabilities with confidence",
+    "topics": [
+     "panoramas",
+     "walkthroughs",
+     "sharing with clients"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "interior-design"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_homestyler_three_d_5",
+    "slug": "homestyler-three-d-5",
+    "title": "Animate and optimise",
+    "outcome": "You can: animate and optimise scenes",
+    "topics": [
+     "keyframes",
+     "walkthroughs",
+     "performance",
+     "file exchange"
+    ],
+    "practice": "Produce a 20-second walkthrough",
+    "need_tags": [
+     "3d-modelling",
+     "motion-graphics",
+     "interior-design"
+    ],
+    "estimated_hours": {
+     "value": 5.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_homestyler_three_d_10",
+    "slug": "homestyler-three-d-10",
+    "title": "Integrate Homestyler into your workflow",
+    "outcome": "You can: connect Homestyler with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Homestyler to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "interior-design"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_homestyler_three_d_11",
+    "slug": "homestyler-three-d-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Homestyler well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Homestyler\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "interior-design"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "three-d",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

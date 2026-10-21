@@ -1,0 +1,116 @@
+{
+  "schema_version": "2.0",
+  "is_illustrative": false,
+  "redirect_from": [],
+  "disclosure": {
+    "commercial_relationship": "none"
+  },
+  "id": "task_build_website",
+  "slug": "build-a-simple-website",
+  "title": "How do I build a simple website?",
+  "short_title": "Build a website",
+  "family_id": "build",
+  "problem_statement": "You want a website for yourself, a project or a small business and need to know the realistic options and steps.",
+  "expected_outcome": "A live website with a home page, an about page and a way to contact you.",
+  "difficulty": "intermediate",
+  "steps": [
+    {
+      "n": 1,
+      "title": "Decide what the site must do",
+      "instructions": "List the 3–5 pages you need and what visitors should be able to do (read, contact you, buy).",
+      "expected_result": "A short page list and goal."
+    },
+    {
+      "n": 2,
+      "title": "Choose your approach",
+      "instructions": "Self-hosted software like WordPress gives you control and portability but needs hosting and upkeep. A hosted website builder is quicker but less flexible.",
+      "tool_ids": [
+        "tool_wordpress"
+      ],
+      "expected_result": "An approach chosen with its ongoing costs understood."
+    },
+    {
+      "n": 3,
+      "title": "Get hosting and a domain",
+      "instructions": "For WordPress, choose web hosting and a domain name, then install WordPress (many hosts offer one-click installation).",
+      "tool_ids": [
+        "tool_wordpress"
+      ],
+      "expected_result": "WordPress installed and reachable at your domain."
+    },
+    {
+      "n": 4,
+      "title": "Build your pages",
+      "instructions": "Pick a simple theme, create your pages and add a contact method.",
+      "expected_result": "All planned pages published."
+    },
+    {
+      "n": 5,
+      "title": "Check and secure",
+      "instructions": "View the site on a phone and a computer, turn on automatic updates and set up backups.",
+      "expected_result": "A site that works on mobile and is kept up to date."
+    }
+  ],
+  "recommended_tool_ids": [
+    "tool_wordpress"
+  ],
+  "quality_checks": [
+    "Every page loads on a phone.",
+    "Contact details or form work.",
+    "Updates and backups are switched on."
+  ],
+  "category_ids": [
+    "websites"
+  ],
+  "sources": [],
+  "editorial": {
+    "status": "published",
+    "author": "V2 research pass (AI-assisted, Claude)",
+    "reviewer": "Product owner — blanket MVP approval (D-044)",
+    "created_at": "2026-10-21",
+    "updated_at": "2026-10-21",
+    "published_at": "2026-10-21",
+    "last_verified_at": "2026-10-21",
+    "review_interval_days": 365,
+    "next_review_at": "2027-10-21",
+    "confidence": "medium",
+    "solo_approval": true,
+    "change_summary": "Researched from official sources 2026-10-21; published under owner's blanket MVP approval (D-044). Domain-expert review pending.",
+    "public_corrections": [],
+    "internal_notes": ""
+  },
+  "estimated_time": {
+    "label": "About a day for a first simple site",
+    "minutes_min": 240,
+    "minutes_max": 600,
+    "is_estimate": true
+  },
+  "budget_note": "WordPress software is free; hosting and a domain usually cost money.",
+  "alternative_methods": [
+    "Use a hosted website builder if you need a site quickly and don't want to maintain software."
+  ],
+  "common_mistakes": [
+    "Installing many plugins you don't need",
+    "Skipping backups",
+    "Not checking the site on a phone"
+  ],
+  "resource_ids": [
+    "res_learn_wordpress",
+    "res_wordpress_documentation"
+  ],
+  "audience_ids": [
+    "business-owner",
+    "creator",
+    "freelancer",
+    "nonprofit"
+  ],
+  "search_aliases": [
+    "build a website",
+    "make a website",
+    "create a website",
+    "website for my business",
+    "blog",
+    "site builder",
+    "web page"
+  ]
+}

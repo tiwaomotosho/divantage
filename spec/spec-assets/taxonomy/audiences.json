@@ -1,0 +1,178 @@
+{
+  "vocabulary": "audience",
+  "version": "2.0.0",
+  "rule": "Audience is a discovery lens only. It never filters out content and is never required. Selecting an audience reorders curated starting points; it does not change search results.",
+  "values": [
+    {
+      "id": "aud_student",
+      "slug": "student",
+      "label": "Student",
+      "aliases": [
+        "learner",
+        "pupil",
+        "undergraduate"
+      ],
+      "home_card": true,
+      "editor_selectable": true,
+      "visitor_visible": true
+    },
+    {
+      "id": "aud_professional",
+      "slug": "professional",
+      "label": "Professional",
+      "aliases": [
+        "employee",
+        "worker",
+        "office worker"
+      ],
+      "home_card": true,
+      "editor_selectable": true,
+      "visitor_visible": true
+    },
+    {
+      "id": "aud_business_owner",
+      "slug": "business-owner",
+      "label": "Business owner",
+      "aliases": [
+        "entrepreneur",
+        "sme",
+        "small business",
+        "founder"
+      ],
+      "home_card": true,
+      "editor_selectable": true,
+      "visitor_visible": true
+    },
+    {
+      "id": "aud_creator",
+      "slug": "creator",
+      "label": "Creator",
+      "aliases": [
+        "content creator",
+        "influencer",
+        "artist"
+      ],
+      "home_card": true,
+      "editor_selectable": true,
+      "visitor_visible": true
+    },
+    {
+      "id": "aud_job_seeker",
+      "slug": "job-seeker",
+      "label": "Job seeker",
+      "aliases": [
+        "career changer",
+        "graduate",
+        "unemployed"
+      ],
+      "home_card": true,
+      "editor_selectable": true,
+      "visitor_visible": true
+    },
+    {
+      "id": "aud_exploring",
+      "slug": "exploring",
+      "label": "Just exploring",
+      "aliases": [
+        "beginner",
+        "curious",
+        "everyday user"
+      ],
+      "home_card": true,
+      "editor_selectable": true,
+      "visitor_visible": true
+    },
+    {
+      "id": "aud_freelancer",
+      "slug": "freelancer",
+      "label": "Freelancer",
+      "aliases": [
+        "independent",
+        "contractor",
+        "consultant"
+      ],
+      "home_card": false,
+      "editor_selectable": true,
+      "visitor_visible": true
+    },
+    {
+      "id": "aud_educator",
+      "slug": "educator",
+      "label": "Teacher or trainer",
+      "aliases": [
+        "teacher",
+        "trainer",
+        "lecturer",
+        "facilitator"
+      ],
+      "home_card": false,
+      "editor_selectable": true,
+      "visitor_visible": true
+    },
+    {
+      "id": "aud_researcher",
+      "slug": "researcher",
+      "label": "Researcher",
+      "aliases": [
+        "academic",
+        "scientist",
+        "phd"
+      ],
+      "home_card": false,
+      "editor_selectable": true,
+      "visitor_visible": true
+    },
+    {
+      "id": "aud_nonprofit",
+      "slug": "nonprofit",
+      "label": "Nonprofit or community organisation",
+      "aliases": [
+        "ngo",
+        "charity",
+        "community group"
+      ],
+      "home_card": false,
+      "editor_selectable": true,
+      "visitor_visible": true
+    },
+    {
+      "id": "aud_developer",
+      "slug": "developer",
+      "label": "Developer",
+      "aliases": [
+        "programmer",
+        "engineer",
+        "technical"
+      ],
+      "home_card": false,
+      "editor_selectable": true,
+      "visitor_visible": true
+    },
+    {
+      "id": "aud_agriculture",
+      "slug": "agriculture",
+      "label": "Farmer or agribusiness",
+      "aliases": [
+        "farmer",
+        "agriculture",
+        "agribusiness"
+      ],
+      "home_card": false,
+      "editor_selectable": true,
+      "visitor_visible": true
+    },
+    {
+      "id": "aud_retail_services",
+      "slug": "retail-services",
+      "label": "Retailer or service provider",
+      "aliases": [
+        "shop owner",
+        "trader",
+        "service business"
+      ],
+      "home_card": false,
+      "editor_selectable": true,
+      "visitor_visible": true
+    }
+  ]
+}

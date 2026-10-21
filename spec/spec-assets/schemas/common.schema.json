@@ -1,0 +1,549 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://digitaladvantage.example/schemas/v2/common.schema.json",
+  "title": "Common definitions",
+  "$defs": {
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "minLength": 2,
+      "maxLength": 80
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "https_url": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https://",
+      "maxLength": 2048
+    },
+    "category_slug": {
+      "enum": [
+        "ai-assistants",
+        "design",
+        "video",
+        "audio",
+        "writing",
+        "research",
+        "productivity",
+        "data",
+        "development",
+        "websites",
+        "marketing",
+        "business-operations",
+        "education",
+        "career",
+        "collaboration",
+        "automation",
+        "security-privacy-accessibility",
+        "everyday",
+        "industry",
+        "emerging"
+      ]
+    },
+    "audience_slug": {
+      "enum": [
+        "student",
+        "professional",
+        "business-owner",
+        "creator",
+        "job-seeker",
+        "exploring",
+        "freelancer",
+        "educator",
+        "researcher",
+        "nonprofit",
+        "developer",
+        "agriculture",
+        "retail-services"
+      ]
+    },
+    "task_family_slug": {
+      "enum": [
+        "create",
+        "learn",
+        "research",
+        "write-communicate",
+        "analyze",
+        "automate",
+        "organize",
+        "build",
+        "grow-business",
+        "career-work",
+        "teach-support",
+        "compare-options"
+      ]
+    },
+    "skill_level": {
+      "enum": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ]
+    },
+    "pricing_model": {
+      "enum": [
+        "free",
+        "freemium",
+        "free_trial",
+        "paid_subscription",
+        "paid_once",
+        "open_source",
+        "usage_based",
+        "enterprise_quote",
+        "mixed",
+        "unknown"
+      ]
+    },
+    "resource_cost_status": {
+      "enum": [
+        "free",
+        "freemium",
+        "paid",
+        "subscription",
+        "institution_access",
+        "unknown"
+      ]
+    },
+    "platform": {
+      "enum": [
+        "web",
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios",
+        "chromeos",
+        "browser_extension",
+        "api",
+        "bsd"
+      ]
+    },
+    "deployment": {
+      "enum": [
+        "hosted",
+        "self_hosted",
+        "desktop",
+        "mobile",
+        "hybrid"
+      ]
+    },
+    "ai_involvement": {
+      "enum": [
+        "core_ai",
+        "optional_ai",
+        "no_ai",
+        "unknown"
+      ]
+    },
+    "availability_status": {
+      "enum": [
+        "active",
+        "beta",
+        "limited",
+        "temporarily_unavailable",
+        "discontinued",
+        "unknown"
+      ]
+    },
+    "editorial_status": {
+      "enum": [
+        "draft",
+        "in_review",
+        "published",
+        "needs_review",
+        "archived"
+      ]
+    },
+    "resource_type": {
+      "enum": [
+        "official_docs",
+        "official_tutorial",
+        "video",
+        "course",
+        "article",
+        "template",
+        "community_guide",
+        "reference"
+      ]
+    },
+    "source_type": {
+      "enum": [
+        "official_pricing",
+        "official_site",
+        "official_docs",
+        "official_changelog",
+        "official_status",
+        "official_repository",
+        "official_legal",
+        "independent",
+        "community"
+      ]
+    },
+    "claim_kind": {
+      "enum": [
+        "identity",
+        "capabilities",
+        "platforms",
+        "system_requirements",
+        "pricing",
+        "free_tier",
+        "trial",
+        "licence",
+        "availability",
+        "privacy",
+        "accessibility",
+        "context",
+        "tips"
+      ]
+    },
+    "verification_status": {
+      "enum": [
+        "verified",
+        "partially_verified",
+        "unverified"
+      ]
+    },
+    "yes_no_unknown": {
+      "enum": [
+        "yes",
+        "no",
+        "unknown"
+      ]
+    },
+    "source_id": {
+      "type": "string",
+      "pattern": "^src_[a-z0-9_]+$",
+      "maxLength": 64
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "type",
+        "url",
+        "title",
+        "checked_at",
+        "supports"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/source_id"
+        },
+        "type": {
+          "$ref": "#/$defs/source_type"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://",
+          "maxLength": 2048
+        },
+        "title": {
+          "type": "string",
+          "minLength": 2,
+          "maxLength": 200
+        },
+        "publisher": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 120
+        },
+        "checked_at": {
+          "type": "string",
+          "format": "date",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "supports": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/claim_kind"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "quote": {
+          "type": "string",
+          "maxLength": 500,
+          "description": "Short verbatim excerpt supporting the claim, for editors. Public pages do not display it.",
+          "x-visibility": "private"
+        },
+        "notes": {
+          "type": "string",
+          "maxLength": 1000,
+          "x-visibility": "private"
+        }
+      }
+    },
+    "sourced_text": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "text"
+      ],
+      "properties": {
+        "text": {
+          "type": "string",
+          "minLength": 3,
+          "maxLength": 300
+        },
+        "kind": {
+          "enum": [
+            "fact",
+            "editorial"
+          ],
+          "default": "fact"
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/source_id"
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        }
+      },
+      "description": "A 'fact' must cite >=1 source (enforced by integrity check). An 'editorial' item is the publication's judgement and is labelled as such on comparison pages."
+    },
+    "estimate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "label",
+        "is_estimate"
+      ],
+      "properties": {
+        "label": {
+          "type": "string",
+          "minLength": 2,
+          "maxLength": 60
+        },
+        "minutes_min": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "minutes_max": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "is_estimate": {
+          "const": true
+        }
+      }
+    },
+    "public_correction_note": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "date",
+        "text"
+      ],
+      "properties": {
+        "date": {
+          "type": "string",
+          "format": "date",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "text": {
+          "type": "string",
+          "minLength": 5,
+          "maxLength": 400
+        }
+      }
+    },
+    "editorial": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "author",
+        "created_at",
+        "updated_at",
+        "review_interval_days",
+        "next_review_at",
+        "confidence"
+      ],
+      "properties": {
+        "status": {
+          "$ref": "#/$defs/editorial_status"
+        },
+        "author": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 80
+        },
+        "reviewer": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 80
+        },
+        "created_at": {
+          "type": "string",
+          "format": "date",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "updated_at": {
+          "type": "string",
+          "format": "date",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "published_at": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "last_verified_at": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "review_interval_days": {
+          "type": "integer",
+          "minimum": 7,
+          "maximum": 730
+        },
+        "next_review_at": {
+          "type": "string",
+          "format": "date",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "confidence": {
+          "enum": [
+            "high",
+            "medium",
+            "low"
+          ],
+          "description": "Quality of evidence, not product quality."
+        },
+        "solo_approval": {
+          "type": "boolean",
+          "default": false
+        },
+        "change_summary": {
+          "type": "string",
+          "maxLength": 300
+        },
+        "public_corrections": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/public_correction_note"
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        },
+        "internal_notes": {
+          "type": "string",
+          "maxLength": 4000,
+          "x-visibility": "private"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "enum": [
+                  "published",
+                  "needs_review",
+                  "archived"
+                ]
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "reviewer",
+              "published_at",
+              "last_verified_at"
+            ],
+            "properties": {
+              "reviewer": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        }
+      ]
+    },
+    "disclosure": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "commercial_relationship"
+      ],
+      "properties": {
+        "commercial_relationship": {
+          "const": "none",
+          "description": "D-001 non-commercial: must be 'none'. Changing this requires a decision-register update and a schema version bump."
+        }
+      }
+    },
+    "record_base": {
+      "type": "object",
+      "required": [
+        "schema_version",
+        "id",
+        "slug",
+        "sources",
+        "editorial",
+        "disclosure",
+        "is_illustrative"
+      ],
+      "properties": {
+        "schema_version": {
+          "const": "2.0"
+        },
+        "is_illustrative": {
+          "type": "boolean",
+          "description": "true = demonstration data. Must be false for anything deployed to production (CI-enforced)."
+        },
+        "redirect_from": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+            "minLength": 2,
+            "maxLength": 80
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/source"
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        },
+        "editorial": {
+          "$ref": "#/$defs/editorial"
+        },
+        "disclosure": {
+          "$ref": "#/$defs/disclosure"
+        }
+      }
+    }
+  }
+}

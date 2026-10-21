@@ -1,0 +1,240 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_when_i_work",
+ "slug": "when-i-work",
+ "title": "When I Work skill roadmap",
+ "tool_ids": [
+  "tool_when_i_work"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_when_i_work_hr_people_0",
+    "slug": "when-i-work-hr-people-0",
+    "title": "Get started with When I Work",
+    "outcome": "You can: set up When I Work, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "shift-rota"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_when_i_work_hr_people_1",
+    "slug": "when-i-work-hr-people-1",
+    "title": "Set up your people data",
+    "outcome": "You can: store employee records correctly",
+    "topics": [
+     "profiles",
+     "documents",
+     "roles",
+     "privacy"
+    ],
+    "practice": "Set up three employee profiles",
+    "need_tags": [
+     "people-management",
+     "shift-rota"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_when_i_work_hr_people_2",
+    "slug": "when-i-work-hr-people-2",
+    "title": "Time, leave and rotas",
+    "outcome": "You can: manage availability and time off",
+    "topics": [
+     "leave policies",
+     "shifts",
+     "approvals"
+    ],
+    "practice": "Build next week's rota and approve a leave request",
+    "need_tags": [
+     "shift-rota",
+     "people-management"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_when_i_work_hr_people_3",
+    "slug": "when-i-work-hr-people-3",
+    "title": "Onboarding and recruitment",
+    "outcome": "You can: hire and onboard consistently",
+    "topics": [
+     "job posts",
+     "pipelines",
+     "onboarding checklists"
+    ],
+    "practice": "Create an onboarding checklist for a new hire",
+    "need_tags": [
+     "recruitment",
+     "shift-rota"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_when_i_work_hr_people_4",
+    "slug": "when-i-work-hr-people-4",
+    "title": "Payroll and compliance basics",
+    "outcome": "You can: pay people accurately",
+    "topics": [
+     "pay schedules",
+     "deductions",
+     "payslips",
+     "local rules"
+    ],
+    "practice": "Run a test payroll",
+    "need_tags": [
+     "payroll",
+     "shift-rota"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_when_i_work_hr_people_8",
+    "slug": "when-i-work-hr-people-8",
+    "title": "Signature skills in When I Work",
+    "outcome": "You can: use the features that make When I Work distinctive",
+    "topics": [
+     "scheduling",
+     "shift swaps",
+     "time clock",
+     "messaging"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "shift-rota"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_when_i_work_hr_people_9",
+    "slug": "when-i-work-hr-people-9",
+    "title": "Advanced When I Work",
+    "outcome": "You can: use When I Work's advanced capabilities with confidence",
+    "topics": [
+     "labour forecasting",
+     "reports",
+     "payroll exports"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "shift-rota"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_when_i_work_hr_people_5",
+    "slug": "when-i-work-hr-people-5",
+    "title": "People analytics",
+    "outcome": "You can: use HR data for decisions",
+    "topics": [
+     "turnover",
+     "absence",
+     "headcount reports",
+     "confidentiality"
+    ],
+    "practice": "Produce a quarterly people report",
+    "need_tags": [
+     "kpi-tracking",
+     "people-management",
+     "shift-rota"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_when_i_work_hr_people_10",
+    "slug": "when-i-work-hr-people-10",
+    "title": "Integrate When I Work into your workflow",
+    "outcome": "You can: connect When I Work with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect When I Work to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "shift-rota"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_when_i_work_hr_people_11",
+    "slug": "when-i-work-hr-people-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use When I Work well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use When I Work\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "shift-rota"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "hr-people",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

@@ -1,0 +1,87 @@
+{
+ "schema_version": "2.1",
+ "id": "lens_playwright__test_automation",
+ "roadmap_id": "rm_playwright",
+ "roadmap": "playwright",
+ "need_id": "need_test_automation",
+ "need": "test-automation",
+ "title": "Playwright for QA testers",
+ "kind": "flagship",
+ "for_identities": [
+  "qa-tester",
+  "qa-automation-engineer",
+  "accessibility-tester",
+  "qa-lead",
+  "mobile-qa-tester"
+ ],
+ "why": "Automated checks catch regressions on every change and free testers for exploratory work.",
+ "what_is_different": "Testers moving from manual to automation must decide what to automate, design stable locators, manage test data, and report failures clearly.",
+ "priority_modules": [
+  "pw-first",
+  "pw-structure",
+  "pw-ci",
+  "pw-advanced"
+ ],
+ "extra_modules": [
+  {
+   "level": "beginner",
+   "title": "From manual cases to automated checks",
+   "outcome": "You can: choose what to automate first",
+   "topics": [
+    "risk-based selection",
+    "stable flows",
+    "turning a manual case into a script"
+   ],
+   "practice": "Convert three manual regression cases to automated tests"
+  }
+ ],
+ "starter_project": "Automate the top 10 regression checks of a sample app, run them in CI, and add an accessibility check.",
+ "pitfalls": [
+  "Automating unstable features first",
+  "Brittle CSS-based locators",
+  "Ignoring flaky tests"
+ ],
+ "pairs_with": [
+  "tool_jira",
+  "tool_postman",
+  "tool_github_actions"
+ ],
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false,
+ "composed_path": {
+  "beginner": [
+   {
+    "extra": "From manual cases to automated checks",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "module": "pw-first",
+    "relevance": "core",
+    "rank": 0
+   }
+  ],
+  "intermediate": [
+   {
+    "module": "pw-structure",
+    "relevance": "core",
+    "rank": 1
+   },
+   {
+    "module": "pw-ci",
+    "relevance": "core",
+    "rank": 2
+   }
+  ],
+  "expert": [
+   {
+    "module": "pw-advanced",
+    "relevance": "core",
+    "rank": 3
+   }
+  ]
+ }
+}

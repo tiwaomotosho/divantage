@@ -1,0 +1,11 @@
+[
+  {"name":"suggestion","color":"0e8a16","description":"From the in-app Suggest an edit form or an issue form"},
+  {"name":"correction","color":"d93f0b","description":"Factual correction"},
+  {"name":"status:new","color":"ededed"},{"name":"status:triaged","color":"c5def5"},
+  {"name":"accepted","color":"0e8a16"},{"name":"accepted-with-edits","color":"0e8a16"},
+  {"name":"needs-source","color":"fbca04"},{"name":"duplicate","color":"cfd3d7"},{"name":"declined","color":"b60205"},
+  {"name":"conflict-of-interest","color":"5319e7","description":"Contributor works with the tool's company"},
+  {"name":"credit-consented","color":"1d76db"},
+  {"name":"user-visible","color":"0052cc","description":"Goes into What's new"},
+  {"name":"content","color":"bfdadc"},{"name":"code","color":"bfd4f2"}
+]

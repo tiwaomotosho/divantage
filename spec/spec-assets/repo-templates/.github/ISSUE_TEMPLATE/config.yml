@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Suggest an edit on the site (no GitHub account needed)
+    url: https://{site}/
+    about: Every page has a "Suggest an edit" button. That's the easiest way.

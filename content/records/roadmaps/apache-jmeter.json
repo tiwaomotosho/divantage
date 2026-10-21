@@ -1,0 +1,242 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_apache_jmeter",
+ "slug": "apache-jmeter",
+ "title": "Apache JMeter skill roadmap",
+ "tool_ids": [
+  "tool_apache_jmeter"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_apache_jmeter_dev_tool_0",
+    "slug": "apache-jmeter-dev-tool-0",
+    "title": "Get started with Apache JMeter",
+    "outcome": "You can: set up Apache JMeter, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "performance-testing"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_apache_jmeter_dev_tool_1",
+    "slug": "apache-jmeter-dev-tool-1",
+    "title": "Install and run",
+    "outcome": "You can: set up Apache JMeter and run a first project",
+    "topics": [
+     "installation",
+     "project structure",
+     "documentation",
+     "hello world"
+    ],
+    "practice": "Run the official quick start",
+    "need_tags": [
+     "write-code",
+     "performance-testing"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_apache_jmeter_dev_tool_2",
+    "slug": "apache-jmeter-dev-tool-2",
+    "title": "Core workflow",
+    "outcome": "You can: do the everyday task Apache JMeter is for",
+    "topics": [
+     "core commands/APIs",
+     "configuration",
+     "conventions"
+    ],
+    "practice": "Build a small feature or config with Apache JMeter",
+    "need_tags": [
+     "write-code",
+     "performance-testing"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_apache_jmeter_dev_tool_3",
+    "slug": "apache-jmeter-dev-tool-3",
+    "title": "Debug and test",
+    "outcome": "You can: find and prevent problems",
+    "topics": [
+     "logs",
+     "debugging",
+     "tests",
+     "common errors"
+    ],
+    "practice": "Fix a deliberately broken example",
+    "need_tags": [
+     "write-code",
+     "test-automation",
+     "performance-testing"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_apache_jmeter_dev_tool_4",
+    "slug": "apache-jmeter-dev-tool-4",
+    "title": "Work in a team",
+    "outcome": "You can: use Apache JMeter in shared projects",
+    "topics": [
+     "version control",
+     "code review",
+     "environments",
+     "secrets"
+    ],
+    "practice": "Add Apache JMeter to a team repository with docs",
+    "need_tags": [
+     "version-control",
+     "performance-testing"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_apache_jmeter_dev_tool_8",
+    "slug": "apache-jmeter-dev-tool-8",
+    "title": "Signature skills in Apache JMeter",
+    "outcome": "You can: use the features that make Apache JMeter distinctive",
+    "topics": [
+     "test plans",
+     "thread groups",
+     "samplers",
+     "listeners"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "performance-testing"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_apache_jmeter_dev_tool_9",
+    "slug": "apache-jmeter-dev-tool-9",
+    "title": "Advanced Apache JMeter",
+    "outcome": "You can: use Apache JMeter's advanced capabilities with confidence",
+    "topics": [
+     "parameterisation",
+     "distributed testing",
+     "CI integration"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "performance-testing"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_apache_jmeter_dev_tool_5",
+    "slug": "apache-jmeter-dev-tool-5",
+    "title": "Production-ready",
+    "outcome": "You can: run Apache JMeter reliably in production",
+    "topics": [
+     "security",
+     "performance",
+     "monitoring",
+     "CI/CD"
+    ],
+    "practice": "Add Apache JMeter to a CI pipeline with checks",
+    "need_tags": [
+     "devops-cicd",
+     "observability",
+     "performance-testing"
+    ],
+    "estimated_hours": {
+     "value": 5.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_apache_jmeter_dev_tool_10",
+    "slug": "apache-jmeter-dev-tool-10",
+    "title": "Integrate Apache JMeter into your workflow",
+    "outcome": "You can: connect Apache JMeter with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Apache JMeter to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "performance-testing"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_apache_jmeter_dev_tool_11",
+    "slug": "apache-jmeter-dev-tool-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Apache JMeter well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Apache JMeter\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "performance-testing"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "dev-tool",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

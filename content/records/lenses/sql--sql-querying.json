@@ -1,0 +1,77 @@
+{
+ "schema_version": "2.1",
+ "id": "lens_sql__sql_querying",
+ "roadmap_id": "rm_sql",
+ "roadmap": "sql",
+ "need_id": "need_sql_querying",
+ "need": "sql-querying",
+ "title": "SQL for data analysts",
+ "kind": "flagship",
+ "for_identities": [
+  "data-analyst",
+  "business-intelligence-analyst",
+  "marketing-analyst",
+  "analytics-engineer",
+  "operations-analyst",
+  "product-manager"
+ ],
+ "why": "Most company data lives in databases; SQL lets you answer your own questions without waiting.",
+ "what_is_different": "Analysts need joins, aggregation and window functions on real, messy schemas — and to check results against known totals.",
+ "priority_modules": [
+  "sql-select",
+  "sql-agg",
+  "sql-joins",
+  "sql-window",
+  "sql-design"
+ ],
+ "extra_modules": [],
+ "starter_project": "Answer five real business questions from a sample database, documenting each query and checking totals against a report.",
+ "pitfalls": [
+  "Accidental duplicate rows from joins",
+  "Filtering NULLs incorrectly",
+  "Unchecked numbers sent to management"
+ ],
+ "pairs_with": [
+  "tool_power_bi",
+  "tool_microsoft_excel",
+  "tool_dbeaver"
+ ],
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false,
+ "composed_path": {
+  "beginner": [
+   {
+    "module": "sql-select",
+    "relevance": "core",
+    "rank": 0
+   },
+   {
+    "module": "sql-agg",
+    "relevance": "core",
+    "rank": 1
+   }
+  ],
+  "intermediate": [
+   {
+    "module": "sql-joins",
+    "relevance": "core",
+    "rank": 2
+   },
+   {
+    "module": "sql-window",
+    "relevance": "core",
+    "rank": 3
+   }
+  ],
+  "expert": [
+   {
+    "module": "sql-design",
+    "relevance": "core",
+    "rank": 4
+   }
+  ]
+ }
+}

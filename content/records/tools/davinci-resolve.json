@@ -1,0 +1,156 @@
+{
+  "schema_version": "2.0",
+  "is_illustrative": false,
+  "redirect_from": [],
+  "disclosure": {
+    "commercial_relationship": "none"
+  },
+  "id": "tool_davinci_resolve",
+  "slug": "davinci-resolve",
+  "name": "DaVinci Resolve",
+  "official_name": "DaVinci Resolve",
+  "official_url": "https://www.blackmagicdesign.com/products/davinciresolve",
+  "developer_or_publisher": "Blackmagic Design",
+  "summary": "A desktop video editor with a free edition that also covers colour, effects and audio.",
+  "description": "DaVinci Resolve is a desktop application for editing video. Beyond cutting clips together, the same program handles colour correction, visual effects, motion graphics and audio post-production, so you can take a project from raw footage to a finished export without switching tools. A free edition is offered alongside a paid edition called DaVinci Resolve Studio. It is a large, professional-grade tool, so beginners should expect to spend time learning it.",
+  "category_ids": [
+    "video"
+  ],
+  "task_ids": [
+    "task_edit_video_free"
+  ],
+  "audience_ids": [
+    "creator",
+    "student",
+    "professional"
+  ],
+  "skill_level": "intermediate",
+  "pricing": {
+    "model": "freemium",
+    "verification_status": "partially_verified",
+    "source_ids": [
+      "src_davinci_product_page"
+    ],
+    "checked_at": "2026-10-21",
+    "free_tier_details": "A free edition ('DaVinci Resolve') is offered as a free download on the official site.",
+    "paid_plan_summary": "A paid edition, DaVinci Resolve Studio, is sold through the official site. On 2026-10-21 the page showed US$236 (reduced from US$295); prices vary and this may be promotional. The page did not state whether the licence is a one-time purchase.",
+    "price_points": []
+  },
+  "platforms": {
+    "values": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "verification_status": "verified",
+    "source_ids": [
+      "src_davinci_product_page"
+    ]
+  },
+  "deployment": [
+    "desktop"
+  ],
+  "ai_involvement": "optional_ai",
+  "availability_status": "active",
+  "account_required": "unknown",
+  "open_source": {
+    "is_open_source": false
+  },
+  "key_capabilities": [
+    {
+      "text": "Combines editing, colour correction, visual effects, motion graphics and audio post-production in one application.",
+      "kind": "fact",
+      "source_ids": [
+        "src_davinci_product_page"
+      ]
+    },
+    {
+      "text": "Includes AI-assisted features powered by the 'DaVinci AI Neural Engine', such as facial recognition, smart reframing and voice isolation.",
+      "kind": "fact",
+      "source_ids": [
+        "src_davinci_product_page"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Some capabilities are reserved for the paid Studio edition; check the official comparison before relying on a specific feature.",
+      "kind": "fact",
+      "source_ids": [
+        "src_davinci_product_page"
+      ]
+    },
+    {
+      "text": "A large professional application: expect a steep learning curve and check the official system requirements before downloading on an older computer.",
+      "kind": "editorial",
+      "source_ids": []
+    }
+  ],
+  "best_for": [
+    "People who want a free editor that can grow with them into colour grading and audio work",
+    "Creators producing longer or more polished videos"
+  ],
+  "not_ideal_for": [
+    "Quick edits on a phone",
+    "Older or low-powered computers (check system requirements first)"
+  ],
+  "learning_curve": "steep",
+  "getting_started": [
+    "Download the free edition from the official DaVinci Resolve page.",
+    "Work through Blackmagic Design's official training material before your first real project.",
+    "Start a short practice project: import clips, trim them on the timeline and export."
+  ],
+  "resource_ids": [
+    "res_davinci_resolve_training"
+  ],
+  "alternative_tool_ids": [
+    "tool_shotcut",
+    "tool_kdenlive"
+  ],
+  "comparison_ids": [
+    "cmp_free_video_editors"
+  ],
+  "playbook_ids": [],
+  "search_aliases": [
+    "davinci",
+    "resolve",
+    "blackmagic",
+    "video editor",
+    "colour grading",
+    "color grading"
+  ],
+  "sources": [
+    {
+      "id": "src_davinci_product_page",
+      "type": "official_site",
+      "url": "https://www.blackmagicdesign.com/products/davinciresolve",
+      "title": "DaVinci Resolve product page",
+      "publisher": "Blackmagic Design",
+      "checked_at": "2026-10-21",
+      "supports": [
+        "identity",
+        "capabilities",
+        "platforms",
+        "pricing",
+        "free_tier"
+      ],
+      "quote": "DaVinci Resolve is the world's only solution that combines editing, color correction, visual effects, motion graphics, audio post production and now photo editing all in one software tool"
+    }
+  ],
+  "editorial": {
+    "status": "published",
+    "author": "V2 research pass (AI-assisted, Claude)",
+    "reviewer": "Product owner — blanket MVP approval (D-044)",
+    "created_at": "2026-10-21",
+    "updated_at": "2026-10-21",
+    "published_at": "2026-10-21",
+    "last_verified_at": "2026-10-21",
+    "review_interval_days": 90,
+    "next_review_at": "2027-01-19",
+    "confidence": "medium",
+    "solo_approval": true,
+    "change_summary": "Researched from official sources 2026-10-21; published under owner's blanket MVP approval (D-044). Domain-expert review pending.",
+    "public_corrections": [],
+    "internal_notes": ""
+  }
+}

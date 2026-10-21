@@ -1,0 +1,347 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://digitaladvantage.example/schemas/v2/playbook.schema.json",
+  "title": "Playbook (workflow) record",
+  "type": "object",
+  "allOf": [
+    {
+      "$ref": "common.schema.json#/$defs/record_base"
+    }
+  ],
+  "unevaluatedProperties": false,
+  "required": [
+    "id",
+    "slug",
+    "title",
+    "outcome",
+    "audience_ids",
+    "difficulty",
+    "required_inputs",
+    "tool_ids",
+    "steps",
+    "verification",
+    "success_criteria",
+    "category_ids"
+  ],
+  "properties": {
+    "schema_version": {},
+    "is_illustrative": {},
+    "redirect_from": {},
+    "sources": {},
+    "editorial": {},
+    "disclosure": {},
+    "id": {
+      "type": "string",
+      "pattern": "^pb_[a-z0-9_]+$",
+      "maxLength": 64
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "minLength": 2,
+      "maxLength": 80
+    },
+    "title": {
+      "type": "string",
+      "minLength": 8,
+      "maxLength": 90
+    },
+    "outcome": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 300
+    },
+    "audience_ids": {
+      "type": "array",
+      "items": {
+        "$ref": "common.schema.json#/$defs/audience_slug"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "difficulty": {
+      "$ref": "common.schema.json#/$defs/skill_level"
+    },
+    "estimated_duration": {
+      "$ref": "common.schema.json#/$defs/estimate"
+    },
+    "prerequisites": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 3,
+        "maxLength": 200
+      },
+      "minItems": 0,
+      "uniqueItems": true,
+      "maxItems": 8
+    },
+    "required_inputs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 3,
+        "maxLength": 200
+      },
+      "minItems": 1,
+      "uniqueItems": true,
+      "maxItems": 8
+    },
+    "tool_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^tool_[a-z0-9_]+$",
+        "maxLength": 64
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "low_cost_alternatives": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "tool_id",
+          "note"
+        ],
+        "properties": {
+          "tool_id": {
+            "type": "string",
+            "pattern": "^tool_[a-z0-9_]+$",
+            "maxLength": 64
+          },
+          "note": {
+            "type": "string",
+            "minLength": 5,
+            "maxLength": 200
+          }
+        }
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "steps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "n",
+          "title",
+          "purpose",
+          "instructions",
+          "expected_output",
+          "check"
+        ],
+        "properties": {
+          "n": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "title": {
+            "type": "string",
+            "minLength": 3,
+            "maxLength": 80
+          },
+          "purpose": {
+            "type": "string",
+            "minLength": 5,
+            "maxLength": 200
+          },
+          "instructions": {
+            "type": "string",
+            "minLength": 10,
+            "maxLength": 1500
+          },
+          "tool_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^tool_[a-z0-9_]+$",
+              "maxLength": 64
+            },
+            "minItems": 0,
+            "uniqueItems": true
+          },
+          "expected_output": {
+            "type": "string",
+            "minLength": 5,
+            "maxLength": 300
+          },
+          "check": {
+            "type": "string",
+            "minLength": 5,
+            "maxLength": 300
+          },
+          "fallback": {
+            "type": "string",
+            "maxLength": 300
+          },
+          "warning": {
+            "type": "string",
+            "maxLength": 300
+          }
+        }
+      },
+      "minItems": 2,
+      "uniqueItems": false,
+      "maxItems": 20
+    },
+    "verification": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 400
+    },
+    "total_cost_notes": {
+      "type": "string",
+      "maxLength": 400
+    },
+    "privacy_notes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 5,
+        "maxLength": 300
+      },
+      "minItems": 0,
+      "uniqueItems": true,
+      "maxItems": 5
+    },
+    "accessibility_notes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 5,
+        "maxLength": 300
+      },
+      "minItems": 0,
+      "uniqueItems": true,
+      "maxItems": 5
+    },
+    "low_bandwidth_notes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 5,
+        "maxLength": 300
+      },
+      "minItems": 0,
+      "uniqueItems": true,
+      "maxItems": 5
+    },
+    "success_criteria": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 5,
+        "maxLength": 200
+      },
+      "minItems": 1,
+      "uniqueItems": true,
+      "maxItems": 8
+    },
+    "common_failure_modes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 5,
+        "maxLength": 200
+      },
+      "minItems": 0,
+      "uniqueItems": true,
+      "maxItems": 8
+    },
+    "troubleshooting": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "problem",
+          "fix"
+        ],
+        "properties": {
+          "problem": {
+            "type": "string",
+            "minLength": 5,
+            "maxLength": 200
+          },
+          "fix": {
+            "type": "string",
+            "minLength": 5,
+            "maxLength": 400
+          }
+        }
+      },
+      "minItems": 0,
+      "uniqueItems": true,
+      "maxItems": 10
+    },
+    "example": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "input": {
+          "type": "string",
+          "maxLength": 500
+        },
+        "output": {
+          "type": "string",
+          "maxLength": 500
+        }
+      }
+    },
+    "related_playbook_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^pb_[a-z0-9_]+$",
+        "maxLength": 64
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "resource_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^res_[a-z0-9_]+$",
+        "maxLength": 64
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "task_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^task_[a-z0-9_]+$",
+        "maxLength": 64
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "category_ids": {
+      "type": "array",
+      "items": {
+        "$ref": "common.schema.json#/$defs/category_slug"
+      },
+      "minItems": 1,
+      "uniqueItems": true,
+      "maxItems": 3
+    },
+    "search_aliases": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2,
+        "maxLength": 80
+      },
+      "minItems": 0,
+      "uniqueItems": true,
+      "maxItems": 15
+    }
+  }
+}

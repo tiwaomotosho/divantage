@@ -1,0 +1,5336 @@
+{
+ "version": "2.1.0",
+ "universal": [
+  "translate-languages",
+  "write-clearly",
+  "use-ai-assistants",
+  "email-and-calendar",
+  "video-meetings",
+  "documents-basics",
+  "spreadsheets-basics",
+  "presentations",
+  "files-cloud-storage",
+  "online-safety",
+  "learn-online",
+  "personal-productivity",
+  "professional-profile",
+  "personal-finance",
+  "design-simple-graphics",
+  "find-information",
+  "fact-check",
+  "accessibility-tools",
+  "voice-typing-transcription",
+  "pdf-work",
+  "scan-documents",
+  "e-signatures",
+  "group-messaging",
+  "forms-surveys",
+  "job-search",
+  "cv-portfolio",
+  "social-media-presence",
+  "short-video",
+  "photo-editing",
+  "maps-navigation",
+  "online-payments",
+  "language-learning"
+ ],
+ "count": 279,
+ "values": [
+  {
+   "id": "need_translate_languages",
+   "slug": "translate-languages",
+   "label": "Translate text, documents and conversations",
+   "task_family": "write-communicate",
+   "section": "UNIVERSAL — shown to everyone",
+   "universal": true,
+   "description": "Understand and be understood in any language — messages, documents, signs and live conversations.",
+   "tool_ids": [
+    "tool_google_translate",
+    "tool_deepl",
+    "tool_microsoft_translator",
+    "tool_chatgpt"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_write_clearly",
+   "slug": "write-clearly",
+   "label": "Write and proofread clearly",
+   "task_family": "write-communicate",
+   "section": "UNIVERSAL — shown to everyone",
+   "universal": true,
+   "description": "Make emails, reports and messages clear, correct and easy to read.",
+   "tool_ids": [
+    "tool_languagetool",
+    "tool_grammarly",
+    "tool_microsoft_word",
+    "tool_google_docs",
+    "tool_hemingway_editor"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_use_ai_assistants",
+   "slug": "use-ai-assistants",
+   "label": "Use AI assistants safely and well",
+   "task_family": "learn",
+   "section": "UNIVERSAL — shown to everyone",
+   "universal": true,
+   "description": "Get real help from AI — drafting, explaining, summarising — while checking what it says.",
+   "tool_ids": [
+    "tool_chatgpt",
+    "tool_claude",
+    "tool_gemini",
+    "tool_microsoft_copilot",
+    "tool_perplexity"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_email_and_calendar",
+   "slug": "email-and-calendar",
+   "label": "Manage email and your calendar",
+   "task_family": "organize",
+   "section": "UNIVERSAL — shown to everyone",
+   "universal": true,
+   "description": "Stay on top of your inbox, schedule meetings and never miss an appointment.",
+   "tool_ids": [
+    "tool_gmail",
+    "tool_microsoft_outlook",
+    "tool_google_calendar",
+    "tool_proton_mail"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_video_meetings",
+   "slug": "video-meetings",
+   "label": "Hold video calls and online meetings",
+   "task_family": "write-communicate",
+   "section": "UNIVERSAL — shown to everyone",
+   "universal": true,
+   "description": "Meet anyone, anywhere — with screen sharing, recording and captions.",
+   "tool_ids": [
+    "tool_zoom",
+    "tool_google_meet",
+    "tool_microsoft_teams",
+    "tool_jitsi_meet"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_documents_basics",
+   "slug": "documents-basics",
+   "label": "Create and format documents",
+   "task_family": "create",
+   "section": "UNIVERSAL — shown to everyone",
+   "universal": true,
+   "description": "Letters, reports and forms that look professional.",
+   "tool_ids": [
+    "tool_microsoft_word",
+    "tool_google_docs",
+    "tool_libreoffice"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_spreadsheets_basics",
+   "slug": "spreadsheets-basics",
+   "label": "Track and calculate with spreadsheets",
+   "task_family": "analyze",
+   "section": "UNIVERSAL — shown to everyone",
+   "universal": true,
+   "description": "Lists, budgets, trackers and simple calculations that save hours.",
+   "tool_ids": [
+    "tool_microsoft_excel",
+    "tool_google_sheets",
+    "tool_libreoffice"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_presentations",
+   "slug": "presentations",
+   "label": "Make clear presentations",
+   "task_family": "create",
+   "section": "UNIVERSAL — shown to everyone",
+   "universal": true,
+   "description": "Slides that explain your idea and hold attention.",
+   "tool_ids": [
+    "tool_microsoft_powerpoint",
+    "tool_google_slides",
+    "tool_canva",
+    "tool_apple_keynote"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_files_cloud_storage",
+   "slug": "files-cloud-storage",
+   "label": "Store, share and back up files",
+   "task_family": "organize",
+   "section": "UNIVERSAL — shown to everyone",
+   "universal": true,
+   "description": "Never lose a file again; share safely with others.",
+   "tool_ids": [
+    "tool_google_drive",
+    "tool_microsoft_onedrive",
+    "tool_dropbox"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_online_safety",
+   "slug": "online-safety",
+   "label": "Protect your accounts and devices",
+   "task_family": "organize",
+   "section": "UNIVERSAL — shown to everyone",
+   "universal": true,
+   "description": "Strong passwords, two-step verification and spotting scams.",
+   "tool_ids": [
+    "tool_bitwarden",
+    "tool_google_authenticator",
+    "tool_microsoft_authenticator",
+    "tool_have_i_been_pwned"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_learn_online",
+   "slug": "learn-online",
+   "label": "Learn new skills online",
+   "task_family": "learn",
+   "section": "UNIVERSAL — shown to everyone",
+   "universal": true,
+   "description": "Free and paid courses for any skill, at your own pace.",
+   "tool_ids": [
+    "tool_coursera",
+    "tool_edx",
+    "tool_khan_academy",
+    "tool_freecodecamp",
+    "tool_linkedin_learning",
+    "tool_alison"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_personal_productivity",
+   "slug": "personal-productivity",
+   "label": "Organise tasks and notes",
+   "task_family": "organize",
+   "section": "UNIVERSAL — shown to everyone",
+   "universal": true,
+   "description": "Capture everything you need to do and focus on what matters.",
+   "tool_ids": [
+    "tool_todoist",
+    "tool_google_keep",
+    "tool_notion",
+    "tool_microsoft_to_do",
+    "tool_trello"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_professional_profile",
+   "slug": "professional-profile",
+   "label": "Build a professional online presence",
+   "task_family": "career-work",
+   "section": "UNIVERSAL — shown to everyone",
+   "universal": true,
+   "description": "Be findable and credible online in your field.",
+   "tool_ids": [
+    "tool_linkedin",
+    "tool_canva",
+    "tool_google_sites"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_personal_finance",
+   "slug": "personal-finance",
+   "label": "Budget and manage money",
+   "task_family": "analyze",
+   "section": "UNIVERSAL — shown to everyone",
+   "universal": true,
+   "description": "Know where your money goes and plan ahead.",
+   "tool_ids": [
+    "tool_google_sheets",
+    "tool_microsoft_excel",
+    "tool_ynab"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_design_simple_graphics",
+   "slug": "design-simple-graphics",
+   "label": "Design simple graphics, flyers and posters",
+   "task_family": "create",
+   "section": "UNIVERSAL — shown to everyone",
+   "universal": true,
+   "description": "Good-looking visuals without design training.",
+   "tool_ids": [
+    "tool_canva",
+    "tool_adobe_express"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_find_information",
+   "slug": "find-information",
+   "label": "Search for and check information",
+   "task_family": "research",
+   "section": "UNIVERSAL — shown to everyone",
+   "universal": true,
+   "description": "Find what you need faster and judge whether it's trustworthy.",
+   "tool_ids": [
+    "tool_google_search",
+    "tool_perplexity",
+    "tool_wikipedia",
+    "tool_google_scholar"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_fact_check",
+   "slug": "fact-check",
+   "label": "Check claims and spot misinformation",
+   "task_family": "research",
+   "section": "UNIVERSAL — shown to everyone",
+   "universal": true,
+   "description": "Verify viral claims, images and quotes before you share them.",
+   "tool_ids": [
+    "tool_google_fact_check_explorer",
+    "tool_google_lens",
+    "tool_tineye"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_accessibility_tools",
+   "slug": "accessibility-tools",
+   "label": "Use accessibility features",
+   "task_family": "learn",
+   "section": "UNIVERSAL — shown to everyone",
+   "universal": true,
+   "description": "Screen readers, captions, dictation and magnification for anyone who needs them.",
+   "tool_ids": [
+    "tool_microsoft_immersive_reader",
+    "tool_nvda",
+    "tool_google_live_transcribe",
+    "tool_be_my_eyes"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_voice_typing_transcription",
+   "slug": "voice-typing-transcription",
+   "label": "Dictate and transcribe speech",
+   "task_family": "write-communicate",
+   "section": "UNIVERSAL — shown to everyone",
+   "universal": true,
+   "description": "Speak instead of type; turn recordings into text.",
+   "tool_ids": [
+    "tool_google_docs",
+    "tool_microsoft_word",
+    "tool_otter_ai",
+    "tool_google_live_transcribe"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_pdf_work",
+   "slug": "pdf-work",
+   "label": "Edit, merge, sign and convert PDFs",
+   "task_family": "organize",
+   "section": "UNIVERSAL — shown to everyone",
+   "universal": true,
+   "description": "Fill forms, combine documents and convert files.",
+   "tool_ids": [
+    "tool_adobe_acrobat",
+    "tool_ilovepdf",
+    "tool_pdf24",
+    "tool_smallpdf"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_scan_documents",
+   "slug": "scan-documents",
+   "label": "Scan documents with your phone",
+   "task_family": "organize",
+   "section": "UNIVERSAL — shown to everyone",
+   "universal": true,
+   "description": "Turn paper into clean, searchable PDFs in seconds.",
+   "tool_ids": [
+    "tool_adobe_scan",
+    "tool_google_drive"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_e_signatures",
+   "slug": "e-signatures",
+   "label": "Sign documents digitally",
+   "task_family": "organize",
+   "section": "UNIVERSAL — shown to everyone",
+   "universal": true,
+   "description": "Sign and request signatures without printing.",
+   "tool_ids": [
+    "tool_docusign",
+    "tool_adobe_acrobat",
+    "tool_smallpdf"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_group_messaging",
+   "slug": "group-messaging",
+   "label": "Coordinate groups by messaging",
+   "task_family": "write-communicate",
+   "section": "UNIVERSAL — shown to everyone",
+   "universal": true,
+   "description": "Keep a team, family or community informed in one place.",
+   "tool_ids": [
+    "tool_whatsapp",
+    "tool_telegram",
+    "tool_signal",
+    "tool_slack"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_forms_surveys",
+   "slug": "forms-surveys",
+   "label": "Collect information with forms and surveys",
+   "task_family": "research",
+   "section": "UNIVERSAL — shown to everyone",
+   "universal": true,
+   "description": "Registrations, feedback and data collection without paperwork.",
+   "tool_ids": [
+    "tool_google_forms",
+    "tool_microsoft_forms",
+    "tool_typeform",
+    "tool_kobotoolbox"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_job_search",
+   "slug": "job-search",
+   "label": "Find and apply for jobs",
+   "task_family": "career-work",
+   "section": "UNIVERSAL — shown to everyone",
+   "universal": true,
+   "description": "Discover openings and apply with confidence.",
+   "tool_ids": [
+    "tool_linkedin",
+    "tool_indeed",
+    "tool_glassdoor"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_cv_portfolio",
+   "slug": "cv-portfolio",
+   "label": "Write a CV and build a portfolio",
+   "task_family": "career-work",
+   "section": "UNIVERSAL — shown to everyone",
+   "universal": true,
+   "description": "Show what you can do, clearly and attractively.",
+   "tool_ids": [
+    "tool_canva",
+    "tool_google_docs",
+    "tool_linkedin",
+    "tool_notion"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_social_media_presence",
+   "slug": "social-media-presence",
+   "label": "Share your work on social media",
+   "task_family": "grow-business",
+   "section": "UNIVERSAL — shown to everyone",
+   "universal": true,
+   "description": "Post consistently and professionally about what you do.",
+   "tool_ids": [
+    "tool_canva",
+    "tool_capcut",
+    "tool_buffer",
+    "tool_meta_business_suite"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_short_video",
+   "slug": "short-video",
+   "label": "Make short videos for social media",
+   "task_family": "create",
+   "section": "UNIVERSAL — shown to everyone",
+   "universal": true,
+   "description": "Vertical videos with captions and music, made on your phone.",
+   "tool_ids": [
+    "tool_capcut",
+    "tool_canva",
+    "tool_clipchamp"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_photo_editing",
+   "slug": "photo-editing",
+   "label": "Edit photos",
+   "task_family": "create",
+   "section": "UNIVERSAL — shown to everyone",
+   "universal": true,
+   "description": "Fix lighting, crop and retouch images.",
+   "tool_ids": [
+    "tool_snapseed",
+    "tool_canva",
+    "tool_photopea",
+    "tool_gimp",
+    "tool_adobe_lightroom"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_maps_navigation",
+   "slug": "maps-navigation",
+   "label": "Navigate and share locations",
+   "task_family": "organize",
+   "section": "UNIVERSAL — shown to everyone",
+   "universal": true,
+   "description": "Find places, share exact locations and plan journeys.",
+   "tool_ids": [
+    "tool_google_maps",
+    "tool_what3words",
+    "tool_openstreetmap"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_online_payments",
+   "slug": "online-payments",
+   "label": "Pay and get paid safely online",
+   "task_family": "grow-business",
+   "section": "UNIVERSAL — shown to everyone",
+   "universal": true,
+   "description": "Send, receive and request money with less risk.",
+   "tool_ids": [
+    "tool_paypal",
+    "tool_wise",
+    "tool_paystack",
+    "tool_flutterwave",
+    "tool_stripe"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_language_learning",
+   "slug": "language-learning",
+   "label": "Learn a new language",
+   "task_family": "learn",
+   "section": "UNIVERSAL — shown to everyone",
+   "universal": true,
+   "description": "Build everyday fluency a little each day.",
+   "tool_ids": [
+    "tool_duolingo",
+    "tool_busuu",
+    "tool_anki",
+    "tool_italki"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_clinical_reference",
+   "slug": "clinical-reference",
+   "label": "Look up clinical guidance at the point of care",
+   "task_family": "research",
+   "section": "HEALTH & MEDICINE",
+   "universal": false,
+   "description": "Fast, evidence-based answers during clinical work.",
+   "tool_ids": [
+    "tool_uptodate",
+    "tool_bmj_best_practice",
+    "tool_medscape",
+    "tool_who_guidelines",
+    "tool_nice_guidance"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_drug_information",
+   "slug": "drug-information",
+   "label": "Check drugs, doses and interactions",
+   "task_family": "research",
+   "section": "HEALTH & MEDICINE",
+   "universal": false,
+   "description": "Verify medicines, dosing and interactions safely.",
+   "tool_ids": [
+    "tool_bnf",
+    "tool_medscape",
+    "tool_drugs_com",
+    "tool_epocrates",
+    "tool_lexicomp"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_medical_calculators",
+   "slug": "medical-calculators",
+   "label": "Use clinical scores and calculators",
+   "task_family": "analyze",
+   "section": "HEALTH & MEDICINE",
+   "universal": false,
+   "description": "Risk scores, dosing and clinical formulas, correctly applied.",
+   "tool_ids": [
+    "tool_mdcalc",
+    "tool_qxmd",
+    "tool_medscape"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_evidence_based_medicine",
+   "slug": "evidence-based-medicine",
+   "label": "Search and appraise medical literature",
+   "task_family": "research",
+   "section": "HEALTH & MEDICINE",
+   "universal": false,
+   "description": "Find the best evidence and judge its quality.",
+   "tool_ids": [
+    "tool_pubmed",
+    "tool_cochrane_library",
+    "tool_google_scholar",
+    "tool_zotero",
+    "tool_rayyan"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_electronic_health_records",
+   "slug": "electronic-health-records",
+   "label": "Document care in electronic health records",
+   "task_family": "organize",
+   "section": "HEALTH & MEDICINE",
+   "universal": false,
+   "description": "Accurate, efficient clinical documentation.",
+   "tool_ids": [
+    "tool_epic",
+    "tool_oracle_health",
+    "tool_openmrs",
+    "tool_meditech"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_telemedicine",
+   "slug": "telemedicine",
+   "label": "Run remote consultations safely",
+   "task_family": "write-communicate",
+   "section": "HEALTH & MEDICINE",
+   "universal": false,
+   "description": "Consult patients remotely with privacy in mind.",
+   "tool_ids": [
+    "tool_doxy_me",
+    "tool_zoom",
+    "tool_microsoft_teams"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_patient_education",
+   "slug": "patient-education",
+   "label": "Create clear patient information",
+   "task_family": "teach-support",
+   "section": "HEALTH & MEDICINE",
+   "universal": false,
+   "description": "Leaflets and explanations patients actually understand — in their language.",
+   "tool_ids": [
+    "tool_canva",
+    "tool_microsoft_word",
+    "tool_deepl",
+    "tool_google_translate"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_medical_imaging_viewing",
+   "slug": "medical-imaging-viewing",
+   "label": "View and analyse medical images (DICOM)",
+   "task_family": "analyze",
+   "section": "HEALTH & MEDICINE",
+   "universal": false,
+   "description": "Open, measure and compare scans outside the hospital system.",
+   "tool_ids": [
+    "tool_radiant_dicom_viewer",
+    "tool_horos",
+    "tool_3d_slicer",
+    "tool_weasis",
+    "tool_osirix_md"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_radiology_reporting",
+   "slug": "radiology-reporting",
+   "label": "Structure radiology reports",
+   "task_family": "write-communicate",
+   "section": "HEALTH & MEDICINE",
+   "universal": false,
+   "description": "Consistent, complete, structured reports.",
+   "tool_ids": [
+    "tool_radreport",
+    "tool_powerscribe",
+    "tool_microsoft_word"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_clinical_audit_qi",
+   "slug": "clinical-audit-qi",
+   "label": "Run clinical audit and quality improvement",
+   "task_family": "analyze",
+   "section": "HEALTH & MEDICINE",
+   "universal": false,
+   "description": "Measure care against standards and improve it.",
+   "tool_ids": [
+    "tool_microsoft_excel",
+    "tool_redcap",
+    "tool_life_qi",
+    "tool_power_bi"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_health_research_data",
+   "slug": "health-research-data",
+   "label": "Collect and analyse health research data",
+   "task_family": "research",
+   "section": "HEALTH & MEDICINE",
+   "universal": false,
+   "description": "Capture study data securely and analyse it properly.",
+   "tool_ids": [
+    "tool_redcap",
+    "tool_kobotoolbox",
+    "tool_epi_info",
+    "tool_spss",
+    "tool_r",
+    "tool_stata"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_cpd_learning",
+   "slug": "cpd-learning",
+   "label": "Keep up continuing professional development",
+   "task_family": "learn",
+   "section": "HEALTH & MEDICINE",
+   "universal": false,
+   "description": "Stay current and log your CPD.",
+   "tool_ids": [
+    "tool_medscape",
+    "tool_bmj_learning",
+    "tool_coursera",
+    "tool_anki",
+    "tool_claude"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_memorise_knowledge",
+   "slug": "memorise-knowledge",
+   "label": "Memorise large bodies of knowledge",
+   "task_family": "learn",
+   "section": "HEALTH & MEDICINE",
+   "universal": false,
+   "description": "Spaced repetition for exams and practice.",
+   "tool_ids": [
+    "tool_anki",
+    "tool_quizlet",
+    "tool_osmosis"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_anatomy_3d",
+   "slug": "anatomy-3d",
+   "label": "Learn and teach anatomy in 3D",
+   "task_family": "learn",
+   "section": "HEALTH & MEDICINE",
+   "universal": false,
+   "description": "Explore structures interactively.",
+   "tool_ids": [
+    "tool_complete_anatomy",
+    "tool_visible_body",
+    "tool_biodigital_human"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_shift_rota",
+   "slug": "shift-rota",
+   "label": "Manage shifts and rotas",
+   "task_family": "organize",
+   "section": "HEALTH & MEDICINE",
+   "universal": false,
+   "description": "Fair, visible rotas with fewer clashes.",
+   "tool_ids": [
+    "tool_google_sheets",
+    "tool_deputy",
+    "tool_when_i_work",
+    "tool_rotacloud"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_exercise_prescription",
+   "slug": "exercise-prescription",
+   "label": "Prescribe and track home exercise programmes",
+   "task_family": "teach-support",
+   "section": "HEALTH & MEDICINE",
+   "universal": false,
+   "description": "Clear exercise plans with video demonstrations and adherence tracking.",
+   "tool_ids": [
+    "tool_physitrack",
+    "tool_medbridge",
+    "tool_google_docs"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_movement_analysis",
+   "slug": "movement-analysis",
+   "label": "Analyse movement and technique from video",
+   "task_family": "analyze",
+   "section": "HEALTH & MEDICINE",
+   "universal": false,
+   "description": "Slow-motion, angles and side-by-side comparison of movement.",
+   "tool_ids": [
+    "tool_kinovea",
+    "tool_dartfish",
+    "tool_hudl"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_nutrition_planning",
+   "slug": "nutrition-planning",
+   "label": "Plan diets and analyse nutrition",
+   "task_family": "analyze",
+   "section": "HEALTH & MEDICINE",
+   "universal": false,
+   "description": "Calculate nutrients and build meal plans.",
+   "tool_ids": [
+    "tool_cronometer",
+    "tool_nutritics",
+    "tool_myfitnesspal"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_public_health_data",
+   "slug": "public-health-data",
+   "label": "Track and visualise public health data",
+   "task_family": "analyze",
+   "section": "HEALTH & MEDICINE",
+   "universal": false,
+   "description": "Surveillance, dashboards and maps for population health.",
+   "tool_ids": [
+    "tool_dhis2",
+    "tool_epi_info",
+    "tool_qgis",
+    "tool_power_bi",
+    "tool_kobotoolbox",
+    "tool_r"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_therapy_practice_admin",
+   "slug": "therapy-practice-admin",
+   "label": "Run a therapy practice securely",
+   "task_family": "organize",
+   "section": "HEALTH & MEDICINE",
+   "universal": false,
+   "description": "Notes, bookings and secure sessions in one place.",
+   "tool_ids": [
+    "tool_simplepractice",
+    "tool_jane_app",
+    "tool_doxy_me"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_clinic_scheduling",
+   "slug": "clinic-scheduling",
+   "label": "Book appointments and send reminders",
+   "task_family": "organize",
+   "section": "HEALTH & MEDICINE",
+   "universal": false,
+   "description": "Fewer no-shows, less phone time.",
+   "tool_ids": [
+    "tool_calendly",
+    "tool_jane_app",
+    "tool_google_calendar",
+    "tool_setmore"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_veterinary_practice",
+   "slug": "veterinary-practice",
+   "label": "Manage veterinary records and appointments",
+   "task_family": "organize",
+   "section": "HEALTH & MEDICINE",
+   "universal": false,
+   "description": "Patient histories, vaccinations and reminders.",
+   "tool_ids": [
+    "tool_ezyvet",
+    "tool_covetrus_pulse",
+    "tool_google_calendar"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_lab_data",
+   "slug": "lab-data",
+   "label": "Manage laboratory data and samples",
+   "task_family": "organize",
+   "section": "HEALTH & MEDICINE",
+   "universal": false,
+   "description": "Electronic lab notebooks and sample tracking.",
+   "tool_ids": [
+    "tool_benchling",
+    "tool_labguru",
+    "tool_elabftw",
+    "tool_microsoft_excel"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_pharmacy_stock",
+   "slug": "pharmacy-stock",
+   "label": "Manage pharmacy stock and expiry",
+   "task_family": "organize",
+   "section": "HEALTH & MEDICINE",
+   "universal": false,
+   "description": "Avoid stock-outs and expired medicines.",
+   "tool_ids": [
+    "tool_zoho_inventory",
+    "tool_sortly",
+    "tool_microsoft_excel"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_dental_practice",
+   "slug": "dental-practice",
+   "label": "Manage a dental practice",
+   "task_family": "organize",
+   "section": "HEALTH & MEDICINE",
+   "universal": false,
+   "description": "Charts, imaging and scheduling for dentistry.",
+   "tool_ids": [
+    "tool_dentrix",
+    "tool_curve_dental",
+    "tool_open_dental"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_engineering_calculations",
+   "slug": "engineering-calculations",
+   "label": "Perform and document engineering calculations",
+   "task_family": "analyze",
+   "section": "ENGINEERING & TECHNICAL",
+   "universal": false,
+   "description": "Traceable calculations you (and checkers) can trust.",
+   "tool_ids": [
+    "tool_microsoft_excel",
+    "tool_mathcad",
+    "tool_matlab",
+    "tool_python",
+    "tool_smath_studio"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_cad_drafting",
+   "slug": "cad-drafting",
+   "label": "Draft 2D and 3D drawings (CAD)",
+   "task_family": "create",
+   "section": "ENGINEERING & TECHNICAL",
+   "universal": false,
+   "description": "Precise drawings to standard.",
+   "tool_ids": [
+    "tool_autocad",
+    "tool_librecad",
+    "tool_freecad",
+    "tool_draftsight",
+    "tool_sketchup"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_bim_modelling",
+   "slug": "bim-modelling",
+   "label": "Model buildings and infrastructure (BIM)",
+   "task_family": "create",
+   "section": "ENGINEERING & TECHNICAL",
+   "universal": false,
+   "description": "Coordinated 3D models that carry data.",
+   "tool_ids": [
+    "tool_revit",
+    "tool_archicad",
+    "tool_civil_3d",
+    "tool_tekla_structures",
+    "tool_navisworks"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_structural_analysis",
+   "slug": "structural-analysis",
+   "label": "Analyse and design structures",
+   "task_family": "analyze",
+   "section": "ENGINEERING & TECHNICAL",
+   "universal": false,
+   "description": "Loads, members and code checks.",
+   "tool_ids": [
+    "tool_etabs",
+    "tool_sap2000",
+    "tool_staad_pro",
+    "tool_robot_structural_analysis",
+    "tool_csi_safe"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_geotechnical_analysis",
+   "slug": "geotechnical-analysis",
+   "label": "Model soils, slopes and foundations",
+   "task_family": "analyze",
+   "section": "ENGINEERING & TECHNICAL",
+   "universal": false,
+   "description": "Stability and settlement analysis.",
+   "tool_ids": [
+    "tool_plaxis",
+    "tool_geostudio",
+    "tool_rocscience_slide2"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_hydraulic_modelling",
+   "slug": "hydraulic-modelling",
+   "label": "Model water, drainage and rivers",
+   "task_family": "analyze",
+   "section": "ENGINEERING & TECHNICAL",
+   "universal": false,
+   "description": "Pipes, channels, floods and networks.",
+   "tool_ids": [
+    "tool_hec_ras",
+    "tool_epanet",
+    "tool_epa_swmm",
+    "tool_infoworks_icm"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_gis_mapping",
+   "slug": "gis-mapping",
+   "label": "Map and analyse spatial data",
+   "task_family": "analyze",
+   "section": "ENGINEERING & TECHNICAL",
+   "universal": false,
+   "description": "Maps, layers and spatial analysis.",
+   "tool_ids": [
+    "tool_qgis",
+    "tool_arcgis_pro",
+    "tool_google_earth_pro",
+    "tool_google_earth_engine"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_surveying_photogrammetry",
+   "slug": "surveying-photogrammetry",
+   "label": "Process survey and drone data",
+   "task_family": "analyze",
+   "section": "ENGINEERING & TECHNICAL",
+   "universal": false,
+   "description": "Point clouds, terrain models and setting out.",
+   "tool_ids": [
+    "tool_pix4d",
+    "tool_agisoft_metashape",
+    "tool_trimble_business_center",
+    "tool_civil_3d"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_project_scheduling",
+   "slug": "project-scheduling",
+   "label": "Plan and schedule projects (CPM)",
+   "task_family": "organize",
+   "section": "ENGINEERING & TECHNICAL",
+   "universal": false,
+   "description": "Critical-path schedules and progress tracking.",
+   "tool_ids": [
+    "tool_primavera_p6",
+    "tool_microsoft_project",
+    "tool_ganttproject",
+    "tool_smartsheet",
+    "tool_microsoft_excel"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_cost_estimation",
+   "slug": "cost-estimation",
+   "label": "Estimate quantities and costs",
+   "task_family": "analyze",
+   "section": "ENGINEERING & TECHNICAL",
+   "universal": false,
+   "description": "Take-offs, rates and estimates you can defend.",
+   "tool_ids": [
+    "tool_microsoft_excel",
+    "tool_costx",
+    "tool_planswift",
+    "tool_bluebeam_revu"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_drawing_markup",
+   "slug": "drawing-markup",
+   "label": "Review and mark up drawings and PDFs",
+   "task_family": "organize",
+   "section": "ENGINEERING & TECHNICAL",
+   "universal": false,
+   "description": "Comments, measurements and revisions on drawings.",
+   "tool_ids": [
+    "tool_bluebeam_revu",
+    "tool_adobe_acrobat",
+    "tool_drawboard_pdf"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_fea_simulation",
+   "slug": "fea-simulation",
+   "label": "Simulate with finite-element analysis",
+   "task_family": "analyze",
+   "section": "ENGINEERING & TECHNICAL",
+   "universal": false,
+   "description": "Stress, heat and flow simulations.",
+   "tool_ids": [
+    "tool_ansys",
+    "tool_abaqus",
+    "tool_comsol",
+    "tool_solidworks",
+    "tool_calculix"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_mechanical_design",
+   "slug": "mechanical-design",
+   "label": "Design mechanical parts and assemblies",
+   "task_family": "create",
+   "section": "ENGINEERING & TECHNICAL",
+   "universal": false,
+   "description": "3D parts, assemblies and drawings.",
+   "tool_ids": [
+    "tool_solidworks",
+    "tool_fusion_360",
+    "tool_autodesk_inventor",
+    "tool_freecad",
+    "tool_onshape"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_electrical_design",
+   "slug": "electrical-design",
+   "label": "Design electrical systems and circuits",
+   "task_family": "create",
+   "section": "ENGINEERING & TECHNICAL",
+   "universal": false,
+   "description": "Schematics, PCBs, power studies and lighting.",
+   "tool_ids": [
+    "tool_autocad_electrical",
+    "tool_kicad",
+    "tool_eplan",
+    "tool_etap",
+    "tool_dialux"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_plc_automation",
+   "slug": "plc-automation",
+   "label": "Program control systems (PLC/SCADA)",
+   "task_family": "build",
+   "section": "ENGINEERING & TECHNICAL",
+   "universal": false,
+   "description": "Logic, HMIs and industrial automation.",
+   "tool_ids": [
+    "tool_tia_portal",
+    "tool_studio_5000",
+    "tool_codesys",
+    "tool_node_red"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_process_simulation",
+   "slug": "process-simulation",
+   "label": "Simulate chemical and process plants",
+   "task_family": "analyze",
+   "section": "ENGINEERING & TECHNICAL",
+   "universal": false,
+   "description": "Heat and material balances, process design.",
+   "tool_ids": [
+    "tool_aspen_hysys",
+    "tool_aspen_plus",
+    "tool_dwsim",
+    "tool_chemcad"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_engineering_data_analysis",
+   "slug": "engineering-data-analysis",
+   "label": "Analyse engineering and sensor data",
+   "task_family": "analyze",
+   "section": "ENGINEERING & TECHNICAL",
+   "universal": false,
+   "description": "Turn test, sensor and field data into decisions.",
+   "tool_ids": [
+    "tool_python",
+    "tool_matlab",
+    "tool_microsoft_excel",
+    "tool_power_bi",
+    "tool_jupyter"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_technical_reporting",
+   "slug": "technical-reporting",
+   "label": "Write technical reports",
+   "task_family": "write-communicate",
+   "section": "ENGINEERING & TECHNICAL",
+   "universal": false,
+   "description": "Clear, referenced, well-structured reports.",
+   "tool_ids": [
+    "tool_microsoft_word",
+    "tool_overleaf",
+    "tool_zotero",
+    "tool_mathcad"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_quality_hse",
+   "slug": "quality-hse",
+   "label": "Manage quality and HSE records",
+   "task_family": "organize",
+   "section": "ENGINEERING & TECHNICAL",
+   "universal": false,
+   "description": "Inspections, incidents and audits without paper.",
+   "tool_ids": [
+    "tool_safetyculture",
+    "tool_microsoft_excel",
+    "tool_microsoft_forms",
+    "tool_power_bi"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_maintenance_cmms",
+   "slug": "maintenance-cmms",
+   "label": "Plan maintenance (CMMS)",
+   "task_family": "organize",
+   "section": "ENGINEERING & TECHNICAL",
+   "universal": false,
+   "description": "Work orders, asset history and preventive maintenance.",
+   "tool_ids": [
+    "tool_ibm_maximo",
+    "tool_sap",
+    "tool_upkeep",
+    "tool_fiix"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_well_planning_design",
+   "slug": "well-planning-design",
+   "label": "Plan and design wells",
+   "task_family": "build",
+   "section": "ENERGY, OIL & GAS, MINING",
+   "universal": false,
+   "description": "Trajectories, casing design, torque & drag and hydraulics.",
+   "tool_ids": [
+    "tool_landmark_decisionspace",
+    "tool_slb_drillplan",
+    "tool_microsoft_excel",
+    "tool_python"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_drilling_reporting",
+   "slug": "drilling-reporting",
+   "label": "Report daily drilling operations",
+   "task_family": "organize",
+   "section": "ENERGY, OIL & GAS, MINING",
+   "universal": false,
+   "description": "Daily reports, time breakdown and KPIs.",
+   "tool_ids": [
+    "tool_wellview",
+    "tool_openwells",
+    "tool_microsoft_excel",
+    "tool_power_bi"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_well_performance",
+   "slug": "well-performance",
+   "label": "Model well and production performance",
+   "task_family": "analyze",
+   "section": "ENERGY, OIL & GAS, MINING",
+   "universal": false,
+   "description": "Nodal analysis, lift design and network modelling.",
+   "tool_ids": [
+    "tool_prosper",
+    "tool_mbal",
+    "tool_petex_gap",
+    "tool_pipesim",
+    "tool_olga"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_reservoir_modelling",
+   "slug": "reservoir-modelling",
+   "label": "Build reservoir and geological models",
+   "task_family": "analyze",
+   "section": "ENERGY, OIL & GAS, MINING",
+   "universal": false,
+   "description": "Static and dynamic subsurface models.",
+   "tool_ids": [
+    "tool_petrel",
+    "tool_eclipse",
+    "tool_tnavigator",
+    "tool_cmg",
+    "tool_opendtect"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_geomechanics",
+   "slug": "geomechanics",
+   "label": "Analyse wellbore stability and geomechanics",
+   "task_family": "analyze",
+   "section": "ENERGY, OIL & GAS, MINING",
+   "universal": false,
+   "description": "Pore pressure, stresses and mud-weight windows.",
+   "tool_ids": [
+    "tool_techlog",
+    "tool_jewelsuite",
+    "tool_python",
+    "tool_microsoft_excel"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_petrophysics",
+   "slug": "petrophysics",
+   "label": "Interpret well logs",
+   "task_family": "analyze",
+   "section": "ENERGY, OIL & GAS, MINING",
+   "universal": false,
+   "description": "Porosity, saturation and lithology from logs.",
+   "tool_ids": [
+    "tool_techlog",
+    "tool_interactive_petrophysics",
+    "tool_python"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_production_surveillance",
+   "slug": "production-surveillance",
+   "label": "Monitor production data",
+   "task_family": "analyze",
+   "section": "ENERGY, OIL & GAS, MINING",
+   "universal": false,
+   "description": "Spot declines and opportunities early.",
+   "tool_ids": [
+    "tool_power_bi",
+    "tool_spotfire",
+    "tool_microsoft_excel",
+    "tool_python"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_energy_systems_modelling",
+   "slug": "energy-systems-modelling",
+   "label": "Model energy systems and renewables",
+   "task_family": "analyze",
+   "section": "ENERGY, OIL & GAS, MINING",
+   "universal": false,
+   "description": "Size solar, storage and hybrid systems.",
+   "tool_ids": [
+    "tool_homer_pro",
+    "tool_pvsyst",
+    "tool_nrel_sam",
+    "tool_retscreen"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_mine_planning",
+   "slug": "mine-planning",
+   "label": "Plan mines and model ore bodies",
+   "task_family": "analyze",
+   "section": "ENERGY, OIL & GAS, MINING",
+   "universal": false,
+   "description": "Block models, schedules and pit designs.",
+   "tool_ids": [
+    "tool_deswik",
+    "tool_datamine",
+    "tool_maptek_vulcan",
+    "tool_leapfrog"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_regulatory_reporting",
+   "slug": "regulatory-reporting",
+   "label": "Prepare regulatory submissions",
+   "task_family": "organize",
+   "section": "ENERGY, OIL & GAS, MINING",
+   "universal": false,
+   "description": "Accurate, on-time reports to regulators.",
+   "tool_ids": [
+    "tool_microsoft_excel",
+    "tool_power_bi",
+    "tool_microsoft_word",
+    "tool_sharepoint"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_write_code",
+   "slug": "write-code",
+   "label": "Write and debug code",
+   "task_family": "build",
+   "section": "TECHNOLOGY & SOFTWARE",
+   "universal": false,
+   "description": "A productive editor, debugger and AI pair-programmer.",
+   "tool_ids": [
+    "tool_vs_code",
+    "tool_jetbrains_ides",
+    "tool_github_copilot",
+    "tool_cursor",
+    "tool_claude",
+    "tool_chatgpt"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_version_control",
+   "slug": "version-control",
+   "label": "Version and review code",
+   "task_family": "build",
+   "section": "TECHNOLOGY & SOFTWARE",
+   "universal": false,
+   "description": "Branches, pull requests and safe collaboration.",
+   "tool_ids": [
+    "tool_git",
+    "tool_github",
+    "tool_gitlab",
+    "tool_bitbucket"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_devops_cicd",
+   "slug": "devops-cicd",
+   "label": "Automate builds and deployments",
+   "task_family": "automate",
+   "section": "TECHNOLOGY & SOFTWARE",
+   "universal": false,
+   "description": "Ship reliably and repeatably.",
+   "tool_ids": [
+    "tool_github_actions",
+    "tool_gitlab",
+    "tool_jenkins",
+    "tool_docker",
+    "tool_terraform"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_containers_orchestration",
+   "slug": "containers-orchestration",
+   "label": "Run containers and clusters",
+   "task_family": "build",
+   "section": "TECHNOLOGY & SOFTWARE",
+   "universal": false,
+   "description": "Package and run software anywhere.",
+   "tool_ids": [
+    "tool_docker",
+    "tool_kubernetes",
+    "tool_podman"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_cloud_infrastructure",
+   "slug": "cloud-infrastructure",
+   "label": "Run applications in the cloud",
+   "task_family": "build",
+   "section": "TECHNOLOGY & SOFTWARE",
+   "universal": false,
+   "description": "Hosting, storage and compute at any scale.",
+   "tool_ids": [
+    "tool_aws",
+    "tool_google_cloud",
+    "tool_microsoft_azure",
+    "tool_cloudflare",
+    "tool_netlify"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_api_testing",
+   "slug": "api-testing",
+   "label": "Design and test APIs",
+   "task_family": "build",
+   "section": "TECHNOLOGY & SOFTWARE",
+   "universal": false,
+   "description": "Explore, document and test APIs.",
+   "tool_ids": [
+    "tool_postman",
+    "tool_insomnia",
+    "tool_swagger"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_test_automation",
+   "slug": "test-automation",
+   "label": "Automate software testing",
+   "task_family": "build",
+   "section": "TECHNOLOGY & SOFTWARE",
+   "universal": false,
+   "description": "Fast, reliable automated checks.",
+   "tool_ids": [
+    "tool_playwright",
+    "tool_selenium",
+    "tool_cypress",
+    "tool_appium",
+    "tool_jest"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_test_management",
+   "slug": "test-management",
+   "label": "Plan and track testing",
+   "task_family": "organize",
+   "section": "TECHNOLOGY & SOFTWARE",
+   "universal": false,
+   "description": "Test cases, runs and coverage in one place.",
+   "tool_ids": [
+    "tool_testrail",
+    "tool_qase",
+    "tool_xray",
+    "tool_zephyr"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_performance_testing",
+   "slug": "performance-testing",
+   "label": "Load and performance test",
+   "task_family": "analyze",
+   "section": "TECHNOLOGY & SOFTWARE",
+   "universal": false,
+   "description": "Find bottlenecks before users do.",
+   "tool_ids": [
+    "tool_k6",
+    "tool_apache_jmeter",
+    "tool_gatling"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_agile_tracking",
+   "slug": "agile-tracking",
+   "label": "Track work in agile teams",
+   "task_family": "organize",
+   "section": "TECHNOLOGY & SOFTWARE",
+   "universal": false,
+   "description": "Backlogs, sprints and boards.",
+   "tool_ids": [
+    "tool_jira",
+    "tool_linear",
+    "tool_azure_devops",
+    "tool_github",
+    "tool_trello"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_product_discovery",
+   "slug": "product-discovery",
+   "label": "Discover and prioritise product opportunities",
+   "task_family": "research",
+   "section": "TECHNOLOGY & SOFTWARE",
+   "universal": false,
+   "description": "Turn customer insight into the right priorities.",
+   "tool_ids": [
+    "tool_productboard",
+    "tool_miro",
+    "tool_dovetail",
+    "tool_notion"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_product_analytics",
+   "slug": "product-analytics",
+   "label": "Measure product usage",
+   "task_family": "analyze",
+   "section": "TECHNOLOGY & SOFTWARE",
+   "universal": false,
+   "description": "Funnels, retention and experiments.",
+   "tool_ids": [
+    "tool_mixpanel",
+    "tool_amplitude",
+    "tool_posthog",
+    "tool_google_analytics"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_roadmapping",
+   "slug": "roadmapping",
+   "label": "Plan and communicate roadmaps",
+   "task_family": "organize",
+   "section": "TECHNOLOGY & SOFTWARE",
+   "universal": false,
+   "description": "Show what's next and why.",
+   "tool_ids": [
+    "tool_productboard",
+    "tool_aha",
+    "tool_jira",
+    "tool_miro"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_ui_ux_design",
+   "slug": "ui-ux-design",
+   "label": "Design interfaces and prototypes",
+   "task_family": "create",
+   "section": "TECHNOLOGY & SOFTWARE",
+   "universal": false,
+   "description": "Wireframes, prototypes and design systems.",
+   "tool_ids": [
+    "tool_figma",
+    "tool_penpot",
+    "tool_sketch",
+    "tool_framer"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_user_research",
+   "slug": "user-research",
+   "label": "Run user research and usability tests",
+   "task_family": "research",
+   "section": "TECHNOLOGY & SOFTWARE",
+   "universal": false,
+   "description": "Learn what users actually need.",
+   "tool_ids": [
+    "tool_maze",
+    "tool_dovetail",
+    "tool_lookback",
+    "tool_google_forms"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_observability",
+   "slug": "observability",
+   "label": "Monitor systems and errors",
+   "task_family": "analyze",
+   "section": "TECHNOLOGY & SOFTWARE",
+   "universal": false,
+   "description": "Know when things break and why.",
+   "tool_ids": [
+    "tool_grafana",
+    "tool_prometheus",
+    "tool_sentry",
+    "tool_datadog"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_security_testing",
+   "slug": "security-testing",
+   "label": "Test and harden security (authorised only)",
+   "task_family": "analyze",
+   "section": "TECHNOLOGY & SOFTWARE",
+   "universal": false,
+   "description": "Find weaknesses legally and fix them.",
+   "tool_ids": [
+    "tool_burp_suite",
+    "tool_owasp_zap",
+    "tool_nmap",
+    "tool_wireshark",
+    "tool_kali_linux"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_security_operations",
+   "slug": "security-operations",
+   "label": "Detect and respond to threats",
+   "task_family": "analyze",
+   "section": "TECHNOLOGY & SOFTWARE",
+   "universal": false,
+   "description": "Logs, alerts and incident response.",
+   "tool_ids": [
+    "tool_splunk",
+    "tool_microsoft_sentinel",
+    "tool_wazuh",
+    "tool_elastic"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_it_helpdesk",
+   "slug": "it-helpdesk",
+   "label": "Run IT support",
+   "task_family": "organize",
+   "section": "TECHNOLOGY & SOFTWARE",
+   "universal": false,
+   "description": "Tickets, remote support and asset tracking.",
+   "tool_ids": [
+    "tool_jira_service_management",
+    "tool_freshservice",
+    "tool_zendesk",
+    "tool_glpi",
+    "tool_anydesk"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_networking",
+   "slug": "networking",
+   "label": "Design and troubleshoot networks",
+   "task_family": "analyze",
+   "section": "TECHNOLOGY & SOFTWARE",
+   "universal": false,
+   "description": "Understand and fix network problems.",
+   "tool_ids": [
+    "tool_wireshark",
+    "tool_cisco_packet_tracer",
+    "tool_gns3",
+    "tool_putty"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_databases",
+   "slug": "databases",
+   "label": "Design and manage databases",
+   "task_family": "build",
+   "section": "TECHNOLOGY & SOFTWARE",
+   "universal": false,
+   "description": "Store data reliably and query it fast.",
+   "tool_ids": [
+    "tool_postgresql",
+    "tool_mysql",
+    "tool_dbeaver",
+    "tool_mongodb",
+    "tool_sqlite"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_mobile_app_dev",
+   "slug": "mobile-app-dev",
+   "label": "Build mobile apps",
+   "task_family": "build",
+   "section": "TECHNOLOGY & SOFTWARE",
+   "universal": false,
+   "description": "Native and cross-platform apps.",
+   "tool_ids": [
+    "tool_android_studio",
+    "tool_xcode",
+    "tool_flutter",
+    "tool_react_native",
+    "tool_expo"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_web_development",
+   "slug": "web-development",
+   "label": "Build websites and web apps",
+   "task_family": "build",
+   "section": "TECHNOLOGY & SOFTWARE",
+   "universal": false,
+   "description": "From landing pages to full web apps.",
+   "tool_ids": [
+    "tool_vs_code",
+    "tool_nextjs",
+    "tool_wordpress",
+    "tool_webflow",
+    "tool_netlify"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_no_code_apps",
+   "slug": "no-code-apps",
+   "label": "Build apps without code",
+   "task_family": "build",
+   "section": "TECHNOLOGY & SOFTWARE",
+   "universal": false,
+   "description": "Internal tools and simple apps, fast.",
+   "tool_ids": [
+    "tool_glide",
+    "tool_bubble",
+    "tool_appsheet",
+    "tool_power_apps",
+    "tool_airtable"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_game_development",
+   "slug": "game-development",
+   "label": "Build games",
+   "task_family": "build",
+   "section": "TECHNOLOGY & SOFTWARE",
+   "universal": false,
+   "description": "2D and 3D games for any platform.",
+   "tool_ids": [
+    "tool_unity",
+    "tool_unreal_engine",
+    "tool_godot",
+    "tool_blender"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_technical_writing",
+   "slug": "technical-writing",
+   "label": "Write technical documentation",
+   "task_family": "write-communicate",
+   "section": "TECHNOLOGY & SOFTWARE",
+   "universal": false,
+   "description": "Docs people can actually follow.",
+   "tool_ids": [
+    "tool_docusaurus",
+    "tool_gitbook",
+    "tool_confluence",
+    "tool_vale"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_diagramming",
+   "slug": "diagramming",
+   "label": "Diagram systems and processes",
+   "task_family": "create",
+   "section": "TECHNOLOGY & SOFTWARE",
+   "universal": false,
+   "description": "Architecture, flows and org charts.",
+   "tool_ids": [
+    "tool_draw_io",
+    "tool_excalidraw",
+    "tool_lucidchart",
+    "tool_miro",
+    "tool_mermaid"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_machine_learning",
+   "slug": "machine-learning",
+   "label": "Build machine-learning models",
+   "task_family": "build",
+   "section": "TECHNOLOGY & SOFTWARE",
+   "universal": false,
+   "description": "Train, evaluate and deploy models.",
+   "tool_ids": [
+    "tool_python",
+    "tool_jupyter",
+    "tool_scikit_learn",
+    "tool_pytorch",
+    "tool_hugging_face",
+    "tool_google_colab"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_ai_app_development",
+   "slug": "ai-app-development",
+   "label": "Build applications on AI models",
+   "task_family": "build",
+   "section": "TECHNOLOGY & SOFTWARE",
+   "universal": false,
+   "description": "Add AI features to products responsibly.",
+   "tool_ids": [
+    "tool_anthropic_api",
+    "tool_openai_api",
+    "tool_hugging_face",
+    "tool_langchain"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_automation_workflows",
+   "slug": "automation-workflows",
+   "label": "Automate repetitive work across apps",
+   "task_family": "automate",
+   "section": "TECHNOLOGY & SOFTWARE",
+   "universal": false,
+   "description": "Let software do the copying and pasting.",
+   "tool_ids": [
+    "tool_zapier",
+    "tool_n8n",
+    "tool_make",
+    "tool_power_automate",
+    "tool_google_apps_script"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_browser_productivity",
+   "slug": "browser-productivity",
+   "label": "Work faster in the browser",
+   "task_family": "organize",
+   "section": "TECHNOLOGY & SOFTWARE",
+   "universal": false,
+   "description": "Profiles, extensions and shortcuts that save hours.",
+   "tool_ids": [
+    "tool_google_chrome",
+    "tool_microsoft_edge",
+    "tool_firefox"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_data_cleaning",
+   "slug": "data-cleaning",
+   "label": "Clean and prepare data",
+   "task_family": "analyze",
+   "section": "DATA & ANALYTICS",
+   "universal": false,
+   "description": "Fix messy data before you analyse it.",
+   "tool_ids": [
+    "tool_power_query",
+    "tool_openrefine",
+    "tool_python",
+    "tool_microsoft_excel",
+    "tool_alteryx"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_sql_querying",
+   "slug": "sql-querying",
+   "label": "Query data with SQL",
+   "task_family": "analyze",
+   "section": "DATA & ANALYTICS",
+   "universal": false,
+   "description": "Ask precise questions of any database.",
+   "tool_ids": [
+    "tool_dbeaver",
+    "tool_bigquery",
+    "tool_postgresql",
+    "tool_sqlite",
+    "tool_mode"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_dashboards_bi",
+   "slug": "dashboards-bi",
+   "label": "Build dashboards and reports",
+   "task_family": "analyze",
+   "section": "DATA & ANALYTICS",
+   "universal": false,
+   "description": "Interactive reports decision-makers use.",
+   "tool_ids": [
+    "tool_power_bi",
+    "tool_tableau",
+    "tool_looker_studio",
+    "tool_metabase",
+    "tool_apache_superset"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_statistical_analysis",
+   "slug": "statistical-analysis",
+   "label": "Run statistical analysis",
+   "task_family": "analyze",
+   "section": "DATA & ANALYTICS",
+   "universal": false,
+   "description": "Tests, models and confidence in your conclusions.",
+   "tool_ids": [
+    "tool_r",
+    "tool_python",
+    "tool_spss",
+    "tool_stata",
+    "tool_jamovi",
+    "tool_jasp"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_data_visualisation",
+   "slug": "data-visualisation",
+   "label": "Make clear charts",
+   "task_family": "analyze",
+   "section": "DATA & ANALYTICS",
+   "universal": false,
+   "description": "Charts that tell the truth and get the point across.",
+   "tool_ids": [
+    "tool_datawrapper",
+    "tool_flourish",
+    "tool_microsoft_excel",
+    "tool_tableau",
+    "tool_python"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_data_pipelines",
+   "slug": "data-pipelines",
+   "label": "Build data pipelines",
+   "task_family": "automate",
+   "section": "DATA & ANALYTICS",
+   "universal": false,
+   "description": "Reliable, scheduled data flows.",
+   "tool_ids": [
+    "tool_apache_airflow",
+    "tool_dbt",
+    "tool_databricks",
+    "tool_snowflake",
+    "tool_bigquery"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_notebooks",
+   "slug": "notebooks",
+   "label": "Analyse in notebooks",
+   "task_family": "analyze",
+   "section": "DATA & ANALYTICS",
+   "universal": false,
+   "description": "Code, results and narrative together.",
+   "tool_ids": [
+    "tool_jupyter",
+    "tool_google_colab",
+    "tool_rstudio"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_financial_modelling",
+   "slug": "financial-modelling",
+   "label": "Build financial models",
+   "task_family": "analyze",
+   "section": "FINANCE & ACCOUNTING",
+   "universal": false,
+   "description": "Three-statement models, valuations and scenarios.",
+   "tool_ids": [
+    "tool_microsoft_excel",
+    "tool_google_sheets",
+    "tool_python",
+    "tool_power_bi"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_bookkeeping",
+   "slug": "bookkeeping",
+   "label": "Keep books and accounts",
+   "task_family": "organize",
+   "section": "FINANCE & ACCOUNTING",
+   "universal": false,
+   "description": "Record transactions and produce accounts.",
+   "tool_ids": [
+    "tool_quickbooks",
+    "tool_xero",
+    "tool_sage",
+    "tool_zoho_books",
+    "tool_wave"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_invoicing",
+   "slug": "invoicing",
+   "label": "Send invoices and get paid",
+   "task_family": "grow-business",
+   "section": "FINANCE & ACCOUNTING",
+   "universal": false,
+   "description": "Professional invoices and faster payment.",
+   "tool_ids": [
+    "tool_wave",
+    "tool_zoho_invoice",
+    "tool_quickbooks",
+    "tool_invoice_ninja",
+    "tool_paystack"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_tax_compliance",
+   "slug": "tax-compliance",
+   "label": "Prepare tax and compliance filings",
+   "task_family": "organize",
+   "section": "FINANCE & ACCOUNTING",
+   "universal": false,
+   "description": "Accurate filings with an audit trail.",
+   "tool_ids": [
+    "tool_quickbooks",
+    "tool_xero",
+    "tool_microsoft_excel"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_audit_analytics",
+   "slug": "audit-analytics",
+   "label": "Analyse data for audit",
+   "task_family": "analyze",
+   "section": "FINANCE & ACCOUNTING",
+   "universal": false,
+   "description": "Test whole populations, not just samples.",
+   "tool_ids": [
+    "tool_caseware_idea",
+    "tool_microsoft_excel",
+    "tool_power_bi",
+    "tool_python"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_market_research_finance",
+   "slug": "market-research-finance",
+   "label": "Research markets and securities",
+   "task_family": "research",
+   "section": "FINANCE & ACCOUNTING",
+   "universal": false,
+   "description": "Prices, fundamentals and news in one place.",
+   "tool_ids": [
+    "tool_bloomberg_terminal",
+    "tool_lseg_workspace",
+    "tool_tradingview",
+    "tool_koyfin",
+    "tool_yahoo_finance"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_budgeting_fpa",
+   "slug": "budgeting-fpa",
+   "label": "Plan budgets and forecasts",
+   "task_family": "analyze",
+   "section": "FINANCE & ACCOUNTING",
+   "universal": false,
+   "description": "Budgets, variance analysis and rolling forecasts.",
+   "tool_ids": [
+    "tool_microsoft_excel",
+    "tool_power_bi",
+    "tool_anaplan",
+    "tool_google_sheets"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_payroll",
+   "slug": "payroll",
+   "label": "Run payroll",
+   "task_family": "organize",
+   "section": "FINANCE & ACCOUNTING",
+   "universal": false,
+   "description": "Pay people correctly and on time.",
+   "tool_ids": [
+    "tool_deel",
+    "tool_gusto",
+    "tool_sage",
+    "tool_microsoft_excel"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_risk_modelling",
+   "slug": "risk-modelling",
+   "label": "Model and monitor risk",
+   "task_family": "analyze",
+   "section": "FINANCE & ACCOUNTING",
+   "universal": false,
+   "description": "Scenarios, stress tests and risk metrics.",
+   "tool_ids": [
+    "tool_microsoft_excel",
+    "tool_python",
+    "tool_r",
+    "tool_matlab"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_legal_research",
+   "slug": "legal-research",
+   "label": "Research law and case law",
+   "task_family": "research",
+   "section": "LAW & JUSTICE",
+   "universal": false,
+   "description": "Find authorities fast and cite them correctly.",
+   "tool_ids": [
+    "tool_westlaw",
+    "tool_lexisnexis",
+    "tool_google_scholar",
+    "tool_bailii",
+    "tool_lawpavilion"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_contract_drafting",
+   "slug": "contract-drafting",
+   "label": "Draft and review contracts",
+   "task_family": "write-communicate",
+   "section": "LAW & JUSTICE",
+   "universal": false,
+   "description": "Clean drafts, tracked changes and clause libraries.",
+   "tool_ids": [
+    "tool_microsoft_word",
+    "tool_docusign",
+    "tool_adobe_acrobat",
+    "tool_claude"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_legal_practice_management",
+   "slug": "legal-practice-management",
+   "label": "Manage cases, time and billing",
+   "task_family": "organize",
+   "section": "LAW & JUSTICE",
+   "universal": false,
+   "description": "Matters, deadlines and billable hours.",
+   "tool_ids": [
+    "tool_clio",
+    "tool_mycase",
+    "tool_practicepanther"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_ediscovery",
+   "slug": "ediscovery",
+   "label": "Review large document sets",
+   "task_family": "analyze",
+   "section": "LAW & JUSTICE",
+   "universal": false,
+   "description": "Search, tag and produce documents defensibly.",
+   "tool_ids": [
+    "tool_relativity",
+    "tool_everlaw"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_lesson_planning",
+   "slug": "lesson-planning",
+   "label": "Plan lessons and courses",
+   "task_family": "teach-support",
+   "section": "EDUCATION & RESEARCH",
+   "universal": false,
+   "description": "Clear objectives, activities and materials.",
+   "tool_ids": [
+    "tool_google_docs",
+    "tool_canva",
+    "tool_notion",
+    "tool_microsoft_onenote",
+    "tool_claude",
+    "tool_chatgpt"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_virtual_classroom",
+   "slug": "virtual-classroom",
+   "label": "Run a virtual classroom or LMS",
+   "task_family": "teach-support",
+   "section": "EDUCATION & RESEARCH",
+   "universal": false,
+   "description": "Assignments, resources and communication in one place.",
+   "tool_ids": [
+    "tool_google_classroom",
+    "tool_moodle",
+    "tool_microsoft_teams",
+    "tool_canvas_lms"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_quizzes_assessment",
+   "slug": "quizzes-assessment",
+   "label": "Create quizzes and assessments",
+   "task_family": "teach-support",
+   "section": "EDUCATION & RESEARCH",
+   "universal": false,
+   "description": "Check understanding quickly and fairly.",
+   "tool_ids": [
+    "tool_kahoot",
+    "tool_google_forms",
+    "tool_socrative",
+    "tool_mentimeter"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_interactive_teaching",
+   "slug": "interactive-teaching",
+   "label": "Make lessons interactive",
+   "task_family": "teach-support",
+   "section": "EDUCATION & RESEARCH",
+   "universal": false,
+   "description": "Get everyone participating.",
+   "tool_ids": [
+    "tool_mentimeter",
+    "tool_padlet",
+    "tool_nearpod",
+    "tool_miro"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_screen_recording",
+   "slug": "screen-recording",
+   "label": "Record lessons and screencasts",
+   "task_family": "create",
+   "section": "EDUCATION & RESEARCH",
+   "universal": false,
+   "description": "Explain once, reuse often.",
+   "tool_ids": [
+    "tool_obs_studio",
+    "tool_loom",
+    "tool_canva"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_grading_feedback",
+   "slug": "grading-feedback",
+   "label": "Mark work and give feedback",
+   "task_family": "teach-support",
+   "section": "EDUCATION & RESEARCH",
+   "universal": false,
+   "description": "Faster, more consistent marking.",
+   "tool_ids": [
+    "tool_google_classroom",
+    "tool_turnitin",
+    "tool_gradescope",
+    "tool_microsoft_excel",
+    "tool_google_sheets"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_literature_review",
+   "slug": "literature-review",
+   "label": "Run literature reviews",
+   "task_family": "research",
+   "section": "EDUCATION & RESEARCH",
+   "universal": false,
+   "description": "Find, screen and organise the literature.",
+   "tool_ids": [
+    "tool_zotero",
+    "tool_rayyan",
+    "tool_connected_papers",
+    "tool_semantic_scholar",
+    "tool_google_scholar"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_academic_writing",
+   "slug": "academic-writing",
+   "label": "Write papers and theses",
+   "task_family": "write-communicate",
+   "section": "EDUCATION & RESEARCH",
+   "universal": false,
+   "description": "Structure, citations and formatting done right.",
+   "tool_ids": [
+    "tool_overleaf",
+    "tool_microsoft_word",
+    "tool_zotero",
+    "tool_languagetool"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_research_surveys",
+   "slug": "research-surveys",
+   "label": "Run research surveys",
+   "task_family": "research",
+   "section": "EDUCATION & RESEARCH",
+   "universal": false,
+   "description": "Valid instruments and clean responses.",
+   "tool_ids": [
+    "tool_kobotoolbox",
+    "tool_qualtrics",
+    "tool_limesurvey",
+    "tool_google_forms"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_qualitative_analysis",
+   "slug": "qualitative-analysis",
+   "label": "Analyse interviews and qualitative data",
+   "task_family": "analyze",
+   "section": "EDUCATION & RESEARCH",
+   "universal": false,
+   "description": "Code themes and build evidence from text.",
+   "tool_ids": [
+    "tool_nvivo",
+    "tool_atlas_ti",
+    "tool_taguette"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_accessible_materials",
+   "slug": "accessible-materials",
+   "label": "Create accessible learning materials",
+   "task_family": "teach-support",
+   "section": "EDUCATION & RESEARCH",
+   "universal": false,
+   "description": "Materials everyone can use, including disabled learners.",
+   "tool_ids": [
+    "tool_microsoft_word",
+    "tool_microsoft_immersive_reader",
+    "tool_canva",
+    "tool_google_docs"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_study_skills",
+   "slug": "study-skills",
+   "label": "Study and revise effectively",
+   "task_family": "learn",
+   "section": "EDUCATION & RESEARCH",
+   "universal": false,
+   "description": "Learn more in less time and remember it.",
+   "tool_ids": [
+    "tool_anki",
+    "tool_quizlet",
+    "tool_notion",
+    "tool_khan_academy"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_graphic_design_pro",
+   "slug": "graphic-design-pro",
+   "label": "Design professional graphics",
+   "task_family": "create",
+   "section": "CREATIVE, MEDIA & DESIGN",
+   "universal": false,
+   "description": "Print and digital design to a professional standard.",
+   "tool_ids": [
+    "tool_adobe_photoshop",
+    "tool_adobe_illustrator",
+    "tool_affinity",
+    "tool_inkscape",
+    "tool_gimp",
+    "tool_figma"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_brand_identity",
+   "slug": "brand-identity",
+   "label": "Build brand identities",
+   "task_family": "create",
+   "section": "CREATIVE, MEDIA & DESIGN",
+   "universal": false,
+   "description": "Logos, palettes and guidelines.",
+   "tool_ids": [
+    "tool_adobe_illustrator",
+    "tool_figma",
+    "tool_canva",
+    "tool_inkscape"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_video_editing_pro",
+   "slug": "video-editing-pro",
+   "label": "Edit video professionally",
+   "task_family": "create",
+   "section": "CREATIVE, MEDIA & DESIGN",
+   "universal": false,
+   "description": "Story, pace, colour and sound.",
+   "tool_ids": [
+    "tool_davinci_resolve",
+    "tool_adobe_premiere_pro",
+    "tool_final_cut_pro",
+    "tool_shotcut",
+    "tool_kdenlive"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_motion_graphics",
+   "slug": "motion-graphics",
+   "label": "Create motion graphics and animation",
+   "task_family": "create",
+   "section": "CREATIVE, MEDIA & DESIGN",
+   "universal": false,
+   "description": "Titles, explainers and animated graphics.",
+   "tool_ids": [
+    "tool_adobe_after_effects",
+    "tool_blender",
+    "tool_rive"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_3d_modelling",
+   "slug": "3d-modelling",
+   "label": "Model and render in 3D",
+   "task_family": "create",
+   "section": "CREATIVE, MEDIA & DESIGN",
+   "universal": false,
+   "description": "Characters, products and scenes.",
+   "tool_ids": [
+    "tool_blender",
+    "tool_autodesk_maya",
+    "tool_cinema_4d",
+    "tool_sketchup"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_photography_workflow",
+   "slug": "photography-workflow",
+   "label": "Manage and edit photography",
+   "task_family": "create",
+   "section": "CREATIVE, MEDIA & DESIGN",
+   "universal": false,
+   "description": "Cull, grade and deliver photos efficiently.",
+   "tool_ids": [
+    "tool_adobe_lightroom",
+    "tool_darktable",
+    "tool_capture_one"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_audio_production",
+   "slug": "audio-production",
+   "label": "Record and mix audio and music",
+   "task_family": "create",
+   "section": "CREATIVE, MEDIA & DESIGN",
+   "universal": false,
+   "description": "Recording, editing, mixing and mastering.",
+   "tool_ids": [
+    "tool_bandlab",
+    "tool_audacity",
+    "tool_reaper",
+    "tool_ableton_live",
+    "tool_logic_pro",
+    "tool_garageband",
+    "tool_fl_studio"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_podcast_production",
+   "slug": "podcast-production",
+   "label": "Produce podcasts",
+   "task_family": "create",
+   "section": "CREATIVE, MEDIA & DESIGN",
+   "universal": false,
+   "description": "Record remotely, edit by text, publish everywhere.",
+   "tool_ids": [
+    "tool_riverside",
+    "tool_descript",
+    "tool_audacity",
+    "tool_buzzsprout"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_live_streaming",
+   "slug": "live-streaming",
+   "label": "Stream live",
+   "task_family": "create",
+   "section": "CREATIVE, MEDIA & DESIGN",
+   "universal": false,
+   "description": "Professional live broadcasts from a laptop.",
+   "tool_ids": [
+    "tool_obs_studio",
+    "tool_streamyard",
+    "tool_restream"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_book_writing_publishing",
+   "slug": "book-writing-publishing",
+   "label": "Write and self-publish books",
+   "task_family": "write-communicate",
+   "section": "CREATIVE, MEDIA & DESIGN",
+   "universal": false,
+   "description": "From manuscript to published book.",
+   "tool_ids": [
+    "tool_scrivener",
+    "tool_google_docs",
+    "tool_reedsy",
+    "tool_amazon_kdp"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_music_notation",
+   "slug": "music-notation",
+   "label": "Write sheet music",
+   "task_family": "create",
+   "section": "CREATIVE, MEDIA & DESIGN",
+   "universal": false,
+   "description": "Scores and parts for any ensemble.",
+   "tool_ids": [
+    "tool_musescore",
+    "tool_sibelius",
+    "tool_dorico"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_media_verification",
+   "slug": "media-verification",
+   "label": "Verify sources, images and video",
+   "task_family": "research",
+   "section": "CREATIVE, MEDIA & DESIGN",
+   "universal": false,
+   "description": "Confirm what's real before publishing.",
+   "tool_ids": [
+    "tool_google_lens",
+    "tool_tineye",
+    "tool_invid_wevrify",
+    "tool_google_fact_check_explorer"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_newsletter_publishing",
+   "slug": "newsletter-publishing",
+   "label": "Publish newsletters",
+   "task_family": "grow-business",
+   "section": "CREATIVE, MEDIA & DESIGN",
+   "universal": false,
+   "description": "Own your audience and publish regularly.",
+   "tool_ids": [
+    "tool_substack",
+    "tool_beehiiv",
+    "tool_mailchimp",
+    "tool_ghost"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_content_planning",
+   "slug": "content-planning",
+   "label": "Plan and schedule content",
+   "task_family": "organize",
+   "section": "CREATIVE, MEDIA & DESIGN",
+   "universal": false,
+   "description": "A content calendar you actually keep.",
+   "tool_ids": [
+    "tool_notion",
+    "tool_trello",
+    "tool_buffer",
+    "tool_metricool"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_creator_income",
+   "slug": "creator-income",
+   "label": "Earn from your content",
+   "task_family": "grow-business",
+   "section": "CREATIVE, MEDIA & DESIGN",
+   "universal": false,
+   "description": "Memberships, tips and digital products.",
+   "tool_ids": [
+    "tool_patreon",
+    "tool_ko_fi",
+    "tool_selar",
+    "tool_gumroad"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_release_music",
+   "slug": "release-music",
+   "label": "Release your music on streaming platforms",
+   "task_family": "grow-business",
+   "section": "CREATIVE, MEDIA & DESIGN",
+   "universal": false,
+   "description": "Get your songs onto Spotify, Apple Music, Audiomack and more, and collect what they earn.",
+   "tool_ids": [
+    "tool_distrokid",
+    "tool_tunecore",
+    "tool_bandlab",
+    "tool_audiomack"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_artist_profiles",
+   "slug": "artist-profiles",
+   "label": "Grow your audience on streaming platforms",
+   "task_family": "grow-business",
+   "section": "CREATIVE, MEDIA & DESIGN",
+   "universal": false,
+   "description": "Claim your artist profiles, read your stats and pitch new songs.",
+   "tool_ids": [
+    "tool_spotify_for_artists",
+    "tool_audiomack",
+    "tool_instagram"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_fashion_design",
+   "slug": "fashion-design",
+   "label": "Design clothing and patterns",
+   "task_family": "create",
+   "section": "CREATIVE, MEDIA & DESIGN",
+   "universal": false,
+   "description": "Flats, patterns and 3D garments.",
+   "tool_ids": [
+    "tool_clo_3d",
+    "tool_adobe_illustrator",
+    "tool_seamly2d"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_interior_design",
+   "slug": "interior-design",
+   "label": "Design interiors and spaces",
+   "task_family": "create",
+   "section": "CREATIVE, MEDIA & DESIGN",
+   "universal": false,
+   "description": "Layouts, materials and visualisations clients understand.",
+   "tool_ids": [
+    "tool_sketchup",
+    "tool_planner_5d",
+    "tool_homestyler",
+    "tool_enscape"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_architectural_visualisation",
+   "slug": "architectural-visualisation",
+   "label": "Visualise architecture",
+   "task_family": "create",
+   "section": "CREATIVE, MEDIA & DESIGN",
+   "universal": false,
+   "description": "Renders and walkthroughs that sell the design.",
+   "tool_ids": [
+    "tool_enscape",
+    "tool_lumion",
+    "tool_twinmotion",
+    "tool_d5_render",
+    "tool_blender"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_digital_illustration",
+   "slug": "digital-illustration",
+   "label": "Paint and illustrate digitally",
+   "task_family": "create",
+   "section": "CREATIVE, MEDIA & DESIGN",
+   "universal": false,
+   "description": "Illustration, comics and concept art.",
+   "tool_ids": [
+    "tool_procreate",
+    "tool_krita",
+    "tool_clip_studio_paint"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_sell_art_online",
+   "slug": "sell-art-online",
+   "label": "Sell art and crafts online",
+   "task_family": "grow-business",
+   "section": "CREATIVE, MEDIA & DESIGN",
+   "universal": false,
+   "description": "Reach buyers beyond your local market.",
+   "tool_ids": [
+    "tool_etsy",
+    "tool_shopify",
+    "tool_selar",
+    "tool_redbubble"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_social_media_management",
+   "slug": "social-media-management",
+   "label": "Manage social media professionally",
+   "task_family": "grow-business",
+   "section": "MARKETING, SALES & COMMUNICATIONS",
+   "universal": false,
+   "description": "Plan, publish and measure across platforms.",
+   "tool_ids": [
+    "tool_buffer",
+    "tool_hootsuite",
+    "tool_meta_business_suite",
+    "tool_metricool"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_email_marketing",
+   "slug": "email-marketing",
+   "label": "Run email marketing",
+   "task_family": "grow-business",
+   "section": "MARKETING, SALES & COMMUNICATIONS",
+   "universal": false,
+   "description": "Newsletters and automated sequences that convert.",
+   "tool_ids": [
+    "tool_mailchimp",
+    "tool_mailerlite",
+    "tool_brevo",
+    "tool_kit"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_seo",
+   "slug": "seo",
+   "label": "Get found on search engines",
+   "task_family": "grow-business",
+   "section": "MARKETING, SALES & COMMUNICATIONS",
+   "universal": false,
+   "description": "Rank for what your customers search.",
+   "tool_ids": [
+    "tool_google_search_console",
+    "tool_google_analytics",
+    "tool_semrush",
+    "tool_ahrefs"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_crm_sales",
+   "slug": "crm-sales",
+   "label": "Manage customers and the sales pipeline",
+   "task_family": "grow-business",
+   "section": "MARKETING, SALES & COMMUNICATIONS",
+   "universal": false,
+   "description": "Never lose track of a lead or client.",
+   "tool_ids": [
+    "tool_hubspot",
+    "tool_zoho_crm",
+    "tool_salesforce",
+    "tool_pipedrive"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_online_ads",
+   "slug": "online-ads",
+   "label": "Run online ads",
+   "task_family": "grow-business",
+   "section": "MARKETING, SALES & COMMUNICATIONS",
+   "universal": false,
+   "description": "Reach the right people within budget.",
+   "tool_ids": [
+    "tool_google_ads",
+    "tool_meta_ads_manager",
+    "tool_linkedin"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_web_analytics",
+   "slug": "web-analytics",
+   "label": "Measure website traffic",
+   "task_family": "analyze",
+   "section": "MARKETING, SALES & COMMUNICATIONS",
+   "universal": false,
+   "description": "Understand visitors and what they do.",
+   "tool_ids": [
+    "tool_google_analytics",
+    "tool_plausible",
+    "tool_matomo",
+    "tool_microsoft_clarity"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_pr_media_monitoring",
+   "slug": "pr-media-monitoring",
+   "label": "Monitor media and run PR",
+   "task_family": "grow-business",
+   "section": "MARKETING, SALES & COMMUNICATIONS",
+   "universal": false,
+   "description": "Track coverage and pitch journalists.",
+   "tool_ids": [
+    "tool_google_alerts",
+    "tool_muck_rack",
+    "tool_meltwater"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_customer_support",
+   "slug": "customer-support",
+   "label": "Support customers",
+   "task_family": "grow-business",
+   "section": "MARKETING, SALES & COMMUNICATIONS",
+   "universal": false,
+   "description": "Answer quickly and keep customers happy.",
+   "tool_ids": [
+    "tool_whatsapp_business",
+    "tool_zendesk",
+    "tool_freshdesk",
+    "tool_crisp",
+    "tool_google_translate",
+    "tool_deepl"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_events_management",
+   "slug": "events-management",
+   "label": "Plan and run events",
+   "task_family": "organize",
+   "section": "MARKETING, SALES & COMMUNICATIONS",
+   "universal": false,
+   "description": "Registrations, reminders and check-in.",
+   "tool_ids": [
+    "tool_eventbrite",
+    "tool_luma",
+    "tool_google_forms",
+    "tool_canva"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_copywriting",
+   "slug": "copywriting",
+   "label": "Write persuasive copy",
+   "task_family": "write-communicate",
+   "section": "MARKETING, SALES & COMMUNICATIONS",
+   "universal": false,
+   "description": "Words that make people act.",
+   "tool_ids": [
+    "tool_claude",
+    "tool_chatgpt",
+    "tool_hemingway_editor",
+    "tool_grammarly"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_market_research",
+   "slug": "market-research",
+   "label": "Research markets and competitors",
+   "task_family": "research",
+   "section": "MARKETING, SALES & COMMUNICATIONS",
+   "universal": false,
+   "description": "Size markets and understand competitors.",
+   "tool_ids": [
+    "tool_google_trends",
+    "tool_statista",
+    "tool_similarweb",
+    "tool_typeform"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_business_planning",
+   "slug": "business-planning",
+   "label": "Write business plans and strategy",
+   "task_family": "grow-business",
+   "section": "BUSINESS, MANAGEMENT & ADMINISTRATION",
+   "universal": false,
+   "description": "A plan investors and teams can follow.",
+   "tool_ids": [
+    "tool_google_docs",
+    "tool_microsoft_excel",
+    "tool_miro",
+    "tool_canva",
+    "tool_notion",
+    "tool_claude",
+    "tool_chatgpt"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_project_management",
+   "slug": "project-management",
+   "label": "Manage projects and teams",
+   "task_family": "organize",
+   "section": "BUSINESS, MANAGEMENT & ADMINISTRATION",
+   "universal": false,
+   "description": "Who does what, by when.",
+   "tool_ids": [
+    "tool_asana",
+    "tool_trello",
+    "tool_monday_com",
+    "tool_clickup",
+    "tool_notion",
+    "tool_microsoft_project"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_process_mapping",
+   "slug": "process-mapping",
+   "label": "Map and improve processes",
+   "task_family": "organize",
+   "section": "BUSINESS, MANAGEMENT & ADMINISTRATION",
+   "universal": false,
+   "description": "See the process, then fix it.",
+   "tool_ids": [
+    "tool_draw_io",
+    "tool_lucidchart",
+    "tool_miro",
+    "tool_bizagi_modeler",
+    "tool_microsoft_visio"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_kpi_tracking",
+   "slug": "kpi-tracking",
+   "label": "Track goals and KPIs",
+   "task_family": "analyze",
+   "section": "BUSINESS, MANAGEMENT & ADMINISTRATION",
+   "universal": false,
+   "description": "Know whether you're on target.",
+   "tool_ids": [
+    "tool_power_bi",
+    "tool_google_sheets",
+    "tool_microsoft_excel",
+    "tool_notion"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_recruitment",
+   "slug": "recruitment",
+   "label": "Recruit and onboard staff",
+   "task_family": "organize",
+   "section": "BUSINESS, MANAGEMENT & ADMINISTRATION",
+   "universal": false,
+   "description": "Attract, select and onboard well.",
+   "tool_ids": [
+    "tool_linkedin",
+    "tool_workable",
+    "tool_bamboohr",
+    "tool_google_forms"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_people_management",
+   "slug": "people-management",
+   "label": "Manage people records, leave and performance",
+   "task_family": "organize",
+   "section": "BUSINESS, MANAGEMENT & ADMINISTRATION",
+   "universal": false,
+   "description": "HR admin without spreadsheets chaos.",
+   "tool_ids": [
+    "tool_bamboohr",
+    "tool_zoho_people",
+    "tool_deel"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_inventory_procurement",
+   "slug": "inventory-procurement",
+   "label": "Manage inventory and purchasing",
+   "task_family": "organize",
+   "section": "BUSINESS, MANAGEMENT & ADMINISTRATION",
+   "universal": false,
+   "description": "Know what you have and what to reorder.",
+   "tool_ids": [
+    "tool_zoho_inventory",
+    "tool_sortly",
+    "tool_odoo",
+    "tool_microsoft_excel"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_erp",
+   "slug": "erp",
+   "label": "Run operations on an ERP",
+   "task_family": "organize",
+   "section": "BUSINESS, MANAGEMENT & ADMINISTRATION",
+   "universal": false,
+   "description": "Finance, stock and operations in one system.",
+   "tool_ids": [
+    "tool_odoo",
+    "tool_erpnext",
+    "tool_sap",
+    "tool_microsoft_dynamics_365",
+    "tool_oracle_netsuite"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_meeting_minutes",
+   "slug": "meeting-minutes",
+   "label": "Capture minutes and actions",
+   "task_family": "write-communicate",
+   "section": "BUSINESS, MANAGEMENT & ADMINISTRATION",
+   "universal": false,
+   "description": "Decisions and actions nobody forgets.",
+   "tool_ids": [
+    "tool_otter_ai",
+    "tool_microsoft_teams",
+    "tool_notion",
+    "tool_google_docs"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_online_store",
+   "slug": "online-store",
+   "label": "Sell online",
+   "task_family": "grow-business",
+   "section": "BUSINESS, MANAGEMENT & ADMINISTRATION",
+   "universal": false,
+   "description": "A shop open 24/7.",
+   "tool_ids": [
+    "tool_shopify",
+    "tool_woocommerce",
+    "tool_selar",
+    "tool_wix",
+    "tool_canva"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_booking_appointments",
+   "slug": "booking-appointments",
+   "label": "Take bookings and appointments",
+   "task_family": "grow-business",
+   "section": "BUSINESS, MANAGEMENT & ADMINISTRATION",
+   "universal": false,
+   "description": "Let customers book themselves.",
+   "tool_ids": [
+    "tool_calendly",
+    "tool_setmore",
+    "tool_square",
+    "tool_fresha"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_point_of_sale",
+   "slug": "point-of-sale",
+   "label": "Take payments in person",
+   "task_family": "grow-business",
+   "section": "BUSINESS, MANAGEMENT & ADMINISTRATION",
+   "universal": false,
+   "description": "Fast checkout and sales records.",
+   "tool_ids": [
+    "tool_square",
+    "tool_loyverse",
+    "tool_sumup",
+    "tool_moniepoint"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_consulting_deliverables",
+   "slug": "consulting-deliverables",
+   "label": "Produce consulting analyses and slides",
+   "task_family": "write-communicate",
+   "section": "BUSINESS, MANAGEMENT & ADMINISTRATION",
+   "universal": false,
+   "description": "Storylined decks and rigorous analysis.",
+   "tool_ids": [
+    "tool_microsoft_powerpoint",
+    "tool_think_cell",
+    "tool_microsoft_excel",
+    "tool_miro"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_workshop_facilitation",
+   "slug": "workshop-facilitation",
+   "label": "Facilitate workshops",
+   "task_family": "teach-support",
+   "section": "BUSINESS, MANAGEMENT & ADMINISTRATION",
+   "universal": false,
+   "description": "Engaging sessions with clear outcomes.",
+   "tool_ids": [
+    "tool_miro",
+    "tool_mural",
+    "tool_mentimeter",
+    "tool_sessionlab"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_marketplace_selling",
+   "slug": "marketplace-selling",
+   "label": "Sell on online marketplaces",
+   "task_family": "grow-business",
+   "section": "BUSINESS, MANAGEMENT & ADMINISTRATION",
+   "universal": false,
+   "description": "Reach buyers where they already shop.",
+   "tool_ids": [
+    "tool_amazon_seller_central",
+    "tool_etsy",
+    "tool_jumia",
+    "tool_jiji",
+    "tool_ebay"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_product_photography",
+   "slug": "product-photography",
+   "label": "Photograph products",
+   "task_family": "create",
+   "section": "BUSINESS, MANAGEMENT & ADMINISTRATION",
+   "universal": false,
+   "description": "Clean product images that sell.",
+   "tool_ids": [
+    "tool_photoroom",
+    "tool_remove_bg",
+    "tool_snapseed",
+    "tool_canva"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_policy_research",
+   "slug": "policy-research",
+   "label": "Research and draft policy",
+   "task_family": "research",
+   "section": "PUBLIC SERVICE, NON-PROFIT & DEVELOPMENT",
+   "universal": false,
+   "description": "Evidence-based briefs and policy papers.",
+   "tool_ids": [
+    "tool_google_scholar",
+    "tool_zotero",
+    "tool_microsoft_word",
+    "tool_claude"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_public_consultation",
+   "slug": "public-consultation",
+   "label": "Consult the public",
+   "task_family": "research",
+   "section": "PUBLIC SERVICE, NON-PROFIT & DEVELOPMENT",
+   "universal": false,
+   "description": "Hear from many people, fairly.",
+   "tool_ids": [
+    "tool_google_forms",
+    "tool_kobotoolbox",
+    "tool_decidim",
+    "tool_polis"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_monitoring_evaluation",
+   "slug": "monitoring-evaluation",
+   "label": "Monitor and evaluate programmes",
+   "task_family": "analyze",
+   "section": "PUBLIC SERVICE, NON-PROFIT & DEVELOPMENT",
+   "universal": false,
+   "description": "Indicators, field data and results reporting.",
+   "tool_ids": [
+    "tool_kobotoolbox",
+    "tool_odk",
+    "tool_dhis2",
+    "tool_activityinfo",
+    "tool_power_bi"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_fundraising",
+   "slug": "fundraising",
+   "label": "Fundraise and manage donors",
+   "task_family": "grow-business",
+   "section": "PUBLIC SERVICE, NON-PROFIT & DEVELOPMENT",
+   "universal": false,
+   "description": "Raise money and keep supporters engaged.",
+   "tool_ids": [
+    "tool_donorbox",
+    "tool_gofundme",
+    "tool_hubspot",
+    "tool_mailchimp"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_grant_finding",
+   "slug": "grant-finding",
+   "label": "Find and manage grants",
+   "task_family": "research",
+   "section": "PUBLIC SERVICE, NON-PROFIT & DEVELOPMENT",
+   "universal": false,
+   "description": "Find funders and track applications.",
+   "tool_ids": [
+    "tool_candid",
+    "tool_fundsforngos",
+    "tool_microsoft_excel"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_volunteer_coordination",
+   "slug": "volunteer-coordination",
+   "label": "Coordinate volunteers",
+   "task_family": "organize",
+   "section": "PUBLIC SERVICE, NON-PROFIT & DEVELOPMENT",
+   "universal": false,
+   "description": "Rotas, sign-ups and communication.",
+   "tool_ids": [
+    "tool_signupgenius",
+    "tool_google_sheets",
+    "tool_whatsapp"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_records_management",
+   "slug": "records-management",
+   "label": "Manage official records",
+   "task_family": "organize",
+   "section": "PUBLIC SERVICE, NON-PROFIT & DEVELOPMENT",
+   "universal": false,
+   "description": "Find any document, keep it secure.",
+   "tool_ids": [
+    "tool_sharepoint",
+    "tool_google_drive",
+    "tool_m_files"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_open_data",
+   "slug": "open-data",
+   "label": "Publish and use open data",
+   "task_family": "analyze",
+   "section": "PUBLIC SERVICE, NON-PROFIT & DEVELOPMENT",
+   "universal": false,
+   "description": "Transparent, reusable public data.",
+   "tool_ids": [
+    "tool_ckan",
+    "tool_datawrapper",
+    "tool_microsoft_excel"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_scripture_study",
+   "slug": "scripture-study",
+   "label": "Study scripture and prepare teaching",
+   "task_family": "research",
+   "section": "FAITH & COMMUNITY",
+   "universal": false,
+   "description": "Deep study, cross-references and original languages.",
+   "tool_ids": [
+    "tool_logos_bible_software",
+    "tool_youversion",
+    "tool_blue_letter_bible",
+    "tool_step_bible",
+    "tool_quran_com",
+    "tool_sefaria",
+    "tool_claude"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_worship_presentation",
+   "slug": "worship-presentation",
+   "label": "Run worship slides and media",
+   "task_family": "create",
+   "section": "FAITH & COMMUNITY",
+   "universal": false,
+   "description": "Lyrics, scripture and media on screen, smoothly.",
+   "tool_ids": [
+    "tool_propresenter",
+    "tool_easyworship",
+    "tool_openlp",
+    "tool_freeshow",
+    "tool_canva"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_service_livestream",
+   "slug": "service-livestream",
+   "label": "Live-stream services and events",
+   "task_family": "create",
+   "section": "FAITH & COMMUNITY",
+   "universal": false,
+   "description": "Reach members who can't attend in person.",
+   "tool_ids": [
+    "tool_obs_studio",
+    "tool_restream",
+    "tool_streamyard",
+    "tool_boxcast"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_congregation_management",
+   "slug": "congregation-management",
+   "label": "Manage members, groups and events",
+   "task_family": "organize",
+   "section": "FAITH & COMMUNITY",
+   "universal": false,
+   "description": "Members, rotas, groups and check-in.",
+   "tool_ids": [
+    "tool_planning_center",
+    "tool_churchsuite",
+    "tool_breeze"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_online_giving",
+   "slug": "online-giving",
+   "label": "Receive donations and offerings online",
+   "task_family": "grow-business",
+   "section": "FAITH & COMMUNITY",
+   "universal": false,
+   "description": "Easy, transparent giving.",
+   "tool_ids": [
+    "tool_tithely",
+    "tool_pushpay",
+    "tool_paystack",
+    "tool_donorbox"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_pastoral_care",
+   "slug": "pastoral-care",
+   "label": "Organise pastoral care and counselling",
+   "task_family": "organize",
+   "section": "FAITH & COMMUNITY",
+   "universal": false,
+   "description": "Follow up with people consistently and confidentially.",
+   "tool_ids": [
+    "tool_google_calendar",
+    "tool_planning_center",
+    "tool_notion"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_training_load",
+   "slug": "training-load",
+   "label": "Track training load and performance",
+   "task_family": "analyze",
+   "section": "SPORTS & FITNESS",
+   "universal": false,
+   "description": "Train smarter and avoid overtraining.",
+   "tool_ids": [
+    "tool_trainingpeaks",
+    "tool_strava",
+    "tool_garmin_connect",
+    "tool_intervals_icu"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_match_video_analysis",
+   "slug": "match-video-analysis",
+   "label": "Analyse match and technique video",
+   "task_family": "analyze",
+   "section": "SPORTS & FITNESS",
+   "universal": false,
+   "description": "Learn from every session and game.",
+   "tool_ids": [
+    "tool_hudl",
+    "tool_kinovea",
+    "tool_dartfish"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_team_organisation",
+   "slug": "team-organisation",
+   "label": "Organise teams, fixtures and communication",
+   "task_family": "organize",
+   "section": "SPORTS & FITNESS",
+   "universal": false,
+   "description": "Availability, fixtures and messages in one app.",
+   "tool_ids": [
+    "tool_teamsnap",
+    "tool_spond",
+    "tool_heja"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_online_coaching",
+   "slug": "online-coaching",
+   "label": "Coach clients online",
+   "task_family": "teach-support",
+   "section": "SPORTS & FITNESS",
+   "universal": false,
+   "description": "Programmes, check-ins and progress tracking.",
+   "tool_ids": [
+    "tool_trainerize",
+    "tool_truecoach",
+    "tool_everfit"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_sports_analytics",
+   "slug": "sports-analytics",
+   "label": "Analyse sports data",
+   "task_family": "analyze",
+   "section": "SPORTS & FITNESS",
+   "universal": false,
+   "description": "Find the edge in the numbers.",
+   "tool_ids": [
+    "tool_python",
+    "tool_r",
+    "tool_microsoft_excel",
+    "tool_tableau",
+    "tool_wyscout"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_gym_membership",
+   "slug": "gym-membership",
+   "label": "Manage memberships and class bookings",
+   "task_family": "grow-business",
+   "section": "SPORTS & FITNESS",
+   "universal": false,
+   "description": "Bookings, payments and retention.",
+   "tool_ids": [
+    "tool_mindbody",
+    "tool_glofox"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_athlete_brand",
+   "slug": "athlete-brand",
+   "label": "Build an athlete personal brand",
+   "task_family": "grow-business",
+   "section": "SPORTS & FITNESS",
+   "universal": false,
+   "description": "Grow your profile and attract sponsors.",
+   "tool_ids": [
+    "tool_canva",
+    "tool_capcut",
+    "tool_linkedin"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_farm_records",
+   "slug": "farm-records",
+   "label": "Keep farm records and finances",
+   "task_family": "organize",
+   "section": "AGRICULTURE, FOOD & ENVIRONMENT",
+   "universal": false,
+   "description": "Know your costs, yields and profit.",
+   "tool_ids": [
+    "tool_farmbrite",
+    "tool_agrivi",
+    "tool_microsoft_excel",
+    "tool_google_sheets"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_crop_monitoring",
+   "slug": "crop-monitoring",
+   "label": "Monitor crops with satellite data",
+   "task_family": "analyze",
+   "section": "AGRICULTURE, FOOD & ENVIRONMENT",
+   "universal": false,
+   "description": "Spot problems in the field from above.",
+   "tool_ids": [
+    "tool_eos_crop_monitoring",
+    "tool_climate_fieldview",
+    "tool_sentinel_hub",
+    "tool_google_earth_engine"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_weather_planning",
+   "slug": "weather-planning",
+   "label": "Plan around the weather",
+   "task_family": "organize",
+   "section": "AGRICULTURE, FOOD & ENVIRONMENT",
+   "universal": false,
+   "description": "Plant, spray and harvest at the right time.",
+   "tool_ids": [
+    "tool_windy",
+    "tool_meteoblue"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_plant_health",
+   "slug": "plant-health",
+   "label": "Identify plant pests and diseases",
+   "task_family": "research",
+   "section": "AGRICULTURE, FOOD & ENVIRONMENT",
+   "universal": false,
+   "description": "Diagnose crop problems from a photo.",
+   "tool_ids": [
+    "tool_plantix",
+    "tool_plantnet",
+    "tool_picturethis"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_livestock_management",
+   "slug": "livestock-management",
+   "label": "Manage livestock records",
+   "task_family": "organize",
+   "section": "AGRICULTURE, FOOD & ENVIRONMENT",
+   "universal": false,
+   "description": "Health, breeding and movement records.",
+   "tool_ids": [
+    "tool_agriwebb",
+    "tool_herdwatch",
+    "tool_cattlemax"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_agri_market_access",
+   "slug": "agri-market-access",
+   "label": "Find buyers and prices",
+   "task_family": "grow-business",
+   "section": "AGRICULTURE, FOOD & ENVIRONMENT",
+   "universal": false,
+   "description": "Sell at better prices.",
+   "tool_ids": [
+    "tool_whatsapp_business",
+    "tool_jiji",
+    "tool_facebook_marketplace",
+    "tool_esoko",
+    "tool_canva"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_environmental_monitoring",
+   "slug": "environmental-monitoring",
+   "label": "Monitor environment and biodiversity",
+   "task_family": "research",
+   "section": "AGRICULTURE, FOOD & ENVIRONMENT",
+   "universal": false,
+   "description": "Record species and track environmental change.",
+   "tool_ids": [
+    "tool_inaturalist",
+    "tool_ebird",
+    "tool_global_forest_watch",
+    "tool_qgis"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_food_safety",
+   "slug": "food-safety",
+   "label": "Manage food safety records",
+   "task_family": "organize",
+   "section": "AGRICULTURE, FOOD & ENVIRONMENT",
+   "universal": false,
+   "description": "Checks, temperatures and HACCP records.",
+   "tool_ids": [
+    "tool_safetyculture",
+    "tool_google_forms",
+    "tool_microsoft_excel"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_recipe_costing",
+   "slug": "recipe-costing",
+   "label": "Cost recipes and menus",
+   "task_family": "analyze",
+   "section": "AGRICULTURE, FOOD & ENVIRONMENT",
+   "universal": false,
+   "description": "Price dishes for profit.",
+   "tool_ids": [
+    "tool_microsoft_excel",
+    "tool_meez",
+    "tool_apicbase"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_site_management",
+   "slug": "site-management",
+   "label": "Manage construction sites and snags",
+   "task_family": "organize",
+   "section": "CONSTRUCTION, PROPERTY & TRADES",
+   "universal": false,
+   "description": "Drawings, issues and daily logs on site.",
+   "tool_ids": [
+    "tool_procore",
+    "tool_fieldwire",
+    "tool_autodesk_build",
+    "tool_safetyculture"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_property_marketing",
+   "slug": "property-marketing",
+   "label": "Market property listings",
+   "task_family": "grow-business",
+   "section": "CONSTRUCTION, PROPERTY & TRADES",
+   "universal": false,
+   "description": "Listings and virtual tours that attract buyers.",
+   "tool_ids": [
+    "tool_canva",
+    "tool_matterport",
+    "tool_capcut",
+    "tool_google_business_profile"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_property_management",
+   "slug": "property-management",
+   "label": "Manage tenants and rent",
+   "task_family": "organize",
+   "section": "CONSTRUCTION, PROPERTY & TRADES",
+   "universal": false,
+   "description": "Leases, rent and maintenance requests.",
+   "tool_ids": [
+    "tool_buildium",
+    "tool_appfolio",
+    "tool_microsoft_excel"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_trade_quotes_invoicing",
+   "slug": "trade-quotes-invoicing",
+   "label": "Quote jobs and invoice as a tradesperson",
+   "task_family": "grow-business",
+   "section": "CONSTRUCTION, PROPERTY & TRADES",
+   "universal": false,
+   "description": "Win jobs and get paid faster.",
+   "tool_ids": [
+    "tool_jobber",
+    "tool_tradify",
+    "tool_invoice_ninja",
+    "tool_wave"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_site_measurement",
+   "slug": "site-measurement",
+   "label": "Measure and plan spaces",
+   "task_family": "analyze",
+   "section": "CONSTRUCTION, PROPERTY & TRADES",
+   "universal": false,
+   "description": "Floor plans and material quantities from your phone.",
+   "tool_ids": [
+    "tool_magicplan",
+    "tool_sketchup",
+    "tool_microsoft_excel"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_vehicle_diagnostics",
+   "slug": "vehicle-diagnostics",
+   "label": "Diagnose vehicles",
+   "task_family": "analyze",
+   "section": "CONSTRUCTION, PROPERTY & TRADES",
+   "universal": false,
+   "description": "Read fault codes and live data.",
+   "tool_ids": [
+    "tool_obd_auto_doctor",
+    "tool_carly",
+    "tool_torque_pro"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_repair_guides",
+   "slug": "repair-guides",
+   "label": "Find repair guides and schematics",
+   "task_family": "research",
+   "section": "CONSTRUCTION, PROPERTY & TRADES",
+   "universal": false,
+   "description": "Fix it yourself, safely.",
+   "tool_ids": [
+    "tool_ifixit",
+    "tool_kicad"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_woodworking_design",
+   "slug": "woodworking-design",
+   "label": "Design woodworking projects",
+   "task_family": "create",
+   "section": "CONSTRUCTION, PROPERTY & TRADES",
+   "universal": false,
+   "description": "Plans, cut lists and less waste.",
+   "tool_ids": [
+    "tool_sketchup",
+    "tool_fusion_360",
+    "tool_cutlist_optimizer"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_production_planning",
+   "slug": "production-planning",
+   "label": "Plan production and materials",
+   "task_family": "organize",
+   "section": "MANUFACTURING & PRODUCTION",
+   "universal": false,
+   "description": "Schedule production and materials.",
+   "tool_ids": [
+    "tool_odoo",
+    "tool_katana_mrp",
+    "tool_sap",
+    "tool_microsoft_excel"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_quality_statistics",
+   "slug": "quality-statistics",
+   "label": "Control quality with statistics",
+   "task_family": "analyze",
+   "section": "MANUFACTURING & PRODUCTION",
+   "universal": false,
+   "description": "SPC, capability and root cause.",
+   "tool_ids": [
+    "tool_minitab",
+    "tool_jmp",
+    "tool_microsoft_excel",
+    "tool_python"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_lean_six_sigma",
+   "slug": "lean-six-sigma",
+   "label": "Run lean and Six Sigma improvements",
+   "task_family": "analyze",
+   "section": "MANUFACTURING & PRODUCTION",
+   "universal": false,
+   "description": "DMAIC projects that stick.",
+   "tool_ids": [
+    "tool_minitab",
+    "tool_miro",
+    "tool_microsoft_visio",
+    "tool_microsoft_excel"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_cnc_cam",
+   "slug": "cnc-cam",
+   "label": "Program CNC machines (CAM)",
+   "task_family": "build",
+   "section": "MANUFACTURING & PRODUCTION",
+   "universal": false,
+   "description": "Toolpaths and G-code.",
+   "tool_ids": [
+    "tool_fusion_360",
+    "tool_mastercam",
+    "tool_freecad"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_3d_printing",
+   "slug": "3d-printing",
+   "label": "Prepare and print 3D models",
+   "task_family": "create",
+   "section": "MANUFACTURING & PRODUCTION",
+   "universal": false,
+   "description": "From model to printed part.",
+   "tool_ids": [
+    "tool_ultimaker_cura",
+    "tool_prusaslicer",
+    "tool_tinkercad",
+    "tool_bambu_studio"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_route_planning_fleet",
+   "slug": "route-planning-fleet",
+   "label": "Plan routes and track fleets",
+   "task_family": "organize",
+   "section": "TRANSPORT, LOGISTICS, AVIATION & MARITIME",
+   "universal": false,
+   "description": "Fewer miles, on-time deliveries.",
+   "tool_ids": [
+    "tool_google_maps",
+    "tool_routific",
+    "tool_onfleet",
+    "tool_samsara",
+    "tool_circuit"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_warehouse_inventory",
+   "slug": "warehouse-inventory",
+   "label": "Run warehouse inventory",
+   "task_family": "organize",
+   "section": "TRANSPORT, LOGISTICS, AVIATION & MARITIME",
+   "universal": false,
+   "description": "Accurate stock, fast picking.",
+   "tool_ids": [
+    "tool_zoho_inventory",
+    "tool_odoo",
+    "tool_sortly",
+    "tool_oracle_netsuite"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_shipment_tracking",
+   "slug": "shipment-tracking",
+   "label": "Book and track shipments",
+   "task_family": "organize",
+   "section": "TRANSPORT, LOGISTICS, AVIATION & MARITIME",
+   "universal": false,
+   "description": "Know where every shipment is.",
+   "tool_ids": [
+    "tool_freightos",
+    "tool_marinetraffic",
+    "tool_flightradar24",
+    "tool_easyship"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_flight_planning",
+   "slug": "flight-planning",
+   "label": "Plan flights and study aviation",
+   "task_family": "organize",
+   "section": "TRANSPORT, LOGISTICS, AVIATION & MARITIME",
+   "universal": false,
+   "description": "Routes, weather and briefings.",
+   "tool_ids": [
+    "tool_foreflight",
+    "tool_skydemon",
+    "tool_garmin_pilot",
+    "tool_x_plane"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_maritime_navigation",
+   "slug": "maritime-navigation",
+   "label": "Navigate and plan at sea",
+   "task_family": "organize",
+   "section": "TRANSPORT, LOGISTICS, AVIATION & MARITIME",
+   "universal": false,
+   "description": "Charts, AIS and passage plans.",
+   "tool_ids": [
+    "tool_opencpn",
+    "tool_navionics",
+    "tool_marinetraffic"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_driver_earnings",
+   "slug": "driver-earnings",
+   "label": "Work with ride-hailing and delivery apps",
+   "task_family": "grow-business",
+   "section": "TRANSPORT, LOGISTICS, AVIATION & MARITIME",
+   "universal": false,
+   "description": "Track trips, costs and real earnings.",
+   "tool_ids": [
+    "tool_uber",
+    "tool_bolt",
+    "tool_google_sheets"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_restaurant_operations",
+   "slug": "restaurant-operations",
+   "label": "Take orders and run a restaurant",
+   "task_family": "organize",
+   "section": "HOSPITALITY, TOURISM & FOOD SERVICE",
+   "universal": false,
+   "description": "Orders, kitchen tickets and sales reports.",
+   "tool_ids": [
+    "tool_square",
+    "tool_toast",
+    "tool_loyverse",
+    "tool_lightspeed"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_hotel_management",
+   "slug": "hotel-management",
+   "label": "Manage hotel and guesthouse bookings",
+   "task_family": "organize",
+   "section": "HOSPITALITY, TOURISM & FOOD SERVICE",
+   "universal": false,
+   "description": "Channels, rooms and guests without double bookings.",
+   "tool_ids": [
+    "tool_cloudbeds",
+    "tool_little_hotelier",
+    "tool_booking_com",
+    "tool_airbnb"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_reviews_reputation",
+   "slug": "reviews-reputation",
+   "label": "Manage online reviews",
+   "task_family": "grow-business",
+   "section": "HOSPITALITY, TOURISM & FOOD SERVICE",
+   "universal": false,
+   "description": "Respond to reviews and win trust.",
+   "tool_ids": [
+    "tool_google_business_profile",
+    "tool_tripadvisor",
+    "tool_trustpilot"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_travel_planning",
+   "slug": "travel-planning",
+   "label": "Plan trips and itineraries",
+   "task_family": "organize",
+   "section": "HOSPITALITY, TOURISM & FOOD SERVICE",
+   "universal": false,
+   "description": "Smooth trips for you or your clients.",
+   "tool_ids": [
+    "tool_google_maps",
+    "tool_tripit",
+    "tool_wanderlog",
+    "tool_skyscanner"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_tour_booking",
+   "slug": "tour-booking",
+   "label": "Sell tours and activities",
+   "task_family": "grow-business",
+   "section": "HOSPITALITY, TOURISM & FOOD SERVICE",
+   "universal": false,
+   "description": "Take bookings online and fill tours.",
+   "tool_ids": [
+    "tool_fareharbor",
+    "tool_bokun",
+    "tool_getyourguide"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_salon_booking",
+   "slug": "salon-booking",
+   "label": "Take salon and spa bookings",
+   "task_family": "grow-business",
+   "section": "BEAUTY, WELLBEING & PERSONAL SERVICES",
+   "universal": false,
+   "description": "Online booking, reminders and payments.",
+   "tool_ids": [
+    "tool_fresha",
+    "tool_booksy",
+    "tool_vagaro",
+    "tool_square"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_visual_portfolio",
+   "slug": "visual-portfolio",
+   "label": "Showcase your work visually",
+   "task_family": "grow-business",
+   "section": "BEAUTY, WELLBEING & PERSONAL SERVICES",
+   "universal": false,
+   "description": "Let your work sell itself.",
+   "tool_ids": [
+    "tool_instagram",
+    "tool_pinterest",
+    "tool_canva",
+    "tool_capcut",
+    "tool_behance"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_mindfulness_wellbeing",
+   "slug": "mindfulness-wellbeing",
+   "label": "Support mental wellbeing",
+   "task_family": "learn",
+   "section": "BEAUTY, WELLBEING & PERSONAL SERVICES",
+   "universal": false,
+   "description": "Guided practice for you or your clients.",
+   "tool_ids": [
+    "tool_insight_timer",
+    "tool_headspace",
+    "tool_calm"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_incident_reporting",
+   "slug": "incident-reporting",
+   "label": "Log incidents and reports",
+   "task_family": "organize",
+   "section": "SECURITY, DEFENCE & EMERGENCY",
+   "universal": false,
+   "description": "Fast, structured, searchable reports.",
+   "tool_ids": [
+    "tool_safetyculture",
+    "tool_kobotoolbox",
+    "tool_google_forms",
+    "tool_ushahidi"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_emergency_comms",
+   "slug": "emergency-comms",
+   "label": "Coordinate emergency communications",
+   "task_family": "write-communicate",
+   "section": "SECURITY, DEFENCE & EMERGENCY",
+   "universal": false,
+   "description": "Reach the right people instantly.",
+   "tool_ids": [
+    "tool_zello",
+    "tool_whatsapp",
+    "tool_signal",
+    "tool_everbridge"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_osint_research",
+   "slug": "osint-research",
+   "label": "Research open sources ethically",
+   "task_family": "research",
+   "section": "SECURITY, DEFENCE & EMERGENCY",
+   "universal": false,
+   "description": "Investigate public information responsibly and legally.",
+   "tool_ids": [
+    "tool_google_earth_pro",
+    "tool_wayback_machine",
+    "tool_tineye",
+    "tool_maltego"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_digital_forensics",
+   "slug": "digital-forensics",
+   "label": "Preserve and analyse digital evidence",
+   "task_family": "analyze",
+   "section": "SECURITY, DEFENCE & EMERGENCY",
+   "universal": false,
+   "description": "Handle evidence soundly.",
+   "tool_ids": [
+    "tool_autopsy",
+    "tool_ftk_imager",
+    "tool_wireshark"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_scientific_computing",
+   "slug": "scientific-computing",
+   "label": "Compute and simulate scientific problems",
+   "task_family": "analyze",
+   "section": "SCIENCE & LABORATORY",
+   "universal": false,
+   "description": "Models, simulations and data analysis.",
+   "tool_ids": [
+    "tool_python",
+    "tool_matlab",
+    "tool_r",
+    "tool_julia",
+    "tool_jupyter"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_molecular_biology",
+   "slug": "molecular-biology",
+   "label": "Design and analyse molecular biology work",
+   "task_family": "analyze",
+   "section": "SCIENCE & LABORATORY",
+   "universal": false,
+   "description": "Sequences, primers and structures.",
+   "tool_ids": [
+    "tool_benchling",
+    "tool_snapgene",
+    "tool_ncbi_blast",
+    "tool_ugene",
+    "tool_pymol"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_chemistry_drawing",
+   "slug": "chemistry-drawing",
+   "label": "Draw and model chemical structures",
+   "task_family": "create",
+   "section": "SCIENCE & LABORATORY",
+   "universal": false,
+   "description": "Structures, reactions and 3D molecules.",
+   "tool_ids": [
+    "tool_chemdraw",
+    "tool_marvinsketch",
+    "tool_ketcher",
+    "tool_avogadro"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_scientific_figures",
+   "slug": "scientific-figures",
+   "label": "Make scientific figures",
+   "task_family": "create",
+   "section": "SCIENCE & LABORATORY",
+   "universal": false,
+   "description": "Publication-quality figures.",
+   "tool_ids": [
+    "tool_biorender",
+    "tool_graphpad_prism",
+    "tool_inkscape",
+    "tool_python",
+    "tool_origin"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_research_data_management",
+   "slug": "research-data-management",
+   "label": "Manage and share research data",
+   "task_family": "organize",
+   "section": "SCIENCE & LABORATORY",
+   "universal": false,
+   "description": "FAIR data and reproducible research.",
+   "tool_ids": [
+    "tool_zenodo",
+    "tool_osf",
+    "tool_figshare",
+    "tool_github"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_astronomy_observation",
+   "slug": "astronomy-observation",
+   "label": "Observe and image the sky",
+   "task_family": "research",
+   "section": "SCIENCE & LABORATORY",
+   "universal": false,
+   "description": "Plan observations and process astro images.",
+   "tool_ids": [
+    "tool_stellarium",
+    "tool_sharpcap",
+    "tool_siril"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_case_management",
+   "slug": "case-management",
+   "label": "Manage cases and care plans",
+   "task_family": "organize",
+   "section": "SOCIAL CARE & COMMUNITY",
+   "universal": false,
+   "description": "Track people, plans and follow-ups securely.",
+   "tool_ids": [
+    "tool_airtable",
+    "tool_google_sheets",
+    "tool_salesforce"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_service_referral",
+   "slug": "service-referral",
+   "label": "Find services and refer people",
+   "task_family": "research",
+   "section": "SOCIAL CARE & COMMUNITY",
+   "universal": false,
+   "description": "Connect people to the help they need.",
+   "tool_ids": [
+    "tool_google_maps",
+    "tool_findhelp",
+    "tool_google_translate"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_accessible_communication",
+   "slug": "accessible-communication",
+   "label": "Communicate with disabled people and those with access needs",
+   "task_family": "write-communicate",
+   "section": "SOCIAL CARE & COMMUNITY",
+   "universal": false,
+   "description": "Captions, AAC and visual assistance.",
+   "tool_ids": [
+    "tool_ava",
+    "tool_google_live_transcribe",
+    "tool_proloquo2go",
+    "tool_be_my_eyes"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_sign_language",
+   "slug": "sign-language",
+   "label": "Learn sign language",
+   "task_family": "learn",
+   "section": "SOCIAL CARE & COMMUNITY",
+   "universal": false,
+   "description": "Communicate with Deaf people.",
+   "tool_ids": [
+    "tool_lingvano",
+    "tool_spreadthesign"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_care_coordination",
+   "slug": "care-coordination",
+   "label": "Coordinate care for family or clients",
+   "task_family": "organize",
+   "section": "SOCIAL CARE & COMMUNITY",
+   "universal": false,
+   "description": "Shared schedules, medicines and visits.",
+   "tool_ids": [
+    "tool_google_calendar",
+    "tool_whatsapp",
+    "tool_lotsa_helping_hands",
+    "tool_medisafe"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_stage_production",
+   "slug": "stage-production",
+   "label": "Run stage productions",
+   "task_family": "organize",
+   "section": "ARTS & PERFORMANCE",
+   "universal": false,
+   "description": "Cues, schedules and production paperwork.",
+   "tool_ids": [
+    "tool_qlab",
+    "tool_google_sheets",
+    "tool_notion"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_auditions_casting",
+   "slug": "auditions-casting",
+   "label": "Find auditions and self-tape",
+   "task_family": "career-work",
+   "section": "ARTS & PERFORMANCE",
+   "universal": false,
+   "description": "Find roles and submit great self-tapes.",
+   "tool_ids": [
+    "tool_backstage",
+    "tool_spotlight",
+    "tool_capcut"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_family_organisation",
+   "slug": "family-organisation",
+   "label": "Organise family life",
+   "task_family": "organize",
+   "section": "LIFE ROLES",
+   "universal": false,
+   "description": "Shared calendars, lists and plans.",
+   "tool_ids": [
+    "tool_google_calendar",
+    "tool_cozi",
+    "tool_whatsapp"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_kids_online_safety",
+   "slug": "kids-online-safety",
+   "label": "Keep children safe online",
+   "task_family": "organize",
+   "section": "LIFE ROLES",
+   "universal": false,
+   "description": "Healthy screen time and safer browsing.",
+   "tool_ids": [
+    "tool_google_family_link",
+    "tool_apple_screen_time",
+    "tool_microsoft_family_safety"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_digital_basics",
+   "slug": "digital-basics",
+   "label": "Get confident with smartphones, apps and video calls",
+   "task_family": "learn",
+   "section": "LIFE ROLES",
+   "universal": false,
+   "description": "The everyday basics, explained patiently.",
+   "tool_ids": [
+    "tool_gcfglobal",
+    "tool_whatsapp",
+    "tool_zoom",
+    "tool_google_lens"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_volunteering",
+   "slug": "volunteering",
+   "label": "Find volunteering opportunities",
+   "task_family": "career-work",
+   "section": "LIFE ROLES",
+   "universal": false,
+   "description": "Give your skills where they're needed.",
+   "tool_ids": [
+    "tool_idealist",
+    "tool_un_online_volunteering",
+    "tool_volunteermatch"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_freelancing",
+   "slug": "freelancing",
+   "label": "Find freelance and remote work",
+   "task_family": "career-work",
+   "section": "LIFE ROLES",
+   "universal": false,
+   "description": "Win clients and get paid for your skills.",
+   "tool_ids": [
+    "tool_upwork",
+    "tool_fiverr",
+    "tool_contra",
+    "tool_linkedin"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  },
+  {
+   "id": "need_personal_health_tracking",
+   "slug": "personal-health-tracking",
+   "label": "Track personal health and medicines",
+   "task_family": "organize",
+   "section": "LIFE ROLES",
+   "universal": false,
+   "description": "Medicine reminders and health records.",
+   "tool_ids": [
+    "tool_medisafe",
+    "tool_apple_health"
+   ],
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted; validate with a practitioner in this field."
+   }
+  }
+ ]
+}

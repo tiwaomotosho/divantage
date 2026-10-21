@@ -1,0 +1,238 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_nvda",
+ "slug": "nvda",
+ "title": "NVDA screen reader skill roadmap",
+ "tool_ids": [
+  "tool_nvda"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_nvda_accessibility_tool_0",
+    "slug": "nvda-accessibility-tool-0",
+    "title": "Get started with NVDA screen reader",
+    "outcome": "You can: set up NVDA screen reader, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "accessibility-tools"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_nvda_accessibility_tool_1",
+    "slug": "nvda-accessibility-tool-1",
+    "title": "Turn it on and set it up",
+    "outcome": "You can: start using NVDA screen reader",
+    "topics": [
+     "installation",
+     "settings",
+     "voices/languages",
+     "shortcuts"
+    ],
+    "practice": "Set up NVDA screen reader for your needs",
+    "need_tags": [
+     "accessibility-tools",
+     "accessible-communication"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_nvda_accessibility_tool_2",
+    "slug": "nvda-accessibility-tool-2",
+    "title": "Everyday tasks",
+    "outcome": "You can: use NVDA screen reader for daily tasks",
+    "topics": [
+     "reading",
+     "messaging",
+     "navigation",
+     "documents"
+    ],
+    "practice": "Complete three daily tasks with NVDA screen reader",
+    "need_tags": [
+     "accessibility-tools"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_nvda_accessibility_tool_3",
+    "slug": "nvda-accessibility-tool-3",
+    "title": "Customise",
+    "outcome": "You can: tailor NVDA screen reader to you",
+    "topics": [
+     "speed",
+     "vocabulary",
+     "profiles",
+     "gestures"
+    ],
+    "practice": "Customise three settings",
+    "need_tags": [
+     "accessibility-tools"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_nvda_accessibility_tool_4",
+    "slug": "nvda-accessibility-tool-4",
+    "title": "Work and study",
+    "outcome": "You can: use NVDA screen reader at work or school",
+    "topics": [
+     "meetings",
+     "documents",
+     "forms",
+     "requesting adjustments"
+    ],
+    "practice": "Use NVDA screen reader in one meeting or class",
+    "need_tags": [
+     "accessible-communication",
+     "accessibility-tools"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_nvda_accessibility_tool_8",
+    "slug": "nvda-accessibility-tool-8",
+    "title": "Signature skills in NVDA screen reader",
+    "outcome": "You can: use the features that make NVDA screen reader distinctive",
+    "topics": [
+     "starting and voices",
+     "navigation commands",
+     "browse and focus modes",
+     "braille"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "accessibility-tools"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_nvda_accessibility_tool_9",
+    "slug": "nvda-accessibility-tool-9",
+    "title": "Advanced NVDA screen reader",
+    "outcome": "You can: use NVDA screen reader's advanced capabilities with confidence",
+    "topics": [
+     "add-ons",
+     "profiles",
+     "testing web accessibility"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "accessibility-tools"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_nvda_accessibility_tool_5",
+    "slug": "nvda-accessibility-tool-5",
+    "title": "Support and advocate",
+    "outcome": "You can: help others and test accessibility",
+    "topics": [
+     "teaching others",
+     "testing content",
+     "reporting barriers"
+    ],
+    "practice": "Test a document or website with NVDA screen reader",
+    "need_tags": [
+     "accessible-materials",
+     "accessibility-tools"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_nvda_accessibility_tool_10",
+    "slug": "nvda-accessibility-tool-10",
+    "title": "Integrate NVDA screen reader into your workflow",
+    "outcome": "You can: connect NVDA screen reader with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect NVDA screen reader to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "accessibility-tools"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_nvda_accessibility_tool_11",
+    "slug": "nvda-accessibility-tool-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use NVDA screen reader well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use NVDA screen reader\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "accessibility-tools"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "accessibility-tool",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

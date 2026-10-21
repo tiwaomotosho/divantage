@@ -1,0 +1,90 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_kobotoolbox",
+ "slug": "kobotoolbox",
+ "title": "KoboToolbox / ODK",
+ "tool_ids": [
+  "tool_kobotoolbox",
+  "tool_odk"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_kb_form",
+    "slug": "kb-form",
+    "title": "Build a mobile form",
+    "outcome": "You can: collect data on phones, even offline",
+    "topics": [
+     "question types",
+     "required fields",
+     "GPS and photos",
+     "deploying"
+    ],
+    "practice": "Build a 10-question field survey",
+    "need_tags": [
+     "forms-surveys",
+     "research-surveys"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_kb_logic",
+    "slug": "kb-logic",
+    "title": "Skip logic and validation",
+    "outcome": "You can: collect clean data",
+    "topics": [
+     "skip logic",
+     "constraints",
+     "choice filters",
+     "XLSForm"
+    ],
+    "practice": "Add skip logic and validation to your survey",
+    "need_tags": [
+     "research-surveys",
+     "monitoring-evaluation"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_kb_analysis",
+    "slug": "kb-analysis",
+    "title": "From data to report",
+    "outcome": "You can: export, analyse and map results",
+    "topics": [
+     "exports",
+     "data cleaning",
+     "mapping",
+     "dashboards"
+    ],
+    "practice": "Export results and map them in QGIS",
+    "need_tags": [
+     "monitoring-evaluation",
+     "public-health-data",
+     "gis-mapping"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false
+}

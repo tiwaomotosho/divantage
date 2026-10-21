@@ -1,0 +1,249 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_overleaf",
+ "slug": "overleaf",
+ "title": "Overleaf skill roadmap",
+ "tool_ids": [
+  "tool_overleaf"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_overleaf_writing_tool_0",
+    "slug": "overleaf-writing-tool-0",
+    "title": "Get started with Overleaf",
+    "outcome": "You can: set up Overleaf, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "technical-reporting",
+     "academic-writing"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_overleaf_writing_tool_1",
+    "slug": "overleaf-writing-tool-1",
+    "title": "Draft and organise",
+    "outcome": "You can: draft efficiently in Overleaf",
+    "topics": [
+     "structure",
+     "outlining",
+     "distraction-free writing"
+    ],
+    "practice": "Draft a 500-word piece",
+    "need_tags": [
+     "write-clearly",
+     "technical-reporting",
+     "academic-writing"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_overleaf_writing_tool_2",
+    "slug": "overleaf-writing-tool-2",
+    "title": "Edit for clarity",
+    "outcome": "You can: improve clarity and correctness",
+    "topics": [
+     "grammar",
+     "readability",
+     "tone"
+    ],
+    "practice": "Edit your draft using Overleaf's suggestions critically",
+    "need_tags": [
+     "write-clearly",
+     "technical-reporting",
+     "academic-writing"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_overleaf_writing_tool_3",
+    "slug": "overleaf-writing-tool-3",
+    "title": "Long-form and formatting",
+    "outcome": "You can: manage long documents",
+    "topics": [
+     "sections",
+     "references",
+     "templates",
+     "exports"
+    ],
+    "practice": "Format a long document for publication",
+    "need_tags": [
+     "academic-writing",
+     "book-writing-publishing",
+     "technical-writing",
+     "technical-reporting"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_overleaf_writing_tool_4",
+    "slug": "overleaf-writing-tool-4",
+    "title": "Style and voice",
+    "outcome": "You can: keep a consistent voice",
+    "topics": [
+     "style rules",
+     "custom dictionaries",
+     "terminology"
+    ],
+    "practice": "Create a mini style guide",
+    "need_tags": [
+     "technical-writing",
+     "copywriting",
+     "technical-reporting",
+     "academic-writing"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_overleaf_writing_tool_8",
+    "slug": "overleaf-writing-tool-8",
+    "title": "Signature skills in Overleaf",
+    "outcome": "You can: use the features that make Overleaf distinctive",
+    "topics": [
+     "LaTeX editor",
+     "templates",
+     "compiling",
+     "collaboration"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "technical-reporting",
+     "academic-writing"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_overleaf_writing_tool_9",
+    "slug": "overleaf-writing-tool-9",
+    "title": "Advanced Overleaf",
+    "outcome": "You can: use Overleaf's advanced capabilities with confidence",
+    "topics": [
+     "bibliography with BibTeX",
+     "track changes",
+     "Git integration"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "technical-reporting",
+     "academic-writing"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_overleaf_writing_tool_5",
+    "slug": "overleaf-writing-tool-5",
+    "title": "Publish and collaborate",
+    "outcome": "You can: publish and work with editors",
+    "topics": [
+     "collaboration",
+     "version control",
+     "publishing pipelines"
+    ],
+    "practice": "Publish a piece with an editor's review",
+    "need_tags": [
+     "newsletter-publishing",
+     "technical-reporting",
+     "academic-writing"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_overleaf_writing_tool_10",
+    "slug": "overleaf-writing-tool-10",
+    "title": "Integrate Overleaf into your workflow",
+    "outcome": "You can: connect Overleaf with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Overleaf to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "technical-reporting",
+     "academic-writing"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_overleaf_writing_tool_11",
+    "slug": "overleaf-writing-tool-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Overleaf well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Overleaf\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "technical-reporting",
+     "academic-writing"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "writing-tool",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

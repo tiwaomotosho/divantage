@@ -1,0 +1,319 @@
+# Skill roadmaps — the "course outline" for a tool, in beginner / intermediate / expert buckets.
+# =roadmap slug | Title | applies to tool slugs (first = primary)
+# [level]
+# * module-slug | Title | You can… (outcome) | topics; separated; by semicolons | practice task | need tags | est. hours
+# Need tags connect modules to needs; lenses use them to pick and order modules for each profession.
+
+=roadmap spreadsheets | Spreadsheets (Excel, Google Sheets, LibreOffice Calc) | microsoft-excel, google-sheets, libreoffice
+[beginner]
+* xl-basics | Find your way around | Create, enter, format and save a tidy worksheet | cells, ranges and sheets; data entry and autofill; number and date formats; freeze panes; printing and sharing | Build a weekly expense tracker | spreadsheets-basics, personal-finance, farm-records | 2
+* xl-formulas-1 | Your first formulas | Write formulas that update themselves | arithmetic and order of operations; SUM, AVERAGE, MIN, MAX, COUNT; relative vs absolute references ($A$1); copying formulas safely | Total and average a month of sales | spreadsheets-basics, personal-finance, kpi-tracking, financial-modelling, engineering-calculations | 2
+* xl-tables-sort | Tables, sorting and filtering | Turn a list into a table you can sort, filter and extend | Format as Table; sort and multi-level sort; filters; removing duplicates; data validation drop-downs | Turn a contact list into a filterable table with drop-downs | spreadsheets-basics, inventory-procurement, farm-records, grading-feedback | 2
+* xl-charts-1 | Simple charts | Pick and build the right basic chart | column, bar, line and pie (and when not to use pie); titles and labels; chart from a table | Chart six months of income vs spending | spreadsheets-basics, data-visualisation, kpi-tracking | 1.5
+[intermediate]
+* xl-logic | Logic and lookups | Make the sheet decide and fetch for you | IF, IFS, AND/OR; XLOOKUP / VLOOKUP / INDEX-MATCH; IFERROR; COUNTIFS, SUMIFS, AVERAGEIFS | Grade a class automatically from a marks table | grading-feedback, kpi-tracking, financial-modelling, clinical-audit-qi, inventory-procurement | 3
+* xl-pivots | PivotTables | Summarise thousands of rows in seconds | pivot rows, columns, values; grouping dates; slicers; pivot charts; refreshing | Summarise sales by month and product | kpi-tracking, data-cleaning, dashboards-bi, clinical-audit-qi, audit-analytics, production-surveillance | 2.5
+* xl-cleaning | Cleaning messy data | Fix imported data quickly and safely | TRIM, CLEAN, TEXT functions; Text to Columns; Flash Fill; dates stored as text; Power Query basics | Clean an exported bank statement | data-cleaning, bookkeeping, audit-analytics, drilling-reporting | 2.5
+* xl-dates-text | Dates, times and text | Work confidently with dates, durations and text | DATE, EDATE, EOMONTH, NETWORKDAYS; time arithmetic; TEXTJOIN, LEFT/MID/RIGHT; custom formats | Build a project calendar with working days | project-scheduling, shift-rota, drilling-reporting, payroll | 2
+* xl-conditional | Conditional formatting and dashboards-lite | Make important numbers jump out | rules, colour scales, data bars, icon sets; formula-based rules; a one-page summary sheet | Highlight overdue items and low stock | kpi-tracking, inventory-procurement, clinical-audit-qi, farm-records | 1.5
+* xl-protect-share | Sharing, protection and collaboration | Share workbooks without breaking them | protecting sheets and ranges; comments and notes; version history; co-authoring | Share a team tracker with locked formulas | project-management, kpi-tracking | 1
+[expert]
+* xl-dynamic-arrays | Dynamic arrays and LAMBDA | Write modern formulas that spill and reuse logic | FILTER, SORT, UNIQUE, SEQUENCE; LET; LAMBDA and named functions | Build a self-updating top-10 list | financial-modelling, engineering-calculations, kpi-tracking | 3
+* xl-what-if | Scenarios and what-if analysis | Test assumptions and find answers backwards | Goal Seek; Data Tables (one- and two-variable); Scenario Manager; Solver | Find break-even price with Goal Seek and a sensitivity table | financial-modelling, engineering-calculations, risk-modelling, budgeting-fpa, cost-estimation | 3
+* xl-power-query | Power Query and the data model | Automate repeatable imports and join data sources | queries and steps; merge/append; unpivot; refresh; Power Pivot and DAX basics | Combine 12 monthly files into one refreshable table | data-cleaning, dashboards-bi, production-surveillance, drilling-reporting, regulatory-reporting | 4
+* xl-model-design | Model design and auditing | Build models others can trust and check | inputs-calcs-outputs layout; named ranges; error checks; trace precedents; model documentation | Restructure a messy workbook into inputs, calculations and outputs | financial-modelling, engineering-calculations, audit-analytics, regulatory-reporting | 3
+* xl-automation | Automation with macros and scripts | Automate repetitive work | recording macros; VBA basics (loops, ranges); Office Scripts / Apps Script; when to move to Python | Automate a weekly report export | automation-workflows, drilling-reporting, regulatory-reporting | 5
+
+=roadmap documents | Documents (Word, Google Docs, LibreOffice Writer) | microsoft-word, google-docs, libreoffice
+[beginner]
+* doc-basics | Write and format a document | Produce a clean, consistent document | fonts, spacing and alignment; bullet lists; page setup; saving as PDF | Write a one-page letter | documents-basics, write-clearly | 1
+* doc-styles | Styles and headings | Format long documents in one click | heading styles; navigation pane; automatic table of contents | Turn notes into a structured report with a contents page | documents-basics, technical-reporting, academic-writing | 1.5
+* doc-voice | Dictation and accessibility checks | Type by voice and make documents accessible | voice typing/dictate; Accessibility Checker; alt text; readable fonts | Dictate a draft and fix all accessibility warnings | voice-typing-transcription, accessible-materials | 1
+[intermediate]
+* doc-tables-figures | Tables, figures and captions | Present data and images professionally | tables; captions and cross-references; image layout | Add numbered figures and tables to a report | technical-reporting, academic-writing, regulatory-reporting | 1.5
+* doc-review | Track changes and comments | Review and negotiate drafts with others | track changes; comments; compare documents; accept/reject | Review a colleague's draft with tracked changes | contract-drafting, write-clearly, policy-research | 1
+* doc-templates | Templates and forms | Reuse layouts and build fillable forms | templates; content controls; mail merge | Mail-merge 30 personalised letters | documents-basics, lesson-planning, patient-education | 2
+[expert]
+* doc-long | Long documents and citations | Manage theses and reports with hundreds of pages | sections and page numbering; citations with a reference manager; master documents | Format a thesis chapter with Zotero citations | academic-writing, technical-reporting, literature-review | 3
+* doc-clauses | Clause libraries and automation | Assemble documents from reusable blocks | Quick Parts/building blocks; fields; macros | Build a contract template with optional clauses | contract-drafting, regulatory-reporting | 3
+
+=roadmap slides | Presentations (PowerPoint, Google Slides, Keynote) | microsoft-powerpoint, google-slides, apple-keynote
+[beginner]
+* sl-basics | Clear slides | Build a short deck that is easy to follow | one idea per slide; layouts; text size; images | Make a 5-slide talk about your work | presentations | 1
+* sl-master | Themes and masters | Keep every slide on-brand | slide master; theme colours and fonts; placeholders | Create a reusable team template | presentations, brand-identity | 1
+[intermediate]
+* sl-storyline | Storylines that persuade | Structure a deck so the message lands | situation–complication–resolution; action titles; executive summary | Rewrite a deck with action titles | consulting-deliverables, presentations, business-planning | 2
+* sl-data | Charts and diagrams on slides | Show numbers and processes clearly | native charts; SmartArt/diagrams; linking to spreadsheets | Turn a table into a single clear chart slide | consulting-deliverables, kpi-tracking, data-visualisation | 1.5
+* sl-deliver | Present live and remotely | Present confidently in the room or online | presenter view; rehearse timings; screen sharing; recording | Record a 3-minute presentation with narration | presentations, video-meetings, screen-recording | 1
+[expert]
+* sl-advanced | Advanced visuals and automation | Produce boardroom-quality decks fast | morph/animations with purpose; consistent grids; add-ins (e.g. think-cell); accessibility | Rebuild a complex chart slide to board standard | consulting-deliverables | 3
+
+=roadmap canva | Canva | canva, adobe-express
+[beginner]
+* cv-start | Start from the right size and template | Pick a design type and customise a template | design types and sizes; templates; replacing text and images; downloading | Make a flyer for an event | design-simple-graphics, social-media-presence, events-management | 1
+* cv-readable | Make it readable | Design something people can read on a phone | contrast; font pairing; hierarchy; white space; alignment | Fix a cluttered poster | design-simple-graphics, accessible-materials, patient-education | 1
+* cv-photos | Work with photos | Crop, adjust and place photos well | cropping; filters; frames; grids; free elements | Create a photo collage post | photo-editing, product-photography, visual-portfolio | 1
+[intermediate]
+* cv-brand | Brand kit and consistency | Keep everything on-brand | brand colours and fonts; logos; reusable templates for a team | Build a 3-post template set for your brand | brand-identity, social-media-management, congregation-management | 1.5
+* cv-video | Short video and animation | Make short animated posts and reels | timeline; animations; captions; music; exporting for platforms | Create a 15-second reel with captions | short-video, social-media-presence, athlete-brand, property-marketing | 2
+* cv-docs | Documents, presentations and print | Produce printed and presentation material | presentations; documents; print bleed and margins; PDF print | Design a two-sided A5 leaflet ready for print | presentations, patient-education, lesson-planning, property-marketing | 1.5
+[expert]
+* cv-bulk | Bulk create and team workflows | Produce many variations quickly with a team | bulk create from spreadsheets; team folders; approval workflows; scheduling | Generate 30 personalised certificates from a sheet | events-management, social-media-management, lesson-planning | 2
+* cv-limits | Know when to move up | Recognise when you need pro tools | vector vs raster; print colour (CMYK); handing off to Illustrator/Figma | Prepare a logo brief for a professional designer | brand-identity, graphic-design-pro | 1
+
+=roadmap ai-assistants | AI assistants (Claude, ChatGPT, Gemini, Copilot) | claude, chatgpt, gemini, microsoft-copilot
+[beginner]
+* ai-first | Your first useful conversations | Get helpful answers by giving context | role, task, context, format; follow-up questions; what AI is bad at | Ask for a plain-language explanation of a term from your field | use-ai-assistants, learn-online | 1
+* ai-safe | Use AI safely | Protect private information and avoid being misled | never paste confidential or personal data without approval; check facts and sources; hallucinations; your organisation's policy | Fact-check three claims an AI made about your field | use-ai-assistants, fact-check | 1
+* ai-write | Draft and improve writing | Turn rough notes into clear writing — in your voice | drafting; rewriting for audience; summarising; translating tone | Turn bullet notes into a polite email | write-clearly, copywriting, email-and-calendar | 1
+[intermediate]
+* ai-files | Work with documents and data | Analyse files you are allowed to share | uploading documents; summarising long reports; extracting tables; asking for citations to the page | Summarise a 20-page public report into 5 key points with page references | literature-review, policy-research, consulting-deliverables | 2
+* ai-domain | Prompts for your profession | Build reusable prompts for your daily tasks | prompt templates; examples; checklists; projects/custom instructions | Create 3 reusable prompts for your weekly tasks | lesson-planning, contract-drafting, scripture-study, business-planning, cpd-learning | 2
+* ai-verify | Verification habits | Catch errors before they cost you | asking for sources; cross-checking; asking the AI to critique itself; when to ask a human expert | Build a personal checklist for AI-assisted work | use-ai-assistants, clinical-reference, legal-research | 1
+[expert]
+* ai-agents | Automate with AI tools | Connect AI to your workflow responsibly | AI in spreadsheets and docs; automations with AI steps; APIs (for builders) | Automate a weekly summary of form responses | automation-workflows, ai-app-development | 3
+* ai-teach | Teach others to use AI well | Advise family, friends and colleagues safely | common mistakes; age-appropriate use; privacy; workplace policy | Run a 20-minute AI basics session for your family or team | use-ai-assistants, digital-basics, workshop-facilitation | 1
+
+=roadmap translation | Translation tools (Google Translate, DeepL, Microsoft Translator) | google-translate, deepl, microsoft-translator
+[beginner]
+* tr-text | Translate text and messages | Translate everyday text and check it | typing and pasting; choosing languages; listening to pronunciation; saving phrases | Translate a message and back-translate it to check meaning | translate-languages | 0.5
+* tr-camera | Translate signs and documents with your camera | Read menus, signs and forms in other languages | camera translation; photo import; offline language packs | Download an offline pack and translate a printed page | translate-languages, digital-basics | 0.5
+* tr-voice | Have a conversation across languages | Talk with someone who speaks another language | conversation mode; speaking clearly; short sentences | Practise a two-way conversation with a friend | translate-languages, customer-support | 0.5
+[intermediate]
+* tr-docs | Translate whole documents | Translate files while keeping layout | document upload; formality settings; glossaries | Translate a one-page leaflet and compare tools | translate-languages, patient-education, customer-support | 1
+* tr-quality | Judge translation quality | Know when machine translation is good enough | back-translation; simple source text; high-risk content (medical, legal); when to use a professional | Rewrite a complex paragraph so it translates well | translate-languages, patient-education, contract-drafting | 1
+[expert]
+* tr-workflow | Multilingual workflows | Publish and support in several languages | glossaries/term bases; review by native speakers; translation memory concepts | Set up a glossary of 20 terms for your work | translate-languages, customer-support, scripture-study | 2
+
+=roadmap meetings | Video meetings (Zoom, Google Meet, Microsoft Teams) | zoom, google-meet, microsoft-teams, jitsi-meet
+[beginner]
+* vm-join | Join and speak confidently | Join, mute, share video and use chat | joining links; audio/video settings; mute; chat; reactions | Join a test call and check your audio | video-meetings, digital-basics | 0.5
+* vm-host | Host a meeting | Schedule, admit people and share your screen | scheduling; waiting room; screen share; recording consent | Host a 10-minute call with screen sharing | video-meetings | 1
+[intermediate]
+* vm-accessible | Inclusive meetings | Make meetings work for everyone | captions; transcripts; interpretation; low-bandwidth tips | Run a meeting with captions on | video-meetings, accessible-communication | 0.5
+* vm-facilitate | Facilitate online workshops | Keep groups engaged online | breakout rooms; polls; whiteboards; timekeeping | Run a 30-minute workshop with breakouts | workshop-facilitation, interactive-teaching | 1.5
+[expert]
+* vm-webinar | Webinars and secure meetings | Run large or sensitive sessions | webinars; registration; security settings; recordings policy | Set up a registration-based webinar | events-management, telemedicine | 1.5
+
+=roadmap power-bi | Power BI | power-bi
+[beginner]
+* pbi-first | Your first report | Load data and build an interactive page | Get Data; visuals; filters and slicers; publishing | Build a one-page sales report | dashboards-bi, kpi-tracking | 2
+* pbi-clean | Shape data with Power Query | Clean data before it reaches visuals | queries; types; merge/append; refresh | Combine monthly files into one table | data-cleaning, production-surveillance, drilling-reporting | 2
+[intermediate]
+* pbi-model | Data modelling | Relate tables correctly | star schema; relationships; date tables | Model sales, products and dates | dashboards-bi, regulatory-reporting | 3
+* pbi-dax | DAX measures | Write measures for KPIs | CALCULATE; filter context; time intelligence | Build year-to-date and month-on-month measures | kpi-tracking, budgeting-fpa, production-surveillance | 4
+[expert]
+* pbi-design | Report design for decision-makers | Design reports people actually use | layout; drill-through; tooltips; accessibility; mobile layout | Redesign a cluttered report into a 3-page story | dashboards-bi, public-health-data, monitoring-evaluation | 3
+* pbi-govern | Sharing, refresh and security | Run reports in production | workspaces; scheduled refresh; gateways; row-level security | Set up a scheduled refresh with row-level security | dashboards-bi, regulatory-reporting | 3
+
+=roadmap python | Python | python, jupyter, google-colab
+[beginner]
+* py-first | First programs | Write and run simple Python | variables; types; lists and dicts; loops; functions; notebooks | Write a unit-converter function | write-code, engineering-calculations, scientific-computing | 4
+* py-files | Files and automation | Automate file and spreadsheet chores | reading/writing CSV and Excel; os/pathlib; simple scripts | Rename and merge 50 files automatically | automation-workflows, data-cleaning | 3
+[intermediate]
+* py-pandas | Data analysis with pandas | Clean, summarise and join tabular data | DataFrames; groupby; merge; dates; missing data | Analyse a year of production or sales data | data-cleaning, engineering-data-analysis, production-surveillance, financial-modelling | 6
+* py-plots | Charts with matplotlib/seaborn | Produce clear, reproducible charts | line/scatter/hist; subplots; labelling; exporting | Plot a well log or time series | data-visualisation, scientific-figures, petrophysics | 3
+* py-numeric | Numerical methods | Solve engineering and science problems | NumPy; SciPy (interpolation, optimisation, integration); units | Solve a non-linear equation from your field | engineering-calculations, scientific-computing, geomechanics, risk-modelling | 5
+[expert]
+* py-ml | Machine learning basics | Train and evaluate predictive models | scikit-learn; train/test split; metrics; overfitting | Predict a target from historical data and evaluate honestly | machine-learning, production-surveillance | 8
+* py-ship | Reusable tools and apps | Package code others can use | virtual environments; packages; testing; simple web apps (e.g. Streamlit) | Turn a notebook into a small shared app | write-code, devops-cicd | 6
+
+=roadmap sql | SQL | dbeaver, postgresql, sqlite, mysql, bigquery
+[beginner]
+* sql-select | Ask questions with SELECT | Retrieve exactly the rows and columns you need | SELECT, WHERE, ORDER BY, LIMIT; operators | Find all orders over a value last month | sql-querying | 2
+* sql-agg | Summaries with GROUP BY | Aggregate data | COUNT, SUM, AVG; GROUP BY; HAVING | Count customers by city | sql-querying, kpi-tracking | 2
+[intermediate]
+* sql-joins | Joins | Combine tables correctly | INNER/LEFT joins; keys; avoiding duplicates | Join orders to customers and products | sql-querying, databases | 3
+* sql-window | Window functions and CTEs | Write analytic queries | CTEs; ROW_NUMBER; running totals; LAG/LEAD | Calculate month-on-month growth | sql-querying, dashboards-bi | 3
+[expert]
+* sql-design | Design and performance | Design tables and fast queries | normalisation; indexes; query plans; transactions | Design a schema for a small app | databases, data-pipelines | 5
+
+=roadmap git-github | Git and GitHub | git, github, gitlab
+[beginner]
+* git-basics | Track changes with Git | Save versions of your work safely | init/clone; add/commit; log; .gitignore | Put a project folder under version control | version-control | 2
+* gh-collab | Collaborate on GitHub | Work with others through pull requests | branches; push/pull; pull requests; reviews | Open and merge your first pull request | version-control, technical-writing | 2
+[intermediate]
+* git-merge | Branching and conflicts | Handle real team workflows | merge vs rebase; resolving conflicts; tags; releases | Resolve a deliberate merge conflict | version-control | 2
+* gh-actions | Automation with GitHub Actions | Run tests and checks automatically | workflows; triggers; secrets; matrix builds | Add a test workflow to a repository | devops-cicd, test-automation | 3
+[expert]
+* gh-project | Run an open project | Maintain projects others contribute to | issues and templates; project boards; code owners; branch protection; security alerts | Set up branch protection and a contribution guide | version-control, agile-tracking | 3
+
+=roadmap vs-code | Visual Studio Code | vs-code, cursor
+[beginner]
+* vsc-start | Set up your editor | Edit, run and navigate code comfortably | extensions; terminal; command palette; multi-cursor | Configure VS Code for your main language | write-code | 1
+[intermediate]
+* vsc-debug | Debugging | Find bugs with breakpoints | breakpoints; watch; call stack; launch configs | Debug a failing function step by step | write-code, test-automation | 2
+* vsc-ai | AI pair programming | Use AI assistance without losing understanding | inline completions; chat; reviewing AI code; tests first | Refactor a function with AI, then write tests for it | write-code, use-ai-assistants | 2
+[expert]
+* vsc-remote | Remote and container development | Develop inside containers and remote machines | Dev Containers; SSH remote; settings sync | Open a project in a dev container | containers-orchestration, cloud-infrastructure | 3
+
+=roadmap figma | Figma | figma, penpot
+[beginner]
+* fg-frames | Frames, shapes and text | Lay out a simple screen | frames; auto layout basics; text styles | Design a mobile login screen | ui-ux-design | 2
+[intermediate]
+* fg-components | Components and variants | Build reusable UI parts | components; variants; properties; libraries | Create a button with 3 variants | ui-ux-design | 3
+* fg-prototype | Prototyping and user testing | Make clickable prototypes and test them | interactions; flows; sharing for tests | Prototype a 3-screen flow and test it with 3 people | ui-ux-design, user-research, product-discovery | 3
+[expert]
+* fg-systems | Design systems and handoff | Run a design system with developers | tokens/variables; documentation; Dev Mode handoff | Turn a style guide into variables and components | ui-ux-design, brand-identity | 5
+
+=roadmap autocad | AutoCAD (and similar 2D CAD) | autocad, librecad, draftsight
+[beginner]
+* cad-draw | Draw accurately | Draw lines, shapes and dimensions to scale | units; coordinates; object snaps; lines/polylines/circles; dimensions | Draw a simple floor plan | cad-drafting | 4
+* cad-layers | Layers and annotation | Organise and annotate drawings to standard | layers; text styles; dimension styles; hatching | Annotate a plan with dimensions and notes | cad-drafting | 3
+[intermediate]
+* cad-blocks | Blocks, xrefs and templates | Reuse content across drawings | blocks and attributes; external references; templates | Build a title block with attributes | cad-drafting, drawing-markup | 3
+* cad-layouts | Layouts and plotting | Produce drawings ready to issue | paper space; viewports; scales; plot styles; PDF | Plot a sheet set to PDF at correct scale | cad-drafting, technical-reporting | 2
+[expert]
+* cad-automate | Productivity and automation | Speed up repetitive drafting | parametric constraints; dynamic blocks; scripts/LISP basics; data extraction | Extract a schedule of blocks to a spreadsheet | cad-drafting, cost-estimation | 4
+
+=roadmap qgis | QGIS | qgis, arcgis-pro
+[beginner]
+* gis-layers | Maps and layers | Open data and make a clear map | vector vs raster; coordinate systems; styling; labels | Map your town's clinics or schools | gis-mapping | 3
+* gis-print | Print layouts | Produce a finished map | layout; legend; scale bar; north arrow | Export an A4 map | gis-mapping, technical-reporting | 1.5
+[intermediate]
+* gis-analysis | Spatial analysis | Answer "where" questions | buffers; intersections; joins; field calculator | Find communities more than 5 km from a health facility | gis-mapping, public-health-data, monitoring-evaluation | 3
+* gis-field | Field data and GPS | Bring field-collected points into maps | CSV/GPS import; KoboToolbox/ODK exports; QField basics | Map survey points collected on phones | gis-mapping, research-surveys, crop-monitoring | 2
+[expert]
+* gis-raster | Raster, terrain and satellite data | Analyse elevation and imagery | DEMs; slope; NDVI; raster calculator | Calculate vegetation health from satellite imagery | crop-monitoring, environmental-monitoring, hydraulic-modelling | 4
+
+=roadmap matlab | MATLAB | matlab, mathcad
+[beginner]
+* ml-basics | Matrices and scripts | Calculate and plot with MATLAB | variables; vectors/matrices; scripts; plotting | Plot a function from your field | engineering-calculations, scientific-computing | 3
+[intermediate]
+* ml-functions | Functions and data import | Build reusable analysis tools | functions; importing data; tables; logical indexing | Analyse a test-data file with a function | engineering-data-analysis | 3
+* ml-solve | Solving and optimising | Solve equations and fit models | fzero/fsolve; ODEs; curve fitting; optimisation | Fit a model to experimental data | engineering-calculations, fea-simulation | 4
+[expert]
+* ml-sim | Simulation and apps | Build simulations and apps | Simulink basics; App Designer; code generation concepts | Build a small app that runs your calculation | engineering-calculations, plc-automation | 6
+
+=roadmap notion | Notion | notion, microsoft-onenote, google-keep
+[beginner]
+* nt-pages | Pages and notes | Capture and organise notes | pages; blocks; headings; to-dos; links | Create a personal knowledge page | personal-productivity | 1
+[intermediate]
+* nt-db | Databases and views | Track anything with databases | properties; table/board/calendar views; filters | Build a project or content tracker | project-management, content-planning, personal-productivity | 2
+* nt-templates | Templates and team wikis | Share knowledge with a team | templates; wiki; permissions | Create a team handbook | records-management, lesson-planning | 1.5
+[expert]
+* nt-system | Build a personal operating system | Run your work and life from one system | relations and rollups; dashboards; automations | Link goals, projects and tasks | personal-productivity, kpi-tracking | 3
+
+=roadmap capcut | CapCut (and phone video editors) | capcut, clipchamp
+[beginner]
+* cc-cut | Cut and arrange clips | Edit a short video on your phone | importing; trimming; splitting; ordering; aspect ratio 9:16 | Edit a 30-second clip from 5 shots | short-video | 1
+* cc-captions | Captions, text and music | Make videos understandable on mute | auto captions; text styles; licensed music; volume | Add captions to a talking-head video | short-video, accessible-materials | 1
+[intermediate]
+* cc-hooks | Hooks and pacing for social | Keep viewers watching | the first 3 seconds; jump cuts; B-roll; transitions with purpose | Re-edit a video to open with a strong hook | short-video, social-media-presence, athlete-brand, property-marketing | 1.5
+[expert]
+* cc-series | Repeatable content production | Produce a weekly series efficiently | templates; batch filming; brand presets; analytics review | Plan and batch-edit four videos | content-planning, social-media-management | 3
+
+=roadmap davinci-resolve | DaVinci Resolve | davinci-resolve, shotcut, kdenlive
+[beginner]
+* dr-edit | Edit a first project | Import, cut and export a video | media pool; timeline; cuts and trims; export presets | Edit a 2-minute video | video-editing-pro | 3
+* dr-audio | Clean, clear audio | Make speech easy to hear | levels; noise reduction basics; music ducking | Balance voice and music | video-editing-pro, audio-production | 2
+[intermediate]
+* dr-colour | Colour correction | Make shots look natural and consistent | scopes; white balance; matching shots | Match three shots from different cameras | video-editing-pro | 3
+* dr-titles | Titles and graphics | Add professional titles | text; lower thirds; simple motion | Add lower thirds to an interview | video-editing-pro, motion-graphics | 2
+[expert]
+* dr-grade | Grading and delivery | Deliver to broadcast or platform specs | nodes; LUTs; HDR/colour spaces; delivery specs | Grade and deliver to a platform specification | video-editing-pro | 6
+
+=roadmap obs | OBS Studio | obs-studio, streamyard, restream
+[beginner]
+* obs-record | Record your screen and camera | Record a lesson or demo | scenes and sources; audio check; recording settings | Record a 5-minute screen lesson | screen-recording, live-streaming | 1
+[intermediate]
+* obs-scenes | Scenes and overlays | Switch professionally between shots | scenes; overlays; lower thirds; transitions | Build a 3-scene setup | live-streaming, service-livestream | 2
+* obs-stream | Go live reliably | Stream to one or more platforms | stream keys; bitrate and upload speed; multistreaming; backups | Run a 15-minute test stream | live-streaming, service-livestream | 2
+[expert]
+* obs-production | Multi-camera production | Run a multi-camera live production | NDI/capture cards; audio mixing; volunteer roles; run sheet | Run a full service or event stream with two cameras | service-livestream, live-streaming | 4
+
+=roadmap linkedin | LinkedIn | linkedin
+[beginner]
+* li-profile | A profile that works | Be found and make a strong first impression | headline; about; experience; skills; photo | Rewrite your headline and about section | professional-profile, job-search | 1
+[intermediate]
+* li-network | Network and search for jobs | Find opportunities through people | connections; messages; job alerts; Easy Apply vs direct | Send 5 thoughtful connection requests | job-search, professional-profile | 1
+* li-content | Share expertise | Build a reputation in your field | posts; articles; comments; consistency | Write a post explaining one thing you know well | professional-profile, social-media-presence | 1
+[expert]
+* li-brand | Thought leadership and hiring | Use LinkedIn to lead and recruit | newsletters; company pages; recruiting basics; analytics | Plan a 4-week content series | recruitment, crm-sales | 2
+
+=roadmap whatsapp-business | WhatsApp Business | whatsapp-business, whatsapp
+[beginner]
+* wa-profile | Set up a business profile | Look professional to customers | business profile; catalogue; greeting and away messages | Add 5 products to your catalogue | customer-support, online-store | 1
+[intermediate]
+* wa-labels | Labels, quick replies and broadcasts | Handle many customers efficiently | labels; quick replies; broadcast lists; status | Set up labels for new, paid and delivered orders | customer-support, agri-market-access, point-of-sale | 1
+[expert]
+* wa-scale | Scale customer conversations | Grow beyond one phone | linked devices; Business Platform/API options; payment links; privacy | Write a customer service policy for your team | customer-support, crm-sales | 2
+
+=roadmap zotero | Zotero | zotero
+[beginner]
+* zt-save | Save and organise sources | Build a reference library | browser saving; collections; tags; PDFs | Save 10 sources for a topic | literature-review | 1
+* zt-cite | Cite while you write | Insert citations and a bibliography | word processor plugin; citation styles | Write a paragraph with 3 citations | academic-writing | 1
+[intermediate]
+* zt-notes | Annotate and take notes | Turn reading into usable notes | PDF annotations; notes; related items | Annotate 3 papers and extract notes | literature-review | 1.5
+[expert]
+* zt-groups | Group libraries | Collaborate on references | group libraries; syncing; storage | Set up a shared library for a team project | literature-review, research-data-management | 1
+
+=roadmap kobotoolbox | KoboToolbox / ODK | kobotoolbox, odk
+[beginner]
+* kb-form | Build a mobile form | Collect data on phones, even offline | question types; required fields; GPS and photos; deploying | Build a 10-question field survey | forms-surveys, research-surveys | 2
+[intermediate]
+* kb-logic | Skip logic and validation | Collect clean data | skip logic; constraints; choice filters; XLSForm | Add skip logic and validation to your survey | research-surveys, monitoring-evaluation | 3
+[expert]
+* kb-analysis | From data to report | Export, analyse and map results | exports; data cleaning; mapping; dashboards | Export results and map them in QGIS | monitoring-evaluation, public-health-data, gis-mapping | 3
+
+=roadmap bookkeeping | Bookkeeping software (QuickBooks, Xero, Zoho Books, Wave) | quickbooks, xero, zoho-books, wave
+[beginner]
+* bk-setup | Set up your books | Start bookkeeping correctly | chart of accounts; customers and suppliers; opening balances | Set up a company file | bookkeeping | 2
+* bk-invoice | Invoices and bills | Bill customers and record bills | invoices; payments; bills; receipts capture | Send an invoice and record payment | invoicing, bookkeeping | 1
+[intermediate]
+* bk-reconcile | Bank reconciliation | Keep the books matching the bank | bank feeds/imports; matching; rules | Reconcile one month | bookkeeping, audit-analytics | 2
+* bk-reports | Financial reports | Read the numbers that matter | profit and loss; balance sheet; cash flow; aged receivables | Review a month-end P&L | bookkeeping, kpi-tracking, budgeting-fpa | 2
+[expert]
+* bk-tax | Tax, payroll and close | Close the year accurately | tax settings; payroll integration; locking periods; accountant access | Run a year-end checklist | tax-compliance, payroll | 3
+
+=roadmap wordpress | WordPress | wordpress, wix, webflow
+[beginner]
+* wp-pages | Pages, posts and menus | Publish a simple site | pages vs posts; block editor; menus; media | Publish home, about and contact pages | web-development, online-store | 2
+[intermediate]
+* wp-theme | Themes and plugins (carefully) | Customise without breaking things | choosing themes; essential plugins; updates; backups | Add a contact form and backups | web-development | 2
+* wp-seo | Get found | Improve search visibility | titles and descriptions; site speed; Search Console | Connect Search Console and fix top issues | seo, web-analytics | 2
+[expert]
+* wp-commerce | Shops, security and performance | Run a site that sells safely | WooCommerce; security hardening; caching; staging | Set up a staging site and a test product | online-store, web-development | 4
+
+=roadmap playwright | Playwright (and modern test automation) | playwright, cypress, selenium
+[beginner]
+* pw-first | Your first automated test | Automate a browser check | install; locators; actions; assertions | Test a login page | test-automation | 2
+[intermediate]
+* pw-structure | Structure a test suite | Write maintainable tests | page objects; fixtures; test data; tags | Refactor 5 tests into page objects | test-automation, test-management | 3
+* pw-ci | Run tests in CI | Run tests on every change | headless runs; parallelism; reports; traces | Run your suite in GitHub Actions | test-automation, devops-cicd | 2
+[expert]
+* pw-advanced | API, visual and accessibility testing | Broaden coverage beyond clicks | API testing; visual comparisons; axe accessibility checks; flaky test strategy | Add API and accessibility checks to a suite | test-automation, api-testing, accessibility-tools | 4
+
+=roadmap jira | Jira (and agile boards) | jira, linear, trello, azure-devops
+[beginner]
+* jr-board | Boards and issues | Track work visibly | issues; statuses; boards; assignees | Set up a board for a small project | agile-tracking, project-management | 1
+[intermediate]
+* jr-sprints | Backlogs and sprints | Run sprints | backlog grooming; estimates; sprint planning; burndown | Plan a two-week sprint | agile-tracking | 2
+* jr-bugs | Bug reports that get fixed | Write clear, reproducible bug reports | steps to reproduce; expected vs actual; severity; attachments | Write three model bug reports | agile-tracking, test-management | 1
+[expert]
+* jr-reporting | Workflows and reporting | Configure workflows and report on delivery | custom workflows; JQL; dashboards; automation rules | Build a dashboard of cycle time and open bugs | agile-tracking, kpi-tracking | 3
+
+=roadmap worship-presentation | Worship presentation (ProPresenter, EasyWorship, OpenLP, FreeShow) | propresenter, easyworship, openlp, freeshow
+[beginner]
+* ws-lyrics | Lyrics and scripture on screen | Run slides for a service | songs library; scripture lookup; themes; going live | Prepare slides for a full order of service | worship-presentation | 2
+[intermediate]
+* ws-media | Media, announcements and stage display | Run media smoothly | videos; announcements loops; stage display; confidence monitors | Build an announcements loop with a countdown | worship-presentation, service-livestream | 2
+[expert]
+* ws-integrate | Integrate with livestream and lighting | Run a coordinated production | NDI/output to stream; keys/lower thirds; volunteer handbook | Send lower-third lyrics to your livestream | service-livestream, worship-presentation | 3
+
+=roadmap training-apps | Training apps (Strava, Garmin Connect, TrainingPeaks, Intervals.icu) | strava, garmin-connect, trainingpeaks, intervals-icu
+[beginner]
+* tn-record | Record and review sessions | Log training accurately | syncing devices; activity types; heart rate zones; privacy settings | Set your zones and review a week of sessions | training-load | 1
+[intermediate]
+* tn-load | Understand training load | Balance load and recovery | training load metrics (e.g. TSS/acute vs chronic load); rest days; trends | Plan a recovery week from your data | training-load, sports-analytics | 2
+* tn-plan | Plan a training block | Build a periodised plan | goals; phases; workouts library; calendar | Build a 4-week plan for an event | training-load, online-coaching | 2
+[expert]
+* tn-coach | Coach others with data | Manage athletes remotely | athlete accounts; comments; compliance; exporting data | Review three athletes' weeks and give feedback | online-coaching, sports-analytics | 3
+
+=roadmap dicom-viewers | DICOM viewers (RadiAnt, Horos, Weasis, 3D Slicer) | radiant-dicom-viewer, horos, weasis, 3d-slicer
+[beginner]
+* dc-open | Open and navigate studies | View images confidently | opening studies; series; window/level; scrolling; anonymisation awareness | Open an anonymised sample study and adjust window settings | medical-imaging-viewing | 1
+[intermediate]
+* dc-measure | Measure and compare | Take measurements and compare studies | distances, angles, ROI; side-by-side comparison; MPR | Compare two time points of a sample study | medical-imaging-viewing, radiology-reporting | 2
+[expert]
+* dc-3d | 3D reconstruction and teaching files | Build 3D views and teaching material | volume rendering; segmentation basics (3D Slicer); exporting de-identified images | Create a de-identified teaching image set | medical-imaging-viewing, anatomy-3d, lesson-planning | 4

@@ -1,0 +1,243 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_node_red",
+ "slug": "node-red",
+ "title": "Node-RED skill roadmap",
+ "tool_ids": [
+  "tool_node_red"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_node_red_automation_0",
+    "slug": "node-red-automation-0",
+    "title": "Get started with Node-RED",
+    "outcome": "You can: set up Node-RED, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "plc-automation"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_node_red_automation_1",
+    "slug": "node-red-automation-1",
+    "title": "Describe the process",
+    "outcome": "You can: turn a repetitive task into a rule",
+    "topics": [
+     "trigger",
+     "action",
+     "inputs and outputs",
+     "frequency"
+    ],
+    "practice": "Write one \"when X, do Y\" rule from your work",
+    "need_tags": [
+     "automation-workflows",
+     "plc-automation"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_node_red_automation_2",
+    "slug": "node-red-automation-2",
+    "title": "Build a first flow or app",
+    "outcome": "You can: build a simple working automation or app",
+    "topics": [
+     "connecting accounts",
+     "mapping fields",
+     "testing"
+    ],
+    "practice": "Build and test one simple flow or app",
+    "need_tags": [
+     "automation-workflows",
+     "no-code-apps",
+     "plc-automation"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_node_red_automation_3",
+    "slug": "node-red-automation-3",
+    "title": "Logic and data",
+    "outcome": "You can: add conditions, loops and data handling",
+    "topics": [
+     "filters",
+     "branches",
+     "formatting",
+     "lookups"
+    ],
+    "practice": "Add a condition and a lookup to your flow",
+    "need_tags": [
+     "automation-workflows",
+     "plc-automation"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_node_red_automation_4",
+    "slug": "node-red-automation-4",
+    "title": "Reliability",
+    "outcome": "You can: keep automations running",
+    "topics": [
+     "error alerts",
+     "retries",
+     "logs",
+     "usage limits"
+    ],
+    "practice": "Add an error alert and review usage limits",
+    "need_tags": [
+     "automation-workflows",
+     "plc-automation"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_node_red_automation_8",
+    "slug": "node-red-automation-8",
+    "title": "Signature skills in Node-RED",
+    "outcome": "You can: use the features that make Node-RED distinctive",
+    "topics": [
+     "flows and nodes",
+     "MQTT and HTTP nodes",
+     "dashboards",
+     "deploying flows"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "plc-automation"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_node_red_automation_9",
+    "slug": "node-red-automation-9",
+    "title": "Advanced Node-RED",
+    "outcome": "You can: use Node-RED's advanced capabilities with confidence",
+    "topics": [
+     "custom nodes",
+     "function nodes in JavaScript",
+     "edge/IoT deployment",
+     "securing the editor"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "plc-automation"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_node_red_automation_5",
+    "slug": "node-red-automation-5",
+    "title": "Govern automations",
+    "outcome": "You can: run automations safely for a team",
+    "topics": [
+     "permissions",
+     "documentation",
+     "data privacy",
+     "ownership"
+    ],
+    "practice": "Document and hand over an automation to a colleague",
+    "need_tags": [
+     "automation-workflows",
+     "process-mapping",
+     "plc-automation"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_node_red_automation_10",
+    "slug": "node-red-automation-10",
+    "title": "Integrate Node-RED into your workflow",
+    "outcome": "You can: connect Node-RED with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Node-RED to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "plc-automation"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_node_red_automation_11",
+    "slug": "node-red-automation-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Node-RED well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Node-RED\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "plc-automation"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "automation",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

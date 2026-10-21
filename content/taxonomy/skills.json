@@ -1,0 +1,4122 @@
+{
+ "version": "2.2",
+ "groups": [
+  {
+   "slug": "foundations",
+   "label": "Digital foundations",
+   "order": 1
+  },
+  {
+   "slug": "communicate",
+   "label": "Communication and writing",
+   "order": 2
+  },
+  {
+   "slug": "create",
+   "label": "Design and media",
+   "order": 3
+  },
+  {
+   "slug": "data",
+   "label": "Data and analysis",
+   "order": 4
+  },
+  {
+   "slug": "research",
+   "label": "Research and verification",
+   "order": 5
+  },
+  {
+   "slug": "business",
+   "label": "Business and marketing",
+   "order": 6
+  },
+  {
+   "slug": "work",
+   "label": "Work and career",
+   "order": 7
+  },
+  {
+   "slug": "tech",
+   "label": "Technology and engineering",
+   "order": 8
+  },
+  {
+   "slug": "sector",
+   "label": "Sector practice systems",
+   "order": 9
+  }
+ ],
+ "count": 63,
+ "values": [
+  {
+   "id": "skill_digital_basics",
+   "slug": "digital-basics",
+   "label": "Digital basics",
+   "group": "foundations",
+   "description": "Confident everyday use of phone, computer, browser, files and PDFs.",
+   "keywords": [
+    "computer",
+    "smartphone",
+    "internet",
+    "browser",
+    "files",
+    "pdf",
+    "scanning",
+    "accessibility"
+   ],
+   "levels": {
+    "beginner": "Find, save and share files without losing them",
+    "intermediate": "Organise a cloud drive and fix common PDF tasks",
+    "expert": "Set up and support devices and files for a family or team"
+   },
+   "need_ids": [
+    "need_digital_basics",
+    "need_accessibility_tools",
+    "need_browser_productivity",
+    "need_files_cloud_storage",
+    "need_scan_documents",
+    "need_pdf_work"
+   ],
+   "tool_ids": [
+    "tool_google_drive",
+    "tool_gcfglobal",
+    "tool_microsoft_immersive_reader",
+    "tool_google_chrome",
+    "tool_adobe_scan",
+    "tool_adobe_acrobat",
+    "tool_whatsapp",
+    "tool_nvda",
+    "tool_microsoft_edge",
+    "tool_microsoft_onedrive",
+    "tool_ilovepdf",
+    "tool_zoom",
+    "tool_google_live_transcribe",
+    "tool_firefox",
+    "tool_dropbox",
+    "tool_pdf24",
+    "tool_google_lens",
+    "tool_be_my_eyes",
+    "tool_smallpdf"
+   ],
+   "roadmaps": [
+    "google-drive",
+    "gcfglobal",
+    "microsoft-immersive-reader",
+    "google-chrome",
+    "adobe-scan",
+    "adobe-acrobat",
+    "whatsapp-business",
+    "nvda",
+    "microsoft-edge",
+    "microsoft-onedrive",
+    "ilovepdf",
+    "meetings",
+    "google-live-transcribe",
+    "firefox",
+    "dropbox",
+    "pdf24",
+    "google-lens",
+    "be-my-eyes",
+    "smallpdf"
+   ],
+   "identity_count": 2603,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_online_safety",
+   "slug": "online-safety",
+   "label": "Online safety and privacy",
+   "group": "foundations",
+   "description": "Protect accounts, devices and family members online.",
+   "keywords": [
+    "passwords",
+    "password manager",
+    "2fa",
+    "two-factor",
+    "scams",
+    "phishing",
+    "privacy",
+    "parental controls",
+    "hacked"
+   ],
+   "levels": {
+    "beginner": "Strong unique passwords and two-step sign-in",
+    "intermediate": "Password manager, breach checks, scam spotting",
+    "expert": "Secure a household or small team and teach others"
+   },
+   "need_ids": [
+    "need_online_safety",
+    "need_kids_online_safety"
+   ],
+   "tool_ids": [
+    "tool_bitwarden",
+    "tool_google_family_link",
+    "tool_google_authenticator",
+    "tool_apple_screen_time",
+    "tool_microsoft_authenticator",
+    "tool_microsoft_family_safety",
+    "tool_have_i_been_pwned"
+   ],
+   "roadmaps": [
+    "bitwarden",
+    "google-family-link",
+    "google-authenticator",
+    "apple-screen-time",
+    "microsoft-authenticator",
+    "microsoft-family-safety",
+    "have-i-been-pwned"
+   ],
+   "identity_count": 2603,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_ai_assistants",
+   "slug": "ai-assistants",
+   "label": "Working with AI assistants",
+   "group": "foundations",
+   "description": "Get reliable, checked results from AI chat assistants.",
+   "keywords": [
+    "ai",
+    "chatgpt",
+    "prompts",
+    "prompting",
+    "chatbot",
+    "gemini",
+    "claude",
+    "copilot"
+   ],
+   "levels": {
+    "beginner": "Ask clear questions and check answers",
+    "intermediate": "Give context, examples and formats; verify sources",
+    "expert": "Build repeatable prompts and safe team practices"
+   },
+   "need_ids": [
+    "need_use_ai_assistants"
+   ],
+   "tool_ids": [
+    "tool_chatgpt",
+    "tool_claude",
+    "tool_gemini",
+    "tool_microsoft_copilot",
+    "tool_perplexity"
+   ],
+   "roadmaps": [
+    "ai-assistants",
+    "perplexity"
+   ],
+   "identity_count": 2603,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_translation",
+   "slug": "translation",
+   "label": "Translation and languages",
+   "group": "foundations",
+   "description": "Understand and be understood in any language.",
+   "keywords": [
+    "translate",
+    "interpreter",
+    "foreign language",
+    "language learning",
+    "sign language"
+   ],
+   "levels": {
+    "beginner": "Translate text, signs and conversations on your phone",
+    "intermediate": "Translate documents and keep terminology consistent",
+    "expert": "Learn a language systematically and support others"
+   },
+   "need_ids": [
+    "need_translate_languages",
+    "need_language_learning",
+    "need_sign_language"
+   ],
+   "tool_ids": [
+    "tool_google_translate",
+    "tool_duolingo",
+    "tool_lingvano",
+    "tool_deepl",
+    "tool_busuu",
+    "tool_spreadthesign",
+    "tool_microsoft_translator",
+    "tool_anki",
+    "tool_chatgpt",
+    "tool_italki"
+   ],
+   "roadmaps": [
+    "translation",
+    "duolingo",
+    "lingvano",
+    "busuu",
+    "spreadthesign",
+    "anki",
+    "ai-assistants",
+    "italki"
+   ],
+   "identity_count": 2603,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_productivity",
+   "slug": "productivity",
+   "label": "Personal productivity",
+   "group": "foundations",
+   "description": "Email, calendar, tasks and signatures under control.",
+   "keywords": [
+    "email",
+    "calendar",
+    "to-do",
+    "organisation",
+    "time management",
+    "e-signature"
+   ],
+   "levels": {
+    "beginner": "Inbox, calendar and a simple to-do list",
+    "intermediate": "Filters, templates, shared calendars, e-signatures",
+    "expert": "A personal or family system others can rely on"
+   },
+   "need_ids": [
+    "need_personal_productivity",
+    "need_email_and_calendar",
+    "need_e_signatures",
+    "need_family_organisation"
+   ],
+   "tool_ids": [
+    "tool_google_calendar",
+    "tool_todoist",
+    "tool_gmail",
+    "tool_docusign",
+    "tool_google_keep",
+    "tool_microsoft_outlook",
+    "tool_adobe_acrobat",
+    "tool_cozi",
+    "tool_notion",
+    "tool_smallpdf",
+    "tool_whatsapp",
+    "tool_microsoft_to_do",
+    "tool_proton_mail",
+    "tool_trello"
+   ],
+   "roadmaps": [
+    "google-calendar",
+    "todoist",
+    "gmail",
+    "docusign",
+    "notion",
+    "microsoft-outlook",
+    "adobe-acrobat",
+    "cozi",
+    "smallpdf",
+    "whatsapp-business",
+    "microsoft-to-do",
+    "proton-mail",
+    "jira"
+   ],
+   "identity_count": 2603,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_clear_writing",
+   "slug": "clear-writing",
+   "label": "Clear writing",
+   "group": "communicate",
+   "description": "Write documents and messages people understand and act on.",
+   "keywords": [
+    "writing",
+    "grammar",
+    "spelling",
+    "word processing",
+    "dictation",
+    "plain language"
+   ],
+   "levels": {
+    "beginner": "Format documents and fix spelling and grammar",
+    "intermediate": "Structure, plain language and accessible formatting",
+    "expert": "Style guides, templates and editing others' work"
+   },
+   "need_ids": [
+    "need_write_clearly",
+    "need_documents_basics",
+    "need_voice_typing_transcription",
+    "need_accessible_communication"
+   ],
+   "tool_ids": [
+    "tool_microsoft_word",
+    "tool_google_docs",
+    "tool_google_live_transcribe",
+    "tool_languagetool",
+    "tool_ava",
+    "tool_grammarly",
+    "tool_libreoffice",
+    "tool_otter_ai",
+    "tool_proloquo2go",
+    "tool_be_my_eyes",
+    "tool_hemingway_editor"
+   ],
+   "roadmaps": [
+    "documents",
+    "google-live-transcribe",
+    "languagetool",
+    "ava",
+    "grammarly",
+    "spreadsheets",
+    "otter-ai",
+    "proloquo2go",
+    "be-my-eyes",
+    "hemingway-editor"
+   ],
+   "identity_count": 2603,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_professional_writing",
+   "slug": "professional-writing",
+   "label": "Professional and technical writing",
+   "group": "communicate",
+   "description": "Reports, minutes and technical documents to a professional standard.",
+   "keywords": [
+    "report writing",
+    "minutes",
+    "documentation",
+    "technical writing"
+   ],
+   "levels": {
+    "beginner": "Use a report template correctly",
+    "intermediate": "Write findings, recommendations and minutes clearly",
+    "expert": "Set documentation standards for a team"
+   },
+   "need_ids": [
+    "need_technical_writing",
+    "need_technical_reporting",
+    "need_consulting_deliverables",
+    "need_meeting_minutes",
+    "need_radiology_reporting"
+   ],
+   "tool_ids": [
+    "tool_microsoft_word",
+    "tool_docusaurus",
+    "tool_microsoft_powerpoint",
+    "tool_otter_ai",
+    "tool_radreport",
+    "tool_gitbook",
+    "tool_overleaf",
+    "tool_think_cell",
+    "tool_microsoft_teams",
+    "tool_powerscribe",
+    "tool_confluence",
+    "tool_zotero",
+    "tool_microsoft_excel",
+    "tool_notion",
+    "tool_vale",
+    "tool_mathcad",
+    "tool_miro",
+    "tool_google_docs"
+   ],
+   "roadmaps": [
+    "documents",
+    "docusaurus",
+    "slides",
+    "otter-ai",
+    "radreport",
+    "gitbook",
+    "overleaf",
+    "think-cell",
+    "meetings",
+    "powerscribe",
+    "confluence",
+    "zotero",
+    "spreadsheets",
+    "notion",
+    "vale",
+    "matlab",
+    "miro"
+   ],
+   "identity_count": 414,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_specialist_writing",
+   "slug": "specialist-writing",
+   "label": "Specialist writing",
+   "group": "communicate",
+   "description": "Contracts, academic papers, books and copy.",
+   "keywords": [
+    "contracts",
+    "thesis",
+    "book",
+    "copywriting",
+    "journal paper",
+    "publishing"
+   ],
+   "levels": {
+    "beginner": "Draft with a proven structure",
+    "intermediate": "Citations, revisions and formatting for the target",
+    "expert": "Publish, manage versions and edit others"
+   },
+   "need_ids": [
+    "need_contract_drafting",
+    "need_academic_writing",
+    "need_book_writing_publishing",
+    "need_copywriting"
+   ],
+   "tool_ids": [
+    "tool_microsoft_word",
+    "tool_claude",
+    "tool_overleaf",
+    "tool_scrivener",
+    "tool_docusign",
+    "tool_google_docs",
+    "tool_chatgpt",
+    "tool_adobe_acrobat",
+    "tool_zotero",
+    "tool_reedsy",
+    "tool_hemingway_editor",
+    "tool_languagetool",
+    "tool_amazon_kdp",
+    "tool_grammarly"
+   ],
+   "roadmaps": [
+    "documents",
+    "ai-assistants",
+    "overleaf",
+    "scrivener",
+    "docusign",
+    "adobe-acrobat",
+    "zotero",
+    "reedsy",
+    "hemingway-editor",
+    "languagetool",
+    "amazon-kdp",
+    "grammarly"
+   ],
+   "identity_count": 256,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_presentations",
+   "slug": "presentations",
+   "label": "Presentations",
+   "group": "communicate",
+   "description": "Slides and on-screen content that make a point.",
+   "keywords": [
+    "slides",
+    "powerpoint",
+    "keynote",
+    "pitch deck",
+    "public speaking"
+   ],
+   "levels": {
+    "beginner": "Build clean slides from a template",
+    "intermediate": "Data, visuals and story in a deck",
+    "expert": "Templates and presenting with confidence at scale"
+   },
+   "need_ids": [
+    "need_presentations",
+    "need_worship_presentation"
+   ],
+   "tool_ids": [
+    "tool_canva",
+    "tool_microsoft_powerpoint",
+    "tool_propresenter",
+    "tool_google_slides",
+    "tool_easyworship",
+    "tool_openlp",
+    "tool_apple_keynote",
+    "tool_freeshow"
+   ],
+   "roadmaps": [
+    "canva",
+    "slides",
+    "worship-presentation"
+   ],
+   "identity_count": 2603,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_meetings_messaging",
+   "slug": "meetings-messaging",
+   "label": "Meetings and messaging",
+   "group": "communicate",
+   "description": "Run video meetings and group chats well, including in emergencies.",
+   "keywords": [
+    "zoom",
+    "teams",
+    "whatsapp",
+    "video call",
+    "group chat",
+    "webinar"
+   ],
+   "levels": {
+    "beginner": "Join, mute, share screen, use group chats",
+    "intermediate": "Host, record, organise channels and broadcast lists",
+    "expert": "Run large or critical communications reliably"
+   },
+   "need_ids": [
+    "need_video_meetings",
+    "need_group_messaging",
+    "need_emergency_comms",
+    "need_telemedicine"
+   ],
+   "tool_ids": [
+    "tool_zoom",
+    "tool_whatsapp",
+    "tool_microsoft_teams",
+    "tool_signal",
+    "tool_zello",
+    "tool_doxy_me",
+    "tool_google_meet",
+    "tool_telegram",
+    "tool_jitsi_meet",
+    "tool_slack",
+    "tool_everbridge"
+   ],
+   "roadmaps": [
+    "meetings",
+    "whatsapp-business",
+    "signal",
+    "zello",
+    "doxy-me",
+    "telegram",
+    "slack",
+    "everbridge"
+   ],
+   "identity_count": 2603,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_graphic_design",
+   "slug": "graphic-design",
+   "label": "Graphic design",
+   "group": "create",
+   "description": "From quick social graphics to professional brand design.",
+   "keywords": [
+    "design",
+    "logo",
+    "flyer",
+    "poster",
+    "branding",
+    "canva",
+    "illustration"
+   ],
+   "levels": {
+    "beginner": "Make a clean graphic from a template",
+    "intermediate": "Layout, type, colour and a consistent brand",
+    "expert": "Professional print/vector work and brand systems"
+   },
+   "need_ids": [
+    "need_design_simple_graphics",
+    "need_graphic_design_pro",
+    "need_brand_identity",
+    "need_digital_illustration"
+   ],
+   "tool_ids": [
+    "tool_adobe_illustrator",
+    "tool_canva",
+    "tool_inkscape",
+    "tool_figma",
+    "tool_adobe_photoshop",
+    "tool_procreate",
+    "tool_adobe_express",
+    "tool_krita",
+    "tool_affinity",
+    "tool_clip_studio_paint",
+    "tool_gimp"
+   ],
+   "roadmaps": [
+    "adobe-illustrator",
+    "canva",
+    "inkscape",
+    "figma",
+    "adobe-photoshop",
+    "procreate",
+    "krita",
+    "affinity",
+    "clip-studio-paint",
+    "gimp"
+   ],
+   "identity_count": 2603,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_photography",
+   "slug": "photography",
+   "label": "Photography and photo editing",
+   "group": "create",
+   "description": "Capture, edit and manage photos.",
+   "keywords": [
+    "photos",
+    "photo editing",
+    "lightroom",
+    "retouching",
+    "camera"
+   ],
+   "levels": {
+    "beginner": "Crop, light and colour fixes",
+    "intermediate": "Masks, retouching and batch editing",
+    "expert": "A full catalogue and professional output workflow"
+   },
+   "need_ids": [
+    "need_photo_editing",
+    "need_photography_workflow",
+    "need_product_photography"
+   ],
+   "tool_ids": [
+    "tool_snapseed",
+    "tool_canva",
+    "tool_adobe_lightroom",
+    "tool_photoroom",
+    "tool_darktable",
+    "tool_remove_bg",
+    "tool_photopea",
+    "tool_capture_one",
+    "tool_gimp"
+   ],
+   "roadmaps": [
+    "snapseed",
+    "canva",
+    "adobe-lightroom",
+    "photoroom",
+    "darktable",
+    "remove-bg",
+    "photopea",
+    "capture-one",
+    "gimp"
+   ],
+   "identity_count": 2603,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_video",
+   "slug": "video",
+   "label": "Video creation and editing",
+   "group": "create",
+   "description": "Short-form clips through to professional edits.",
+   "keywords": [
+    "video editing",
+    "reels",
+    "tiktok",
+    "youtube videos",
+    "animation",
+    "capcut"
+   ],
+   "levels": {
+    "beginner": "Trim, caption and post a short video",
+    "intermediate": "Multi-track editing, colour and audio",
+    "expert": "Motion graphics, multicam and delivery specs"
+   },
+   "need_ids": [
+    "need_short_video",
+    "need_video_editing_pro",
+    "need_motion_graphics",
+    "need_screen_recording"
+   ],
+   "tool_ids": [
+    "tool_canva",
+    "tool_capcut",
+    "tool_davinci_resolve",
+    "tool_adobe_after_effects",
+    "tool_obs_studio",
+    "tool_adobe_premiere_pro",
+    "tool_blender",
+    "tool_loom",
+    "tool_clipchamp",
+    "tool_final_cut_pro",
+    "tool_rive",
+    "tool_shotcut",
+    "tool_kdenlive"
+   ],
+   "roadmaps": [
+    "canva",
+    "capcut",
+    "davinci-resolve",
+    "adobe-after-effects",
+    "obs",
+    "adobe-premiere-pro",
+    "blender",
+    "loom",
+    "final-cut-pro",
+    "rive"
+   ],
+   "identity_count": 2603,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_audio_music",
+   "slug": "audio-music",
+   "label": "Audio and music production",
+   "group": "create",
+   "description": "Record, produce and publish audio and music.",
+   "keywords": [
+    "music production",
+    "mixing",
+    "mastering",
+    "beat making",
+    "recording",
+    "podcast",
+    "daw",
+    "sound",
+    "release music",
+    "distribution",
+    "spotify",
+    "streaming"
+   ],
+   "levels": {
+    "beginner": "Record clean audio and trim it",
+    "intermediate": "Arrange, mix and publish",
+    "expert": "Professional mixing, mastering and notation"
+   },
+   "need_ids": [
+    "need_audio_production",
+    "need_podcast_production",
+    "need_music_notation",
+    "need_release_music",
+    "need_artist_profiles"
+   ],
+   "tool_ids": [
+    "tool_bandlab",
+    "tool_audacity",
+    "tool_audiomack",
+    "tool_riverside",
+    "tool_musescore",
+    "tool_distrokid",
+    "tool_spotify_for_artists",
+    "tool_descript",
+    "tool_sibelius",
+    "tool_tunecore",
+    "tool_reaper",
+    "tool_dorico",
+    "tool_instagram",
+    "tool_ableton_live",
+    "tool_buzzsprout",
+    "tool_logic_pro",
+    "tool_garageband",
+    "tool_fl_studio"
+   ],
+   "roadmaps": [
+    "bandlab",
+    "audacity",
+    "audiomack",
+    "riverside",
+    "musescore",
+    "distrokid",
+    "spotify-for-artists",
+    "descript",
+    "sibelius",
+    "tunecore",
+    "reaper",
+    "dorico",
+    "instagram",
+    "ableton-live",
+    "buzzsprout",
+    "logic-pro",
+    "garageband",
+    "fl-studio"
+   ],
+   "identity_count": 83,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_live_streaming",
+   "slug": "live-streaming",
+   "label": "Live streaming",
+   "group": "create",
+   "description": "Stream events, services and shows.",
+   "keywords": [
+    "livestream",
+    "go live",
+    "broadcast",
+    "obs",
+    "church stream"
+   ],
+   "levels": {
+    "beginner": "Go live from a phone or laptop",
+    "intermediate": "Multi-camera, overlays and audio",
+    "expert": "Reliable production with cues and backups"
+   },
+   "need_ids": [
+    "need_live_streaming",
+    "need_service_livestream",
+    "need_stage_production"
+   ],
+   "tool_ids": [
+    "tool_obs_studio",
+    "tool_streamyard",
+    "tool_restream",
+    "tool_qlab",
+    "tool_google_sheets",
+    "tool_notion",
+    "tool_boxcast"
+   ],
+   "roadmaps": [
+    "obs",
+    "qlab",
+    "spreadsheets",
+    "notion",
+    "boxcast"
+   ],
+   "identity_count": 65,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_ui_ux",
+   "slug": "ui-ux",
+   "label": "UI/UX design",
+   "group": "create",
+   "description": "Design and test digital products.",
+   "keywords": [
+    "ux",
+    "ui",
+    "product design",
+    "figma",
+    "wireframes",
+    "prototyping",
+    "usability"
+   ],
+   "levels": {
+    "beginner": "Wireframes and simple prototypes",
+    "intermediate": "Components, design systems and usability tests",
+    "expert": "Research-led design and handover to engineering"
+   },
+   "need_ids": [
+    "need_ui_ux_design",
+    "need_user_research"
+   ],
+   "tool_ids": [
+    "tool_figma",
+    "tool_maze",
+    "tool_penpot",
+    "tool_dovetail",
+    "tool_sketch",
+    "tool_lookback",
+    "tool_framer",
+    "tool_google_forms"
+   ],
+   "roadmaps": [
+    "figma",
+    "maze",
+    "dovetail",
+    "sketch",
+    "lookback",
+    "framer",
+    "google-forms"
+   ],
+   "identity_count": 23,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_three_d",
+   "slug": "three-d",
+   "label": "3D, visualisation and fabrication",
+   "group": "create",
+   "description": "Model, render and make things in 3D.",
+   "keywords": [
+    "3d",
+    "rendering",
+    "cad modelling",
+    "3d printing",
+    "interior design",
+    "fashion design"
+   ],
+   "levels": {
+    "beginner": "Build and render a simple model",
+    "intermediate": "Materials, lighting and accurate parts",
+    "expert": "Production-quality renders and fabrication files"
+   },
+   "need_ids": [
+    "need_3d_modelling",
+    "need_architectural_visualisation",
+    "need_interior_design",
+    "need_fashion_design",
+    "need_3d_printing",
+    "need_woodworking_design"
+   ],
+   "tool_ids": [
+    "tool_sketchup",
+    "tool_enscape",
+    "tool_blender",
+    "tool_clo_3d",
+    "tool_ultimaker_cura",
+    "tool_autodesk_maya",
+    "tool_lumion",
+    "tool_planner_5d",
+    "tool_adobe_illustrator",
+    "tool_prusaslicer",
+    "tool_fusion_360",
+    "tool_cinema_4d",
+    "tool_twinmotion",
+    "tool_homestyler",
+    "tool_seamly2d",
+    "tool_tinkercad",
+    "tool_cutlist_optimizer",
+    "tool_d5_render",
+    "tool_bambu_studio"
+   ],
+   "roadmaps": [
+    "sketchup",
+    "enscape",
+    "blender",
+    "clo-3d",
+    "ultimaker-cura",
+    "autodesk-maya",
+    "lumion",
+    "planner-5d",
+    "adobe-illustrator",
+    "prusaslicer",
+    "fusion-360",
+    "cinema-4d",
+    "twinmotion",
+    "homestyler",
+    "seamly2d",
+    "tinkercad",
+    "cutlist-optimizer",
+    "d5-render",
+    "bambu-studio"
+   ],
+   "identity_count": 46,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_spreadsheets",
+   "slug": "spreadsheets",
+   "label": "Spreadsheets",
+   "group": "data",
+   "description": "From tidy tables to dependable formulas and budgets.",
+   "keywords": [
+    "excel",
+    "google sheets",
+    "formulas",
+    "budget",
+    "pivot tables",
+    "vlookup"
+   ],
+   "levels": {
+    "beginner": "Tables, sorting, simple formulas",
+    "intermediate": "Lookups, PivotTables, charts and checks",
+    "expert": "Robust models others can audit and reuse"
+   },
+   "need_ids": [
+    "need_spreadsheets_basics",
+    "need_budgeting_fpa",
+    "need_personal_finance"
+   ],
+   "tool_ids": [
+    "tool_microsoft_excel",
+    "tool_google_sheets",
+    "tool_power_bi",
+    "tool_libreoffice",
+    "tool_anaplan",
+    "tool_ynab"
+   ],
+   "roadmaps": [
+    "spreadsheets",
+    "power-bi",
+    "anaplan",
+    "ynab"
+   ],
+   "identity_count": 2603,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_data_analysis",
+   "slug": "data-analysis",
+   "label": "Data analysis",
+   "group": "data",
+   "description": "Clean, query and analyse data.",
+   "keywords": [
+    "data",
+    "sql",
+    "python",
+    "analytics",
+    "data cleaning",
+    "jupyter"
+   ],
+   "levels": {
+    "beginner": "Clean a dataset and summarise it",
+    "intermediate": "SQL joins, notebooks and repeatable steps",
+    "expert": "Pipelines, testing and peer-reviewed analysis"
+   },
+   "need_ids": [
+    "need_data_cleaning",
+    "need_sql_querying",
+    "need_notebooks",
+    "need_engineering_data_analysis"
+   ],
+   "tool_ids": [
+    "tool_python",
+    "tool_jupyter",
+    "tool_microsoft_excel",
+    "tool_power_query",
+    "tool_dbeaver",
+    "tool_openrefine",
+    "tool_bigquery",
+    "tool_google_colab",
+    "tool_matlab",
+    "tool_postgresql",
+    "tool_rstudio",
+    "tool_sqlite",
+    "tool_power_bi",
+    "tool_alteryx",
+    "tool_mode"
+   ],
+   "roadmaps": [
+    "python",
+    "spreadsheets",
+    "power-query",
+    "sql",
+    "openrefine",
+    "matlab",
+    "rstudio",
+    "power-bi",
+    "alteryx",
+    "mode"
+   ],
+   "identity_count": 313,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_statistics",
+   "slug": "statistics",
+   "label": "Statistics",
+   "group": "data",
+   "description": "Choose and run the right statistical method.",
+   "keywords": [
+    "stats",
+    "regression",
+    "hypothesis testing",
+    "six sigma",
+    "spc"
+   ],
+   "levels": {
+    "beginner": "Descriptives and basic tests",
+    "intermediate": "Regression, control charts and experiments",
+    "expert": "Advanced modelling and teaching methods"
+   },
+   "need_ids": [
+    "need_statistical_analysis",
+    "need_quality_statistics",
+    "need_lean_six_sigma"
+   ],
+   "tool_ids": [
+    "tool_minitab",
+    "tool_python",
+    "tool_microsoft_excel",
+    "tool_r",
+    "tool_jmp",
+    "tool_miro",
+    "tool_spss",
+    "tool_microsoft_visio",
+    "tool_stata",
+    "tool_jamovi",
+    "tool_jasp"
+   ],
+   "roadmaps": [
+    "minitab",
+    "python",
+    "spreadsheets",
+    "r",
+    "jmp",
+    "miro",
+    "spss",
+    "microsoft-visio",
+    "stata",
+    "jamovi",
+    "jasp"
+   ],
+   "identity_count": 370,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_data_visualisation",
+   "slug": "data-visualisation",
+   "label": "Data visualisation and dashboards",
+   "group": "data",
+   "description": "Charts and dashboards that drive decisions.",
+   "keywords": [
+    "charts",
+    "graphs",
+    "dashboards",
+    "power bi",
+    "tableau",
+    "kpi"
+   ],
+   "levels": {
+    "beginner": "Pick the right chart and label it",
+    "intermediate": "Interactive dashboards with filters",
+    "expert": "Governed BI with standards and refresh"
+   },
+   "need_ids": [
+    "need_data_visualisation",
+    "need_dashboards_bi",
+    "need_kpi_tracking",
+    "need_scientific_figures"
+   ],
+   "tool_ids": [
+    "tool_power_bi",
+    "tool_microsoft_excel",
+    "tool_tableau",
+    "tool_python",
+    "tool_datawrapper",
+    "tool_biorender",
+    "tool_flourish",
+    "tool_google_sheets",
+    "tool_graphpad_prism",
+    "tool_looker_studio",
+    "tool_inkscape",
+    "tool_metabase",
+    "tool_notion",
+    "tool_apache_superset",
+    "tool_origin"
+   ],
+   "roadmaps": [
+    "power-bi",
+    "spreadsheets",
+    "tableau",
+    "python",
+    "datawrapper",
+    "biorender",
+    "flourish",
+    "graphpad-prism",
+    "looker-studio",
+    "inkscape",
+    "metabase",
+    "notion",
+    "apache-superset",
+    "origin"
+   ],
+   "identity_count": 508,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_financial_modelling",
+   "slug": "financial-modelling",
+   "label": "Financial modelling and analysis",
+   "group": "data",
+   "description": "Model, value and audit with confidence.",
+   "keywords": [
+    "valuation",
+    "dcf",
+    "financial model",
+    "forecasting",
+    "audit"
+   ],
+   "levels": {
+    "beginner": "Three-statement basics and clean layout",
+    "intermediate": "Scenarios, sensitivities and valuation",
+    "expert": "Audit-ready models and analytics at scale"
+   },
+   "need_ids": [
+    "need_financial_modelling",
+    "need_risk_modelling",
+    "need_market_research_finance",
+    "need_audit_analytics"
+   ],
+   "tool_ids": [
+    "tool_microsoft_excel",
+    "tool_python",
+    "tool_power_bi",
+    "tool_bloomberg_terminal",
+    "tool_caseware_idea",
+    "tool_google_sheets",
+    "tool_lseg_workspace",
+    "tool_r",
+    "tool_tradingview",
+    "tool_matlab",
+    "tool_koyfin",
+    "tool_yahoo_finance"
+   ],
+   "roadmaps": [
+    "spreadsheets",
+    "python",
+    "power-bi",
+    "bloomberg-terminal",
+    "caseware-idea",
+    "lseg-workspace",
+    "r",
+    "tradingview",
+    "matlab",
+    "koyfin",
+    "yahoo-finance"
+   ],
+   "identity_count": 116,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_product_web_analytics",
+   "slug": "product-web-analytics",
+   "label": "Product and web analytics",
+   "group": "data",
+   "description": "Understand how people use your site or app.",
+   "keywords": [
+    "google analytics",
+    "website traffic",
+    "funnels",
+    "a/b testing"
+   ],
+   "levels": {
+    "beginner": "Read standard reports",
+    "intermediate": "Events, funnels and experiments",
+    "expert": "Measurement plans and data governance"
+   },
+   "need_ids": [
+    "need_product_analytics",
+    "need_web_analytics"
+   ],
+   "tool_ids": [
+    "tool_google_analytics",
+    "tool_mixpanel",
+    "tool_amplitude",
+    "tool_plausible",
+    "tool_posthog",
+    "tool_matomo",
+    "tool_microsoft_clarity"
+   ],
+   "roadmaps": [
+    "google-analytics",
+    "mixpanel",
+    "amplitude",
+    "plausible",
+    "posthog",
+    "matomo",
+    "microsoft-clarity"
+   ],
+   "identity_count": 101,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_monitoring_evaluation",
+   "slug": "monitoring-evaluation",
+   "label": "Monitoring, evaluation and public data",
+   "group": "data",
+   "description": "Measure programmes, services and health outcomes.",
+   "keywords": [
+    "m&e",
+    "indicators",
+    "impact measurement",
+    "clinical audit",
+    "dhis2"
+   ],
+   "levels": {
+    "beginner": "Collect and enter indicator data",
+    "intermediate": "Analyse, visualise and report results",
+    "expert": "Design M&E systems and audits"
+   },
+   "need_ids": [
+    "need_monitoring_evaluation",
+    "need_public_health_data",
+    "need_open_data",
+    "need_clinical_audit_qi"
+   ],
+   "tool_ids": [
+    "tool_power_bi",
+    "tool_dhis2",
+    "tool_microsoft_excel",
+    "tool_kobotoolbox",
+    "tool_ckan",
+    "tool_odk",
+    "tool_epi_info",
+    "tool_datawrapper",
+    "tool_redcap",
+    "tool_qgis",
+    "tool_life_qi",
+    "tool_activityinfo",
+    "tool_r"
+   ],
+   "roadmaps": [
+    "power-bi",
+    "dhis2",
+    "spreadsheets",
+    "kobotoolbox",
+    "ckan",
+    "epi-info",
+    "datawrapper",
+    "redcap",
+    "qgis",
+    "life-qi",
+    "activityinfo",
+    "r"
+   ],
+   "identity_count": 160,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_qual_research",
+   "slug": "qual-research",
+   "label": "Qualitative research",
+   "group": "data",
+   "description": "Surveys, interviews and coding.",
+   "keywords": [
+    "surveys",
+    "interviews",
+    "questionnaires",
+    "focus groups",
+    "thematic analysis"
+   ],
+   "levels": {
+    "beginner": "Build a good survey or interview guide",
+    "intermediate": "Code and theme qualitative data",
+    "expert": "Mixed-methods studies and rigorous reporting"
+   },
+   "need_ids": [
+    "need_qualitative_analysis",
+    "need_research_surveys",
+    "need_forms_surveys"
+   ],
+   "tool_ids": [
+    "tool_kobotoolbox",
+    "tool_google_forms",
+    "tool_nvivo",
+    "tool_atlas_ti",
+    "tool_qualtrics",
+    "tool_microsoft_forms",
+    "tool_taguette",
+    "tool_limesurvey",
+    "tool_typeform"
+   ],
+   "roadmaps": [
+    "kobotoolbox",
+    "google-forms",
+    "nvivo",
+    "atlas-ti",
+    "qualtrics",
+    "microsoft-forms",
+    "taguette",
+    "limesurvey",
+    "typeform"
+   ],
+   "identity_count": 2603,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_research_skills",
+   "slug": "research-skills",
+   "label": "Research and literature review",
+   "group": "research",
+   "description": "Find, organise and evaluate information.",
+   "keywords": [
+    "research",
+    "literature review",
+    "references",
+    "citations",
+    "zotero"
+   ],
+   "levels": {
+    "beginner": "Search well and save sources",
+    "intermediate": "Systematic searching and reference management",
+    "expert": "Systematic reviews and data management plans"
+   },
+   "need_ids": [
+    "need_find_information",
+    "need_literature_review",
+    "need_research_data_management",
+    "need_policy_research",
+    "need_public_consultation"
+   ],
+   "tool_ids": [
+    "tool_google_scholar",
+    "tool_zotero",
+    "tool_google_search",
+    "tool_zenodo",
+    "tool_google_forms",
+    "tool_perplexity",
+    "tool_rayyan",
+    "tool_osf",
+    "tool_kobotoolbox",
+    "tool_wikipedia",
+    "tool_connected_papers",
+    "tool_figshare",
+    "tool_microsoft_word",
+    "tool_decidim",
+    "tool_semantic_scholar",
+    "tool_github",
+    "tool_claude",
+    "tool_polis"
+   ],
+   "roadmaps": [
+    "google-scholar",
+    "zotero",
+    "google-search",
+    "zenodo",
+    "google-forms",
+    "perplexity",
+    "rayyan",
+    "osf",
+    "kobotoolbox",
+    "wikipedia",
+    "connected-papers",
+    "figshare",
+    "documents",
+    "decidim",
+    "semantic-scholar",
+    "git-github",
+    "ai-assistants",
+    "polis"
+   ],
+   "identity_count": 2603,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_fact_checking",
+   "slug": "fact-checking",
+   "label": "Fact-checking and verification",
+   "group": "research",
+   "description": "Verify claims, images and videos.",
+   "keywords": [
+    "fake news",
+    "misinformation",
+    "verify",
+    "reverse image",
+    "osint"
+   ],
+   "levels": {
+    "beginner": "Reverse image search and lateral reading",
+    "intermediate": "Video keyframes, metadata and archives",
+    "expert": "Structured verification and ethical OSINT"
+   },
+   "need_ids": [
+    "need_fact_check",
+    "need_media_verification",
+    "need_osint_research"
+   ],
+   "tool_ids": [
+    "tool_tineye",
+    "tool_google_lens",
+    "tool_google_fact_check_explorer",
+    "tool_google_earth_pro",
+    "tool_wayback_machine",
+    "tool_invid_wevrify",
+    "tool_maltego"
+   ],
+   "roadmaps": [
+    "tineye",
+    "google-lens",
+    "google-fact-check-explorer",
+    "google-earth-pro",
+    "wayback-machine",
+    "invid-wevrify",
+    "maltego"
+   ],
+   "identity_count": 2603,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_clinical_evidence",
+   "slug": "clinical-evidence",
+   "label": "Clinical evidence and reference",
+   "group": "research",
+   "description": "Use trusted clinical references and evidence.",
+   "keywords": [
+    "guidelines",
+    "drug interactions",
+    "clinical decision",
+    "evidence-based practice"
+   ],
+   "levels": {
+    "beginner": "Look up guidance and drug information",
+    "intermediate": "Appraise evidence and apply calculators safely",
+    "expert": "Lead journal clubs and local guideline adaptation"
+   },
+   "need_ids": [
+    "need_clinical_reference",
+    "need_drug_information",
+    "need_evidence_based_medicine",
+    "need_medical_calculators",
+    "need_health_research_data"
+   ],
+   "tool_ids": [
+    "tool_medscape",
+    "tool_uptodate",
+    "tool_bnf",
+    "tool_pubmed",
+    "tool_mdcalc",
+    "tool_redcap",
+    "tool_bmj_best_practice",
+    "tool_cochrane_library",
+    "tool_qxmd",
+    "tool_kobotoolbox",
+    "tool_drugs_com",
+    "tool_google_scholar",
+    "tool_epi_info",
+    "tool_who_guidelines",
+    "tool_epocrates",
+    "tool_zotero",
+    "tool_spss",
+    "tool_nice_guidance",
+    "tool_lexicomp",
+    "tool_rayyan",
+    "tool_r",
+    "tool_stata"
+   ],
+   "roadmaps": [
+    "medscape",
+    "uptodate",
+    "bnf",
+    "pubmed",
+    "mdcalc",
+    "redcap",
+    "bmj-best-practice",
+    "cochrane-library",
+    "qxmd",
+    "kobotoolbox",
+    "drugs-com",
+    "google-scholar",
+    "epi-info",
+    "who-guidelines",
+    "epocrates",
+    "zotero",
+    "spss",
+    "nice-guidance",
+    "lexicomp",
+    "rayyan",
+    "r",
+    "stata"
+   ],
+   "identity_count": 257,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_legal_research",
+   "slug": "legal-research",
+   "label": "Legal research",
+   "group": "research",
+   "description": "Find and use law and evidence.",
+   "keywords": [
+    "case law",
+    "statutes",
+    "law reports",
+    "e-discovery"
+   ],
+   "levels": {
+    "beginner": "Search cases and legislation",
+    "intermediate": "Citators, alerts and document review",
+    "expert": "Litigation analytics and review management"
+   },
+   "need_ids": [
+    "need_legal_research",
+    "need_ediscovery"
+   ],
+   "tool_ids": [
+    "tool_westlaw",
+    "tool_relativity",
+    "tool_lexisnexis",
+    "tool_everlaw",
+    "tool_google_scholar",
+    "tool_bailii",
+    "tool_lawpavilion"
+   ],
+   "roadmaps": [
+    "westlaw",
+    "relativity",
+    "lexisnexis",
+    "everlaw",
+    "google-scholar",
+    "bailii",
+    "lawpavilion"
+   ],
+   "identity_count": 47,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_market_research",
+   "slug": "market-research",
+   "label": "Market and business research",
+   "group": "research",
+   "description": "Understand markets, customers and funders.",
+   "keywords": [
+    "competitor analysis",
+    "customer interviews",
+    "market size",
+    "grants"
+   ],
+   "levels": {
+    "beginner": "Find market data and competitors",
+    "intermediate": "Interviews, sizing and funder research",
+    "expert": "Research programmes that steer strategy"
+   },
+   "need_ids": [
+    "need_market_research",
+    "need_product_discovery",
+    "need_grant_finding"
+   ],
+   "tool_ids": [
+    "tool_google_trends",
+    "tool_productboard",
+    "tool_candid",
+    "tool_statista",
+    "tool_miro",
+    "tool_fundsforngos",
+    "tool_similarweb",
+    "tool_dovetail",
+    "tool_microsoft_excel",
+    "tool_typeform",
+    "tool_notion"
+   ],
+   "roadmaps": [
+    "google-trends",
+    "productboard",
+    "candid",
+    "statista",
+    "miro",
+    "fundsforngos",
+    "similarweb",
+    "dovetail",
+    "spreadsheets",
+    "typeform",
+    "notion"
+   ],
+   "identity_count": 85,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_social_media",
+   "slug": "social-media",
+   "label": "Social media",
+   "group": "business",
+   "description": "Build presence and manage social channels.",
+   "keywords": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "linkedin",
+    "influencer",
+    "content calendar"
+   ],
+   "levels": {
+    "beginner": "Set up a profile and post consistently",
+    "intermediate": "Plan content, schedule and read insights",
+    "expert": "Multi-channel strategy and team workflows"
+   },
+   "need_ids": [
+    "need_social_media_presence",
+    "need_social_media_management",
+    "need_content_planning",
+    "need_athlete_brand"
+   ],
+   "tool_ids": [
+    "tool_buffer",
+    "tool_canva",
+    "tool_capcut",
+    "tool_meta_business_suite",
+    "tool_metricool",
+    "tool_notion",
+    "tool_hootsuite",
+    "tool_trello",
+    "tool_linkedin"
+   ],
+   "roadmaps": [
+    "buffer",
+    "canva",
+    "capcut",
+    "meta-business-suite",
+    "metricool",
+    "notion",
+    "hootsuite",
+    "jira",
+    "linkedin"
+   ],
+   "identity_count": 2603,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_digital_marketing",
+   "slug": "digital-marketing",
+   "label": "Digital marketing",
+   "group": "business",
+   "description": "Reach people via email, search, ads and media.",
+   "keywords": [
+    "marketing",
+    "seo",
+    "ads",
+    "email marketing",
+    "newsletter",
+    "pr"
+   ],
+   "levels": {
+    "beginner": "Send a newsletter; basic SEO",
+    "intermediate": "Segments, automation, keyword research, campaigns",
+    "expert": "Integrated, measured marketing programmes"
+   },
+   "need_ids": [
+    "need_email_marketing",
+    "need_newsletter_publishing",
+    "need_seo",
+    "need_online_ads",
+    "need_pr_media_monitoring"
+   ],
+   "tool_ids": [
+    "tool_mailchimp",
+    "tool_substack",
+    "tool_google_search_console",
+    "tool_google_ads",
+    "tool_google_alerts",
+    "tool_mailerlite",
+    "tool_beehiiv",
+    "tool_google_analytics",
+    "tool_meta_ads_manager",
+    "tool_muck_rack",
+    "tool_brevo",
+    "tool_semrush",
+    "tool_linkedin",
+    "tool_meltwater",
+    "tool_kit",
+    "tool_ghost",
+    "tool_ahrefs"
+   ],
+   "roadmaps": [
+    "mailchimp",
+    "substack",
+    "google-search-console",
+    "google-ads",
+    "google-alerts",
+    "mailerlite",
+    "beehiiv",
+    "google-analytics",
+    "meta-ads-manager",
+    "muck-rack",
+    "brevo",
+    "semrush",
+    "linkedin",
+    "meltwater",
+    "kit",
+    "ghost",
+    "ahrefs"
+   ],
+   "identity_count": 51,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_selling_online",
+   "slug": "selling-online",
+   "label": "Selling online and payments",
+   "group": "business",
+   "description": "Get paid and sell online or in person.",
+   "keywords": [
+    "ecommerce",
+    "online shop",
+    "payments",
+    "invoices",
+    "pos",
+    "sell"
+   ],
+   "levels": {
+    "beginner": "Take a payment and send an invoice",
+    "intermediate": "Run a store or marketplace shop",
+    "expert": "Multi-channel commerce with reporting"
+   },
+   "need_ids": [
+    "need_online_store",
+    "need_marketplace_selling",
+    "need_online_payments",
+    "need_invoicing",
+    "need_sell_art_online",
+    "need_point_of_sale",
+    "need_creator_income"
+   ],
+   "tool_ids": [
+    "tool_selar",
+    "tool_shopify",
+    "tool_etsy",
+    "tool_paystack",
+    "tool_amazon_seller_central",
+    "tool_paypal",
+    "tool_wave",
+    "tool_square",
+    "tool_patreon",
+    "tool_woocommerce",
+    "tool_wise",
+    "tool_zoho_invoice",
+    "tool_loyverse",
+    "tool_ko_fi",
+    "tool_jumia",
+    "tool_quickbooks",
+    "tool_sumup",
+    "tool_wix",
+    "tool_jiji",
+    "tool_flutterwave",
+    "tool_invoice_ninja",
+    "tool_redbubble",
+    "tool_moniepoint",
+    "tool_gumroad",
+    "tool_canva",
+    "tool_ebay",
+    "tool_stripe"
+   ],
+   "roadmaps": [
+    "selar",
+    "shopify",
+    "etsy",
+    "paystack",
+    "amazon-seller-central",
+    "paypal",
+    "bookkeeping",
+    "square",
+    "patreon",
+    "woocommerce",
+    "wise",
+    "zoho-invoice",
+    "loyverse",
+    "ko-fi",
+    "jumia",
+    "sumup",
+    "wordpress",
+    "jiji",
+    "flutterwave",
+    "invoice-ninja",
+    "redbubble",
+    "moniepoint",
+    "gumroad",
+    "canva",
+    "ebay",
+    "stripe"
+   ],
+   "identity_count": 2603,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_customer_relationships",
+   "slug": "customer-relationships",
+   "label": "Customers, CRM and support",
+   "group": "business",
+   "description": "Manage customers from first contact to loyalty.",
+   "keywords": [
+    "crm",
+    "customers",
+    "sales pipeline",
+    "help desk",
+    "bookings",
+    "reviews"
+   ],
+   "levels": {
+    "beginner": "Keep contacts and bookings in one place",
+    "intermediate": "Pipelines, help desks and review responses",
+    "expert": "Automation and service levels across a team"
+   },
+   "need_ids": [
+    "need_crm_sales",
+    "need_customer_support",
+    "need_reviews_reputation",
+    "need_booking_appointments",
+    "need_salon_booking",
+    "need_tour_booking"
+   ],
+   "tool_ids": [
+    "tool_fresha",
+    "tool_square",
+    "tool_hubspot",
+    "tool_whatsapp_business",
+    "tool_google_business_profile",
+    "tool_calendly",
+    "tool_fareharbor",
+    "tool_zoho_crm",
+    "tool_zendesk",
+    "tool_tripadvisor",
+    "tool_setmore",
+    "tool_booksy",
+    "tool_bokun",
+    "tool_salesforce",
+    "tool_freshdesk",
+    "tool_trustpilot",
+    "tool_vagaro",
+    "tool_getyourguide",
+    "tool_pipedrive",
+    "tool_crisp",
+    "tool_google_translate",
+    "tool_deepl"
+   ],
+   "roadmaps": [
+    "fresha",
+    "square",
+    "hubspot",
+    "whatsapp-business",
+    "google-business-profile",
+    "calendly",
+    "fareharbor",
+    "zoho-crm",
+    "zendesk",
+    "tripadvisor",
+    "setmore",
+    "booksy",
+    "bokun",
+    "salesforce",
+    "freshdesk",
+    "trustpilot",
+    "vagaro",
+    "getyourguide",
+    "pipedrive",
+    "crisp",
+    "translation"
+   ],
+   "identity_count": 423,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_business_admin",
+   "slug": "business-admin",
+   "label": "Business administration and finance",
+   "group": "business",
+   "description": "Run the books and the back office.",
+   "keywords": [
+    "accounting",
+    "bookkeeping",
+    "tax",
+    "payroll",
+    "business plan",
+    "quickbooks"
+   ],
+   "levels": {
+    "beginner": "Record income and expenses",
+    "intermediate": "Reconcile, payroll and tax returns",
+    "expert": "Controls, reporting and advising others"
+   },
+   "need_ids": [
+    "need_bookkeeping",
+    "need_tax_compliance",
+    "need_payroll",
+    "need_business_planning",
+    "need_trade_quotes_invoicing"
+   ],
+   "tool_ids": [
+    "tool_microsoft_excel",
+    "tool_quickbooks",
+    "tool_xero",
+    "tool_sage",
+    "tool_wave",
+    "tool_deel",
+    "tool_google_docs",
+    "tool_jobber",
+    "tool_gusto",
+    "tool_tradify",
+    "tool_miro",
+    "tool_invoice_ninja",
+    "tool_zoho_books",
+    "tool_canva",
+    "tool_notion",
+    "tool_claude",
+    "tool_chatgpt"
+   ],
+   "roadmaps": [
+    "spreadsheets",
+    "bookkeeping",
+    "sage",
+    "deel",
+    "documents",
+    "jobber",
+    "gusto",
+    "tradify",
+    "miro",
+    "invoice-ninja",
+    "canva",
+    "notion",
+    "ai-assistants"
+   ],
+   "identity_count": 462,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_fundraising",
+   "slug": "fundraising",
+   "label": "Fundraising and giving",
+   "group": "business",
+   "description": "Raise money and mobilise people for a cause.",
+   "keywords": [
+    "donations",
+    "crowdfunding",
+    "charity",
+    "volunteers",
+    "giving"
+   ],
+   "levels": {
+    "beginner": "Set up a donation page",
+    "intermediate": "Campaigns, donor records and volunteers",
+    "expert": "Programmes with reporting and stewardship"
+   },
+   "need_ids": [
+    "need_fundraising",
+    "need_online_giving",
+    "need_volunteer_coordination",
+    "need_volunteering"
+   ],
+   "tool_ids": [
+    "tool_donorbox",
+    "tool_tithely",
+    "tool_signupgenius",
+    "tool_idealist",
+    "tool_gofundme",
+    "tool_pushpay",
+    "tool_google_sheets",
+    "tool_un_online_volunteering",
+    "tool_hubspot",
+    "tool_paystack",
+    "tool_whatsapp",
+    "tool_volunteermatch",
+    "tool_mailchimp"
+   ],
+   "roadmaps": [
+    "donorbox",
+    "tithely",
+    "signupgenius",
+    "idealist",
+    "gofundme",
+    "pushpay",
+    "spreadsheets",
+    "un-online-volunteering",
+    "hubspot",
+    "paystack",
+    "whatsapp-business",
+    "volunteermatch",
+    "mailchimp"
+   ],
+   "identity_count": 75,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_career",
+   "slug": "career",
+   "label": "Career and job search",
+   "group": "work",
+   "description": "Get found, get hired and get paid.",
+   "keywords": [
+    "job search",
+    "cv",
+    "resume",
+    "linkedin",
+    "portfolio",
+    "freelancing",
+    "interview"
+   ],
+   "levels": {
+    "beginner": "A strong profile and CV",
+    "intermediate": "Targeted applications and a portfolio",
+    "expert": "Personal brand and freelance business"
+   },
+   "need_ids": [
+    "need_professional_profile",
+    "need_job_search",
+    "need_cv_portfolio",
+    "need_auditions_casting",
+    "need_freelancing",
+    "need_visual_portfolio"
+   ],
+   "tool_ids": [
+    "tool_linkedin",
+    "tool_canva",
+    "tool_capcut",
+    "tool_backstage",
+    "tool_upwork",
+    "tool_instagram",
+    "tool_indeed",
+    "tool_google_docs",
+    "tool_spotlight",
+    "tool_fiverr",
+    "tool_pinterest",
+    "tool_google_sites",
+    "tool_glassdoor",
+    "tool_contra",
+    "tool_notion",
+    "tool_behance"
+   ],
+   "roadmaps": [
+    "linkedin",
+    "canva",
+    "capcut",
+    "backstage",
+    "upwork",
+    "instagram",
+    "indeed",
+    "documents",
+    "spotlight",
+    "fiverr",
+    "pinterest",
+    "google-sites",
+    "glassdoor",
+    "contra",
+    "notion",
+    "behance"
+   ],
+   "identity_count": 2603,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_project_management",
+   "slug": "project-management",
+   "label": "Project and work management",
+   "group": "work",
+   "description": "Plan and deliver work with others.",
+   "keywords": [
+    "project management",
+    "scheduling",
+    "gantt",
+    "agile",
+    "scrum",
+    "kanban",
+    "events"
+   ],
+   "levels": {
+    "beginner": "Task lists and simple boards",
+    "intermediate": "Schedules, dependencies and agile tracking",
+    "expert": "Portfolios, critical path and process improvement"
+   },
+   "need_ids": [
+    "need_project_management",
+    "need_project_scheduling",
+    "need_agile_tracking",
+    "need_roadmapping",
+    "need_process_mapping",
+    "need_team_organisation",
+    "need_events_management"
+   ],
+   "tool_ids": [
+    "tool_jira",
+    "tool_trello",
+    "tool_miro",
+    "tool_microsoft_project",
+    "tool_asana",
+    "tool_primavera_p6",
+    "tool_productboard",
+    "tool_draw_io",
+    "tool_teamsnap",
+    "tool_eventbrite",
+    "tool_linear",
+    "tool_aha",
+    "tool_lucidchart",
+    "tool_spond",
+    "tool_luma",
+    "tool_monday_com",
+    "tool_ganttproject",
+    "tool_azure_devops",
+    "tool_heja",
+    "tool_google_forms",
+    "tool_clickup",
+    "tool_smartsheet",
+    "tool_github",
+    "tool_bizagi_modeler",
+    "tool_canva",
+    "tool_notion",
+    "tool_microsoft_excel",
+    "tool_microsoft_visio"
+   ],
+   "roadmaps": [
+    "jira",
+    "miro",
+    "microsoft-project",
+    "asana",
+    "primavera-p6",
+    "productboard",
+    "draw-io",
+    "teamsnap",
+    "eventbrite",
+    "aha",
+    "lucidchart",
+    "spond",
+    "luma",
+    "monday-com",
+    "ganttproject",
+    "heja",
+    "google-forms",
+    "clickup",
+    "smartsheet",
+    "git-github",
+    "bizagi-modeler",
+    "canva",
+    "notion",
+    "spreadsheets",
+    "microsoft-visio"
+   ],
+   "identity_count": 614,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_operations",
+   "slug": "operations",
+   "label": "Operations and records",
+   "group": "work",
+   "description": "Run operations, stock, records and compliance.",
+   "keywords": [
+    "inventory",
+    "erp",
+    "compliance",
+    "hse",
+    "safety",
+    "procurement",
+    "records"
+   ],
+   "levels": {
+    "beginner": "Record transactions and incidents correctly",
+    "intermediate": "Workflows, reports and audits",
+    "expert": "System configuration and continuous improvement"
+   },
+   "need_ids": [
+    "need_erp",
+    "need_inventory_procurement",
+    "need_warehouse_inventory",
+    "need_records_management",
+    "need_regulatory_reporting",
+    "need_incident_reporting",
+    "need_quality_hse"
+   ],
+   "tool_ids": [
+    "tool_odoo",
+    "tool_microsoft_excel",
+    "tool_zoho_inventory",
+    "tool_safetyculture",
+    "tool_sortly",
+    "tool_sharepoint",
+    "tool_power_bi",
+    "tool_oracle_netsuite",
+    "tool_erpnext",
+    "tool_google_drive",
+    "tool_kobotoolbox",
+    "tool_sap",
+    "tool_m_files",
+    "tool_microsoft_word",
+    "tool_google_forms",
+    "tool_microsoft_forms",
+    "tool_microsoft_dynamics_365",
+    "tool_ushahidi"
+   ],
+   "roadmaps": [
+    "odoo",
+    "spreadsheets",
+    "zoho-inventory",
+    "safetyculture",
+    "sortly",
+    "sharepoint",
+    "power-bi",
+    "oracle-netsuite",
+    "erpnext",
+    "google-drive",
+    "kobotoolbox",
+    "sap",
+    "m-files",
+    "documents",
+    "google-forms",
+    "microsoft-forms",
+    "microsoft-dynamics-365",
+    "ushahidi"
+   ],
+   "identity_count": 694,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_people_management",
+   "slug": "people-management",
+   "label": "People and HR",
+   "group": "work",
+   "description": "Hire, schedule and support people.",
+   "keywords": [
+    "hr",
+    "hiring",
+    "recruitment",
+    "rota",
+    "staff scheduling"
+   ],
+   "levels": {
+    "beginner": "Rotas and leave records",
+    "intermediate": "Recruitment pipelines and performance reviews",
+    "expert": "HR systems and policies at scale"
+   },
+   "need_ids": [
+    "need_people_management",
+    "need_recruitment",
+    "need_shift_rota",
+    "need_payroll"
+   ],
+   "tool_ids": [
+    "tool_bamboohr",
+    "tool_deel",
+    "tool_linkedin",
+    "tool_google_sheets",
+    "tool_zoho_people",
+    "tool_workable",
+    "tool_deputy",
+    "tool_gusto",
+    "tool_when_i_work",
+    "tool_sage",
+    "tool_google_forms",
+    "tool_rotacloud",
+    "tool_microsoft_excel"
+   ],
+   "roadmaps": [
+    "bamboohr",
+    "deel",
+    "linkedin",
+    "spreadsheets",
+    "zoho-people",
+    "workable",
+    "deputy",
+    "gusto",
+    "when-i-work",
+    "sage",
+    "google-forms",
+    "rotacloud"
+   ],
+   "identity_count": 157,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_learning_teaching",
+   "slug": "learning-teaching",
+   "label": "Teaching and training",
+   "group": "work",
+   "description": "Teach, train and coach effectively with digital tools.",
+   "keywords": [
+    "teaching",
+    "training",
+    "coaching",
+    "lesson plans",
+    "quizzes",
+    "lms",
+    "classroom"
+   ],
+   "levels": {
+    "beginner": "Run an interactive session",
+    "intermediate": "Online courses, assessment and feedback",
+    "expert": "Blended programmes and coaching at scale"
+   },
+   "need_ids": [
+    "need_lesson_planning",
+    "need_virtual_classroom",
+    "need_quizzes_assessment",
+    "need_interactive_teaching",
+    "need_grading_feedback",
+    "need_accessible_materials",
+    "need_workshop_facilitation",
+    "need_online_coaching",
+    "need_patient_education",
+    "need_exercise_prescription"
+   ],
+   "tool_ids": [
+    "tool_canva",
+    "tool_google_docs",
+    "tool_mentimeter",
+    "tool_google_classroom",
+    "tool_microsoft_word",
+    "tool_miro",
+    "tool_kahoot",
+    "tool_trainerize",
+    "tool_physitrack",
+    "tool_moodle",
+    "tool_google_forms",
+    "tool_padlet",
+    "tool_turnitin",
+    "tool_microsoft_immersive_reader",
+    "tool_mural",
+    "tool_truecoach",
+    "tool_medbridge",
+    "tool_notion",
+    "tool_microsoft_teams",
+    "tool_socrative",
+    "tool_nearpod",
+    "tool_gradescope",
+    "tool_everfit",
+    "tool_deepl",
+    "tool_microsoft_onenote",
+    "tool_canvas_lms",
+    "tool_microsoft_excel",
+    "tool_sessionlab",
+    "tool_google_translate",
+    "tool_claude",
+    "tool_google_sheets",
+    "tool_chatgpt"
+   ],
+   "roadmaps": [
+    "canva",
+    "documents",
+    "mentimeter",
+    "google-classroom",
+    "miro",
+    "kahoot",
+    "trainerize",
+    "physitrack",
+    "moodle",
+    "google-forms",
+    "padlet",
+    "turnitin",
+    "microsoft-immersive-reader",
+    "mural",
+    "truecoach",
+    "medbridge",
+    "notion",
+    "meetings",
+    "socrative",
+    "nearpod",
+    "gradescope",
+    "everfit",
+    "translation",
+    "canvas-lms",
+    "spreadsheets",
+    "sessionlab",
+    "ai-assistants"
+   ],
+   "identity_count": 413,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_self_learning",
+   "slug": "self-learning",
+   "label": "Learning how to learn",
+   "group": "work",
+   "description": "Learn anything faster and keep it.",
+   "keywords": [
+    "studying",
+    "online courses",
+    "flashcards",
+    "cpd",
+    "exams"
+   ],
+   "levels": {
+    "beginner": "Take an online course to completion",
+    "intermediate": "Spaced repetition and study systems",
+    "expert": "Plan your own CPD and help others learn"
+   },
+   "need_ids": [
+    "need_learn_online",
+    "need_cpd_learning",
+    "need_memorise_knowledge",
+    "need_study_skills",
+    "need_anatomy_3d"
+   ],
+   "tool_ids": [
+    "tool_anki",
+    "tool_coursera",
+    "tool_quizlet",
+    "tool_khan_academy",
+    "tool_medscape",
+    "tool_complete_anatomy",
+    "tool_edx",
+    "tool_bmj_learning",
+    "tool_visible_body",
+    "tool_osmosis",
+    "tool_notion",
+    "tool_biodigital_human",
+    "tool_freecodecamp",
+    "tool_linkedin_learning",
+    "tool_claude",
+    "tool_alison"
+   ],
+   "roadmaps": [
+    "anki",
+    "coursera",
+    "quizlet",
+    "khan-academy",
+    "medscape",
+    "complete-anatomy",
+    "edx",
+    "bmj-learning",
+    "visible-body",
+    "osmosis",
+    "notion",
+    "biodigital-human",
+    "freecodecamp",
+    "linkedin-learning",
+    "ai-assistants",
+    "alison"
+   ],
+   "identity_count": 2603,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_coding",
+   "slug": "coding",
+   "label": "Coding",
+   "group": "tech",
+   "description": "Write, version and ship software.",
+   "keywords": [
+    "programming",
+    "software development",
+    "javascript",
+    "python",
+    "git",
+    "apps",
+    "websites"
+   ],
+   "levels": {
+    "beginner": "Write and run small programs",
+    "intermediate": "Projects with Git, tests and debugging",
+    "expert": "Production software with reviews and releases"
+   },
+   "need_ids": [
+    "need_write_code",
+    "need_version_control",
+    "need_web_development",
+    "need_mobile_app_dev",
+    "need_game_development"
+   ],
+   "tool_ids": [
+    "tool_vs_code",
+    "tool_git",
+    "tool_android_studio",
+    "tool_unity",
+    "tool_jetbrains_ides",
+    "tool_github",
+    "tool_nextjs",
+    "tool_xcode",
+    "tool_unreal_engine",
+    "tool_github_copilot",
+    "tool_gitlab",
+    "tool_wordpress",
+    "tool_flutter",
+    "tool_godot",
+    "tool_cursor",
+    "tool_bitbucket",
+    "tool_webflow",
+    "tool_react_native",
+    "tool_blender",
+    "tool_claude",
+    "tool_netlify",
+    "tool_expo",
+    "tool_chatgpt"
+   ],
+   "roadmaps": [
+    "vs-code",
+    "git-github",
+    "android-studio",
+    "unity",
+    "jetbrains-ides",
+    "nextjs",
+    "xcode",
+    "unreal-engine",
+    "github-copilot",
+    "wordpress",
+    "flutter",
+    "godot",
+    "bitbucket",
+    "react-native",
+    "blender",
+    "ai-assistants",
+    "netlify",
+    "expo"
+   ],
+   "identity_count": 153,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_cloud_devops",
+   "slug": "cloud-devops",
+   "label": "Cloud and DevOps",
+   "group": "tech",
+   "description": "Run software reliably in the cloud.",
+   "keywords": [
+    "aws",
+    "azure",
+    "docker",
+    "kubernetes",
+    "ci/cd",
+    "devops",
+    "servers"
+   ],
+   "levels": {
+    "beginner": "Deploy a simple app",
+    "intermediate": "Containers, CI/CD and monitoring",
+    "expert": "Infrastructure as code and reliability practice"
+   },
+   "need_ids": [
+    "need_cloud_infrastructure",
+    "need_containers_orchestration",
+    "need_devops_cicd",
+    "need_observability"
+   ],
+   "tool_ids": [
+    "tool_docker",
+    "tool_aws",
+    "tool_github_actions",
+    "tool_grafana",
+    "tool_google_cloud",
+    "tool_kubernetes",
+    "tool_gitlab",
+    "tool_prometheus",
+    "tool_microsoft_azure",
+    "tool_podman",
+    "tool_jenkins",
+    "tool_sentry",
+    "tool_cloudflare",
+    "tool_datadog",
+    "tool_netlify",
+    "tool_terraform"
+   ],
+   "roadmaps": [
+    "docker",
+    "aws",
+    "github-actions",
+    "grafana",
+    "google-cloud",
+    "kubernetes",
+    "git-github",
+    "prometheus",
+    "microsoft-azure",
+    "podman",
+    "jenkins",
+    "sentry",
+    "cloudflare",
+    "datadog",
+    "netlify",
+    "terraform"
+   ],
+   "identity_count": 63,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_data_engineering",
+   "slug": "data-engineering",
+   "label": "Databases and data engineering",
+   "group": "tech",
+   "description": "Store and move data dependably.",
+   "keywords": [
+    "databases",
+    "etl",
+    "data pipelines",
+    "postgres",
+    "warehouse"
+   ],
+   "levels": {
+    "beginner": "Design tables and write queries",
+    "intermediate": "Pipelines, scheduling and data quality",
+    "expert": "Scalable, governed data platforms"
+   },
+   "need_ids": [
+    "need_databases",
+    "need_data_pipelines"
+   ],
+   "tool_ids": [
+    "tool_postgresql",
+    "tool_apache_airflow",
+    "tool_mysql",
+    "tool_dbt",
+    "tool_dbeaver",
+    "tool_databricks",
+    "tool_mongodb",
+    "tool_snowflake",
+    "tool_sqlite",
+    "tool_bigquery"
+   ],
+   "roadmaps": [
+    "sql",
+    "apache-airflow",
+    "dbt",
+    "databricks",
+    "mongodb",
+    "snowflake"
+   ],
+   "identity_count": 52,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_ai_ml",
+   "slug": "ai-ml",
+   "label": "AI and machine learning",
+   "group": "tech",
+   "description": "Build models and AI applications.",
+   "keywords": [
+    "machine learning",
+    "deep learning",
+    "llm",
+    "ai apps",
+    "models"
+   ],
+   "levels": {
+    "beginner": "Train a basic model and call an AI API",
+    "intermediate": "Evaluate, tune and build retrieval apps",
+    "expert": "Production ML/AI with monitoring and safety"
+   },
+   "need_ids": [
+    "need_machine_learning",
+    "need_ai_app_development"
+   ],
+   "tool_ids": [
+    "tool_hugging_face",
+    "tool_python",
+    "tool_anthropic_api",
+    "tool_jupyter",
+    "tool_openai_api",
+    "tool_scikit_learn",
+    "tool_pytorch",
+    "tool_langchain",
+    "tool_google_colab"
+   ],
+   "roadmaps": [
+    "hugging-face",
+    "python",
+    "anthropic-api",
+    "openai-api",
+    "scikit-learn",
+    "pytorch",
+    "langchain"
+   ],
+   "identity_count": 9,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_software_testing",
+   "slug": "software-testing",
+   "label": "Software testing and QA",
+   "group": "tech",
+   "description": "Prove software works.",
+   "keywords": [
+    "qa",
+    "testing",
+    "test automation",
+    "selenium",
+    "playwright",
+    "bugs"
+   ],
+   "levels": {
+    "beginner": "Write and run test cases",
+    "intermediate": "Automate UI and API tests",
+    "expert": "Test strategy, performance and CI quality gates"
+   },
+   "need_ids": [
+    "need_test_management",
+    "need_test_automation",
+    "need_api_testing",
+    "need_performance_testing"
+   ],
+   "tool_ids": [
+    "tool_testrail",
+    "tool_playwright",
+    "tool_postman",
+    "tool_k6",
+    "tool_qase",
+    "tool_selenium",
+    "tool_insomnia",
+    "tool_apache_jmeter",
+    "tool_xray",
+    "tool_cypress",
+    "tool_swagger",
+    "tool_gatling",
+    "tool_zephyr",
+    "tool_appium",
+    "tool_jest"
+   ],
+   "roadmaps": [
+    "testrail",
+    "playwright",
+    "postman",
+    "k6",
+    "qase",
+    "insomnia",
+    "apache-jmeter",
+    "xray",
+    "swagger",
+    "gatling",
+    "zephyr",
+    "appium",
+    "jest"
+   ],
+   "identity_count": 56,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_cybersecurity",
+   "slug": "cybersecurity",
+   "label": "Cybersecurity",
+   "group": "tech",
+   "description": "Defend systems and investigate incidents.",
+   "keywords": [
+    "cyber security",
+    "security",
+    "hacking",
+    "penetration testing",
+    "soc",
+    "network security"
+   ],
+   "levels": {
+    "beginner": "Networking and security basics in a lab",
+    "intermediate": "Scanning, monitoring and incident triage",
+    "expert": "Detection engineering and forensics"
+   },
+   "need_ids": [
+    "need_security_testing",
+    "need_security_operations",
+    "need_digital_forensics",
+    "need_networking"
+   ],
+   "tool_ids": [
+    "tool_wireshark",
+    "tool_burp_suite",
+    "tool_splunk",
+    "tool_autopsy",
+    "tool_owasp_zap",
+    "tool_microsoft_sentinel",
+    "tool_ftk_imager",
+    "tool_cisco_packet_tracer",
+    "tool_nmap",
+    "tool_wazuh",
+    "tool_gns3",
+    "tool_elastic",
+    "tool_putty",
+    "tool_kali_linux"
+   ],
+   "roadmaps": [
+    "wireshark",
+    "burp-suite",
+    "splunk",
+    "autopsy",
+    "owasp-zap",
+    "microsoft-sentinel",
+    "ftk-imager",
+    "cisco-packet-tracer",
+    "nmap",
+    "wazuh",
+    "gns3",
+    "elastic",
+    "putty",
+    "kali-linux"
+   ],
+   "identity_count": 53,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_it_support",
+   "slug": "it-support",
+   "label": "IT support",
+   "group": "tech",
+   "description": "Keep people and devices working.",
+   "keywords": [
+    "helpdesk",
+    "tech support",
+    "it tickets",
+    "remote support"
+   ],
+   "levels": {
+    "beginner": "Log and resolve tickets",
+    "intermediate": "Knowledge base, SLAs and remote support",
+    "expert": "Service management and asset control"
+   },
+   "need_ids": [
+    "need_it_helpdesk"
+   ],
+   "tool_ids": [
+    "tool_jira_service_management",
+    "tool_freshservice",
+    "tool_zendesk",
+    "tool_glpi",
+    "tool_anydesk"
+   ],
+   "roadmaps": [
+    "jira-service-management",
+    "freshservice",
+    "zendesk",
+    "glpi",
+    "anydesk"
+   ],
+   "identity_count": 34,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_automation",
+   "slug": "automation",
+   "label": "Automation and no-code",
+   "group": "tech",
+   "description": "Remove repetitive work without heavy coding.",
+   "keywords": [
+    "automation",
+    "zapier",
+    "no-code",
+    "workflows",
+    "apps without code"
+   ],
+   "levels": {
+    "beginner": "Connect two apps with a simple automation",
+    "intermediate": "Multi-step workflows and small apps",
+    "expert": "Governed automation across a team"
+   },
+   "need_ids": [
+    "need_automation_workflows",
+    "need_no_code_apps"
+   ],
+   "tool_ids": [
+    "tool_zapier",
+    "tool_glide",
+    "tool_n8n",
+    "tool_bubble",
+    "tool_make",
+    "tool_appsheet",
+    "tool_power_automate",
+    "tool_power_apps",
+    "tool_google_apps_script",
+    "tool_airtable"
+   ],
+   "roadmaps": [
+    "zapier",
+    "glide",
+    "n8n",
+    "bubble",
+    "make",
+    "appsheet",
+    "power-automate",
+    "power-apps",
+    "google-apps-script",
+    "airtable"
+   ],
+   "identity_count": 4,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_engineering_design",
+   "slug": "engineering-design",
+   "label": "Engineering design and CAD/BIM",
+   "group": "tech",
+   "description": "Draw, model and coordinate engineering designs.",
+   "keywords": [
+    "cad",
+    "autocad",
+    "revit",
+    "bim",
+    "drawings",
+    "drafting",
+    "solidworks"
+   ],
+   "levels": {
+    "beginner": "Produce an accurate drawing",
+    "intermediate": "Models, sheets and coordination",
+    "expert": "Standards, automation and federated models"
+   },
+   "need_ids": [
+    "need_cad_drafting",
+    "need_bim_modelling",
+    "need_mechanical_design",
+    "need_electrical_design",
+    "need_drawing_markup",
+    "need_diagramming"
+   ],
+   "tool_ids": [
+    "tool_freecad",
+    "tool_autocad",
+    "tool_revit",
+    "tool_solidworks",
+    "tool_autocad_electrical",
+    "tool_bluebeam_revu",
+    "tool_draw_io",
+    "tool_librecad",
+    "tool_archicad",
+    "tool_fusion_360",
+    "tool_kicad",
+    "tool_adobe_acrobat",
+    "tool_excalidraw",
+    "tool_civil_3d",
+    "tool_autodesk_inventor",
+    "tool_eplan",
+    "tool_drawboard_pdf",
+    "tool_lucidchart",
+    "tool_draftsight",
+    "tool_tekla_structures",
+    "tool_etap",
+    "tool_miro",
+    "tool_sketchup",
+    "tool_navisworks",
+    "tool_onshape",
+    "tool_dialux",
+    "tool_mermaid"
+   ],
+   "roadmaps": [
+    "freecad",
+    "autocad",
+    "revit",
+    "solidworks",
+    "autocad-electrical",
+    "bluebeam-revu",
+    "draw-io",
+    "archicad",
+    "fusion-360",
+    "kicad",
+    "adobe-acrobat",
+    "excalidraw",
+    "civil-3d",
+    "autodesk-inventor",
+    "eplan",
+    "drawboard-pdf",
+    "lucidchart",
+    "tekla-structures",
+    "etap",
+    "miro",
+    "sketchup",
+    "navisworks",
+    "onshape",
+    "dialux",
+    "mermaid"
+   ],
+   "identity_count": 317,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_engineering_analysis",
+   "slug": "engineering-analysis",
+   "label": "Engineering analysis and simulation",
+   "group": "tech",
+   "description": "Analyse and simulate before building.",
+   "keywords": [
+    "simulation",
+    "fea",
+    "cfd",
+    "structural analysis",
+    "hydraulics"
+   ],
+   "levels": {
+    "beginner": "Set up and run a verified example",
+    "intermediate": "Model real cases and check results",
+    "expert": "Advanced, peer-reviewed simulation"
+   },
+   "need_ids": [
+    "need_engineering_calculations",
+    "need_structural_analysis",
+    "need_geotechnical_analysis",
+    "need_hydraulic_modelling",
+    "need_fea_simulation",
+    "need_process_simulation",
+    "need_energy_systems_modelling"
+   ],
+   "tool_ids": [
+    "tool_microsoft_excel",
+    "tool_etabs",
+    "tool_plaxis",
+    "tool_hec_ras",
+    "tool_ansys",
+    "tool_aspen_hysys",
+    "tool_homer_pro",
+    "tool_mathcad",
+    "tool_sap2000",
+    "tool_geostudio",
+    "tool_epanet",
+    "tool_abaqus",
+    "tool_aspen_plus",
+    "tool_pvsyst",
+    "tool_matlab",
+    "tool_staad_pro",
+    "tool_rocscience_slide2",
+    "tool_epa_swmm",
+    "tool_comsol",
+    "tool_dwsim",
+    "tool_nrel_sam",
+    "tool_python",
+    "tool_robot_structural_analysis",
+    "tool_infoworks_icm",
+    "tool_solidworks",
+    "tool_chemcad",
+    "tool_retscreen",
+    "tool_smath_studio",
+    "tool_csi_safe",
+    "tool_calculix"
+   ],
+   "roadmaps": [
+    "spreadsheets",
+    "etabs",
+    "plaxis",
+    "hec-ras",
+    "ansys",
+    "aspen-hysys",
+    "homer-pro",
+    "matlab",
+    "sap2000",
+    "geostudio",
+    "epanet",
+    "abaqus",
+    "aspen-plus",
+    "pvsyst",
+    "staad-pro",
+    "rocscience-slide2",
+    "epa-swmm",
+    "comsol",
+    "dwsim",
+    "nrel-sam",
+    "python",
+    "robot-structural-analysis",
+    "infoworks-icm",
+    "solidworks",
+    "chemcad",
+    "retscreen",
+    "smath-studio",
+    "csi-safe",
+    "calculix"
+   ],
+   "identity_count": 174,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_subsurface_energy",
+   "slug": "subsurface-energy",
+   "label": "Subsurface and energy engineering",
+   "group": "tech",
+   "description": "Wells, reservoirs and mines.",
+   "keywords": [
+    "oil and gas",
+    "petroleum",
+    "reservoir",
+    "wells",
+    "drilling",
+    "mining"
+   ],
+   "levels": {
+    "beginner": "Load data and run a standard workflow",
+    "intermediate": "Build and calibrate models",
+    "expert": "Integrated studies and uncertainty"
+   },
+   "need_ids": [
+    "need_well_planning_design",
+    "need_well_performance",
+    "need_reservoir_modelling",
+    "need_geomechanics",
+    "need_petrophysics",
+    "need_production_surveillance",
+    "need_drilling_reporting",
+    "need_mine_planning"
+   ],
+   "tool_ids": [
+    "tool_microsoft_excel",
+    "tool_python",
+    "tool_techlog",
+    "tool_power_bi",
+    "tool_landmark_decisionspace",
+    "tool_prosper",
+    "tool_petrel",
+    "tool_wellview",
+    "tool_deswik",
+    "tool_slb_drillplan",
+    "tool_mbal",
+    "tool_eclipse",
+    "tool_jewelsuite",
+    "tool_interactive_petrophysics",
+    "tool_spotfire",
+    "tool_openwells",
+    "tool_datamine",
+    "tool_petex_gap",
+    "tool_tnavigator",
+    "tool_maptek_vulcan",
+    "tool_pipesim",
+    "tool_cmg",
+    "tool_leapfrog",
+    "tool_olga",
+    "tool_opendtect"
+   ],
+   "roadmaps": [
+    "spreadsheets",
+    "python",
+    "techlog",
+    "power-bi",
+    "landmark-decisionspace",
+    "prosper",
+    "petrel",
+    "wellview",
+    "deswik",
+    "slb-drillplan",
+    "mbal",
+    "eclipse",
+    "jewelsuite",
+    "interactive-petrophysics",
+    "spotfire",
+    "openwells",
+    "datamine",
+    "petex-gap",
+    "tnavigator",
+    "maptek-vulcan",
+    "pipesim",
+    "cmg",
+    "leapfrog",
+    "olga",
+    "opendtect"
+   ],
+   "identity_count": 94,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_geospatial",
+   "slug": "geospatial",
+   "label": "Maps, GIS and surveying",
+   "group": "tech",
+   "description": "Work with maps, location and earth data.",
+   "keywords": [
+    "gis",
+    "maps",
+    "qgis",
+    "surveying",
+    "drones",
+    "satellite"
+   ],
+   "levels": {
+    "beginner": "Make and share a map",
+    "intermediate": "Analyse layers and satellite data",
+    "expert": "Spatial analysis and survey-grade outputs"
+   },
+   "need_ids": [
+    "need_gis_mapping",
+    "need_surveying_photogrammetry",
+    "need_site_measurement",
+    "need_maps_navigation",
+    "need_crop_monitoring",
+    "need_environmental_monitoring"
+   ],
+   "tool_ids": [
+    "tool_qgis",
+    "tool_google_earth_engine",
+    "tool_pix4d",
+    "tool_magicplan",
+    "tool_google_maps",
+    "tool_eos_crop_monitoring",
+    "tool_inaturalist",
+    "tool_arcgis_pro",
+    "tool_agisoft_metashape",
+    "tool_sketchup",
+    "tool_what3words",
+    "tool_climate_fieldview",
+    "tool_ebird",
+    "tool_google_earth_pro",
+    "tool_trimble_business_center",
+    "tool_microsoft_excel",
+    "tool_openstreetmap",
+    "tool_sentinel_hub",
+    "tool_global_forest_watch",
+    "tool_civil_3d"
+   ],
+   "roadmaps": [
+    "qgis",
+    "google-earth-engine",
+    "pix4d",
+    "magicplan",
+    "google-maps",
+    "eos-crop-monitoring",
+    "inaturalist",
+    "agisoft-metashape",
+    "sketchup",
+    "what3words",
+    "climate-fieldview",
+    "ebird",
+    "google-earth-pro",
+    "trimble-business-center",
+    "spreadsheets",
+    "openstreetmap",
+    "sentinel-hub",
+    "global-forest-watch",
+    "civil-3d"
+   ],
+   "identity_count": 2603,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_industrial_automation",
+   "slug": "industrial-automation",
+   "label": "Industrial automation and manufacturing",
+   "group": "tech",
+   "description": "Control, make and maintain.",
+   "keywords": [
+    "plc",
+    "cnc",
+    "manufacturing",
+    "maintenance",
+    "scada"
+   ],
+   "levels": {
+    "beginner": "Read and simulate a simple program or job",
+    "intermediate": "Write programs, toolpaths and maintenance plans",
+    "expert": "Commission, optimise and standardise"
+   },
+   "need_ids": [
+    "need_plc_automation",
+    "need_cnc_cam",
+    "need_maintenance_cmms",
+    "need_production_planning",
+    "need_cost_estimation"
+   ],
+   "tool_ids": [
+    "tool_sap",
+    "tool_microsoft_excel",
+    "tool_tia_portal",
+    "tool_fusion_360",
+    "tool_ibm_maximo",
+    "tool_odoo",
+    "tool_studio_5000",
+    "tool_mastercam",
+    "tool_katana_mrp",
+    "tool_costx",
+    "tool_codesys",
+    "tool_freecad",
+    "tool_upkeep",
+    "tool_planswift",
+    "tool_node_red",
+    "tool_fiix",
+    "tool_bluebeam_revu"
+   ],
+   "roadmaps": [
+    "sap",
+    "spreadsheets",
+    "tia-portal",
+    "fusion-360",
+    "ibm-maximo",
+    "odoo",
+    "studio-5000",
+    "mastercam",
+    "katana-mrp",
+    "costx",
+    "codesys",
+    "freecad",
+    "upkeep",
+    "planswift",
+    "node-red",
+    "fiix",
+    "bluebeam-revu"
+   ],
+   "identity_count": 364,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_science_lab",
+   "slug": "science-lab",
+   "label": "Laboratory and scientific computing",
+   "group": "tech",
+   "description": "Lab notebooks, molecules and scientific code.",
+   "keywords": [
+    "lab",
+    "laboratory",
+    "chemistry",
+    "biology",
+    "sequencing",
+    "astronomy"
+   ],
+   "levels": {
+    "beginner": "Record experiments and draw structures",
+    "intermediate": "Sequence analysis and reproducible scripts",
+    "expert": "Shared lab systems and computational pipelines"
+   },
+   "need_ids": [
+    "need_lab_data",
+    "need_molecular_biology",
+    "need_chemistry_drawing",
+    "need_scientific_computing",
+    "need_astronomy_observation"
+   ],
+   "tool_ids": [
+    "tool_benchling",
+    "tool_chemdraw",
+    "tool_python",
+    "tool_stellarium",
+    "tool_labguru",
+    "tool_snapgene",
+    "tool_marvinsketch",
+    "tool_matlab",
+    "tool_sharpcap",
+    "tool_elabftw",
+    "tool_ncbi_blast",
+    "tool_ketcher",
+    "tool_r",
+    "tool_siril",
+    "tool_microsoft_excel",
+    "tool_ugene",
+    "tool_avogadro",
+    "tool_julia",
+    "tool_pymol",
+    "tool_jupyter"
+   ],
+   "roadmaps": [
+    "benchling",
+    "chemdraw",
+    "python",
+    "stellarium",
+    "labguru",
+    "snapgene",
+    "marvinsketch",
+    "matlab",
+    "sharpcap",
+    "elabftw",
+    "ncbi-blast",
+    "ketcher",
+    "r",
+    "siril",
+    "spreadsheets",
+    "ugene",
+    "avogadro",
+    "julia",
+    "pymol"
+   ],
+   "identity_count": 99,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_health_records",
+   "slug": "health-records",
+   "label": "Health practice systems",
+   "group": "sector",
+   "description": "Clinical systems for documentation, scheduling and care.",
+   "keywords": [
+    "ehr",
+    "emr",
+    "clinic system",
+    "patient records",
+    "telehealth"
+   ],
+   "levels": {
+    "beginner": "Navigate records and book appointments",
+    "intermediate": "Templates, orders and coordination",
+    "expert": "Optimise and teach clinical system use"
+   },
+   "need_ids": [
+    "need_electronic_health_records",
+    "need_clinic_scheduling",
+    "need_therapy_practice_admin",
+    "need_dental_practice",
+    "need_veterinary_practice",
+    "need_pharmacy_stock",
+    "need_care_coordination",
+    "need_medical_imaging_viewing",
+    "need_movement_analysis",
+    "need_nutrition_planning"
+   ],
+   "tool_ids": [
+    "tool_google_calendar",
+    "tool_jane_app",
+    "tool_epic",
+    "tool_calendly",
+    "tool_simplepractice",
+    "tool_dentrix",
+    "tool_ezyvet",
+    "tool_zoho_inventory",
+    "tool_radiant_dicom_viewer",
+    "tool_kinovea",
+    "tool_cronometer",
+    "tool_oracle_health",
+    "tool_curve_dental",
+    "tool_covetrus_pulse",
+    "tool_sortly",
+    "tool_whatsapp",
+    "tool_horos",
+    "tool_dartfish",
+    "tool_nutritics",
+    "tool_openmrs",
+    "tool_doxy_me",
+    "tool_open_dental",
+    "tool_microsoft_excel",
+    "tool_lotsa_helping_hands",
+    "tool_3d_slicer",
+    "tool_hudl",
+    "tool_myfitnesspal",
+    "tool_meditech",
+    "tool_setmore",
+    "tool_medisafe",
+    "tool_weasis",
+    "tool_osirix_md"
+   ],
+   "roadmaps": [
+    "google-calendar",
+    "jane-app",
+    "epic",
+    "calendly",
+    "simplepractice",
+    "dentrix",
+    "ezyvet",
+    "zoho-inventory",
+    "dicom-viewers",
+    "kinovea",
+    "cronometer",
+    "oracle-health",
+    "curve-dental",
+    "covetrus-pulse",
+    "sortly",
+    "whatsapp-business",
+    "dartfish",
+    "nutritics",
+    "openmrs",
+    "doxy-me",
+    "open-dental",
+    "spreadsheets",
+    "lotsa-helping-hands",
+    "hudl",
+    "myfitnesspal",
+    "meditech",
+    "setmore",
+    "medisafe",
+    "osirix-md"
+   ],
+   "identity_count": 340,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_legal_practice",
+   "slug": "legal-practice",
+   "label": "Legal practice systems",
+   "group": "sector",
+   "description": "Matter, case and document management.",
+   "keywords": [
+    "law firm software",
+    "case management",
+    "matters",
+    "billing"
+   ],
+   "levels": {
+    "beginner": "Open a matter and track time",
+    "intermediate": "Workflows, templates and billing",
+    "expert": "Firm-wide configuration and reporting"
+   },
+   "need_ids": [
+    "need_legal_practice_management",
+    "need_case_management"
+   ],
+   "tool_ids": [
+    "tool_clio",
+    "tool_airtable",
+    "tool_mycase",
+    "tool_google_sheets",
+    "tool_practicepanther",
+    "tool_salesforce"
+   ],
+   "roadmaps": [
+    "clio",
+    "airtable",
+    "mycase",
+    "spreadsheets",
+    "practicepanther",
+    "salesforce"
+   ],
+   "identity_count": 74,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_faith_community",
+   "slug": "faith-community",
+   "label": "Faith and community",
+   "group": "sector",
+   "description": "Study, community care and congregation admin.",
+   "keywords": [
+    "bible study",
+    "church",
+    "mosque",
+    "ministry",
+    "sermons"
+   ],
+   "levels": {
+    "beginner": "Use study and community apps",
+    "intermediate": "Organise groups, care and giving",
+    "expert": "Run a congregation's digital life"
+   },
+   "need_ids": [
+    "need_scripture_study",
+    "need_congregation_management",
+    "need_pastoral_care",
+    "need_service_referral"
+   ],
+   "tool_ids": [
+    "tool_planning_center",
+    "tool_logos_bible_software",
+    "tool_google_calendar",
+    "tool_google_maps",
+    "tool_youversion",
+    "tool_churchsuite",
+    "tool_findhelp",
+    "tool_blue_letter_bible",
+    "tool_breeze",
+    "tool_notion",
+    "tool_google_translate",
+    "tool_step_bible",
+    "tool_quran_com",
+    "tool_sefaria",
+    "tool_claude"
+   ],
+   "roadmaps": [
+    "planning-center",
+    "logos-bible-software",
+    "google-calendar",
+    "google-maps",
+    "youversion",
+    "churchsuite",
+    "findhelp",
+    "blue-letter-bible",
+    "breeze",
+    "notion",
+    "translation",
+    "step-bible",
+    "quran-com",
+    "sefaria",
+    "ai-assistants"
+   ],
+   "identity_count": 67,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_agriculture",
+   "slug": "agriculture",
+   "label": "Agriculture and food",
+   "group": "sector",
+   "description": "Farm, food and kitchen operations.",
+   "keywords": [
+    "farming",
+    "livestock",
+    "crops",
+    "restaurant",
+    "kitchen",
+    "food safety"
+   ],
+   "levels": {
+    "beginner": "Keep simple records and check weather",
+    "intermediate": "Plan, cost and track",
+    "expert": "Run a data-driven farm or kitchen"
+   },
+   "need_ids": [
+    "need_farm_records",
+    "need_livestock_management",
+    "need_plant_health",
+    "need_weather_planning",
+    "need_agri_market_access",
+    "need_food_safety",
+    "need_recipe_costing",
+    "need_restaurant_operations"
+   ],
+   "tool_ids": [
+    "tool_microsoft_excel",
+    "tool_farmbrite",
+    "tool_agriwebb",
+    "tool_plantix",
+    "tool_windy",
+    "tool_whatsapp_business",
+    "tool_safetyculture",
+    "tool_square",
+    "tool_agrivi",
+    "tool_herdwatch",
+    "tool_plantnet",
+    "tool_meteoblue",
+    "tool_jiji",
+    "tool_google_forms",
+    "tool_meez",
+    "tool_toast",
+    "tool_cattlemax",
+    "tool_picturethis",
+    "tool_facebook_marketplace",
+    "tool_apicbase",
+    "tool_loyverse",
+    "tool_google_sheets",
+    "tool_esoko",
+    "tool_lightspeed",
+    "tool_canva"
+   ],
+   "roadmaps": [
+    "spreadsheets",
+    "farmbrite",
+    "agriwebb",
+    "plantix",
+    "windy",
+    "whatsapp-business",
+    "safetyculture",
+    "square",
+    "agrivi",
+    "herdwatch",
+    "plantnet",
+    "meteoblue",
+    "jiji",
+    "google-forms",
+    "meez",
+    "toast",
+    "cattlemax",
+    "picturethis",
+    "facebook-marketplace",
+    "apicbase",
+    "loyverse",
+    "esoko",
+    "lightspeed",
+    "canva"
+   ],
+   "identity_count": 237,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_property_construction",
+   "slug": "property-construction",
+   "label": "Property and construction",
+   "group": "sector",
+   "description": "Sites, buildings and property.",
+   "keywords": [
+    "construction",
+    "site management",
+    "real estate",
+    "landlord"
+   ],
+   "levels": {
+    "beginner": "Daily logs and listings",
+    "intermediate": "Issues, RFIs and tenant management",
+    "expert": "Portfolio and project controls"
+   },
+   "need_ids": [
+    "need_site_management",
+    "need_property_management",
+    "need_property_marketing"
+   ],
+   "tool_ids": [
+    "tool_procore",
+    "tool_buildium",
+    "tool_canva",
+    "tool_fieldwire",
+    "tool_appfolio",
+    "tool_matterport",
+    "tool_autodesk_build",
+    "tool_microsoft_excel",
+    "tool_capcut",
+    "tool_safetyculture",
+    "tool_google_business_profile"
+   ],
+   "roadmaps": [
+    "procore",
+    "buildium",
+    "canva",
+    "fieldwire",
+    "appfolio",
+    "matterport",
+    "autodesk-build",
+    "spreadsheets",
+    "capcut",
+    "safetyculture",
+    "google-business-profile"
+   ],
+   "identity_count": 195,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_transport_travel",
+   "slug": "transport-travel",
+   "label": "Transport, logistics and travel",
+   "group": "sector",
+   "description": "Move people and goods; plan trips.",
+   "keywords": [
+    "logistics",
+    "delivery",
+    "routes",
+    "fleet",
+    "flights",
+    "travel",
+    "hotel"
+   ],
+   "levels": {
+    "beginner": "Plan a route or trip",
+    "intermediate": "Optimise routes and track shipments",
+    "expert": "Fleet and hospitality systems"
+   },
+   "need_ids": [
+    "need_route_planning_fleet",
+    "need_shipment_tracking",
+    "need_flight_planning",
+    "need_maritime_navigation",
+    "need_travel_planning",
+    "need_hotel_management",
+    "need_driver_earnings",
+    "need_vehicle_diagnostics",
+    "need_repair_guides"
+   ],
+   "tool_ids": [
+    "tool_google_maps",
+    "tool_marinetraffic",
+    "tool_freightos",
+    "tool_foreflight",
+    "tool_opencpn",
+    "tool_cloudbeds",
+    "tool_uber",
+    "tool_obd_auto_doctor",
+    "tool_ifixit",
+    "tool_routific",
+    "tool_skydemon",
+    "tool_navionics",
+    "tool_tripit",
+    "tool_little_hotelier",
+    "tool_bolt",
+    "tool_carly",
+    "tool_kicad",
+    "tool_onfleet",
+    "tool_flightradar24",
+    "tool_garmin_pilot",
+    "tool_wanderlog",
+    "tool_booking_com",
+    "tool_google_sheets",
+    "tool_torque_pro",
+    "tool_samsara",
+    "tool_easyship",
+    "tool_x_plane",
+    "tool_skyscanner",
+    "tool_airbnb",
+    "tool_circuit"
+   ],
+   "roadmaps": [
+    "google-maps",
+    "marinetraffic",
+    "freightos",
+    "foreflight",
+    "opencpn",
+    "cloudbeds",
+    "uber",
+    "obd-auto-doctor",
+    "ifixit",
+    "routific",
+    "skydemon",
+    "navionics",
+    "tripit",
+    "little-hotelier",
+    "bolt",
+    "carly",
+    "kicad",
+    "onfleet",
+    "flightradar24",
+    "garmin-pilot",
+    "wanderlog",
+    "booking-com",
+    "spreadsheets",
+    "torque-pro",
+    "samsara",
+    "easyship",
+    "x-plane",
+    "skyscanner",
+    "airbnb",
+    "circuit"
+   ],
+   "identity_count": 247,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  },
+  {
+   "id": "skill_sport_fitness",
+   "slug": "sport-fitness",
+   "label": "Sport and fitness",
+   "group": "sector",
+   "description": "Train, analyse and manage sport and wellbeing.",
+   "keywords": [
+    "sport",
+    "fitness",
+    "training",
+    "coaching athletes",
+    "video analysis",
+    "wellbeing"
+   ],
+   "levels": {
+    "beginner": "Track training and wellbeing",
+    "intermediate": "Video and performance analysis",
+    "expert": "Team analytics and programme design"
+   },
+   "need_ids": [
+    "need_training_load",
+    "need_match_video_analysis",
+    "need_sports_analytics",
+    "need_gym_membership",
+    "need_personal_health_tracking",
+    "need_mindfulness_wellbeing"
+   ],
+   "tool_ids": [
+    "tool_trainingpeaks",
+    "tool_hudl",
+    "tool_python",
+    "tool_mindbody",
+    "tool_medisafe",
+    "tool_insight_timer",
+    "tool_strava",
+    "tool_kinovea",
+    "tool_r",
+    "tool_glofox",
+    "tool_apple_health",
+    "tool_headspace",
+    "tool_garmin_connect",
+    "tool_dartfish",
+    "tool_microsoft_excel",
+    "tool_calm",
+    "tool_intervals_icu",
+    "tool_tableau",
+    "tool_wyscout"
+   ],
+   "roadmaps": [
+    "training-apps",
+    "hudl",
+    "python",
+    "mindbody",
+    "medisafe",
+    "insight-timer",
+    "kinovea",
+    "r",
+    "glofox",
+    "apple-health",
+    "headspace",
+    "dartfish",
+    "spreadsheets",
+    "calm",
+    "tableau",
+    "wyscout"
+   ],
+   "identity_count": 78,
+   "expert_validation": {
+    "status": "pending",
+    "note": "AI-drafted grouping; validate level descriptors with practitioners."
+   }
+  }
+ ]
+}

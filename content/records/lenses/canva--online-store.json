@@ -1,0 +1,111 @@
+{
+ "schema_version": "2.1",
+ "id": "lens_canva__online_store",
+ "roadmap_id": "rm_canva",
+ "roadmap": "canva",
+ "need_id": "need_online_store",
+ "need": "online-store",
+ "title": "Canva for small business product marketing",
+ "kind": "flagship",
+ "for_identities": [
+  "small-business-owner",
+  "e-commerce-seller",
+  "fashion-brand-owner",
+  "cosmetics-brand-owner",
+  "cake-maker",
+  "trader",
+  "snack-business-owner"
+ ],
+ "why": "People buy what looks trustworthy. Clean product images, price lists and promos make a small business look established.",
+ "what_is_different": "Small businesses need product catalogue images, price lists, promo banners and WhatsApp status posts — produced weekly by the owner, often on a phone.",
+ "priority_modules": [
+  "cv-photos",
+  "cv-start",
+  "cv-brand",
+  "cv-video",
+  "cv-bulk"
+ ],
+ "extra_modules": [
+  {
+   "level": "beginner",
+   "title": "Product images that sell",
+   "outcome": "You can: make clean product photos and price cards",
+   "topics": [
+    "background removal (where available)",
+    "consistent framing",
+    "price and size details"
+   ],
+   "practice": "Create five product cards with prices"
+  }
+ ],
+ "starter_project": "Build a weekly marketing kit: product catalogue images, a price list, a promo banner and a WhatsApp status series.",
+ "pitfalls": [
+  "Inconsistent prices across posts",
+  "Unclear photos",
+  "Using other brands' images"
+ ],
+ "pairs_with": [
+  "tool_whatsapp_business",
+  "tool_photoroom",
+  "tool_capcut",
+  "tool_selar"
+ ],
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false,
+ "composed_path": {
+  "beginner": [
+   {
+    "extra": "Product images that sell",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "module": "cv-photos",
+    "relevance": "core",
+    "rank": 0
+   },
+   {
+    "module": "cv-start",
+    "relevance": "core",
+    "rank": 1
+   },
+   {
+    "module": "cv-readable",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ],
+  "intermediate": [
+   {
+    "module": "cv-brand",
+    "relevance": "core",
+    "rank": 2
+   },
+   {
+    "module": "cv-video",
+    "relevance": "core",
+    "rank": 3
+   },
+   {
+    "module": "cv-docs",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ],
+  "expert": [
+   {
+    "module": "cv-bulk",
+    "relevance": "core",
+    "rank": 4
+   },
+   {
+    "module": "cv-limits",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ]
+ }
+}

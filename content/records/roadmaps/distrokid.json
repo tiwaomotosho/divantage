@@ -1,0 +1,243 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_distrokid",
+ "slug": "distrokid",
+ "title": "DistroKid skill roadmap",
+ "tool_ids": [
+  "tool_distrokid"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_distrokid_music_release_0",
+    "slug": "distrokid-music-release-0",
+    "title": "Get started with DistroKid",
+    "outcome": "You can: set up DistroKid, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "release-music"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_distrokid_music_release_1",
+    "slug": "distrokid-music-release-1",
+    "title": "Prepare a release",
+    "outcome": "You can: get a song ready for stores",
+    "topics": [
+     "final mastered file",
+     "cover art specs",
+     "song and artist metadata",
+     "release date"
+    ],
+    "practice": "Prepare one finished song with artwork and correct metadata",
+    "need_tags": [
+     "release-music"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_distrokid_music_release_2",
+    "slug": "distrokid-music-release-2",
+    "title": "Your artist profile",
+    "outcome": "You can: look professional where fans find you",
+    "topics": [
+     "profile photo and bio",
+     "links",
+     "verification"
+    ],
+    "practice": "Complete your artist profile and link your socials",
+    "need_tags": [
+     "artist-profiles",
+     "social-media-presence",
+     "release-music"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_distrokid_music_release_3",
+    "slug": "distrokid-music-release-3",
+    "title": "Read your numbers",
+    "outcome": "You can: understand who listens and where",
+    "topics": [
+     "streams and listeners",
+     "locations",
+     "playlists and sources",
+     "saves"
+    ],
+    "practice": "Write three decisions from last month's stats",
+    "need_tags": [
+     "artist-profiles",
+     "kpi-tracking",
+     "release-music"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_distrokid_music_release_4",
+    "slug": "distrokid-music-release-4",
+    "title": "Get paid properly",
+    "outcome": "You can: make sure every earning reaches you",
+    "topics": [
+     "payout methods",
+     "splits with collaborators",
+     "ISRC and UPC codes",
+     "tax details"
+    ],
+    "practice": "Set up payouts and a split with one collaborator",
+    "need_tags": [
+     "release-music",
+     "creator-income"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_distrokid_music_release_8",
+    "slug": "distrokid-music-release-8",
+    "title": "Signature skills in DistroKid",
+    "outcome": "You can: use the features that make DistroKid distinctive",
+    "topics": [
+     "uploading a release",
+     "metadata, artwork and release date",
+     "HyperFollow pre-save pages",
+     "splits with collaborators"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "release-music"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_distrokid_music_release_9",
+    "slug": "distrokid-music-release-9",
+    "title": "Advanced DistroKid",
+    "outcome": "You can: use DistroKid's advanced capabilities with confidence",
+    "topics": [
+     "multiple artists or bands",
+     "synced lyrics",
+     "release timing for editorial pitching",
+     "payout and tax setup"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "release-music"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_distrokid_music_release_5",
+    "slug": "distrokid-music-release-5",
+    "title": "Plan a release campaign",
+    "outcome": "You can: turn a release into growth",
+    "topics": [
+     "pre-release pitching",
+     "pre-save links",
+     "content plan",
+     "release-week checklist"
+    ],
+    "practice": "Run a 4-week campaign for your next single",
+    "need_tags": [
+     "release-music",
+     "artist-profiles",
+     "content-planning"
+    ],
+    "estimated_hours": {
+     "value": 4.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_distrokid_music_release_10",
+    "slug": "distrokid-music-release-10",
+    "title": "Integrate DistroKid into your workflow",
+    "outcome": "You can: connect DistroKid with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect DistroKid to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "release-music"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_distrokid_music_release_11",
+    "slug": "distrokid-music-release-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use DistroKid well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use DistroKid\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "release-music"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "music-release",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

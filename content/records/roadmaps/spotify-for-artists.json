@@ -1,0 +1,243 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_spotify_for_artists",
+ "slug": "spotify-for-artists",
+ "title": "Spotify for Artists skill roadmap",
+ "tool_ids": [
+  "tool_spotify_for_artists"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_spotify_for_artists_music_release_0",
+    "slug": "spotify-for-artists-music-release-0",
+    "title": "Get started with Spotify for Artists",
+    "outcome": "You can: set up Spotify for Artists, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "artist-profiles"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_spotify_for_artists_music_release_1",
+    "slug": "spotify-for-artists-music-release-1",
+    "title": "Prepare a release",
+    "outcome": "You can: get a song ready for stores",
+    "topics": [
+     "final mastered file",
+     "cover art specs",
+     "song and artist metadata",
+     "release date"
+    ],
+    "practice": "Prepare one finished song with artwork and correct metadata",
+    "need_tags": [
+     "release-music",
+     "artist-profiles"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_spotify_for_artists_music_release_2",
+    "slug": "spotify-for-artists-music-release-2",
+    "title": "Your artist profile",
+    "outcome": "You can: look professional where fans find you",
+    "topics": [
+     "profile photo and bio",
+     "links",
+     "verification"
+    ],
+    "practice": "Complete your artist profile and link your socials",
+    "need_tags": [
+     "artist-profiles",
+     "social-media-presence"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_spotify_for_artists_music_release_3",
+    "slug": "spotify-for-artists-music-release-3",
+    "title": "Read your numbers",
+    "outcome": "You can: understand who listens and where",
+    "topics": [
+     "streams and listeners",
+     "locations",
+     "playlists and sources",
+     "saves"
+    ],
+    "practice": "Write three decisions from last month's stats",
+    "need_tags": [
+     "artist-profiles",
+     "kpi-tracking"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_spotify_for_artists_music_release_4",
+    "slug": "spotify-for-artists-music-release-4",
+    "title": "Get paid properly",
+    "outcome": "You can: make sure every earning reaches you",
+    "topics": [
+     "payout methods",
+     "splits with collaborators",
+     "ISRC and UPC codes",
+     "tax details"
+    ],
+    "practice": "Set up payouts and a split with one collaborator",
+    "need_tags": [
+     "release-music",
+     "creator-income",
+     "artist-profiles"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_spotify_for_artists_music_release_8",
+    "slug": "spotify-for-artists-music-release-8",
+    "title": "Signature skills in Spotify for Artists",
+    "outcome": "You can: use the features that make Spotify for Artists distinctive",
+    "topics": [
+     "claiming your profile",
+     "profile picture, bio and Artist Pick",
+     "audience stats",
+     "mobile app"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "artist-profiles"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_spotify_for_artists_music_release_9",
+    "slug": "spotify-for-artists-music-release-9",
+    "title": "Advanced Spotify for Artists",
+    "outcome": "You can: use Spotify for Artists's advanced capabilities with confidence",
+    "topics": [
+     "pitching unreleased songs to editors",
+     "Canvas and Countdown Pages",
+     "Marquee and Discovery Mode (where available)",
+     "team access"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "artist-profiles"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_spotify_for_artists_music_release_5",
+    "slug": "spotify-for-artists-music-release-5",
+    "title": "Plan a release campaign",
+    "outcome": "You can: turn a release into growth",
+    "topics": [
+     "pre-release pitching",
+     "pre-save links",
+     "content plan",
+     "release-week checklist"
+    ],
+    "practice": "Run a 4-week campaign for your next single",
+    "need_tags": [
+     "release-music",
+     "artist-profiles",
+     "content-planning"
+    ],
+    "estimated_hours": {
+     "value": 4.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_spotify_for_artists_music_release_10",
+    "slug": "spotify-for-artists-music-release-10",
+    "title": "Integrate Spotify for Artists into your workflow",
+    "outcome": "You can: connect Spotify for Artists with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Spotify for Artists to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "artist-profiles"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_spotify_for_artists_music_release_11",
+    "slug": "spotify-for-artists-music-release-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Spotify for Artists well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Spotify for Artists\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "artist-profiles"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "music-release",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

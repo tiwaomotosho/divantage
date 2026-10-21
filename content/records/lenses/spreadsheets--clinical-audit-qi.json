@@ -1,0 +1,181 @@
+{
+ "schema_version": "2.1",
+ "id": "lens_spreadsheets__clinical_audit_qi",
+ "roadmap_id": "rm_spreadsheets",
+ "roadmap": "spreadsheets",
+ "need_id": "need_clinical_audit_qi",
+ "need": "clinical-audit-qi",
+ "title": "Excel for clinical audit and quality improvement",
+ "kind": "flagship",
+ "for_identities": [
+  "medical-doctor",
+  "nurse",
+  "house-officer",
+  "quality-improvement-lead",
+  "clinical-pharmacist",
+  "public-health-officer",
+  "practice-manager",
+  "infection-prevention-nurse"
+ ],
+ "why": "Audits and QI projects need you to collect, clean and summarise care data and show change over time — usually in a spreadsheet first.",
+ "what_is_different": "Clinical data must be de-identified, measured against a written standard, and shown over time (run charts) rather than as one-off averages. Small numbers and data protection rules matter more than fancy charts.",
+ "priority_modules": [
+  "xl-tables-sort",
+  "xl-logic",
+  "xl-pivots",
+  "xl-conditional",
+  "xl-charts-1",
+  "xl-cleaning"
+ ],
+ "extra_modules": [
+  {
+   "level": "beginner",
+   "title": "Data protection first",
+   "outcome": "You can: collect only what you need and de-identify it",
+   "topics": [
+    "anonymisation vs pseudonymisation",
+    "local data rules",
+    "never emailing identifiable spreadsheets"
+   ],
+   "practice": "Design a de-identified audit data-collection sheet"
+  },
+  {
+   "level": "intermediate",
+   "title": "Measure against a standard",
+   "outcome": "You can: calculate compliance with an audit standard",
+   "topics": [
+    "numerator/denominator",
+    "COUNTIFS",
+    "percentage compliance",
+    "confidence in small samples"
+   ],
+   "practice": "Calculate compliance with a guideline for 50 cases"
+  },
+  {
+   "level": "intermediate",
+   "title": "Run charts",
+   "outcome": "You can: show improvement over time",
+   "topics": [
+    "median line",
+    "run chart rules (shifts, trends)",
+    "annotating changes"
+   ],
+   "practice": "Build a run chart for a PDSA cycle"
+  }
+ ],
+ "starter_project": "Run a re-audit of a clinical standard: collect de-identified data, calculate compliance, build a run chart across two PDSA cycles and present a one-slide summary.",
+ "pitfalls": [
+  "Identifiable patient data in shared files",
+  "Reporting percentages without denominators",
+  "Judging change from two data points",
+  "Changing the definition between audit cycles"
+ ],
+ "pairs_with": [
+  "tool_redcap",
+  "tool_power_bi",
+  "tool_life_qi"
+ ],
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false,
+ "composed_path": {
+  "beginner": [
+   {
+    "extra": "Data protection first",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "module": "xl-tables-sort",
+    "relevance": "core",
+    "rank": 0
+   },
+   {
+    "module": "xl-charts-1",
+    "relevance": "core",
+    "rank": 4
+   },
+   {
+    "module": "xl-basics",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "xl-formulas-1",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ],
+  "intermediate": [
+   {
+    "extra": "Run charts",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "extra": "Measure against a standard",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "module": "xl-logic",
+    "relevance": "core",
+    "rank": 1
+   },
+   {
+    "module": "xl-pivots",
+    "relevance": "core",
+    "rank": 2
+   },
+   {
+    "module": "xl-conditional",
+    "relevance": "core",
+    "rank": 3
+   },
+   {
+    "module": "xl-cleaning",
+    "relevance": "core",
+    "rank": 5
+   },
+   {
+    "module": "xl-dates-text",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "xl-protect-share",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ],
+  "expert": [
+   {
+    "module": "xl-dynamic-arrays",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "xl-what-if",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "xl-power-query",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "xl-model-design",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "xl-automation",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ]
+ }
+}

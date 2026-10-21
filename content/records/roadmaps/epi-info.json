@@ -1,0 +1,251 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_epi_info",
+ "slug": "epi-info",
+ "title": "Epi Info skill roadmap",
+ "tool_ids": [
+  "tool_epi_info"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_epi_info_bi_analytics_0",
+    "slug": "epi-info-bi-analytics-0",
+    "title": "Get started with Epi Info",
+    "outcome": "You can: set up Epi Info, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "health-research-data",
+     "public-health-data"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_epi_info_bi_analytics_1",
+    "slug": "epi-info-bi-analytics-1",
+    "title": "Load and explore data",
+    "outcome": "You can: open data and get first answers",
+    "topics": [
+     "importing",
+     "data types",
+     "filtering",
+     "summaries"
+    ],
+    "practice": "Load a dataset and answer three questions",
+    "need_tags": [
+     "dashboards-bi",
+     "statistical-analysis",
+     "health-research-data",
+     "public-health-data"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_epi_info_bi_analytics_2",
+    "slug": "epi-info-bi-analytics-2",
+    "title": "First charts",
+    "outcome": "You can: make clear, honest charts",
+    "topics": [
+     "chart choice",
+     "labels",
+     "colour",
+     "annotation"
+    ],
+    "practice": "Make three charts that each answer one question",
+    "need_tags": [
+     "data-visualisation",
+     "health-research-data",
+     "public-health-data"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_epi_info_bi_analytics_3",
+    "slug": "epi-info-bi-analytics-3",
+    "title": "Analysis that holds up",
+    "outcome": "You can: analyse correctly and reproducibly",
+    "topics": [
+     "grouping",
+     "joins",
+     "tests/models where relevant",
+     "documentation"
+    ],
+    "practice": "Reproduce an analysis from start to finish",
+    "need_tags": [
+     "statistical-analysis",
+     "data-cleaning",
+     "health-research-data",
+     "public-health-data"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_epi_info_bi_analytics_4",
+    "slug": "epi-info-bi-analytics-4",
+    "title": "Share and publish",
+    "outcome": "You can: share results with decision-makers",
+    "topics": [
+     "dashboards/reports",
+     "exports",
+     "access"
+    ],
+    "practice": "Publish a report for a colleague",
+    "need_tags": [
+     "dashboards-bi",
+     "kpi-tracking",
+     "health-research-data",
+     "public-health-data"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_epi_info_bi_analytics_8",
+    "slug": "epi-info-bi-analytics-8",
+    "title": "Signature skills in Epi Info",
+    "outcome": "You can: use the features that make Epi Info distinctive",
+    "topics": [
+     "form design",
+     "data entry",
+     "analysis",
+     "maps"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "health-research-data",
+     "public-health-data"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_epi_info_bi_analytics_9",
+    "slug": "epi-info-bi-analytics-9",
+    "title": "Advanced Epi Info",
+    "outcome": "You can: use Epi Info's advanced capabilities with confidence",
+    "topics": [
+     "statistical commands",
+     "visual dashboards"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "health-research-data",
+     "public-health-data"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_epi_info_bi_analytics_5",
+    "slug": "epi-info-bi-analytics-5",
+    "title": "Automate and govern",
+    "outcome": "You can: run analysis reliably over time",
+    "topics": [
+     "scheduling/refresh",
+     "version control",
+     "data definitions"
+    ],
+    "practice": "Schedule a refresh and document metric definitions",
+    "need_tags": [
+     "data-pipelines",
+     "health-research-data",
+     "public-health-data"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_epi_info_bi_analytics_10",
+    "slug": "epi-info-bi-analytics-10",
+    "title": "Integrate Epi Info into your workflow",
+    "outcome": "You can: connect Epi Info with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Epi Info to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "health-research-data",
+     "public-health-data"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_epi_info_bi_analytics_11",
+    "slug": "epi-info-bi-analytics-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Epi Info well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Epi Info\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "health-research-data",
+     "public-health-data"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "bi-analytics",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

@@ -1,0 +1,113 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_capcut",
+ "slug": "capcut",
+ "title": "CapCut (and phone video editors)",
+ "tool_ids": [
+  "tool_capcut",
+  "tool_clipchamp"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_cc_cut",
+    "slug": "cc-cut",
+    "title": "Cut and arrange clips",
+    "outcome": "You can: edit a short video on your phone",
+    "topics": [
+     "importing",
+     "trimming",
+     "splitting",
+     "ordering",
+     "aspect ratio 9:16"
+    ],
+    "practice": "Edit a 30-second clip from 5 shots",
+    "need_tags": [
+     "short-video"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_cc_captions",
+    "slug": "cc-captions",
+    "title": "Captions, text and music",
+    "outcome": "You can: make videos understandable on mute",
+    "topics": [
+     "auto captions",
+     "text styles",
+     "licensed music",
+     "volume"
+    ],
+    "practice": "Add captions to a talking-head video",
+    "need_tags": [
+     "short-video",
+     "accessible-materials"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_cc_hooks",
+    "slug": "cc-hooks",
+    "title": "Hooks and pacing for social",
+    "outcome": "You can: keep viewers watching",
+    "topics": [
+     "the first 3 seconds",
+     "jump cuts",
+     "B-roll",
+     "transitions with purpose"
+    ],
+    "practice": "Re-edit a video to open with a strong hook",
+    "need_tags": [
+     "short-video",
+     "social-media-presence",
+     "athlete-brand",
+     "property-marketing"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_cc_series",
+    "slug": "cc-series",
+    "title": "Repeatable content production",
+    "outcome": "You can: produce a weekly series efficiently",
+    "topics": [
+     "templates",
+     "batch filming",
+     "brand presets",
+     "analytics review"
+    ],
+    "practice": "Plan and batch-edit four videos",
+    "need_tags": [
+     "content-planning",
+     "social-media-management"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false
+}

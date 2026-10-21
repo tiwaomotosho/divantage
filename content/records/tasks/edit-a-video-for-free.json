@@ -1,0 +1,136 @@
+{
+  "schema_version": "2.0",
+  "is_illustrative": false,
+  "redirect_from": [],
+  "disclosure": {
+    "commercial_relationship": "none"
+  },
+  "id": "task_edit_video_free",
+  "slug": "edit-a-video-for-free",
+  "title": "How do I edit a video for free?",
+  "short_title": "Edit a video for free",
+  "family_id": "create",
+  "problem_statement": "You have video clips and want to turn them into a finished video (trimmed, in order, with titles and sound) without paying for software.",
+  "expected_outcome": "A finished video file exported at a resolution suitable for where you will share it.",
+  "difficulty": "beginner",
+  "steps": [
+    {
+      "n": 1,
+      "title": "Choose an editor that runs on your computer",
+      "instructions": "Check your operating system, then pick a free editor that supports it. Shotcut and Kdenlive are open source; DaVinci Resolve has a free edition but is heavier to learn.",
+      "tool_ids": [
+        "tool_shotcut",
+        "tool_kdenlive",
+        "tool_davinci_resolve"
+      ],
+      "expected_result": "An editor installed and opening on your computer.",
+      "warning": "Download only from the official website."
+    },
+    {
+      "n": 2,
+      "title": "Gather and back up your clips",
+      "instructions": "Copy all clips, music and images into one folder on your computer. Keep the originals somewhere else as a backup.",
+      "expected_result": "One project folder with every file you need."
+    },
+    {
+      "n": 3,
+      "title": "Import and arrange",
+      "instructions": "Create a new project, import the folder and drag clips onto the timeline in the order you want.",
+      "expected_result": "A rough sequence of clips on the timeline."
+    },
+    {
+      "n": 4,
+      "title": "Trim and tidy",
+      "instructions": "Cut the start and end of each clip, remove mistakes and add simple transitions only where they help.",
+      "expected_result": "A sequence that plays smoothly with no unwanted parts."
+    },
+    {
+      "n": 5,
+      "title": "Add titles and sound",
+      "instructions": "Add a title and any captions, then balance music and voice so speech is easy to hear.",
+      "expected_result": "Readable text and clear audio.",
+      "warning": "Only use music and footage you have the right to use."
+    },
+    {
+      "n": 6,
+      "title": "Export and check",
+      "instructions": "Export using a preset that matches where you'll share (for example, 1080p for most platforms). Watch the whole exported file once before sharing.",
+      "expected_result": "A video file that plays correctly from start to finish."
+    }
+  ],
+  "recommended_tool_ids": [
+    "tool_shotcut",
+    "tool_kdenlive",
+    "tool_davinci_resolve"
+  ],
+  "quality_checks": [
+    "The exported file plays all the way through on another device.",
+    "Speech is clear over any music.",
+    "Text stays on screen long enough to read."
+  ],
+  "category_ids": [
+    "video"
+  ],
+  "sources": [],
+  "editorial": {
+    "status": "published",
+    "author": "V2 research pass (AI-assisted, Claude)",
+    "reviewer": "Product owner — blanket MVP approval (D-044)",
+    "created_at": "2026-10-21",
+    "updated_at": "2026-10-21",
+    "published_at": "2026-10-21",
+    "last_verified_at": "2026-10-21",
+    "review_interval_days": 365,
+    "next_review_at": "2027-10-21",
+    "confidence": "medium",
+    "solo_approval": true,
+    "change_summary": "Researched from official sources 2026-10-21; published under owner's blanket MVP approval (D-044). Domain-expert review pending.",
+    "public_corrections": [],
+    "internal_notes": ""
+  },
+  "prerequisites": [
+    "A laptop or desktop computer",
+    "Your video clips copied to that computer"
+  ],
+  "estimated_time": {
+    "label": "About 1–2 hours for a first short video",
+    "minutes_min": 60,
+    "minutes_max": 120,
+    "is_estimate": true
+  },
+  "budget_note": "All three recommended editors can be used without paying; DaVinci Resolve's paid Studio edition is optional.",
+  "device_note": "These are desktop applications. Check the official system requirements, especially for DaVinci Resolve on older computers.",
+  "low_bandwidth_note": "Installers can be large: download on Wi-Fi if you can. Editing itself works offline.",
+  "alternative_methods": [
+    "Use the basic editor built into your phone's photo or gallery app for very short clips."
+  ],
+  "common_mistakes": [
+    "Editing the only copy of your footage",
+    "Exporting at the wrong aspect ratio for the platform",
+    "Music drowning out speech"
+  ],
+  "privacy_or_safety_notes": [
+    "Get permission before publishing videos that show other people, especially children."
+  ],
+  "related_task_ids": [],
+  "resource_ids": [
+    "res_kdenlive_manual",
+    "res_davinci_resolve_training"
+  ],
+  "playbook_ids": [],
+  "audience_ids": [
+    "student",
+    "creator",
+    "exploring"
+  ],
+  "search_aliases": [
+    "edit videos for free",
+    "free video editing",
+    "video editor free",
+    "cut a video",
+    "make a video",
+    "edit a clip",
+    "trim video",
+    "edit film"
+  ]
+}

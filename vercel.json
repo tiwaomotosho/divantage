@@ -1,0 +1,42 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "bun install",
+  "buildCommand": "bun run build",
+  "outputDirectory": "build/client",
+  "trailingSlash": false,
+  "cleanUrls": true,
+  "redirects": [
+    { "source": "/journeys", "destination": "/helpers", "permanent": true },
+    { "source": "/journeys/:slug", "destination": "/helpers/:slug", "permanent": true },
+    { "source": "/for/professional", "destination": "/who-are-you", "permanent": true },
+    { "source": "/for/business-owner", "destination": "/for/small-business-owner", "permanent": true },
+    { "source": "/for/creator", "destination": "/for/content-creator", "permanent": true },
+    { "source": "/for/exploring", "destination": "/who-are-you", "permanent": true },
+    { "source": "/for/educator", "destination": "/for/teacher", "permanent": true },
+    { "source": "/for/nonprofit", "destination": "/sectors/public-sector", "permanent": true },
+    { "source": "/for/developer", "destination": "/for/software-engineer", "permanent": true },
+    { "source": "/for/agriculture", "destination": "/for/farmer", "permanent": true },
+    { "source": "/for/retail-services", "destination": "/for/small-business-owner", "permanent": true }
+  ],
+  "rewrites": [
+    { "source": "/((?!api/|assets/|data/|export/).*)", "destination": "/__spa-fallback.html" }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "Strict-Transport-Security", "value": "max-age=31536000; includeSubDomains" },
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
+        { "key": "Permissions-Policy", "value": "camera=(), microphone=(), geolocation=(), payment=(), usb=(), interest-cohort=()" },
+        { "key": "Cross-Origin-Opener-Policy", "value": "same-origin" },
+        { "key": "X-Frame-Options", "value": "DENY" },
+        { "key": "Content-Security-Policy", "value": "frame-ancestors 'none'; base-uri 'self'; object-src 'none'" }
+      ]
+    },
+    { "source": "/assets/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }] },
+    { "source": "/api/v1/(.*)\\.json", "headers": [{ "key": "Cache-Control", "value": "public, max-age=300, stale-while-revalidate=86400" }] },
+    { "source": "/data/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=300, stale-while-revalidate=86400" }] }
+  ]
+}

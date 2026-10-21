@@ -1,0 +1,241 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_owasp_zap",
+ "slug": "owasp-zap",
+ "title": "ZAP skill roadmap",
+ "tool_ids": [
+  "tool_owasp_zap"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_owasp_zap_security_tool_0",
+    "slug": "owasp-zap-security-tool-0",
+    "title": "Get started with ZAP",
+    "outcome": "You can: set up ZAP, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "security-testing"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_owasp_zap_security_tool_1",
+    "slug": "owasp-zap-security-tool-1",
+    "title": "Lab and legal basics",
+    "outcome": "You can: use ZAP safely and legally",
+    "topics": [
+     "authorisation",
+     "scope",
+     "lab setup",
+     "ethics"
+    ],
+    "practice": "Set up a practice lab and write a scope statement",
+    "need_tags": [
+     "security-testing"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_owasp_zap_security_tool_2",
+    "slug": "owasp-zap-security-tool-2",
+    "title": "Core use",
+    "outcome": "You can: perform the main task of ZAP in a lab",
+    "topics": [
+     "core features",
+     "reading output",
+     "common options"
+    ],
+    "practice": "Complete a guided lab exercise",
+    "need_tags": [
+     "security-testing",
+     "security-operations",
+     "digital-forensics"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_owasp_zap_security_tool_3",
+    "slug": "owasp-zap-security-tool-3",
+    "title": "Analyse findings",
+    "outcome": "You can: interpret results and reduce false positives",
+    "topics": [
+     "triage",
+     "severity",
+     "evidence",
+     "false positives"
+    ],
+    "practice": "Triage findings from a lab run",
+    "need_tags": [
+     "security-operations",
+     "security-testing"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_owasp_zap_security_tool_4",
+    "slug": "owasp-zap-security-tool-4",
+    "title": "Report clearly",
+    "outcome": "You can: write reports people act on",
+    "topics": [
+     "findings",
+     "evidence",
+     "remediation",
+     "executive summary"
+    ],
+    "practice": "Write a short findings report",
+    "need_tags": [
+     "technical-writing",
+     "security-testing"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_owasp_zap_security_tool_8",
+    "slug": "owasp-zap-security-tool-8",
+    "title": "Signature skills in ZAP",
+    "outcome": "You can: use the features that make ZAP distinctive",
+    "topics": [
+     "proxy",
+     "spidering",
+     "passive and active scanning",
+     "alerts"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "security-testing"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_owasp_zap_security_tool_9",
+    "slug": "owasp-zap-security-tool-9",
+    "title": "Advanced ZAP",
+    "outcome": "You can: use ZAP's advanced capabilities with confidence",
+    "topics": [
+     "authenticated scans",
+     "automation framework",
+     "CI integration"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "security-testing"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_owasp_zap_security_tool_5",
+    "slug": "owasp-zap-security-tool-5",
+    "title": "Automate and integrate",
+    "outcome": "You can: use ZAP in a mature security programme",
+    "topics": [
+     "automation",
+     "detection rules",
+     "chain of custody",
+     "continuous monitoring"
+    ],
+    "practice": "Automate one recurring check",
+    "need_tags": [
+     "security-operations",
+     "digital-forensics",
+     "security-testing"
+    ],
+    "estimated_hours": {
+     "value": 4.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_owasp_zap_security_tool_10",
+    "slug": "owasp-zap-security-tool-10",
+    "title": "Integrate ZAP into your workflow",
+    "outcome": "You can: connect ZAP with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect ZAP to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "security-testing"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_owasp_zap_security_tool_11",
+    "slug": "owasp-zap-security-tool-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use ZAP well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use ZAP\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "security-testing"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "security-tool",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

@@ -1,0 +1,177 @@
+# Pilot profiles — the fuller "what is this, who is it for, how do I start" write-up for the Pilot 20 tools.
+# =tool slug | One-sentence summary
+# cost: how it is priced, in words (no figures; prices change). Always followed by the official page.
+# on: platforms (comma)
+# best: who it suits (semicolon separated)
+# start: first-hour steps (semicolon separated)
+# watch: things that catch people out (semicolon separated)
+# next: what to learn after the basics (semicolon separated)
+# STATUS: drafted by AI from public product knowledge; every line needs a human check against the official page (review_status: pending).
+
+=bandlab | A free music-making studio in your browser and phone, with collaboration built in.
+cost: Free to start, with optional paid upgrades. Check the current plans.
+on: Web, Android, iOS
+best: Beginners recording on a phone; Singers and rappers laying down ideas; Friends making music together remotely
+start: Create an account; Make a new project and record a vocal using headphones; Add a drum loop from the sound library; Share a link to your demo
+watch: Record with headphones to avoid echo; Export a copy before you edit heavily; Check the licence terms before releasing loops commercially
+next: Mixing basics; Release from BandLab or export to a distributor
+
+=audacity | Free, open-source audio editor for cleaning, trimming and exporting recordings.
+cost: Free and open source.
+on: Windows, macOS, Linux
+best: Podcasters and singers cleaning up takes; Anyone converting or trimming audio files; Teachers preparing audio
+start: Install from the official site; Import a recording; Use Noise Reduction on a quiet section; Normalise and export as WAV or MP3
+watch: Download only from the official website; Edits are destructive until you export a copy; Record at a consistent distance from the microphone
+next: Compression and EQ; Multi-track editing; Batch processing
+
+=reaper | A powerful, affordable desktop studio for recording, mixing and mastering.
+cost: A discounted licence is available for personal and small-business use, with a free evaluation period. Check the current terms.
+on: Windows, macOS, Linux
+best: Music producers; Mixing and mastering engineers; Bands recording multi-track sessions
+start: Install and set the audio device; Create a track and arm it for recording; Record a take and add one effect; Render the final mix
+watch: The interface is deep, so learn one workflow first; Set your sample rate and keep it the same across a project; Back up project folders, not just the project file
+next: Routing and buses; Automation; Templates and shortcuts
+
+=musescore | Free, open-source notation software for writing, playing back and printing sheet music.
+cost: Free and open source for the desktop app. Check the official page for the optional online services.
+on: Windows, macOS, Linux, plus mobile apps
+best: Church and school choir directors; Songwriters writing lead sheets; Music teachers preparing parts
+start: Install MuseScore Studio; Choose a template for your ensemble; Enter notes with the keyboard or a MIDI keyboard; Export a PDF
+watch: Check that exported parts match the score; Use clear fonts for printing; Save a copy in an open format such as MusicXML
+next: Chord symbols; Extracting parts; Importing and exporting MusicXML
+
+=distrokid | A music distributor that sends your songs to many streaming services for a yearly fee.
+cost: Paid subscription plans. Compare against other distributors before you pay.
+on: Web, iOS, Android
+best: Independent artists releasing singles and albums; Labels with small catalogues
+start: Prepare a WAV master and 3000 by 3000 pixel cover art; Create your artist account; Upload, add credits and choose your stores and release date; Submit and keep the confirmation
+watch: Spell your artist name consistently; Plan the release date at least a few weeks ahead for playlists; Understand what happens to your music if you stop paying; Check which stores are included in your plan
+next: Splitting royalties with collaborators; Adding your song to Spotify for Artists
+
+=audiomack | A streaming and discovery platform popular with artists and listeners across Africa and the Caribbean.
+cost: Free for artists to upload. Check the creator programme terms.
+on: Web, Android, iOS
+best: Afrobeats, hip-hop and gospel artists building a local audience; Artists releasing mixtapes and singles
+start: Create an artist account; Upload a track with cover art and tags; Complete your profile and links; Share the song link
+watch: Read the monetisation rules before you apply; Use consistent names and artwork across platforms
+next: Playlists and followers; Reading your insights
+
+=spotify-for-artists | A free dashboard from Spotify for managing your artist profile and understanding listeners.
+cost: Free for artists.
+on: Web, Android, iOS
+best: Anyone with music on Spotify
+start: Claim your profile; Update your photo, bio and links; Look at the audience tab; Pitch an unreleased song through the editorial pitch form
+watch: Pitch before the release date; The numbers can lag; Beware of paid-playlist scams
+next: Canvas and Marquee options; Playlist strategy
+
+=capcut | A free-to-start video editor for phone and desktop, popular for short vertical videos.
+cost: Free tier with optional paid features. Check the current plans.
+on: Android, iOS, Windows, macOS, Web
+best: Musicians making teasers; Small businesses making product videos; Students and creators
+start: Open a new project and import clips; Trim and add captions; Add music and export in vertical format; Save a copy of the project
+watch: Check the licence of music in templates before publishing commercially; Export in the size each platform recommends
+next: Keyframes; Auto-captions; Brand templates
+
+=canva | A design tool with templates for graphics, presentations and short videos.
+cost: Free plan with paid upgrades; some programmes offer free access to eligible nonprofits and educators.
+on: Web, Android, iOS, Windows, macOS
+best: Musicians making cover art; Small business owners making posts and flyers; Teachers and students
+start: Pick a template in the right size; Replace text and images; Export as PNG or PDF; Save your brand colours
+watch: Some images and templates are for paid plans only; Check licences for commercial use
+next: Brand kits; Presentations; Resizing for different platforms
+
+=instagram | A social platform for photos and short video, used to reach fans and customers.
+cost: Free.
+on: Android, iOS, Web
+best: Musicians sharing clips; Small businesses showing products; Creators
+start: Switch to a professional account; Fill in your bio and link; Post a Reel; Reply to messages quickly
+watch: Use a strong password and two-step login; Keep your own copy of your best posts; Don't rely on one platform alone
+next: Insights; Collaborations; Scheduling
+
+=microsoft-excel | The standard spreadsheet for tables, calculations and charts.
+cost: Part of Microsoft 365 and also available in a free web version with fewer features. Check the current plans.
+on: Windows, macOS, Web, Android, iOS
+best: Analysts; Business owners; Anyone keeping records
+start: Put data in a table; Use SUM, AVERAGE and IF; Create a pivot table; Add a chart
+watch: Keep raw data separate from reports; Avoid merged cells in data tables; Save versions before big changes
+next: XLOOKUP and INDEX/MATCH; Power Query; Power Pivot
+
+=power-query | A tool inside Excel and Power BI for cleaning and combining data with repeatable steps.
+cost: Included with Excel and Power BI. Check which version has it.
+on: Windows, macOS (limited), Power BI
+best: Analysts cleaning monthly exports; Finance teams combining files
+start: Use Data > Get Data to import a file; Remove blank rows and fix data types; Split a column; Load to a table and refresh next month
+watch: Don't rename source files; Check data types after every step; Learn the steps panel
+next: Merge and append queries; Parameters; Custom columns
+
+=power-bi | Microsoft's tool for building interactive reports and dashboards.
+cost: A free desktop app for Windows; sharing and publishing may need a paid licence. Check the current terms.
+on: Windows desktop, Web
+best: Analysts building dashboards; Managers wanting live reports
+start: Import a file in Power BI Desktop; Clean it in Power Query; Build 3 visuals; Publish or export
+watch: Model your data before designing visuals; Avoid too many visuals on one page; Check refresh settings
+next: DAX measures; Row-level security; Report design
+
+=looker-studio | Google's free web tool for turning data into shareable dashboards.
+cost: Free to use with Google data. Some connectors cost extra.
+on: Web
+best: Marketers; Small teams using Google Sheets and Analytics
+start: Connect a Google Sheet; Add a table and a chart; Share the report link; Schedule an email
+watch: Check data refresh and permissions; Blended data can be slow
+next: Calculated fields; Community connectors; Templates
+
+=dbeaver | A free database client for writing and running SQL against many kinds of databases.
+cost: A free community edition and paid editions. Check which features you need.
+on: Windows, macOS, Linux
+best: Analysts learning SQL; Developers browsing databases
+start: Install DBeaver Community; Create a connection; Open an SQL editor; Run a SELECT and export the result
+watch: Use read-only credentials when you can; Always use LIMIT when exploring
+next: Joins; Window functions; Saved scripts
+
+=bigquery | Google's cloud data warehouse for running SQL on large datasets.
+cost: Pay-as-you-go with a free monthly allowance. Check current limits before running large queries.
+on: Web console, command line
+best: Analysts practising on public data; Teams with large datasets
+start: Open the BigQuery console; Choose a public dataset; Run a small query; Check the amount of data processed before you run it
+watch: Preview the query size first; Avoid SELECT * on large tables
+next: Partitions; Scheduled queries; Connecting to Looker Studio
+
+=python | A general-purpose programming language widely used for data work.
+cost: Free and open source.
+on: Windows, macOS, Linux
+best: Analysts moving beyond spreadsheets; Researchers; Developers
+start: Install Python or open Google Colab; Learn variables, lists and loops; Use pandas to read a CSV; Make one chart
+watch: Use a virtual environment; Read error messages from the bottom up
+next: pandas groupby; Visualisation libraries; Testing
+
+=jupyter | Notebooks that mix code, results and notes in one document.
+cost: Free and open source.
+on: Windows, macOS, Linux, Web
+best: Analysts sharing their reasoning; Students
+start: Install Jupyter or use a hosted notebook; Run a cell; Load a CSV and chart it; Write a short explanation in Markdown
+watch: Run cells from top to bottom before sharing; Don't store secrets in notebooks
+next: Parameters; Exporting to HTML; Version control
+
+=datawrapper | A web tool for making clear charts, maps and tables.
+cost: Free plan with paid plans for teams. Check current terms.
+on: Web
+best: Journalists and analysts; Anyone making charts for reports
+start: Paste data; Choose a chart type; Edit the title to say the finding; Export or embed
+watch: Check axis scales; Add a source line; Check colours for colour-blind readers
+next: Maps; Tables; Custom themes
+
+=chatgpt | An AI assistant from OpenAI for writing, explaining and brainstorming.
+cost: Free tier and paid plans. Check current options.
+on: Web, Android, iOS, Windows, macOS
+best: Drafting and rewriting; Explaining errors; Brainstorming
+start: Give it context and an example; Ask for a draft; Ask it to explain its answer; Verify any numbers or facts yourself
+watch: It can state wrong things confidently; Don't paste private or client data unless your policy allows it
+next: Prompting with examples; Using it to review your own work
+
+=claude | An AI assistant from Anthropic for writing, analysis and long documents.
+cost: Free tier and paid plans. Check current options.
+on: Web, Android, iOS, Windows, macOS
+best: Reading long documents; Drafting careful writing; Reviewing analysis
+start: Paste or upload your material and say what you want; Ask for a draft and a list of assumptions; Ask it to check your reasoning; Verify facts yourself
+watch: It can be wrong; Don't share private or client data unless your policy allows it
+next: Asking for critique; Working with files; Structuring prompts

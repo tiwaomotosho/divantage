@@ -1,0 +1,110 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_notion",
+ "slug": "notion",
+ "title": "Notion",
+ "tool_ids": [
+  "tool_notion",
+  "tool_microsoft_onenote",
+  "tool_google_keep"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_nt_pages",
+    "slug": "nt-pages",
+    "title": "Pages and notes",
+    "outcome": "You can: capture and organise notes",
+    "topics": [
+     "pages",
+     "blocks",
+     "headings",
+     "to-dos",
+     "links"
+    ],
+    "practice": "Create a personal knowledge page",
+    "need_tags": [
+     "personal-productivity"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_nt_db",
+    "slug": "nt-db",
+    "title": "Databases and views",
+    "outcome": "You can: track anything with databases",
+    "topics": [
+     "properties",
+     "table/board/calendar views",
+     "filters"
+    ],
+    "practice": "Build a project or content tracker",
+    "need_tags": [
+     "project-management",
+     "content-planning",
+     "personal-productivity"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_nt_templates",
+    "slug": "nt-templates",
+    "title": "Templates and team wikis",
+    "outcome": "You can: share knowledge with a team",
+    "topics": [
+     "templates",
+     "wiki",
+     "permissions"
+    ],
+    "practice": "Create a team handbook",
+    "need_tags": [
+     "records-management",
+     "lesson-planning"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_nt_system",
+    "slug": "nt-system",
+    "title": "Build a personal operating system",
+    "outcome": "You can: run your work and life from one system",
+    "topics": [
+     "relations and rollups",
+     "dashboards",
+     "automations"
+    ],
+    "practice": "Link goals, projects and tasks",
+    "need_tags": [
+     "personal-productivity",
+     "kpi-tracking"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false
+}

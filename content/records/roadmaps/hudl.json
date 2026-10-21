@@ -1,0 +1,246 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_hudl",
+ "slug": "hudl",
+ "title": "Hudl skill roadmap",
+ "tool_ids": [
+  "tool_hudl"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_hudl_sports_tool_0",
+    "slug": "hudl-sports-tool-0",
+    "title": "Get started with Hudl",
+    "outcome": "You can: set up Hudl, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "movement-analysis",
+     "match-video-analysis"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_hudl_sports_tool_1",
+    "slug": "hudl-sports-tool-1",
+    "title": "Set up your team",
+    "outcome": "You can: set up teams, athletes and seasons",
+    "topics": [
+     "rosters",
+     "roles",
+     "privacy for minors"
+    ],
+    "practice": "Set up your squad",
+    "need_tags": [
+     "team-organisation",
+     "movement-analysis",
+     "match-video-analysis"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_hudl_sports_tool_2",
+    "slug": "hudl-sports-tool-2",
+    "title": "Capture",
+    "outcome": "You can: record or import sessions and matches",
+    "topics": [
+     "recording",
+     "uploading",
+     "organising"
+    ],
+    "practice": "Upload and organise one match or session",
+    "need_tags": [
+     "match-video-analysis",
+     "movement-analysis"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_hudl_sports_tool_3",
+    "slug": "hudl-sports-tool-3",
+    "title": "Tag and analyse",
+    "outcome": "You can: turn footage or data into insight",
+    "topics": [
+     "tagging",
+     "clips",
+     "stats",
+     "comparisons"
+    ],
+    "practice": "Tag one match and build a clip reel",
+    "need_tags": [
+     "match-video-analysis",
+     "sports-analytics",
+     "movement-analysis"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_hudl_sports_tool_4",
+    "slug": "hudl-sports-tool-4",
+    "title": "Feedback to athletes",
+    "outcome": "You can: give feedback athletes use",
+    "topics": [
+     "playlists",
+     "annotations",
+     "individual reports"
+    ],
+    "practice": "Send three athletes their clips with notes",
+    "need_tags": [
+     "online-coaching",
+     "movement-analysis",
+     "match-video-analysis"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_hudl_sports_tool_8",
+    "slug": "hudl-sports-tool-8",
+    "title": "Signature skills in Hudl",
+    "outcome": "You can: use the features that make Hudl distinctive",
+    "topics": [
+     "uploading film",
+     "tagging",
+     "highlights",
+     "sharing with athletes"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "movement-analysis",
+     "match-video-analysis"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_hudl_sports_tool_9",
+    "slug": "hudl-sports-tool-9",
+    "title": "Advanced Hudl",
+    "outcome": "You can: use Hudl's advanced capabilities with confidence",
+    "topics": [
+     "breakdown data",
+     "scouting reports",
+     "Hudl Assist"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "movement-analysis",
+     "match-video-analysis"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_hudl_sports_tool_5",
+    "slug": "hudl-sports-tool-5",
+    "title": "Season-long insight",
+    "outcome": "You can: track development over a season",
+    "topics": [
+     "trends",
+     "benchmarks",
+     "recruitment use"
+    ],
+    "practice": "Produce a season review",
+    "need_tags": [
+     "sports-analytics",
+     "movement-analysis",
+     "match-video-analysis"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_hudl_sports_tool_10",
+    "slug": "hudl-sports-tool-10",
+    "title": "Integrate Hudl into your workflow",
+    "outcome": "You can: connect Hudl with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Hudl to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "movement-analysis",
+     "match-video-analysis"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_hudl_sports_tool_11",
+    "slug": "hudl-sports-tool-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Hudl well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Hudl\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "movement-analysis",
+     "match-video-analysis"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "sports-tool",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

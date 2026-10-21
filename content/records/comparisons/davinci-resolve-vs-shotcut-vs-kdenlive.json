@@ -1,0 +1,282 @@
+{
+  "schema_version": "2.0",
+  "is_illustrative": false,
+  "redirect_from": [],
+  "disclosure": {
+    "commercial_relationship": "none"
+  },
+  "id": "cmp_free_video_editors",
+  "slug": "davinci-resolve-vs-shotcut-vs-kdenlive",
+  "title": "Free video editors: DaVinci Resolve vs Shotcut vs Kdenlive",
+  "decision_question": "Which free desktop video editor should I start with?",
+  "tool_ids": [
+    "tool_davinci_resolve",
+    "tool_shotcut",
+    "tool_kdenlive"
+  ],
+  "rows": [
+    {
+      "dimension": "primary_use",
+      "cells": {
+        "tool_davinci_resolve": {
+          "text": "Editing plus colour, effects, motion graphics and audio in one application",
+          "kind": "fact",
+          "source_ids": [
+            "src_davinci_product_page"
+          ]
+        },
+        "tool_shotcut": {
+          "text": "Cross-platform video editing",
+          "kind": "fact",
+          "source_ids": [
+            "src_shotcut_home"
+          ]
+        },
+        "tool_kdenlive": {
+          "text": "Video editing with strong Linux support",
+          "kind": "fact",
+          "source_ids": [
+            "src_kdenlive_home"
+          ]
+        }
+      }
+    },
+    {
+      "dimension": "pricing_model",
+      "cells": {
+        "tool_davinci_resolve": {
+          "text": "Free edition; paid Studio edition",
+          "kind": "fact",
+          "source_ids": [
+            "src_davinci_product_page"
+          ]
+        },
+        "tool_shotcut": {
+          "text": "Free and open source (GPLv3)",
+          "kind": "fact",
+          "source_ids": [
+            "src_shotcut_home",
+            "src_shotcut_repo"
+          ]
+        },
+        "tool_kdenlive": {
+          "text": "Free and open source",
+          "kind": "fact",
+          "source_ids": [
+            "src_kdenlive_home"
+          ]
+        }
+      }
+    },
+    {
+      "dimension": "free_tier_limits",
+      "cells": {
+        "tool_davinci_resolve": {
+          "text": "Some features are reserved for Studio; check the official comparison",
+          "kind": "fact",
+          "source_ids": [
+            "src_davinci_product_page"
+          ]
+        },
+        "tool_shotcut": {
+          "text": "No paid edition to upgrade to",
+          "kind": "editorial",
+          "source_ids": []
+        },
+        "tool_kdenlive": {
+          "text": "No paid edition to upgrade to",
+          "kind": "editorial",
+          "source_ids": []
+        }
+      }
+    },
+    {
+      "dimension": "platforms",
+      "cells": {
+        "tool_davinci_resolve": {
+          "text": "Windows, macOS, Linux",
+          "kind": "fact",
+          "source_ids": [
+            "src_davinci_product_page"
+          ]
+        },
+        "tool_shotcut": {
+          "text": "Windows, macOS, Linux",
+          "kind": "fact",
+          "source_ids": [
+            "src_shotcut_home"
+          ]
+        },
+        "tool_kdenlive": {
+          "text": "Linux, Windows, macOS, BSD",
+          "kind": "fact",
+          "source_ids": [
+            "src_kdenlive_home"
+          ]
+        }
+      }
+    },
+    {
+      "dimension": "learning_curve",
+      "cells": {
+        "tool_davinci_resolve": {
+          "text": "Steep",
+          "kind": "editorial",
+          "source_ids": []
+        },
+        "tool_shotcut": {
+          "text": "Moderate",
+          "kind": "editorial",
+          "source_ids": []
+        },
+        "tool_kdenlive": {
+          "text": "Moderate",
+          "kind": "editorial",
+          "source_ids": []
+        }
+      }
+    },
+    {
+      "dimension": "limitations",
+      "cells": {
+        "tool_davinci_resolve": {
+          "text": "Large professional app; check system requirements",
+          "kind": "editorial",
+          "source_ids": []
+        },
+        "tool_shotcut": {
+          "text": "Desktop only",
+          "kind": "fact",
+          "source_ids": [
+            "src_shotcut_home"
+          ]
+        },
+        "tool_kdenlive": {
+          "text": "Desktop only",
+          "kind": "fact",
+          "source_ids": [
+            "src_kdenlive_home"
+          ]
+        }
+      }
+    },
+    {
+      "dimension": "accessibility",
+      "cells": {
+        "tool_davinci_resolve": {
+          "text": "Not yet verified",
+          "kind": "unknown",
+          "source_ids": []
+        },
+        "tool_shotcut": {
+          "text": "Not yet verified",
+          "kind": "unknown",
+          "source_ids": []
+        },
+        "tool_kdenlive": {
+          "text": "Not yet verified",
+          "kind": "unknown",
+          "source_ids": []
+        }
+      }
+    }
+  ],
+  "best_fit": [
+    {
+      "tool_id": "tool_shotcut",
+      "for_whom": "Beginners on Windows or Mac who want a straightforward free editor."
+    },
+    {
+      "tool_id": "tool_kdenlive",
+      "for_whom": "Linux users, or anyone who wants an open-source editor with an official manual."
+    },
+    {
+      "tool_id": "tool_davinci_resolve",
+      "for_whom": "People willing to invest learning time to get professional colour and audio tools for free."
+    }
+  ],
+  "method_note": "Facts come from each product's official website, checked on 2026-10-21. Learning curve and best-fit statements are Digital Advantage's editorial judgement and are labelled as such. Unknown values are shown as unknown.",
+  "task_ids": [
+    "task_edit_video_free"
+  ],
+  "category_ids": [
+    "video"
+  ],
+  "sources": [
+    {
+      "id": "src_davinci_product_page",
+      "type": "official_site",
+      "url": "https://www.blackmagicdesign.com/products/davinciresolve",
+      "title": "DaVinci Resolve product page",
+      "publisher": "Blackmagic Design",
+      "checked_at": "2026-10-21",
+      "supports": [
+        "identity",
+        "capabilities",
+        "platforms",
+        "pricing",
+        "free_tier"
+      ],
+      "quote": "DaVinci Resolve is the world's only solution that combines editing, color correction, visual effects, motion graphics, audio post production and now photo editing all in one software tool"
+    },
+    {
+      "id": "src_kdenlive_home",
+      "type": "official_site",
+      "url": "https://kdenlive.org/",
+      "title": "Kdenlive home page",
+      "publisher": "KDE",
+      "checked_at": "2026-10-21",
+      "supports": [
+        "identity",
+        "capabilities",
+        "platforms",
+        "pricing",
+        "licence"
+      ],
+      "quote": "Kdenlive - Free and Open Source Video Editor ... works on Linux, Windows, macOS, and BSD"
+    },
+    {
+      "id": "src_shotcut_home",
+      "type": "official_site",
+      "url": "https://www.shotcut.org/",
+      "title": "Shotcut home page",
+      "publisher": "Shotcut",
+      "checked_at": "2026-10-21",
+      "supports": [
+        "identity",
+        "capabilities",
+        "platforms",
+        "pricing"
+      ],
+      "quote": "a free, open source, cross-platform video editor for Windows, Mac and Linux"
+    },
+    {
+      "id": "src_shotcut_repo",
+      "type": "official_repository",
+      "url": "https://github.com/mltframework/shotcut",
+      "title": "Shotcut source repository",
+      "publisher": "mltframework (GitHub)",
+      "checked_at": "2026-10-21",
+      "supports": [
+        "licence"
+      ],
+      "quote": "GPLv3. See COPYING"
+    }
+  ],
+  "editorial": {
+    "status": "published",
+    "author": "V2 research pass (AI-assisted, Claude)",
+    "reviewer": "Product owner — blanket MVP approval (D-044)",
+    "created_at": "2026-10-21",
+    "updated_at": "2026-10-21",
+    "published_at": "2026-10-21",
+    "last_verified_at": "2026-10-21",
+    "review_interval_days": 180,
+    "next_review_at": "2027-04-19",
+    "confidence": "medium",
+    "solo_approval": true,
+    "change_summary": "Researched from official sources 2026-10-21; published under owner's blanket MVP approval (D-044). Domain-expert review pending.",
+    "public_corrections": [],
+    "internal_notes": ""
+  }
+}

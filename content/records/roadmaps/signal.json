@@ -1,0 +1,250 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_signal",
+ "slug": "signal",
+ "title": "Signal skill roadmap",
+ "tool_ids": [
+  "tool_signal"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_signal_collaboration_0",
+    "slug": "signal-collaboration-0",
+    "title": "Get started with Signal",
+    "outcome": "You can: set up Signal, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "group-messaging",
+     "emergency-comms"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_signal_collaboration_1",
+    "slug": "signal-collaboration-1",
+    "title": "Join and communicate",
+    "outcome": "You can: communicate clearly in Signal",
+    "topics": [
+     "spaces/channels/boards",
+     "messages",
+     "mentions",
+     "files"
+    ],
+    "practice": "Post an update and share a file with your team",
+    "need_tags": [
+     "group-messaging",
+     "emergency-comms"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_signal_collaboration_2",
+    "slug": "signal-collaboration-2",
+    "title": "Stay focused",
+    "outcome": "You can: manage notifications and find things",
+    "topics": [
+     "notification settings",
+     "search",
+     "pinning",
+     "status"
+    ],
+    "practice": "Set notifications so only what matters reaches you",
+    "need_tags": [
+     "personal-productivity",
+     "group-messaging",
+     "emergency-comms"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_signal_collaboration_3",
+    "slug": "signal-collaboration-3",
+    "title": "Organise work",
+    "outcome": "You can: structure work for a team",
+    "topics": [
+     "projects/channels",
+     "templates",
+     "task assignment"
+    ],
+    "practice": "Set up a space for a real project",
+    "need_tags": [
+     "project-management",
+     "group-messaging",
+     "emergency-comms"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_signal_collaboration_4",
+    "slug": "signal-collaboration-4",
+    "title": "Run meetings and workshops",
+    "outcome": "You can: use Signal before, during and after meetings",
+    "topics": [
+     "agendas",
+     "live collaboration",
+     "follow-ups"
+    ],
+    "practice": "Run one meeting entirely through Signal",
+    "need_tags": [
+     "meeting-minutes",
+     "workshop-facilitation",
+     "group-messaging",
+     "emergency-comms"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_signal_collaboration_8",
+    "slug": "signal-collaboration-8",
+    "title": "Signature skills in Signal",
+    "outcome": "You can: use the features that make Signal distinctive",
+    "topics": [
+     "end-to-end encrypted messaging",
+     "disappearing messages",
+     "groups",
+     "safety numbers"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "group-messaging",
+     "emergency-comms"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_signal_collaboration_9",
+    "slug": "signal-collaboration-9",
+    "title": "Advanced Signal",
+    "outcome": "You can: use Signal's advanced capabilities with confidence",
+    "topics": [
+     "usernames and phone privacy",
+     "linked devices",
+     "group admin settings"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "group-messaging",
+     "emergency-comms"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_signal_collaboration_5",
+    "slug": "signal-collaboration-5",
+    "title": "Govern the workspace",
+    "outcome": "You can: keep the workspace secure and tidy",
+    "topics": [
+     "roles",
+     "guest access",
+     "retention",
+     "archiving"
+    ],
+    "practice": "Review who has access and archive stale spaces",
+    "need_tags": [
+     "records-management",
+     "online-safety",
+     "group-messaging",
+     "emergency-comms"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_signal_collaboration_10",
+    "slug": "signal-collaboration-10",
+    "title": "Integrate Signal into your workflow",
+    "outcome": "You can: connect Signal with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Signal to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "group-messaging",
+     "emergency-comms"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_signal_collaboration_11",
+    "slug": "signal-collaboration-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Signal well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Signal\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "group-messaging",
+     "emergency-comms"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "collaboration",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

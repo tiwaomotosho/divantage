@@ -1,0 +1,238 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_pdf24",
+ "slug": "pdf24",
+ "title": "PDF24 Tools skill roadmap",
+ "tool_ids": [
+  "tool_pdf24"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_pdf24_productivity_app_0",
+    "slug": "pdf24-productivity-app-0",
+    "title": "Get started with PDF24 Tools",
+    "outcome": "You can: set up PDF24 Tools, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "pdf-work"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_pdf24_productivity_app_1",
+    "slug": "pdf24-productivity-app-1",
+    "title": "Set up and sync",
+    "outcome": "You can: set up PDF24 Tools on your devices",
+    "topics": [
+     "account",
+     "sync",
+     "mobile app",
+     "settings"
+    ],
+    "practice": "Install PDF24 Tools on phone and computer",
+    "need_tags": [
+     "pdf-work"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_pdf24_productivity_app_2",
+    "slug": "pdf24-productivity-app-2",
+    "title": "Daily use",
+    "outcome": "You can: do your daily tasks faster",
+    "topics": [
+     "core actions",
+     "shortcuts",
+     "search"
+    ],
+    "practice": "Use PDF24 Tools for a week and note one saved hour",
+    "need_tags": [
+     "personal-productivity",
+     "pdf-work"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_pdf24_productivity_app_3",
+    "slug": "pdf24-productivity-app-3",
+    "title": "Organise",
+    "outcome": "You can: build a simple system",
+    "topics": [
+     "folders/labels/tags",
+     "templates",
+     "naming conventions"
+    ],
+    "practice": "Reorganise your PDF24 Tools with a clear system",
+    "need_tags": [
+     "personal-productivity",
+     "records-management",
+     "pdf-work"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_pdf24_productivity_app_4",
+    "slug": "pdf24-productivity-app-4",
+    "title": "Share safely",
+    "outcome": "You can: collaborate without oversharing",
+    "topics": [
+     "sharing permissions",
+     "links",
+     "version history"
+    ],
+    "practice": "Audit your shared items",
+    "need_tags": [
+     "files-cloud-storage",
+     "online-safety",
+     "pdf-work"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_pdf24_productivity_app_8",
+    "slug": "pdf24-productivity-app-8",
+    "title": "Signature skills in PDF24 Tools",
+    "outcome": "You can: use the features that make PDF24 Tools distinctive",
+    "topics": [
+     "merge and split",
+     "compress",
+     "convert",
+     "edit"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "pdf-work"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_pdf24_productivity_app_9",
+    "slug": "pdf24-productivity-app-9",
+    "title": "Advanced PDF24 Tools",
+    "outcome": "You can: use PDF24 Tools's advanced capabilities with confidence",
+    "topics": [
+     "OCR",
+     "desktop creator",
+     "workflows"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "pdf-work"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_pdf24_productivity_app_5",
+    "slug": "pdf24-productivity-app-5",
+    "title": "Automate",
+    "outcome": "You can: let PDF24 Tools work for you",
+    "topics": [
+     "rules",
+     "integrations",
+     "scheduled tasks"
+    ],
+    "practice": "Create two automation rules",
+    "need_tags": [
+     "automation-workflows",
+     "pdf-work"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_pdf24_productivity_app_10",
+    "slug": "pdf24-productivity-app-10",
+    "title": "Integrate PDF24 Tools into your workflow",
+    "outcome": "You can: connect PDF24 Tools with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect PDF24 Tools to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "pdf-work"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_pdf24_productivity_app_11",
+    "slug": "pdf24-productivity-app-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use PDF24 Tools well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use PDF24 Tools\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "pdf-work"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "productivity-app",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

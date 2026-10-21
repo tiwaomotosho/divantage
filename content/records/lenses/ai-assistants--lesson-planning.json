@@ -1,0 +1,112 @@
+{
+ "schema_version": "2.1",
+ "id": "lens_ai_assistants__lesson_planning",
+ "roadmap_id": "rm_ai_assistants",
+ "roadmap": "ai-assistants",
+ "need_id": "need_lesson_planning",
+ "need": "lesson-planning",
+ "title": "AI assistants for teachers",
+ "kind": "flagship",
+ "for_identities": [
+  "teacher",
+  "primary-school-teacher",
+  "secondary-school-teacher",
+  "lecturer",
+  "private-tutor",
+  "head-teacher",
+  "special-education-teacher",
+  "curriculum-developer"
+ ],
+ "why": "AI can draft lesson plans, differentiated worksheets and quiz questions in minutes, giving time back for teaching.",
+ "what_is_different": "Teachers must align AI output to the curriculum, the age group and their students' needs — and check every fact. Student data must not be shared.",
+ "priority_modules": [
+  "ai-first",
+  "ai-domain",
+  "ai-safe",
+  "ai-verify",
+  "ai-write",
+  "ai-teach"
+ ],
+ "extra_modules": [
+  {
+   "level": "intermediate",
+   "title": "Differentiation",
+   "outcome": "You can: adapt one lesson for different levels",
+   "topics": [
+    "same objective, three levels",
+    "reading-age adjustment",
+    "scaffolds"
+   ],
+   "practice": "Produce three versions of a worksheet for one objective"
+  }
+ ],
+ "starter_project": "Plan a two-week unit with AI help: objectives aligned to your curriculum, differentiated activities, a quiz with answer key — all checked and edited by you.",
+ "pitfalls": [
+  "Content not matched to the local curriculum",
+  "Factual errors passed on to students",
+  "Sharing student names or work with AI tools"
+ ],
+ "pairs_with": [
+  "tool_google_classroom",
+  "tool_kahoot",
+  "tool_canva"
+ ],
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false,
+ "composed_path": {
+  "beginner": [
+   {
+    "module": "ai-first",
+    "relevance": "core",
+    "rank": 0
+   },
+   {
+    "module": "ai-safe",
+    "relevance": "core",
+    "rank": 2
+   },
+   {
+    "module": "ai-write",
+    "relevance": "core",
+    "rank": 4
+   }
+  ],
+  "intermediate": [
+   {
+    "extra": "Differentiation",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "module": "ai-domain",
+    "relevance": "core",
+    "rank": 1
+   },
+   {
+    "module": "ai-verify",
+    "relevance": "core",
+    "rank": 3
+   },
+   {
+    "module": "ai-files",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ],
+  "expert": [
+   {
+    "module": "ai-teach",
+    "relevance": "core",
+    "rank": 5
+   },
+   {
+    "module": "ai-agents",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ]
+ }
+}

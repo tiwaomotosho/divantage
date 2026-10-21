@@ -1,0 +1,397 @@
+# Roadmap archetypes — one per kind of tool. Every registry tool without a hand-written roadmap gets a generated roadmap:
+#   generic Get-started (B) + 2 archetype B + 2 archetype I + Signature skills (I) + 1 archetype E + Advanced (E) + Integrate (E) + Lead & teach (E) = 10 modules.
+# =archetype slug | Label | default core skills ; ... | default advanced skills ; ...
+# L | Title | outcome (no "You can") | topics ; ... | practice | need tags (@tool = all needs that list the tool) | hours
+# tools: slugs
+
+=archetype ai-tool | AI assistants and AI platforms | prompting with context ; working with files ; checking outputs | automation with AI ; building reusable prompts and assistants
+B | Ask well, check everything | get useful, checkable answers from {tool} | giving role, task, context and format ; follow-up questions ; spotting made-up facts | Ask {tool} to explain a concept from your work, then verify two claims | use-ai-assistants, fact-check, @tool | 1
+B | Use it safely | protect private data while using {tool} | what not to paste ; workplace policy ; privacy settings | Write your personal "never paste" list | use-ai-assistants, online-safety, @tool | 0.5
+I | Reusable prompts for your job | build prompt templates for repeated tasks | templates ; examples ; checklists | Create three prompts for your weekly tasks | @tool | 2
+I | Research and summarise with sources | summarise documents and find sources responsibly | citations ; page references ; cross-checking | Summarise a public report with page references | literature-review, find-information, @tool | 1.5
+E | Build with it | put {tool} inside a workflow or product | APIs or integrations ; evaluation ; human review steps | Automate one recurring task with a human sign-off step | automation-workflows, ai-app-development, @tool | 4
+tools: github-copilot, hugging-face, perplexity, anthropic-api, openai-api, langchain
+
+=archetype audio-production | Audio, music and podcast production | recording ; editing and arranging ; mixing basics | mastering ; advanced processing and routing
+B | Record cleanly | record clear audio with {tool} | input levels ; microphones ; room noise ; file formats | Record a 1-minute voice or instrument take with good levels | audio-production, podcast-production, @tool | 1
+B | Edit and arrange | cut, arrange and tidy recordings | trimming ; fades ; arranging clips/regions ; markers | Edit a rough recording into a clean 2-minute piece | audio-production, @tool | 1.5
+I | Mix for clarity | balance and polish a mix | levels and panning ; EQ ; compression ; reverb | Mix a short track or podcast episode | audio-production, @tool | 3
+I | Export for every platform | deliver the right file for each destination | loudness targets ; sample rates ; formats ; metadata | Export versions for streaming, podcast and video | audio-production, podcast-production, @tool | 1
+E | Produce a full release | take a project from idea to release | session templates ; stems ; collaboration ; release checklist | Produce and release a complete track or episode | audio-production, creator-income, @tool | 6
+tools: ableton-live, audacity, bandlab, buzzsprout, descript, fl-studio, garageband, logic-pro, reaper, riverside
+
+=archetype notation | Music notation | entering notes ; layout ; playback | parts and scores for ensembles ; engraving rules
+B | Enter notes quickly | write a melody in {tool} | note input ; durations ; keys and time signatures | Notate a 16-bar melody | music-notation, @tool | 1.5
+B | Lyrics, chords and dynamics | add the details musicians need | lyrics ; chord symbols ; dynamics and articulations | Add lyrics and chords to your melody | music-notation, @tool | 1
+I | Arrange for several parts | write for choir, band or orchestra | instruments ; voicing ; part extraction | Arrange a song for four voices | music-notation, @tool | 3
+I | Layout and printing | produce clean, readable scores | page layout ; spacing ; PDF export | Export a full score and parts | music-notation, @tool | 1.5
+E | Professional engraving | produce publication-quality scores | engraving conventions ; house styles ; playback realism | Engrave a full piece to publication standard | music-notation, @tool | 5
+tools: dorico, musescore, sibelius, qlab
+
+=archetype automation | Automation and no-code apps | triggers and actions ; data mapping ; testing | multi-step logic ; error handling and monitoring
+B | Describe the process | turn a repetitive task into a rule | trigger ; action ; inputs and outputs ; frequency | Write one "when X, do Y" rule from your work | automation-workflows, @tool | 0.5
+B | Build a first flow or app | build a simple working automation or app | connecting accounts ; mapping fields ; testing | Build and test one simple flow or app | automation-workflows, no-code-apps, @tool | 1.5
+I | Logic and data | add conditions, loops and data handling | filters ; branches ; formatting ; lookups | Add a condition and a lookup to your flow | automation-workflows, @tool | 2
+I | Reliability | keep automations running | error alerts ; retries ; logs ; usage limits | Add an error alert and review usage limits | automation-workflows, @tool | 1.5
+E | Govern automations | run automations safely for a team | permissions ; documentation ; data privacy ; ownership | Document and hand over an automation to a colleague | automation-workflows, process-mapping, @tool | 2
+tools: appsheet, glide, google-apps-script, make, n8n, node-red, power-apps, power-automate, zapier, bubble, airtable
+
+=archetype business-app | Business operations apps (booking, POS, HR, property, CRM-style operations) | setup ; daily records ; reports | automation ; integrations ; permissions
+B | Set up your business | configure {tool} for your business | business profile ; services/products ; staff ; payment options | Set up your profile and three services or products | @tool | 1.5
+B | Daily operations | run day-to-day work in {tool} | bookings/orders/records ; notifications ; mobile use | Run one full day of operations in {tool} | @tool | 1
+I | Customers and data | keep clean customer and transaction records | customer profiles ; history ; imports/exports ; privacy | Import or clean up your customer list | crm-sales, customer-support, @tool | 1.5
+I | Reports that matter | read the reports that guide decisions | sales/occupancy/attendance ; cash ; trends | Review last month's report and pick one action | kpi-tracking, @tool | 1
+E | Scale and control | run {tool} across a team or branches | roles and permissions ; multiple locations ; audit trail | Set up roles for staff and review the audit log | people-management, @tool | 2
+tools: airbnb, appfolio, bokun, booking-com, booksy, buildium, cloudbeds, fareharbor, fresha, getyourguide, glofox, jane-app, jobber, lightspeed, little-hotelier, loyverse, mindbody, setmore, simplepractice, square, sumup, toast, tradify, vagaro, moniepoint, calendly, life-qi, circuit, onfleet, routific, samsara
+
+=archetype hr-people | HR, payroll and workforce tools | employee records ; time and leave ; onboarding | payroll compliance ; analytics
+B | Set up your people data | store employee records correctly | profiles ; documents ; roles ; privacy | Set up three employee profiles | people-management, @tool | 1
+B | Time, leave and rotas | manage availability and time off | leave policies ; shifts ; approvals | Build next week's rota and approve a leave request | shift-rota, people-management, @tool | 1
+I | Onboarding and recruitment | hire and onboard consistently | job posts ; pipelines ; onboarding checklists | Create an onboarding checklist for a new hire | recruitment, @tool | 1.5
+I | Payroll and compliance basics | pay people accurately | pay schedules ; deductions ; payslips ; local rules | Run a test payroll | payroll, @tool | 2
+E | People analytics | use HR data for decisions | turnover ; absence ; headcount reports ; confidentiality | Produce a quarterly people report | kpi-tracking, people-management, @tool | 2
+tools: bamboohr, deel, deputy, gusto, rotacloud, when-i-work, workable, zoho-people, sage
+
+=archetype finance-payments | Accounting, invoicing and payments | invoices ; payments ; reconciliation | reporting ; tax and compliance ; integrations
+B | Get paid | send invoices or payment links | customers ; invoices/links ; payment methods ; receipts | Send a test invoice or payment link | invoicing, online-payments, @tool | 1
+B | Keep records straight | record income and expenses | categories ; attachments ; bank feeds | Record a week of transactions | bookkeeping, @tool | 1
+I | Reconcile | match records to the bank | reconciliation ; refunds ; fees ; disputes | Reconcile a month | bookkeeping, audit-analytics, @tool | 2
+I | Security and fraud | protect money and accounts | two-step verification ; user roles ; scam awareness | Review security settings and user roles | online-safety, @tool | 1
+E | Reporting and integration | connect payments to accounting and reports | exports ; APIs/webhooks ; month-end reports | Connect {tool} to your books or a sheet | bookkeeping, automation-workflows, @tool | 2
+tools: flutterwave, invoice-ninja, paypal, paystack, stripe, wise, zoho-invoice, pushpay, tithely, ynab
+
+=archetype erp-ops | ERP, inventory, project and planning systems | records and masters ; workflows ; reports | configuration ; integrations ; analytics
+B | Navigate the system | find, create and update records | modules ; master data ; search ; permissions | Create and update one record end to end | @tool | 1.5
+B | Core workflow | complete your role's main workflow | orders/tasks/stock moves ; approvals ; statuses | Complete one full workflow for your role | @tool | 2
+I | Planning and scheduling | plan work, stock or projects | schedules ; dependencies ; reorder points ; resources | Build a plan or schedule for a real piece of work | project-scheduling, inventory-procurement, @tool | 3
+I | Reports and dashboards | answer management questions | standard reports ; filters ; exports | Build a report your manager asks for | kpi-tracking, @tool | 2
+E | Configure and integrate | adapt {tool} to how your organisation works | custom fields ; workflows ; integrations ; data quality | Propose and test one configuration improvement | erp, process-mapping, @tool | 4
+tools: aha, anaplan, bizagi-modeler, erpnext, ganttproject, m-files, microsoft-dynamics-365, microsoft-project, odoo, oracle-netsuite, primavera-p6, productboard, sap, smartsheet, sortly, zoho-inventory, katana-mrp, ibm-maximo, upkeep, fiix, easyship, freightos, safetyculture, candid, fundsforngos, signupgenius
+
+=archetype legal-practice | Legal practice and e-discovery | matters ; documents ; time and billing | review workflows ; analytics ; confidentiality controls
+B | Matters and contacts | organise clients and matters | matters ; contacts ; conflicts checks ; documents | Set up a matter with documents and deadlines | legal-practice-management, @tool | 1
+B | Deadlines and tasks | never miss a date | calendars ; court/limitation dates ; reminders | Add all deadlines for a matter | legal-practice-management, @tool | 1
+I | Time, billing and trust | record time and bill accurately | time entries ; invoices ; client accounts | Record a week of time and draft an invoice | legal-practice-management, invoicing, @tool | 1.5
+I | Document review | review and tag documents defensibly | search ; tagging ; privilege ; review batches | Review and tag a sample set | ediscovery, @tool | 2
+E | Confidentiality and reporting | run the practice securely | permissions ; audit trails ; client portals ; reports | Audit user access and produce a practice report | legal-practice-management, @tool | 2
+tools: clio, everlaw, mycase, practicepanther, relativity
+
+=archetype faith-admin | Church and faith community management | members ; groups ; giving and events | volunteer scheduling ; reporting ; communications automation
+B | Members and households | keep member records accurate | profiles ; households ; privacy and consent | Add households and update contact preferences | congregation-management, @tool | 1
+B | Groups and events | organise groups and events | small groups ; registrations ; check-in | Set up a group and an event with registration | congregation-management, events-management, @tool | 1
+I | Volunteers and rotas | schedule teams | serving teams ; rotas ; reminders | Build next month's volunteer rota | congregation-management, shift-rota, @tool | 1.5
+I | Giving and finance | record giving transparently | online giving ; statements ; reconciliation | Produce giving statements for a sample month | online-giving, bookkeeping, @tool | 1.5
+E | Communication and care | follow up with people consistently | messaging ; workflows ; pastoral care notes (confidential) | Set up a newcomer follow-up workflow | pastoral-care, group-messaging, @tool | 2
+tools: breeze, churchsuite, planning-center
+
+=archetype job-platform | Job, freelance, casting and volunteering platforms | profile ; search and alerts ; applying | proposals and pricing ; reputation ; negotiation
+B | A profile that gets noticed | create a strong profile on {tool} | headline ; skills ; portfolio samples ; photo | Complete your profile to 100% | cv-portfolio, professional-profile, @tool | 1
+B | Find the right opportunities | search and filter effectively | keywords ; alerts ; filters ; spotting scams | Save three searches and set alerts | job-search, @tool | 0.5
+I | Apply or pitch well | write applications that win | tailoring ; proposals ; self-tapes or samples ; follow-up | Send three tailored applications or proposals | job-search, freelancing, @tool | 1.5
+I | Pricing, terms and safety | agree fair terms and stay safe | rates ; milestones ; platform rules ; red flags | Draft your rate card and terms checklist | freelancing, online-payments, @tool | 1
+E | Build reputation | grow repeat work and referrals | reviews ; portfolio updates ; long-term clients | Turn one completed job into a case study | professional-profile, @tool | 1.5
+tools: backstage, contra, fiverr, glassdoor, idealist, indeed, spotlight, un-online-volunteering, upwork, volunteermatch, uber, bolt
+
+=archetype collaboration | Collaboration, messaging and workspace tools | spaces and channels ; sharing ; notifications | permissions ; integrations ; governance
+B | Join and communicate | communicate clearly in {tool} | spaces/channels/boards ; messages ; mentions ; files | Post an update and share a file with your team | group-messaging, @tool | 0.5
+B | Stay focused | manage notifications and find things | notification settings ; search ; pinning ; status | Set notifications so only what matters reaches you | personal-productivity, @tool | 0.5
+I | Organise work | structure work for a team | projects/channels ; templates ; task assignment | Set up a space for a real project | project-management, @tool | 1.5
+I | Run meetings and workshops | use {tool} before, during and after meetings | agendas ; live collaboration ; follow-ups | Run one meeting entirely through {tool} | meeting-minutes, workshop-facilitation, @tool | 1
+E | Govern the workspace | keep the workspace secure and tidy | roles ; guest access ; retention ; archiving | Review who has access and archive stale spaces | records-management, online-safety, @tool | 1.5
+tools: asana, clickup, confluence, decidim, everbridge, miro, monday-com, mural, polis, sessionlab, sharepoint, slack, telegram, zello, signal, anydesk, doxy-me
+
+=archetype bi-analytics | BI, analytics and statistics software | importing data ; analysis ; charts | modelling ; automation ; sharing and governance
+B | Load and explore data | open data and get first answers | importing ; data types ; filtering ; summaries | Load a dataset and answer three questions | dashboards-bi, statistical-analysis, @tool | 1.5
+B | First charts | make clear, honest charts | chart choice ; labels ; colour ; annotation | Make three charts that each answer one question | data-visualisation, @tool | 1
+I | Analysis that holds up | analyse correctly and reproducibly | grouping ; joins ; tests/models where relevant ; documentation | Reproduce an analysis from start to finish | statistical-analysis, data-cleaning, @tool | 3
+I | Share and publish | share results with decision-makers | dashboards/reports ; exports ; access | Publish a report for a colleague | dashboards-bi, kpi-tracking, @tool | 1.5
+E | Automate and govern | run analysis reliably over time | scheduling/refresh ; version control ; data definitions | Schedule a refresh and document metric definitions | data-pipelines, @tool | 3
+tools: activityinfo, alteryx, amplitude, apache-airflow, apache-superset, caseware-idea, ckan, databricks, datawrapper, dbt, dhis2, epi-info, flourish, jamovi, jasp, jmp, looker-studio, metabase, minitab, mixpanel, mode, openrefine, posthog, power-query, r, rstudio, snowflake, spotfire, spss, stata, tableau, ushahidi, google-analytics, matomo, plausible, microsoft-clarity, julia, graphpad-prism, origin
+
+=archetype market-data | Financial market data and trading platforms | quotes and charts ; watchlists ; news | screening ; models and exports ; alerts
+B | Read a quote and a chart | understand prices and charts | tickers ; price/volume ; timeframes ; chart types | Build a watchlist of five instruments | market-research-finance, @tool | 1
+B | Fundamentals and news | find company and economic information | financial statements ; ratios ; news filters | Compare two companies on three ratios | market-research-finance, @tool | 1.5
+I | Screens and alerts | find opportunities systematically | screeners ; alerts ; custom indicators | Build a screen and set two alerts | market-research-finance, @tool | 2
+I | Export to your model | move data into your analysis | exports ; spreadsheet add-ins ; APIs | Pull data into a spreadsheet model | financial-modelling, @tool | 2
+E | Risk-aware use | use data responsibly in decisions | data quality ; survivorship bias ; risk limits | Write a checklist for using {tool} data in decisions | risk-modelling, @tool | 1.5
+tools: bloomberg-terminal, koyfin, lseg-workspace, tradingview, yahoo-finance
+
+=archetype design-graphics | Graphic design, photo and illustration software | layers ; selection and shapes ; type | advanced compositing ; print production ; automation
+B | Canvas, layers and export | create and export a simple design | canvas size ; layers ; basic tools ; export formats | Design and export a social post | graphic-design-pro, design-simple-graphics, @tool | 1.5
+B | Type and colour | use type and colour well | fonts ; hierarchy ; colour modes ; contrast | Redesign a flyer with better type and contrast | graphic-design-pro, brand-identity, @tool | 1.5
+I | Images and retouching | edit and combine images | selections ; masks ; adjustments ; retouching | Retouch a product or portrait photo | photo-editing, product-photography, @tool | 3
+I | Brand and templates | build consistent brand assets | styles ; symbols/components ; templates ; asset libraries | Build a small brand kit | brand-identity, @tool | 2
+E | Production and print | deliver professional files | print specs (bleed, CMYK) ; vector vs raster ; packaging files | Prepare a print-ready file | graphic-design-pro, @tool | 3
+tools: adobe-illustrator, adobe-lightroom, adobe-photoshop, affinity, behance, capture-one, clip-studio-paint, darktable, gimp, inkscape, krita, photopea, photoroom, procreate, remove-bg, snapseed, sketch, rive, biorender
+
+=archetype three-d | 3D modelling, visualisation and interiors | navigation ; modelling basics ; materials | rendering ; animation ; optimisation
+B | Navigate 3D space | move around and select confidently | views ; navigation ; selection ; units | Navigate and measure a sample scene | 3d-modelling, @tool | 1
+B | Model simple objects | build simple 3D forms | primitives ; extrude ; edit modes ; precision | Model a chair or a room | 3d-modelling, interior-design, @tool | 2
+I | Materials and lighting | make models look real | materials ; textures ; lights ; cameras | Light and texture your model | 3d-modelling, architectural-visualisation, @tool | 3
+I | Render and present | produce images or walkthroughs | render settings ; composition ; exporting | Render three views for a client | architectural-visualisation, @tool | 2
+E | Animate and optimise | animate and optimise scenes | keyframes ; walkthroughs ; performance ; file exchange | Produce a 20-second walkthrough | 3d-modelling, motion-graphics, @tool | 5
+tools: autodesk-maya, blender, cinema-4d, d5-render, enscape, homestyler, lumion, planner-5d, sketchup, twinmotion, clo-3d, seamly2d, tinkercad, matterport
+
+=archetype video-pro | Professional video and motion software | editing ; titles ; export | colour ; effects ; delivery specs
+B | Edit a first sequence | assemble and trim a video | importing ; timeline ; trimming ; audio levels | Edit a 1-minute piece | video-editing-pro, short-video, @tool | 2
+B | Titles and captions | add text people can read | titles ; lower thirds ; captions | Add captions and a title to your piece | video-editing-pro, accessible-materials, @tool | 1
+I | Colour and sound | make it look and sound professional | colour correction ; audio cleanup ; music | Correct colour and balance audio | video-editing-pro, @tool | 3
+I | Motion and effects | add motion with purpose | keyframes ; transitions ; templates | Create an animated intro | motion-graphics, @tool | 3
+E | Deliver to spec | deliver for broadcast, web and social | codecs ; aspect ratios ; loudness ; archiving | Deliver three platform versions | video-editing-pro, @tool | 2
+tools: adobe-after-effects, adobe-premiere-pro, final-cut-pro, loom, boxcast
+
+=archetype cad-bim | CAD, BIM and engineering design software | drawing/modelling ; constraints ; drawings | collaboration ; analysis links ; automation
+B | Interface and units | set up projects correctly | templates ; units ; coordinates ; navigation | Start a project from the right template | cad-drafting, @tool | 1.5
+B | Model or draw a first element | create accurate geometry | sketches/lines ; constraints ; dimensions ; layers/levels | Model or draw one element from a real project | cad-drafting, mechanical-design, bim-modelling, @tool | 3
+I | Drawings and documentation | produce issued drawings | sheets ; views ; annotation ; schedules | Produce a drawing sheet ready to issue | cad-drafting, technical-reporting, @tool | 3
+I | Coordinate and collaborate | work with other disciplines | references/links ; clash checks ; revisions ; markups | Run a coordination review on a sample model | bim-modelling, drawing-markup, @tool | 3
+E | Data and automation | use model data and automate | parameters ; families/blocks ; quantity take-off ; scripting | Extract quantities to a spreadsheet | cost-estimation, bim-modelling, @tool | 5
+tools: archicad, autocad-electrical, autodesk-inventor, civil-3d, fusion-360, freecad, kicad, navisworks, onshape, revit, solidworks, tekla-structures, eplan, magicplan, bluebeam-revu, drawboard-pdf, cutlist-optimizer, planswift, costx, trimble-business-center
+
+=archetype engineering-sim | Engineering analysis and simulation software | model setup ; loads and boundary conditions ; results | sensitivity and calibration ; automation ; verification
+B | Understand the method | know what {tool} calculates and its limits | governing theory ; assumptions ; units ; when not to use it | Write a one-page note on {tool}'s assumptions | engineering-calculations, @tool | 2
+B | Build a first model | set up a simple model correctly | geometry/network ; properties ; inputs ; checks | Rebuild a published tutorial example | engineering-calculations, @tool | 3
+I | Run and interpret | run analyses and read results critically | solver settings ; convergence ; results review ; sanity checks | Compare results with a hand calculation | engineering-data-analysis, @tool | 4
+I | Sensitivity and scenarios | test what matters | sensitivity runs ; scenarios ; uncertainty | Run a sensitivity study on two inputs | risk-modelling, @tool | 3
+E | Verify, document and automate | deliver defensible analysis | verification ; calibration to data ; reports ; scripting/batch runs | Produce a verified analysis report | technical-reporting, @tool | 6
+tools: abaqus, ansys, calculix, comsol, smath-studio, aspen-hysys, aspen-plus, chemcad, dwsim, csi-safe, etabs, sap2000, staad-pro, robot-structural-analysis, plaxis, geostudio, rocscience-slide2, hec-ras, epanet, epa-swmm, infoworks-icm, homer-pro, nrel-sam, pvsyst, retscreen, etap, dialux, prosper, mbal, petex-gap, pipesim, olga
+
+=archetype subsurface | Subsurface, wells and mining software | projects and data loading ; interpretation ; QC | modelling workflows ; uncertainty ; automation
+B | Projects and data | load and QC subsurface data | coordinate systems ; units ; well/log/seismic/survey data ; QC | Load and QC a sample dataset | @tool | 2
+B | Core interpretation | complete the core workflow in {tool} | correlation/picks ; surfaces ; trajectories or blocks | Complete a basic interpretation | @tool | 4
+I | Build the model | build a model fit for decisions | grids/blocks ; properties ; constraints | Build a simple model from your interpretation | reservoir-modelling, mine-planning, well-planning-design, @tool | 5
+I | Uncertainty and scenarios | quantify what you don't know | ranges ; realisations ; P10/P50/P90 | Run three scenarios and compare | risk-modelling, @tool | 4
+E | Integrate and report | hand over results to engineering and management | exports ; reporting ; peer review ; regulatory submissions | Prepare a peer-review pack | regulatory-reporting, technical-reporting, @tool | 4
+tools: cmg, datamine, deswik, eclipse, interactive-petrophysics, jewelsuite, landmark-decisionspace, leapfrog, maptek-vulcan, opendtect, petrel, slb-drillplan, techlog, tnavigator
+
+=archetype ops-reporting | Operations data and reporting systems (drilling, maintenance, sites) | daily reporting ; data quality ; standard reports | KPIs and benchmarking ; integrations ; administration
+B | Daily reporting | complete accurate daily records | required fields ; codes ; attachments ; deadlines | Complete a full daily report | drilling-reporting, site-management, @tool | 1
+B | Data quality | keep data consistent | validation ; codes ; corrections ; audit trail | Find and fix five data-quality issues | drilling-reporting, data-cleaning, @tool | 1
+I | Standard reports and KPIs | turn records into KPIs | standard reports ; time breakdown ; NPT/downtime ; exports | Produce a weekly KPI report | kpi-tracking, @tool | 2
+I | Planning and lookahead | plan upcoming work | schedules ; lookaheads ; resources ; checklists | Build a two-week lookahead | project-scheduling, @tool | 2
+E | Administer and integrate | administer {tool} for a team | configuration ; user management ; integration with BI ; regulatory outputs | Connect {tool} data to a dashboard | dashboards-bi, regulatory-reporting, @tool | 4
+tools: wellview, openwells, procore, fieldwire, autodesk-build
+
+=archetype industrial-automation | Industrial automation, CAM and fabrication | project setup ; programming/toolpaths ; simulation | optimisation ; safety ; standards
+B | Project and hardware setup | set up a project for the right hardware | devices/machines ; configuration ; safety basics | Set up a sample project | plc-automation, cnc-cam, 3d-printing, @tool | 2
+B | First program or toolpath | create a simple program or toolpath | ladder/function blocks or toolpaths/slicing ; parameters | Create and simulate a simple program or print | plc-automation, cnc-cam, 3d-printing, @tool | 3
+I | Simulate and test | test before running on real equipment | simulation ; debugging ; collision/quality checks | Simulate and fix two faults | @tool | 3
+I | HMIs, fixtures and quality | make it usable and repeatable | HMI screens or fixtures ; tolerances ; settings libraries | Build a reusable settings library | @tool | 3
+E | Optimise and standardise | improve cycle time and reliability | optimisation ; standards ; documentation ; change control | Improve one program and document the change | process-mapping, @tool | 4
+tools: codesys, studio-5000, tia-portal, mastercam, bambu-studio, prusaslicer, ultimaker-cura
+
+=archetype health-system | Health records and clinical practice systems | patient records ; orders and documentation ; scheduling | templates ; reporting ; safety features
+B | Find and document | find patients and document care | search ; patient summary ; notes ; privacy | Document a sample (training) encounter | electronic-health-records, @tool | 1.5
+B | Orders and results | place orders and review results safely | orders ; results ; alerts ; acknowledgement | Complete a training order-to-result cycle | electronic-health-records, @tool | 1.5
+I | Efficiency features | document faster without losing quality | templates ; smart phrases ; favourites ; voice | Build three personal templates | electronic-health-records, @tool | 2
+I | Scheduling and communication | manage appointments and messages | scheduling ; reminders ; patient messages ; telehealth | Set up reminders for a clinic list | clinic-scheduling, telemedicine, @tool | 1.5
+E | Reporting and quality | use system data for audit and improvement | reports ; registries ; quality measures ; governance | Run a report for a clinical audit | clinical-audit-qi, @tool | 3
+tools: epic, oracle-health, openmrs, meditech, dentrix, curve-dental, open-dental, ezyvet, covetrus-pulse, physitrack, medbridge, powerscribe, redcap, osirix-md
+
+=archetype clinical-reference | Clinical and drug reference tools | searching ; reading summaries ; calculators | evidence grading ; saving and CPD ; local guidance
+B | Find answers fast | search {tool} efficiently at the point of care | search terms ; topic structure ; key recommendations | Answer three clinical questions from your practice | clinical-reference, @tool | 1
+B | Read with judgement | understand strength of evidence | evidence grades ; dates ; local vs international guidance | Compare {tool}'s advice with a local guideline | evidence-based-medicine, @tool | 1
+I | Drugs and calculations | check doses and interactions safely | dosing ; renal/hepatic adjustment ; interactions ; calculators | Check three prescriptions for interactions | drug-information, medical-calculators, @tool | 1.5
+I | Use on mobile | use {tool} quickly on a phone | app features ; offline access ; bookmarks | Set up bookmarks for your top 10 topics | clinical-reference, @tool | 0.5
+E | Teach and audit with it | use {tool} for teaching and CPD | CPD logging ; teaching cases ; audit standards | Turn one topic into a teaching session | cpd-learning, @tool | 2
+tools: bmj-best-practice, bnf, drugs-com, epocrates, lexicomp, mdcalc, medscape, nice-guidance, qxmd, uptodate, who-guidelines, radreport, osmosis, bmj-learning
+
+=archetype research-database | Research databases and scholarly search | search syntax ; filters ; saving results | systematic searching ; alerts ; citation tracking
+B | Search well | build effective searches | keywords and synonyms ; quotes ; filters ; field search | Run a search and refine it twice | find-information, literature-review, @tool | 1
+B | Judge what you find | assess relevance and quality | abstracts ; publication type ; date ; source credibility | Screen 20 results and keep the best 5 | literature-review, fact-check, @tool | 1
+I | Advanced searching | search systematically | Boolean logic ; subject headings ; citation chasing | Build a reproducible search string | literature-review, @tool | 2
+I | Save, export and cite | move results into your reference manager | exports ; alerts ; citation formats | Export results to Zotero and set an alert | academic-writing, @tool | 1
+E | Systematic and team reviews | support a formal review | protocols ; deduplication ; screening workflows ; reporting | Draft a search protocol | literature-review, research-surveys, @tool | 3
+tools: google-scholar, bailii, cochrane-library, connected-papers, google-search, lawpavilion, lexisnexis, pubmed, semantic-scholar, statista, westlaw, wikipedia, wayback-machine, rayyan, ncbi-blast, google-fact-check-explorer, tineye, invid-wevrify, maltego, google-trends, similarweb
+
+=archetype lab-science | Laboratory and scientific software | data entry/import ; core analysis ; export | protocols ; automation ; data integrity
+B | Set up and import | start projects and import data | projects ; templates ; file formats ; metadata | Import a sample dataset with metadata | lab-data, @tool | 1
+B | Core analysis or drawing | complete the main task in {tool} | core tools ; parameters ; outputs | Complete one standard analysis or drawing | molecular-biology, chemistry-drawing, scientific-figures, @tool | 2
+I | Protocols and records | keep reproducible records | protocols ; versioning ; sample tracking ; audit trail | Record a full experiment with protocol | lab-data, research-data-management, @tool | 2
+I | Figures and reporting | produce publication-ready outputs | figure standards ; exports ; methods text | Produce a figure for a report | scientific-figures, @tool | 2
+E | Integrity and sharing | share data responsibly | data integrity ; permissions ; repositories ; FAIR principles | Deposit a dataset with metadata | research-data-management, @tool | 2
+tools: avogadro, benchling, chemdraw, elabftw, ketcher, labguru, marvinsketch, pymol, snapgene, ugene, zenodo, figshare, osf, sharpcap, siril, stellarium
+
+=archetype qualitative-ux | Qualitative research and user testing tools | collecting data ; coding/tagging ; themes | team analysis ; synthesis reports ; research ops
+B | Collect good data | gather interviews, tests or responses | recruiting ; consent ; recording ; questions | Run or import two interviews or tests | user-research, qualitative-analysis, @tool | 1.5
+B | Code and tag | label data consistently | codes/tags ; codebooks ; highlights | Code two transcripts with a simple codebook | qualitative-analysis, @tool | 1.5
+I | Find themes | turn codes into insights | grouping ; frequency vs importance ; quotes | Write three insight statements with evidence | qualitative-analysis, product-discovery, @tool | 2
+I | Survey and test design | design studies that answer the question | question design ; logic ; sampling ; pilot | Design and pilot a short study | research-surveys, @tool | 2
+E | Share and operationalise research | make insights usable by others | repositories ; reports ; stakeholder sessions | Present findings to stakeholders | product-discovery, @tool | 2
+tools: atlas-ti, dovetail, limesurvey, lookback, maze, nvivo, qualtrics, taguette
+
+=archetype dev-tool | Developer tools, frameworks and platforms | setup ; core workflow ; debugging | performance ; security ; automation and CI
+B | Install and run | set up {tool} and run a first project | installation ; project structure ; documentation ; hello world | Run the official quick start | write-code, @tool | 2
+B | Core workflow | do the everyday task {tool} is for | core commands/APIs ; configuration ; conventions | Build a small feature or config with {tool} | write-code, @tool | 3
+I | Debug and test | find and prevent problems | logs ; debugging ; tests ; common errors | Fix a deliberately broken example | write-code, test-automation, @tool | 3
+I | Work in a team | use {tool} in shared projects | version control ; code review ; environments ; secrets | Add {tool} to a team repository with docs | version-control, @tool | 2
+E | Production-ready | run {tool} reliably in production | security ; performance ; monitoring ; CI/CD | Add {tool} to a CI pipeline with checks | devops-cicd, observability, @tool | 5
+tools: android-studio, appium, apache-jmeter, aws, bitbucket, cisco-packet-tracer, cloudflare, datadog, docker, docusaurus, expo, flutter, gatling, github-actions, gns3, godot, google-cloud, grafana, insomnia, jenkins, jest, jetbrains-ides, k6, kubernetes, mermaid, microsoft-azure, mongodb, netlify, nextjs, podman, postman, prometheus, putty, pytorch, react-native, scikit-learn, sentry, swagger, terraform, unity, unreal-engine, wireshark, xcode, x-plane, google-colab
+
+=archetype it-service | IT service, test management and helpdesk tools | tickets/cases ; workflows ; knowledge base | SLAs and automation ; reporting ; integrations
+B | Create and work cases | log and resolve tickets or test cases | fields ; priorities ; statuses ; assignment | Log and resolve three sample items | it-helpdesk, test-management, @tool | 1
+B | Knowledge and templates | reuse answers and test steps | templates ; knowledge base ; shared steps | Write two knowledge articles or reusable test steps | it-helpdesk, test-management, @tool | 1
+I | Workflows and SLAs | keep work moving | workflows ; SLAs ; escalation ; automation rules | Add an SLA and an escalation rule | it-helpdesk, @tool | 2
+I | Reporting | report status and quality | dashboards ; coverage/backlog ; trends | Build a weekly status dashboard | kpi-tracking, @tool | 1.5
+E | Integrate and govern | connect {tool} to the rest of the stack | integrations ; permissions ; audit ; asset/CI data | Integrate {tool} with your issue tracker or CI | agile-tracking, @tool | 3
+tools: freshservice, glpi, jira-service-management, qase, testrail, xray, zephyr, freshdesk, zendesk, crisp
+
+=archetype security-tool | Security and digital forensics tools (authorised use only) | setup in a lab ; core scans/analysis ; reporting | advanced techniques ; automation ; legal and ethical rules
+B | Lab and legal basics | use {tool} safely and legally | authorisation ; scope ; lab setup ; ethics | Set up a practice lab and write a scope statement | security-testing, @tool | 2
+B | Core use | perform the main task of {tool} in a lab | core features ; reading output ; common options | Complete a guided lab exercise | security-testing, security-operations, digital-forensics, @tool | 3
+I | Analyse findings | interpret results and reduce false positives | triage ; severity ; evidence ; false positives | Triage findings from a lab run | security-operations, @tool | 3
+I | Report clearly | write reports people act on | findings ; evidence ; remediation ; executive summary | Write a short findings report | technical-writing, @tool | 2
+E | Automate and integrate | use {tool} in a mature security programme | automation ; detection rules ; chain of custody ; continuous monitoring | Automate one recurring check | security-operations, digital-forensics, @tool | 4
+tools: autopsy, burp-suite, elastic, ftk-imager, kali-linux, microsoft-sentinel, nmap, owasp-zap, splunk, wazuh
+
+=archetype personal-security | Personal security and privacy tools | setup ; everyday use ; recovery | family/team sharing ; advanced protection
+B | Set it up right | install and configure {tool} | install ; account ; recovery codes ; backups | Set up {tool} and store recovery details safely | online-safety, @tool | 0.5
+B | Everyday use | use {tool} without friction | daily workflow ; browser/phone integration | Use {tool} for a week on your main accounts | online-safety, @tool | 0.5
+I | Protect what matters most | secure your critical accounts | email ; banking ; work ; phone number risks | Secure your top five accounts | online-safety, @tool | 1
+I | Spot scams | recognise phishing and fraud | phishing signs ; fake support ; SIM swap ; reporting | Review three real scam examples | online-safety, fact-check, @tool | 0.5
+E | Help family or team | roll out good security habits to others | sharing ; family plans ; simple policies | Help two people set up {tool} | online-safety, digital-basics, @tool | 1
+tools: bitwarden, google-authenticator, have-i-been-pwned, microsoft-authenticator, proton-mail
+
+=archetype accessibility-tool | Accessibility and assistive technology | setup ; core use ; customisation | advanced shortcuts ; supporting others
+B | Turn it on and set it up | start using {tool} | installation ; settings ; voices/languages ; shortcuts | Set up {tool} for your needs | accessibility-tools, accessible-communication, @tool | 0.5
+B | Everyday tasks | use {tool} for daily tasks | reading ; messaging ; navigation ; documents | Complete three daily tasks with {tool} | accessibility-tools, @tool | 1
+I | Customise | tailor {tool} to you | speed ; vocabulary ; profiles ; gestures | Customise three settings | accessibility-tools, @tool | 1
+I | Work and study | use {tool} at work or school | meetings ; documents ; forms ; requesting adjustments | Use {tool} in one meeting or class | accessible-communication, @tool | 1
+E | Support and advocate | help others and test accessibility | teaching others ; testing content ; reporting barriers | Test a document or website with {tool} | accessible-materials, @tool | 1.5
+tools: ava, be-my-eyes, google-live-transcribe, microsoft-immersive-reader, nvda, proloquo2go, spreadthesign, lingvano
+
+=archetype learning-platform | Learning platforms and study tools | finding courses ; study routine ; progress | certificates ; spaced practice ; applying learning
+B | Choose the right course | pick learning that fits your goal | goals ; levels ; free vs paid ; time needed | Choose one course with a clear outcome | learn-online, @tool | 0.5
+B | Build a study routine | study consistently | schedules ; reminders ; notes ; offline options | Plan four weeks of study | study-skills, learn-online, @tool | 0.5
+I | Learn actively | remember and apply what you learn | practice ; spaced repetition ; projects | Turn one module into flashcards and a small project | study-skills, memorise-knowledge, @tool | 2
+I | Prove your skills | turn learning into evidence | certificates ; portfolios ; LinkedIn | Add a completed project to your portfolio | cv-portfolio, @tool | 1
+E | Teach and learn with others | learn with and through other people | study groups ; teaching ; mentoring | Run a study session for two friends | workshop-facilitation, @tool | 1
+tools: freecodecamp, alison, anki, biodigital-human, busuu, complete-anatomy, coursera, duolingo, edx, gcfglobal, italki, khan-academy, linkedin-learning, quizlet, visible-body
+
+=archetype teaching-platform | Teaching, classroom and assessment platforms | classes ; content ; assessment | analytics ; differentiation ; integrity
+B | Set up a class | create a class and invite learners | classes ; rosters ; privacy ; guardians | Create a class with a welcome post | virtual-classroom, interactive-teaching, @tool | 1
+B | Post content and activities | share lessons and activities | materials ; activities ; due dates | Post one week of lessons | lesson-planning, @tool | 1
+I | Assess and give feedback | check understanding efficiently | quizzes ; rubrics ; feedback ; grading | Run a quiz and give feedback | quizzes-assessment, grading-feedback, @tool | 2
+I | Engage everyone | keep all learners participating | interactive features ; differentiation ; accessibility | Run one interactive lesson | interactive-teaching, accessible-materials, @tool | 1.5
+E | Data and integrity | use results to improve teaching | analytics ; academic integrity ; reporting to parents | Review results and plan a re-teach | grading-feedback, @tool | 2
+tools: canvas-lms, google-classroom, gradescope, kahoot, mentimeter, moodle, nearpod, padlet, socrative, turnitin, trainerize, truecoach, everfit
+
+=archetype scripture-tool | Scripture study and faith apps | reading plans ; search ; notes | original languages ; cross-references ; teaching preparation
+B | Read and search | find and read passages | translations ; search ; bookmarks | Set up a reading plan | scripture-study, @tool | 0.5
+B | Notes and highlights | capture insights | notes ; highlights ; tags ; sharing | Study one passage with notes | scripture-study, @tool | 0.5
+I | Cross-references and context | study in depth | cross-references ; commentaries ; dictionaries ; maps | Trace a theme across five passages | scripture-study, @tool | 2
+I | Original languages | look beneath the translation | word studies ; lexicons ; interlinears | Do a word study on one key term | scripture-study, @tool | 2
+E | Prepare teaching | turn study into teaching | outlines ; discussion questions ; sharing with groups | Prepare a study guide for a small group | lesson-planning, @tool | 2
+tools: blue-letter-bible, logos-bible-software, quran-com, sefaria, step-bible, youversion
+
+=archetype marketing-tool | Marketing, social, email, SEO and CRM tools | setup ; campaigns/content ; measurement | automation ; segmentation ; optimisation
+B | Set up and connect | connect {tool} to your accounts | account setup ; connections ; audience basics ; brand assets | Connect your accounts and set up your profile | social-media-presence, @tool | 1
+B | First campaign or post | publish something that works | content ; scheduling ; targeting basics | Launch one small campaign or post series | social-media-management, email-marketing, @tool | 1.5
+I | Measure what matters | read results honestly | key metrics ; attribution limits ; reports | Review results and choose one improvement | web-analytics, kpi-tracking, @tool | 1.5
+I | Segment and personalise | send the right message to the right people | segments ; tags ; personalisation ; consent | Build two segments and tailor a message | email-marketing, crm-sales, @tool | 2
+E | Automate and optimise | run marketing that improves over time | automations ; A/B tests ; budgets ; data privacy | Set up one automation and one test | automation-workflows, online-ads, @tool | 3
+tools: ahrefs, brevo, buffer, google-ads, google-alerts, google-business-profile, google-search-console, gumroad, hootsuite, hubspot, instagram, kit, ko-fi, mailchimp, mailerlite, meltwater, meta-ads-manager, meta-business-suite, metricool, muck-rack, patreon, pinterest, pipedrive, salesforce, selar, semrush, tripadvisor, trustpilot, zoho-crm, beehiiv, ghost, substack
+
+=archetype ecommerce | Online stores and marketplaces | listings ; orders ; payments | shipping ; promotions ; analytics
+B | Open your shop | set up a store or seller account | account ; policies ; payments ; verification | Set up your seller profile | online-store, marketplace-selling, @tool | 1
+B | List products that sell | create great listings | titles ; photos ; prices ; variants | List five products | online-store, product-photography, @tool | 1.5
+I | Orders, delivery and returns | fulfil orders reliably | order flow ; shipping options ; returns ; customer messages | Process a test order end to end | online-store, customer-support, @tool | 1.5
+I | Promote | bring buyers to your listings | promotions ; SEO for listings ; ads ; reviews | Run one promotion | seo, online-ads, @tool | 1.5
+E | Grow with data | use sales data to grow | analytics ; inventory sync ; integrations ; fees review | Review margins after fees and adjust prices | kpi-tracking, inventory-procurement, @tool | 2
+tools: amazon-seller-central, ebay, etsy, facebook-marketplace, jiji, jumia, redbubble, shopify, woocommerce, framer, google-sites, amazon-kdp, reedsy
+
+=archetype productivity-app | Everyday productivity apps (mail, calendar, files, PDFs, forms, notes) | setup ; daily use ; sharing | automation ; organisation systems ; security
+B | Set up and sync | set up {tool} on your devices | account ; sync ; mobile app ; settings | Install {tool} on phone and computer | @tool | 0.5
+B | Daily use | do your daily tasks faster | core actions ; shortcuts ; search | Use {tool} for a week and note one saved hour | personal-productivity, @tool | 0.5
+I | Organise | build a simple system | folders/labels/tags ; templates ; naming conventions | Reorganise your {tool} with a clear system | personal-productivity, records-management, @tool | 1
+I | Share safely | collaborate without oversharing | sharing permissions ; links ; version history | Audit your shared items | files-cloud-storage, online-safety, @tool | 0.5
+E | Automate | let {tool} work for you | rules ; integrations ; scheduled tasks | Create two automation rules | automation-workflows, @tool | 1
+tools: adobe-acrobat, adobe-scan, docusign, dropbox, gmail, google-calendar, google-drive, google-forms, ilovepdf, microsoft-forms, microsoft-onedrive, microsoft-outlook, microsoft-to-do, otter-ai, pdf24, smallpdf, todoist, typeform, google-chrome, microsoft-edge, firefox, think-cell, cozi, google-keep
+
+=archetype diagram-tool | Diagramming and whiteboard tools | shapes and connectors ; templates ; export | diagrams as code ; libraries ; collaboration
+B | First diagram | draw a clear diagram | shapes ; connectors ; alignment ; text | Draw your team's process | diagramming, process-mapping, @tool | 0.5
+B | Use templates | start from proven templates | flowcharts ; org charts ; architecture ; swimlanes | Recreate a process with a swimlane template | process-mapping, @tool | 0.5
+I | Standards and notation | draw diagrams others understand | BPMN basics ; legends ; layers | Redraw a process in BPMN style | process-mapping, @tool | 1.5
+I | Collaborate | build diagrams with others | comments ; real-time editing ; versioning | Co-create a diagram in a meeting | workshop-facilitation, @tool | 1
+E | Diagrams at scale | keep diagrams accurate over time | libraries ; data-linked shapes ; diagrams as code | Link a diagram to data or code | diagramming, @tool | 2
+tools: draw-io, excalidraw, lucidchart, microsoft-visio
+
+=archetype writing-tool | Writing, editing and publishing tools | drafting ; editing ; publishing | style guides ; long-form structure ; automation
+B | Draft and organise | draft efficiently in {tool} | structure ; outlining ; distraction-free writing | Draft a 500-word piece | write-clearly, @tool | 1
+B | Edit for clarity | improve clarity and correctness | grammar ; readability ; tone | Edit your draft using {tool}'s suggestions critically | write-clearly, @tool | 0.5
+I | Long-form and formatting | manage long documents | sections ; references ; templates ; exports | Format a long document for publication | academic-writing, book-writing-publishing, technical-writing, @tool | 2
+I | Style and voice | keep a consistent voice | style rules ; custom dictionaries ; terminology | Create a mini style guide | technical-writing, copywriting, @tool | 1
+E | Publish and collaborate | publish and work with editors | collaboration ; version control ; publishing pipelines | Publish a piece with an editor's review | newsletter-publishing, @tool | 2
+tools: gitbook, grammarly, hemingway-editor, languagetool, overleaf, scrivener, vale
+
+=archetype gis-earth | GIS, satellite and earth-observation tools | layers ; imagery ; measurement | analysis ; time series ; automation
+B | Open and explore | explore places and layers | navigation ; layers ; measuring ; coordinates | Explore and measure an area you know | gis-mapping, @tool | 0.5
+B | Imagery basics | read satellite and aerial imagery | bands ; true/false colour ; dates ; clouds | Compare two dates over the same area | crop-monitoring, environmental-monitoring, @tool | 1
+I | Analyse change | detect and quantify change | indices (e.g. NDVI) ; time series ; thresholds | Measure vegetation change over a season | crop-monitoring, environmental-monitoring, @tool | 2
+I | Share maps | communicate spatial findings | exports ; story maps ; KML/GeoJSON | Share a map with notes | gis-mapping, @tool | 1
+E | Scale and automate | analyse large areas reliably | scripting ; batch processing ; validation with ground truth | Automate a monthly analysis | scientific-computing, @tool | 4
+tools: google-earth-engine, google-earth-pro, sentinel-hub, eos-crop-monitoring, climate-fieldview, global-forest-watch, pix4d, agisoft-metashape
+
+=archetype field-app | Field, farm and community apps | setup ; recording in the field ; syncing | reports ; sharing with partners ; data quality
+B | Set up for your situation | configure {tool} for your farm, site or community | profile ; locations ; units ; offline settings | Set up your locations and units | @tool | 0.5
+B | Record in the field | record quickly and accurately | photos ; GPS ; observations ; offline use | Record five observations in the field | @tool | 0.5
+I | Use the insights | turn records into decisions | reports ; alerts ; recommendations | Act on one insight from {tool} | @tool | 1
+I | Share and collaborate | share data with your team or advisers | sharing ; exports ; permissions | Share a report with an adviser or buyer | @tool | 0.5
+E | Data you can trust | keep good records over seasons | consistency ; backups ; comparing seasons | Compare this season with last | farm-records, @tool | 1.5
+tools: agrivi, agriwebb, cattlemax, farmbrite, herdwatch, esoko, plantix, plantnet, picturethis, inaturalist, ebird, apicbase, meez, meteoblue, windy, carly, obd-auto-doctor, torque-pro, ifixit
+
+=archetype navigation-travel | Navigation, aviation, maritime and travel apps | routes ; live information ; saving | planning tools ; offline use ; safety features
+B | Find and save places | find places and save them | search ; saved lists ; sharing locations | Save your ten most-used places | maps-navigation, travel-planning, @tool | 0.5
+B | Plan a route | plan a journey or flight/passage | routes ; timing ; alternatives ; weather | Plan one real journey | maps-navigation, flight-planning, maritime-navigation, @tool | 1
+I | Live information | use live data safely | traffic/AIS/flight data ; alerts ; limitations | Monitor a live journey or vessel/flight | shipment-tracking, @tool | 0.5
+I | Offline and safety | stay safe without signal | offline maps/charts ; emergency features ; sharing ETA | Prepare an offline pack for a trip | maps-navigation, @tool | 0.5
+E | Professional planning | plan professionally with {tool} | briefings ; logs ; regulations ; data accuracy | Produce a full plan or briefing | flight-planning, maritime-navigation, route-planning-fleet, @tool | 2
+tools: flightradar24, foreflight, garmin-pilot, google-maps, marinetraffic, navionics, opencpn, openstreetmap, skydemon, skyscanner, tripit, wanderlog, what3words
+
+=archetype health-wellbeing-app | Health, fitness and wellbeing apps | setup ; daily tracking ; privacy | trends ; goals ; sharing with professionals
+B | Set up with privacy in mind | set up {tool} and control your data | profile ; permissions ; privacy settings | Review and tighten privacy settings | personal-health-tracking, online-safety, @tool | 0.5
+B | Daily habit | use {tool} daily without effort | logging ; reminders ; widgets | Use {tool} daily for a week | personal-health-tracking, mindfulness-wellbeing, @tool | 0.5
+I | Read your trends | understand what the data says | trends ; averages ; limits of the data | Review a month of data and set one goal | training-load, nutrition-planning, @tool | 1
+I | Share with a professional | share useful summaries | exports ; reports ; consent | Prepare a summary for a coach or clinician | online-coaching, care-coordination, @tool | 0.5
+E | Coach others | use {tool} to support clients or family | client accounts ; group features ; safeguarding | Set up {tool} for a client or family member | online-coaching, care-coordination, @tool | 1
+tools: apple-health, calm, cronometer, headspace, insight-timer, medisafe, myfitnesspal, nutritics, lotsa-helping-hands, findhelp
+
+=archetype sports-tool | Sports video, team and performance tools | setup ; recording ; tagging/organising | analysis ; reports ; data integration
+B | Set up your team | set up teams, athletes and seasons | rosters ; roles ; privacy for minors | Set up your squad | team-organisation, @tool | 0.5
+B | Capture | record or import sessions and matches | recording ; uploading ; organising | Upload and organise one match or session | match-video-analysis, @tool | 1
+I | Tag and analyse | turn footage or data into insight | tagging ; clips ; stats ; comparisons | Tag one match and build a clip reel | match-video-analysis, sports-analytics, @tool | 2
+I | Feedback to athletes | give feedback athletes use | playlists ; annotations ; individual reports | Send three athletes their clips with notes | online-coaching, @tool | 1
+E | Season-long insight | track development over a season | trends ; benchmarks ; recruitment use | Produce a season review | sports-analytics, @tool | 2
+tools: dartfish, heja, hudl, kinovea, spond, teamsnap, wyscout
+
+=archetype family-safety | Family, parental and household apps | setup ; daily use ; sharing | rules and limits ; conversations ; review
+B | Set up for your family | set up {tool} for your household | accounts ; devices ; children's profiles | Set up {tool} for one child or family member | kids-online-safety, family-organisation, @tool | 0.5
+B | Daily rhythm | use {tool} in daily family life | shared calendars and lists; screen-time settings; family routines | Agree one family routine in {tool} | family-organisation, @tool | 0.5
+I | Rules and limits | set healthy boundaries | content filters ; limits ; location sharing (with consent) | Agree and set three rules together | kids-online-safety, @tool | 0.5
+I | Talk about it | build trust, not just controls | age-appropriate conversations ; reporting problems | Have one conversation about online safety | kids-online-safety, @tool | 0.5
+E | Review and adapt | adjust as children grow | reviewing reports ; loosening limits ; teen independence | Review settings every term | kids-online-safety, @tool | 0.5
+tools: apple-screen-time, google-family-link, microsoft-family-safety
+
+=archetype events-donations | Fundraising and events platforms | setup ; pages ; communications | reporting ; donor/attendee data ; compliance
+B | Create a page | set up an event or fundraising page | story ; goals ; images ; payment setup | Publish a draft page | fundraising, events-management, @tool | 1
+B | Share it | reach supporters or attendees | sharing ; email ; social ; updates | Share and post one update | fundraising, social-media-presence, @tool | 0.5
+I | Manage people | handle registrations or donors | lists ; receipts ; check-in ; thank-yous | Send thank-you messages | fundraising, events-management, @tool | 1
+I | Report transparently | report results honestly | totals ; fees ; payouts ; reports | Produce a results report | fundraising, @tool | 1
+E | Grow repeat support | build long-term support | recurring giving ; follow-ups ; data privacy | Plan a follow-up campaign | fundraising, email-marketing, @tool | 1.5
+tools: donorbox, gofundme, eventbrite, luma
+
+=archetype marketplace-consumer | Everyday consumer services and platforms | account ; core use ; safety | power-user features ; disputes ; earnings or savings tracking
+B | Set up safely | create your account securely | verification ; privacy ; payment methods | Set up and secure your account | online-safety, @tool | 0.5
+B | Core use | use {tool} for its main purpose | main features ; notifications ; ratings | Complete one real transaction or task | @tool | 0.5
+I | Get more value | use features most people miss | settings ; filters ; saved items ; offers | Try three features you've never used | @tool | 0.5
+I | Resolve problems | handle issues and disputes | support ; refunds ; reporting | Find the support and dispute process | customer-support, @tool | 0.5
+E | Track and teach | track value and help others use it | records ; earnings/spend tracking ; helping family | Help one person get started with {tool} | digital-basics, @tool | 0.5
+tools: google-lens
+
+=archetype music-release | Music distribution and artist platforms | release setup ; metadata and artwork ; reading stats | release strategy ; rights, splits and royalties
+B | Prepare a release | get a song ready for stores | final mastered file ; cover art specs ; song and artist metadata ; release date | Prepare one finished song with artwork and correct metadata | release-music, @tool | 1
+B | Your artist profile | look professional where fans find you | profile photo and bio ; links ; verification | Complete your artist profile and link your socials | artist-profiles, social-media-presence, @tool | 1
+I | Read your numbers | understand who listens and where | streams and listeners ; locations ; playlists and sources ; saves | Write three decisions from last month's stats | artist-profiles, kpi-tracking, @tool | 1.5
+I | Get paid properly | make sure every earning reaches you | payout methods ; splits with collaborators ; ISRC and UPC codes ; tax details | Set up payouts and a split with one collaborator | release-music, creator-income, @tool | 1.5
+E | Plan a release campaign | turn a release into growth | pre-release pitching ; pre-save links ; content plan ; release-week checklist | Run a 4-week campaign for your next single | release-music, artist-profiles, content-planning, @tool | 4
+tools: distrokid, tunecore, spotify-for-artists, audiomack

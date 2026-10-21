@@ -1,0 +1,246 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_microsoft_visio",
+ "slug": "microsoft-visio",
+ "title": "Microsoft Visio skill roadmap",
+ "tool_ids": [
+  "tool_microsoft_visio"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_microsoft_visio_diagram_tool_0",
+    "slug": "microsoft-visio-diagram-tool-0",
+    "title": "Get started with Microsoft Visio",
+    "outcome": "You can: set up Microsoft Visio, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "process-mapping",
+     "lean-six-sigma"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_microsoft_visio_diagram_tool_1",
+    "slug": "microsoft-visio-diagram-tool-1",
+    "title": "First diagram",
+    "outcome": "You can: draw a clear diagram",
+    "topics": [
+     "shapes",
+     "connectors",
+     "alignment",
+     "text"
+    ],
+    "practice": "Draw your team's process",
+    "need_tags": [
+     "diagramming",
+     "process-mapping",
+     "lean-six-sigma"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_microsoft_visio_diagram_tool_2",
+    "slug": "microsoft-visio-diagram-tool-2",
+    "title": "Use templates",
+    "outcome": "You can: start from proven templates",
+    "topics": [
+     "flowcharts",
+     "org charts",
+     "architecture",
+     "swimlanes"
+    ],
+    "practice": "Recreate a process with a swimlane template",
+    "need_tags": [
+     "process-mapping",
+     "lean-six-sigma"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_microsoft_visio_diagram_tool_3",
+    "slug": "microsoft-visio-diagram-tool-3",
+    "title": "Standards and notation",
+    "outcome": "You can: draw diagrams others understand",
+    "topics": [
+     "BPMN basics",
+     "legends",
+     "layers"
+    ],
+    "practice": "Redraw a process in BPMN style",
+    "need_tags": [
+     "process-mapping",
+     "lean-six-sigma"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_microsoft_visio_diagram_tool_4",
+    "slug": "microsoft-visio-diagram-tool-4",
+    "title": "Collaborate",
+    "outcome": "You can: build diagrams with others",
+    "topics": [
+     "comments",
+     "real-time editing",
+     "versioning"
+    ],
+    "practice": "Co-create a diagram in a meeting",
+    "need_tags": [
+     "workshop-facilitation",
+     "process-mapping",
+     "lean-six-sigma"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_microsoft_visio_diagram_tool_8",
+    "slug": "microsoft-visio-diagram-tool-8",
+    "title": "Signature skills in Microsoft Visio",
+    "outcome": "You can: use the features that make Microsoft Visio distinctive",
+    "topics": [
+     "stencils",
+     "flowcharts",
+     "org charts",
+     "swimlanes"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "process-mapping",
+     "lean-six-sigma"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_microsoft_visio_diagram_tool_9",
+    "slug": "microsoft-visio-diagram-tool-9",
+    "title": "Advanced Microsoft Visio",
+    "outcome": "You can: use Microsoft Visio's advanced capabilities with confidence",
+    "topics": [
+     "data-linked diagrams",
+     "validation rules",
+     "Power Automate export"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "process-mapping",
+     "lean-six-sigma"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_microsoft_visio_diagram_tool_5",
+    "slug": "microsoft-visio-diagram-tool-5",
+    "title": "Diagrams at scale",
+    "outcome": "You can: keep diagrams accurate over time",
+    "topics": [
+     "libraries",
+     "data-linked shapes",
+     "diagrams as code"
+    ],
+    "practice": "Link a diagram to data or code",
+    "need_tags": [
+     "diagramming",
+     "process-mapping",
+     "lean-six-sigma"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_microsoft_visio_diagram_tool_10",
+    "slug": "microsoft-visio-diagram-tool-10",
+    "title": "Integrate Microsoft Visio into your workflow",
+    "outcome": "You can: connect Microsoft Visio with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Microsoft Visio to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "process-mapping",
+     "lean-six-sigma"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_microsoft_visio_diagram_tool_11",
+    "slug": "microsoft-visio-diagram-tool-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Microsoft Visio well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Microsoft Visio\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "process-mapping",
+     "lean-six-sigma"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "diagram-tool",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

@@ -1,0 +1,248 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_google_earth_pro",
+ "slug": "google-earth-pro",
+ "title": "Google Earth Pro skill roadmap",
+ "tool_ids": [
+  "tool_google_earth_pro"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_google_earth_pro_gis_earth_0",
+    "slug": "google-earth-pro-gis-earth-0",
+    "title": "Get started with Google Earth Pro",
+    "outcome": "You can: set up Google Earth Pro, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "gis-mapping",
+     "osint-research"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_google_earth_pro_gis_earth_1",
+    "slug": "google-earth-pro-gis-earth-1",
+    "title": "Open and explore",
+    "outcome": "You can: explore places and layers",
+    "topics": [
+     "navigation",
+     "layers",
+     "measuring",
+     "coordinates"
+    ],
+    "practice": "Explore and measure an area you know",
+    "need_tags": [
+     "gis-mapping",
+     "osint-research"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_google_earth_pro_gis_earth_2",
+    "slug": "google-earth-pro-gis-earth-2",
+    "title": "Imagery basics",
+    "outcome": "You can: read satellite and aerial imagery",
+    "topics": [
+     "bands",
+     "true/false colour",
+     "dates",
+     "clouds"
+    ],
+    "practice": "Compare two dates over the same area",
+    "need_tags": [
+     "crop-monitoring",
+     "environmental-monitoring",
+     "gis-mapping",
+     "osint-research"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_google_earth_pro_gis_earth_3",
+    "slug": "google-earth-pro-gis-earth-3",
+    "title": "Analyse change",
+    "outcome": "You can: detect and quantify change",
+    "topics": [
+     "indices (e.g. NDVI)",
+     "time series",
+     "thresholds"
+    ],
+    "practice": "Measure vegetation change over a season",
+    "need_tags": [
+     "crop-monitoring",
+     "environmental-monitoring",
+     "gis-mapping",
+     "osint-research"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_google_earth_pro_gis_earth_4",
+    "slug": "google-earth-pro-gis-earth-4",
+    "title": "Share maps",
+    "outcome": "You can: communicate spatial findings",
+    "topics": [
+     "exports",
+     "story maps",
+     "KML/GeoJSON"
+    ],
+    "practice": "Share a map with notes",
+    "need_tags": [
+     "gis-mapping",
+     "osint-research"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_google_earth_pro_gis_earth_8",
+    "slug": "google-earth-pro-gis-earth-8",
+    "title": "Signature skills in Google Earth Pro",
+    "outcome": "You can: use the features that make Google Earth Pro distinctive",
+    "topics": [
+     "placemarks and paths",
+     "measuring",
+     "historical imagery",
+     "KML"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "gis-mapping",
+     "osint-research"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_google_earth_pro_gis_earth_9",
+    "slug": "google-earth-pro-gis-earth-9",
+    "title": "Advanced Google Earth Pro",
+    "outcome": "You can: use Google Earth Pro's advanced capabilities with confidence",
+    "topics": [
+     "importing GIS data",
+     "movie maker",
+     "elevation profiles"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "gis-mapping",
+     "osint-research"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_google_earth_pro_gis_earth_5",
+    "slug": "google-earth-pro-gis-earth-5",
+    "title": "Scale and automate",
+    "outcome": "You can: analyse large areas reliably",
+    "topics": [
+     "scripting",
+     "batch processing",
+     "validation with ground truth"
+    ],
+    "practice": "Automate a monthly analysis",
+    "need_tags": [
+     "scientific-computing",
+     "gis-mapping",
+     "osint-research"
+    ],
+    "estimated_hours": {
+     "value": 4.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_google_earth_pro_gis_earth_10",
+    "slug": "google-earth-pro-gis-earth-10",
+    "title": "Integrate Google Earth Pro into your workflow",
+    "outcome": "You can: connect Google Earth Pro with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Google Earth Pro to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "gis-mapping",
+     "osint-research"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_google_earth_pro_gis_earth_11",
+    "slug": "google-earth-pro-gis-earth-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Google Earth Pro well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Google Earth Pro\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "gis-mapping",
+     "osint-research"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "gis-earth",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

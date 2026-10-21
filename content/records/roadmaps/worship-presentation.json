@@ -1,0 +1,89 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_worship_presentation",
+ "slug": "worship-presentation",
+ "title": "Worship presentation (ProPresenter, EasyWorship, OpenLP, FreeShow)",
+ "tool_ids": [
+  "tool_propresenter",
+  "tool_easyworship",
+  "tool_openlp",
+  "tool_freeshow"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_ws_lyrics",
+    "slug": "ws-lyrics",
+    "title": "Lyrics and scripture on screen",
+    "outcome": "You can: run slides for a service",
+    "topics": [
+     "songs library",
+     "scripture lookup",
+     "themes",
+     "going live"
+    ],
+    "practice": "Prepare slides for a full order of service",
+    "need_tags": [
+     "worship-presentation"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_ws_media",
+    "slug": "ws-media",
+    "title": "Media, announcements and stage display",
+    "outcome": "You can: run media smoothly",
+    "topics": [
+     "videos",
+     "announcements loops",
+     "stage display",
+     "confidence monitors"
+    ],
+    "practice": "Build an announcements loop with a countdown",
+    "need_tags": [
+     "worship-presentation",
+     "service-livestream"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_ws_integrate",
+    "slug": "ws-integrate",
+    "title": "Integrate with livestream and lighting",
+    "outcome": "You can: run a coordinated production",
+    "topics": [
+     "NDI/output to stream",
+     "keys/lower thirds",
+     "volunteer handbook"
+    ],
+    "practice": "Send lower-third lyrics to your livestream",
+    "need_tags": [
+     "service-livestream",
+     "worship-presentation"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false
+}

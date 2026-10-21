@@ -1,0 +1,363 @@
+{
+  "vocabulary": "category",
+  "version": "2.0.0",
+  "visibility_rule": "A category is listed in public navigation only when it has at least 3 published records (D-035). Direct URLs to hidden categories return a 'coming soon' page with noindex.",
+  "values": [
+    {
+      "id": "cat_ai_assistants",
+      "slug": "ai-assistants",
+      "label": "AI assistants and intelligent tools",
+      "description": "Tools where AI is the main way you get work done: chat assistants, AI writing, image and audio generation.",
+      "aliases": [
+        "ai",
+        "artificial intelligence",
+        "chatbot",
+        "genai"
+      ],
+      "icon": "sparkles",
+      "hue": "violet",
+      "editor_selectable": true,
+      "visitor_visible": true,
+      "retire_rule": "Never delete; set retired=true, add redirect to replacement category slug."
+    },
+    {
+      "id": "cat_design",
+      "slug": "design",
+      "label": "Graphic design and visual communication",
+      "description": "Create graphics, posters, social images, logos and other visual material.",
+      "aliases": [
+        "graphics",
+        "graphic design",
+        "visual",
+        "poster",
+        "flyer"
+      ],
+      "icon": "palette",
+      "hue": "teal",
+      "editor_selectable": true,
+      "visitor_visible": true,
+      "retire_rule": "Never delete; set retired=true, add redirect to replacement category slug."
+    },
+    {
+      "id": "cat_video",
+      "slug": "video",
+      "label": "Video production and editing",
+      "description": "Record, edit, caption and publish video.",
+      "aliases": [
+        "video editing",
+        "film",
+        "clip",
+        "movie",
+        "vlog"
+      ],
+      "icon": "clapperboard",
+      "hue": "coral",
+      "editor_selectable": true,
+      "visitor_visible": true,
+      "retire_rule": "Never delete; set retired=true, add redirect to replacement category slug."
+    },
+    {
+      "id": "cat_audio",
+      "slug": "audio",
+      "label": "Audio, voice and music",
+      "description": "Record, edit and produce audio, podcasts, voice and music.",
+      "aliases": [
+        "podcast",
+        "sound",
+        "music",
+        "voice"
+      ],
+      "icon": "audio-lines",
+      "hue": "amber",
+      "editor_selectable": true,
+      "visitor_visible": true,
+      "retire_rule": "Never delete; set retired=true, add redirect to replacement category slug."
+    },
+    {
+      "id": "cat_writing",
+      "slug": "writing",
+      "label": "Writing and publishing",
+      "description": "Draft, edit, proofread and publish written work.",
+      "aliases": [
+        "write",
+        "text",
+        "blog",
+        "publishing",
+        "proofread"
+      ],
+      "icon": "pen-line",
+      "hue": "blue",
+      "editor_selectable": true,
+      "visitor_visible": true,
+      "retire_rule": "Never delete; set retired=true, add redirect to replacement category slug."
+    },
+    {
+      "id": "cat_research",
+      "slug": "research",
+      "label": "Research and information discovery",
+      "description": "Find credible sources, read and organise references, and check claims.",
+      "aliases": [
+        "sources",
+        "academic",
+        "citations",
+        "literature",
+        "references"
+      ],
+      "icon": "search",
+      "hue": "green",
+      "editor_selectable": true,
+      "visitor_visible": true,
+      "retire_rule": "Never delete; set retired=true, add redirect to replacement category slug."
+    },
+    {
+      "id": "cat_productivity",
+      "slug": "productivity",
+      "label": "Office productivity and documents",
+      "description": "Documents, spreadsheets, presentations, notes and everyday office work.",
+      "aliases": [
+        "office",
+        "documents",
+        "presentations",
+        "notes"
+      ],
+      "icon": "file-text",
+      "hue": "pink",
+      "editor_selectable": true,
+      "visitor_visible": true,
+      "retire_rule": "Never delete; set retired=true, add redirect to replacement category slug."
+    },
+    {
+      "id": "cat_data",
+      "slug": "data",
+      "label": "Data, analytics and visualisation",
+      "description": "Clean, analyse and visualise data; build charts and dashboards.",
+      "aliases": [
+        "analytics",
+        "spreadsheet",
+        "charts",
+        "dashboard",
+        "statistics",
+        "visualization"
+      ],
+      "icon": "chart-column",
+      "hue": "slate",
+      "editor_selectable": true,
+      "visitor_visible": true,
+      "retire_rule": "Never delete; set retired=true, add redirect to replacement category slug."
+    },
+    {
+      "id": "cat_development",
+      "slug": "development",
+      "label": "Coding and software development",
+      "description": "Write, test and ship software; learn to code.",
+      "aliases": [
+        "coding",
+        "programming",
+        "software",
+        "developer",
+        "code"
+      ],
+      "icon": "code",
+      "hue": "violet",
+      "editor_selectable": true,
+      "visitor_visible": true,
+      "retire_rule": "Never delete; set retired=true, add redirect to replacement category slug."
+    },
+    {
+      "id": "cat_websites",
+      "slug": "websites",
+      "label": "Websites, ecommerce and digital presence",
+      "description": "Build websites and online shops and manage your presence online.",
+      "aliases": [
+        "website",
+        "web site",
+        "ecommerce",
+        "online store",
+        "site builder"
+      ],
+      "icon": "globe",
+      "hue": "teal",
+      "editor_selectable": true,
+      "visitor_visible": true,
+      "retire_rule": "Never delete; set retired=true, add redirect to replacement category slug."
+    },
+    {
+      "id": "cat_marketing",
+      "slug": "marketing",
+      "label": "Marketing, sales and customer acquisition",
+      "description": "Reach and win customers: social media, email, ads and sales.",
+      "aliases": [
+        "sales",
+        "social media",
+        "advertising",
+        "customers",
+        "email marketing"
+      ],
+      "icon": "megaphone",
+      "hue": "coral",
+      "editor_selectable": true,
+      "visitor_visible": true,
+      "retire_rule": "Never delete; set retired=true, add redirect to replacement category slug."
+    },
+    {
+      "id": "cat_business_operations",
+      "slug": "business-operations",
+      "label": "Business operations and management",
+      "description": "Run a business: bookkeeping, invoicing, scheduling, inventory and HR.",
+      "aliases": [
+        "operations",
+        "management",
+        "invoicing",
+        "bookkeeping",
+        "small business"
+      ],
+      "icon": "briefcase",
+      "hue": "amber",
+      "editor_selectable": true,
+      "visitor_visible": true,
+      "retire_rule": "Never delete; set retired=true, add redirect to replacement category slug."
+    },
+    {
+      "id": "cat_education",
+      "slug": "education",
+      "label": "Education and personal development",
+      "description": "Learn new skills, teach others and build learning materials.",
+      "aliases": [
+        "learning",
+        "courses",
+        "teaching",
+        "study",
+        "e-learning"
+      ],
+      "icon": "graduation-cap",
+      "hue": "blue",
+      "editor_selectable": true,
+      "visitor_visible": true,
+      "retire_rule": "Never delete; set retired=true, add redirect to replacement category slug."
+    },
+    {
+      "id": "cat_career",
+      "slug": "career",
+      "label": "Career development and employment",
+      "description": "Find work, write CVs, prepare for interviews and build a portfolio.",
+      "aliases": [
+        "jobs",
+        "cv",
+        "resume",
+        "interview",
+        "portfolio"
+      ],
+      "icon": "badge-check",
+      "hue": "green",
+      "editor_selectable": true,
+      "visitor_visible": true,
+      "retire_rule": "Never delete; set retired=true, add redirect to replacement category slug."
+    },
+    {
+      "id": "cat_collaboration",
+      "slug": "collaboration",
+      "label": "Collaboration and communication",
+      "description": "Work together: messaging, meetings, shared documents and project management.",
+      "aliases": [
+        "communication",
+        "meetings",
+        "teamwork",
+        "project management",
+        "messaging"
+      ],
+      "icon": "users",
+      "hue": "pink",
+      "editor_selectable": true,
+      "visitor_visible": true,
+      "retire_rule": "Never delete; set retired=true, add redirect to replacement category slug."
+    },
+    {
+      "id": "cat_automation",
+      "slug": "automation",
+      "label": "Automation and integration",
+      "description": "Connect apps and automate repetitive work, with or without code.",
+      "aliases": [
+        "automate",
+        "workflow automation",
+        "no-code",
+        "low-code",
+        "integration",
+        "zap"
+      ],
+      "icon": "workflow",
+      "hue": "slate",
+      "editor_selectable": true,
+      "visitor_visible": true,
+      "retire_rule": "Never delete; set retired=true, add redirect to replacement category slug."
+    },
+    {
+      "id": "cat_security_privacy_accessibility",
+      "slug": "security-privacy-accessibility",
+      "label": "Digital security, privacy and accessibility",
+      "description": "Protect accounts and data and make content accessible to everyone.",
+      "aliases": [
+        "security",
+        "privacy",
+        "passwords",
+        "accessibility",
+        "a11y"
+      ],
+      "icon": "shield-check",
+      "hue": "violet",
+      "editor_selectable": true,
+      "visitor_visible": true,
+      "retire_rule": "Never delete; set retired=true, add redirect to replacement category slug."
+    },
+    {
+      "id": "cat_everyday",
+      "slug": "everyday",
+      "label": "Everyday digital life",
+      "description": "Useful tools for personal life: money, travel, health admin, family and home.",
+      "aliases": [
+        "personal",
+        "daily life",
+        "home"
+      ],
+      "icon": "house",
+      "hue": "teal",
+      "editor_selectable": true,
+      "visitor_visible": true,
+      "retire_rule": "Never delete; set retired=true, add redirect to replacement category slug."
+    },
+    {
+      "id": "cat_industry",
+      "slug": "industry",
+      "label": "Industry-specific technology",
+      "description": "Tools built for particular sectors such as agriculture, retail or healthcare administration.",
+      "aliases": [
+        "sector",
+        "agriculture",
+        "farming",
+        "retail"
+      ],
+      "icon": "factory",
+      "hue": "coral",
+      "editor_selectable": true,
+      "visitor_visible": true,
+      "retire_rule": "Never delete; set retired=true, add redirect to replacement category slug."
+    },
+    {
+      "id": "cat_emerging",
+      "slug": "emerging",
+      "label": "Emerging technologies",
+      "description": "New and fast-changing areas worth understanding, labelled clearly as emerging.",
+      "aliases": [
+        "new tech",
+        "web3",
+        "ar",
+        "vr",
+        "iot"
+      ],
+      "icon": "rocket",
+      "hue": "amber",
+      "editor_selectable": true,
+      "visitor_visible": true,
+      "retire_rule": "Never delete; set retired=true, add redirect to replacement category slug."
+    }
+  ]
+}

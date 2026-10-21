@@ -1,0 +1,101 @@
+{
+ "schema_version": "2.1",
+ "id": "lens_translation__patient_education",
+ "roadmap_id": "rm_translation",
+ "roadmap": "translation",
+ "need_id": "need_patient_education",
+ "need": "patient-education",
+ "title": "Translation tools in healthcare",
+ "kind": "flagship",
+ "for_identities": [
+  "medical-doctor",
+  "nurse",
+  "midwife",
+  "pharmacist",
+  "community-health-worker",
+  "paramedic",
+  "health-promotion-specialist",
+  "humanitarian-worker"
+ ],
+ "why": "Language barriers cause harm. Translation tools help with simple communication and draft materials when no interpreter is immediately available.",
+ "what_is_different": "For consent, diagnosis and complex instructions, a qualified interpreter is the standard. Machine translation is for simple, low-risk communication and for drafts that a native speaker reviews.",
+ "priority_modules": [
+  "tr-quality",
+  "tr-voice",
+  "tr-docs",
+  "tr-camera",
+  "tr-text"
+ ],
+ "extra_modules": [
+  {
+   "level": "beginner",
+   "title": "Safe use in clinical settings",
+   "outcome": "You can: know when machine translation is and isn't acceptable",
+   "topics": [
+    "low-risk vs high-risk communication",
+    "interpreter services",
+    "teach-back",
+    "documenting language support"
+   ],
+   "practice": "List five situations in your work and decide tool vs interpreter for each"
+  }
+ ],
+ "starter_project": "Create a reviewed bilingual phrase sheet for common, low-risk interactions in your setting, plus a clear rule for when to call an interpreter.",
+ "pitfalls": [
+  "Using machine translation for consent",
+  "No back-translation check",
+  "Assuming a dialect is supported"
+ ],
+ "pairs_with": [
+  "tool_canva",
+  "tool_microsoft_word"
+ ],
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false,
+ "composed_path": {
+  "beginner": [
+   {
+    "extra": "Safe use in clinical settings",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "module": "tr-voice",
+    "relevance": "core",
+    "rank": 1
+   },
+   {
+    "module": "tr-camera",
+    "relevance": "core",
+    "rank": 3
+   },
+   {
+    "module": "tr-text",
+    "relevance": "core",
+    "rank": 4
+   }
+  ],
+  "intermediate": [
+   {
+    "module": "tr-quality",
+    "relevance": "core",
+    "rank": 0
+   },
+   {
+    "module": "tr-docs",
+    "relevance": "core",
+    "rank": 2
+   }
+  ],
+  "expert": [
+   {
+    "module": "tr-workflow",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ]
+ }
+}

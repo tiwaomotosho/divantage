@@ -1,0 +1,133 @@
+test_id,requirement_refs,scenario,method,expected_result,priority,release_gate,status
+TC-001,FR-001; V2 J1; V1 checklist 'purpose clear',"Home renders hero, search, chips, audience cards, categories, trust strip; no popularity claims",E2E + manual,"At 360x640: H1, search field and ≥2 chips visible; no 'Popular' text anywhere",P1,Soft launch,Not run
+TC-002,D-002,Home copy matches approved text exactly,Unit (snapshot of copy),Headline/supporting/prompt/examples identical to D-002,P1,Soft launch,Not run
+TC-003,FR-002; FR-006,"Search finds tools, tasks, playbooks, resources, comparisons without AI",E2E,Each type appears for a query that matches it,P1,Soft launch,Not run
+TC-004,V1 test 1; FR-038; FR-039,Search 'edit videos for free' never labels paid/trial/unknown as Free,E2E,First result can be started without paying; badges match records; no 'Free' badge on freemium/unknown,P1,Soft launch,Not run
+TC-005,V1 test 2; FR-005,No exact match → useful zero-result state,E2E,"'remove image background' shows zero-result panel with categories, remove-filters (if any), suggest link",P1,Soft launch,Not run
+TC-006,V1 test 3; FR-037,Platform filter Android = verified only; toggle includes unconfirmed with label,E2E,"Zotero shown; Canva (unverified) hidden until toggle, then labelled 'Platform not confirmed'",P1,Soft launch,Not run
+TC-007,FR-004,Search URL state round-trip,E2E,"Reload and Back/Forward restore query, filters, tab, page",P1,Soft launch,Not run
+TC-008,search-config facet_logic,"Filter logic OR within facet, AND across",Unit,Expected sets for fixture combinations,P1,Soft launch,Not run
+TC-009,Gap §8.4,Clear single filter and Clear all,E2E,Chips removable; counts update; announcement fires,P1,Soft launch,Not run
+TC-010,Gap §8.5; search quality_gate,Search test set threshold,Automated (Node),≥90% expected-in-top-3; 100% exact-first; none-queries zero; must_not_rank_first_as_free holds,P1,Soft launch,Not run
+TC-011,search-config url_state,Query >120 chars truncated with notice; no error,E2E,Notice visible; results render,P2,Soft launch,Not run
+TC-012,search-config pagination,"Show more appends 20, moves focus to first new result",E2E,Focus on new item; URL page param updated,P2,Public launch,Not run
+TC-013,FR-008; Gap J2,Browse by category without search (S03→S04→S06),E2E,Reach a task from home via category only,P1,Soft launch,Not run
+TC-014,D-035,Categories with <3 published records hidden from nav; direct URL shows noindex coming-soon,Unit + E2E,Hidden category absent from S01/S03; page has noindex,P1,Soft launch,Not run
+TC-015,S05/S06,"Task page shows estimate labelled 'About', steps, checks, tools with pricing badges",E2E,All present; badges equal tool records,P1,Soft launch,Not run
+TC-016,FR-011,Optional sections omitted when empty (no orphan headings),Unit,No heading without content,P2,Soft launch,Not run
+TC-017,S06 checklist,Ticking all quality checks shows success status,E2E,role=status message appears; resets on reload,P2,Public launch,Not run
+TC-018,Static content,Task page readable with JS disabled,E2E (JS off),All text and links present,P1,Soft launch,Not run
+TC-019,FR-009,"Tool page shows official link, use cases, pricing+date, limitations, resources, review date",E2E,All present in V1 03 §5 order,P1,Soft launch,Not run
+TC-020,V1 test 6; FR-011,Unknown pricing never shows a price or 'Free',E2E,Google Scholar shows 'Price not confirmed',P1,Soft launch,Not run
+TC-021,FR-036,Every fact claim has a reachable source link and checked date,Unit (build) + E2E sample,No fact item without superscript; links resolve to sources list,P1,Soft launch,Not run
+TC-022,07 §4,Editorial items labelled 'Our view',Unit,All kind=editorial render label,P1,Soft launch,Not run
+TC-023,V1 test 4; FR-016,Tool page from shared link while logged out works,E2E (fresh context),200; full content; no prompts,P1,Soft launch,Not run
+TC-024,V1 test 5; FR-014; FR-040,Discontinued/archived tool shows notice + alternatives; excluded from related/curation,Unit + E2E (fixture),Notice above fold; not in any related list; ranks last,P1,Soft launch,Not run
+TC-025,FR-041,Overdue >30 days shows 'Review due' notice,Unit (fixture date),Notice present only when overdue >30 days,P2,Public launch,Not run
+TC-026,S13,"Playbook renders steps with expected output, check, fallback; mini-map works",E2E,All fields; mini-map highlights current step,P1,Soft launch,Not run
+TC-027,S13 print,"Print stylesheet hides chrome, shows URLs",Visual snapshot,Matches baseline,P3,Public launch,Not run
+TC-028,S14,Comparison distinguishes fact/editorial/unknown; no winner badge,E2E,Labels present; unknown shows 'Not yet verified',P1,Soft launch,Not run
+TC-029,S14 responsive,Comparison stacks <768 with tool switcher; no page overflow,E2E 360px,scrollWidth == clientWidth,P1,Soft launch,Not run
+TC-030,S01 responsive,Home layout at 320/360/768/1024/1280,Visual regression,Matches baselines both themes,P2,Soft launch,Not run
+TC-031,V1 test 11; NFR-007,"Search index failure → error panel, query kept, retry works",E2E (route blocked),Panel shown; retry succeeds when unblocked,P1,Soft launch,Not run
+TC-032,V1 test 9; FR-027; FR-042,Submit correction without account → confirmation + issue created,E2E (mock GitHub) + staging real,S19 with reference; mock receives escaped body,P1,Soft launch,Not run
+TC-033,12 §2 spam,"Honeypot filled → fake 201, no issue; rate limit 6th request → 429",Integration,As specified,P1,Soft launch,Not run
+TC-034,10 §2,GitHub 5xx → 502 retryable; form keeps data,Integration + E2E,Error message; fields intact,P1,Soft launch,Not run
+TC-035,FR-042,Turnstile blocked → email fallback shown,E2E,Fallback text visible,P2,Soft launch,Not run
+TC-036,13 §1 3.3.1,Form validation errors: inline + summary; focus to summary,E2E keyboard,Focus on summary; links jump to fields,P1,Soft launch,Not run
+TC-037,FR-019; V1 checklist audience,Audience pages never restrict content; search unaffected by visiting them,E2E,Same search results before/after visiting /for/student,P1,Soft launch,Not run
+TC-038,S08,Tools A–Z filter form works without JS,E2E (JS off),Form GET to /search with params,P3,Public launch,Not run
+TC-039,FR-012; S11,"Resource shows type, cost, sign-up; broken link notice + replacement",Unit (fixture) + E2E,Badges present; notice when last_status=not_found x2,P2,Soft launch,Not run
+TC-040,V1 design checklist; 1.4.10,No horizontal overflow at 320–1920 on all templates,E2E sweep,scrollWidth <= clientWidth everywhere,P1,Soft launch,Not run
+TC-041,D-021; FR-043,"Theme: system default, manual persist, no flash",E2E,data-theme set before first paint (no style recalc flash in trace); persists reload,P2,Soft launch,Not run
+TC-042,V1 test 7; NFR-020,Keyboard-only journey: search→filter→open→official link,E2E keyboard,Completes; focus always visible and not obscured,P1,Soft launch,Not run
+TC-043,S16/S17/S21–S23,Policy pages present; S16 includes non-commercial statement; S17 pricing table generated from vocab,Unit,Text present; table rows == vocab values,P1,Public launch,Not run
+TC-044,S24,Unknown path → 404 page with search; redirected path → 301,E2E,Status codes correct,P1,Soft launch,Not run
+TC-045,S25,JS error in search shows error state not blank,E2E (inject error),Error panel visible,P2,Public launch,Not run
+TC-046,V1 test 12,External link failure doesn't break page; link job flags,Integration (link job on fixture),Page renders; PR sets needs_review after 2 failures,P2,Public launch,Not run
+TC-047,NFR-006; 11 §5,Site usable with JS disabled (except search) and with analytics blocked,E2E (JS off; beacon blocked),"Navigation, content, report fallback OK",P1,Soft launch,Not run
+TC-048,V1 test 8; NFR-021,Reduced motion removes non-essential animation,E2E (emulated),No transitions >0ms on hover/focus; motif not animated,P1,Soft launch,Not run
+TC-049,V1 test 10; FR-024,Publishing a record without required sources is blocked,CI (fixtures/invalid),Each invalid fixture fails with EXPECTED message,P1,Soft launch,Not run
+TC-050,14 §3 search latency,Query→render ≤50 ms p95 after load (4x CPU),E2E perf marks,Within budget,P2,Public launch,Not run
+TC-051,NFR-006,Events endpoint failure invisible to user,Integration,204 to client when D1 errors; page unaffected,P2,Soft launch,Not run
+TC-052,10 §1 public-field rule,No private fields or unpublished records in production output,CI scan of dist/,No internal_notes/quote/notes; no draft/in_review ids,P1,Soft launch,Not run
+TC-053,12 §2 CSRF/XSS reports,Corrections endpoint rejects wrong Origin / non-JSON; issue body escaped,Integration,403/415; markdown injection neutralised,P1,Soft launch,Not run
+TC-054,12 §2 XSS content,Record text containing <script> renders inert; lint blocks set:html on record fields,Unit + lint,Escaped output; lint error,P1,Soft launch,Not run
+TC-055,V1 test 14 adjacent; Gap J15,Rollback to previous deployment without content corruption,Manual drill (staging),Previous build live ≤5 min; git revert path documented,P1,Public launch,Not run
+TC-056,NFR-017,No secrets in client bundle or repo,CI (secret scan + bundle grep),Zero findings,P1,Soft launch,Not run
+TC-057,NFR-030,Dependency audit passes (no high/critical runtime vulns),CI,pnpm audit clean or waiver,P1,Soft launch,Not run
+TC-058,12 §4,Correction email redaction job redacts at close / 90 days,Integration (test repo),Email replaced by [redacted],P2,Public launch,Not run
+TC-059,V1 test 14,Slug change → old URL 301 to canonical; no loops,Unit (validator) + E2E,301 to new; validator rejects loop,P1,Soft launch,Not run
+TC-060,14 §3,"Lighthouse CI budgets on S01, S02, S06, S09, S13",CI,All budgets met,P1,Soft launch,Not run
+TC-061,V1 test 15; FR-030; FR-044,"Export contains all published ids, relationships, sources, review dates",Unit,"Round-trip: import export → validator passes, counts equal",P1,Soft launch,Not run
+TC-062,V1 test 13; NFR-001,Slow connection: text and controls before decorative assets,E2E (slow 4G),LCP element is text; SVG motif not render-blocking,P2,Public launch,Not run
+TC-063,Gap J8; 07 §6,Editor lifecycle: draft→in_review (preview)→published→needs_review→archived,Manual drill on staging repo,Each state renders as specified; production excludes draft/in_review,P1,Soft launch,Not run
+TC-064,16 §5,Backup restore: content repo mirror + D1 export restore to staging,Manual drill,Restored site builds; counts equal,P1,Public launch,Not run
+TC-065,13 §5,Manual screen-reader pass (P1 matrix) on core screens,Manual,No critical/serious open issues,P1,Public launch,Not run
+TC-066,13 §4,"axe: no serious/critical on all templates, both themes, 360 & 1280",CI,Zero violations,P1,Soft launch,Not run
+TC-067,Gap §29.1 visual,Visual regression on component catalogue page (both themes),CI,Matches baselines,P2,Public launch,Not run
+TC-068,14 §1,Structured data valid and contains no price/rating/review,CI (JSON-LD check),Valid; forbidden properties absent,P1,Soft launch,Not run
+TC-069,14 §1,Preview deployments are noindex; search/report pages noindex,E2E,Headers/meta present,P1,Soft launch,Not run
+TC-070,Gap §29.1 migration,D1 migrations apply cleanly to empty and current DB,CI (local D1),"Success, idempotent",P2,Soft launch,Not run
+TC-071,FR-046; D-042,Identity picker type-ahead,E2E,'rad' shows Radiologist and Radiographer in the first 5; 'okada' finds Motorcycle Taxi Rider; ≤150 ms after index load,P1,Soft launch,Not run
+TC-072,FR-046,Multi-select up to 3 with removable chips,E2E keyboard,4th selection blocked with hint; Backspace focuses the last chip; chips are announced,P1,Soft launch,Not run
+TC-073,FR-047,Need chips after identity selection,E2E,Nurse shows nursing core needs + 2 universal; Nurse+Content creator interleaves both,P1,Soft launch,Not run
+TC-074,FR-054; D-053,Identity never leaves the device,E2E network capture,No request body/URL to Functions contains an identity slug; localStorage holds ≤3 slugs,P1,Soft launch,Not run
+TC-075,FR-060,No-JS fallback /who-are-you,E2E (JS off),Every identity reachable by links; grouped by sector/family,P1,Soft launch,Not run
+TC-076,FR-048; FR-049,Identity toolkit grouping,Unit + E2E,/for/drilling-engineer shows core = own+family needs in order; specialism pages include parent needs,P1,Soft launch,Not run
+TC-077,FR-058; D-054,Toolkit card print and WhatsApp text,Visual + unit,"Prints on 1 page; text version ≤1,000 characters",P2,Soft launch,Not run
+TC-078,D-052; FR-059,Indexing rules for identity pages,Unit (build),Identities with <3 core needs and no own needs/flagship are noindex with canonical,P1,Soft launch,Not run
+TC-079,FR-052,Lens selection algorithm for /for/{identity}/{tool},Unit,/for/civil-engineer/microsoft-excel selects engineering-calculations; /for/farmer/microsoft-excel selects farm-records,P1,Soft launch,Not run
+TC-080,FR-052,Identity×tool with no matching need,E2E,Shows full roadmap with explanatory note and 3 better-fit tools,P2,Soft launch,Not run
+TC-081,18 §7,Flagship vs generic difference,Unit,Excel financial-modelling vs engineering-calculations lenses differ in first 5 modules and extra modules,P1,Soft launch,Not run
+TC-082,18 §7,Auto lens composition,Unit,Auto lens core = need-tagged modules in roadmap order; zero-tag case shows full roadmap with note,P1,Soft launch,Not run
+TC-083,D-051,On-device module ticks,E2E,Tick persists on reload in same browser; absent in a fresh context; works when storage throws,P2,Soft launch,Not run
+TC-084,FR-051,Roadmap lens switcher,E2E,Choosing an identity re-orders modules and updates URL to S28,P2,Soft launch,Not run
+TC-085,S31,Need page,E2E,Tools in fit order; registry tools show 'Profile coming soon' and no price,P1,Soft launch,Not run
+TC-086,S32,Sector page,E2E,Families and identities listed; shared needs shown,P3,Public launch,Not run
+TC-087,S33,Browse everyone filter,E2E,Filter narrows list; A–Z nav works; life roles first,P2,Soft launch,Not run
+TC-088,FR-050,Who uses {tool},Unit + E2E,Canva page lists identities from ≥10 sectors (data: 19),P1,Soft launch,Not run
+TC-089,FR-055; D-048,Registry-only tool page makes no claims,Unit (build scan),"No pricing badge, platform list or feature claims rendered for stub tools",P1,Soft launch,Not run
+TC-090,FR-056; D-043,No video-platform links,CI validator,Any youtube/vimeo/tiktok/dailymotion URL fails validation,P1,Soft launch,Not run
+TC-091,16 §10,Identity layer validation and regeneration,CI,validate_identity_layer 0 errors; regenerated JSON equals committed JSON,P1,Soft launch,Not run
+TC-092,18 §14,"Identity, route and skill search test set",CI (identity-harness),"48/48 pass (32 identity incl. 12 music, 4 route, 12 skill)",P1,Soft launch,Not run
+TC-093,D-058; 18 §18,Explore-by default,E2E,First visit shows the 'Who are you?' tab selected; ?explore=skills deep link selects Skills,P1,Soft launch,Not run
+TC-094,D-058; 04 S01-R2,Explore-by without JavaScript,E2E (JS disabled),Each tab is a link that reloads with ?explore=; every panel usable at 320 px,P1,Soft launch,Not run
+TC-095,18 §18,Cross-suggestions,E2E,'video editing' in the identity box shows a Skills group with 'Video creation and editing'; 'canva' shows a Tools group,P2,Soft launch,Not run
+TC-096,13; 04 S01-R2,Explore-by accessibility,"Manual (NVDA, TalkBack) + axe",Tablist arrow/Home/End keys work; panels labelled; 0 axe violations,P1,Soft launch,Not run
+TC-097,04 S34,Skills index,E2E,63 skills in 9 groups render; filter narrows; static list works without JS,P2,Soft launch,Not run
+TC-098,04 S35; 03 §7.4,Skill page content,E2E,"Skill page shows 3 level cards, its needs, top 8 tools in ranking order, roadmaps and identity chips",P2,Soft launch,Not run
+TC-099,03 §7.4,Skill tailored by identity,E2E,On /skills/spreadsheets choosing 'Financial Analyst' reorders tools and links to lens pages,P3,Public launch,Not run
+TC-100,D-056; 04 S30-R,Roadmap depth label,E2E,Handwritten roadmap shows 'Course outline (in depth)'; generated shows 'Course outline (standard)' with disclosure,P2,Soft launch,Not run
+TC-101,D-057; 04 S18-R,Suggestion types,API + E2E,Each of the 5 new issue types submits; record_id accepts id_/need_/rm_/lens_/skill_ ids; issue created in da-corrections,P2,Soft launch,Not run
+TC-102,20 §9; 04 A01,Admin report access,Manual,/admin/report requires Cloudflare Access; identity-miss rows only for queries seen ≥3 times; page is noindex,P3,Public launch,Not run
+TC-103,D-055,ISCO-08 completeness,CI (validate_identity_layer),All 436 ISCO-08 unit groups have ≥1 identity; every need reachable from ≥1 skill,P1,Soft launch,Not run
+TC-104,D-056,Roadmap coverage gate,CI (validate_identity_layer),Build fails if <90% of registry tools have a roadmap; current 723/723,P1,Soft launch,Not run
+TC-105,20 §2; 20 §13 B-7,Deterministic rebuild,CI,rebuild_all.sh on a clean checkout produces byte-identical generated files (no hand edits),P1,Soft launch,Not run
+TC-106,D-055; 18 §14,Musicians findable,CI (identity-harness),"musician, guitarist, talking drummer, composer, DJ, rapper, singer, worship leader, piano tuner, mastering engineer resolve first",P2,Soft launch,Not run
+TC-107,FR-061; 04 S36,Suggest an edit opens prefilled,E2E,On /tools/bandlab the button opens S36 with page_url and record_id prefilled; fact types listed first; works as /suggest without JS,P1,Beta,Not run
+TC-108,FR-062; D-060,Facts need a source,API,pricing/feature/availability/tool_discontinued without supporting_url → 400 invalid_field; with https source → 201 and issue labelled suggestion/correction,P1,Beta,Not run
+TC-109,FR-063; D-065,Credit needs consent,API + E2E,credit_name without credit_consent=true → 400; with consent → issue labelled credit-consented; name absent from issue when not consented,P1,Beta,Not run
+TC-110,04 S36; 13,Suggest an edit accessibility and errors,"Manual (NVDA, TalkBack) + axe","Dialog focus trap, Esc closes, focus returns; inline errors linked; draft survives offline failure; 0 axe violations",P1,Beta,Not run
+TC-111,04 S37; D-064,What's new generated,CI + E2E,Merging a PR labelled user-visible adds a dated line on /whats-new with credit only when consented,P2,Beta,Not run
+TC-112,04 S38; D-065,Contributors page,E2E,"With contributors_page on, consented names listed with counts; off → route 404 and footer link hidden",P3,Public launch,Not run
+TC-113,04 beta banner,Beta banner,E2E,Banner visible at 320 px without covering content; links to S36; hidden when beta_banner off,P2,Beta,Not run
+TC-114,FR-065; D-064,Feature flags,Unit + E2E,Each flag in feature-flags.json toggles its feature; unknown flag treated as off; FLAG_<NAME> env override works without redeploy,P1,Beta,Not run
+TC-115,FR-066; D-062,Private beta noindex,E2E,"With noindex_site on, every page has meta robots noindex and robots.txt disallows all",P1,Beta,Not run
+TC-116,FR-064; 16 §12,Review before live,Manual,A submitted suggestion changes nothing on the live site until a PR is merged; merge deploys within 10 minutes; rollback restores previous version within 2 minutes,P1,Beta,Not run
+TC-117,D-063; 22 §5,Starter helper: musician,"E2E (mid-range Android, 3G profile)","Home → 'musician' → toolkit shows release-music and audio needs → BandLab → roadmap → tick module 1, all under 2 s per page on 3G",P1,Beta,Not run
+TC-118,D-063; 22 §5,Starter helper: data analyst,E2E,"Home → 'data analyst' → core needs start with SQL, dashboards, spreadsheets (no data-pipelines in core) → Power BI → lens titled 'Using Power BI to build dashboards and reports'",P1,Beta,Not run
+TC-119,D-067; 22 §5,Starter helper: entrepreneur,"E2E (mid-range Android, 3G profile)",Home → 'startup founder' → toolkit offers the Entrepreneur helper → helper page shows 7 stages from 'Test the idea' to 'Pitch and raise' → open Paystack from the 'Sell' stage → tool page loads under 2 s on 3G,P1,Beta,Not run
+TC-120,FR-067; FR-068; D-066,Helper index and helper page,E2E + unit,"/helpers lists exactly the helpers in the flag's `listed` array with stage and tool counts; each /helpers/{slug} shows ordered stages, steps (tool, what, first win) and a done checklist per stage; with flag `helpers` off the routes 404 and nav hides them",P1,Beta,Not run
+TC-121,FR-069; FR-070,Helper panel follows you,E2E (390x844 and 1280x800),"Start the Musician helper, tick two items, navigate to a tool page, an identity page and the home page: the pill shows 'Musician · Stage N of 6 · Next: {tool}' on each; expanding shows the goal and next step with an Open button; Resume returns to the helper page",P1,Beta,Not run
+TC-122,FR-069; D-053; D-051,Progress is device-only,E2E + network assertion,"Ticks and the active helper survive reload and a new tab; Playwright records every request during a full helper session and none contains a helper slug, tick or label in URL, headers or body except the aggregate analytics beacon (which carries only helper slug and stage number); 'Clear my progress' removes all keys in one tap",P1,Beta,Not run
+TC-123,FR-070; 13,Helper panel layout and accessibility,E2E + axe + manual,"At 320 px the collapsed pill never covers the primary action, footer links or the beta banner; the sheet is a dialog with focus trap, Esc to close and focus return; targets ≥ 44 px; both themes; reduced motion removes the slide animation",P1,Beta,Not run
+TC-124,FR-071,Where this fits on a tool page,E2E,"With an active helper, a tool inside it shows 'Where this fits' (stage, step, first win); a tool outside it shows no callout; without an active helper the callout shows 'Part of the {helper}' with a Start link",P2,Beta,Not run
+TC-125,FR-072; FR-058; D-054,Helper for someone else,E2E,"'Start for someone else' accepts an optional label kept only on the device; Share produces a link to /helpers/{slug} without the label; the WhatsApp text is ≤ 1,000 characters and the print view fits one A4/Letter page",P2,Launch,Not run
+TC-126,FR-068,Helper content validation,CI (build_helpers.py),"A helper with an unknown tool, need or identity slug, more than 8 stages, a stage without a done line or an invalid shape fails the build with the offending helper and path",P1,Beta,Not run
+TC-127,D-048; FR-055,Helper tools without full guides,E2E,"A step whose tool has no full profile shows a 'Guide in progress' label and the registry link only; no pricing, platform or feature claim appears (D-048)",P1,Beta,Not run
+TC-128,FR-074; D-069,Bun build produces the static site,CI,`bun install --frozen-lockfile && bun run build` succeeds on a clean checkout; the build output contains the prerendered routes listed in 03 (full list at the launch gate; core routes plus SPA fallback allowed in the beta); the file count and build time are recorded in docs/limits.md and stay within the host's current limits,P1,Beta,Not run
+TC-129,FR-074; FR-075; 14 §3,Bundle budgets and no raw HTML,CI (Lighthouse CI + lint),Initial JS on content pages and on the home page stays within the 14 §3 V2.5 budgets; ESLint rule fails any `dangerouslySetInnerHTML` fed by record content; CSP hashes for inline scripts are generated per page and verified,P1,Beta,Not run
+TC-130,FR-073; D-068,Feature parity launch gate,CI,"`validate_feature_matrix.py` exits 0: every feature row cites existing decisions, requirements, screens, tests and flags, and every shipping feature's flags have launch=true except the beta-only flags",P1,Public launch,Not run
+TC-131,D-070; 06 §12,Signature visuals responsive,"Playwright screenshots (320, 390, 768, 1280; both themes)","Home hero with identity ribbon, helper route rail and mobile bottom tab bar render without horizontal scroll; the ribbon is static and wrapped under reduced motion; contrast passes",P2,Public launch,Not run
+TC-132,FR-045; D-001; D-050,Non-commercial guard,Unit + CI,"The validator rejects any non-empty commercial disclosure; no page contains ads, affiliate parameters or paid-placement labels while D-001 stands",P1,Soft launch,Not run

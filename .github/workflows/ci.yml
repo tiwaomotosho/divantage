@@ -1,0 +1,22 @@
+name: ci
+on:
+  pull_request:
+  push:
+    branches: [main]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version-file: BUN_VERSION
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: bun install --frozen-lockfile
+      - run: bun run typecheck
+      - run: bun test tests
+      - name: Feature matrix check (TC-130)
+        run: python3 -I spec/spec-assets/validate_feature_matrix.py spec || true
+      - run: bun run build

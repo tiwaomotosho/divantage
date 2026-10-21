@@ -1,0 +1,232 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_musescore",
+ "slug": "musescore",
+ "title": "MuseScore Studio skill roadmap",
+ "tool_ids": [
+  "tool_musescore"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_musescore_notation_0",
+    "slug": "musescore-notation-0",
+    "title": "Get started with MuseScore Studio",
+    "outcome": "You can: set up MuseScore Studio, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "music-notation"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_musescore_notation_1",
+    "slug": "musescore-notation-1",
+    "title": "Enter notes quickly",
+    "outcome": "You can: write a melody in MuseScore Studio",
+    "topics": [
+     "note input",
+     "durations",
+     "keys and time signatures"
+    ],
+    "practice": "Notate a 16-bar melody",
+    "need_tags": [
+     "music-notation"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_musescore_notation_2",
+    "slug": "musescore-notation-2",
+    "title": "Lyrics, chords and dynamics",
+    "outcome": "You can: add the details musicians need",
+    "topics": [
+     "lyrics",
+     "chord symbols",
+     "dynamics and articulations"
+    ],
+    "practice": "Add lyrics and chords to your melody",
+    "need_tags": [
+     "music-notation"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_musescore_notation_3",
+    "slug": "musescore-notation-3",
+    "title": "Arrange for several parts",
+    "outcome": "You can: write for choir, band or orchestra",
+    "topics": [
+     "instruments",
+     "voicing",
+     "part extraction"
+    ],
+    "practice": "Arrange a song for four voices",
+    "need_tags": [
+     "music-notation"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_musescore_notation_4",
+    "slug": "musescore-notation-4",
+    "title": "Layout and printing",
+    "outcome": "You can: produce clean, readable scores",
+    "topics": [
+     "page layout",
+     "spacing",
+     "PDF export"
+    ],
+    "practice": "Export a full score and parts",
+    "need_tags": [
+     "music-notation"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_musescore_notation_8",
+    "slug": "musescore-notation-8",
+    "title": "Signature skills in MuseScore Studio",
+    "outcome": "You can: use the features that make MuseScore Studio distinctive",
+    "topics": [
+     "note input by keyboard",
+     "palettes",
+     "lyrics and chord symbols",
+     "parts"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "music-notation"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_musescore_notation_9",
+    "slug": "musescore-notation-9",
+    "title": "Advanced MuseScore Studio",
+    "outcome": "You can: use MuseScore Studio's advanced capabilities with confidence",
+    "topics": [
+     "score layout and spacing",
+     "MuseScore Studio playback (Muse Sounds)",
+     "publishing on MuseScore.com",
+     "custom styles"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "music-notation"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_musescore_notation_5",
+    "slug": "musescore-notation-5",
+    "title": "Professional engraving",
+    "outcome": "You can: produce publication-quality scores",
+    "topics": [
+     "engraving conventions",
+     "house styles",
+     "playback realism"
+    ],
+    "practice": "Engrave a full piece to publication standard",
+    "need_tags": [
+     "music-notation"
+    ],
+    "estimated_hours": {
+     "value": 5.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_musescore_notation_10",
+    "slug": "musescore-notation-10",
+    "title": "Integrate MuseScore Studio into your workflow",
+    "outcome": "You can: connect MuseScore Studio with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect MuseScore Studio to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "music-notation"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_musescore_notation_11",
+    "slug": "musescore-notation-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use MuseScore Studio well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use MuseScore Studio\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "music-notation"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "notation",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

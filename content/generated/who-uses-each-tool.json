@@ -1,0 +1,9283 @@
+{
+ "3d-slicer": {
+  "identity_count": 45,
+  "needs": [
+   "medical-imaging-viewing"
+  ],
+  "sectors": {
+   "health": 45
+  },
+  "universal": false
+ },
+ "abaqus": {
+  "identity_count": 20,
+  "needs": [
+   "fea-simulation"
+  ],
+  "sectors": {
+   "energy": 2,
+   "engineering": 18
+  },
+  "universal": false
+ },
+ "ableton-live": {
+  "identity_count": 57,
+  "needs": [
+   "audio-production"
+  ],
+  "sectors": {
+   "creative": 54,
+   "education": 1,
+   "faith": 1,
+   "sports": 1
+  },
+  "universal": false
+ },
+ "activityinfo": {
+  "identity_count": 101,
+  "needs": [
+   "monitoring-evaluation"
+  ],
+  "sectors": {
+   "business": 1,
+   "health": 22,
+   "public-sector": 78
+  },
+  "universal": false
+ },
+ "adobe-acrobat": {
+  "identity_count": 89,
+  "needs": [
+   "pdf-work",
+   "e-signatures",
+   "drawing-markup",
+   "contract-drafting"
+  ],
+  "sectors": {
+   "creative": 4,
+   "engineering": 38,
+   "law": 45,
+   "manufacturing": 1,
+   "sports": 1
+  },
+  "universal": true
+ },
+ "adobe-after-effects": {
+  "identity_count": 3,
+  "needs": [
+   "motion-graphics"
+  ],
+  "sectors": {
+   "creative": 3
+  },
+  "universal": false
+ },
+ "adobe-express": {
+  "identity_count": 15,
+  "needs": [
+   "design-simple-graphics"
+  ],
+  "sectors": {
+   "faith": 14,
+   "health": 1
+  },
+  "universal": true
+ },
+ "adobe-illustrator": {
+  "identity_count": 31,
+  "needs": [
+   "graphic-design-pro",
+   "brand-identity",
+   "fashion-design"
+  ],
+  "sectors": {
+   "business": 1,
+   "construction": 1,
+   "creative": 27,
+   "marketing": 1,
+   "technology": 1
+  },
+  "universal": false
+ },
+ "adobe-lightroom": {
+  "identity_count": 75,
+  "needs": [
+   "photo-editing",
+   "photography-workflow"
+  ],
+  "sectors": {
+   "creative": 70,
+   "faith": 1,
+   "health": 3,
+   "sports": 1
+  },
+  "universal": true
+ },
+ "adobe-photoshop": {
+  "identity_count": 29,
+  "needs": [
+   "graphic-design-pro"
+  ],
+  "sectors": {
+   "business": 1,
+   "creative": 27,
+   "technology": 1
+  },
+  "universal": false
+ },
+ "adobe-premiere-pro": {
+  "identity_count": 47,
+  "needs": [
+   "video-editing-pro"
+  ],
+  "sectors": {
+   "creative": 44,
+   "education": 1,
+   "engineering": 1,
+   "faith": 1
+  },
+  "universal": false
+ },
+ "adobe-scan": {
+  "identity_count": 42,
+  "needs": [
+   "scan-documents"
+  ],
+  "sectors": {
+   "business": 32,
+   "finance": 1,
+   "law": 9
+  },
+  "universal": true
+ },
+ "affinity": {
+  "identity_count": 29,
+  "needs": [
+   "graphic-design-pro"
+  ],
+  "sectors": {
+   "business": 1,
+   "creative": 27,
+   "technology": 1
+  },
+  "universal": false
+ },
+ "agisoft-metashape": {
+  "identity_count": 11,
+  "needs": [
+   "surveying-photogrammetry"
+  ],
+  "sectors": {
+   "energy": 1,
+   "engineering": 10
+  },
+  "universal": false
+ },
+ "agrivi": {
+  "identity_count": 158,
+  "needs": [
+   "farm-records"
+  ],
+  "sectors": {
+   "agriculture": 158
+  },
+  "universal": false
+ },
+ "agriwebb": {
+  "identity_count": 90,
+  "needs": [
+   "livestock-management"
+  ],
+  "sectors": {
+   "agriculture": 88,
+   "health": 2
+  },
+  "universal": false
+ },
+ "aha": {
+  "identity_count": 21,
+  "needs": [
+   "roadmapping"
+  ],
+  "sectors": {
+   "technology": 21
+  },
+  "universal": false
+ },
+ "ahrefs": {
+  "identity_count": 28,
+  "needs": [
+   "seo"
+  ],
+  "sectors": {
+   "creative": 3,
+   "marketing": 25
+  },
+  "universal": false
+ },
+ "airbnb": {
+  "identity_count": 20,
+  "needs": [
+   "hotel-management"
+  ],
+  "sectors": {
+   "hospitality": 20
+  },
+  "universal": false
+ },
+ "airtable": {
+  "identity_count": 30,
+  "needs": [
+   "no-code-apps",
+   "case-management"
+  ],
+  "sectors": {
+   "health": 2,
+   "public-sector": 1,
+   "social-care": 26,
+   "technology": 1
+  },
+  "universal": false
+ },
+ "alison": {
+  "identity_count": 13,
+  "needs": [
+   "learn-online"
+  ],
+  "sectors": {
+   "life": 12,
+   "technology": 1
+  },
+  "universal": true
+ },
+ "alteryx": {
+  "identity_count": 69,
+  "needs": [
+   "data-cleaning"
+  ],
+  "sectors": {
+   "business": 38,
+   "data": 31
+  },
+  "universal": false
+ },
+ "amazon-kdp": {
+  "identity_count": 2,
+  "needs": [
+   "book-writing-publishing"
+  ],
+  "sectors": {
+   "creative": 2
+  },
+  "universal": false
+ },
+ "amazon-seller-central": {
+  "identity_count": 57,
+  "needs": [
+   "marketplace-selling"
+  ],
+  "sectors": {
+   "business": 56,
+   "creative": 1
+  },
+  "universal": false
+ },
+ "amplitude": {
+  "identity_count": 22,
+  "needs": [
+   "product-analytics"
+  ],
+  "sectors": {
+   "data": 1,
+   "marketing": 1,
+   "technology": 20
+  },
+  "universal": false
+ },
+ "anaplan": {
+  "identity_count": 57,
+  "needs": [
+   "budgeting-fpa"
+  ],
+  "sectors": {
+   "business": 27,
+   "creative": 1,
+   "faith": 1,
+   "finance": 27,
+   "public-sector": 1
+  },
+  "universal": false
+ },
+ "android-studio": {
+  "identity_count": 2,
+  "needs": [
+   "mobile-app-dev"
+  ],
+  "sectors": {
+   "technology": 2
+  },
+  "universal": false
+ },
+ "anki": {
+  "identity_count": 278,
+  "needs": [
+   "language-learning",
+   "cpd-learning",
+   "memorise-knowledge",
+   "study-skills"
+  ],
+  "sectors": {
+   "education": 3,
+   "faith": 1,
+   "finance": 1,
+   "health": 254,
+   "hospitality": 1,
+   "law": 1,
+   "life": 13,
+   "sports": 1,
+   "technology": 1,
+   "transport": 2
+  },
+  "universal": true
+ },
+ "ansys": {
+  "identity_count": 20,
+  "needs": [
+   "fea-simulation"
+  ],
+  "sectors": {
+   "energy": 2,
+   "engineering": 18
+  },
+  "universal": false
+ },
+ "anthropic-api": {
+  "identity_count": 4,
+  "needs": [
+   "ai-app-development"
+  ],
+  "sectors": {
+   "technology": 4
+  },
+  "universal": false
+ },
+ "anydesk": {
+  "identity_count": 34,
+  "needs": [
+   "it-helpdesk"
+  ],
+  "sectors": {
+   "technology": 34
+  },
+  "universal": false
+ },
+ "apache-airflow": {
+  "identity_count": 3,
+  "needs": [
+   "data-pipelines"
+  ],
+  "sectors": {
+   "data": 2,
+   "technology": 1
+  },
+  "universal": false
+ },
+ "apache-jmeter": {
+  "identity_count": 11,
+  "needs": [
+   "performance-testing"
+  ],
+  "sectors": {
+   "technology": 11
+  },
+  "universal": false
+ },
+ "apache-superset": {
+  "identity_count": 145,
+  "needs": [
+   "dashboards-bi"
+  ],
+  "sectors": {
+   "business": 2,
+   "data": 31,
+   "energy": 2,
+   "finance": 89,
+   "health": 17,
+   "marketing": 1,
+   "public-sector": 2,
+   "technology": 1
+  },
+  "universal": false
+ },
+ "apicbase": {
+  "identity_count": 72,
+  "needs": [
+   "recipe-costing"
+  ],
+  "sectors": {
+   "beauty": 1,
+   "hospitality": 37,
+   "manufacturing": 34
+  },
+  "universal": false
+ },
+ "appfolio": {
+  "identity_count": 11,
+  "needs": [
+   "property-management"
+  ],
+  "sectors": {
+   "construction": 10,
+   "finance": 1
+  },
+  "universal": false
+ },
+ "appium": {
+  "identity_count": 56,
+  "needs": [
+   "test-automation"
+  ],
+  "sectors": {
+   "technology": 56
+  },
+  "universal": false
+ },
+ "apple-health": {
+  "identity_count": 1,
+  "needs": [
+   "personal-health-tracking"
+  ],
+  "sectors": {
+   "life": 1
+  },
+  "universal": false
+ },
+ "apple-keynote": {
+  "identity_count": 282,
+  "needs": [
+   "presentations"
+  ],
+  "sectors": {
+   "business": 224,
+   "creative": 1,
+   "education": 1,
+   "marketing": 55,
+   "technology": 1
+  },
+  "universal": true
+ },
+ "apple-screen-time": {
+  "identity_count": 9,
+  "needs": [
+   "kids-online-safety"
+  ],
+  "sectors": {
+   "beauty": 1,
+   "life": 8
+  },
+  "universal": false
+ },
+ "appsheet": {
+  "identity_count": 1,
+  "needs": [
+   "no-code-apps"
+  ],
+  "sectors": {
+   "technology": 1
+  },
+  "universal": false
+ },
+ "arcgis-pro": {
+  "identity_count": 104,
+  "needs": [
+   "gis-mapping"
+  ],
+  "sectors": {
+   "agriculture": 20,
+   "data": 1,
+   "education": 1,
+   "energy": 34,
+   "engineering": 23,
+   "health": 22,
+   "public-sector": 2,
+   "security": 1
+  },
+  "universal": false
+ },
+ "archicad": {
+  "identity_count": 40,
+  "needs": [
+   "bim-modelling"
+  ],
+  "sectors": {
+   "engineering": 40
+  },
+  "universal": false
+ },
+ "asana": {
+  "identity_count": 232,
+  "needs": [
+   "project-management"
+  ],
+  "sectors": {
+   "business": 224,
+   "public-sector": 1,
+   "technology": 7
+  },
+  "universal": false
+ },
+ "aspen-hysys": {
+  "identity_count": 13,
+  "needs": [
+   "process-simulation"
+  ],
+  "sectors": {
+   "energy": 3,
+   "engineering": 10
+  },
+  "universal": false
+ },
+ "aspen-plus": {
+  "identity_count": 13,
+  "needs": [
+   "process-simulation"
+  ],
+  "sectors": {
+   "energy": 3,
+   "engineering": 10
+  },
+  "universal": false
+ },
+ "atlas-ti": {
+  "identity_count": 24,
+  "needs": [
+   "qualitative-analysis"
+  ],
+  "sectors": {
+   "education": 1,
+   "science": 22,
+   "technology": 1
+  },
+  "universal": false
+ },
+ "audacity": {
+  "identity_count": 82,
+  "needs": [
+   "audio-production",
+   "podcast-production"
+  ],
+  "sectors": {
+   "creative": 79,
+   "education": 1,
+   "faith": 1,
+   "sports": 1
+  },
+  "universal": false
+ },
+ "audiomack": {
+  "identity_count": 51,
+  "needs": [
+   "release-music",
+   "artist-profiles"
+  ],
+  "sectors": {
+   "creative": 51
+  },
+  "universal": false
+ },
+ "autocad": {
+  "identity_count": 151,
+  "needs": [
+   "cad-drafting"
+  ],
+  "sectors": {
+   "agriculture": 1,
+   "construction": 1,
+   "education": 1,
+   "engineering": 147,
+   "health": 1
+  },
+  "universal": false
+ },
+ "autocad-electrical": {
+  "identity_count": 40,
+  "needs": [
+   "electrical-design"
+  ],
+  "sectors": {
+   "construction": 1,
+   "energy": 16,
+   "engineering": 23
+  },
+  "universal": false
+ },
+ "autodesk-build": {
+  "identity_count": 193,
+  "needs": [
+   "site-management"
+  ],
+  "sectors": {
+   "construction": 171,
+   "engineering": 22
+  },
+  "universal": false
+ },
+ "autodesk-inventor": {
+  "identity_count": 15,
+  "needs": [
+   "mechanical-design"
+  ],
+  "sectors": {
+   "creative": 1,
+   "engineering": 14
+  },
+  "universal": false
+ },
+ "autodesk-maya": {
+  "identity_count": 8,
+  "needs": [
+   "3d-modelling"
+  ],
+  "sectors": {
+   "creative": 7,
+   "engineering": 1
+  },
+  "universal": false
+ },
+ "autopsy": {
+  "identity_count": 5,
+  "needs": [
+   "digital-forensics"
+  ],
+  "sectors": {
+   "science": 1,
+   "security": 3,
+   "technology": 1
+  },
+  "universal": false
+ },
+ "ava": {
+  "identity_count": 31,
+  "needs": [
+   "accessible-communication"
+  ],
+  "sectors": {
+   "education": 1,
+   "health": 2,
+   "life": 2,
+   "social-care": 26
+  },
+  "universal": false
+ },
+ "avogadro": {
+  "identity_count": 2,
+  "needs": [
+   "chemistry-drawing"
+  ],
+  "sectors": {
+   "science": 2
+  },
+  "universal": false
+ },
+ "aws": {
+  "identity_count": 63,
+  "needs": [
+   "cloud-infrastructure"
+  ],
+  "sectors": {
+   "data": 1,
+   "technology": 62
+  },
+  "universal": false
+ },
+ "azure-devops": {
+  "identity_count": 147,
+  "needs": [
+   "agile-tracking"
+  ],
+  "sectors": {
+   "technology": 147
+  },
+  "universal": false
+ },
+ "backstage": {
+  "identity_count": 34,
+  "needs": [
+   "auditions-casting"
+  ],
+  "sectors": {
+   "creative": 34
+  },
+  "universal": false
+ },
+ "bailii": {
+  "identity_count": 46,
+  "needs": [
+   "legal-research"
+  ],
+  "sectors": {
+   "law": 45,
+   "science": 1
+  },
+  "universal": false
+ },
+ "bamboohr": {
+  "identity_count": 86,
+  "needs": [
+   "recruitment",
+   "people-management"
+  ],
+  "sectors": {
+   "agriculture": 1,
+   "business": 75,
+   "education": 2,
+   "faith": 1,
+   "finance": 1,
+   "health": 1,
+   "hospitality": 1,
+   "technology": 4
+  },
+  "universal": false
+ },
+ "bambu-studio": {
+  "identity_count": 17,
+  "needs": [
+   "3d-printing"
+  ],
+  "sectors": {
+   "engineering": 14,
+   "health": 2,
+   "manufacturing": 1
+  },
+  "universal": false
+ },
+ "bandlab": {
+  "identity_count": 57,
+  "needs": [
+   "audio-production",
+   "release-music"
+  ],
+  "sectors": {
+   "creative": 54,
+   "education": 1,
+   "faith": 1,
+   "sports": 1
+  },
+  "universal": false
+ },
+ "be-my-eyes": {
+  "identity_count": 33,
+  "needs": [
+   "accessibility-tools",
+   "accessible-communication"
+  ],
+  "sectors": {
+   "education": 1,
+   "health": 2,
+   "life": 2,
+   "social-care": 26,
+   "sports": 1,
+   "technology": 1
+  },
+  "universal": true
+ },
+ "beehiiv": {
+  "identity_count": 1,
+  "needs": [
+   "newsletter-publishing"
+  ],
+  "sectors": {
+   "creative": 1
+  },
+  "universal": false
+ },
+ "behance": {
+  "identity_count": 386,
+  "needs": [
+   "visual-portfolio"
+  ],
+  "sectors": {
+   "beauty": 89,
+   "creative": 237,
+   "engineering": 1,
+   "manufacturing": 59
+  },
+  "universal": false
+ },
+ "benchling": {
+  "identity_count": 71,
+  "needs": [
+   "lab-data",
+   "molecular-biology"
+  ],
+  "sectors": {
+   "agriculture": 2,
+   "energy": 2,
+   "engineering": 3,
+   "health": 11,
+   "manufacturing": 1,
+   "science": 52
+  },
+  "universal": false
+ },
+ "bigquery": {
+  "identity_count": 36,
+  "needs": [
+   "sql-querying",
+   "data-pipelines"
+  ],
+  "sectors": {
+   "creative": 1,
+   "data": 31,
+   "engineering": 1,
+   "technology": 3
+  },
+  "universal": false
+ },
+ "biodigital-human": {
+  "identity_count": 10,
+  "needs": [
+   "anatomy-3d"
+  ],
+  "sectors": {
+   "health": 10
+  },
+  "universal": false
+ },
+ "biorender": {
+  "identity_count": 75,
+  "needs": [
+   "scientific-figures"
+  ],
+  "sectors": {
+   "education": 1,
+   "science": 74
+  },
+  "universal": false
+ },
+ "bitbucket": {
+  "identity_count": 148,
+  "needs": [
+   "version-control"
+  ],
+  "sectors": {
+   "engineering": 1,
+   "technology": 147
+  },
+  "universal": false
+ },
+ "bitwarden": {
+  "identity_count": 45,
+  "needs": [
+   "online-safety"
+  ],
+  "sectors": {
+   "technology": 45
+  },
+  "universal": true
+ },
+ "bizagi-modeler": {
+  "identity_count": 22,
+  "needs": [
+   "process-mapping"
+  ],
+  "sectors": {
+   "business": 5,
+   "engineering": 13,
+   "finance": 1,
+   "technology": 3
+  },
+  "universal": false
+ },
+ "blender": {
+  "identity_count": 27,
+  "needs": [
+   "game-development",
+   "motion-graphics",
+   "3d-modelling",
+   "architectural-visualisation"
+  ],
+  "sectors": {
+   "creative": 8,
+   "engineering": 17,
+   "technology": 2
+  },
+  "universal": false
+ },
+ "bloomberg-terminal": {
+  "identity_count": 27,
+  "needs": [
+   "market-research-finance"
+  ],
+  "sectors": {
+   "agriculture": 1,
+   "finance": 26
+  },
+  "universal": false
+ },
+ "blue-letter-bible": {
+  "identity_count": 40,
+  "needs": [
+   "scripture-study"
+  ],
+  "sectors": {
+   "creative": 1,
+   "education": 1,
+   "faith": 38
+  },
+  "universal": false
+ },
+ "bluebeam-revu": {
+  "identity_count": 43,
+  "needs": [
+   "cost-estimation",
+   "drawing-markup"
+  ],
+  "sectors": {
+   "construction": 1,
+   "energy": 2,
+   "engineering": 40
+  },
+  "universal": false
+ },
+ "bmj-best-practice": {
+  "identity_count": 255,
+  "needs": [
+   "clinical-reference"
+  ],
+  "sectors": {
+   "health": 254,
+   "security": 1
+  },
+  "universal": false
+ },
+ "bmj-learning": {
+  "identity_count": 254,
+  "needs": [
+   "cpd-learning"
+  ],
+  "sectors": {
+   "health": 254
+  },
+  "universal": false
+ },
+ "bnf": {
+  "identity_count": 103,
+  "needs": [
+   "drug-information"
+  ],
+  "sectors": {
+   "health": 103
+  },
+  "universal": false
+ },
+ "bokun": {
+  "identity_count": 20,
+  "needs": [
+   "tour-booking"
+  ],
+  "sectors": {
+   "hospitality": 20
+  },
+  "universal": false
+ },
+ "bolt": {
+  "identity_count": 93,
+  "needs": [
+   "driver-earnings"
+  ],
+  "sectors": {
+   "agriculture": 13,
+   "life": 1,
+   "transport": 79
+  },
+  "universal": false
+ },
+ "booking-com": {
+  "identity_count": 20,
+  "needs": [
+   "hotel-management"
+  ],
+  "sectors": {
+   "hospitality": 20
+  },
+  "universal": false
+ },
+ "booksy": {
+  "identity_count": 90,
+  "needs": [
+   "salon-booking"
+  ],
+  "sectors": {
+   "beauty": 89,
+   "health": 1
+  },
+  "universal": false
+ },
+ "boxcast": {
+  "identity_count": 38,
+  "needs": [
+   "service-livestream"
+  ],
+  "sectors": {
+   "faith": 38
+  },
+  "universal": false
+ },
+ "breeze": {
+  "identity_count": 38,
+  "needs": [
+   "congregation-management"
+  ],
+  "sectors": {
+   "faith": 38
+  },
+  "universal": false
+ },
+ "brevo": {
+  "identity_count": 25,
+  "needs": [
+   "email-marketing"
+  ],
+  "sectors": {
+   "marketing": 25
+  },
+  "universal": false
+ },
+ "bubble": {
+  "identity_count": 1,
+  "needs": [
+   "no-code-apps"
+  ],
+  "sectors": {
+   "technology": 1
+  },
+  "universal": false
+ },
+ "buffer": {
+  "identity_count": 367,
+  "needs": [
+   "social-media-presence",
+   "content-planning",
+   "social-media-management"
+  ],
+  "sectors": {
+   "beauty": 20,
+   "creative": 237,
+   "faith": 24,
+   "health": 1,
+   "hospitality": 1,
+   "life": 1,
+   "marketing": 79,
+   "public-sector": 2,
+   "sports": 1,
+   "technology": 1
+  },
+  "universal": true
+ },
+ "buildium": {
+  "identity_count": 11,
+  "needs": [
+   "property-management"
+  ],
+  "sectors": {
+   "construction": 10,
+   "finance": 1
+  },
+  "universal": false
+ },
+ "burp-suite": {
+  "identity_count": 12,
+  "needs": [
+   "security-testing"
+  ],
+  "sectors": {
+   "technology": 12
+  },
+  "universal": false
+ },
+ "busuu": {
+  "identity_count": 7,
+  "needs": [
+   "language-learning"
+  ],
+  "sectors": {
+   "education": 2,
+   "faith": 1,
+   "hospitality": 1,
+   "life": 2,
+   "transport": 1
+  },
+  "universal": true
+ },
+ "buzzsprout": {
+  "identity_count": 26,
+  "needs": [
+   "podcast-production"
+  ],
+  "sectors": {
+   "creative": 26
+  },
+  "universal": false
+ },
+ "calculix": {
+  "identity_count": 20,
+  "needs": [
+   "fea-simulation"
+  ],
+  "sectors": {
+   "energy": 2,
+   "engineering": 18
+  },
+  "universal": false
+ },
+ "calendly": {
+  "identity_count": 244,
+  "needs": [
+   "clinic-scheduling",
+   "booking-appointments"
+  ],
+  "sectors": {
+   "beauty": 69,
+   "business": 25,
+   "construction": 1,
+   "creative": 3,
+   "education": 1,
+   "health": 79,
+   "hospitality": 63,
+   "marketing": 1,
+   "sports": 1,
+   "transport": 1
+  },
+  "universal": false
+ },
+ "calm": {
+  "identity_count": 14,
+  "needs": [
+   "mindfulness-wellbeing"
+  ],
+  "sectors": {
+   "faith": 1,
+   "health": 12,
+   "sports": 1
+  },
+  "universal": false
+ },
+ "candid": {
+  "identity_count": 24,
+  "needs": [
+   "grant-finding"
+  ],
+  "sectors": {
+   "education": 1,
+   "public-sector": 23
+  },
+  "universal": false
+ },
+ "canva": {
+  "identity_count": 1354,
+  "needs": [
+   "presentations",
+   "professional-profile",
+   "design-simple-graphics",
+   "cv-portfolio",
+   "social-media-presence",
+   "short-video",
+   "photo-editing",
+   "patient-education",
+   "lesson-planning",
+   "screen-recording",
+   "accessible-materials",
+   "brand-identity",
+   "events-management",
+   "business-planning",
+   "online-store",
+   "product-photography",
+   "worship-presentation",
+   "athlete-brand",
+   "agri-market-access",
+   "property-marketing",
+   "visual-portfolio"
+  ],
+  "sectors": {
+   "agriculture": 158,
+   "beauty": 89,
+   "business": 224,
+   "construction": 10,
+   "creative": 237,
+   "education": 106,
+   "engineering": 1,
+   "faith": 38,
+   "health": 254,
+   "hospitality": 9,
+   "life": 20,
+   "manufacturing": 60,
+   "marketing": 79,
+   "public-sector": 2,
+   "science": 1,
+   "security": 1,
+   "sports": 59,
+   "technology": 5,
+   "transport": 1
+  },
+  "universal": true
+ },
+ "canvas-lms": {
+  "identity_count": 74,
+  "needs": [
+   "virtual-classroom"
+  ],
+  "sectors": {
+   "business": 1,
+   "education": 73
+  },
+  "universal": false
+ },
+ "capcut": {
+  "identity_count": 564,
+  "needs": [
+   "social-media-presence",
+   "short-video",
+   "athlete-brand",
+   "property-marketing",
+   "visual-portfolio",
+   "auditions-casting"
+  ],
+  "sectors": {
+   "beauty": 89,
+   "construction": 10,
+   "creative": 237,
+   "engineering": 1,
+   "faith": 24,
+   "health": 1,
+   "hospitality": 1,
+   "life": 1,
+   "manufacturing": 59,
+   "marketing": 79,
+   "public-sector": 1,
+   "science": 1,
+   "sports": 59,
+   "technology": 1
+  },
+  "universal": true
+ },
+ "capture-one": {
+  "identity_count": 44,
+  "needs": [
+   "photography-workflow"
+  ],
+  "sectors": {
+   "creative": 42,
+   "faith": 1,
+   "sports": 1
+  },
+  "universal": false
+ },
+ "carly": {
+  "identity_count": 4,
+  "needs": [
+   "vehicle-diagnostics"
+  ],
+  "sectors": {
+   "construction": 3,
+   "energy": 1
+  },
+  "universal": false
+ },
+ "caseware-idea": {
+  "identity_count": 26,
+  "needs": [
+   "audit-analytics"
+  ],
+  "sectors": {
+   "data": 1,
+   "finance": 24,
+   "public-sector": 1
+  },
+  "universal": false
+ },
+ "cattlemax": {
+  "identity_count": 90,
+  "needs": [
+   "livestock-management"
+  ],
+  "sectors": {
+   "agriculture": 88,
+   "health": 2
+  },
+  "universal": false
+ },
+ "chatgpt": {
+  "identity_count": 575,
+  "needs": [
+   "translate-languages",
+   "use-ai-assistants",
+   "write-code",
+   "lesson-planning",
+   "copywriting",
+   "business-planning"
+  ],
+  "sectors": {
+   "agriculture": 1,
+   "business": 224,
+   "creative": 3,
+   "education": 106,
+   "engineering": 2,
+   "faith": 4,
+   "health": 1,
+   "law": 1,
+   "life": 3,
+   "marketing": 79,
+   "public-sector": 3,
+   "technology": 147,
+   "transport": 1
+  },
+  "universal": true
+ },
+ "chemcad": {
+  "identity_count": 13,
+  "needs": [
+   "process-simulation"
+  ],
+  "sectors": {
+   "energy": 3,
+   "engineering": 10
+  },
+  "universal": false
+ },
+ "chemdraw": {
+  "identity_count": 2,
+  "needs": [
+   "chemistry-drawing"
+  ],
+  "sectors": {
+   "science": 2
+  },
+  "universal": false
+ },
+ "churchsuite": {
+  "identity_count": 38,
+  "needs": [
+   "congregation-management"
+  ],
+  "sectors": {
+   "faith": 38
+  },
+  "universal": false
+ },
+ "cinema-4d": {
+  "identity_count": 8,
+  "needs": [
+   "3d-modelling"
+  ],
+  "sectors": {
+   "creative": 7,
+   "engineering": 1
+  },
+  "universal": false
+ },
+ "circuit": {
+  "identity_count": 137,
+  "needs": [
+   "route-planning-fleet"
+  ],
+  "sectors": {
+   "agriculture": 12,
+   "business": 1,
+   "marketing": 2,
+   "transport": 122
+  },
+  "universal": false
+ },
+ "cisco-packet-tracer": {
+  "identity_count": 48,
+  "needs": [
+   "networking"
+  ],
+  "sectors": {
+   "engineering": 2,
+   "technology": 46
+  },
+  "universal": false
+ },
+ "civil-3d": {
+  "identity_count": 50,
+  "needs": [
+   "bim-modelling",
+   "surveying-photogrammetry"
+  ],
+  "sectors": {
+   "energy": 1,
+   "engineering": 49
+  },
+  "universal": false
+ },
+ "ckan": {
+  "identity_count": 55,
+  "needs": [
+   "open-data"
+  ],
+  "sectors": {
+   "public-sector": 55
+  },
+  "universal": false
+ },
+ "claude": {
+  "identity_count": 985,
+  "needs": [
+   "use-ai-assistants",
+   "cpd-learning",
+   "write-code",
+   "contract-drafting",
+   "lesson-planning",
+   "copywriting",
+   "business-planning",
+   "policy-research",
+   "scripture-study"
+  ],
+  "sectors": {
+   "agriculture": 1,
+   "business": 224,
+   "creative": 6,
+   "data": 1,
+   "education": 106,
+   "engineering": 2,
+   "faith": 38,
+   "finance": 1,
+   "health": 254,
+   "law": 45,
+   "life": 1,
+   "marketing": 79,
+   "public-sector": 78,
+   "sports": 1,
+   "technology": 147,
+   "transport": 1
+  },
+  "universal": true
+ },
+ "clickup": {
+  "identity_count": 232,
+  "needs": [
+   "project-management"
+  ],
+  "sectors": {
+   "business": 224,
+   "public-sector": 1,
+   "technology": 7
+  },
+  "universal": false
+ },
+ "climate-fieldview": {
+  "identity_count": 91,
+  "needs": [
+   "crop-monitoring"
+  ],
+  "sectors": {
+   "agriculture": 89,
+   "engineering": 1,
+   "public-sector": 1
+  },
+  "universal": false
+ },
+ "clio": {
+  "identity_count": 45,
+  "needs": [
+   "legal-practice-management"
+  ],
+  "sectors": {
+   "law": 45
+  },
+  "universal": false
+ },
+ "clip-studio-paint": {
+  "identity_count": 6,
+  "needs": [
+   "digital-illustration"
+  ],
+  "sectors": {
+   "creative": 5,
+   "education": 1
+  },
+  "universal": false
+ },
+ "clipchamp": {
+  "identity_count": 191,
+  "needs": [
+   "short-video"
+  ],
+  "sectors": {
+   "beauty": 89,
+   "creative": 100,
+   "faith": 1,
+   "science": 1
+  },
+  "universal": true
+ },
+ "clo-3d": {
+  "identity_count": 3,
+  "needs": [
+   "fashion-design"
+  ],
+  "sectors": {
+   "construction": 1,
+   "creative": 2
+  },
+  "universal": false
+ },
+ "cloudbeds": {
+  "identity_count": 20,
+  "needs": [
+   "hotel-management"
+  ],
+  "sectors": {
+   "hospitality": 20
+  },
+  "universal": false
+ },
+ "cloudflare": {
+  "identity_count": 63,
+  "needs": [
+   "cloud-infrastructure"
+  ],
+  "sectors": {
+   "data": 1,
+   "technology": 62
+  },
+  "universal": false
+ },
+ "cmg": {
+  "identity_count": 39,
+  "needs": [
+   "reservoir-modelling"
+  ],
+  "sectors": {
+   "energy": 39
+  },
+  "universal": false
+ },
+ "cochrane-library": {
+  "identity_count": 254,
+  "needs": [
+   "evidence-based-medicine"
+  ],
+  "sectors": {
+   "health": 254
+  },
+  "universal": false
+ },
+ "codesys": {
+  "identity_count": 26,
+  "needs": [
+   "plc-automation"
+  ],
+  "sectors": {
+   "engineering": 24,
+   "manufacturing": 1,
+   "technology": 1
+  },
+  "universal": false
+ },
+ "complete-anatomy": {
+  "identity_count": 10,
+  "needs": [
+   "anatomy-3d"
+  ],
+  "sectors": {
+   "health": 10
+  },
+  "universal": false
+ },
+ "comsol": {
+  "identity_count": 20,
+  "needs": [
+   "fea-simulation"
+  ],
+  "sectors": {
+   "energy": 2,
+   "engineering": 18
+  },
+  "universal": false
+ },
+ "confluence": {
+  "identity_count": 11,
+  "needs": [
+   "technical-writing"
+  ],
+  "sectors": {
+   "technology": 11
+  },
+  "universal": false
+ },
+ "connected-papers": {
+  "identity_count": 112,
+  "needs": [
+   "literature-review"
+  ],
+  "sectors": {
+   "data": 1,
+   "education": 34,
+   "faith": 1,
+   "health": 1,
+   "life": 1,
+   "science": 74
+  },
+  "universal": false
+ },
+ "contra": {
+  "identity_count": 11,
+  "needs": [
+   "freelancing"
+  ],
+  "sectors": {
+   "business": 2,
+   "life": 9
+  },
+  "universal": false
+ },
+ "costx": {
+  "identity_count": 26,
+  "needs": [
+   "cost-estimation"
+  ],
+  "sectors": {
+   "construction": 1,
+   "energy": 2,
+   "engineering": 23
+  },
+  "universal": false
+ },
+ "coursera": {
+  "identity_count": 267,
+  "needs": [
+   "learn-online",
+   "cpd-learning"
+  ],
+  "sectors": {
+   "health": 254,
+   "life": 12,
+   "technology": 1
+  },
+  "universal": true
+ },
+ "covetrus-pulse": {
+  "identity_count": 7,
+  "needs": [
+   "veterinary-practice"
+  ],
+  "sectors": {
+   "health": 7
+  },
+  "universal": false
+ },
+ "cozi": {
+  "identity_count": 39,
+  "needs": [
+   "family-organisation"
+  ],
+  "sectors": {
+   "life": 39
+  },
+  "universal": false
+ },
+ "crisp": {
+  "identity_count": 193,
+  "needs": [
+   "customer-support"
+  ],
+  "sectors": {
+   "business": 127,
+   "health": 1,
+   "hospitality": 63,
+   "marketing": 2
+  },
+  "universal": false
+ },
+ "cronometer": {
+  "identity_count": 61,
+  "needs": [
+   "nutrition-planning"
+  ],
+  "sectors": {
+   "health": 2,
+   "sports": 59
+  },
+  "universal": false
+ },
+ "csi-safe": {
+  "identity_count": 21,
+  "needs": [
+   "structural-analysis"
+  ],
+  "sectors": {
+   "engineering": 21
+  },
+  "universal": false
+ },
+ "cursor": {
+  "identity_count": 151,
+  "needs": [
+   "write-code"
+  ],
+  "sectors": {
+   "education": 2,
+   "engineering": 2,
+   "technology": 147
+  },
+  "universal": false
+ },
+ "curve-dental": {
+  "identity_count": 14,
+  "needs": [
+   "dental-practice"
+  ],
+  "sectors": {
+   "health": 14
+  },
+  "universal": false
+ },
+ "cutlist-optimizer": {
+  "identity_count": 3,
+  "needs": [
+   "woodworking-design"
+  ],
+  "sectors": {
+   "construction": 1,
+   "creative": 1,
+   "manufacturing": 1
+  },
+  "universal": false
+ },
+ "cypress": {
+  "identity_count": 56,
+  "needs": [
+   "test-automation"
+  ],
+  "sectors": {
+   "technology": 56
+  },
+  "universal": false
+ },
+ "d5-render": {
+  "identity_count": 17,
+  "needs": [
+   "architectural-visualisation"
+  ],
+  "sectors": {
+   "engineering": 17
+  },
+  "universal": false
+ },
+ "darktable": {
+  "identity_count": 44,
+  "needs": [
+   "photography-workflow"
+  ],
+  "sectors": {
+   "creative": 42,
+   "faith": 1,
+   "sports": 1
+  },
+  "universal": false
+ },
+ "dartfish": {
+  "identity_count": 69,
+  "needs": [
+   "movement-analysis",
+   "match-video-analysis"
+  ],
+  "sectors": {
+   "creative": 1,
+   "health": 9,
+   "sports": 59
+  },
+  "universal": false
+ },
+ "databricks": {
+  "identity_count": 3,
+  "needs": [
+   "data-pipelines"
+  ],
+  "sectors": {
+   "data": 2,
+   "technology": 1
+  },
+  "universal": false
+ },
+ "datadog": {
+  "identity_count": 15,
+  "needs": [
+   "observability"
+  ],
+  "sectors": {
+   "technology": 15
+  },
+  "universal": false
+ },
+ "datamine": {
+  "identity_count": 21,
+  "needs": [
+   "mine-planning"
+  ],
+  "sectors": {
+   "energy": 21
+  },
+  "universal": false
+ },
+ "datawrapper": {
+  "identity_count": 89,
+  "needs": [
+   "data-visualisation",
+   "open-data"
+  ],
+  "sectors": {
+   "creative": 3,
+   "data": 31,
+   "public-sector": 55
+  },
+  "universal": false
+ },
+ "davinci-resolve": {
+  "identity_count": 47,
+  "needs": [
+   "video-editing-pro"
+  ],
+  "sectors": {
+   "creative": 44,
+   "education": 1,
+   "engineering": 1,
+   "faith": 1
+  },
+  "universal": false
+ },
+ "dbeaver": {
+  "identity_count": 83,
+  "needs": [
+   "databases",
+   "sql-querying"
+  ],
+  "sectors": {
+   "business": 1,
+   "creative": 1,
+   "data": 31,
+   "engineering": 1,
+   "health": 2,
+   "technology": 47
+  },
+  "universal": false
+ },
+ "dbt": {
+  "identity_count": 3,
+  "needs": [
+   "data-pipelines"
+  ],
+  "sectors": {
+   "data": 2,
+   "technology": 1
+  },
+  "universal": false
+ },
+ "decidim": {
+  "identity_count": 79,
+  "needs": [
+   "public-consultation"
+  ],
+  "sectors": {
+   "engineering": 1,
+   "public-sector": 78
+  },
+  "universal": false
+ },
+ "deel": {
+  "identity_count": 109,
+  "needs": [
+   "payroll",
+   "people-management"
+  ],
+  "sectors": {
+   "agriculture": 1,
+   "business": 75,
+   "education": 2,
+   "faith": 1,
+   "finance": 25,
+   "health": 1,
+   "hospitality": 1,
+   "technology": 3
+  },
+  "universal": false
+ },
+ "deepl": {
+  "identity_count": 456,
+  "needs": [
+   "translate-languages",
+   "patient-education",
+   "customer-support"
+  ],
+  "sectors": {
+   "agriculture": 1,
+   "business": 127,
+   "creative": 1,
+   "education": 1,
+   "faith": 2,
+   "health": 254,
+   "hospitality": 63,
+   "law": 1,
+   "life": 2,
+   "marketing": 2,
+   "public-sector": 2
+  },
+  "universal": true
+ },
+ "dentrix": {
+  "identity_count": 14,
+  "needs": [
+   "dental-practice"
+  ],
+  "sectors": {
+   "health": 14
+  },
+  "universal": false
+ },
+ "deputy": {
+  "identity_count": 48,
+  "needs": [
+   "shift-rota"
+  ],
+  "sectors": {
+   "health": 47,
+   "social-care": 1
+  },
+  "universal": false
+ },
+ "descript": {
+  "identity_count": 26,
+  "needs": [
+   "podcast-production"
+  ],
+  "sectors": {
+   "creative": 26
+  },
+  "universal": false
+ },
+ "deswik": {
+  "identity_count": 21,
+  "needs": [
+   "mine-planning"
+  ],
+  "sectors": {
+   "energy": 21
+  },
+  "universal": false
+ },
+ "dhis2": {
+  "identity_count": 106,
+  "needs": [
+   "public-health-data",
+   "monitoring-evaluation"
+  ],
+  "sectors": {
+   "business": 1,
+   "data": 1,
+   "health": 26,
+   "public-sector": 78
+  },
+  "universal": false
+ },
+ "dialux": {
+  "identity_count": 40,
+  "needs": [
+   "electrical-design"
+  ],
+  "sectors": {
+   "construction": 1,
+   "energy": 16,
+   "engineering": 23
+  },
+  "universal": false
+ },
+ "distrokid": {
+  "identity_count": 51,
+  "needs": [
+   "release-music"
+  ],
+  "sectors": {
+   "creative": 51
+  },
+  "universal": false
+ },
+ "docker": {
+  "identity_count": 60,
+  "needs": [
+   "devops-cicd",
+   "containers-orchestration"
+  ],
+  "sectors": {
+   "technology": 60
+  },
+  "universal": false
+ },
+ "docusaurus": {
+  "identity_count": 11,
+  "needs": [
+   "technical-writing"
+  ],
+  "sectors": {
+   "technology": 11
+  },
+  "universal": false
+ },
+ "docusign": {
+  "identity_count": 49,
+  "needs": [
+   "e-signatures",
+   "contract-drafting"
+  ],
+  "sectors": {
+   "creative": 3,
+   "law": 45,
+   "sports": 1
+  },
+  "universal": true
+ },
+ "donorbox": {
+  "identity_count": 64,
+  "needs": [
+   "fundraising",
+   "online-giving"
+  ],
+  "sectors": {
+   "business": 1,
+   "faith": 38,
+   "marketing": 1,
+   "public-sector": 23,
+   "social-care": 1
+  },
+  "universal": false
+ },
+ "dorico": {
+  "identity_count": 53,
+  "needs": [
+   "music-notation"
+  ],
+  "sectors": {
+   "creative": 51,
+   "education": 1,
+   "faith": 1
+  },
+  "universal": false
+ },
+ "dovetail": {
+  "identity_count": 22,
+  "needs": [
+   "product-discovery",
+   "user-research"
+  ],
+  "sectors": {
+   "engineering": 1,
+   "finance": 1,
+   "technology": 20
+  },
+  "universal": false
+ },
+ "doxy-me": {
+  "identity_count": 254,
+  "needs": [
+   "telemedicine",
+   "therapy-practice-admin"
+  ],
+  "sectors": {
+   "health": 254
+  },
+  "universal": false
+ },
+ "draftsight": {
+  "identity_count": 151,
+  "needs": [
+   "cad-drafting"
+  ],
+  "sectors": {
+   "agriculture": 1,
+   "construction": 1,
+   "education": 1,
+   "engineering": 147,
+   "health": 1
+  },
+  "universal": false
+ },
+ "draw-io": {
+  "identity_count": 167,
+  "needs": [
+   "diagramming",
+   "process-mapping"
+  ],
+  "sectors": {
+   "business": 6,
+   "engineering": 13,
+   "finance": 1,
+   "technology": 147
+  },
+  "universal": false
+ },
+ "drawboard-pdf": {
+  "identity_count": 38,
+  "needs": [
+   "drawing-markup"
+  ],
+  "sectors": {
+   "engineering": 38
+  },
+  "universal": false
+ },
+ "dropbox": {
+  "identity_count": 32,
+  "needs": [
+   "files-cloud-storage"
+  ],
+  "sectors": {
+   "business": 32
+  },
+  "universal": true
+ },
+ "drugs-com": {
+  "identity_count": 103,
+  "needs": [
+   "drug-information"
+  ],
+  "sectors": {
+   "health": 103
+  },
+  "universal": false
+ },
+ "duolingo": {
+  "identity_count": 7,
+  "needs": [
+   "language-learning"
+  ],
+  "sectors": {
+   "education": 2,
+   "faith": 1,
+   "hospitality": 1,
+   "life": 2,
+   "transport": 1
+  },
+  "universal": true
+ },
+ "dwsim": {
+  "identity_count": 13,
+  "needs": [
+   "process-simulation"
+  ],
+  "sectors": {
+   "energy": 3,
+   "engineering": 10
+  },
+  "universal": false
+ },
+ "easyship": {
+  "identity_count": 124,
+  "needs": [
+   "shipment-tracking"
+  ],
+  "sectors": {
+   "business": 1,
+   "public-sector": 1,
+   "transport": 122
+  },
+  "universal": false
+ },
+ "easyworship": {
+  "identity_count": 39,
+  "needs": [
+   "worship-presentation"
+  ],
+  "sectors": {
+   "creative": 1,
+   "faith": 38
+  },
+  "universal": false
+ },
+ "ebay": {
+  "identity_count": 57,
+  "needs": [
+   "marketplace-selling"
+  ],
+  "sectors": {
+   "business": 56,
+   "creative": 1
+  },
+  "universal": false
+ },
+ "ebird": {
+  "identity_count": 23,
+  "needs": [
+   "environmental-monitoring"
+  ],
+  "sectors": {
+   "agriculture": 19,
+   "business": 1,
+   "engineering": 1,
+   "finance": 1,
+   "science": 1
+  },
+  "universal": false
+ },
+ "eclipse": {
+  "identity_count": 39,
+  "needs": [
+   "reservoir-modelling"
+  ],
+  "sectors": {
+   "energy": 39
+  },
+  "universal": false
+ },
+ "edx": {
+  "identity_count": 13,
+  "needs": [
+   "learn-online"
+  ],
+  "sectors": {
+   "life": 12,
+   "technology": 1
+  },
+  "universal": true
+ },
+ "elabftw": {
+  "identity_count": 69,
+  "needs": [
+   "lab-data"
+  ],
+  "sectors": {
+   "agriculture": 2,
+   "energy": 2,
+   "engineering": 3,
+   "health": 9,
+   "manufacturing": 1,
+   "science": 52
+  },
+  "universal": false
+ },
+ "elastic": {
+  "identity_count": 13,
+  "needs": [
+   "security-operations"
+  ],
+  "sectors": {
+   "finance": 1,
+   "technology": 12
+  },
+  "universal": false
+ },
+ "enscape": {
+  "identity_count": 17,
+  "needs": [
+   "interior-design",
+   "architectural-visualisation"
+  ],
+  "sectors": {
+   "engineering": 17
+  },
+  "universal": false
+ },
+ "eos-crop-monitoring": {
+  "identity_count": 91,
+  "needs": [
+   "crop-monitoring"
+  ],
+  "sectors": {
+   "agriculture": 89,
+   "engineering": 1,
+   "public-sector": 1
+  },
+  "universal": false
+ },
+ "epa-swmm": {
+  "identity_count": 13,
+  "needs": [
+   "hydraulic-modelling"
+  ],
+  "sectors": {
+   "agriculture": 1,
+   "energy": 1,
+   "engineering": 11
+  },
+  "universal": false
+ },
+ "epanet": {
+  "identity_count": 13,
+  "needs": [
+   "hydraulic-modelling"
+  ],
+  "sectors": {
+   "agriculture": 1,
+   "energy": 1,
+   "engineering": 11
+  },
+  "universal": false
+ },
+ "epi-info": {
+  "identity_count": 81,
+  "needs": [
+   "health-research-data",
+   "public-health-data"
+  ],
+  "sectors": {
+   "data": 2,
+   "health": 78,
+   "science": 1
+  },
+  "universal": false
+ },
+ "epic": {
+  "identity_count": 254,
+  "needs": [
+   "electronic-health-records"
+  ],
+  "sectors": {
+   "health": 254
+  },
+  "universal": false
+ },
+ "eplan": {
+  "identity_count": 40,
+  "needs": [
+   "electrical-design"
+  ],
+  "sectors": {
+   "construction": 1,
+   "energy": 16,
+   "engineering": 23
+  },
+  "universal": false
+ },
+ "epocrates": {
+  "identity_count": 103,
+  "needs": [
+   "drug-information"
+  ],
+  "sectors": {
+   "health": 103
+  },
+  "universal": false
+ },
+ "erpnext": {
+  "identity_count": 3,
+  "needs": [
+   "erp"
+  ],
+  "sectors": {
+   "business": 2,
+   "technology": 1
+  },
+  "universal": false
+ },
+ "esoko": {
+  "identity_count": 159,
+  "needs": [
+   "agri-market-access"
+  ],
+  "sectors": {
+   "agriculture": 158,
+   "business": 1
+  },
+  "universal": false
+ },
+ "etabs": {
+  "identity_count": 21,
+  "needs": [
+   "structural-analysis"
+  ],
+  "sectors": {
+   "engineering": 21
+  },
+  "universal": false
+ },
+ "etap": {
+  "identity_count": 40,
+  "needs": [
+   "electrical-design"
+  ],
+  "sectors": {
+   "construction": 1,
+   "energy": 16,
+   "engineering": 23
+  },
+  "universal": false
+ },
+ "etsy": {
+  "identity_count": 131,
+  "needs": [
+   "sell-art-online",
+   "marketplace-selling"
+  ],
+  "sectors": {
+   "business": 56,
+   "creative": 16,
+   "manufacturing": 59
+  },
+  "universal": false
+ },
+ "eventbrite": {
+  "identity_count": 57,
+  "needs": [
+   "events-management"
+  ],
+  "sectors": {
+   "beauty": 3,
+   "creative": 1,
+   "faith": 14,
+   "hospitality": 7,
+   "life": 10,
+   "marketing": 21,
+   "sports": 1
+  },
+  "universal": false
+ },
+ "everbridge": {
+  "identity_count": 49,
+  "needs": [
+   "emergency-comms"
+  ],
+  "sectors": {
+   "health": 2,
+   "public-sector": 1,
+   "security": 46
+  },
+  "universal": false
+ },
+ "everfit": {
+  "identity_count": 31,
+  "needs": [
+   "online-coaching"
+  ],
+  "sectors": {
+   "creative": 1,
+   "sports": 30
+  },
+  "universal": false
+ },
+ "everlaw": {
+  "identity_count": 37,
+  "needs": [
+   "ediscovery"
+  ],
+  "sectors": {
+   "finance": 1,
+   "law": 36
+  },
+  "universal": false
+ },
+ "excalidraw": {
+  "identity_count": 148,
+  "needs": [
+   "diagramming"
+  ],
+  "sectors": {
+   "business": 1,
+   "technology": 147
+  },
+  "universal": false
+ },
+ "expo": {
+  "identity_count": 2,
+  "needs": [
+   "mobile-app-dev"
+  ],
+  "sectors": {
+   "technology": 2
+  },
+  "universal": false
+ },
+ "ezyvet": {
+  "identity_count": 7,
+  "needs": [
+   "veterinary-practice"
+  ],
+  "sectors": {
+   "health": 7
+  },
+  "universal": false
+ },
+ "facebook-marketplace": {
+  "identity_count": 159,
+  "needs": [
+   "agri-market-access"
+  ],
+  "sectors": {
+   "agriculture": 158,
+   "business": 1
+  },
+  "universal": false
+ },
+ "fareharbor": {
+  "identity_count": 20,
+  "needs": [
+   "tour-booking"
+  ],
+  "sectors": {
+   "hospitality": 20
+  },
+  "universal": false
+ },
+ "farmbrite": {
+  "identity_count": 158,
+  "needs": [
+   "farm-records"
+  ],
+  "sectors": {
+   "agriculture": 158
+  },
+  "universal": false
+ },
+ "fieldwire": {
+  "identity_count": 193,
+  "needs": [
+   "site-management"
+  ],
+  "sectors": {
+   "construction": 171,
+   "engineering": 22
+  },
+  "universal": false
+ },
+ "figma": {
+  "identity_count": 34,
+  "needs": [
+   "ui-ux-design",
+   "graphic-design-pro",
+   "brand-identity"
+  ],
+  "sectors": {
+   "business": 1,
+   "creative": 27,
+   "marketing": 1,
+   "technology": 5
+  },
+  "universal": false
+ },
+ "figshare": {
+  "identity_count": 75,
+  "needs": [
+   "research-data-management"
+  ],
+  "sectors": {
+   "data": 1,
+   "science": 74
+  },
+  "universal": false
+ },
+ "fiix": {
+  "identity_count": 304,
+  "needs": [
+   "maintenance-cmms"
+  ],
+  "sectors": {
+   "agriculture": 1,
+   "construction": 1,
+   "energy": 55,
+   "engineering": 56,
+   "health": 1,
+   "manufacturing": 187,
+   "transport": 3
+  },
+  "universal": false
+ },
+ "final-cut-pro": {
+  "identity_count": 47,
+  "needs": [
+   "video-editing-pro"
+  ],
+  "sectors": {
+   "creative": 44,
+   "education": 1,
+   "engineering": 1,
+   "faith": 1
+  },
+  "universal": false
+ },
+ "findhelp": {
+  "identity_count": 27,
+  "needs": [
+   "service-referral"
+  ],
+  "sectors": {
+   "life": 1,
+   "social-care": 26
+  },
+  "universal": false
+ },
+ "firefox": {
+  "identity_count": 32,
+  "needs": [
+   "browser-productivity"
+  ],
+  "sectors": {
+   "business": 32
+  },
+  "universal": false
+ },
+ "fiverr": {
+  "identity_count": 11,
+  "needs": [
+   "freelancing"
+  ],
+  "sectors": {
+   "business": 2,
+   "life": 9
+  },
+  "universal": false
+ },
+ "fl-studio": {
+  "identity_count": 57,
+  "needs": [
+   "audio-production"
+  ],
+  "sectors": {
+   "creative": 54,
+   "education": 1,
+   "faith": 1,
+   "sports": 1
+  },
+  "universal": false
+ },
+ "flightradar24": {
+  "identity_count": 124,
+  "needs": [
+   "shipment-tracking"
+  ],
+  "sectors": {
+   "business": 1,
+   "public-sector": 1,
+   "transport": 122
+  },
+  "universal": false
+ },
+ "flourish": {
+  "identity_count": 34,
+  "needs": [
+   "data-visualisation"
+  ],
+  "sectors": {
+   "creative": 3,
+   "data": 31
+  },
+  "universal": false
+ },
+ "flutter": {
+  "identity_count": 2,
+  "needs": [
+   "mobile-app-dev"
+  ],
+  "sectors": {
+   "technology": 2
+  },
+  "universal": false
+ },
+ "flutterwave": {
+  "identity_count": 183,
+  "needs": [
+   "online-payments"
+  ],
+  "sectors": {
+   "beauty": 69,
+   "business": 53,
+   "creative": 1,
+   "education": 1,
+   "manufacturing": 59
+  },
+  "universal": true
+ },
+ "foreflight": {
+  "identity_count": 24,
+  "needs": [
+   "flight-planning"
+  ],
+  "sectors": {
+   "security": 1,
+   "transport": 23
+  },
+  "universal": false
+ },
+ "framer": {
+  "identity_count": 6,
+  "needs": [
+   "ui-ux-design"
+  ],
+  "sectors": {
+   "creative": 1,
+   "technology": 5
+  },
+  "universal": false
+ },
+ "freecad": {
+  "identity_count": 153,
+  "needs": [
+   "cad-drafting",
+   "mechanical-design",
+   "cnc-cam"
+  ],
+  "sectors": {
+   "agriculture": 1,
+   "construction": 1,
+   "creative": 1,
+   "education": 1,
+   "engineering": 147,
+   "health": 1,
+   "manufacturing": 1
+  },
+  "universal": false
+ },
+ "freecodecamp": {
+  "identity_count": 13,
+  "needs": [
+   "learn-online"
+  ],
+  "sectors": {
+   "life": 12,
+   "technology": 1
+  },
+  "universal": true
+ },
+ "freeshow": {
+  "identity_count": 39,
+  "needs": [
+   "worship-presentation"
+  ],
+  "sectors": {
+   "creative": 1,
+   "faith": 38
+  },
+  "universal": false
+ },
+ "freightos": {
+  "identity_count": 124,
+  "needs": [
+   "shipment-tracking"
+  ],
+  "sectors": {
+   "business": 1,
+   "public-sector": 1,
+   "transport": 122
+  },
+  "universal": false
+ },
+ "fresha": {
+  "identity_count": 186,
+  "needs": [
+   "booking-appointments",
+   "salon-booking"
+  ],
+  "sectors": {
+   "beauty": 89,
+   "business": 25,
+   "construction": 1,
+   "creative": 3,
+   "education": 1,
+   "health": 1,
+   "hospitality": 63,
+   "marketing": 1,
+   "sports": 1,
+   "transport": 1
+  },
+  "universal": false
+ },
+ "freshdesk": {
+  "identity_count": 193,
+  "needs": [
+   "customer-support"
+  ],
+  "sectors": {
+   "business": 127,
+   "health": 1,
+   "hospitality": 63,
+   "marketing": 2
+  },
+  "universal": false
+ },
+ "freshservice": {
+  "identity_count": 34,
+  "needs": [
+   "it-helpdesk"
+  ],
+  "sectors": {
+   "technology": 34
+  },
+  "universal": false
+ },
+ "ftk-imager": {
+  "identity_count": 5,
+  "needs": [
+   "digital-forensics"
+  ],
+  "sectors": {
+   "science": 1,
+   "security": 3,
+   "technology": 1
+  },
+  "universal": false
+ },
+ "fundsforngos": {
+  "identity_count": 24,
+  "needs": [
+   "grant-finding"
+  ],
+  "sectors": {
+   "education": 1,
+   "public-sector": 23
+  },
+  "universal": false
+ },
+ "fusion-360": {
+  "identity_count": 19,
+  "needs": [
+   "mechanical-design",
+   "woodworking-design",
+   "cnc-cam"
+  ],
+  "sectors": {
+   "construction": 1,
+   "creative": 2,
+   "engineering": 14,
+   "manufacturing": 2
+  },
+  "universal": false
+ },
+ "ganttproject": {
+  "identity_count": 155,
+  "needs": [
+   "project-scheduling"
+  ],
+  "sectors": {
+   "business": 1,
+   "construction": 3,
+   "creative": 2,
+   "energy": 2,
+   "engineering": 147
+  },
+  "universal": false
+ },
+ "garageband": {
+  "identity_count": 57,
+  "needs": [
+   "audio-production"
+  ],
+  "sectors": {
+   "creative": 54,
+   "education": 1,
+   "faith": 1,
+   "sports": 1
+  },
+  "universal": false
+ },
+ "garmin-connect": {
+  "identity_count": 63,
+  "needs": [
+   "training-load"
+  ],
+  "sectors": {
+   "health": 4,
+   "sports": 59
+  },
+  "universal": false
+ },
+ "garmin-pilot": {
+  "identity_count": 24,
+  "needs": [
+   "flight-planning"
+  ],
+  "sectors": {
+   "security": 1,
+   "transport": 23
+  },
+  "universal": false
+ },
+ "gatling": {
+  "identity_count": 11,
+  "needs": [
+   "performance-testing"
+  ],
+  "sectors": {
+   "technology": 11
+  },
+  "universal": false
+ },
+ "gcfglobal": {
+  "identity_count": 65,
+  "needs": [
+   "digital-basics"
+  ],
+  "sectors": {
+   "agriculture": 13,
+   "life": 39,
+   "manufacturing": 13
+  },
+  "universal": false
+ },
+ "gemini": {
+  "identity_count": 147,
+  "needs": [
+   "use-ai-assistants"
+  ],
+  "sectors": {
+   "technology": 147
+  },
+  "universal": true
+ },
+ "geostudio": {
+  "identity_count": 3,
+  "needs": [
+   "geotechnical-analysis"
+  ],
+  "sectors": {
+   "energy": 1,
+   "engineering": 2
+  },
+  "universal": false
+ },
+ "getyourguide": {
+  "identity_count": 20,
+  "needs": [
+   "tour-booking"
+  ],
+  "sectors": {
+   "hospitality": 20
+  },
+  "universal": false
+ },
+ "ghost": {
+  "identity_count": 1,
+  "needs": [
+   "newsletter-publishing"
+  ],
+  "sectors": {
+   "creative": 1
+  },
+  "universal": false
+ },
+ "gimp": {
+  "identity_count": 33,
+  "needs": [
+   "photo-editing",
+   "graphic-design-pro"
+  ],
+  "sectors": {
+   "business": 1,
+   "creative": 28,
+   "health": 3,
+   "technology": 1
+  },
+  "universal": true
+ },
+ "git": {
+  "identity_count": 148,
+  "needs": [
+   "version-control"
+  ],
+  "sectors": {
+   "engineering": 1,
+   "technology": 147
+  },
+  "universal": false
+ },
+ "gitbook": {
+  "identity_count": 11,
+  "needs": [
+   "technical-writing"
+  ],
+  "sectors": {
+   "technology": 11
+  },
+  "universal": false
+ },
+ "github": {
+  "identity_count": 223,
+  "needs": [
+   "version-control",
+   "agile-tracking",
+   "research-data-management"
+  ],
+  "sectors": {
+   "data": 1,
+   "engineering": 1,
+   "science": 74,
+   "technology": 147
+  },
+  "universal": false
+ },
+ "github-actions": {
+  "identity_count": 60,
+  "needs": [
+   "devops-cicd"
+  ],
+  "sectors": {
+   "technology": 60
+  },
+  "universal": false
+ },
+ "github-copilot": {
+  "identity_count": 151,
+  "needs": [
+   "write-code"
+  ],
+  "sectors": {
+   "education": 2,
+   "engineering": 2,
+   "technology": 147
+  },
+  "universal": false
+ },
+ "gitlab": {
+  "identity_count": 148,
+  "needs": [
+   "version-control",
+   "devops-cicd"
+  ],
+  "sectors": {
+   "engineering": 1,
+   "technology": 147
+  },
+  "universal": false
+ },
+ "glassdoor": {
+  "identity_count": 12,
+  "needs": [
+   "job-search"
+  ],
+  "sectors": {
+   "education": 1,
+   "life": 10,
+   "security": 1
+  },
+  "universal": true
+ },
+ "glide": {
+  "identity_count": 1,
+  "needs": [
+   "no-code-apps"
+  ],
+  "sectors": {
+   "technology": 1
+  },
+  "universal": false
+ },
+ "global-forest-watch": {
+  "identity_count": 23,
+  "needs": [
+   "environmental-monitoring"
+  ],
+  "sectors": {
+   "agriculture": 19,
+   "business": 1,
+   "engineering": 1,
+   "finance": 1,
+   "science": 1
+  },
+  "universal": false
+ },
+ "glofox": {
+  "identity_count": 3,
+  "needs": [
+   "gym-membership"
+  ],
+  "sectors": {
+   "sports": 3
+  },
+  "universal": false
+ },
+ "glpi": {
+  "identity_count": 34,
+  "needs": [
+   "it-helpdesk"
+  ],
+  "sectors": {
+   "technology": 34
+  },
+  "universal": false
+ },
+ "gmail": {
+  "identity_count": 69,
+  "needs": [
+   "email-and-calendar"
+  ],
+  "sectors": {
+   "business": 69
+  },
+  "universal": true
+ },
+ "gns3": {
+  "identity_count": 48,
+  "needs": [
+   "networking"
+  ],
+  "sectors": {
+   "engineering": 2,
+   "technology": 46
+  },
+  "universal": false
+ },
+ "godot": {
+  "identity_count": 2,
+  "needs": [
+   "game-development"
+  ],
+  "sectors": {
+   "technology": 2
+  },
+  "universal": false
+ },
+ "gofundme": {
+  "identity_count": 26,
+  "needs": [
+   "fundraising"
+  ],
+  "sectors": {
+   "business": 1,
+   "marketing": 1,
+   "public-sector": 23,
+   "social-care": 1
+  },
+  "universal": false
+ },
+ "google-ads": {
+  "identity_count": 27,
+  "needs": [
+   "online-ads"
+  ],
+  "sectors": {
+   "creative": 1,
+   "marketing": 25,
+   "technology": 1
+  },
+  "universal": false
+ },
+ "google-alerts": {
+  "identity_count": 20,
+  "needs": [
+   "pr-media-monitoring"
+  ],
+  "sectors": {
+   "marketing": 20
+  },
+  "universal": false
+ },
+ "google-analytics": {
+  "identity_count": 104,
+  "needs": [
+   "product-analytics",
+   "seo",
+   "web-analytics"
+  ],
+  "sectors": {
+   "creative": 3,
+   "data": 1,
+   "marketing": 79,
+   "technology": 21
+  },
+  "universal": false
+ },
+ "google-apps-script": {
+  "identity_count": 4,
+  "needs": [
+   "automation-workflows"
+  ],
+  "sectors": {
+   "business": 1,
+   "law": 1,
+   "marketing": 1,
+   "technology": 1
+  },
+  "universal": false
+ },
+ "google-authenticator": {
+  "identity_count": 45,
+  "needs": [
+   "online-safety"
+  ],
+  "sectors": {
+   "technology": 45
+  },
+  "universal": true
+ },
+ "google-business-profile": {
+  "identity_count": 74,
+  "needs": [
+   "property-marketing",
+   "reviews-reputation"
+  ],
+  "sectors": {
+   "construction": 10,
+   "hospitality": 63,
+   "marketing": 1
+  },
+  "universal": false
+ },
+ "google-calendar": {
+  "identity_count": 258,
+  "needs": [
+   "email-and-calendar",
+   "clinic-scheduling",
+   "veterinary-practice",
+   "pastoral-care",
+   "care-coordination",
+   "family-organisation"
+  ],
+  "sectors": {
+   "business": 69,
+   "faith": 38,
+   "health": 86,
+   "life": 39,
+   "social-care": 26
+  },
+  "universal": true
+ },
+ "google-chrome": {
+  "identity_count": 32,
+  "needs": [
+   "browser-productivity"
+  ],
+  "sectors": {
+   "business": 32
+  },
+  "universal": false
+ },
+ "google-classroom": {
+  "identity_count": 74,
+  "needs": [
+   "virtual-classroom",
+   "grading-feedback"
+  ],
+  "sectors": {
+   "business": 1,
+   "education": 73
+  },
+  "universal": false
+ },
+ "google-cloud": {
+  "identity_count": 63,
+  "needs": [
+   "cloud-infrastructure"
+  ],
+  "sectors": {
+   "data": 1,
+   "technology": 62
+  },
+  "universal": false
+ },
+ "google-colab": {
+  "identity_count": 35,
+  "needs": [
+   "machine-learning",
+   "notebooks"
+  ],
+  "sectors": {
+   "data": 31,
+   "technology": 4
+  },
+  "universal": false
+ },
+ "google-docs": {
+  "identity_count": 493,
+  "needs": [
+   "write-clearly",
+   "documents-basics",
+   "voice-typing-transcription",
+   "cv-portfolio",
+   "exercise-prescription",
+   "lesson-planning",
+   "accessible-materials",
+   "book-writing-publishing",
+   "business-planning",
+   "meeting-minutes"
+  ],
+  "sectors": {
+   "agriculture": 1,
+   "business": 224,
+   "creative": 44,
+   "education": 106,
+   "faith": 2,
+   "health": 55,
+   "law": 45,
+   "life": 10,
+   "public-sector": 2,
+   "science": 1,
+   "security": 1,
+   "technology": 1,
+   "transport": 1
+  },
+  "universal": true
+ },
+ "google-drive": {
+  "identity_count": 170,
+  "needs": [
+   "files-cloud-storage",
+   "scan-documents",
+   "records-management"
+  ],
+  "sectors": {
+   "business": 32,
+   "creative": 1,
+   "data": 1,
+   "education": 2,
+   "finance": 2,
+   "health": 16,
+   "hospitality": 1,
+   "law": 9,
+   "public-sector": 78,
+   "social-care": 26,
+   "technology": 2
+  },
+  "universal": true
+ },
+ "google-earth-engine": {
+  "identity_count": 192,
+  "needs": [
+   "gis-mapping",
+   "crop-monitoring"
+  ],
+  "sectors": {
+   "agriculture": 107,
+   "data": 1,
+   "education": 1,
+   "energy": 34,
+   "engineering": 23,
+   "health": 22,
+   "public-sector": 3,
+   "security": 1
+  },
+  "universal": false
+ },
+ "google-earth-pro": {
+  "identity_count": 143,
+  "needs": [
+   "gis-mapping",
+   "osint-research"
+  ],
+  "sectors": {
+   "agriculture": 20,
+   "creative": 1,
+   "data": 1,
+   "education": 1,
+   "energy": 34,
+   "engineering": 23,
+   "health": 22,
+   "public-sector": 2,
+   "security": 38,
+   "technology": 1
+  },
+  "universal": false
+ },
+ "google-fact-check-explorer": {
+  "identity_count": 45,
+  "needs": [
+   "fact-check",
+   "media-verification"
+  ],
+  "sectors": {
+   "creative": 45
+  },
+  "universal": true
+ },
+ "google-family-link": {
+  "identity_count": 9,
+  "needs": [
+   "kids-online-safety"
+  ],
+  "sectors": {
+   "beauty": 1,
+   "life": 8
+  },
+  "universal": false
+ },
+ "google-forms": {
+  "identity_count": 470,
+  "needs": [
+   "forms-surveys",
+   "user-research",
+   "quizzes-assessment",
+   "research-surveys",
+   "events-management",
+   "recruitment",
+   "public-consultation",
+   "food-safety",
+   "incident-reporting"
+  ],
+  "sectors": {
+   "agriculture": 13,
+   "beauty": 3,
+   "business": 25,
+   "construction": 1,
+   "creative": 1,
+   "data": 1,
+   "education": 106,
+   "energy": 19,
+   "engineering": 5,
+   "faith": 15,
+   "finance": 1,
+   "health": 4,
+   "hospitality": 43,
+   "life": 10,
+   "manufacturing": 33,
+   "marketing": 22,
+   "public-sector": 78,
+   "science": 22,
+   "security": 46,
+   "sports": 1,
+   "technology": 21
+  },
+  "universal": true
+ },
+ "google-keep": {
+  "identity_count": 0,
+  "needs": [
+   "personal-productivity"
+  ],
+  "sectors": {},
+  "universal": true
+ },
+ "google-lens": {
+  "identity_count": 110,
+  "needs": [
+   "fact-check",
+   "media-verification",
+   "digital-basics"
+  ],
+  "sectors": {
+   "agriculture": 13,
+   "creative": 45,
+   "life": 39,
+   "manufacturing": 13
+  },
+  "universal": true
+ },
+ "google-live-transcribe": {
+  "identity_count": 35,
+  "needs": [
+   "accessibility-tools",
+   "voice-typing-transcription",
+   "accessible-communication"
+  ],
+  "sectors": {
+   "creative": 1,
+   "education": 1,
+   "health": 2,
+   "law": 1,
+   "life": 2,
+   "social-care": 26,
+   "sports": 1,
+   "technology": 1
+  },
+  "universal": true
+ },
+ "google-maps": {
+  "identity_count": 261,
+  "needs": [
+   "maps-navigation",
+   "route-planning-fleet",
+   "travel-planning",
+   "service-referral"
+  ],
+  "sectors": {
+   "agriculture": 39,
+   "business": 2,
+   "health": 2,
+   "hospitality": 20,
+   "life": 1,
+   "marketing": 2,
+   "public-sector": 1,
+   "security": 46,
+   "social-care": 26,
+   "transport": 122
+  },
+  "universal": true
+ },
+ "google-meet": {
+  "identity_count": 29,
+  "needs": [
+   "video-meetings"
+  ],
+  "sectors": {
+   "business": 1,
+   "education": 1,
+   "faith": 24,
+   "law": 1,
+   "life": 1,
+   "public-sector": 1
+  },
+  "universal": true
+ },
+ "google-scholar": {
+  "identity_count": 534,
+  "needs": [
+   "find-information",
+   "evidence-based-medicine",
+   "legal-research",
+   "literature-review",
+   "policy-research"
+  ],
+  "sectors": {
+   "creative": 43,
+   "data": 2,
+   "education": 34,
+   "faith": 1,
+   "finance": 1,
+   "health": 254,
+   "law": 45,
+   "life": 1,
+   "marketing": 1,
+   "public-sector": 78,
+   "science": 74
+  },
+  "universal": true
+ },
+ "google-search": {
+  "identity_count": 44,
+  "needs": [
+   "find-information"
+  ],
+  "sectors": {
+   "creative": 43,
+   "education": 1
+  },
+  "universal": true
+ },
+ "google-search-console": {
+  "identity_count": 28,
+  "needs": [
+   "seo"
+  ],
+  "sectors": {
+   "creative": 3,
+   "marketing": 25
+  },
+  "universal": false
+ },
+ "google-sheets": {
+  "identity_count": 808,
+  "needs": [
+   "spreadsheets-basics",
+   "personal-finance",
+   "shift-rota",
+   "financial-modelling",
+   "budgeting-fpa",
+   "grading-feedback",
+   "kpi-tracking",
+   "volunteer-coordination",
+   "farm-records",
+   "driver-earnings",
+   "case-management",
+   "stage-production"
+  ],
+  "sectors": {
+   "agriculture": 158,
+   "business": 224,
+   "construction": 3,
+   "creative": 2,
+   "data": 9,
+   "education": 72,
+   "energy": 3,
+   "faith": 1,
+   "finance": 89,
+   "health": 50,
+   "life": 9,
+   "manufacturing": 1,
+   "marketing": 1,
+   "public-sector": 78,
+   "social-care": 26,
+   "sports": 1,
+   "technology": 2,
+   "transport": 79
+  },
+  "universal": true
+ },
+ "google-sites": {
+  "identity_count": 9,
+  "needs": [
+   "professional-profile"
+  ],
+  "sectors": {
+   "life": 9
+  },
+  "universal": true
+ },
+ "google-slides": {
+  "identity_count": 282,
+  "needs": [
+   "presentations"
+  ],
+  "sectors": {
+   "business": 224,
+   "creative": 1,
+   "education": 1,
+   "marketing": 55,
+   "technology": 1
+  },
+  "universal": true
+ },
+ "google-translate": {
+  "identity_count": 482,
+  "needs": [
+   "translate-languages",
+   "patient-education",
+   "customer-support",
+   "service-referral"
+  ],
+  "sectors": {
+   "agriculture": 1,
+   "business": 127,
+   "creative": 1,
+   "education": 1,
+   "faith": 2,
+   "health": 254,
+   "hospitality": 63,
+   "law": 1,
+   "life": 2,
+   "marketing": 2,
+   "public-sector": 2,
+   "social-care": 26
+  },
+  "universal": true
+ },
+ "google-trends": {
+  "identity_count": 40,
+  "needs": [
+   "market-research"
+  ],
+  "sectors": {
+   "business": 15,
+   "marketing": 25
+  },
+  "universal": false
+ },
+ "gradescope": {
+  "identity_count": 72,
+  "needs": [
+   "grading-feedback"
+  ],
+  "sectors": {
+   "education": 72
+  },
+  "universal": false
+ },
+ "grafana": {
+  "identity_count": 15,
+  "needs": [
+   "observability"
+  ],
+  "sectors": {
+   "technology": 15
+  },
+  "universal": false
+ },
+ "grammarly": {
+  "identity_count": 171,
+  "needs": [
+   "write-clearly",
+   "copywriting"
+  ],
+  "sectors": {
+   "creative": 43,
+   "education": 1,
+   "law": 45,
+   "marketing": 79,
+   "public-sector": 1,
+   "science": 1,
+   "technology": 1
+  },
+  "universal": true
+ },
+ "graphpad-prism": {
+  "identity_count": 75,
+  "needs": [
+   "scientific-figures"
+  ],
+  "sectors": {
+   "education": 1,
+   "science": 74
+  },
+  "universal": false
+ },
+ "gumroad": {
+  "identity_count": 238,
+  "needs": [
+   "creator-income"
+  ],
+  "sectors": {
+   "creative": 237,
+   "education": 1
+  },
+  "universal": false
+ },
+ "gusto": {
+  "identity_count": 48,
+  "needs": [
+   "payroll"
+  ],
+  "sectors": {
+   "business": 24,
+   "finance": 24
+  },
+  "universal": false
+ },
+ "have-i-been-pwned": {
+  "identity_count": 45,
+  "needs": [
+   "online-safety"
+  ],
+  "sectors": {
+   "technology": 45
+  },
+  "universal": true
+ },
+ "headspace": {
+  "identity_count": 14,
+  "needs": [
+   "mindfulness-wellbeing"
+  ],
+  "sectors": {
+   "faith": 1,
+   "health": 12,
+   "sports": 1
+  },
+  "universal": false
+ },
+ "hec-ras": {
+  "identity_count": 13,
+  "needs": [
+   "hydraulic-modelling"
+  ],
+  "sectors": {
+   "agriculture": 1,
+   "energy": 1,
+   "engineering": 11
+  },
+  "universal": false
+ },
+ "heja": {
+  "identity_count": 30,
+  "needs": [
+   "team-organisation"
+  ],
+  "sectors": {
+   "education": 1,
+   "sports": 29
+  },
+  "universal": false
+ },
+ "hemingway-editor": {
+  "identity_count": 171,
+  "needs": [
+   "write-clearly",
+   "copywriting"
+  ],
+  "sectors": {
+   "creative": 43,
+   "education": 1,
+   "law": 45,
+   "marketing": 79,
+   "public-sector": 1,
+   "science": 1,
+   "technology": 1
+  },
+  "universal": true
+ },
+ "herdwatch": {
+  "identity_count": 90,
+  "needs": [
+   "livestock-management"
+  ],
+  "sectors": {
+   "agriculture": 88,
+   "health": 2
+  },
+  "universal": false
+ },
+ "homer-pro": {
+  "identity_count": 19,
+  "needs": [
+   "energy-systems-modelling"
+  ],
+  "sectors": {
+   "energy": 16,
+   "engineering": 3
+  },
+  "universal": false
+ },
+ "homestyler": {
+  "identity_count": 3,
+  "needs": [
+   "interior-design"
+  ],
+  "sectors": {
+   "engineering": 3
+  },
+  "universal": false
+ },
+ "hootsuite": {
+  "identity_count": 52,
+  "needs": [
+   "social-media-management"
+  ],
+  "sectors": {
+   "creative": 25,
+   "marketing": 25,
+   "public-sector": 1,
+   "sports": 1
+  },
+  "universal": false
+ },
+ "horos": {
+  "identity_count": 45,
+  "needs": [
+   "medical-imaging-viewing"
+  ],
+  "sectors": {
+   "health": 45
+  },
+  "universal": false
+ },
+ "hubspot": {
+  "identity_count": 158,
+  "needs": [
+   "crm-sales",
+   "fundraising"
+  ],
+  "sectors": {
+   "business": 2,
+   "construction": 10,
+   "creative": 1,
+   "finance": 39,
+   "marketing": 79,
+   "public-sector": 23,
+   "social-care": 1,
+   "sports": 1,
+   "technology": 2
+  },
+  "universal": false
+ },
+ "hudl": {
+  "identity_count": 69,
+  "needs": [
+   "movement-analysis",
+   "match-video-analysis"
+  ],
+  "sectors": {
+   "creative": 1,
+   "health": 9,
+   "sports": 59
+  },
+  "universal": false
+ },
+ "hugging-face": {
+  "identity_count": 9,
+  "needs": [
+   "machine-learning",
+   "ai-app-development"
+  ],
+  "sectors": {
+   "data": 2,
+   "technology": 7
+  },
+  "universal": false
+ },
+ "ibm-maximo": {
+  "identity_count": 304,
+  "needs": [
+   "maintenance-cmms"
+  ],
+  "sectors": {
+   "agriculture": 1,
+   "construction": 1,
+   "energy": 55,
+   "engineering": 56,
+   "health": 1,
+   "manufacturing": 187,
+   "transport": 3
+  },
+  "universal": false
+ },
+ "idealist": {
+  "identity_count": 11,
+  "needs": [
+   "volunteering"
+  ],
+  "sectors": {
+   "life": 11
+  },
+  "universal": false
+ },
+ "ifixit": {
+  "identity_count": 68,
+  "needs": [
+   "repair-guides"
+  ],
+  "sectors": {
+   "construction": 67,
+   "technology": 1
+  },
+  "universal": false
+ },
+ "ilovepdf": {
+  "identity_count": 47,
+  "needs": [
+   "pdf-work"
+  ],
+  "sectors": {
+   "creative": 1,
+   "law": 45,
+   "manufacturing": 1
+  },
+  "universal": true
+ },
+ "inaturalist": {
+  "identity_count": 23,
+  "needs": [
+   "environmental-monitoring"
+  ],
+  "sectors": {
+   "agriculture": 19,
+   "business": 1,
+   "engineering": 1,
+   "finance": 1,
+   "science": 1
+  },
+  "universal": false
+ },
+ "indeed": {
+  "identity_count": 12,
+  "needs": [
+   "job-search"
+  ],
+  "sectors": {
+   "education": 1,
+   "life": 10,
+   "security": 1
+  },
+  "universal": true
+ },
+ "infoworks-icm": {
+  "identity_count": 13,
+  "needs": [
+   "hydraulic-modelling"
+  ],
+  "sectors": {
+   "agriculture": 1,
+   "energy": 1,
+   "engineering": 11
+  },
+  "universal": false
+ },
+ "inkscape": {
+  "identity_count": 105,
+  "needs": [
+   "graphic-design-pro",
+   "brand-identity",
+   "scientific-figures"
+  ],
+  "sectors": {
+   "business": 1,
+   "creative": 27,
+   "education": 1,
+   "marketing": 1,
+   "science": 74,
+   "technology": 1
+  },
+  "universal": false
+ },
+ "insight-timer": {
+  "identity_count": 14,
+  "needs": [
+   "mindfulness-wellbeing"
+  ],
+  "sectors": {
+   "faith": 1,
+   "health": 12,
+   "sports": 1
+  },
+  "universal": false
+ },
+ "insomnia": {
+  "identity_count": 56,
+  "needs": [
+   "api-testing"
+  ],
+  "sectors": {
+   "technology": 56
+  },
+  "universal": false
+ },
+ "instagram": {
+  "identity_count": 386,
+  "needs": [
+   "artist-profiles",
+   "visual-portfolio"
+  ],
+  "sectors": {
+   "beauty": 89,
+   "creative": 237,
+   "engineering": 1,
+   "manufacturing": 59
+  },
+  "universal": false
+ },
+ "interactive-petrophysics": {
+  "identity_count": 14,
+  "needs": [
+   "petrophysics"
+  ],
+  "sectors": {
+   "energy": 14
+  },
+  "universal": false
+ },
+ "intervals-icu": {
+  "identity_count": 63,
+  "needs": [
+   "training-load"
+  ],
+  "sectors": {
+   "health": 4,
+   "sports": 59
+  },
+  "universal": false
+ },
+ "invid-wevrify": {
+  "identity_count": 45,
+  "needs": [
+   "media-verification"
+  ],
+  "sectors": {
+   "creative": 45
+  },
+  "universal": false
+ },
+ "invoice-ninja": {
+  "identity_count": 223,
+  "needs": [
+   "invoicing",
+   "trade-quotes-invoicing"
+  ],
+  "sectors": {
+   "agriculture": 1,
+   "beauty": 32,
+   "business": 14,
+   "construction": 171,
+   "creative": 1,
+   "energy": 1,
+   "finance": 1,
+   "hospitality": 2
+  },
+  "universal": false
+ },
+ "italki": {
+  "identity_count": 7,
+  "needs": [
+   "language-learning"
+  ],
+  "sectors": {
+   "education": 2,
+   "faith": 1,
+   "hospitality": 1,
+   "life": 2,
+   "transport": 1
+  },
+  "universal": true
+ },
+ "jamovi": {
+  "identity_count": 154,
+  "needs": [
+   "statistical-analysis"
+  ],
+  "sectors": {
+   "agriculture": 2,
+   "data": 31,
+   "education": 34,
+   "energy": 2,
+   "finance": 2,
+   "health": 5,
+   "marketing": 1,
+   "public-sector": 2,
+   "science": 74,
+   "sports": 1
+  },
+  "universal": false
+ },
+ "jane-app": {
+  "identity_count": 92,
+  "needs": [
+   "therapy-practice-admin",
+   "clinic-scheduling"
+  ],
+  "sectors": {
+   "health": 92
+  },
+  "universal": false
+ },
+ "jasp": {
+  "identity_count": 154,
+  "needs": [
+   "statistical-analysis"
+  ],
+  "sectors": {
+   "agriculture": 2,
+   "data": 31,
+   "education": 34,
+   "energy": 2,
+   "finance": 2,
+   "health": 5,
+   "marketing": 1,
+   "public-sector": 2,
+   "science": 74,
+   "sports": 1
+  },
+  "universal": false
+ },
+ "jenkins": {
+  "identity_count": 60,
+  "needs": [
+   "devops-cicd"
+  ],
+  "sectors": {
+   "technology": 60
+  },
+  "universal": false
+ },
+ "jest": {
+  "identity_count": 56,
+  "needs": [
+   "test-automation"
+  ],
+  "sectors": {
+   "technology": 56
+  },
+  "universal": false
+ },
+ "jetbrains-ides": {
+  "identity_count": 151,
+  "needs": [
+   "write-code"
+  ],
+  "sectors": {
+   "education": 2,
+   "engineering": 2,
+   "technology": 147
+  },
+  "universal": false
+ },
+ "jewelsuite": {
+  "identity_count": 4,
+  "needs": [
+   "geomechanics"
+  ],
+  "sectors": {
+   "energy": 4
+  },
+  "universal": false
+ },
+ "jiji": {
+  "identity_count": 215,
+  "needs": [
+   "marketplace-selling",
+   "agri-market-access"
+  ],
+  "sectors": {
+   "agriculture": 158,
+   "business": 56,
+   "creative": 1
+  },
+  "universal": false
+ },
+ "jira": {
+  "identity_count": 147,
+  "needs": [
+   "agile-tracking",
+   "roadmapping"
+  ],
+  "sectors": {
+   "technology": 147
+  },
+  "universal": false
+ },
+ "jira-service-management": {
+  "identity_count": 34,
+  "needs": [
+   "it-helpdesk"
+  ],
+  "sectors": {
+   "technology": 34
+  },
+  "universal": false
+ },
+ "jitsi-meet": {
+  "identity_count": 29,
+  "needs": [
+   "video-meetings"
+  ],
+  "sectors": {
+   "business": 1,
+   "education": 1,
+   "faith": 24,
+   "law": 1,
+   "life": 1,
+   "public-sector": 1
+  },
+  "universal": true
+ },
+ "jmp": {
+  "identity_count": 214,
+  "needs": [
+   "quality-statistics"
+  ],
+  "sectors": {
+   "engineering": 25,
+   "health": 2,
+   "manufacturing": 187
+  },
+  "universal": false
+ },
+ "jobber": {
+  "identity_count": 205,
+  "needs": [
+   "trade-quotes-invoicing"
+  ],
+  "sectors": {
+   "agriculture": 1,
+   "beauty": 32,
+   "construction": 171,
+   "energy": 1
+  },
+  "universal": false
+ },
+ "julia": {
+  "identity_count": 80,
+  "needs": [
+   "scientific-computing"
+  ],
+  "sectors": {
+   "agriculture": 1,
+   "energy": 1,
+   "engineering": 1,
+   "finance": 1,
+   "health": 1,
+   "science": 74,
+   "technology": 1
+  },
+  "universal": false
+ },
+ "jumia": {
+  "identity_count": 57,
+  "needs": [
+   "marketplace-selling"
+  ],
+  "sectors": {
+   "business": 56,
+   "creative": 1
+  },
+  "universal": false
+ },
+ "jupyter": {
+  "identity_count": 354,
+  "needs": [
+   "engineering-data-analysis",
+   "machine-learning",
+   "notebooks",
+   "scientific-computing"
+  ],
+  "sectors": {
+   "agriculture": 1,
+   "data": 31,
+   "energy": 94,
+   "engineering": 147,
+   "finance": 1,
+   "health": 1,
+   "science": 74,
+   "technology": 5
+  },
+  "universal": false
+ },
+ "k6": {
+  "identity_count": 11,
+  "needs": [
+   "performance-testing"
+  ],
+  "sectors": {
+   "technology": 11
+  },
+  "universal": false
+ },
+ "kahoot": {
+  "identity_count": 108,
+  "needs": [
+   "quizzes-assessment"
+  ],
+  "sectors": {
+   "education": 106,
+   "faith": 1,
+   "health": 1
+  },
+  "universal": false
+ },
+ "kali-linux": {
+  "identity_count": 12,
+  "needs": [
+   "security-testing"
+  ],
+  "sectors": {
+   "technology": 12
+  },
+  "universal": false
+ },
+ "katana-mrp": {
+  "identity_count": 201,
+  "needs": [
+   "production-planning"
+  ],
+  "sectors": {
+   "engineering": 14,
+   "manufacturing": 187
+  },
+  "universal": false
+ },
+ "kdenlive": {
+  "identity_count": 47,
+  "needs": [
+   "video-editing-pro"
+  ],
+  "sectors": {
+   "creative": 44,
+   "education": 1,
+   "engineering": 1,
+   "faith": 1
+  },
+  "universal": false
+ },
+ "ketcher": {
+  "identity_count": 2,
+  "needs": [
+   "chemistry-drawing"
+  ],
+  "sectors": {
+   "science": 2
+  },
+  "universal": false
+ },
+ "khan-academy": {
+  "identity_count": 20,
+  "needs": [
+   "learn-online",
+   "study-skills"
+  ],
+  "sectors": {
+   "education": 1,
+   "finance": 1,
+   "health": 2,
+   "law": 1,
+   "life": 12,
+   "sports": 1,
+   "technology": 1,
+   "transport": 1
+  },
+  "universal": true
+ },
+ "kicad": {
+  "identity_count": 108,
+  "needs": [
+   "electrical-design",
+   "repair-guides"
+  ],
+  "sectors": {
+   "construction": 68,
+   "energy": 16,
+   "engineering": 23,
+   "technology": 1
+  },
+  "universal": false
+ },
+ "kinovea": {
+  "identity_count": 69,
+  "needs": [
+   "movement-analysis",
+   "match-video-analysis"
+  ],
+  "sectors": {
+   "creative": 1,
+   "health": 9,
+   "sports": 59
+  },
+  "universal": false
+ },
+ "kit": {
+  "identity_count": 25,
+  "needs": [
+   "email-marketing"
+  ],
+  "sectors": {
+   "marketing": 25
+  },
+  "universal": false
+ },
+ "ko-fi": {
+  "identity_count": 238,
+  "needs": [
+   "creator-income"
+  ],
+  "sectors": {
+   "creative": 237,
+   "education": 1
+  },
+  "universal": false
+ },
+ "kobotoolbox": {
+  "identity_count": 327,
+  "needs": [
+   "forms-surveys",
+   "health-research-data",
+   "public-health-data",
+   "research-surveys",
+   "public-consultation",
+   "monitoring-evaluation",
+   "incident-reporting"
+  ],
+  "sectors": {
+   "agriculture": 12,
+   "business": 26,
+   "construction": 1,
+   "data": 3,
+   "education": 34,
+   "energy": 19,
+   "engineering": 3,
+   "finance": 1,
+   "health": 80,
+   "marketing": 1,
+   "public-sector": 78,
+   "science": 23,
+   "security": 46
+  },
+  "universal": true
+ },
+ "koyfin": {
+  "identity_count": 27,
+  "needs": [
+   "market-research-finance"
+  ],
+  "sectors": {
+   "agriculture": 1,
+   "finance": 26
+  },
+  "universal": false
+ },
+ "krita": {
+  "identity_count": 6,
+  "needs": [
+   "digital-illustration"
+  ],
+  "sectors": {
+   "creative": 5,
+   "education": 1
+  },
+  "universal": false
+ },
+ "kubernetes": {
+  "identity_count": 15,
+  "needs": [
+   "containers-orchestration"
+  ],
+  "sectors": {
+   "technology": 15
+  },
+  "universal": false
+ },
+ "labguru": {
+  "identity_count": 69,
+  "needs": [
+   "lab-data"
+  ],
+  "sectors": {
+   "agriculture": 2,
+   "energy": 2,
+   "engineering": 3,
+   "health": 9,
+   "manufacturing": 1,
+   "science": 52
+  },
+  "universal": false
+ },
+ "landmark-decisionspace": {
+  "identity_count": 26,
+  "needs": [
+   "well-planning-design"
+  ],
+  "sectors": {
+   "energy": 26
+  },
+  "universal": false
+ },
+ "langchain": {
+  "identity_count": 4,
+  "needs": [
+   "ai-app-development"
+  ],
+  "sectors": {
+   "technology": 4
+  },
+  "universal": false
+ },
+ "languagetool": {
+  "identity_count": 213,
+  "needs": [
+   "write-clearly",
+   "academic-writing"
+  ],
+  "sectors": {
+   "creative": 43,
+   "data": 1,
+   "education": 35,
+   "faith": 1,
+   "health": 1,
+   "law": 45,
+   "life": 12,
+   "public-sector": 1,
+   "science": 74
+  },
+  "universal": true
+ },
+ "lawpavilion": {
+  "identity_count": 46,
+  "needs": [
+   "legal-research"
+  ],
+  "sectors": {
+   "law": 45,
+   "science": 1
+  },
+  "universal": false
+ },
+ "leapfrog": {
+  "identity_count": 21,
+  "needs": [
+   "mine-planning"
+  ],
+  "sectors": {
+   "energy": 21
+  },
+  "universal": false
+ },
+ "lexicomp": {
+  "identity_count": 103,
+  "needs": [
+   "drug-information"
+  ],
+  "sectors": {
+   "health": 103
+  },
+  "universal": false
+ },
+ "lexisnexis": {
+  "identity_count": 46,
+  "needs": [
+   "legal-research"
+  ],
+  "sectors": {
+   "law": 45,
+   "science": 1
+  },
+  "universal": false
+ },
+ "librecad": {
+  "identity_count": 151,
+  "needs": [
+   "cad-drafting"
+  ],
+  "sectors": {
+   "agriculture": 1,
+   "construction": 1,
+   "education": 1,
+   "engineering": 147,
+   "health": 1
+  },
+  "universal": false
+ },
+ "libreoffice": {
+  "identity_count": 168,
+  "needs": [
+   "documents-basics",
+   "spreadsheets-basics"
+  ],
+  "sectors": {
+   "business": 70,
+   "data": 7,
+   "education": 2,
+   "finance": 89
+  },
+  "universal": true
+ },
+ "life-qi": {
+  "identity_count": 57,
+  "needs": [
+   "clinical-audit-qi"
+  ],
+  "sectors": {
+   "health": 57
+  },
+  "universal": false
+ },
+ "lightspeed": {
+  "identity_count": 37,
+  "needs": [
+   "restaurant-operations"
+  ],
+  "sectors": {
+   "hospitality": 37
+  },
+  "universal": false
+ },
+ "limesurvey": {
+  "identity_count": 62,
+  "needs": [
+   "research-surveys"
+  ],
+  "sectors": {
+   "business": 1,
+   "data": 1,
+   "education": 34,
+   "health": 2,
+   "marketing": 1,
+   "public-sector": 1,
+   "science": 22
+  },
+  "universal": false
+ },
+ "linear": {
+  "identity_count": 147,
+  "needs": [
+   "agile-tracking"
+  ],
+  "sectors": {
+   "technology": 147
+  },
+  "universal": false
+ },
+ "lingvano": {
+  "identity_count": 3,
+  "needs": [
+   "sign-language"
+  ],
+  "sectors": {
+   "education": 2,
+   "social-care": 1
+  },
+  "universal": false
+ },
+ "linkedin": {
+  "identity_count": 125,
+  "needs": [
+   "professional-profile",
+   "job-search",
+   "cv-portfolio",
+   "online-ads",
+   "recruitment",
+   "athlete-brand",
+   "freelancing"
+  ],
+  "sectors": {
+   "business": 26,
+   "creative": 1,
+   "education": 1,
+   "life": 10,
+   "marketing": 25,
+   "security": 1,
+   "sports": 59,
+   "technology": 2
+  },
+  "universal": true
+ },
+ "linkedin-learning": {
+  "identity_count": 13,
+  "needs": [
+   "learn-online"
+  ],
+  "sectors": {
+   "life": 12,
+   "technology": 1
+  },
+  "universal": true
+ },
+ "little-hotelier": {
+  "identity_count": 20,
+  "needs": [
+   "hotel-management"
+  ],
+  "sectors": {
+   "hospitality": 20
+  },
+  "universal": false
+ },
+ "logic-pro": {
+  "identity_count": 57,
+  "needs": [
+   "audio-production"
+  ],
+  "sectors": {
+   "creative": 54,
+   "education": 1,
+   "faith": 1,
+   "sports": 1
+  },
+  "universal": false
+ },
+ "logos-bible-software": {
+  "identity_count": 40,
+  "needs": [
+   "scripture-study"
+  ],
+  "sectors": {
+   "creative": 1,
+   "education": 1,
+   "faith": 38
+  },
+  "universal": false
+ },
+ "lookback": {
+  "identity_count": 21,
+  "needs": [
+   "user-research"
+  ],
+  "sectors": {
+   "engineering": 1,
+   "technology": 20
+  },
+  "universal": false
+ },
+ "looker-studio": {
+  "identity_count": 145,
+  "needs": [
+   "dashboards-bi"
+  ],
+  "sectors": {
+   "business": 2,
+   "data": 31,
+   "energy": 2,
+   "finance": 89,
+   "health": 17,
+   "marketing": 1,
+   "public-sector": 2,
+   "technology": 1
+  },
+  "universal": false
+ },
+ "loom": {
+  "identity_count": 107,
+  "needs": [
+   "screen-recording"
+  ],
+  "sectors": {
+   "education": 106,
+   "technology": 1
+  },
+  "universal": false
+ },
+ "lotsa-helping-hands": {
+  "identity_count": 27,
+  "needs": [
+   "care-coordination"
+  ],
+  "sectors": {
+   "life": 1,
+   "social-care": 26
+  },
+  "universal": false
+ },
+ "loyverse": {
+  "identity_count": 165,
+  "needs": [
+   "point-of-sale",
+   "restaurant-operations"
+  ],
+  "sectors": {
+   "beauty": 20,
+   "business": 67,
+   "finance": 1,
+   "health": 1,
+   "hospitality": 43,
+   "manufacturing": 32,
+   "marketing": 1
+  },
+  "universal": false
+ },
+ "lseg-workspace": {
+  "identity_count": 27,
+  "needs": [
+   "market-research-finance"
+  ],
+  "sectors": {
+   "agriculture": 1,
+   "finance": 26
+  },
+  "universal": false
+ },
+ "lucidchart": {
+  "identity_count": 167,
+  "needs": [
+   "diagramming",
+   "process-mapping"
+  ],
+  "sectors": {
+   "business": 6,
+   "engineering": 13,
+   "finance": 1,
+   "technology": 147
+  },
+  "universal": false
+ },
+ "luma": {
+  "identity_count": 57,
+  "needs": [
+   "events-management"
+  ],
+  "sectors": {
+   "beauty": 3,
+   "creative": 1,
+   "faith": 14,
+   "hospitality": 7,
+   "life": 10,
+   "marketing": 21,
+   "sports": 1
+  },
+  "universal": false
+ },
+ "lumion": {
+  "identity_count": 17,
+  "needs": [
+   "architectural-visualisation"
+  ],
+  "sectors": {
+   "engineering": 17
+  },
+  "universal": false
+ },
+ "m-files": {
+  "identity_count": 138,
+  "needs": [
+   "records-management"
+  ],
+  "sectors": {
+   "business": 1,
+   "creative": 1,
+   "data": 1,
+   "education": 2,
+   "finance": 1,
+   "health": 16,
+   "hospitality": 1,
+   "law": 9,
+   "public-sector": 78,
+   "social-care": 26,
+   "technology": 2
+  },
+  "universal": false
+ },
+ "magicplan": {
+  "identity_count": 172,
+  "needs": [
+   "site-measurement"
+  ],
+  "sectors": {
+   "construction": 171,
+   "energy": 1
+  },
+  "universal": false
+ },
+ "mailchimp": {
+  "identity_count": 52,
+  "needs": [
+   "newsletter-publishing",
+   "email-marketing",
+   "fundraising"
+  ],
+  "sectors": {
+   "business": 1,
+   "creative": 1,
+   "marketing": 26,
+   "public-sector": 23,
+   "social-care": 1
+  },
+  "universal": false
+ },
+ "mailerlite": {
+  "identity_count": 25,
+  "needs": [
+   "email-marketing"
+  ],
+  "sectors": {
+   "marketing": 25
+  },
+  "universal": false
+ },
+ "make": {
+  "identity_count": 4,
+  "needs": [
+   "automation-workflows"
+  ],
+  "sectors": {
+   "business": 1,
+   "law": 1,
+   "marketing": 1,
+   "technology": 1
+  },
+  "universal": false
+ },
+ "maltego": {
+  "identity_count": 40,
+  "needs": [
+   "osint-research"
+  ],
+  "sectors": {
+   "creative": 1,
+   "security": 38,
+   "technology": 1
+  },
+  "universal": false
+ },
+ "maptek-vulcan": {
+  "identity_count": 21,
+  "needs": [
+   "mine-planning"
+  ],
+  "sectors": {
+   "energy": 21
+  },
+  "universal": false
+ },
+ "marinetraffic": {
+  "identity_count": 127,
+  "needs": [
+   "shipment-tracking",
+   "maritime-navigation"
+  ],
+  "sectors": {
+   "agriculture": 1,
+   "business": 1,
+   "engineering": 1,
+   "public-sector": 1,
+   "security": 1,
+   "transport": 122
+  },
+  "universal": false
+ },
+ "marvinsketch": {
+  "identity_count": 2,
+  "needs": [
+   "chemistry-drawing"
+  ],
+  "sectors": {
+   "science": 2
+  },
+  "universal": false
+ },
+ "mastercam": {
+  "identity_count": 2,
+  "needs": [
+   "cnc-cam"
+  ],
+  "sectors": {
+   "engineering": 1,
+   "manufacturing": 1
+  },
+  "universal": false
+ },
+ "mathcad": {
+  "identity_count": 151,
+  "needs": [
+   "engineering-calculations",
+   "technical-reporting"
+  ],
+  "sectors": {
+   "agriculture": 2,
+   "engineering": 147,
+   "health": 1,
+   "security": 1
+  },
+  "universal": false
+ },
+ "matlab": {
+  "identity_count": 388,
+  "needs": [
+   "engineering-calculations",
+   "engineering-data-analysis",
+   "risk-modelling",
+   "scientific-computing"
+  ],
+  "sectors": {
+   "agriculture": 2,
+   "data": 2,
+   "energy": 94,
+   "engineering": 147,
+   "finance": 65,
+   "health": 2,
+   "science": 74,
+   "security": 1,
+   "technology": 1
+  },
+  "universal": false
+ },
+ "matomo": {
+  "identity_count": 82,
+  "needs": [
+   "web-analytics"
+  ],
+  "sectors": {
+   "data": 1,
+   "marketing": 79,
+   "technology": 2
+  },
+  "universal": false
+ },
+ "matterport": {
+  "identity_count": 11,
+  "needs": [
+   "property-marketing"
+  ],
+  "sectors": {
+   "construction": 10,
+   "marketing": 1
+  },
+  "universal": false
+ },
+ "maze": {
+  "identity_count": 21,
+  "needs": [
+   "user-research"
+  ],
+  "sectors": {
+   "engineering": 1,
+   "technology": 20
+  },
+  "universal": false
+ },
+ "mbal": {
+  "identity_count": 26,
+  "needs": [
+   "well-performance"
+  ],
+  "sectors": {
+   "energy": 26
+  },
+  "universal": false
+ },
+ "mdcalc": {
+  "identity_count": 97,
+  "needs": [
+   "medical-calculators"
+  ],
+  "sectors": {
+   "health": 97
+  },
+  "universal": false
+ },
+ "medbridge": {
+  "identity_count": 54,
+  "needs": [
+   "exercise-prescription"
+  ],
+  "sectors": {
+   "health": 54
+  },
+  "universal": false
+ },
+ "medisafe": {
+  "identity_count": 27,
+  "needs": [
+   "care-coordination",
+   "personal-health-tracking"
+  ],
+  "sectors": {
+   "life": 1,
+   "social-care": 26
+  },
+  "universal": false
+ },
+ "meditech": {
+  "identity_count": 254,
+  "needs": [
+   "electronic-health-records"
+  ],
+  "sectors": {
+   "health": 254
+  },
+  "universal": false
+ },
+ "medscape": {
+  "identity_count": 255,
+  "needs": [
+   "clinical-reference",
+   "drug-information",
+   "medical-calculators",
+   "cpd-learning"
+  ],
+  "sectors": {
+   "health": 254,
+   "security": 1
+  },
+  "universal": false
+ },
+ "meez": {
+  "identity_count": 72,
+  "needs": [
+   "recipe-costing"
+  ],
+  "sectors": {
+   "beauty": 1,
+   "hospitality": 37,
+   "manufacturing": 34
+  },
+  "universal": false
+ },
+ "meltwater": {
+  "identity_count": 20,
+  "needs": [
+   "pr-media-monitoring"
+  ],
+  "sectors": {
+   "marketing": 20
+  },
+  "universal": false
+ },
+ "mentimeter": {
+  "identity_count": 123,
+  "needs": [
+   "quizzes-assessment",
+   "interactive-teaching",
+   "workshop-facilitation"
+  ],
+  "sectors": {
+   "business": 14,
+   "education": 106,
+   "faith": 1,
+   "health": 1,
+   "technology": 1
+  },
+  "universal": false
+ },
+ "mermaid": {
+  "identity_count": 148,
+  "needs": [
+   "diagramming"
+  ],
+  "sectors": {
+   "business": 1,
+   "technology": 147
+  },
+  "universal": false
+ },
+ "meta-ads-manager": {
+  "identity_count": 27,
+  "needs": [
+   "online-ads"
+  ],
+  "sectors": {
+   "creative": 1,
+   "marketing": 25,
+   "technology": 1
+  },
+  "universal": false
+ },
+ "meta-business-suite": {
+  "identity_count": 367,
+  "needs": [
+   "social-media-presence",
+   "social-media-management"
+  ],
+  "sectors": {
+   "beauty": 20,
+   "creative": 237,
+   "faith": 24,
+   "health": 1,
+   "hospitality": 1,
+   "life": 1,
+   "marketing": 79,
+   "public-sector": 2,
+   "sports": 1,
+   "technology": 1
+  },
+  "universal": true
+ },
+ "metabase": {
+  "identity_count": 145,
+  "needs": [
+   "dashboards-bi"
+  ],
+  "sectors": {
+   "business": 2,
+   "data": 31,
+   "energy": 2,
+   "finance": 89,
+   "health": 17,
+   "marketing": 1,
+   "public-sector": 2,
+   "technology": 1
+  },
+  "universal": false
+ },
+ "meteoblue": {
+  "identity_count": 159,
+  "needs": [
+   "weather-planning"
+  ],
+  "sectors": {
+   "agriculture": 158,
+   "science": 1
+  },
+  "universal": false
+ },
+ "metricool": {
+  "identity_count": 264,
+  "needs": [
+   "content-planning",
+   "social-media-management"
+  ],
+  "sectors": {
+   "creative": 237,
+   "marketing": 25,
+   "public-sector": 1,
+   "sports": 1
+  },
+  "universal": false
+ },
+ "microsoft-authenticator": {
+  "identity_count": 45,
+  "needs": [
+   "online-safety"
+  ],
+  "sectors": {
+   "technology": 45
+  },
+  "universal": true
+ },
+ "microsoft-azure": {
+  "identity_count": 63,
+  "needs": [
+   "cloud-infrastructure"
+  ],
+  "sectors": {
+   "data": 1,
+   "technology": 62
+  },
+  "universal": false
+ },
+ "microsoft-clarity": {
+  "identity_count": 82,
+  "needs": [
+   "web-analytics"
+  ],
+  "sectors": {
+   "data": 1,
+   "marketing": 79,
+   "technology": 2
+  },
+  "universal": false
+ },
+ "microsoft-copilot": {
+  "identity_count": 147,
+  "needs": [
+   "use-ai-assistants"
+  ],
+  "sectors": {
+   "technology": 147
+  },
+  "universal": true
+ },
+ "microsoft-dynamics-365": {
+  "identity_count": 3,
+  "needs": [
+   "erp"
+  ],
+  "sectors": {
+   "business": 2,
+   "technology": 1
+  },
+  "universal": false
+ },
+ "microsoft-edge": {
+  "identity_count": 32,
+  "needs": [
+   "browser-productivity"
+  ],
+  "sectors": {
+   "business": 32
+  },
+  "universal": false
+ },
+ "microsoft-excel": {
+  "identity_count": 1502,
+  "needs": [
+   "spreadsheets-basics",
+   "personal-finance",
+   "clinical-audit-qi",
+   "lab-data",
+   "pharmacy-stock",
+   "engineering-calculations",
+   "project-scheduling",
+   "cost-estimation",
+   "engineering-data-analysis",
+   "quality-hse",
+   "well-planning-design",
+   "drilling-reporting",
+   "geomechanics",
+   "production-surveillance",
+   "regulatory-reporting",
+   "data-cleaning",
+   "data-visualisation",
+   "financial-modelling",
+   "tax-compliance",
+   "audit-analytics",
+   "budgeting-fpa",
+   "payroll",
+   "risk-modelling",
+   "grading-feedback",
+   "business-planning",
+   "kpi-tracking",
+   "inventory-procurement",
+   "consulting-deliverables",
+   "grant-finding",
+   "open-data",
+   "sports-analytics",
+   "farm-records",
+   "food-safety",
+   "recipe-costing",
+   "property-management",
+   "site-measurement",
+   "production-planning",
+   "quality-statistics",
+   "lean-six-sigma"
+  ],
+  "sectors": {
+   "agriculture": 158,
+   "beauty": 1,
+   "business": 224,
+   "construction": 171,
+   "creative": 5,
+   "data": 31,
+   "education": 73,
+   "energy": 94,
+   "engineering": 147,
+   "faith": 1,
+   "finance": 89,
+   "health": 108,
+   "hospitality": 37,
+   "law": 1,
+   "life": 9,
+   "manufacturing": 187,
+   "marketing": 1,
+   "public-sector": 78,
+   "science": 52,
+   "security": 1,
+   "sports": 30,
+   "technology": 3,
+   "transport": 1
+  },
+  "universal": true
+ },
+ "microsoft-family-safety": {
+  "identity_count": 9,
+  "needs": [
+   "kids-online-safety"
+  ],
+  "sectors": {
+   "beauty": 1,
+   "life": 8
+  },
+  "universal": false
+ },
+ "microsoft-forms": {
+  "identity_count": 435,
+  "needs": [
+   "forms-surveys",
+   "quality-hse"
+  ],
+  "sectors": {
+   "agriculture": 1,
+   "business": 25,
+   "construction": 94,
+   "education": 1,
+   "energy": 94,
+   "engineering": 75,
+   "finance": 1,
+   "health": 24,
+   "manufacturing": 96,
+   "public-sector": 24
+  },
+  "universal": true
+ },
+ "microsoft-immersive-reader": {
+  "identity_count": 109,
+  "needs": [
+   "accessibility-tools",
+   "accessible-materials"
+  ],
+  "sectors": {
+   "education": 106,
+   "life": 1,
+   "sports": 1,
+   "technology": 1
+  },
+  "universal": true
+ },
+ "microsoft-onedrive": {
+  "identity_count": 32,
+  "needs": [
+   "files-cloud-storage"
+  ],
+  "sectors": {
+   "business": 32
+  },
+  "universal": true
+ },
+ "microsoft-onenote": {
+  "identity_count": 113,
+  "needs": [
+   "lesson-planning"
+  ],
+  "sectors": {
+   "business": 1,
+   "education": 106,
+   "faith": 2,
+   "health": 1,
+   "life": 1,
+   "technology": 1,
+   "transport": 1
+  },
+  "universal": false
+ },
+ "microsoft-outlook": {
+  "identity_count": 69,
+  "needs": [
+   "email-and-calendar"
+  ],
+  "sectors": {
+   "business": 69
+  },
+  "universal": true
+ },
+ "microsoft-powerpoint": {
+  "identity_count": 310,
+  "needs": [
+   "presentations",
+   "consulting-deliverables"
+  ],
+  "sectors": {
+   "business": 224,
+   "creative": 1,
+   "education": 1,
+   "finance": 26,
+   "life": 1,
+   "marketing": 55,
+   "technology": 2
+  },
+  "universal": true
+ },
+ "microsoft-project": {
+  "identity_count": 386,
+  "needs": [
+   "project-scheduling",
+   "project-management"
+  ],
+  "sectors": {
+   "business": 224,
+   "construction": 3,
+   "creative": 2,
+   "energy": 2,
+   "engineering": 147,
+   "public-sector": 1,
+   "technology": 7
+  },
+  "universal": false
+ },
+ "microsoft-sentinel": {
+  "identity_count": 13,
+  "needs": [
+   "security-operations"
+  ],
+  "sectors": {
+   "finance": 1,
+   "technology": 12
+  },
+  "universal": false
+ },
+ "microsoft-teams": {
+  "identity_count": 579,
+  "needs": [
+   "video-meetings",
+   "telemedicine",
+   "virtual-classroom",
+   "meeting-minutes"
+  ],
+  "sectors": {
+   "business": 224,
+   "education": 73,
+   "faith": 24,
+   "health": 254,
+   "law": 2,
+   "life": 1,
+   "public-sector": 1
+  },
+  "universal": true
+ },
+ "microsoft-to-do": {
+  "identity_count": 0,
+  "needs": [
+   "personal-productivity"
+  ],
+  "sectors": {},
+  "universal": true
+ },
+ "microsoft-translator": {
+  "identity_count": 9,
+  "needs": [
+   "translate-languages"
+  ],
+  "sectors": {
+   "creative": 1,
+   "education": 1,
+   "faith": 2,
+   "law": 1,
+   "life": 2,
+   "public-sector": 2
+  },
+  "universal": true
+ },
+ "microsoft-visio": {
+  "identity_count": 59,
+  "needs": [
+   "process-mapping",
+   "lean-six-sigma"
+  ],
+  "sectors": {
+   "business": 5,
+   "engineering": 14,
+   "finance": 1,
+   "manufacturing": 36,
+   "technology": 3
+  },
+  "universal": false
+ },
+ "microsoft-word": {
+  "identity_count": 932,
+  "needs": [
+   "write-clearly",
+   "documents-basics",
+   "voice-typing-transcription",
+   "patient-education",
+   "radiology-reporting",
+   "technical-reporting",
+   "regulatory-reporting",
+   "contract-drafting",
+   "academic-writing",
+   "accessible-materials",
+   "policy-research"
+  ],
+  "sectors": {
+   "agriculture": 2,
+   "business": 69,
+   "creative": 45,
+   "data": 2,
+   "education": 106,
+   "energy": 94,
+   "engineering": 147,
+   "faith": 1,
+   "finance": 1,
+   "health": 254,
+   "law": 45,
+   "life": 12,
+   "marketing": 1,
+   "public-sector": 78,
+   "science": 74,
+   "sports": 1
+  },
+  "universal": true
+ },
+ "mindbody": {
+  "identity_count": 3,
+  "needs": [
+   "gym-membership"
+  ],
+  "sectors": {
+   "sports": 3
+  },
+  "universal": false
+ },
+ "minitab": {
+  "identity_count": 216,
+  "needs": [
+   "quality-statistics",
+   "lean-six-sigma"
+  ],
+  "sectors": {
+   "business": 1,
+   "engineering": 26,
+   "health": 2,
+   "manufacturing": 187
+  },
+  "universal": false
+ },
+ "miro": {
+  "identity_count": 558,
+  "needs": [
+   "product-discovery",
+   "roadmapping",
+   "diagramming",
+   "interactive-teaching",
+   "business-planning",
+   "process-mapping",
+   "consulting-deliverables",
+   "workshop-facilitation",
+   "lean-six-sigma"
+  ],
+  "sectors": {
+   "agriculture": 1,
+   "business": 224,
+   "education": 106,
+   "engineering": 14,
+   "finance": 28,
+   "life": 1,
+   "manufacturing": 36,
+   "public-sector": 1,
+   "technology": 147
+  },
+  "universal": false
+ },
+ "mixpanel": {
+  "identity_count": 22,
+  "needs": [
+   "product-analytics"
+  ],
+  "sectors": {
+   "data": 1,
+   "marketing": 1,
+   "technology": 20
+  },
+  "universal": false
+ },
+ "mode": {
+  "identity_count": 35,
+  "needs": [
+   "sql-querying"
+  ],
+  "sectors": {
+   "creative": 1,
+   "data": 31,
+   "engineering": 1,
+   "technology": 2
+  },
+  "universal": false
+ },
+ "monday-com": {
+  "identity_count": 232,
+  "needs": [
+   "project-management"
+  ],
+  "sectors": {
+   "business": 224,
+   "public-sector": 1,
+   "technology": 7
+  },
+  "universal": false
+ },
+ "mongodb": {
+  "identity_count": 51,
+  "needs": [
+   "databases"
+  ],
+  "sectors": {
+   "business": 1,
+   "data": 2,
+   "health": 2,
+   "technology": 46
+  },
+  "universal": false
+ },
+ "moniepoint": {
+  "identity_count": 129,
+  "needs": [
+   "point-of-sale"
+  ],
+  "sectors": {
+   "beauty": 20,
+   "business": 67,
+   "finance": 1,
+   "health": 1,
+   "hospitality": 7,
+   "manufacturing": 32,
+   "marketing": 1
+  },
+  "universal": false
+ },
+ "moodle": {
+  "identity_count": 74,
+  "needs": [
+   "virtual-classroom"
+  ],
+  "sectors": {
+   "business": 1,
+   "education": 73
+  },
+  "universal": false
+ },
+ "muck-rack": {
+  "identity_count": 20,
+  "needs": [
+   "pr-media-monitoring"
+  ],
+  "sectors": {
+   "marketing": 20
+  },
+  "universal": false
+ },
+ "mural": {
+  "identity_count": 16,
+  "needs": [
+   "workshop-facilitation"
+  ],
+  "sectors": {
+   "business": 14,
+   "education": 1,
+   "technology": 1
+  },
+  "universal": false
+ },
+ "musescore": {
+  "identity_count": 53,
+  "needs": [
+   "music-notation"
+  ],
+  "sectors": {
+   "creative": 51,
+   "education": 1,
+   "faith": 1
+  },
+  "universal": false
+ },
+ "mycase": {
+  "identity_count": 45,
+  "needs": [
+   "legal-practice-management"
+  ],
+  "sectors": {
+   "law": 45
+  },
+  "universal": false
+ },
+ "myfitnesspal": {
+  "identity_count": 61,
+  "needs": [
+   "nutrition-planning"
+  ],
+  "sectors": {
+   "health": 2,
+   "sports": 59
+  },
+  "universal": false
+ },
+ "mysql": {
+  "identity_count": 51,
+  "needs": [
+   "databases"
+  ],
+  "sectors": {
+   "business": 1,
+   "data": 2,
+   "health": 2,
+   "technology": 46
+  },
+  "universal": false
+ },
+ "n8n": {
+  "identity_count": 4,
+  "needs": [
+   "automation-workflows"
+  ],
+  "sectors": {
+   "business": 1,
+   "law": 1,
+   "marketing": 1,
+   "technology": 1
+  },
+  "universal": false
+ },
+ "navionics": {
+  "identity_count": 23,
+  "needs": [
+   "maritime-navigation"
+  ],
+  "sectors": {
+   "agriculture": 1,
+   "engineering": 1,
+   "security": 1,
+   "transport": 20
+  },
+  "universal": false
+ },
+ "navisworks": {
+  "identity_count": 40,
+  "needs": [
+   "bim-modelling"
+  ],
+  "sectors": {
+   "engineering": 40
+  },
+  "universal": false
+ },
+ "ncbi-blast": {
+  "identity_count": 6,
+  "needs": [
+   "molecular-biology"
+  ],
+  "sectors": {
+   "health": 2,
+   "science": 4
+  },
+  "universal": false
+ },
+ "nearpod": {
+  "identity_count": 106,
+  "needs": [
+   "interactive-teaching"
+  ],
+  "sectors": {
+   "education": 106
+  },
+  "universal": false
+ },
+ "netlify": {
+  "identity_count": 66,
+  "needs": [
+   "cloud-infrastructure",
+   "web-development"
+  ],
+  "sectors": {
+   "creative": 2,
+   "data": 1,
+   "technology": 63
+  },
+  "universal": false
+ },
+ "nextjs": {
+  "identity_count": 6,
+  "needs": [
+   "web-development"
+  ],
+  "sectors": {
+   "creative": 2,
+   "technology": 4
+  },
+  "universal": false
+ },
+ "nice-guidance": {
+  "identity_count": 255,
+  "needs": [
+   "clinical-reference"
+  ],
+  "sectors": {
+   "health": 254,
+   "security": 1
+  },
+  "universal": false
+ },
+ "nmap": {
+  "identity_count": 12,
+  "needs": [
+   "security-testing"
+  ],
+  "sectors": {
+   "technology": 12
+  },
+  "universal": false
+ },
+ "node-red": {
+  "identity_count": 26,
+  "needs": [
+   "plc-automation"
+  ],
+  "sectors": {
+   "engineering": 24,
+   "manufacturing": 1,
+   "technology": 1
+  },
+  "universal": false
+ },
+ "notion": {
+  "identity_count": 752,
+  "needs": [
+   "personal-productivity",
+   "cv-portfolio",
+   "product-discovery",
+   "lesson-planning",
+   "study-skills",
+   "content-planning",
+   "business-planning",
+   "project-management",
+   "kpi-tracking",
+   "meeting-minutes",
+   "pastoral-care",
+   "stage-production"
+  ],
+  "sectors": {
+   "agriculture": 2,
+   "business": 224,
+   "creative": 237,
+   "data": 7,
+   "education": 106,
+   "energy": 2,
+   "faith": 38,
+   "finance": 4,
+   "health": 19,
+   "law": 2,
+   "life": 22,
+   "manufacturing": 1,
+   "marketing": 1,
+   "public-sector": 57,
+   "security": 1,
+   "sports": 2,
+   "technology": 25,
+   "transport": 2
+  },
+  "universal": true
+ },
+ "nrel-sam": {
+  "identity_count": 19,
+  "needs": [
+   "energy-systems-modelling"
+  ],
+  "sectors": {
+   "energy": 16,
+   "engineering": 3
+  },
+  "universal": false
+ },
+ "nutritics": {
+  "identity_count": 61,
+  "needs": [
+   "nutrition-planning"
+  ],
+  "sectors": {
+   "health": 2,
+   "sports": 59
+  },
+  "universal": false
+ },
+ "nvda": {
+  "identity_count": 3,
+  "needs": [
+   "accessibility-tools"
+  ],
+  "sectors": {
+   "life": 1,
+   "sports": 1,
+   "technology": 1
+  },
+  "universal": true
+ },
+ "nvivo": {
+  "identity_count": 24,
+  "needs": [
+   "qualitative-analysis"
+  ],
+  "sectors": {
+   "education": 1,
+   "science": 22,
+   "technology": 1
+  },
+  "universal": false
+ },
+ "obd-auto-doctor": {
+  "identity_count": 4,
+  "needs": [
+   "vehicle-diagnostics"
+  ],
+  "sectors": {
+   "construction": 3,
+   "energy": 1
+  },
+  "universal": false
+ },
+ "obs-studio": {
+  "identity_count": 171,
+  "needs": [
+   "screen-recording",
+   "live-streaming",
+   "service-livestream"
+  ],
+  "sectors": {
+   "creative": 25,
+   "education": 106,
+   "faith": 38,
+   "sports": 1,
+   "technology": 1
+  },
+  "universal": false
+ },
+ "odk": {
+  "identity_count": 101,
+  "needs": [
+   "monitoring-evaluation"
+  ],
+  "sectors": {
+   "business": 1,
+   "health": 22,
+   "public-sector": 78
+  },
+  "universal": false
+ },
+ "odoo": {
+  "identity_count": 314,
+  "needs": [
+   "inventory-procurement",
+   "erp",
+   "production-planning",
+   "warehouse-inventory"
+  ],
+  "sectors": {
+   "agriculture": 1,
+   "business": 60,
+   "data": 1,
+   "engineering": 14,
+   "manufacturing": 187,
+   "public-sector": 1,
+   "science": 1,
+   "security": 1,
+   "technology": 1,
+   "transport": 47
+  },
+  "universal": false
+ },
+ "olga": {
+  "identity_count": 26,
+  "needs": [
+   "well-performance"
+  ],
+  "sectors": {
+   "energy": 26
+  },
+  "universal": false
+ },
+ "onfleet": {
+  "identity_count": 137,
+  "needs": [
+   "route-planning-fleet"
+  ],
+  "sectors": {
+   "agriculture": 12,
+   "business": 1,
+   "marketing": 2,
+   "transport": 122
+  },
+  "universal": false
+ },
+ "onshape": {
+  "identity_count": 15,
+  "needs": [
+   "mechanical-design"
+  ],
+  "sectors": {
+   "creative": 1,
+   "engineering": 14
+  },
+  "universal": false
+ },
+ "open-dental": {
+  "identity_count": 14,
+  "needs": [
+   "dental-practice"
+  ],
+  "sectors": {
+   "health": 14
+  },
+  "universal": false
+ },
+ "openai-api": {
+  "identity_count": 4,
+  "needs": [
+   "ai-app-development"
+  ],
+  "sectors": {
+   "technology": 4
+  },
+  "universal": false
+ },
+ "opencpn": {
+  "identity_count": 23,
+  "needs": [
+   "maritime-navigation"
+  ],
+  "sectors": {
+   "agriculture": 1,
+   "engineering": 1,
+   "security": 1,
+   "transport": 20
+  },
+  "universal": false
+ },
+ "opendtect": {
+  "identity_count": 39,
+  "needs": [
+   "reservoir-modelling"
+  ],
+  "sectors": {
+   "energy": 39
+  },
+  "universal": false
+ },
+ "openlp": {
+  "identity_count": 39,
+  "needs": [
+   "worship-presentation"
+  ],
+  "sectors": {
+   "creative": 1,
+   "faith": 38
+  },
+  "universal": false
+ },
+ "openmrs": {
+  "identity_count": 254,
+  "needs": [
+   "electronic-health-records"
+  ],
+  "sectors": {
+   "health": 254
+  },
+  "universal": false
+ },
+ "openrefine": {
+  "identity_count": 69,
+  "needs": [
+   "data-cleaning"
+  ],
+  "sectors": {
+   "business": 38,
+   "data": 31
+  },
+  "universal": false
+ },
+ "openstreetmap": {
+  "identity_count": 209,
+  "needs": [
+   "maps-navigation"
+  ],
+  "sectors": {
+   "agriculture": 38,
+   "health": 2,
+   "public-sector": 1,
+   "security": 46,
+   "transport": 122
+  },
+  "universal": true
+ },
+ "openwells": {
+  "identity_count": 26,
+  "needs": [
+   "drilling-reporting"
+  ],
+  "sectors": {
+   "energy": 26
+  },
+  "universal": false
+ },
+ "oracle-health": {
+  "identity_count": 254,
+  "needs": [
+   "electronic-health-records"
+  ],
+  "sectors": {
+   "health": 254
+  },
+  "universal": false
+ },
+ "oracle-netsuite": {
+  "identity_count": 54,
+  "needs": [
+   "erp",
+   "warehouse-inventory"
+  ],
+  "sectors": {
+   "business": 2,
+   "data": 1,
+   "engineering": 1,
+   "public-sector": 1,
+   "security": 1,
+   "technology": 1,
+   "transport": 47
+  },
+  "universal": false
+ },
+ "origin": {
+  "identity_count": 75,
+  "needs": [
+   "scientific-figures"
+  ],
+  "sectors": {
+   "education": 1,
+   "science": 74
+  },
+  "universal": false
+ },
+ "osf": {
+  "identity_count": 75,
+  "needs": [
+   "research-data-management"
+  ],
+  "sectors": {
+   "data": 1,
+   "science": 74
+  },
+  "universal": false
+ },
+ "osirix-md": {
+  "identity_count": 45,
+  "needs": [
+   "medical-imaging-viewing"
+  ],
+  "sectors": {
+   "health": 45
+  },
+  "universal": false
+ },
+ "osmosis": {
+  "identity_count": 86,
+  "needs": [
+   "memorise-knowledge"
+  ],
+  "sectors": {
+   "health": 86
+  },
+  "universal": false
+ },
+ "otter-ai": {
+  "identity_count": 227,
+  "needs": [
+   "voice-typing-transcription",
+   "meeting-minutes"
+  ],
+  "sectors": {
+   "business": 224,
+   "creative": 1,
+   "law": 2
+  },
+  "universal": true
+ },
+ "overleaf": {
+  "identity_count": 272,
+  "needs": [
+   "technical-reporting",
+   "academic-writing"
+  ],
+  "sectors": {
+   "agriculture": 1,
+   "data": 1,
+   "education": 34,
+   "engineering": 147,
+   "faith": 1,
+   "health": 1,
+   "law": 1,
+   "life": 12,
+   "science": 74
+  },
+  "universal": false
+ },
+ "owasp-zap": {
+  "identity_count": 12,
+  "needs": [
+   "security-testing"
+  ],
+  "sectors": {
+   "technology": 12
+  },
+  "universal": false
+ },
+ "padlet": {
+  "identity_count": 106,
+  "needs": [
+   "interactive-teaching"
+  ],
+  "sectors": {
+   "education": 106
+  },
+  "universal": false
+ },
+ "patreon": {
+  "identity_count": 238,
+  "needs": [
+   "creator-income"
+  ],
+  "sectors": {
+   "creative": 237,
+   "education": 1
+  },
+  "universal": false
+ },
+ "paypal": {
+  "identity_count": 183,
+  "needs": [
+   "online-payments"
+  ],
+  "sectors": {
+   "beauty": 69,
+   "business": 53,
+   "creative": 1,
+   "education": 1,
+   "manufacturing": 59
+  },
+  "universal": true
+ },
+ "paystack": {
+  "identity_count": 239,
+  "needs": [
+   "online-payments",
+   "invoicing",
+   "online-giving"
+  ],
+  "sectors": {
+   "beauty": 69,
+   "business": 67,
+   "creative": 2,
+   "education": 1,
+   "faith": 38,
+   "finance": 1,
+   "hospitality": 2,
+   "manufacturing": 59
+  },
+  "universal": true
+ },
+ "pdf24": {
+  "identity_count": 47,
+  "needs": [
+   "pdf-work"
+  ],
+  "sectors": {
+   "creative": 1,
+   "law": 45,
+   "manufacturing": 1
+  },
+  "universal": true
+ },
+ "penpot": {
+  "identity_count": 6,
+  "needs": [
+   "ui-ux-design"
+  ],
+  "sectors": {
+   "creative": 1,
+   "technology": 5
+  },
+  "universal": false
+ },
+ "perplexity": {
+  "identity_count": 191,
+  "needs": [
+   "use-ai-assistants",
+   "find-information"
+  ],
+  "sectors": {
+   "creative": 43,
+   "education": 1,
+   "technology": 147
+  },
+  "universal": true
+ },
+ "petex-gap": {
+  "identity_count": 26,
+  "needs": [
+   "well-performance"
+  ],
+  "sectors": {
+   "energy": 26
+  },
+  "universal": false
+ },
+ "petrel": {
+  "identity_count": 39,
+  "needs": [
+   "reservoir-modelling"
+  ],
+  "sectors": {
+   "energy": 39
+  },
+  "universal": false
+ },
+ "photopea": {
+  "identity_count": 31,
+  "needs": [
+   "photo-editing"
+  ],
+  "sectors": {
+   "creative": 28,
+   "health": 3
+  },
+  "universal": true
+ },
+ "photoroom": {
+  "identity_count": 81,
+  "needs": [
+   "product-photography"
+  ],
+  "sectors": {
+   "business": 3,
+   "creative": 17,
+   "hospitality": 1,
+   "manufacturing": 59,
+   "marketing": 1
+  },
+  "universal": false
+ },
+ "physitrack": {
+  "identity_count": 54,
+  "needs": [
+   "exercise-prescription"
+  ],
+  "sectors": {
+   "health": 54
+  },
+  "universal": false
+ },
+ "picturethis": {
+  "identity_count": 88,
+  "needs": [
+   "plant-health"
+  ],
+  "sectors": {
+   "agriculture": 88
+  },
+  "universal": false
+ },
+ "pinterest": {
+  "identity_count": 386,
+  "needs": [
+   "visual-portfolio"
+  ],
+  "sectors": {
+   "beauty": 89,
+   "creative": 237,
+   "engineering": 1,
+   "manufacturing": 59
+  },
+  "universal": false
+ },
+ "pipedrive": {
+  "identity_count": 133,
+  "needs": [
+   "crm-sales"
+  ],
+  "sectors": {
+   "business": 1,
+   "construction": 10,
+   "creative": 1,
+   "finance": 39,
+   "marketing": 79,
+   "sports": 1,
+   "technology": 2
+  },
+  "universal": false
+ },
+ "pipesim": {
+  "identity_count": 26,
+  "needs": [
+   "well-performance"
+  ],
+  "sectors": {
+   "energy": 26
+  },
+  "universal": false
+ },
+ "pix4d": {
+  "identity_count": 11,
+  "needs": [
+   "surveying-photogrammetry"
+  ],
+  "sectors": {
+   "energy": 1,
+   "engineering": 10
+  },
+  "universal": false
+ },
+ "planner-5d": {
+  "identity_count": 3,
+  "needs": [
+   "interior-design"
+  ],
+  "sectors": {
+   "engineering": 3
+  },
+  "universal": false
+ },
+ "planning-center": {
+  "identity_count": 38,
+  "needs": [
+   "congregation-management",
+   "pastoral-care"
+  ],
+  "sectors": {
+   "faith": 38
+  },
+  "universal": false
+ },
+ "planswift": {
+  "identity_count": 26,
+  "needs": [
+   "cost-estimation"
+  ],
+  "sectors": {
+   "construction": 1,
+   "energy": 2,
+   "engineering": 23
+  },
+  "universal": false
+ },
+ "plantix": {
+  "identity_count": 88,
+  "needs": [
+   "plant-health"
+  ],
+  "sectors": {
+   "agriculture": 88
+  },
+  "universal": false
+ },
+ "plantnet": {
+  "identity_count": 88,
+  "needs": [
+   "plant-health"
+  ],
+  "sectors": {
+   "agriculture": 88
+  },
+  "universal": false
+ },
+ "plausible": {
+  "identity_count": 82,
+  "needs": [
+   "web-analytics"
+  ],
+  "sectors": {
+   "data": 1,
+   "marketing": 79,
+   "technology": 2
+  },
+  "universal": false
+ },
+ "plaxis": {
+  "identity_count": 3,
+  "needs": [
+   "geotechnical-analysis"
+  ],
+  "sectors": {
+   "energy": 1,
+   "engineering": 2
+  },
+  "universal": false
+ },
+ "playwright": {
+  "identity_count": 56,
+  "needs": [
+   "test-automation"
+  ],
+  "sectors": {
+   "technology": 56
+  },
+  "universal": false
+ },
+ "podman": {
+  "identity_count": 15,
+  "needs": [
+   "containers-orchestration"
+  ],
+  "sectors": {
+   "technology": 15
+  },
+  "universal": false
+ },
+ "polis": {
+  "identity_count": 79,
+  "needs": [
+   "public-consultation"
+  ],
+  "sectors": {
+   "engineering": 1,
+   "public-sector": 78
+  },
+  "universal": false
+ },
+ "postgresql": {
+  "identity_count": 83,
+  "needs": [
+   "databases",
+   "sql-querying"
+  ],
+  "sectors": {
+   "business": 1,
+   "creative": 1,
+   "data": 31,
+   "engineering": 1,
+   "health": 2,
+   "technology": 47
+  },
+  "universal": false
+ },
+ "posthog": {
+  "identity_count": 22,
+  "needs": [
+   "product-analytics"
+  ],
+  "sectors": {
+   "data": 1,
+   "marketing": 1,
+   "technology": 20
+  },
+  "universal": false
+ },
+ "postman": {
+  "identity_count": 56,
+  "needs": [
+   "api-testing"
+  ],
+  "sectors": {
+   "technology": 56
+  },
+  "universal": false
+ },
+ "power-apps": {
+  "identity_count": 1,
+  "needs": [
+   "no-code-apps"
+  ],
+  "sectors": {
+   "technology": 1
+  },
+  "universal": false
+ },
+ "power-automate": {
+  "identity_count": 4,
+  "needs": [
+   "automation-workflows"
+  ],
+  "sectors": {
+   "business": 1,
+   "law": 1,
+   "marketing": 1,
+   "technology": 1
+  },
+  "universal": false
+ },
+ "power-bi": {
+  "identity_count": 986,
+  "needs": [
+   "clinical-audit-qi",
+   "public-health-data",
+   "engineering-data-analysis",
+   "quality-hse",
+   "drilling-reporting",
+   "production-surveillance",
+   "regulatory-reporting",
+   "dashboards-bi",
+   "financial-modelling",
+   "audit-analytics",
+   "budgeting-fpa",
+   "kpi-tracking",
+   "monitoring-evaluation"
+  ],
+  "sectors": {
+   "agriculture": 1,
+   "business": 224,
+   "construction": 97,
+   "creative": 1,
+   "data": 31,
+   "education": 1,
+   "energy": 94,
+   "engineering": 147,
+   "faith": 1,
+   "finance": 89,
+   "health": 119,
+   "law": 1,
+   "manufacturing": 96,
+   "marketing": 2,
+   "public-sector": 78,
+   "sports": 1,
+   "technology": 3
+  },
+  "universal": false
+ },
+ "power-query": {
+  "identity_count": 69,
+  "needs": [
+   "data-cleaning"
+  ],
+  "sectors": {
+   "business": 38,
+   "data": 31
+  },
+  "universal": false
+ },
+ "powerscribe": {
+  "identity_count": 8,
+  "needs": [
+   "radiology-reporting"
+  ],
+  "sectors": {
+   "health": 8
+  },
+  "universal": false
+ },
+ "practicepanther": {
+  "identity_count": 45,
+  "needs": [
+   "legal-practice-management"
+  ],
+  "sectors": {
+   "law": 45
+  },
+  "universal": false
+ },
+ "primavera-p6": {
+  "identity_count": 155,
+  "needs": [
+   "project-scheduling"
+  ],
+  "sectors": {
+   "business": 1,
+   "construction": 3,
+   "creative": 2,
+   "energy": 2,
+   "engineering": 147
+  },
+  "universal": false
+ },
+ "procore": {
+  "identity_count": 193,
+  "needs": [
+   "site-management"
+  ],
+  "sectors": {
+   "construction": 171,
+   "engineering": 22
+  },
+  "universal": false
+ },
+ "procreate": {
+  "identity_count": 6,
+  "needs": [
+   "digital-illustration"
+  ],
+  "sectors": {
+   "creative": 5,
+   "education": 1
+  },
+  "universal": false
+ },
+ "productboard": {
+  "identity_count": 22,
+  "needs": [
+   "product-discovery",
+   "roadmapping"
+  ],
+  "sectors": {
+   "finance": 1,
+   "technology": 21
+  },
+  "universal": false
+ },
+ "proloquo2go": {
+  "identity_count": 31,
+  "needs": [
+   "accessible-communication"
+  ],
+  "sectors": {
+   "education": 1,
+   "health": 2,
+   "life": 2,
+   "social-care": 26
+  },
+  "universal": false
+ },
+ "prometheus": {
+  "identity_count": 15,
+  "needs": [
+   "observability"
+  ],
+  "sectors": {
+   "technology": 15
+  },
+  "universal": false
+ },
+ "propresenter": {
+  "identity_count": 39,
+  "needs": [
+   "worship-presentation"
+  ],
+  "sectors": {
+   "creative": 1,
+   "faith": 38
+  },
+  "universal": false
+ },
+ "prosper": {
+  "identity_count": 26,
+  "needs": [
+   "well-performance"
+  ],
+  "sectors": {
+   "energy": 26
+  },
+  "universal": false
+ },
+ "proton-mail": {
+  "identity_count": 69,
+  "needs": [
+   "email-and-calendar"
+  ],
+  "sectors": {
+   "business": 69
+  },
+  "universal": true
+ },
+ "prusaslicer": {
+  "identity_count": 17,
+  "needs": [
+   "3d-printing"
+  ],
+  "sectors": {
+   "engineering": 14,
+   "health": 2,
+   "manufacturing": 1
+  },
+  "universal": false
+ },
+ "pubmed": {
+  "identity_count": 254,
+  "needs": [
+   "evidence-based-medicine"
+  ],
+  "sectors": {
+   "health": 254
+  },
+  "universal": false
+ },
+ "pushpay": {
+  "identity_count": 38,
+  "needs": [
+   "online-giving"
+  ],
+  "sectors": {
+   "faith": 38
+  },
+  "universal": false
+ },
+ "putty": {
+  "identity_count": 48,
+  "needs": [
+   "networking"
+  ],
+  "sectors": {
+   "engineering": 2,
+   "technology": 46
+  },
+  "universal": false
+ },
+ "pvsyst": {
+  "identity_count": 19,
+  "needs": [
+   "energy-systems-modelling"
+  ],
+  "sectors": {
+   "energy": 16,
+   "engineering": 3
+  },
+  "universal": false
+ },
+ "pymol": {
+  "identity_count": 6,
+  "needs": [
+   "molecular-biology"
+  ],
+  "sectors": {
+   "health": 2,
+   "science": 4
+  },
+  "universal": false
+ },
+ "python": {
+  "identity_count": 769,
+  "needs": [
+   "engineering-calculations",
+   "engineering-data-analysis",
+   "well-planning-design",
+   "geomechanics",
+   "petrophysics",
+   "production-surveillance",
+   "machine-learning",
+   "data-cleaning",
+   "statistical-analysis",
+   "data-visualisation",
+   "financial-modelling",
+   "audit-analytics",
+   "risk-modelling",
+   "sports-analytics",
+   "quality-statistics",
+   "scientific-computing",
+   "scientific-figures"
+  ],
+  "sectors": {
+   "agriculture": 4,
+   "business": 53,
+   "construction": 3,
+   "creative": 3,
+   "data": 31,
+   "education": 35,
+   "energy": 94,
+   "engineering": 147,
+   "finance": 89,
+   "health": 9,
+   "manufacturing": 187,
+   "marketing": 1,
+   "public-sector": 3,
+   "science": 74,
+   "security": 1,
+   "sports": 30,
+   "technology": 5
+  },
+  "universal": false
+ },
+ "pytorch": {
+  "identity_count": 6,
+  "needs": [
+   "machine-learning"
+  ],
+  "sectors": {
+   "data": 2,
+   "technology": 4
+  },
+  "universal": false
+ },
+ "qase": {
+  "identity_count": 11,
+  "needs": [
+   "test-management"
+  ],
+  "sectors": {
+   "technology": 11
+  },
+  "universal": false
+ },
+ "qgis": {
+  "identity_count": 112,
+  "needs": [
+   "public-health-data",
+   "gis-mapping",
+   "environmental-monitoring"
+  ],
+  "sectors": {
+   "agriculture": 20,
+   "business": 1,
+   "data": 2,
+   "education": 1,
+   "energy": 34,
+   "engineering": 23,
+   "finance": 1,
+   "health": 26,
+   "public-sector": 2,
+   "science": 1,
+   "security": 1
+  },
+  "universal": false
+ },
+ "qlab": {
+  "identity_count": 1,
+  "needs": [
+   "stage-production"
+  ],
+  "sectors": {
+   "creative": 1
+  },
+  "universal": false
+ },
+ "qualtrics": {
+  "identity_count": 62,
+  "needs": [
+   "research-surveys"
+  ],
+  "sectors": {
+   "business": 1,
+   "data": 1,
+   "education": 34,
+   "health": 2,
+   "marketing": 1,
+   "public-sector": 1,
+   "science": 22
+  },
+  "universal": false
+ },
+ "quickbooks": {
+  "identity_count": 48,
+  "needs": [
+   "bookkeeping",
+   "invoicing",
+   "tax-compliance"
+  ],
+  "sectors": {
+   "business": 14,
+   "creative": 1,
+   "education": 1,
+   "faith": 2,
+   "finance": 25,
+   "hospitality": 3,
+   "life": 1,
+   "sports": 1
+  },
+  "universal": false
+ },
+ "quizlet": {
+  "identity_count": 104,
+  "needs": [
+   "memorise-knowledge",
+   "study-skills"
+  ],
+  "sectors": {
+   "education": 1,
+   "finance": 1,
+   "health": 86,
+   "law": 1,
+   "life": 12,
+   "sports": 1,
+   "technology": 1,
+   "transport": 1
+  },
+  "universal": false
+ },
+ "quran-com": {
+  "identity_count": 40,
+  "needs": [
+   "scripture-study"
+  ],
+  "sectors": {
+   "creative": 1,
+   "education": 1,
+   "faith": 38
+  },
+  "universal": false
+ },
+ "qxmd": {
+  "identity_count": 97,
+  "needs": [
+   "medical-calculators"
+  ],
+  "sectors": {
+   "health": 97
+  },
+  "universal": false
+ },
+ "r": {
+  "identity_count": 326,
+  "needs": [
+   "health-research-data",
+   "public-health-data",
+   "statistical-analysis",
+   "risk-modelling",
+   "sports-analytics",
+   "scientific-computing"
+  ],
+  "sectors": {
+   "agriculture": 3,
+   "data": 31,
+   "education": 34,
+   "energy": 4,
+   "engineering": 1,
+   "finance": 65,
+   "health": 80,
+   "marketing": 1,
+   "public-sector": 2,
+   "science": 74,
+   "sports": 30,
+   "technology": 1
+  },
+  "universal": false
+ },
+ "radiant-dicom-viewer": {
+  "identity_count": 45,
+  "needs": [
+   "medical-imaging-viewing"
+  ],
+  "sectors": {
+   "health": 45
+  },
+  "universal": false
+ },
+ "radreport": {
+  "identity_count": 8,
+  "needs": [
+   "radiology-reporting"
+  ],
+  "sectors": {
+   "health": 8
+  },
+  "universal": false
+ },
+ "rayyan": {
+  "identity_count": 365,
+  "needs": [
+   "evidence-based-medicine",
+   "literature-review"
+  ],
+  "sectors": {
+   "data": 1,
+   "education": 34,
+   "faith": 1,
+   "health": 254,
+   "life": 1,
+   "science": 74
+  },
+  "universal": false
+ },
+ "react-native": {
+  "identity_count": 2,
+  "needs": [
+   "mobile-app-dev"
+  ],
+  "sectors": {
+   "technology": 2
+  },
+  "universal": false
+ },
+ "reaper": {
+  "identity_count": 57,
+  "needs": [
+   "audio-production"
+  ],
+  "sectors": {
+   "creative": 54,
+   "education": 1,
+   "faith": 1,
+   "sports": 1
+  },
+  "universal": false
+ },
+ "redbubble": {
+  "identity_count": 75,
+  "needs": [
+   "sell-art-online"
+  ],
+  "sectors": {
+   "creative": 16,
+   "manufacturing": 59
+  },
+  "universal": false
+ },
+ "redcap": {
+  "identity_count": 81,
+  "needs": [
+   "clinical-audit-qi",
+   "health-research-data"
+  ],
+  "sectors": {
+   "data": 1,
+   "health": 79,
+   "science": 1
+  },
+  "universal": false
+ },
+ "reedsy": {
+  "identity_count": 2,
+  "needs": [
+   "book-writing-publishing"
+  ],
+  "sectors": {
+   "creative": 2
+  },
+  "universal": false
+ },
+ "relativity": {
+  "identity_count": 37,
+  "needs": [
+   "ediscovery"
+  ],
+  "sectors": {
+   "finance": 1,
+   "law": 36
+  },
+  "universal": false
+ },
+ "remove-bg": {
+  "identity_count": 81,
+  "needs": [
+   "product-photography"
+  ],
+  "sectors": {
+   "business": 3,
+   "creative": 17,
+   "hospitality": 1,
+   "manufacturing": 59,
+   "marketing": 1
+  },
+  "universal": false
+ },
+ "restream": {
+  "identity_count": 64,
+  "needs": [
+   "live-streaming",
+   "service-livestream"
+  ],
+  "sectors": {
+   "creative": 25,
+   "faith": 38,
+   "sports": 1
+  },
+  "universal": false
+ },
+ "retscreen": {
+  "identity_count": 19,
+  "needs": [
+   "energy-systems-modelling"
+  ],
+  "sectors": {
+   "energy": 16,
+   "engineering": 3
+  },
+  "universal": false
+ },
+ "revit": {
+  "identity_count": 40,
+  "needs": [
+   "bim-modelling"
+  ],
+  "sectors": {
+   "engineering": 40
+  },
+  "universal": false
+ },
+ "rive": {
+  "identity_count": 3,
+  "needs": [
+   "motion-graphics"
+  ],
+  "sectors": {
+   "creative": 3
+  },
+  "universal": false
+ },
+ "riverside": {
+  "identity_count": 26,
+  "needs": [
+   "podcast-production"
+  ],
+  "sectors": {
+   "creative": 26
+  },
+  "universal": false
+ },
+ "robot-structural-analysis": {
+  "identity_count": 21,
+  "needs": [
+   "structural-analysis"
+  ],
+  "sectors": {
+   "engineering": 21
+  },
+  "universal": false
+ },
+ "rocscience-slide2": {
+  "identity_count": 3,
+  "needs": [
+   "geotechnical-analysis"
+  ],
+  "sectors": {
+   "energy": 1,
+   "engineering": 2
+  },
+  "universal": false
+ },
+ "rotacloud": {
+  "identity_count": 48,
+  "needs": [
+   "shift-rota"
+  ],
+  "sectors": {
+   "health": 47,
+   "social-care": 1
+  },
+  "universal": false
+ },
+ "routific": {
+  "identity_count": 137,
+  "needs": [
+   "route-planning-fleet"
+  ],
+  "sectors": {
+   "agriculture": 12,
+   "business": 1,
+   "marketing": 2,
+   "transport": 122
+  },
+  "universal": false
+ },
+ "rstudio": {
+  "identity_count": 31,
+  "needs": [
+   "notebooks"
+  ],
+  "sectors": {
+   "data": 31
+  },
+  "universal": false
+ },
+ "safetyculture": {
+  "identity_count": 609,
+  "needs": [
+   "quality-hse",
+   "food-safety",
+   "site-management",
+   "incident-reporting"
+  ],
+  "sectors": {
+   "agriculture": 12,
+   "business": 1,
+   "construction": 171,
+   "energy": 94,
+   "engineering": 95,
+   "health": 25,
+   "hospitality": 37,
+   "manufacturing": 128,
+   "security": 46
+  },
+  "universal": false
+ },
+ "sage": {
+  "identity_count": 69,
+  "needs": [
+   "bookkeeping",
+   "payroll"
+  ],
+  "sectors": {
+   "business": 38,
+   "education": 1,
+   "faith": 2,
+   "finance": 25,
+   "hospitality": 1,
+   "life": 1,
+   "sports": 1
+  },
+  "universal": false
+ },
+ "salesforce": {
+  "identity_count": 162,
+  "needs": [
+   "crm-sales",
+   "case-management"
+  ],
+  "sectors": {
+   "business": 1,
+   "construction": 10,
+   "creative": 1,
+   "finance": 39,
+   "health": 2,
+   "marketing": 79,
+   "public-sector": 1,
+   "social-care": 26,
+   "sports": 1,
+   "technology": 2
+  },
+  "universal": false
+ },
+ "samsara": {
+  "identity_count": 137,
+  "needs": [
+   "route-planning-fleet"
+  ],
+  "sectors": {
+   "agriculture": 12,
+   "business": 1,
+   "marketing": 2,
+   "transport": 122
+  },
+  "universal": false
+ },
+ "sap": {
+  "identity_count": 320,
+  "needs": [
+   "maintenance-cmms",
+   "erp",
+   "production-planning"
+  ],
+  "sectors": {
+   "agriculture": 1,
+   "business": 2,
+   "construction": 1,
+   "energy": 55,
+   "engineering": 69,
+   "health": 1,
+   "manufacturing": 187,
+   "technology": 1,
+   "transport": 3
+  },
+  "universal": false
+ },
+ "sap2000": {
+  "identity_count": 21,
+  "needs": [
+   "structural-analysis"
+  ],
+  "sectors": {
+   "engineering": 21
+  },
+  "universal": false
+ },
+ "scikit-learn": {
+  "identity_count": 6,
+  "needs": [
+   "machine-learning"
+  ],
+  "sectors": {
+   "data": 2,
+   "technology": 4
+  },
+  "universal": false
+ },
+ "scrivener": {
+  "identity_count": 2,
+  "needs": [
+   "book-writing-publishing"
+  ],
+  "sectors": {
+   "creative": 2
+  },
+  "universal": false
+ },
+ "seamly2d": {
+  "identity_count": 3,
+  "needs": [
+   "fashion-design"
+  ],
+  "sectors": {
+   "construction": 1,
+   "creative": 2
+  },
+  "universal": false
+ },
+ "sefaria": {
+  "identity_count": 40,
+  "needs": [
+   "scripture-study"
+  ],
+  "sectors": {
+   "creative": 1,
+   "education": 1,
+   "faith": 38
+  },
+  "universal": false
+ },
+ "selar": {
+  "identity_count": 319,
+  "needs": [
+   "creator-income",
+   "sell-art-online",
+   "online-store"
+  ],
+  "sectors": {
+   "agriculture": 1,
+   "beauty": 1,
+   "business": 15,
+   "creative": 237,
+   "education": 1,
+   "hospitality": 1,
+   "life": 1,
+   "manufacturing": 60,
+   "technology": 2
+  },
+  "universal": false
+ },
+ "selenium": {
+  "identity_count": 56,
+  "needs": [
+   "test-automation"
+  ],
+  "sectors": {
+   "technology": 56
+  },
+  "universal": false
+ },
+ "semantic-scholar": {
+  "identity_count": 112,
+  "needs": [
+   "literature-review"
+  ],
+  "sectors": {
+   "data": 1,
+   "education": 34,
+   "faith": 1,
+   "health": 1,
+   "life": 1,
+   "science": 74
+  },
+  "universal": false
+ },
+ "semrush": {
+  "identity_count": 28,
+  "needs": [
+   "seo"
+  ],
+  "sectors": {
+   "creative": 3,
+   "marketing": 25
+  },
+  "universal": false
+ },
+ "sentinel-hub": {
+  "identity_count": 91,
+  "needs": [
+   "crop-monitoring"
+  ],
+  "sectors": {
+   "agriculture": 89,
+   "engineering": 1,
+   "public-sector": 1
+  },
+  "universal": false
+ },
+ "sentry": {
+  "identity_count": 15,
+  "needs": [
+   "observability"
+  ],
+  "sectors": {
+   "technology": 15
+  },
+  "universal": false
+ },
+ "sessionlab": {
+  "identity_count": 16,
+  "needs": [
+   "workshop-facilitation"
+  ],
+  "sectors": {
+   "business": 14,
+   "education": 1,
+   "technology": 1
+  },
+  "universal": false
+ },
+ "setmore": {
+  "identity_count": 244,
+  "needs": [
+   "clinic-scheduling",
+   "booking-appointments"
+  ],
+  "sectors": {
+   "beauty": 69,
+   "business": 25,
+   "construction": 1,
+   "creative": 3,
+   "education": 1,
+   "health": 79,
+   "hospitality": 63,
+   "marketing": 1,
+   "sports": 1,
+   "transport": 1
+  },
+  "universal": false
+ },
+ "sharepoint": {
+  "identity_count": 233,
+  "needs": [
+   "regulatory-reporting",
+   "records-management"
+  ],
+  "sectors": {
+   "business": 1,
+   "creative": 1,
+   "data": 1,
+   "education": 2,
+   "energy": 94,
+   "finance": 1,
+   "health": 16,
+   "hospitality": 1,
+   "law": 10,
+   "public-sector": 78,
+   "social-care": 26,
+   "technology": 2
+  },
+  "universal": false
+ },
+ "sharpcap": {
+  "identity_count": 1,
+  "needs": [
+   "astronomy-observation"
+  ],
+  "sectors": {
+   "science": 1
+  },
+  "universal": false
+ },
+ "shopify": {
+  "identity_count": 98,
+  "needs": [
+   "sell-art-online",
+   "online-store"
+  ],
+  "sectors": {
+   "agriculture": 1,
+   "beauty": 1,
+   "business": 15,
+   "creative": 17,
+   "hospitality": 1,
+   "life": 1,
+   "manufacturing": 60,
+   "technology": 2
+  },
+  "universal": false
+ },
+ "shotcut": {
+  "identity_count": 47,
+  "needs": [
+   "video-editing-pro"
+  ],
+  "sectors": {
+   "creative": 44,
+   "education": 1,
+   "engineering": 1,
+   "faith": 1
+  },
+  "universal": false
+ },
+ "sibelius": {
+  "identity_count": 53,
+  "needs": [
+   "music-notation"
+  ],
+  "sectors": {
+   "creative": 51,
+   "education": 1,
+   "faith": 1
+  },
+  "universal": false
+ },
+ "signal": {
+  "identity_count": 87,
+  "needs": [
+   "group-messaging",
+   "emergency-comms"
+  ],
+  "sectors": {
+   "faith": 24,
+   "health": 2,
+   "life": 10,
+   "marketing": 1,
+   "public-sector": 2,
+   "security": 46,
+   "social-care": 1,
+   "technology": 1
+  },
+  "universal": true
+ },
+ "signupgenius": {
+  "identity_count": 23,
+  "needs": [
+   "volunteer-coordination"
+  ],
+  "sectors": {
+   "public-sector": 23
+  },
+  "universal": false
+ },
+ "similarweb": {
+  "identity_count": 40,
+  "needs": [
+   "market-research"
+  ],
+  "sectors": {
+   "business": 15,
+   "marketing": 25
+  },
+  "universal": false
+ },
+ "simplepractice": {
+  "identity_count": 14,
+  "needs": [
+   "therapy-practice-admin"
+  ],
+  "sectors": {
+   "health": 14
+  },
+  "universal": false
+ },
+ "siril": {
+  "identity_count": 1,
+  "needs": [
+   "astronomy-observation"
+  ],
+  "sectors": {
+   "science": 1
+  },
+  "universal": false
+ },
+ "sketch": {
+  "identity_count": 6,
+  "needs": [
+   "ui-ux-design"
+  ],
+  "sectors": {
+   "creative": 1,
+   "technology": 5
+  },
+  "universal": false
+ },
+ "sketchup": {
+  "identity_count": 330,
+  "needs": [
+   "cad-drafting",
+   "3d-modelling",
+   "interior-design",
+   "site-measurement",
+   "woodworking-design"
+  ],
+  "sectors": {
+   "agriculture": 1,
+   "construction": 171,
+   "creative": 7,
+   "education": 1,
+   "energy": 1,
+   "engineering": 147,
+   "health": 1,
+   "manufacturing": 1
+  },
+  "universal": false
+ },
+ "skydemon": {
+  "identity_count": 24,
+  "needs": [
+   "flight-planning"
+  ],
+  "sectors": {
+   "security": 1,
+   "transport": 23
+  },
+  "universal": false
+ },
+ "skyscanner": {
+  "identity_count": 21,
+  "needs": [
+   "travel-planning"
+  ],
+  "sectors": {
+   "business": 1,
+   "hospitality": 20
+  },
+  "universal": false
+ },
+ "slack": {
+  "identity_count": 38,
+  "needs": [
+   "group-messaging"
+  ],
+  "sectors": {
+   "faith": 24,
+   "life": 10,
+   "marketing": 1,
+   "public-sector": 1,
+   "social-care": 1,
+   "technology": 1
+  },
+  "universal": true
+ },
+ "slb-drillplan": {
+  "identity_count": 26,
+  "needs": [
+   "well-planning-design"
+  ],
+  "sectors": {
+   "energy": 26
+  },
+  "universal": false
+ },
+ "smallpdf": {
+  "identity_count": 47,
+  "needs": [
+   "pdf-work",
+   "e-signatures"
+  ],
+  "sectors": {
+   "creative": 1,
+   "law": 45,
+   "manufacturing": 1
+  },
+  "universal": true
+ },
+ "smartsheet": {
+  "identity_count": 155,
+  "needs": [
+   "project-scheduling"
+  ],
+  "sectors": {
+   "business": 1,
+   "construction": 3,
+   "creative": 2,
+   "energy": 2,
+   "engineering": 147
+  },
+  "universal": false
+ },
+ "smath-studio": {
+  "identity_count": 150,
+  "needs": [
+   "engineering-calculations"
+  ],
+  "sectors": {
+   "agriculture": 1,
+   "engineering": 147,
+   "health": 1,
+   "security": 1
+  },
+  "universal": false
+ },
+ "snapgene": {
+  "identity_count": 6,
+  "needs": [
+   "molecular-biology"
+  ],
+  "sectors": {
+   "health": 2,
+   "science": 4
+  },
+  "universal": false
+ },
+ "snapseed": {
+  "identity_count": 112,
+  "needs": [
+   "photo-editing",
+   "product-photography"
+  ],
+  "sectors": {
+   "business": 3,
+   "creative": 45,
+   "health": 3,
+   "hospitality": 1,
+   "manufacturing": 59,
+   "marketing": 1
+  },
+  "universal": true
+ },
+ "snowflake": {
+  "identity_count": 3,
+  "needs": [
+   "data-pipelines"
+  ],
+  "sectors": {
+   "data": 2,
+   "technology": 1
+  },
+  "universal": false
+ },
+ "socrative": {
+  "identity_count": 108,
+  "needs": [
+   "quizzes-assessment"
+  ],
+  "sectors": {
+   "education": 106,
+   "faith": 1,
+   "health": 1
+  },
+  "universal": false
+ },
+ "solidworks": {
+  "identity_count": 21,
+  "needs": [
+   "fea-simulation",
+   "mechanical-design"
+  ],
+  "sectors": {
+   "creative": 1,
+   "energy": 2,
+   "engineering": 18
+  },
+  "universal": false
+ },
+ "sortly": {
+  "identity_count": 122,
+  "needs": [
+   "pharmacy-stock",
+   "inventory-procurement",
+   "warehouse-inventory"
+  ],
+  "sectors": {
+   "agriculture": 1,
+   "business": 59,
+   "data": 1,
+   "engineering": 1,
+   "health": 10,
+   "public-sector": 1,
+   "science": 1,
+   "security": 1,
+   "transport": 47
+  },
+  "universal": false
+ },
+ "splunk": {
+  "identity_count": 13,
+  "needs": [
+   "security-operations"
+  ],
+  "sectors": {
+   "finance": 1,
+   "technology": 12
+  },
+  "universal": false
+ },
+ "spond": {
+  "identity_count": 30,
+  "needs": [
+   "team-organisation"
+  ],
+  "sectors": {
+   "education": 1,
+   "sports": 29
+  },
+  "universal": false
+ },
+ "spotfire": {
+  "identity_count": 94,
+  "needs": [
+   "production-surveillance"
+  ],
+  "sectors": {
+   "energy": 94
+  },
+  "universal": false
+ },
+ "spotify-for-artists": {
+  "identity_count": 51,
+  "needs": [
+   "artist-profiles"
+  ],
+  "sectors": {
+   "creative": 51
+  },
+  "universal": false
+ },
+ "spotlight": {
+  "identity_count": 34,
+  "needs": [
+   "auditions-casting"
+  ],
+  "sectors": {
+   "creative": 34
+  },
+  "universal": false
+ },
+ "spreadthesign": {
+  "identity_count": 3,
+  "needs": [
+   "sign-language"
+  ],
+  "sectors": {
+   "education": 2,
+   "social-care": 1
+  },
+  "universal": false
+ },
+ "spss": {
+  "identity_count": 227,
+  "needs": [
+   "health-research-data",
+   "statistical-analysis"
+  ],
+  "sectors": {
+   "agriculture": 2,
+   "data": 31,
+   "education": 34,
+   "energy": 2,
+   "finance": 2,
+   "health": 78,
+   "marketing": 1,
+   "public-sector": 2,
+   "science": 74,
+   "sports": 1
+  },
+  "universal": false
+ },
+ "sqlite": {
+  "identity_count": 83,
+  "needs": [
+   "databases",
+   "sql-querying"
+  ],
+  "sectors": {
+   "business": 1,
+   "creative": 1,
+   "data": 31,
+   "engineering": 1,
+   "health": 2,
+   "technology": 47
+  },
+  "universal": false
+ },
+ "square": {
+  "identity_count": 288,
+  "needs": [
+   "booking-appointments",
+   "point-of-sale",
+   "restaurant-operations",
+   "salon-booking"
+  ],
+  "sectors": {
+   "beauty": 89,
+   "business": 92,
+   "construction": 1,
+   "creative": 3,
+   "education": 1,
+   "finance": 1,
+   "health": 2,
+   "hospitality": 63,
+   "manufacturing": 32,
+   "marketing": 2,
+   "sports": 1,
+   "transport": 1
+  },
+  "universal": false
+ },
+ "staad-pro": {
+  "identity_count": 21,
+  "needs": [
+   "structural-analysis"
+  ],
+  "sectors": {
+   "engineering": 21
+  },
+  "universal": false
+ },
+ "stata": {
+  "identity_count": 227,
+  "needs": [
+   "health-research-data",
+   "statistical-analysis"
+  ],
+  "sectors": {
+   "agriculture": 2,
+   "data": 31,
+   "education": 34,
+   "energy": 2,
+   "finance": 2,
+   "health": 78,
+   "marketing": 1,
+   "public-sector": 2,
+   "science": 74,
+   "sports": 1
+  },
+  "universal": false
+ },
+ "statista": {
+  "identity_count": 40,
+  "needs": [
+   "market-research"
+  ],
+  "sectors": {
+   "business": 15,
+   "marketing": 25
+  },
+  "universal": false
+ },
+ "stellarium": {
+  "identity_count": 1,
+  "needs": [
+   "astronomy-observation"
+  ],
+  "sectors": {
+   "science": 1
+  },
+  "universal": false
+ },
+ "step-bible": {
+  "identity_count": 40,
+  "needs": [
+   "scripture-study"
+  ],
+  "sectors": {
+   "creative": 1,
+   "education": 1,
+   "faith": 38
+  },
+  "universal": false
+ },
+ "strava": {
+  "identity_count": 63,
+  "needs": [
+   "training-load"
+  ],
+  "sectors": {
+   "health": 4,
+   "sports": 59
+  },
+  "universal": false
+ },
+ "streamyard": {
+  "identity_count": 64,
+  "needs": [
+   "live-streaming",
+   "service-livestream"
+  ],
+  "sectors": {
+   "creative": 25,
+   "faith": 38,
+   "sports": 1
+  },
+  "universal": false
+ },
+ "stripe": {
+  "identity_count": 183,
+  "needs": [
+   "online-payments"
+  ],
+  "sectors": {
+   "beauty": 69,
+   "business": 53,
+   "creative": 1,
+   "education": 1,
+   "manufacturing": 59
+  },
+  "universal": true
+ },
+ "studio-5000": {
+  "identity_count": 26,
+  "needs": [
+   "plc-automation"
+  ],
+  "sectors": {
+   "engineering": 24,
+   "manufacturing": 1,
+   "technology": 1
+  },
+  "universal": false
+ },
+ "substack": {
+  "identity_count": 1,
+  "needs": [
+   "newsletter-publishing"
+  ],
+  "sectors": {
+   "creative": 1
+  },
+  "universal": false
+ },
+ "sumup": {
+  "identity_count": 129,
+  "needs": [
+   "point-of-sale"
+  ],
+  "sectors": {
+   "beauty": 20,
+   "business": 67,
+   "finance": 1,
+   "health": 1,
+   "hospitality": 7,
+   "manufacturing": 32,
+   "marketing": 1
+  },
+  "universal": false
+ },
+ "swagger": {
+  "identity_count": 56,
+  "needs": [
+   "api-testing"
+  ],
+  "sectors": {
+   "technology": 56
+  },
+  "universal": false
+ },
+ "tableau": {
+  "identity_count": 178,
+  "needs": [
+   "dashboards-bi",
+   "data-visualisation",
+   "sports-analytics"
+  ],
+  "sectors": {
+   "business": 2,
+   "creative": 3,
+   "data": 31,
+   "energy": 2,
+   "finance": 89,
+   "health": 17,
+   "marketing": 1,
+   "public-sector": 2,
+   "sports": 30,
+   "technology": 1
+  },
+  "universal": false
+ },
+ "taguette": {
+  "identity_count": 24,
+  "needs": [
+   "qualitative-analysis"
+  ],
+  "sectors": {
+   "education": 1,
+   "science": 22,
+   "technology": 1
+  },
+  "universal": false
+ },
+ "teamsnap": {
+  "identity_count": 30,
+  "needs": [
+   "team-organisation"
+  ],
+  "sectors": {
+   "education": 1,
+   "sports": 29
+  },
+  "universal": false
+ },
+ "techlog": {
+  "identity_count": 17,
+  "needs": [
+   "geomechanics",
+   "petrophysics"
+  ],
+  "sectors": {
+   "energy": 17
+  },
+  "universal": false
+ },
+ "tekla-structures": {
+  "identity_count": 40,
+  "needs": [
+   "bim-modelling"
+  ],
+  "sectors": {
+   "engineering": 40
+  },
+  "universal": false
+ },
+ "telegram": {
+  "identity_count": 38,
+  "needs": [
+   "group-messaging"
+  ],
+  "sectors": {
+   "faith": 24,
+   "life": 10,
+   "marketing": 1,
+   "public-sector": 1,
+   "social-care": 1,
+   "technology": 1
+  },
+  "universal": true
+ },
+ "terraform": {
+  "identity_count": 60,
+  "needs": [
+   "devops-cicd"
+  ],
+  "sectors": {
+   "technology": 60
+  },
+  "universal": false
+ },
+ "testrail": {
+  "identity_count": 11,
+  "needs": [
+   "test-management"
+  ],
+  "sectors": {
+   "technology": 11
+  },
+  "universal": false
+ },
+ "think-cell": {
+  "identity_count": 69,
+  "needs": [
+   "consulting-deliverables"
+  ],
+  "sectors": {
+   "business": 41,
+   "finance": 26,
+   "life": 1,
+   "technology": 1
+  },
+  "universal": false
+ },
+ "tia-portal": {
+  "identity_count": 26,
+  "needs": [
+   "plc-automation"
+  ],
+  "sectors": {
+   "engineering": 24,
+   "manufacturing": 1,
+   "technology": 1
+  },
+  "universal": false
+ },
+ "tineye": {
+  "identity_count": 84,
+  "needs": [
+   "fact-check",
+   "media-verification",
+   "osint-research"
+  ],
+  "sectors": {
+   "creative": 45,
+   "security": 38,
+   "technology": 1
+  },
+  "universal": true
+ },
+ "tinkercad": {
+  "identity_count": 17,
+  "needs": [
+   "3d-printing"
+  ],
+  "sectors": {
+   "engineering": 14,
+   "health": 2,
+   "manufacturing": 1
+  },
+  "universal": false
+ },
+ "tithely": {
+  "identity_count": 38,
+  "needs": [
+   "online-giving"
+  ],
+  "sectors": {
+   "faith": 38
+  },
+  "universal": false
+ },
+ "tnavigator": {
+  "identity_count": 39,
+  "needs": [
+   "reservoir-modelling"
+  ],
+  "sectors": {
+   "energy": 39
+  },
+  "universal": false
+ },
+ "toast": {
+  "identity_count": 37,
+  "needs": [
+   "restaurant-operations"
+  ],
+  "sectors": {
+   "hospitality": 37
+  },
+  "universal": false
+ },
+ "todoist": {
+  "identity_count": 0,
+  "needs": [
+   "personal-productivity"
+  ],
+  "sectors": {},
+  "universal": true
+ },
+ "torque-pro": {
+  "identity_count": 4,
+  "needs": [
+   "vehicle-diagnostics"
+  ],
+  "sectors": {
+   "construction": 3,
+   "energy": 1
+  },
+  "universal": false
+ },
+ "tradify": {
+  "identity_count": 205,
+  "needs": [
+   "trade-quotes-invoicing"
+  ],
+  "sectors": {
+   "agriculture": 1,
+   "beauty": 32,
+   "construction": 171,
+   "energy": 1
+  },
+  "universal": false
+ },
+ "tradingview": {
+  "identity_count": 27,
+  "needs": [
+   "market-research-finance"
+  ],
+  "sectors": {
+   "agriculture": 1,
+   "finance": 26
+  },
+  "universal": false
+ },
+ "trainerize": {
+  "identity_count": 31,
+  "needs": [
+   "online-coaching"
+  ],
+  "sectors": {
+   "creative": 1,
+   "sports": 30
+  },
+  "universal": false
+ },
+ "trainingpeaks": {
+  "identity_count": 63,
+  "needs": [
+   "training-load"
+  ],
+  "sectors": {
+   "health": 4,
+   "sports": 59
+  },
+  "universal": false
+ },
+ "trello": {
+  "identity_count": 609,
+  "needs": [
+   "personal-productivity",
+   "agile-tracking",
+   "content-planning",
+   "project-management"
+  ],
+  "sectors": {
+   "business": 224,
+   "creative": 237,
+   "public-sector": 1,
+   "technology": 147
+  },
+  "universal": true
+ },
+ "trimble-business-center": {
+  "identity_count": 11,
+  "needs": [
+   "surveying-photogrammetry"
+  ],
+  "sectors": {
+   "energy": 1,
+   "engineering": 10
+  },
+  "universal": false
+ },
+ "tripadvisor": {
+  "identity_count": 63,
+  "needs": [
+   "reviews-reputation"
+  ],
+  "sectors": {
+   "hospitality": 63
+  },
+  "universal": false
+ },
+ "tripit": {
+  "identity_count": 21,
+  "needs": [
+   "travel-planning"
+  ],
+  "sectors": {
+   "business": 1,
+   "hospitality": 20
+  },
+  "universal": false
+ },
+ "truecoach": {
+  "identity_count": 31,
+  "needs": [
+   "online-coaching"
+  ],
+  "sectors": {
+   "creative": 1,
+   "sports": 30
+  },
+  "universal": false
+ },
+ "trustpilot": {
+  "identity_count": 63,
+  "needs": [
+   "reviews-reputation"
+  ],
+  "sectors": {
+   "hospitality": 63
+  },
+  "universal": false
+ },
+ "tunecore": {
+  "identity_count": 51,
+  "needs": [
+   "release-music"
+  ],
+  "sectors": {
+   "creative": 51
+  },
+  "universal": false
+ },
+ "turnitin": {
+  "identity_count": 72,
+  "needs": [
+   "grading-feedback"
+  ],
+  "sectors": {
+   "education": 72
+  },
+  "universal": false
+ },
+ "twinmotion": {
+  "identity_count": 17,
+  "needs": [
+   "architectural-visualisation"
+  ],
+  "sectors": {
+   "engineering": 17
+  },
+  "universal": false
+ },
+ "typeform": {
+  "identity_count": 91,
+  "needs": [
+   "forms-surveys",
+   "market-research"
+  ],
+  "sectors": {
+   "agriculture": 1,
+   "business": 39,
+   "education": 1,
+   "finance": 1,
+   "marketing": 25,
+   "public-sector": 24
+  },
+  "universal": true
+ },
+ "uber": {
+  "identity_count": 93,
+  "needs": [
+   "driver-earnings"
+  ],
+  "sectors": {
+   "agriculture": 13,
+   "life": 1,
+   "transport": 79
+  },
+  "universal": false
+ },
+ "ugene": {
+  "identity_count": 6,
+  "needs": [
+   "molecular-biology"
+  ],
+  "sectors": {
+   "health": 2,
+   "science": 4
+  },
+  "universal": false
+ },
+ "ultimaker-cura": {
+  "identity_count": 17,
+  "needs": [
+   "3d-printing"
+  ],
+  "sectors": {
+   "engineering": 14,
+   "health": 2,
+   "manufacturing": 1
+  },
+  "universal": false
+ },
+ "un-online-volunteering": {
+  "identity_count": 11,
+  "needs": [
+   "volunteering"
+  ],
+  "sectors": {
+   "life": 11
+  },
+  "universal": false
+ },
+ "unity": {
+  "identity_count": 2,
+  "needs": [
+   "game-development"
+  ],
+  "sectors": {
+   "technology": 2
+  },
+  "universal": false
+ },
+ "unreal-engine": {
+  "identity_count": 2,
+  "needs": [
+   "game-development"
+  ],
+  "sectors": {
+   "technology": 2
+  },
+  "universal": false
+ },
+ "upkeep": {
+  "identity_count": 304,
+  "needs": [
+   "maintenance-cmms"
+  ],
+  "sectors": {
+   "agriculture": 1,
+   "construction": 1,
+   "energy": 55,
+   "engineering": 56,
+   "health": 1,
+   "manufacturing": 187,
+   "transport": 3
+  },
+  "universal": false
+ },
+ "uptodate": {
+  "identity_count": 255,
+  "needs": [
+   "clinical-reference"
+  ],
+  "sectors": {
+   "health": 254,
+   "security": 1
+  },
+  "universal": false
+ },
+ "upwork": {
+  "identity_count": 11,
+  "needs": [
+   "freelancing"
+  ],
+  "sectors": {
+   "business": 2,
+   "life": 9
+  },
+  "universal": false
+ },
+ "ushahidi": {
+  "identity_count": 80,
+  "needs": [
+   "incident-reporting"
+  ],
+  "sectors": {
+   "agriculture": 11,
+   "construction": 1,
+   "energy": 19,
+   "engineering": 2,
+   "health": 1,
+   "security": 46
+  },
+  "universal": false
+ },
+ "vagaro": {
+  "identity_count": 90,
+  "needs": [
+   "salon-booking"
+  ],
+  "sectors": {
+   "beauty": 89,
+   "health": 1
+  },
+  "universal": false
+ },
+ "vale": {
+  "identity_count": 11,
+  "needs": [
+   "technical-writing"
+  ],
+  "sectors": {
+   "technology": 11
+  },
+  "universal": false
+ },
+ "visible-body": {
+  "identity_count": 10,
+  "needs": [
+   "anatomy-3d"
+  ],
+  "sectors": {
+   "health": 10
+  },
+  "universal": false
+ },
+ "volunteermatch": {
+  "identity_count": 11,
+  "needs": [
+   "volunteering"
+  ],
+  "sectors": {
+   "life": 11
+  },
+  "universal": false
+ },
+ "vs-code": {
+  "identity_count": 153,
+  "needs": [
+   "write-code",
+   "web-development"
+  ],
+  "sectors": {
+   "creative": 2,
+   "education": 2,
+   "engineering": 2,
+   "technology": 147
+  },
+  "universal": false
+ },
+ "wanderlog": {
+  "identity_count": 21,
+  "needs": [
+   "travel-planning"
+  ],
+  "sectors": {
+   "business": 1,
+   "hospitality": 20
+  },
+  "universal": false
+ },
+ "wave": {
+  "identity_count": 253,
+  "needs": [
+   "bookkeeping",
+   "invoicing",
+   "trade-quotes-invoicing"
+  ],
+  "sectors": {
+   "agriculture": 1,
+   "beauty": 32,
+   "business": 14,
+   "construction": 171,
+   "creative": 1,
+   "education": 1,
+   "energy": 1,
+   "faith": 2,
+   "finance": 25,
+   "hospitality": 3,
+   "life": 1,
+   "sports": 1
+  },
+  "universal": false
+ },
+ "wayback-machine": {
+  "identity_count": 40,
+  "needs": [
+   "osint-research"
+  ],
+  "sectors": {
+   "creative": 1,
+   "security": 38,
+   "technology": 1
+  },
+  "universal": false
+ },
+ "wazuh": {
+  "identity_count": 13,
+  "needs": [
+   "security-operations"
+  ],
+  "sectors": {
+   "finance": 1,
+   "technology": 12
+  },
+  "universal": false
+ },
+ "weasis": {
+  "identity_count": 45,
+  "needs": [
+   "medical-imaging-viewing"
+  ],
+  "sectors": {
+   "health": 45
+  },
+  "universal": false
+ },
+ "webflow": {
+  "identity_count": 6,
+  "needs": [
+   "web-development"
+  ],
+  "sectors": {
+   "creative": 2,
+   "technology": 4
+  },
+  "universal": false
+ },
+ "wellview": {
+  "identity_count": 26,
+  "needs": [
+   "drilling-reporting"
+  ],
+  "sectors": {
+   "energy": 26
+  },
+  "universal": false
+ },
+ "westlaw": {
+  "identity_count": 46,
+  "needs": [
+   "legal-research"
+  ],
+  "sectors": {
+   "law": 45,
+   "science": 1
+  },
+  "universal": false
+ },
+ "what3words": {
+  "identity_count": 209,
+  "needs": [
+   "maps-navigation"
+  ],
+  "sectors": {
+   "agriculture": 38,
+   "health": 2,
+   "public-sector": 1,
+   "security": 46,
+   "transport": 122
+  },
+  "universal": true
+ },
+ "whatsapp": {
+  "identity_count": 188,
+  "needs": [
+   "group-messaging",
+   "volunteer-coordination",
+   "emergency-comms",
+   "care-coordination",
+   "family-organisation",
+   "digital-basics"
+  ],
+  "sectors": {
+   "agriculture": 13,
+   "faith": 24,
+   "health": 2,
+   "life": 39,
+   "manufacturing": 13,
+   "marketing": 1,
+   "public-sector": 23,
+   "security": 46,
+   "social-care": 26,
+   "technology": 1
+  },
+  "universal": true
+ },
+ "whatsapp-business": {
+  "identity_count": 351,
+  "needs": [
+   "customer-support",
+   "agri-market-access"
+  ],
+  "sectors": {
+   "agriculture": 158,
+   "business": 127,
+   "health": 1,
+   "hospitality": 63,
+   "marketing": 2
+  },
+  "universal": false
+ },
+ "when-i-work": {
+  "identity_count": 48,
+  "needs": [
+   "shift-rota"
+  ],
+  "sectors": {
+   "health": 47,
+   "social-care": 1
+  },
+  "universal": false
+ },
+ "who-guidelines": {
+  "identity_count": 255,
+  "needs": [
+   "clinical-reference"
+  ],
+  "sectors": {
+   "health": 254,
+   "security": 1
+  },
+  "universal": false
+ },
+ "wikipedia": {
+  "identity_count": 44,
+  "needs": [
+   "find-information"
+  ],
+  "sectors": {
+   "creative": 43,
+   "education": 1
+  },
+  "universal": true
+ },
+ "windy": {
+  "identity_count": 159,
+  "needs": [
+   "weather-planning"
+  ],
+  "sectors": {
+   "agriculture": 158,
+   "science": 1
+  },
+  "universal": false
+ },
+ "wireshark": {
+  "identity_count": 52,
+  "needs": [
+   "security-testing",
+   "networking",
+   "digital-forensics"
+  ],
+  "sectors": {
+   "engineering": 2,
+   "science": 1,
+   "security": 3,
+   "technology": 46
+  },
+  "universal": false
+ },
+ "wise": {
+  "identity_count": 183,
+  "needs": [
+   "online-payments"
+  ],
+  "sectors": {
+   "beauty": 69,
+   "business": 53,
+   "creative": 1,
+   "education": 1,
+   "manufacturing": 59
+  },
+  "universal": true
+ },
+ "wix": {
+  "identity_count": 23,
+  "needs": [
+   "online-store"
+  ],
+  "sectors": {
+   "agriculture": 1,
+   "beauty": 1,
+   "business": 15,
+   "creative": 1,
+   "hospitality": 1,
+   "life": 1,
+   "manufacturing": 1,
+   "technology": 2
+  },
+  "universal": false
+ },
+ "woocommerce": {
+  "identity_count": 23,
+  "needs": [
+   "online-store"
+  ],
+  "sectors": {
+   "agriculture": 1,
+   "beauty": 1,
+   "business": 15,
+   "creative": 1,
+   "hospitality": 1,
+   "life": 1,
+   "manufacturing": 1,
+   "technology": 2
+  },
+  "universal": false
+ },
+ "wordpress": {
+  "identity_count": 6,
+  "needs": [
+   "web-development"
+  ],
+  "sectors": {
+   "creative": 2,
+   "technology": 4
+  },
+  "universal": false
+ },
+ "workable": {
+  "identity_count": 25,
+  "needs": [
+   "recruitment"
+  ],
+  "sectors": {
+   "business": 24,
+   "technology": 1
+  },
+  "universal": false
+ },
+ "wyscout": {
+  "identity_count": 30,
+  "needs": [
+   "sports-analytics"
+  ],
+  "sectors": {
+   "sports": 30
+  },
+  "universal": false
+ },
+ "x-plane": {
+  "identity_count": 24,
+  "needs": [
+   "flight-planning"
+  ],
+  "sectors": {
+   "security": 1,
+   "transport": 23
+  },
+  "universal": false
+ },
+ "xcode": {
+  "identity_count": 2,
+  "needs": [
+   "mobile-app-dev"
+  ],
+  "sectors": {
+   "technology": 2
+  },
+  "universal": false
+ },
+ "xero": {
+  "identity_count": 45,
+  "needs": [
+   "bookkeeping",
+   "tax-compliance"
+  ],
+  "sectors": {
+   "business": 14,
+   "education": 1,
+   "faith": 2,
+   "finance": 25,
+   "hospitality": 1,
+   "life": 1,
+   "sports": 1
+  },
+  "universal": false
+ },
+ "xray": {
+  "identity_count": 11,
+  "needs": [
+   "test-management"
+  ],
+  "sectors": {
+   "technology": 11
+  },
+  "universal": false
+ },
+ "yahoo-finance": {
+  "identity_count": 27,
+  "needs": [
+   "market-research-finance"
+  ],
+  "sectors": {
+   "agriculture": 1,
+   "finance": 26
+  },
+  "universal": false
+ },
+ "ynab": {
+  "identity_count": 9,
+  "needs": [
+   "personal-finance"
+  ],
+  "sectors": {
+   "finance": 1,
+   "life": 8
+  },
+  "universal": true
+ },
+ "youversion": {
+  "identity_count": 40,
+  "needs": [
+   "scripture-study"
+  ],
+  "sectors": {
+   "creative": 1,
+   "education": 1,
+   "faith": 38
+  },
+  "universal": false
+ },
+ "zapier": {
+  "identity_count": 4,
+  "needs": [
+   "automation-workflows"
+  ],
+  "sectors": {
+   "business": 1,
+   "law": 1,
+   "marketing": 1,
+   "technology": 1
+  },
+  "universal": false
+ },
+ "zello": {
+  "identity_count": 49,
+  "needs": [
+   "emergency-comms"
+  ],
+  "sectors": {
+   "health": 2,
+   "public-sector": 1,
+   "security": 46
+  },
+  "universal": false
+ },
+ "zendesk": {
+  "identity_count": 227,
+  "needs": [
+   "it-helpdesk",
+   "customer-support"
+  ],
+  "sectors": {
+   "business": 127,
+   "health": 1,
+   "hospitality": 63,
+   "marketing": 2,
+   "technology": 34
+  },
+  "universal": false
+ },
+ "zenodo": {
+  "identity_count": 75,
+  "needs": [
+   "research-data-management"
+  ],
+  "sectors": {
+   "data": 1,
+   "science": 74
+  },
+  "universal": false
+ },
+ "zephyr": {
+  "identity_count": 11,
+  "needs": [
+   "test-management"
+  ],
+  "sectors": {
+   "technology": 11
+  },
+  "universal": false
+ },
+ "zoho-books": {
+  "identity_count": 45,
+  "needs": [
+   "bookkeeping"
+  ],
+  "sectors": {
+   "business": 14,
+   "education": 1,
+   "faith": 2,
+   "finance": 25,
+   "hospitality": 1,
+   "life": 1,
+   "sports": 1
+  },
+  "universal": false
+ },
+ "zoho-crm": {
+  "identity_count": 133,
+  "needs": [
+   "crm-sales"
+  ],
+  "sectors": {
+   "business": 1,
+   "construction": 10,
+   "creative": 1,
+   "finance": 39,
+   "marketing": 79,
+   "sports": 1,
+   "technology": 2
+  },
+  "universal": false
+ },
+ "zoho-inventory": {
+  "identity_count": 122,
+  "needs": [
+   "pharmacy-stock",
+   "inventory-procurement",
+   "warehouse-inventory"
+  ],
+  "sectors": {
+   "agriculture": 1,
+   "business": 59,
+   "data": 1,
+   "engineering": 1,
+   "health": 10,
+   "public-sector": 1,
+   "science": 1,
+   "security": 1,
+   "transport": 47
+  },
+  "universal": false
+ },
+ "zoho-invoice": {
+  "identity_count": 18,
+  "needs": [
+   "invoicing"
+  ],
+  "sectors": {
+   "business": 14,
+   "creative": 1,
+   "finance": 1,
+   "hospitality": 2
+  },
+  "universal": false
+ },
+ "zoho-people": {
+  "identity_count": 85,
+  "needs": [
+   "people-management"
+  ],
+  "sectors": {
+   "agriculture": 1,
+   "business": 75,
+   "education": 2,
+   "faith": 1,
+   "finance": 1,
+   "health": 1,
+   "hospitality": 1,
+   "technology": 3
+  },
+  "universal": false
+ },
+ "zoom": {
+  "identity_count": 347,
+  "needs": [
+   "video-meetings",
+   "telemedicine",
+   "digital-basics"
+  ],
+  "sectors": {
+   "agriculture": 13,
+   "business": 1,
+   "education": 1,
+   "faith": 24,
+   "health": 254,
+   "law": 1,
+   "life": 39,
+   "manufacturing": 13,
+   "public-sector": 1
+  },
+  "universal": true
+ },
+ "zotero": {
+  "identity_count": 607,
+  "needs": [
+   "evidence-based-medicine",
+   "technical-reporting",
+   "literature-review",
+   "academic-writing",
+   "policy-research"
+  ],
+  "sectors": {
+   "agriculture": 1,
+   "data": 2,
+   "education": 34,
+   "engineering": 147,
+   "faith": 1,
+   "finance": 1,
+   "health": 254,
+   "law": 2,
+   "life": 12,
+   "marketing": 1,
+   "public-sector": 78,
+   "science": 74
+  },
+  "universal": false
+ }
+}

@@ -1,0 +1,87 @@
+{
+ "schema_version": "2.1",
+ "id": "lens_obs__service_livestream",
+ "roadmap_id": "rm_obs",
+ "roadmap": "obs",
+ "need_id": "need_service_livestream",
+ "need": "service-livestream",
+ "title": "OBS for church and faith livestreams",
+ "kind": "flagship",
+ "for_identities": [
+  "church-media-team-member",
+  "pastor",
+  "mosque-administrator",
+  "worship-leader",
+  "church-administrator"
+ ],
+ "why": "Livestreams reach the sick, the travelling and the curious. A reliable stream is now part of serving a community.",
+ "what_is_different": "Faith livestreams run every week with volunteers: they need simple scenes, clear audio from the sound desk, lyrics and scripture overlays, and a checklist anyone can follow.",
+ "priority_modules": [
+  "obs-record",
+  "obs-scenes",
+  "obs-stream",
+  "obs-production"
+ ],
+ "extra_modules": [
+  {
+   "level": "beginner",
+   "title": "Volunteer-proof setup",
+   "outcome": "You can: make the stream easy for any volunteer",
+   "topics": [
+    "locked scene collections",
+    "labelled hotkeys",
+    "pre-service checklist"
+   ],
+   "practice": "Write a one-page pre-service checklist"
+  }
+ ],
+ "starter_project": "Build a weekly livestream setup: three scenes (pre-service, main, scripture/lyrics), audio from the desk, a checklist and a backup plan.",
+ "pitfalls": [
+  "Copyrighted music without licence",
+  "No audio check",
+  "One person who knows how everything works"
+ ],
+ "pairs_with": [
+  "tool_propresenter",
+  "tool_restream",
+  "tool_streamyard"
+ ],
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false,
+ "composed_path": {
+  "beginner": [
+   {
+    "extra": "Volunteer-proof setup",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "module": "obs-record",
+    "relevance": "core",
+    "rank": 0
+   }
+  ],
+  "intermediate": [
+   {
+    "module": "obs-scenes",
+    "relevance": "core",
+    "rank": 1
+   },
+   {
+    "module": "obs-stream",
+    "relevance": "core",
+    "rank": 2
+   }
+  ],
+  "expert": [
+   {
+    "module": "obs-production",
+    "relevance": "core",
+    "rank": 3
+   }
+  ]
+ }
+}

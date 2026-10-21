@@ -1,0 +1,30 @@
+feature_id,owner_words,feature,decisions,requirements,screens,tests,stage,flags,status_note
+F-01,"Landing page is a question, ""Who are you?""","Question-led home with type-ahead identity picker (up to 3), works without JavaScript",D-042; D-046,FR-046; FR-047; FR-054; FR-060,S01-R; S33,TC-071; TC-072; TC-073; TC-075,Beta,explore_identity,Specified V2.1
+F-02,"Every profession and life role, musicians included","2,603 identities; every ISCO-08 unit group covered; 61 music identities",D-055,FR-049,S27; S33,TC-103; TC-106,Beta,explore_identity,Specified V2.2
+F-03,Translation is a universal need,"Translation shown to every identity in the universal group (interface translation is Later, 01 §11.1)",D-047,FR-048,S27,TC-076,Beta,,Specified V2.1; interface localisation Later
+F-04,No YouTube or video links,Validator rejects video-platform links; roadmaps use text outcomes and practice tasks,D-043,FR-056,S30,TC-090,Beta,,Specified V2.1
+F-05,"Per-tool beginner, intermediate and expert roadmaps",A three-level roadmap for every registry tool; at least 90% coverage is a build gate,D-051; D-056,FR-051,S30; S30-R,TC-100; TC-104,Beta,,Specified V2.2
+F-06,Not generic: Excel for modelling is not Excel for engineering,Lenses (tool x need) reorder and add modules per profession; flagship and auto lenses,D-051,FR-051; FR-052; FR-053,S28; S29,TC-079; TC-080; TC-081; TC-082; TC-084,Beta,,Specified V2.1
+F-07,Users feel like experts and advise family and friends,"Helping-someone-else mode, shareable toolkit cards, explain-this cards",D-054,FR-058,S01-R; S27,TC-077,Launch,helping_mode; toolkit_cards,Specified V2.1; flag turned on for launch in V2.5
+F-08,"Make it easy to enter another way, e.g. Skills","Explore-by switcher: Who are you? (default), What to do, Skills, Tools, Sectors",D-058,,S01-R2; S31; S32; S34; S35,TC-093; TC-094; TC-095; TC-096; TC-097; TC-098,Launch,explore_skills; explore_goal; explore_tools; explore_sectors,"Specified V2.2; Skills tab on in beta, other three on for launch"
+F-09,Show who uses each tool and surprising uses,Who-uses and surprising-use panels derived from the needs graph,D-047,FR-050,S09-R,TC-088,Beta,,Specified V2.1
+F-10,"Open-source mentality: people submit improvements, reviewed in the backend",Suggest an edit on every page; private review queue; a person approves every change,D-060; D-061,FR-061; FR-062; FR-064,S36,TC-107; TC-108; TC-110; TC-116,Beta,suggest_edit,Specified V2.3
+F-11,Credit people for improvements,Optional consented credit; Contributors page,D-065,FR-063,S38,TC-109; TC-112,Launch,contributors_page,Specified V2.3; flag on for launch
+F-12,Start with friends; waiting forever is a rabbit hole,"Private beta: invite-only, noindex, no email collection, aggregate analytics",D-062,FR-066,S36,TC-113; TC-115,Beta,beta_banner; noindex_site,Specified V2.3
+F-13,Changes and upgrades should be very easy,"Content as data, preview per PR, merge is deploy, one-click rollback, feature flags",D-064,FR-065,S37,TC-111; TC-114,Beta,whats_new,Specified V2.3
+F-14,Journey: music,"Musician helper with the music release layer (distribution, streaming dashboards)",D-063; D-066,FR-067; FR-068,S39; S40,TC-117; TC-120,Beta,helpers,Amended V2.5 (helper)
+F-15,Journey: data analytics,"Data Analyst helper (spreadsheets, cleaning, SQL, dashboards, notebooks, AI)",D-063; D-066,FR-067; FR-068,S39; S40,TC-118; TC-120,Beta,helpers,Amended V2.5 (helper)
+F-16,A third journey related to entrepreneurship,"Entrepreneur helper: test the idea, plan, look credible, sell, keep the books, grow, pitch",D-067,FR-067; FR-068,S39; S40,TC-119; TC-120,Beta,helpers,New in V2.5
+F-17,The journeys are more like helpers,Helpers follow you across the app: a panel shows your stage and next step on every page,D-066,FR-069; FR-070; FR-071,S40; S41; S09-R,TC-121; TC-122; TC-123; TC-124,Beta,helper_panel,New in V2.5
+F-18,Helping family and friends,Start a helper for someone else; share a link; WhatsApp-ready and printable card,D-054; D-066,FR-058; FR-072,S40; S41,TC-077; TC-125,Launch,helper_for_someone,New in V2.5
+F-19,Everything the app does must be level with what was shared,"Every feature has a flag or route, a test and a launch value; the launch gate checks all of them",D-068,FR-073,,TC-130,Launch,,New in V2.5
+F-20,"Build on Bun, Vite and React","Bun for install and scripts, Vite and React with React Router framework mode, prerendered to static files",D-069,FR-074; FR-075,,TC-128; TC-129,Beta,,New in V2.5
+F-21,"Very visual, sleek, responsive, mobile-first","Signature home, route rail, bottom tab bar on phones, dark theme, tested at 320 to 1280 px",D-070; D-021; D-022,,S01-R; S40; S41,TC-062; TC-066; TC-131,Beta,,New in V2.5
+F-22,Admin may be hired to keep the catalogue current,"Intake, routine, source files, admin report",D-057,,A01,TC-102; TC-105,Launch,admin_report,Specified V2.2; admin report moved from R1.5 into R1 in V2.5
+F-23,"A creative name, in the spirit of Woogle",Whoolkit recommended; final choice and domain gate the public launch,D-059; D-019,,,,Launch,,Decision needed (D-019)
+F-24,"Non-commercial first, monetisation after the MVP","No ads, affiliates or paid placement; options kept in doc 19",D-001; D-050,FR-045,,TC-132,Post-MVP,,Specified V1/V2
+F-25,Domain experts will validate later,"Expert-validation labels shown on every identity, need, roadmap and lens",D-044; D-045,FR-057,,,Post-MVP,,"Specified V2.1; labels now, badges later"
+F-26,Ticks that show I can do this,On-device module ticks on roadmaps; helper checklists use the same store,D-051,FR-069,S30; S40,TC-083; TC-122,Beta,roadmap_ticks,Specified V2.1; extended V2.5
+F-27,Identity stays private,The chosen identity and helper progress never leave the device,D-053,FR-054; FR-069,S01-R,TC-074; TC-122,Beta,,Specified V2.1; extended V2.5
+F-28,Occupations list for experts to review,Occupations directory (CSV and Markdown) generated from the sources,D-055,,,TC-103; TC-105,Beta,,Specified V2.2
+F-29,Improve every week from what people say,"Weekly loop: sort, fix, release, announce in What's new",D-062; D-064,FR-065,S37,TC-111,Beta,whats_new,Specified V2.3

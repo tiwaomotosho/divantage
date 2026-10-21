@@ -1,0 +1,135 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_meetings",
+ "slug": "meetings",
+ "title": "Video meetings (Zoom, Google Meet, Microsoft Teams)",
+ "tool_ids": [
+  "tool_zoom",
+  "tool_google_meet",
+  "tool_microsoft_teams",
+  "tool_jitsi_meet"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_vm_join",
+    "slug": "vm-join",
+    "title": "Join and speak confidently",
+    "outcome": "You can: join, mute, share video and use chat",
+    "topics": [
+     "joining links",
+     "audio/video settings",
+     "mute",
+     "chat",
+     "reactions"
+    ],
+    "practice": "Join a test call and check your audio",
+    "need_tags": [
+     "video-meetings",
+     "digital-basics"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_vm_host",
+    "slug": "vm-host",
+    "title": "Host a meeting",
+    "outcome": "You can: schedule, admit people and share your screen",
+    "topics": [
+     "scheduling",
+     "waiting room",
+     "screen share",
+     "recording consent"
+    ],
+    "practice": "Host a 10-minute call with screen sharing",
+    "need_tags": [
+     "video-meetings"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_vm_accessible",
+    "slug": "vm-accessible",
+    "title": "Inclusive meetings",
+    "outcome": "You can: make meetings work for everyone",
+    "topics": [
+     "captions",
+     "transcripts",
+     "interpretation",
+     "low-bandwidth tips"
+    ],
+    "practice": "Run a meeting with captions on",
+    "need_tags": [
+     "video-meetings",
+     "accessible-communication"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_vm_facilitate",
+    "slug": "vm-facilitate",
+    "title": "Facilitate online workshops",
+    "outcome": "You can: keep groups engaged online",
+    "topics": [
+     "breakout rooms",
+     "polls",
+     "whiteboards",
+     "timekeeping"
+    ],
+    "practice": "Run a 30-minute workshop with breakouts",
+    "need_tags": [
+     "workshop-facilitation",
+     "interactive-teaching"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_vm_webinar",
+    "slug": "vm-webinar",
+    "title": "Webinars and secure meetings",
+    "outcome": "You can: run large or sensitive sessions",
+    "topics": [
+     "webinars",
+     "registration",
+     "security settings",
+     "recordings policy"
+    ],
+    "practice": "Set up a registration-based webinar",
+    "need_tags": [
+     "events-management",
+     "telemedicine"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false
+}

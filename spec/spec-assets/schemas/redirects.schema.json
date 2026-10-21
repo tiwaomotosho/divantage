@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://digitaladvantage.example/schemas/v2/redirects.schema.json",
+  "title": "Redirect map (content/redirects.json)",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "from",
+      "to",
+      "status",
+      "created_at",
+      "reason"
+    ],
+    "properties": {
+      "from": {
+        "type": "string",
+        "pattern": "^/[a-z0-9/-]*$"
+      },
+      "to": {
+        "type": "string",
+        "pattern": "^/[a-z0-9/-]*$"
+      },
+      "status": {
+        "enum": [
+          301,
+          308
+        ]
+      },
+      "created_at": {
+        "type": "string",
+        "format": "date",
+        "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+      },
+      "reason": {
+        "type": "string",
+        "minLength": 3,
+        "maxLength": 200
+      }
+    }
+  }
+}

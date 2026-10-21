@@ -1,0 +1,163 @@
+{
+  "schema_version": "2.0",
+  "is_illustrative": false,
+  "redirect_from": [],
+  "disclosure": {
+    "commercial_relationship": "none"
+  },
+  "id": "tool_zapier",
+  "slug": "zapier",
+  "name": "Zapier",
+  "official_name": "Zapier",
+  "official_url": "https://zapier.com/",
+  "developer_or_publisher": "Zapier",
+  "summary": "An online service that connects apps and automates repetitive tasks without code.",
+  "description": "Zapier is an online automation service that moves data between apps without programming. You build 'Zaps': when something happens in one app (a trigger), Zapier does something in another (an action), such as saving email attachments to cloud storage or adding form responses to a spreadsheet. It offers integrations for more than 9,000 apps. A free plan covers simple two-step automations with a monthly task limit; paid plans add multi-step automations and higher limits.",
+  "category_ids": [
+    "automation"
+  ],
+  "task_ids": [
+    "task_automate_repetitive_task"
+  ],
+  "audience_ids": [
+    "business-owner",
+    "professional",
+    "freelancer"
+  ],
+  "skill_level": "beginner",
+  "pricing": {
+    "model": "freemium",
+    "verification_status": "verified",
+    "source_ids": [
+      "src_zapier_pricing"
+    ],
+    "checked_at": "2026-10-21",
+    "free_tier_details": "Free plan: 100 tasks per month, unlimited two-step Zaps (as listed on the official pricing page).",
+    "paid_plan_summary": "Professional and Team plans add multi-step Zaps and higher task tiers; Enterprise is quote-based. Yearly billing is offered at a discount.",
+    "costs_beyond_price": "The apps you connect may have their own plans and limits.",
+    "price_points": [
+      {
+        "plan": "Professional (from)",
+        "amount": 19.99,
+        "currency": "USD",
+        "period": "month",
+        "source_id": "src_zapier_pricing",
+        "checked_at": "2026-10-21",
+        "note": "Starting price shown with monthly billing."
+      },
+      {
+        "plan": "Team (from)",
+        "amount": 69,
+        "currency": "USD",
+        "period": "month",
+        "source_id": "src_zapier_pricing",
+        "checked_at": "2026-10-21",
+        "note": "Starting price shown with monthly billing."
+      }
+    ]
+  },
+  "platforms": {
+    "values": [],
+    "verification_status": "unverified",
+    "source_ids": []
+  },
+  "deployment": [
+    "hosted"
+  ],
+  "ai_involvement": "optional_ai",
+  "availability_status": "active",
+  "account_required": "yes",
+  "open_source": {
+    "is_open_source": false
+  },
+  "key_capabilities": [
+    {
+      "text": "Moves data between apps without being a developer, with integrations for more than 9,000 apps.",
+      "kind": "fact",
+      "source_ids": [
+        "src_zapier_pricing"
+      ]
+    },
+    {
+      "text": "Free plan includes Zaps, Tables and Forms, and lists an AI assistant (Zapier Copilot).",
+      "kind": "fact",
+      "source_ids": [
+        "src_zapier_pricing"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Free plan is limited to 100 tasks per month and two-step Zaps.",
+      "kind": "fact",
+      "source_ids": [
+        "src_zapier_pricing"
+      ]
+    },
+    {
+      "text": "Costs grow with task volume; estimate how many tasks your automation will use each month before relying on it.",
+      "kind": "editorial",
+      "source_ids": []
+    }
+  ],
+  "best_for": [
+    "Non-technical people automating work between popular online apps",
+    "Small teams that want automations running without managing servers"
+  ],
+  "not_ideal_for": [
+    "High-volume automations on a zero budget",
+    "Organisations that must keep all data on their own servers"
+  ],
+  "learning_curve": "gentle",
+  "getting_started": [
+    "Write down the repetitive task as 'When X happens in app A, do Y in app B'.",
+    "Create a free account and build a two-step Zap for it.",
+    "Test the Zap with real data and check the result in app B."
+  ],
+  "resource_ids": [],
+  "alternative_tool_ids": [
+    "tool_n8n"
+  ],
+  "comparison_ids": [],
+  "playbook_ids": [],
+  "search_aliases": [
+    "zap",
+    "automation",
+    "connect apps",
+    "workflow automation",
+    "no-code automation",
+    "ifttt alternative"
+  ],
+  "sources": [
+    {
+      "id": "src_zapier_pricing",
+      "type": "official_pricing",
+      "url": "https://zapier.com/pricing",
+      "title": "Zapier pricing",
+      "publisher": "Zapier",
+      "checked_at": "2026-10-21",
+      "supports": [
+        "pricing",
+        "free_tier",
+        "capabilities"
+      ],
+      "quote": "Zapier makes it easy for you to move data between your apps without being a developer."
+    }
+  ],
+  "editorial": {
+    "status": "published",
+    "author": "V2 research pass (AI-assisted, Claude)",
+    "reviewer": "Product owner — blanket MVP approval (D-044)",
+    "created_at": "2026-10-21",
+    "updated_at": "2026-10-21",
+    "published_at": "2026-10-21",
+    "last_verified_at": "2026-10-21",
+    "review_interval_days": 90,
+    "next_review_at": "2027-01-19",
+    "confidence": "high",
+    "solo_approval": true,
+    "change_summary": "Researched from official sources 2026-10-21; published under owner's blanket MVP approval (D-044). Domain-expert review pending.",
+    "public_corrections": [],
+    "internal_notes": ""
+  }
+}

@@ -1,0 +1,242 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_docusaurus",
+ "slug": "docusaurus",
+ "title": "Docusaurus skill roadmap",
+ "tool_ids": [
+  "tool_docusaurus"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_docusaurus_dev_tool_0",
+    "slug": "docusaurus-dev-tool-0",
+    "title": "Get started with Docusaurus",
+    "outcome": "You can: set up Docusaurus, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "technical-writing"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_docusaurus_dev_tool_1",
+    "slug": "docusaurus-dev-tool-1",
+    "title": "Install and run",
+    "outcome": "You can: set up Docusaurus and run a first project",
+    "topics": [
+     "installation",
+     "project structure",
+     "documentation",
+     "hello world"
+    ],
+    "practice": "Run the official quick start",
+    "need_tags": [
+     "write-code",
+     "technical-writing"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_docusaurus_dev_tool_2",
+    "slug": "docusaurus-dev-tool-2",
+    "title": "Core workflow",
+    "outcome": "You can: do the everyday task Docusaurus is for",
+    "topics": [
+     "core commands/APIs",
+     "configuration",
+     "conventions"
+    ],
+    "practice": "Build a small feature or config with Docusaurus",
+    "need_tags": [
+     "write-code",
+     "technical-writing"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_docusaurus_dev_tool_3",
+    "slug": "docusaurus-dev-tool-3",
+    "title": "Debug and test",
+    "outcome": "You can: find and prevent problems",
+    "topics": [
+     "logs",
+     "debugging",
+     "tests",
+     "common errors"
+    ],
+    "practice": "Fix a deliberately broken example",
+    "need_tags": [
+     "write-code",
+     "test-automation",
+     "technical-writing"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_docusaurus_dev_tool_4",
+    "slug": "docusaurus-dev-tool-4",
+    "title": "Work in a team",
+    "outcome": "You can: use Docusaurus in shared projects",
+    "topics": [
+     "version control",
+     "code review",
+     "environments",
+     "secrets"
+    ],
+    "practice": "Add Docusaurus to a team repository with docs",
+    "need_tags": [
+     "version-control",
+     "technical-writing"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_docusaurus_dev_tool_8",
+    "slug": "docusaurus-dev-tool-8",
+    "title": "Signature skills in Docusaurus",
+    "outcome": "You can: use the features that make Docusaurus distinctive",
+    "topics": [
+     "docs pages",
+     "sidebars",
+     "versioning",
+     "deployment"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "technical-writing"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_docusaurus_dev_tool_9",
+    "slug": "docusaurus-dev-tool-9",
+    "title": "Advanced Docusaurus",
+    "outcome": "You can: use Docusaurus's advanced capabilities with confidence",
+    "topics": [
+     "plugins",
+     "search",
+     "internationalisation"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "technical-writing"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_docusaurus_dev_tool_5",
+    "slug": "docusaurus-dev-tool-5",
+    "title": "Production-ready",
+    "outcome": "You can: run Docusaurus reliably in production",
+    "topics": [
+     "security",
+     "performance",
+     "monitoring",
+     "CI/CD"
+    ],
+    "practice": "Add Docusaurus to a CI pipeline with checks",
+    "need_tags": [
+     "devops-cicd",
+     "observability",
+     "technical-writing"
+    ],
+    "estimated_hours": {
+     "value": 5.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_docusaurus_dev_tool_10",
+    "slug": "docusaurus-dev-tool-10",
+    "title": "Integrate Docusaurus into your workflow",
+    "outcome": "You can: connect Docusaurus with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Docusaurus to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "technical-writing"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_docusaurus_dev_tool_11",
+    "slug": "docusaurus-dev-tool-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Docusaurus well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Docusaurus\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "technical-writing"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype+signature",
+ "archetype": "dev-tool",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

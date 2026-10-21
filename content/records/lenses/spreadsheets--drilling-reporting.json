@@ -1,0 +1,161 @@
+{
+ "schema_version": "2.1",
+ "id": "lens_spreadsheets__drilling_reporting",
+ "roadmap_id": "rm_spreadsheets",
+ "roadmap": "spreadsheets",
+ "need_id": "need_drilling_reporting",
+ "need": "drilling-reporting",
+ "title": "Excel for daily drilling reports and KPIs",
+ "kind": "flagship",
+ "for_identities": [
+  "drilling-engineer",
+  "drilling-supervisor",
+  "drilling-data-engineer",
+  "wells-superintendent",
+  "rig-manager"
+ ],
+ "why": "Daily drilling reports produce rich data — but turning them into KPIs and lessons learned is often done in spreadsheets.",
+ "what_is_different": "Drilling KPIs depend on consistent activity codes, depth intervals and time categories (productive time vs NPT vs invisible lost time). The value is in clean categorisation and benchmarking across wells and rigs.",
+ "priority_modules": [
+  "xl-cleaning",
+  "xl-pivots",
+  "xl-dates-text",
+  "xl-power-query",
+  "xl-conditional",
+  "xl-charts-1"
+ ],
+ "extra_modules": [
+  {
+   "level": "intermediate",
+   "title": "Time breakdown analysis",
+   "outcome": "You can: analyse operation codes and NPT",
+   "topics": [
+    "activity code mapping",
+    "NPT and ILT",
+    "rate of penetration by section",
+    "connection times"
+   ],
+   "practice": "Build a pivot of NPT by cause and section for three wells"
+  },
+  {
+   "level": "expert",
+   "title": "Cross-well benchmarking",
+   "outcome": "You can: compare performance across wells and rigs",
+   "topics": [
+    "normalising by depth/section",
+    "best-composite well",
+    "lessons-learned register"
+   ],
+   "practice": "Build a best-composite time curve from offset wells"
+  }
+ ],
+ "starter_project": "Turn a month of exported daily reports into a refreshable KPI workbook with NPT pareto, ROP by section and planned-vs-actual curves.",
+ "pitfalls": [
+  "Inconsistent activity codes between rigs",
+  "Free-text NPT descriptions that can't be analysed",
+  "Copy-paste reporting instead of refreshable queries"
+ ],
+ "pairs_with": [
+  "tool_wellview",
+  "tool_openwells",
+  "tool_power_bi"
+ ],
+ "expert_validation": {
+  "status": "pending",
+  "note": "AI-drafted outline; to be validated by a practitioner and an educator in this field."
+ },
+ "is_illustrative": false,
+ "composed_path": {
+  "beginner": [
+   {
+    "module": "xl-charts-1",
+    "relevance": "core",
+    "rank": 5
+   },
+   {
+    "module": "xl-basics",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "xl-formulas-1",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "xl-tables-sort",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ],
+  "intermediate": [
+   {
+    "extra": "Time breakdown analysis",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "module": "xl-cleaning",
+    "relevance": "core",
+    "rank": 0
+   },
+   {
+    "module": "xl-pivots",
+    "relevance": "core",
+    "rank": 1
+   },
+   {
+    "module": "xl-dates-text",
+    "relevance": "core",
+    "rank": 2
+   },
+   {
+    "module": "xl-conditional",
+    "relevance": "core",
+    "rank": 4
+   },
+   {
+    "module": "xl-logic",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "xl-protect-share",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ],
+  "expert": [
+   {
+    "extra": "Cross-well benchmarking",
+    "relevance": "core",
+    "rank": -1
+   },
+   {
+    "module": "xl-power-query",
+    "relevance": "core",
+    "rank": 3
+   },
+   {
+    "module": "xl-automation",
+    "relevance": "core",
+    "rank": 6
+   },
+   {
+    "module": "xl-dynamic-arrays",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "xl-what-if",
+    "relevance": "also_useful",
+    "rank": 99
+   },
+   {
+    "module": "xl-model-design",
+    "relevance": "also_useful",
+    "rank": 99
+   }
+  ]
+ }
+}

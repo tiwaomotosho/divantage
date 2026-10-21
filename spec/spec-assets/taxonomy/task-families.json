@@ -1,0 +1,152 @@
+{
+  "vocabulary": "task_family",
+  "version": "2.0.0",
+  "note": "Groups Tasks on /tasks and the home page. Not a filter facet in R1.",
+  "values": [
+    {
+      "id": "fam_create",
+      "slug": "create",
+      "label": "Create",
+      "description": "Make something: graphics, video, documents, websites, audio.",
+      "example_queries": [
+        "Edit videos",
+        "design graphics",
+        "make presentations"
+      ],
+      "editor_selectable": true,
+      "visitor_visible": true
+    },
+    {
+      "id": "fam_learn",
+      "slug": "learn",
+      "label": "Learn",
+      "description": "Understand a concept or learn a digital skill.",
+      "example_queries": [
+        "Learn to code",
+        "follow a tutorial"
+      ],
+      "editor_selectable": true,
+      "visitor_visible": true
+    },
+    {
+      "id": "fam_research",
+      "slug": "research",
+      "label": "Research",
+      "description": "Find, organise and check information.",
+      "example_queries": [
+        "Find credible sources",
+        "manage references"
+      ],
+      "editor_selectable": true,
+      "visitor_visible": true
+    },
+    {
+      "id": "fam_write_communicate",
+      "slug": "write-communicate",
+      "label": "Write and communicate",
+      "description": "Draft, edit, translate and share written work.",
+      "example_queries": [
+        "Improve clarity",
+        "translate a document"
+      ],
+      "editor_selectable": true,
+      "visitor_visible": true
+    },
+    {
+      "id": "fam_analyze",
+      "slug": "analyze",
+      "label": "Analyse",
+      "description": "Work with spreadsheets and data; make charts and dashboards.",
+      "example_queries": [
+        "Analyse a spreadsheet",
+        "create a chart"
+      ],
+      "editor_selectable": true,
+      "visitor_visible": true
+    },
+    {
+      "id": "fam_automate",
+      "slug": "automate",
+      "label": "Automate",
+      "description": "Reduce repetitive work and connect apps.",
+      "example_queries": [
+        "Automate repetitive work",
+        "connect two apps"
+      ],
+      "editor_selectable": true,
+      "visitor_visible": true
+    },
+    {
+      "id": "fam_organize",
+      "slug": "organize",
+      "label": "Organise",
+      "description": "Manage projects, notes, files and tasks.",
+      "example_queries": [
+        "Organise notes",
+        "track tasks"
+      ],
+      "editor_selectable": true,
+      "visitor_visible": true
+    },
+    {
+      "id": "fam_build",
+      "slug": "build",
+      "label": "Build",
+      "description": "Build websites, prototypes and software.",
+      "example_queries": [
+        "Build a website",
+        "prototype an app"
+      ],
+      "editor_selectable": true,
+      "visitor_visible": true
+    },
+    {
+      "id": "fam_grow_business",
+      "slug": "grow-business",
+      "label": "Grow a business",
+      "description": "Market, sell, support customers and run operations.",
+      "example_queries": [
+        "Market a small business",
+        "send invoices"
+      ],
+      "editor_selectable": true,
+      "visitor_visible": true
+    },
+    {
+      "id": "fam_career_work",
+      "slug": "career-work",
+      "label": "Career and work",
+      "description": "Apply for jobs, build portfolios and grow at work.",
+      "example_queries": [
+        "Write a CV",
+        "prepare for an interview"
+      ],
+      "editor_selectable": true,
+      "visitor_visible": true
+    },
+    {
+      "id": "fam_teach_support",
+      "slug": "teach-support",
+      "label": "Teach and support others",
+      "description": "Create learning materials and help others go digital.",
+      "example_queries": [
+        "Make a lesson",
+        "create accessible resources"
+      ],
+      "editor_selectable": true,
+      "visitor_visible": true
+    },
+    {
+      "id": "fam_compare_options",
+      "slug": "compare-options",
+      "label": "Compare options",
+      "description": "Find free alternatives and compare cost, platforms and limits.",
+      "example_queries": [
+        "Find a free alternative",
+        "compare tools"
+      ],
+      "editor_selectable": true,
+      "visitor_visible": true
+    }
+  ]
+}
