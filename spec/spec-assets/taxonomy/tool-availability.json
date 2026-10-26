@@ -1,0 +1,14 @@
+{
+ "version": "2.6.0",
+ "note": "Tools that are not available in a market (D-074). Show a clear label on the tool page and never recommend them to visitors in that market.",
+ "values": [
+  {
+   "tool_id": "tool_uber",
+   "not_available_in": [
+    "ng"
+   ],
+   "since": "2026-09",
+   "note": "Uber ended operations in Nigeria (rides and Uber Send) in September 2026; still available in other countries."
+  }
+ ]
+}

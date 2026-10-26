@@ -24,7 +24,12 @@
     "need_tags": [
      "mechanical-design",
      "woodworking-design",
-     "cnc-cam"
+     "cnc-cam",
+     "cad-drafting",
+     "fea-simulation",
+     "3d-modelling",
+     "3d-printing",
+     "lesson-planning"
     ],
     "estimated_hours": {
      "value": 1,
@@ -48,7 +53,11 @@
      "cad-drafting",
      "mechanical-design",
      "woodworking-design",
-     "cnc-cam"
+     "cnc-cam",
+     "fea-simulation",
+     "3d-modelling",
+     "3d-printing",
+     "lesson-planning"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -73,7 +82,11 @@
      "mechanical-design",
      "bim-modelling",
      "woodworking-design",
-     "cnc-cam"
+     "cnc-cam",
+     "fea-simulation",
+     "3d-modelling",
+     "3d-printing",
+     "lesson-planning"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -100,7 +113,11 @@
      "technical-reporting",
      "mechanical-design",
      "woodworking-design",
-     "cnc-cam"
+     "cnc-cam",
+     "fea-simulation",
+     "3d-modelling",
+     "3d-printing",
+     "lesson-planning"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -125,7 +142,12 @@
      "drawing-markup",
      "mechanical-design",
      "woodworking-design",
-     "cnc-cam"
+     "cnc-cam",
+     "cad-drafting",
+     "fea-simulation",
+     "3d-modelling",
+     "3d-printing",
+     "lesson-planning"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -148,7 +170,12 @@
     "need_tags": [
      "mechanical-design",
      "woodworking-design",
-     "cnc-cam"
+     "cnc-cam",
+     "cad-drafting",
+     "fea-simulation",
+     "3d-modelling",
+     "3d-printing",
+     "lesson-planning"
     ],
     "estimated_hours": {
      "value": 3,
@@ -172,7 +199,12 @@
     "need_tags": [
      "mechanical-design",
      "woodworking-design",
-     "cnc-cam"
+     "cnc-cam",
+     "cad-drafting",
+     "fea-simulation",
+     "3d-modelling",
+     "3d-printing",
+     "lesson-planning"
     ],
     "estimated_hours": {
      "value": 4,
@@ -197,7 +229,12 @@
      "bim-modelling",
      "mechanical-design",
      "woodworking-design",
-     "cnc-cam"
+     "cnc-cam",
+     "cad-drafting",
+     "fea-simulation",
+     "3d-modelling",
+     "3d-printing",
+     "lesson-planning"
     ],
     "estimated_hours": {
      "value": 5.0,
@@ -221,7 +258,12 @@
      "automation-workflows",
      "mechanical-design",
      "woodworking-design",
-     "cnc-cam"
+     "cnc-cam",
+     "cad-drafting",
+     "fea-simulation",
+     "3d-modelling",
+     "3d-printing",
+     "lesson-planning"
     ],
     "estimated_hours": {
      "value": 2,
@@ -245,7 +287,12 @@
      "workshop-facilitation",
      "mechanical-design",
      "woodworking-design",
-     "cnc-cam"
+     "cnc-cam",
+     "cad-drafting",
+     "fea-simulation",
+     "3d-modelling",
+     "3d-printing",
+     "lesson-planning"
     ],
     "estimated_hours": {
      "value": 2,

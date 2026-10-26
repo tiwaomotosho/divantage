@@ -22,7 +22,8 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "surveying-photogrammetry"
+     "surveying-photogrammetry",
+     "cad-drafting"
     ],
     "estimated_hours": {
      "value": 1,
@@ -116,7 +117,8 @@
     "need_tags": [
      "bim-modelling",
      "drawing-markup",
-     "surveying-photogrammetry"
+     "surveying-photogrammetry",
+     "cad-drafting"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -137,7 +139,8 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "surveying-photogrammetry"
+     "surveying-photogrammetry",
+     "cad-drafting"
     ],
     "estimated_hours": {
      "value": 3,
@@ -159,7 +162,8 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "surveying-photogrammetry"
+     "surveying-photogrammetry",
+     "cad-drafting"
     ],
     "estimated_hours": {
      "value": 4,
@@ -182,7 +186,8 @@
     "need_tags": [
      "cost-estimation",
      "bim-modelling",
-     "surveying-photogrammetry"
+     "surveying-photogrammetry",
+     "cad-drafting"
     ],
     "estimated_hours": {
      "value": 5.0,
@@ -204,7 +209,8 @@
     "practice": "Connect Trimble Business Center to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "surveying-photogrammetry"
+     "surveying-photogrammetry",
+     "cad-drafting"
     ],
     "estimated_hours": {
      "value": 2,
@@ -226,7 +232,8 @@
     "practice": "Write a one-page \"how we use Trimble Business Center\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "surveying-photogrammetry"
+     "surveying-photogrammetry",
+     "cad-drafting"
     ],
     "estimated_hours": {
      "value": 2,

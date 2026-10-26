@@ -1,0 +1,245 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_spellbook",
+ "slug": "spellbook",
+ "title": "Spellbook skill roadmap",
+ "tool_ids": [
+  "tool_spellbook"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_spellbook_legal_practice_0",
+    "slug": "spellbook-legal-practice-0",
+    "title": "Get started with Spellbook",
+    "outcome": "You can: set up Spellbook, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "contract-drafting",
+     "legal-practice-management"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_spellbook_legal_practice_1",
+    "slug": "spellbook-legal-practice-1",
+    "title": "Matters and contacts",
+    "outcome": "You can: organise clients and matters",
+    "topics": [
+     "matters",
+     "contacts",
+     "conflicts checks",
+     "documents"
+    ],
+    "practice": "Set up a matter with documents and deadlines",
+    "need_tags": [
+     "legal-practice-management",
+     "contract-drafting"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_spellbook_legal_practice_2",
+    "slug": "spellbook-legal-practice-2",
+    "title": "Deadlines and tasks",
+    "outcome": "You can: never miss a date",
+    "topics": [
+     "calendars",
+     "court/limitation dates",
+     "reminders"
+    ],
+    "practice": "Add all deadlines for a matter",
+    "need_tags": [
+     "legal-practice-management",
+     "contract-drafting"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_spellbook_legal_practice_3",
+    "slug": "spellbook-legal-practice-3",
+    "title": "Time, billing and trust",
+    "outcome": "You can: record time and bill accurately",
+    "topics": [
+     "time entries",
+     "invoices",
+     "client accounts"
+    ],
+    "practice": "Record a week of time and draft an invoice",
+    "need_tags": [
+     "legal-practice-management",
+     "invoicing",
+     "contract-drafting"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_spellbook_legal_practice_4",
+    "slug": "spellbook-legal-practice-4",
+    "title": "Document review",
+    "outcome": "You can: review and tag documents defensibly",
+    "topics": [
+     "search",
+     "tagging",
+     "privilege",
+     "review batches"
+    ],
+    "practice": "Review and tag a sample set",
+    "need_tags": [
+     "ediscovery",
+     "contract-drafting",
+     "legal-practice-management"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_spellbook_legal_practice_8",
+    "slug": "spellbook-legal-practice-8",
+    "title": "Signature skills in Spellbook",
+    "outcome": "You can: use the features that make Spellbook distinctive",
+    "topics": [
+     "matters",
+     "documents",
+     "time and billing"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "contract-drafting",
+     "legal-practice-management"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_spellbook_legal_practice_9",
+    "slug": "spellbook-legal-practice-9",
+    "title": "Advanced Spellbook",
+    "outcome": "You can: use Spellbook's advanced capabilities with confidence",
+    "topics": [
+     "review workflows",
+     "analytics",
+     "confidentiality controls"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "contract-drafting",
+     "legal-practice-management"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_spellbook_legal_practice_5",
+    "slug": "spellbook-legal-practice-5",
+    "title": "Confidentiality and reporting",
+    "outcome": "You can: run the practice securely",
+    "topics": [
+     "permissions",
+     "audit trails",
+     "client portals",
+     "reports"
+    ],
+    "practice": "Audit user access and produce a practice report",
+    "need_tags": [
+     "legal-practice-management",
+     "contract-drafting"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_spellbook_legal_practice_10",
+    "slug": "spellbook-legal-practice-10",
+    "title": "Integrate Spellbook into your workflow",
+    "outcome": "You can: connect Spellbook with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Spellbook to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "contract-drafting",
+     "legal-practice-management"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_spellbook_legal_practice_11",
+    "slug": "spellbook-legal-practice-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Spellbook well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Spellbook\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "contract-drafting",
+     "legal-practice-management"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype",
+ "archetype": "legal-practice",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

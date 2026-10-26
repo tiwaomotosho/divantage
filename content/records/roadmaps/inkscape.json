@@ -24,7 +24,10 @@
     "need_tags": [
      "graphic-design-pro",
      "brand-identity",
-     "scientific-figures"
+     "scientific-figures",
+     "design-simple-graphics",
+     "fashion-design",
+     "digital-illustration"
     ],
     "estimated_hours": {
      "value": 1,
@@ -48,7 +51,9 @@
      "graphic-design-pro",
      "design-simple-graphics",
      "brand-identity",
-     "scientific-figures"
+     "scientific-figures",
+     "fashion-design",
+     "digital-illustration"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -71,7 +76,10 @@
     "need_tags": [
      "graphic-design-pro",
      "brand-identity",
-     "scientific-figures"
+     "scientific-figures",
+     "design-simple-graphics",
+     "fashion-design",
+     "digital-illustration"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -98,7 +106,10 @@
      "product-photography",
      "graphic-design-pro",
      "brand-identity",
-     "scientific-figures"
+     "scientific-figures",
+     "design-simple-graphics",
+     "fashion-design",
+     "digital-illustration"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -121,7 +132,10 @@
     "need_tags": [
      "brand-identity",
      "graphic-design-pro",
-     "scientific-figures"
+     "scientific-figures",
+     "design-simple-graphics",
+     "fashion-design",
+     "digital-illustration"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -144,7 +158,10 @@
     "need_tags": [
      "graphic-design-pro",
      "brand-identity",
-     "scientific-figures"
+     "scientific-figures",
+     "design-simple-graphics",
+     "fashion-design",
+     "digital-illustration"
     ],
     "estimated_hours": {
      "value": 3,
@@ -169,7 +186,10 @@
     "need_tags": [
      "graphic-design-pro",
      "brand-identity",
-     "scientific-figures"
+     "scientific-figures",
+     "design-simple-graphics",
+     "fashion-design",
+     "digital-illustration"
     ],
     "estimated_hours": {
      "value": 4,
@@ -191,7 +211,10 @@
     "need_tags": [
      "graphic-design-pro",
      "brand-identity",
-     "scientific-figures"
+     "scientific-figures",
+     "design-simple-graphics",
+     "fashion-design",
+     "digital-illustration"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -215,7 +238,10 @@
      "automation-workflows",
      "graphic-design-pro",
      "brand-identity",
-     "scientific-figures"
+     "scientific-figures",
+     "design-simple-graphics",
+     "fashion-design",
+     "digital-illustration"
     ],
     "estimated_hours": {
      "value": 2,
@@ -239,7 +265,10 @@
      "workshop-facilitation",
      "graphic-design-pro",
      "brand-identity",
-     "scientific-figures"
+     "scientific-figures",
+     "design-simple-graphics",
+     "fashion-design",
+     "digital-illustration"
     ],
     "estimated_hours": {
      "value": 2,

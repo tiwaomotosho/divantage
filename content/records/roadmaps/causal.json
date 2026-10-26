@@ -1,0 +1,251 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_causal",
+ "slug": "causal",
+ "title": "Causal skill roadmap",
+ "tool_ids": [
+  "tool_causal"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_causal_bi_analytics_0",
+    "slug": "causal-bi-analytics-0",
+    "title": "Get started with Causal",
+    "outcome": "You can: set up Causal, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "financial-modelling",
+     "budgeting-fpa"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_causal_bi_analytics_1",
+    "slug": "causal-bi-analytics-1",
+    "title": "Load and explore data",
+    "outcome": "You can: open data and get first answers",
+    "topics": [
+     "importing",
+     "data types",
+     "filtering",
+     "summaries"
+    ],
+    "practice": "Load a dataset and answer three questions",
+    "need_tags": [
+     "dashboards-bi",
+     "statistical-analysis",
+     "financial-modelling",
+     "budgeting-fpa"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_causal_bi_analytics_2",
+    "slug": "causal-bi-analytics-2",
+    "title": "First charts",
+    "outcome": "You can: make clear, honest charts",
+    "topics": [
+     "chart choice",
+     "labels",
+     "colour",
+     "annotation"
+    ],
+    "practice": "Make three charts that each answer one question",
+    "need_tags": [
+     "data-visualisation",
+     "financial-modelling",
+     "budgeting-fpa"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_causal_bi_analytics_3",
+    "slug": "causal-bi-analytics-3",
+    "title": "Analysis that holds up",
+    "outcome": "You can: analyse correctly and reproducibly",
+    "topics": [
+     "grouping",
+     "joins",
+     "tests/models where relevant",
+     "documentation"
+    ],
+    "practice": "Reproduce an analysis from start to finish",
+    "need_tags": [
+     "statistical-analysis",
+     "data-cleaning",
+     "financial-modelling",
+     "budgeting-fpa"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_causal_bi_analytics_4",
+    "slug": "causal-bi-analytics-4",
+    "title": "Share and publish",
+    "outcome": "You can: share results with decision-makers",
+    "topics": [
+     "dashboards/reports",
+     "exports",
+     "access"
+    ],
+    "practice": "Publish a report for a colleague",
+    "need_tags": [
+     "dashboards-bi",
+     "kpi-tracking",
+     "financial-modelling",
+     "budgeting-fpa"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_causal_bi_analytics_8",
+    "slug": "causal-bi-analytics-8",
+    "title": "Signature skills in Causal",
+    "outcome": "You can: use the features that make Causal distinctive",
+    "topics": [
+     "importing data",
+     "analysis",
+     "charts"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "financial-modelling",
+     "budgeting-fpa"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_causal_bi_analytics_9",
+    "slug": "causal-bi-analytics-9",
+    "title": "Advanced Causal",
+    "outcome": "You can: use Causal's advanced capabilities with confidence",
+    "topics": [
+     "modelling",
+     "automation",
+     "sharing and governance"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "financial-modelling",
+     "budgeting-fpa"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_causal_bi_analytics_5",
+    "slug": "causal-bi-analytics-5",
+    "title": "Automate and govern",
+    "outcome": "You can: run analysis reliably over time",
+    "topics": [
+     "scheduling/refresh",
+     "version control",
+     "data definitions"
+    ],
+    "practice": "Schedule a refresh and document metric definitions",
+    "need_tags": [
+     "data-pipelines",
+     "financial-modelling",
+     "budgeting-fpa"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_causal_bi_analytics_10",
+    "slug": "causal-bi-analytics-10",
+    "title": "Integrate Causal into your workflow",
+    "outcome": "You can: connect Causal with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Causal to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "financial-modelling",
+     "budgeting-fpa"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_causal_bi_analytics_11",
+    "slug": "causal-bi-analytics-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Causal well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Causal\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "financial-modelling",
+     "budgeting-fpa"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype",
+ "archetype": "bi-analytics",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

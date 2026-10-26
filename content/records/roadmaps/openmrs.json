@@ -22,7 +22,9 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "electronic-health-records"
+     "electronic-health-records",
+     "dental-practice",
+     "veterinary-practice"
     ],
     "estimated_hours": {
      "value": 1,
@@ -43,7 +45,9 @@
     ],
     "practice": "Document a sample (training) encounter",
     "need_tags": [
-     "electronic-health-records"
+     "electronic-health-records",
+     "dental-practice",
+     "veterinary-practice"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -64,7 +68,9 @@
     ],
     "practice": "Complete a training order-to-result cycle",
     "need_tags": [
-     "electronic-health-records"
+     "electronic-health-records",
+     "dental-practice",
+     "veterinary-practice"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -87,7 +93,9 @@
     ],
     "practice": "Build three personal templates",
     "need_tags": [
-     "electronic-health-records"
+     "electronic-health-records",
+     "dental-practice",
+     "veterinary-practice"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -110,7 +118,9 @@
     "need_tags": [
      "clinic-scheduling",
      "telemedicine",
-     "electronic-health-records"
+     "electronic-health-records",
+     "dental-practice",
+     "veterinary-practice"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -131,7 +141,9 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "electronic-health-records"
+     "electronic-health-records",
+     "dental-practice",
+     "veterinary-practice"
     ],
     "estimated_hours": {
      "value": 3,
@@ -153,7 +165,9 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "electronic-health-records"
+     "electronic-health-records",
+     "dental-practice",
+     "veterinary-practice"
     ],
     "estimated_hours": {
      "value": 4,
@@ -175,7 +189,9 @@
     "practice": "Run a report for a clinical audit",
     "need_tags": [
      "clinical-audit-qi",
-     "electronic-health-records"
+     "electronic-health-records",
+     "dental-practice",
+     "veterinary-practice"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -197,7 +213,9 @@
     "practice": "Connect OpenMRS to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "electronic-health-records"
+     "electronic-health-records",
+     "dental-practice",
+     "veterinary-practice"
     ],
     "estimated_hours": {
      "value": 2,
@@ -219,7 +237,9 @@
     "practice": "Write a one-page \"how we use OpenMRS\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "electronic-health-records"
+     "electronic-health-records",
+     "dental-practice",
+     "veterinary-practice"
     ],
     "estimated_hours": {
      "value": 2,

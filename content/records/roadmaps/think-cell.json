@@ -22,7 +22,9 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "consulting-deliverables"
+     "consulting-deliverables",
+     "presentations",
+     "project-scheduling"
     ],
     "estimated_hours": {
      "value": 1,
@@ -43,7 +45,9 @@
     ],
     "practice": "Install think-cell on phone and computer",
     "need_tags": [
-     "consulting-deliverables"
+     "consulting-deliverables",
+     "presentations",
+     "project-scheduling"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -64,7 +68,9 @@
     "practice": "Use think-cell for a week and note one saved hour",
     "need_tags": [
      "personal-productivity",
-     "consulting-deliverables"
+     "consulting-deliverables",
+     "presentations",
+     "project-scheduling"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -88,7 +94,9 @@
     "need_tags": [
      "personal-productivity",
      "records-management",
-     "consulting-deliverables"
+     "consulting-deliverables",
+     "presentations",
+     "project-scheduling"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -110,7 +118,9 @@
     "need_tags": [
      "files-cloud-storage",
      "online-safety",
-     "consulting-deliverables"
+     "consulting-deliverables",
+     "presentations",
+     "project-scheduling"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -131,7 +141,9 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "consulting-deliverables"
+     "consulting-deliverables",
+     "presentations",
+     "project-scheduling"
     ],
     "estimated_hours": {
      "value": 3,
@@ -153,7 +165,9 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "consulting-deliverables"
+     "consulting-deliverables",
+     "presentations",
+     "project-scheduling"
     ],
     "estimated_hours": {
      "value": 4,
@@ -174,7 +188,9 @@
     "practice": "Create two automation rules",
     "need_tags": [
      "automation-workflows",
-     "consulting-deliverables"
+     "consulting-deliverables",
+     "presentations",
+     "project-scheduling"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -196,7 +212,9 @@
     "practice": "Connect think-cell to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "consulting-deliverables"
+     "consulting-deliverables",
+     "presentations",
+     "project-scheduling"
     ],
     "estimated_hours": {
      "value": 2,
@@ -218,7 +236,9 @@
     "practice": "Write a one-page \"how we use think-cell\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "consulting-deliverables"
+     "consulting-deliverables",
+     "presentations",
+     "project-scheduling"
     ],
     "estimated_hours": {
      "value": 2,

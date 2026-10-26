@@ -1,0 +1,237 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_minesight",
+ "slug": "minesight",
+ "title": "MineSight skill roadmap",
+ "tool_ids": [
+  "tool_minesight"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_minesight_subsurface_0",
+    "slug": "minesight-subsurface-0",
+    "title": "Get started with MineSight",
+    "outcome": "You can: set up MineSight, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "mine-planning"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_minesight_subsurface_1",
+    "slug": "minesight-subsurface-1",
+    "title": "Projects and data",
+    "outcome": "You can: load and QC subsurface data",
+    "topics": [
+     "coordinate systems",
+     "units",
+     "well/log/seismic/survey data",
+     "QC"
+    ],
+    "practice": "Load and QC a sample dataset",
+    "need_tags": [
+     "mine-planning"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_minesight_subsurface_2",
+    "slug": "minesight-subsurface-2",
+    "title": "Core interpretation",
+    "outcome": "You can: complete the core workflow in MineSight",
+    "topics": [
+     "correlation/picks",
+     "surfaces",
+     "trajectories or blocks"
+    ],
+    "practice": "Complete a basic interpretation",
+    "need_tags": [
+     "mine-planning"
+    ],
+    "estimated_hours": {
+     "value": 4.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_minesight_subsurface_3",
+    "slug": "minesight-subsurface-3",
+    "title": "Build the model",
+    "outcome": "You can: build a model fit for decisions",
+    "topics": [
+     "grids/blocks",
+     "properties",
+     "constraints"
+    ],
+    "practice": "Build a simple model from your interpretation",
+    "need_tags": [
+     "reservoir-modelling",
+     "mine-planning",
+     "well-planning-design"
+    ],
+    "estimated_hours": {
+     "value": 5.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_minesight_subsurface_4",
+    "slug": "minesight-subsurface-4",
+    "title": "Uncertainty and scenarios",
+    "outcome": "You can: quantify what you don't know",
+    "topics": [
+     "ranges",
+     "realisations",
+     "P10/P50/P90"
+    ],
+    "practice": "Run three scenarios and compare",
+    "need_tags": [
+     "risk-modelling",
+     "mine-planning"
+    ],
+    "estimated_hours": {
+     "value": 4.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_minesight_subsurface_8",
+    "slug": "minesight-subsurface-8",
+    "title": "Signature skills in MineSight",
+    "outcome": "You can: use the features that make MineSight distinctive",
+    "topics": [
+     "projects and data loading",
+     "interpretation",
+     "QC"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "mine-planning"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_minesight_subsurface_9",
+    "slug": "minesight-subsurface-9",
+    "title": "Advanced MineSight",
+    "outcome": "You can: use MineSight's advanced capabilities with confidence",
+    "topics": [
+     "modelling workflows",
+     "uncertainty",
+     "automation"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "mine-planning"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_minesight_subsurface_5",
+    "slug": "minesight-subsurface-5",
+    "title": "Integrate and report",
+    "outcome": "You can: hand over results to engineering and management",
+    "topics": [
+     "exports",
+     "reporting",
+     "peer review",
+     "regulatory submissions"
+    ],
+    "practice": "Prepare a peer-review pack",
+    "need_tags": [
+     "regulatory-reporting",
+     "technical-reporting",
+     "mine-planning"
+    ],
+    "estimated_hours": {
+     "value": 4.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_minesight_subsurface_10",
+    "slug": "minesight-subsurface-10",
+    "title": "Integrate MineSight into your workflow",
+    "outcome": "You can: connect MineSight with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect MineSight to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "mine-planning"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_minesight_subsurface_11",
+    "slug": "minesight-subsurface-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use MineSight well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use MineSight\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "mine-planning"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype",
+ "archetype": "subsurface",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

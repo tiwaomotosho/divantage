@@ -1,6 +1,6 @@
 # 03 — Information Architecture and Taxonomy
 
-**Version:** 2.5 · Controlled vocabularies are machine-readable in `spec-assets/taxonomy/`. Those files are authoritative; this document explains them.
+**Version:** 2.6 · Controlled vocabularies are machine-readable in `spec-assets/taxonomy/`. Those files are authoritative; this document explains them.
 
 ## 1. Route tree (R1)
 ```
@@ -249,3 +249,9 @@ Audience (V2) is retired as a dimension. Its slugs survive only as redirects.
 | Home featured content | `config/home-featured.json` | The popular chips and identity ribbon for S01-R. Every slug must exist. |
 ### 8.5 Indexing
 Helper pages (S39, S40) are curated and indexable at public launch with a canonical URL. While `noindex_site` is on, everything is noindex (FR-066).
+
+## V2.6 additions
+New taxonomy files: `goals.json` (633), `alternatives.json`, `intents.json` (compete, grow, scale), `tool-markets.json`, `tool-availability.json`. New routes: `/goals`, `/goals/{slug}`, `/me`, `/me/profile`, `/trending`, `/suggestions/{ref}`. Hierarchy: identity → need → goal → tools. Detail in doc 24.
+
+## V2.7 additions
+New files: `taxonomy/goal-kits.json` (29), `goal-links.json` (1,050), `goal-safety.json` (9 rules and tags for 498 goals), `identity-kit-hints.json` (2,603), `entry-paths.json` (7 paths), and `registry/tool-profiles.json` (1,781). New routes: `/kits` and `/kits/{slug}`. The goals count is now 1,050 under the same 279 needs. See doc 26.

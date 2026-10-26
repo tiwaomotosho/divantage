@@ -1,0 +1,239 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_yazio",
+ "slug": "yazio",
+ "title": "YAZIO skill roadmap",
+ "tool_ids": [
+  "tool_yazio"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_yazio_health_wellbeing_app_0",
+    "slug": "yazio-health-wellbeing-app-0",
+    "title": "Get started with YAZIO",
+    "outcome": "You can: set up YAZIO, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "nutrition-planning"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_yazio_health_wellbeing_app_1",
+    "slug": "yazio-health-wellbeing-app-1",
+    "title": "Set up with privacy in mind",
+    "outcome": "You can: set up YAZIO and control your data",
+    "topics": [
+     "profile",
+     "permissions",
+     "privacy settings"
+    ],
+    "practice": "Review and tighten privacy settings",
+    "need_tags": [
+     "personal-health-tracking",
+     "online-safety",
+     "nutrition-planning"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_yazio_health_wellbeing_app_2",
+    "slug": "yazio-health-wellbeing-app-2",
+    "title": "Daily habit",
+    "outcome": "You can: use YAZIO daily without effort",
+    "topics": [
+     "logging",
+     "reminders",
+     "widgets"
+    ],
+    "practice": "Use YAZIO daily for a week",
+    "need_tags": [
+     "personal-health-tracking",
+     "mindfulness-wellbeing",
+     "nutrition-planning"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_yazio_health_wellbeing_app_3",
+    "slug": "yazio-health-wellbeing-app-3",
+    "title": "Read your trends",
+    "outcome": "You can: understand what the data says",
+    "topics": [
+     "trends",
+     "averages",
+     "limits of the data"
+    ],
+    "practice": "Review a month of data and set one goal",
+    "need_tags": [
+     "training-load",
+     "nutrition-planning"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_yazio_health_wellbeing_app_4",
+    "slug": "yazio-health-wellbeing-app-4",
+    "title": "Share with a professional",
+    "outcome": "You can: share useful summaries",
+    "topics": [
+     "exports",
+     "reports",
+     "consent"
+    ],
+    "practice": "Prepare a summary for a coach or clinician",
+    "need_tags": [
+     "online-coaching",
+     "care-coordination",
+     "nutrition-planning"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_yazio_health_wellbeing_app_8",
+    "slug": "yazio-health-wellbeing-app-8",
+    "title": "Signature skills in YAZIO",
+    "outcome": "You can: use the features that make YAZIO distinctive",
+    "topics": [
+     "setup",
+     "daily tracking",
+     "privacy"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "nutrition-planning"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_yazio_health_wellbeing_app_9",
+    "slug": "yazio-health-wellbeing-app-9",
+    "title": "Advanced YAZIO",
+    "outcome": "You can: use YAZIO's advanced capabilities with confidence",
+    "topics": [
+     "trends",
+     "goals",
+     "sharing with professionals"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "nutrition-planning"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_yazio_health_wellbeing_app_5",
+    "slug": "yazio-health-wellbeing-app-5",
+    "title": "Coach others",
+    "outcome": "You can: use YAZIO to support clients or family",
+    "topics": [
+     "client accounts",
+     "group features",
+     "safeguarding"
+    ],
+    "practice": "Set up YAZIO for a client or family member",
+    "need_tags": [
+     "online-coaching",
+     "care-coordination",
+     "nutrition-planning"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_yazio_health_wellbeing_app_10",
+    "slug": "yazio-health-wellbeing-app-10",
+    "title": "Integrate YAZIO into your workflow",
+    "outcome": "You can: connect YAZIO with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect YAZIO to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "nutrition-planning"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_yazio_health_wellbeing_app_11",
+    "slug": "yazio-health-wellbeing-app-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use YAZIO well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use YAZIO\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "nutrition-planning"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype",
+ "archetype": "health-wellbeing-app",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

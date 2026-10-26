@@ -22,7 +22,8 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "hotel-management"
+     "hotel-management",
+     "tour-booking"
     ],
     "estimated_hours": {
      "value": 1,
@@ -43,7 +44,8 @@
     ],
     "practice": "Set up your profile and three services or products",
     "need_tags": [
-     "hotel-management"
+     "hotel-management",
+     "tour-booking"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -63,7 +65,8 @@
     ],
     "practice": "Run one full day of operations in Little Hotelier",
     "need_tags": [
-     "hotel-management"
+     "hotel-management",
+     "tour-booking"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -88,7 +91,8 @@
     "need_tags": [
      "crm-sales",
      "customer-support",
-     "hotel-management"
+     "hotel-management",
+     "tour-booking"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -109,7 +113,8 @@
     "practice": "Review last month's report and pick one action",
     "need_tags": [
      "kpi-tracking",
-     "hotel-management"
+     "hotel-management",
+     "tour-booking"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -130,7 +135,8 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "hotel-management"
+     "hotel-management",
+     "tour-booking"
     ],
     "estimated_hours": {
      "value": 3,
@@ -152,7 +158,8 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "hotel-management"
+     "hotel-management",
+     "tour-booking"
     ],
     "estimated_hours": {
      "value": 4,
@@ -173,7 +180,8 @@
     "practice": "Set up roles for staff and review the audit log",
     "need_tags": [
      "people-management",
-     "hotel-management"
+     "hotel-management",
+     "tour-booking"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -195,7 +203,8 @@
     "practice": "Connect Little Hotelier to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "hotel-management"
+     "hotel-management",
+     "tour-booking"
     ],
     "estimated_hours": {
      "value": 2,
@@ -217,7 +226,8 @@
     "practice": "Write a one-page \"how we use Little Hotelier\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "hotel-management"
+     "hotel-management",
+     "tour-booking"
     ],
     "estimated_hours": {
      "value": 2,

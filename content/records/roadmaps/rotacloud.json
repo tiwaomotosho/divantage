@@ -22,7 +22,9 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "shift-rota"
+     "shift-rota",
+     "people-management",
+     "payroll"
     ],
     "estimated_hours": {
      "value": 1,
@@ -44,7 +46,8 @@
     "practice": "Set up three employee profiles",
     "need_tags": [
      "people-management",
-     "shift-rota"
+     "shift-rota",
+     "payroll"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -65,7 +68,8 @@
     "practice": "Build next week's rota and approve a leave request",
     "need_tags": [
      "shift-rota",
-     "people-management"
+     "people-management",
+     "payroll"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -88,7 +92,9 @@
     "practice": "Create an onboarding checklist for a new hire",
     "need_tags": [
      "recruitment",
-     "shift-rota"
+     "shift-rota",
+     "people-management",
+     "payroll"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -110,7 +116,8 @@
     "practice": "Run a test payroll",
     "need_tags": [
      "payroll",
-     "shift-rota"
+     "shift-rota",
+     "people-management"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -131,7 +138,9 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "shift-rota"
+     "shift-rota",
+     "people-management",
+     "payroll"
     ],
     "estimated_hours": {
      "value": 3,
@@ -153,7 +162,9 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "shift-rota"
+     "shift-rota",
+     "people-management",
+     "payroll"
     ],
     "estimated_hours": {
      "value": 4,
@@ -176,7 +187,8 @@
     "need_tags": [
      "kpi-tracking",
      "people-management",
-     "shift-rota"
+     "shift-rota",
+     "payroll"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -198,7 +210,9 @@
     "practice": "Connect RotaCloud to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "shift-rota"
+     "shift-rota",
+     "people-management",
+     "payroll"
     ],
     "estimated_hours": {
      "value": 2,
@@ -220,7 +234,9 @@
     "practice": "Write a one-page \"how we use RotaCloud\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "shift-rota"
+     "shift-rota",
+     "people-management",
+     "payroll"
     ],
     "estimated_hours": {
      "value": 2,

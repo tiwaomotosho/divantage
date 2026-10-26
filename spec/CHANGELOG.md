@@ -1,5 +1,35 @@
 # Changelog
 
+## 2.8 — 2026-10-26 (pilot learnings, UI/UX concept, design fidelity)
+- **Owner direction:** merge the UI/UX concept and the round-1 pilot findings (17 responses); fix the V2.7 checklist defects that need no owner or counsel decision.
+- **New docs:** 27 (pilot findings), 28 (UI/UX brief), 29 (design fidelity contract), 30 (asset library guide), 31 (decisions and corrections), 32 (checklist status and hosting map). Also `CLAUDE.md`, `design/`, `tools/`, `source/`.
+- **Decisions:** D-091 to D-106 (D-091 fonts and D-105 precedence await the owner). **Requirements:** FR-109 to FR-119. **Tests:** TC-169 to TC-188 (188). **Features:** F-49 to F-56 (56). Events 53 → 60. Flags 33 → 38.
+- **Product:** one promise (D-104); NextStepCard and "Learn {tool}"; TrustLine; DepthLabel (For {job} / In depth / General guide); calm visual system; helper explainer and coach mark; need feedback; Suggest my role.
+- **Fixes to V2.7 data:** 29 superlative profile descriptions neutralised; short safety keywords match whole words (fewer false tags); kit hints use each identity's own needs (top kit share 81.8% → about 24.7%); Showmax removed from search words; remote job board order; web-seen profiles without a price check keep the Preview label.
+- **Fixes to V2.7 SQL:** three consents (profile consent nullable), kits starrable, rolling 7-day window, `purge_old_rows()`, `rate_limits`, 0001 retired. The migration now runs in PGlite (7 checks pass); it has not run on Neon.
+- **Hosting:** Vercel configuration (`vercel.json`, `env.example`); Cloudflare `_headers` moved to `config/legacy/`; banners on docs 10, 11, 12, 16 with a mapping in doc 32. Doc 12 email retention now "until close or 90 days".
+- **Counts clarified:** local tools are 130 distinct (98 Nigeria + 58 Africa − 26 in both), not 156.
+- **Assets by design not in this pack:** the patch's `assets/` (photos, icons, 1,781 monograms, illustrations, brand kit), `design/reference/png/` and the concept board PDF are uploaded by the owner at the build point (`ASSETS_AT_BUILD.md`). Image checks are deferred until then.
+- **Known limits:** role-specific learning paths not written (1,058 roadmaps labelled "General guide"); profiles, kits and safety tags are AI-drafted; no counsel review; no app.
+
+## 2.7 — 2026-10-23 (tool profiles, goal kits, safety, discovery)
+- **Owner direction:** take same-kind alternatives to at least 95%; cover tech enablement (portfolios, CV generators, proofreading, remote job platforms), not just information; make goals easy to find and far better ("I want to get a remote job", "I want to edit a short video"); keep all content but add the preview clause; give every tool a paragraph, subscription and price with a label; make people happy and safe; suggest goals to people who do not search; own Technology Education (teach kids programming); act as the domain expert for now.
+- **New doc:** 26 (Goal Kits, Tool Profiles, Safety and Discovery). **Decisions:** D-084 to D-090; D-072 and D-080 amended. **Requirements:** FR-095 to FR-108. **Screens:** S49 to S52. **Tests:** TC-151 to TC-168 (168 in total). **Features:** F-41 to F-48 (48 in total).
+- **Data:** goals 633 → 1,050 under 279 needs; registry 1,479 → 1,781 (25 new Nigerian and tech-education tools); 1,781 tool profiles (`tool-profiles.json`); 29 goal kits; goal links (3+ related goals each); safety rules (9) tagging 498 goals; kit hints for 2,603 identities; seven entry paths; roadmaps for all 1,781 (17,099 modules).
+- **Quality:** same-kind alternatives 59% → 97.0% (build gate 95%); 7 listed for 99.9%.
+- **Generators and validators:** `build_profiles.py`, `build_discovery.py`, `validate_profiles.py`, `validate_discovery.py`, `tool-profile.schema.json`; `validate_goals.py` has the same-kind gate; `rebuild_all.sh` runs all. Goal search harness 131/131.
+- **Data store:** unchanged. Events 47 → 53. Flags 28 → 33.
+- **Known limits:** 1,776 of 1,781 profiles are AI-drafted from general knowledge and not checked against vendors (5 are partly web-checked, for existence only); kits and safety tags are AI-drafted and keyword-derived; identity hints are generic for many occupations; 11 tools remain unconfirmed placeholders; Nigerian tax rules for freelancers are unconfirmed; no app, no executed SQL, no counsel review, no domain-expert review.
+
+## 2.6 — 2026-10-23 (goals, alternatives, accounts, recommendations)
+- **Owner direction:** compete, grow and scale; people should have a reason to come back; optional sign-in after value; starred skills; recommendations that improve; trending lists; 7 alternatives per tool; a fuller goals layer including very Nigerian goals; Vercel.
+- **New docs:** 24 (Goals, Accounts and Recommendations) and 25 (Build Brief for the existing app).
+- **Decisions:** D-071 to D-083 added; D-004, D-005, D-027 and D-069 amended. **Requirements:** FR-076 to FR-094. **Screens:** S42 to S48. **Tests:** TC-133 to TC-150 (150 in total). **Features:** F-30 to F-40 (40 in total).
+- **Data:** 633 goals under 279 needs; registry 723 → 1,479 tools (756 stubs, unverified); roadmaps for all 1,479 (14,079 modules); alternatives derived from goals; intents; Nigeria/Africa markets (62 and 35 tools); availability (Uber, Nigeria, Sep 2026); Showmax removed (closed Apr 2026).
+- **Generators and validators:** `build_goals.py`, `validate_goals.py`, `goal.schema.json`; `rebuild_all.sh` runs them. Goal search harness 48/48.
+- **Data store:** `db/0002_accounts_profiles_postgres.sql` (parsed, not executed). 18 new events (47). 10 new flags (28).
+- **Known limits:** goal lists and new tools are AI-drafted; "7 alternatives" is 94.8% by listing but about 59% for the same category or archetype; 77 tools have fewer than 7; local tools mostly unchecked; accounts, recommendations and trending are specified only; counsel review needed.
+
 ## 2.5 — 2026-10-21 (helpers, full-feature scope, Bun + Vite + React)
 - **Owner direction:** the journeys are more like helpers; add a third journey on entrepreneurship; make the app level with every feature shared; build on Bun, Vite and React; very visual, sleek and responsive. (A first Astro build of an app was made along the way and is **not** part of the pack; the owner asked for the specification only.)
 - **New doc 23** (Feature Completeness and App Scope) with `qa/feature-matrix.csv` (29 features) and `validate_feature_matrix.py`.

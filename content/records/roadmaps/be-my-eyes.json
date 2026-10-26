@@ -23,7 +23,8 @@
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
      "accessibility-tools",
-     "accessible-communication"
+     "accessible-communication",
+     "digital-basics"
     ],
     "estimated_hours": {
      "value": 1,
@@ -45,7 +46,8 @@
     "practice": "Set up Be My Eyes for your needs",
     "need_tags": [
      "accessibility-tools",
-     "accessible-communication"
+     "accessible-communication",
+     "digital-basics"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -67,7 +69,8 @@
     "practice": "Complete three daily tasks with Be My Eyes",
     "need_tags": [
      "accessibility-tools",
-     "accessible-communication"
+     "accessible-communication",
+     "digital-basics"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -91,7 +94,8 @@
     "practice": "Customise three settings",
     "need_tags": [
      "accessibility-tools",
-     "accessible-communication"
+     "accessible-communication",
+     "digital-basics"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -113,7 +117,8 @@
     "practice": "Use Be My Eyes in one meeting or class",
     "need_tags": [
      "accessible-communication",
-     "accessibility-tools"
+     "accessibility-tools",
+     "digital-basics"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -135,7 +140,8 @@
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
      "accessibility-tools",
-     "accessible-communication"
+     "accessible-communication",
+     "digital-basics"
     ],
     "estimated_hours": {
      "value": 3,
@@ -157,7 +163,8 @@
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
      "accessibility-tools",
-     "accessible-communication"
+     "accessible-communication",
+     "digital-basics"
     ],
     "estimated_hours": {
      "value": 4,
@@ -179,7 +186,8 @@
     "need_tags": [
      "accessible-materials",
      "accessibility-tools",
-     "accessible-communication"
+     "accessible-communication",
+     "digital-basics"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -202,7 +210,8 @@
     "need_tags": [
      "automation-workflows",
      "accessibility-tools",
-     "accessible-communication"
+     "accessible-communication",
+     "digital-basics"
     ],
     "estimated_hours": {
      "value": 2,
@@ -225,7 +234,8 @@
     "need_tags": [
      "workshop-facilitation",
      "accessibility-tools",
-     "accessible-communication"
+     "accessible-communication",
+     "digital-basics"
     ],
     "estimated_hours": {
      "value": 2,

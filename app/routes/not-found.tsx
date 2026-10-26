@@ -1,10 +1,10 @@
-// S24 Not found (any unknown path, including reserved R1.5/R2 routes).
-import { data } from "react-router";
+// S24 Not found (reference 24-not-found) for any unknown path, including reserved R1.5/R2 routes.
+import type { Route } from "./+types/not-found";
+import { meta as pageMeta } from "../lib/build";
+import { NotFoundState } from "../root";
 
-export function clientLoader() {
-  throw data("Not found", { status: 404 });
-}
+export const meta: Route.MetaFunction = () => pageMeta("Page not found", undefined, { noindex: true });
 
 export default function NotFound() {
-  return null;
+  return <NotFoundState />;
 }

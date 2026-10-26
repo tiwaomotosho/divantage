@@ -1,0 +1,231 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_internet_matters",
+ "slug": "internet-matters",
+ "title": "Internet Matters skill roadmap",
+ "tool_ids": [
+  "tool_internet_matters"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_internet_matters_family_safety_0",
+    "slug": "internet-matters-family-safety-0",
+    "title": "Get started with Internet Matters",
+    "outcome": "You can: set up Internet Matters, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "kids-online-safety"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_internet_matters_family_safety_1",
+    "slug": "internet-matters-family-safety-1",
+    "title": "Set up for your family",
+    "outcome": "You can: set up Internet Matters for your household",
+    "topics": [
+     "accounts",
+     "devices",
+     "children's profiles"
+    ],
+    "practice": "Set up Internet Matters for one child or family member",
+    "need_tags": [
+     "kids-online-safety",
+     "family-organisation"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_internet_matters_family_safety_2",
+    "slug": "internet-matters-family-safety-2",
+    "title": "Daily rhythm",
+    "outcome": "You can: use Internet Matters in daily family life",
+    "topics": [
+     "shared calendars and lists",
+     "screen-time settings",
+     "family routines"
+    ],
+    "practice": "Agree one family routine in Internet Matters",
+    "need_tags": [
+     "family-organisation",
+     "kids-online-safety"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_internet_matters_family_safety_3",
+    "slug": "internet-matters-family-safety-3",
+    "title": "Rules and limits",
+    "outcome": "You can: set healthy boundaries",
+    "topics": [
+     "content filters",
+     "limits",
+     "location sharing (with consent)"
+    ],
+    "practice": "Agree and set three rules together",
+    "need_tags": [
+     "kids-online-safety"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_internet_matters_family_safety_4",
+    "slug": "internet-matters-family-safety-4",
+    "title": "Talk about it",
+    "outcome": "You can: build trust, not just controls",
+    "topics": [
+     "age-appropriate conversations",
+     "reporting problems"
+    ],
+    "practice": "Have one conversation about online safety",
+    "need_tags": [
+     "kids-online-safety"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_internet_matters_family_safety_8",
+    "slug": "internet-matters-family-safety-8",
+    "title": "Signature skills in Internet Matters",
+    "outcome": "You can: use the features that make Internet Matters distinctive",
+    "topics": [
+     "setup",
+     "daily use",
+     "sharing"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "kids-online-safety"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_internet_matters_family_safety_9",
+    "slug": "internet-matters-family-safety-9",
+    "title": "Advanced Internet Matters",
+    "outcome": "You can: use Internet Matters's advanced capabilities with confidence",
+    "topics": [
+     "rules and limits",
+     "conversations",
+     "review"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "kids-online-safety"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_internet_matters_family_safety_5",
+    "slug": "internet-matters-family-safety-5",
+    "title": "Review and adapt",
+    "outcome": "You can: adjust as children grow",
+    "topics": [
+     "reviewing reports",
+     "loosening limits",
+     "teen independence"
+    ],
+    "practice": "Review settings every term",
+    "need_tags": [
+     "kids-online-safety"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_internet_matters_family_safety_10",
+    "slug": "internet-matters-family-safety-10",
+    "title": "Integrate Internet Matters into your workflow",
+    "outcome": "You can: connect Internet Matters with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Internet Matters to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "kids-online-safety"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_internet_matters_family_safety_11",
+    "slug": "internet-matters-family-safety-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Internet Matters well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Internet Matters\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "kids-online-safety"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype",
+ "archetype": "family-safety",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

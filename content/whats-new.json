@@ -1,0 +1,11 @@
+{
+  "note": "Public change log (S37). The release job appends merged user-visible changes. Entries below come from the V2.6–V2.8 catalogue changes.",
+  "entries": [
+    { "date": "2026-10-26", "kind": "Updated", "title": "New look", "body": "Calmer design, a next step at the end of every page, and price and review labels on every tool.", "url": "/about/how-we-review" },
+    { "date": "2026-10-24", "kind": "New", "title": "Teach kids programming", "body": "New kit: 9 steps from first coding app to Python.", "url": "/kits/teach-kids-programming" },
+    { "date": "2026-10-22", "kind": "Checked", "title": "Remote4Africa", "body": "Existence and purpose confirmed from a dated source. Pricing is still a preview.", "url": "/tools/remote4africa" },
+    { "date": "2026-10-22", "kind": "Checked", "title": "3MTT", "body": "Existence and purpose confirmed from a dated source.", "url": "/tools/3mtt" },
+    { "date": "2026-10-21", "kind": "Updated", "title": "Uber", "body": "Marked not available in Nigeria after it ended operations there in September 2026.", "url": "/tools/uber" },
+    { "date": "2026-10-20", "kind": "New", "title": "29 kits and 1,050 goals", "body": "Start from a situation like getting a remote job, with tools, steps and safety notes in order.", "url": "/kits" }
+  ]
+}

@@ -24,7 +24,17 @@
     "need_tags": [
      "files-cloud-storage",
      "scan-documents",
-     "records-management"
+     "records-management",
+     "virtual-classroom",
+     "research-data-management",
+     "auditions-casting",
+     "email-and-calendar",
+     "ediscovery",
+     "job-search",
+     "freelancing",
+     "study-skills",
+     "find-information",
+     "online-safety"
     ],
     "estimated_hours": {
      "value": 1,
@@ -47,7 +57,17 @@
     "need_tags": [
      "files-cloud-storage",
      "scan-documents",
-     "records-management"
+     "records-management",
+     "virtual-classroom",
+     "research-data-management",
+     "auditions-casting",
+     "email-and-calendar",
+     "ediscovery",
+     "job-search",
+     "freelancing",
+     "study-skills",
+     "find-information",
+     "online-safety"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -70,7 +90,17 @@
      "personal-productivity",
      "files-cloud-storage",
      "scan-documents",
-     "records-management"
+     "records-management",
+     "virtual-classroom",
+     "research-data-management",
+     "auditions-casting",
+     "email-and-calendar",
+     "ediscovery",
+     "job-search",
+     "freelancing",
+     "study-skills",
+     "find-information",
+     "online-safety"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -95,7 +125,17 @@
      "personal-productivity",
      "records-management",
      "files-cloud-storage",
-     "scan-documents"
+     "scan-documents",
+     "virtual-classroom",
+     "research-data-management",
+     "auditions-casting",
+     "email-and-calendar",
+     "ediscovery",
+     "job-search",
+     "freelancing",
+     "study-skills",
+     "find-information",
+     "online-safety"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -118,7 +158,16 @@
      "files-cloud-storage",
      "online-safety",
      "scan-documents",
-     "records-management"
+     "records-management",
+     "virtual-classroom",
+     "research-data-management",
+     "auditions-casting",
+     "email-and-calendar",
+     "ediscovery",
+     "job-search",
+     "freelancing",
+     "study-skills",
+     "find-information"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -141,7 +190,17 @@
     "need_tags": [
      "files-cloud-storage",
      "scan-documents",
-     "records-management"
+     "records-management",
+     "virtual-classroom",
+     "research-data-management",
+     "auditions-casting",
+     "email-and-calendar",
+     "ediscovery",
+     "job-search",
+     "freelancing",
+     "study-skills",
+     "find-information",
+     "online-safety"
     ],
     "estimated_hours": {
      "value": 3,
@@ -165,7 +224,17 @@
     "need_tags": [
      "files-cloud-storage",
      "scan-documents",
-     "records-management"
+     "records-management",
+     "virtual-classroom",
+     "research-data-management",
+     "auditions-casting",
+     "email-and-calendar",
+     "ediscovery",
+     "job-search",
+     "freelancing",
+     "study-skills",
+     "find-information",
+     "online-safety"
     ],
     "estimated_hours": {
      "value": 4,
@@ -188,7 +257,17 @@
      "automation-workflows",
      "files-cloud-storage",
      "scan-documents",
-     "records-management"
+     "records-management",
+     "virtual-classroom",
+     "research-data-management",
+     "auditions-casting",
+     "email-and-calendar",
+     "ediscovery",
+     "job-search",
+     "freelancing",
+     "study-skills",
+     "find-information",
+     "online-safety"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -212,7 +291,17 @@
      "automation-workflows",
      "files-cloud-storage",
      "scan-documents",
-     "records-management"
+     "records-management",
+     "virtual-classroom",
+     "research-data-management",
+     "auditions-casting",
+     "email-and-calendar",
+     "ediscovery",
+     "job-search",
+     "freelancing",
+     "study-skills",
+     "find-information",
+     "online-safety"
     ],
     "estimated_hours": {
      "value": 2,
@@ -236,7 +325,17 @@
      "workshop-facilitation",
      "files-cloud-storage",
      "scan-documents",
-     "records-management"
+     "records-management",
+     "virtual-classroom",
+     "research-data-management",
+     "auditions-casting",
+     "email-and-calendar",
+     "ediscovery",
+     "job-search",
+     "freelancing",
+     "study-skills",
+     "find-information",
+     "online-safety"
     ],
     "estimated_hours": {
      "value": 2,

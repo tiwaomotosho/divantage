@@ -1,0 +1,284 @@
+# Intent per need — why a person is using technology here (D-075). Goals inherit the intent(s) of their parent need.
+#   compete = keep up: match the standard people in your field already expect
+#   grow    = win more: customers, income, audience, opportunities, depth of skill
+#   scale   = do more with less: automate, systematise, handle volume, work as a team
+# need slug | intents (1-2, most important first)
+translate-languages | compete
+write-clearly | compete
+use-ai-assistants | compete, scale
+email-and-calendar | compete
+video-meetings | compete
+documents-basics | compete
+spreadsheets-basics | compete, scale
+presentations | compete, grow
+files-cloud-storage | scale
+online-safety | compete
+learn-online | grow, compete
+personal-productivity | scale
+professional-profile | grow
+personal-finance | compete
+design-simple-graphics | compete, grow
+find-information | compete
+fact-check | compete
+accessibility-tools | compete
+voice-typing-transcription | scale
+pdf-work | compete
+scan-documents | compete
+e-signatures | scale
+group-messaging | scale
+forms-surveys | grow
+job-search | grow
+cv-portfolio | grow
+social-media-presence | grow
+short-video | grow
+photo-editing | compete
+maps-navigation | compete
+online-payments | grow, scale
+language-learning | grow
+clinical-reference | compete
+drug-information | compete
+medical-calculators | compete
+evidence-based-medicine | compete, grow
+electronic-health-records | scale
+telemedicine | grow
+patient-education | compete
+medical-imaging-viewing | compete
+radiology-reporting | scale
+clinical-audit-qi | grow
+health-research-data | grow
+cpd-learning | compete, grow
+memorise-knowledge | grow
+anatomy-3d | grow
+shift-rota | scale
+exercise-prescription | grow
+movement-analysis | compete
+nutrition-planning | compete
+public-health-data | scale
+therapy-practice-admin | scale
+clinic-scheduling | scale
+veterinary-practice | scale
+lab-data | scale
+pharmacy-stock | scale
+dental-practice | scale
+engineering-calculations | compete
+cad-drafting | compete
+bim-modelling | compete, scale
+structural-analysis | compete
+geotechnical-analysis | compete
+hydraulic-modelling | compete
+gis-mapping | grow
+surveying-photogrammetry | grow
+project-scheduling | scale
+cost-estimation | grow, compete
+drawing-markup | compete
+fea-simulation | compete, grow
+mechanical-design | compete
+electrical-design | compete
+plc-automation | scale
+process-simulation | compete
+engineering-data-analysis | scale
+technical-reporting | compete
+quality-hse | compete
+maintenance-cmms | scale
+well-planning-design | compete
+drilling-reporting | scale
+well-performance | compete
+reservoir-modelling | compete
+geomechanics | compete
+petrophysics | compete
+production-surveillance | scale
+energy-systems-modelling | grow
+mine-planning | compete
+regulatory-reporting | compete
+write-code | grow
+version-control | compete, scale
+devops-cicd | scale
+containers-orchestration | scale
+cloud-infrastructure | scale
+api-testing | compete
+test-automation | scale
+test-management | scale
+performance-testing | scale
+agile-tracking | scale
+product-discovery | grow
+product-analytics | grow
+roadmapping | scale
+ui-ux-design | grow
+user-research | grow
+observability | scale
+security-testing | compete
+security-operations | scale
+it-helpdesk | scale
+networking | compete
+databases | scale
+mobile-app-dev | grow
+web-development | grow
+no-code-apps | scale, grow
+game-development | grow
+technical-writing | compete
+diagramming | compete
+machine-learning | grow
+ai-app-development | grow, scale
+automation-workflows | scale
+browser-productivity | scale
+data-cleaning | scale
+sql-querying | compete
+dashboards-bi | scale
+statistical-analysis | compete
+data-visualisation | compete
+data-pipelines | scale
+notebooks | compete
+financial-modelling | grow
+bookkeeping | compete
+invoicing | grow
+tax-compliance | compete
+audit-analytics | scale
+market-research-finance | grow
+budgeting-fpa | scale
+payroll | scale
+risk-modelling | compete
+legal-research | compete
+contract-drafting | compete
+legal-practice-management | scale
+ediscovery | scale
+lesson-planning | compete
+virtual-classroom | grow
+quizzes-assessment | scale
+interactive-teaching | grow
+screen-recording | grow
+grading-feedback | scale
+literature-review | compete
+academic-writing | compete
+research-surveys | grow
+qualitative-analysis | compete
+accessible-materials | compete
+study-skills | grow
+graphic-design-pro | compete
+brand-identity | grow
+video-editing-pro | compete
+motion-graphics | grow
+3d-modelling | grow
+photography-workflow | scale
+audio-production | compete
+podcast-production | grow
+live-streaming | grow
+book-writing-publishing | grow
+music-notation | compete
+media-verification | compete
+newsletter-publishing | grow
+content-planning | scale
+creator-income | grow
+release-music | grow
+artist-profiles | grow
+fashion-design | compete
+interior-design | compete
+architectural-visualisation | grow
+digital-illustration | grow
+sell-art-online | grow
+social-media-management | grow
+email-marketing | grow, scale
+seo | grow
+crm-sales | grow, scale
+online-ads | grow
+web-analytics | grow
+pr-media-monitoring | grow
+customer-support | scale, grow
+events-management | grow
+copywriting | grow
+market-research | grow, compete
+business-planning | grow
+project-management | scale
+process-mapping | scale
+kpi-tracking | scale
+recruitment | scale
+people-management | scale
+inventory-procurement | scale
+erp | scale
+meeting-minutes | scale
+online-store | grow
+booking-appointments | grow, scale
+point-of-sale | grow
+consulting-deliverables | compete
+workshop-facilitation | compete
+marketplace-selling | grow
+product-photography | compete
+policy-research | compete
+public-consultation | grow
+monitoring-evaluation | scale
+fundraising | grow
+grant-finding | grow
+volunteer-coordination | scale
+records-management | scale
+open-data | grow
+scripture-study | compete
+worship-presentation | compete
+service-livestream | grow
+congregation-management | scale
+online-giving | grow
+pastoral-care | scale
+training-load | compete
+match-video-analysis | compete
+team-organisation | scale
+online-coaching | grow
+sports-analytics | compete
+gym-membership | grow, scale
+athlete-brand | grow
+farm-records | scale
+crop-monitoring | grow
+weather-planning | compete
+plant-health | compete
+livestock-management | scale
+agri-market-access | grow
+environmental-monitoring | compete
+food-safety | compete
+recipe-costing | compete
+site-management | scale
+property-marketing | grow
+property-management | scale
+trade-quotes-invoicing | grow
+site-measurement | compete
+vehicle-diagnostics | compete
+repair-guides | compete
+woodworking-design | compete
+production-planning | scale
+quality-statistics | compete
+lean-six-sigma | scale
+cnc-cam | compete
+3d-printing | compete
+route-planning-fleet | scale
+warehouse-inventory | scale
+shipment-tracking | scale
+flight-planning | compete
+maritime-navigation | compete
+driver-earnings | grow
+restaurant-operations | scale, grow
+hotel-management | scale
+reviews-reputation | grow
+travel-planning | compete
+tour-booking | grow
+salon-booking | grow, scale
+visual-portfolio | grow
+mindfulness-wellbeing | compete
+incident-reporting | compete
+emergency-comms | compete
+osint-research | compete
+digital-forensics | compete
+scientific-computing | compete
+molecular-biology | compete
+chemistry-drawing | compete
+scientific-figures | compete
+research-data-management | scale
+astronomy-observation | grow
+case-management | scale
+service-referral | grow
+accessible-communication | compete
+sign-language | grow
+care-coordination | scale
+stage-production | scale
+auditions-casting | grow
+family-organisation | scale
+kids-online-safety | compete
+digital-basics | compete
+volunteering | grow
+freelancing | grow
+personal-health-tracking | compete

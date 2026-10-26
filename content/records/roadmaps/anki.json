@@ -25,7 +25,10 @@
      "language-learning",
      "cpd-learning",
      "memorise-knowledge",
-     "study-skills"
+     "study-skills",
+     "anatomy-3d",
+     "sign-language",
+     "learn-online"
     ],
     "estimated_hours": {
      "value": 1,
@@ -50,7 +53,9 @@
      "language-learning",
      "cpd-learning",
      "memorise-knowledge",
-     "study-skills"
+     "study-skills",
+     "anatomy-3d",
+     "sign-language"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -75,7 +80,9 @@
      "learn-online",
      "language-learning",
      "cpd-learning",
-     "memorise-knowledge"
+     "memorise-knowledge",
+     "anatomy-3d",
+     "sign-language"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -100,7 +107,10 @@
      "study-skills",
      "memorise-knowledge",
      "language-learning",
-     "cpd-learning"
+     "cpd-learning",
+     "anatomy-3d",
+     "sign-language",
+     "learn-online"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -124,7 +134,10 @@
      "language-learning",
      "cpd-learning",
      "memorise-knowledge",
-     "study-skills"
+     "study-skills",
+     "anatomy-3d",
+     "sign-language",
+     "learn-online"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -148,7 +161,10 @@
      "language-learning",
      "cpd-learning",
      "memorise-knowledge",
-     "study-skills"
+     "study-skills",
+     "anatomy-3d",
+     "sign-language",
+     "learn-online"
     ],
     "estimated_hours": {
      "value": 3,
@@ -174,7 +190,10 @@
      "language-learning",
      "cpd-learning",
      "memorise-knowledge",
-     "study-skills"
+     "study-skills",
+     "anatomy-3d",
+     "sign-language",
+     "learn-online"
     ],
     "estimated_hours": {
      "value": 4,
@@ -198,7 +217,10 @@
      "language-learning",
      "cpd-learning",
      "memorise-knowledge",
-     "study-skills"
+     "study-skills",
+     "anatomy-3d",
+     "sign-language",
+     "learn-online"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -223,7 +245,10 @@
      "language-learning",
      "cpd-learning",
      "memorise-knowledge",
-     "study-skills"
+     "study-skills",
+     "anatomy-3d",
+     "sign-language",
+     "learn-online"
     ],
     "estimated_hours": {
      "value": 2,
@@ -248,7 +273,10 @@
      "language-learning",
      "cpd-learning",
      "memorise-knowledge",
-     "study-skills"
+     "study-skills",
+     "anatomy-3d",
+     "sign-language",
+     "learn-online"
     ],
     "estimated_hours": {
      "value": 2,

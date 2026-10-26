@@ -1,0 +1,581 @@
+{
+ "$comment": "Every photo the app may use. Use <Picture slug ratio> (see docs/30). Never hot-link or add photos outside this manifest (D-097).",
+ "provenance": "Concept imagery generated with Microsoft Copilot (Oct 2026). Tier A = 1536 px source, fine for beta. Tier B = cropped from one collage, under 600 px source: OK for cards and thumbnails, upscaled for wide heroes; replace before public launch.",
+ "formats": [
+  "avif",
+  "webp",
+  "jpg"
+ ],
+ "widths": [
+  480,
+  960,
+  1600
+ ],
+ "photos": {
+  "remote-worker": {
+   "alt": "A young woman smiles at her laptop while working from a bright apartment with a city view.",
+   "tags": [
+    "remote-work",
+    "career",
+    "home",
+    "hero"
+   ],
+   "tier": "A",
+   "focal": [
+    0.42,
+    0.4
+   ],
+   "source_px": [
+    1536,
+    1024
+   ],
+   "variants": {
+    "wide": {
+     "widths": [
+      480,
+      960,
+      1600
+     ],
+     "lqip": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAADwAwCdASoYAA4APu1iqU2ppaOiMAgBMB2JYgCw7B9X1qin7En9WnBwAP4/2dtldQodEEIC1w2cvBdzXjQJqvP0MciUqOe1pRvSF8z+191bC35H2qLI8D7s9wf6lN0XE4T4nyDTmb17xz/wc+rPNHlFyWQ1ilBMpPMwOSqYODvpPoAAAAA=",
+     "aspect": "16/9"
+    },
+    "card": {
+     "widths": [
+      480,
+      960,
+      1600
+     ],
+     "lqip": "data:image/webp;base64,UklGRr4AAABXRUJQVlA4ILIAAADwBACdASoYABIAPu1wsFIppiSiqAgBMB2JYgCsIQSAzTh+aIOH1t2YrvqE2iQinmgA/oNe3IARTwp/VeLURHIV4Rgn5PmKByPwhknUUQ5yS6j21fMAn9EeLMX48Wz3kuw7K0bW82CLdDNwPs2HPgSxtMyegemkW6unJvXv77MvPa+I+CzndOsP9FbaLlnxzvb2ehxYPB4tujjr5uKDk38G9z5xcbreALCdqEwIUWsSgAAA",
+     "aspect": "4/3"
+    },
+    "square": {
+     "widths": [
+      480,
+      960,
+      1600
+     ],
+     "lqip": "data:image/webp;base64,UklGRtIAAABXRUJQVlA4IMYAAABwBQCdASoYABgAPu1oqU+ppiOiKA1RMB2JZgCdAA3p2gIjGmd/oXvJ0RHqMglwS0bW7P3AAP4XIsJWNr+EPKLem2id2vgt6AlCxaZDnHlRaA665nScjenqK1vEDYR78rR/q/qtyLvfZY4msVbG8ur4Ia+v6WasUKiPscR1EAlKETVAmDvSbQmlEunKTVNvum+V52Mq6D1XXFQlSVNwar8XvJV6eKrBJ00+8aK1mY0uqBn+/QbuxnK6Bjan4N7E4sa536jM4AA=",
+     "aspect": "1/1"
+    },
+    "portrait": {
+     "widths": [
+      480,
+      960
+     ],
+     "lqip": "data:image/webp;base64,UklGRuIAAABXRUJQVlA4INYAAADQBQCdASoYAB4APuVepU2pJSOiMAwBIByJZACdAd3AqeqQIZOfuJVpe+G6P73udGAgU86etYwAAM4eigjK6o0Me3QkNXaBQJ8g05DmqwdZSSYSaNP3Z+saxo9LzJzAO1n76Q1Lu7VXmgrSsF62DfPpTLmMNCqtNR2iwCdXm+6g0toGc8IrQqyEluHF2aGHHLC4Phyfi02BDQuwblQQUbIKWetKQveehWVjJa2FiAGiKx0HSH86EzZEukoxbX/NyUIFroUPe7B+YeP9UczPoaL9pDGLodAA",
+     "aspect": "4/5"
+    }
+   },
+   "dominant": "#8e776e"
+  },
+  "musician-studio": {
+   "alt": "A music producer wearing headphones works on a laptop and keyboard in a home studio at night.",
+   "tags": [
+    "music",
+    "creative",
+    "helper-musician"
+   ],
+   "tier": "A",
+   "focal": [
+    0.4,
+    0.35
+   ],
+   "source_px": [
+    1536,
+    1024
+   ],
+   "variants": {
+    "wide": {
+     "widths": [
+      480,
+      960,
+      1600
+     ],
+     "lqip": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAABwBACdASoYAA4APu1iqU2ppaOiMAgBMB2JZgCdMoMsdEZMmtR6K2BvrWCqAAD+6do5zIV639Ayt2rv3hlqJDtBniAbzc6JEiz/YPGLRmr4l8k6GNxC1PoqWMPyu5UBwNgS+4rhJLY2YSUrRGb/6c5rIBWj44cy7lbUjNIf6HJn8j4MiY9ivXrcXGeA6IuntkkgAA==",
+     "aspect": "16/9"
+    },
+    "card": {
+     "widths": [
+      480,
+      960,
+      1600
+     ],
+     "lqip": "data:image/webp;base64,UklGRqYAAABXRUJQVlA4IJoAAAAwBQCdASoYABIAPu1osFAppaSiqAqpMB2JYgCdABI4sgPUT2+owrs9CSirdvui9yaDwAD+6do5io5MYJM2UP4VmVxRZ7S907aJIoeQMQ6McYrcNFB6bJ8ptUxcutD9PFraEGQm7WFKbAM27scJVbxxoD25RrHHgudP1pJ/ZxCgMuG/kEhm+ax3Na4N9hYoA1IMh8zZn7+QAAAA",
+     "aspect": "4/3"
+    },
+    "square": {
+     "widths": [
+      480,
+      960,
+      1600
+     ],
+     "lqip": "data:image/webp;base64,UklGRtgAAABXRUJQVlA4IMwAAADQBQCdASoYABgAPu1cqE2ppKOiN/VYATAdiWgArC/AgNMuAM1svyjqAV1h3vAy2JImpi8kb54AAP7dnuHfrUrSH+FA5WZdpYaePAIt6L1XO6A0h1k2MrIqmp1deAmaIUD362YtMMMPuOSMatc6hXa+awxvK7bXekvmjfw3py3wWYhvxic7CTXz55PiBuOUtzlHAd/DwYHOZHWrkfv2Xjz3gP0pF/vQ1cHLfufyvlIoeTq0gNH4HfudtjsDi/zL98hs1zRMJN4U99+lgAA=",
+     "aspect": "1/1"
+    },
+    "portrait": {
+     "widths": [
+      480,
+      960
+     ],
+     "lqip": "data:image/webp;base64,UklGRsoAAABXRUJQVlA4IL4AAADQBQCdASoYAB4APu1wsFKppiSiqAgBMB2JZACdISBDu5N75mJhdEeGzHaYBOl/q1Upt9iQryoAAP7PPNQVhkuH5yXMJ/K21IH6yjptIUr14/1oAufbRZ+RKE2pmojGgsHL9sPikBYpidfvGrJ6k6xYjolAjTfPghRGkTOEYtfdJBB7oUt8AaSq6a6RUd9PBHHfxlRrC1V1uIhi50D1AfSRmme20QKxa6NQxxLNFzJXo21sgzZKx7N51iGG04AA",
+     "aspect": "4/5"
+    }
+   },
+   "dominant": "#3b1e1f"
+  },
+  "shop-owner": {
+   "alt": "A shop owner photographs her products with a smartphone to sell online.",
+   "tags": [
+    "business",
+    "whatsapp",
+    "ecommerce",
+    "helper-entrepreneur"
+   ],
+   "tier": "A",
+   "focal": [
+    0.62,
+    0.32
+   ],
+   "source_px": [
+    1536,
+    1024
+   ],
+   "variants": {
+    "wide": {
+     "widths": [
+      480,
+      960,
+      1600
+     ],
+     "lqip": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAACQBACdASoYAA4APu1iqU2ppaOiMAgBMB2JZgCdMoADVPKRTrq4fnGDaOSgOgAA/eBBh7gM6B5HAmarXQnVYr/2qxuJf4UH8aliFCrV/YAQy37P11J7LS3fps7pPz8Ef+24q7jZCpI3bGMMWfXDn91QAy0BaYeoyCn0npkErSz9n95p6I03FCFVU6FrbwlXRs5KF4mAAAA=",
+     "aspect": "16/9"
+    },
+    "card": {
+     "widths": [
+      480,
+      960,
+      1600
+     ],
+     "lqip": "data:image/webp;base64,UklGRtAAAABXRUJQVlA4IMQAAACQBQCdASoYABIAPu1ur1IppiQiqAgBMB2JZACdMoSA2BDkz2vN1Hccfj6wOuTQX+FaXKPJgAD82QmSY+GWtGUQWM5PCWUqZx7XATbS0+ffaRDkQvW7n26jRzXSsqsT+nU01BTcbygBQiw0W0+OkkSvr11QtLIZLpMsEa7g2cUsYlUmGlX7WG3HJ7BAjWBqYJljaqa2abZFchFjZkJys3XeyL/2psjtlmmLONwjSxkOo6HE/P3a+f0eUURO75PQv08cRgAA",
+     "aspect": "4/3"
+    },
+    "square": {
+     "widths": [
+      480,
+      960,
+      1600
+     ],
+     "lqip": "data:image/webp;base64,UklGRvwAAABXRUJQVlA4IPAAAABQBgCdASoYABgAPu1qq1EppaOiqAqpMB2JaACdMoR/UBHuMxfWGgujRjl5slY3UMEa//bhHVcb4yxUUgD+z1x6MMz/+9R4+Yoc4jjq3w1AWAkWni6/EE+O2ncVojOjVI5Wn6tLkkynkMQf5NyA2WEeGV1j3Gm1YKGhFI7LZOL/f55SOA6ZkGVi5zz6infKXGs9b8eaf2eV3OlzvZOLElOHy4G1RLYC1jhhitzse6lh0RLgPiqK51ZXrtTEtnKjz2gQtdotSYErlUE423QFIOz/6KgVY4Gv2gMMYXZJDO2C4eEU0SO12icaeL39MZQAAAA=",
+     "aspect": "1/1"
+    },
+    "portrait": {
+     "widths": [
+      480,
+      960
+     ],
+     "lqip": "data:image/webp;base64,UklGRhwBAABXRUJQVlA4IBABAABwBgCdASoYAB4APu1iqE2ppaOiMAgBMB2JagCdMuuul+niBefyzdVY9amYfhorvIFFDvdSsjA3RveFaaAA/quYuLCkXLsjiq/G6zZQ4jd0dPGtGUHmM0qH4h1t76J8kG/ms8QNmg6fuWjiHAWUDNT3vQyRT7Z4VobZJG901DYcwT1HxJJp2Uvxax2f/abzcqgiZXQHvfZzX8c0DE003c47wgMFo7UvExwhiT6I3cHH0m2Vph3eYJUsR6YObj/kINgeMBnTDsfoWtBEqYePwJfbED0QzDuKX33Nqjjjj4RWzCzaKsSSjsDQOL3BS/xTnDbFixZvAW2tcRXX0QnTorAlv7FR1gK5kMBXtZl7PRwAAA==",
+     "aspect": "4/5"
+    }
+   },
+   "dominant": "#7e634e"
+  },
+  "helping-parent": {
+   "alt": "A young woman shows her father how to use his smartphone on the sofa at home.",
+   "tags": [
+    "helping",
+    "family",
+    "life-roles",
+    "safety"
+   ],
+   "tier": "A",
+   "focal": [
+    0.5,
+    0.4
+   ],
+   "source_px": [
+    1536,
+    1024
+   ],
+   "variants": {
+    "wide": {
+     "widths": [
+      480,
+      960,
+      1600
+     ],
+     "lqip": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAABQBACdASoYAA4APu1iqU2ppaOiMAgBMB2JZACdMoBOABeWXuxoumYMhO+AAP60Ibp+6z9AIkxbZ3cJPF0mk18HYBep9OXZuKgkEZM9+V5KGgWZvwaQ4RV1xbbLSkeFMhD22hEpTwu1uOqYJGIw/dXyBaAUVnK3NoM4mxlEruiuNOwA",
+     "aspect": "16/9"
+    },
+    "card": {
+     "widths": [
+      480,
+      960,
+      1600
+     ],
+     "lqip": "data:image/webp;base64,UklGRrAAAABXRUJQVlA4IKQAAABQBQCdASoYABIAPu1ur1IppiQiqAgBMB2JQBWAAkctwh+k5VkmFglEwobFYWB88x8afoAA/miNS3RsEqqTaePwZrLDGggcEot6ifPNesqPwrM25Lm4qZ3C+m52+exhMmnzZKzMWnmEeyvrTK6VoxCWzv8jvtW6fWUG7NG9BvcHp5XYACofg2xlVl+JJh7Mk0ACOwUatmMQcyuCTTrBwGBpWAAAAA==",
+     "aspect": "4/3"
+    },
+    "square": {
+     "widths": [
+      480,
+      960,
+      1600
+     ],
+     "lqip": "data:image/webp;base64,UklGRtQAAABXRUJQVlA4IMgAAACwBQCdASoYABgAPu1qrFEppaQiqAqpMB2JQBOmcnnHAlM3o0ZW/W6TzSV6pu0By+K2+OE7Z6AA9mBUGpQqoYue4/lEEMjjdh1I6djQjPdQ8zmlsnSWhIWfAVis/1LbKnF5DB3PnzdRSqbkjRXZpOUPMIdecuRvpLt4QqCdZzMT7Ubko5of5/2uIMkHUvAYK75L12xb/ldubKthd3cat1uCQTFLoGTneEpaYqHw3GrNv6LpN/xRRoGqL/1lQdh1ryEnqMAjy7gAAA==",
+     "aspect": "1/1"
+    },
+    "portrait": {
+     "widths": [
+      480,
+      960
+     ],
+     "lqip": "data:image/webp;base64,UklGRugAAABXRUJQVlA4INwAAABwBgCdASoYAB4APu1oq0+ppiOiMBgIATAdiUAXZnAc4FbYFMtAGGMGzFX9SNP5EIIgHfnFjli1v+KL6UAA/W06rrF2kZC+p0lKQ/oaxMzBYPpZ7phX9OWpDRBzqPYvkQ78RL3vIXBxDGxrVuHxBiFFisZx1HEQ1WxDkVLQlfvSRewM0/RMVgCPhd1EH9s6cup1KcVv8kaYYy5PM07S0Tnnq4Y8I8vYUeOOeKW1NTlEXZBRuiw2iWsgsaCCSZFf5WKNOcW8nHyVrbrA6IwiYm3FV1M2yIzYSIR6kYAA",
+     "aspect": "4/5"
+    }
+   },
+   "dominant": "#7a614d"
+  },
+  "nurse-tablet": {
+   "alt": "A nurse in scrubs smiles as she uses a tablet in a clinic.",
+   "tags": [
+    "health",
+    "identity-nurse"
+   ],
+   "tier": "B",
+   "focal": [
+    0.45,
+    0.35
+   ],
+   "source_px": [
+    500,
+    470
+   ],
+   "variants": {
+    "wide": {
+     "widths": [
+      480
+     ],
+     "lqip": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAABQBACdASoYAA4APu1iqU2ppaOiMAgBMB2JaACsAB0+ml2etfsy/9lSWQtwAP4Advh1FXWgwhM+tqZ0zTXkYRuoTmf2FmqO+nN/rVIbjtsVx9F9vcnrf3CzaIkduSAxleg7NnCXeewlPVmT3xlnJK6sHn509n9ZOp8UxATE4qtA3NnLgs13hXFNCCAAAA==",
+     "aspect": "16/9"
+    },
+    "card": {
+     "widths": [
+      480
+     ],
+     "lqip": "data:image/webp;base64,UklGRrAAAABXRUJQVlA4IKQAAAAwBQCdASoYABIAPu1srFEppaQiqAqpMB2JZADFCvIBN93V/UHEgizlcHj/bAQm4N3wgAD+Z8vCAqa/FduOCIT1P7d/Z5/I2tGGqI+sVUlfkMe9ndQpkj3x6jbbrD8HkGTwTA0OBvrPUGigAfbnUGvBlbedXF+Bq05qCxIBu9QpB4I7W5iYGk71Xi5rvJ3H7QL6GBRtL2HhmZvbGQcJ35so+oggAA==",
+     "aspect": "4/3"
+    },
+    "square": {
+     "widths": [
+      480
+     ],
+     "lqip": "data:image/webp;base64,UklGRtgAAABXRUJQVlA4IMwAAADQBQCdASoYABgAPu1krFAppSQisBgIATAdiWgAtvrogW+5PsWahJuuDe/SfTeyb1jtH+7if8kAAP5nI3bWLJuN/C9j/sMcd1vNXxxN9t0KaAjsoIu0yPCl/mlTQ/aeDFO9gBLXTE/fPKd5mieMBR7oQYme+GqpIzIo9mpQplaS/ajqrluZbNGvXGgGVzZKdB9ribwv6tAK87RfCnw8679nSWDstBiMaYScmd8E468Dguxzg3C7zIaAqevUaAb+SJ3uPnDAh8i24DFAAAA=",
+     "aspect": "1/1"
+    },
+    "portrait": {
+     "widths": [
+      480
+     ],
+     "lqip": "data:image/webp;base64,UklGRuIAAABXRUJQVlA4INYAAACQBgCdASoYAB4APu1sqk8ppiOiMBgIATAdiWwAsR7yBSLcNO2+0m6pC6tlD+c9OU4DNpFi9uy4ENy2XeAAAP5S+/SboTUkUwaWY5vp/6dGAVyG1dPVYVbCCM72nbb04OgOva6BZdJ24WPqh3GSEOCF5qvV4P2SbQ6hamP4mpBAhAOsVbiwFDtogJSX1upBCsA4NIa1IiH1V/laIYy31XM2MbeDehLqiiXPjBUcyhmZui2nNIflt49AsH+YTBilXVTfrbvMtCY+drZT+H+bmDVIBXSEngAA",
+     "aspect": "4/5"
+    }
+   },
+   "dominant": "#796271"
+  },
+  "farmer-field": {
+   "alt": "A farmer in a straw hat checks his phone in a maize field.",
+   "tags": [
+    "agriculture",
+    "farm-smarter"
+   ],
+   "tier": "B",
+   "focal": [
+    0.5,
+    0.35
+   ],
+   "source_px": [
+    480,
+    470
+   ],
+   "variants": {
+    "wide": {
+     "widths": [
+      480
+     ],
+     "lqip": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAAAwBACdASoYAA4APu1iqk2ppaQiMAgBMB2JZgCdACK3Zu9qdSkpB19v0AAA+D66bFyxuelt9XZKS/4zuTcWrLJSppfzSzqFCO5nUJR53H3/RNbBQ6JLsnipb8To9sGHOlP9FFMmKAUSRQW3CCg15w1B75acl7VsEoq/mcvX8ZCOP/6Trul4g9W17gAAAA==",
+     "aspect": "16/9"
+    },
+    "card": {
+     "widths": [
+      480
+     ],
+     "lqip": "data:image/webp;base64,UklGRsAAAABXRUJQVlA4ILQAAACQBQCdASoYABIAPu1qrVCppaQiqAqpMB2JQBOmUEr/AL+He50x2I1bl4xQfuIQX8nIkF+WAAD92uMX6F4h/IoIi3r4MiBMtH+j2KEQthXd++CHz7vBqBLMgVYhFsp7M1L+sdYXQe7VXJo57FjtFodDgJhNUyzbcdeCiDzDlMQwvl2M3IcqwgZ19L0gT78H//BYAU5/RqsG1bL5MdZ4rVIVlSi4PDS9DAHiwBt51RdEc0YAAAA=",
+     "aspect": "4/3"
+    },
+    "square": {
+     "widths": [
+      480
+     ],
+     "lqip": "data:image/webp;base64,UklGRuYAAABXRUJQVlA4INoAAABwBQCdASoYABgAPu1qr1CppaQiqAqpMB2JagCdM2QBo544j9HjZe3RK/jyqFbcT5pNHZgAAP3iKJ+eX1RJwqXHtFEgeI8BGO5mOt4BHcKmzRGIvn5h2BEGsfs/PXM1N1I875IidTVDj1khitdpf09tRunSJEhCT/rHmwufxMmM4hk8Cig1Yx1CcNw7d+MVAF1/TLxGcE7cDPo2v8lWcFeALElFCo2k/beJtv3MXq2t72WrIfP4N0om8UBO4sKzb7Tmk6IVOYbRYETCNEpuGi5ARMyRcFUHQgAAAA==",
+     "aspect": "1/1"
+    },
+    "portrait": {
+     "widths": [
+      480
+     ],
+     "lqip": "data:image/webp;base64,UklGRgABAABXRUJQVlA4IPQAAACQBQCdASoYAB4APulmqE2pJiQiMBgMASAdCWoAtPn/4FhNA06B3bxxdZ5hJs0FH4N4neDNAAD+yfzcrs4phZ+tf6P5ssZfz9svP5vfFS8WZ+0t71ADFHqUCZphFM+s0C0LiueD4Z8Lv/aUO5+6kT0q91JtN4ctHpVMnrU27nEYICohPbPW5JCOat4R5T2q3EJxuo/40MxeRai1DKL61SwcQ8327SAhNCVwhzchAZPD81cWyShJq6K9CDLLwa5lOwGupEQQKIkmg/FDm3tgAIdsZmxB7Y/3viD3ADzY/4vQ+Db5KOLdFTy+bHXTZ5+dGOIDtwAA",
+     "aspect": "4/5"
+    }
+   },
+   "dominant": "#877a5d"
+  },
+  "developer-laptop": {
+   "alt": "A young developer works on a laptop by a window with a city skyline.",
+   "tags": [
+    "technology",
+    "learn-to-code",
+    "get-a-tech-job"
+   ],
+   "tier": "B",
+   "focal": [
+    0.45,
+    0.3
+   ],
+   "source_px": [
+    576,
+    500
+   ],
+   "variants": {
+    "wide": {
+     "widths": [
+      480
+     ],
+     "lqip": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAAAwBACdASoYAA4APu1kqU2ppaQiMAgBMB2JZAC/OB+MfjYWHSLwrRk0vrQA/rQEDfX7XdpVOOHOveJSO97W/9wHmq7JLnNYAEakZ1vW5JNL71oJjOyU+GCfLoplzhv9Kt/b5ud0Z0JW35a+ySJ0a6EERac6v2fxGkxPtR0cn+vbQFSy+LlfAAAA",
+     "aspect": "16/9"
+    },
+    "card": {
+     "widths": [
+      480
+     ],
+     "lqip": "data:image/webp;base64,UklGRq4AAABXRUJQVlA4IKIAAAAQBQCdASoYABIAPu1grFAppSQisBgIATAdiUAXugH4v5joaRxa+e9hclGq0VuTDwfwAP60B0fkk8D0i9N0PbPOZvbnSe7EP2u7QGnOqmLMmPBsbVE9RclxfPJAOJYqfGm6XuxzlFjTfe9cOgoi7ATQ5GA6AYNZsz1OjNrM0G16oIL1QhWejHCplFFqKGPwU8qA9ZB1j7QkzQhedgM3WMQAAAA=",
+     "aspect": "4/3"
+    },
+    "square": {
+     "widths": [
+      480
+     ],
+     "lqip": "data:image/webp;base64,UklGRsIAAABXRUJQVlA4ILYAAABwBQCdASoYABgAPu1qqVAppiOiqA1RMB2JQBgcAQAR/G+pykVNdGK+zcJdnv2JAm/T8uCMAP62mjiuQFLb84wZj08n0n2NNSGZrxOI15tDSWx9724SquBqzIuz6bMIS3VIqNVPw/LRUnu0ausRVN+chd2Og8Bn1O90xZ8+oR22pxL5d7SIRaWNLP/1C543zTjWemp26GhTlww1bgLVxoQwxEyKCKCxhxIaZG2pYrerNcF8xDHAAA==",
+     "aspect": "1/1"
+    },
+    "portrait": {
+     "widths": [
+      480
+     ],
+     "lqip": "data:image/webp;base64,UklGRtgAAABXRUJQVlA4IMwAAADQBQCdASoYAB4APu1oq08ppiOiMBgIATAdiWIAuwAOnRWH3gcp5Ce8UbM3jqL/R4DIbDxeJo/AAP6aYNwmq9WM4egVF/CqaQLI2fZ5icRtkH1RD+Fw+kg/iOrlTpeeI7xPrr//RRIV5uP7GrhHl/JHCfa9VqG2yvQz2H0sA07KFdmwdlrhl5ON1oWdcHt/Of9CUQm0kSVKR6ra6JOhS0FrSGXwM3n7Jf0tRNIyKMQMivClym/5pIruPbvQ/DPuYL2JM1YFmie225IgAAA=",
+     "aspect": "4/5"
+    }
+   },
+   "dominant": "#7c6469"
+  },
+  "tailor-phone": {
+   "alt": "A tailor in a patterned head wrap smiles at her phone in her workshop.",
+   "tags": [
+    "creative",
+    "small-business",
+    "sell-on-whatsapp"
+   ],
+   "tier": "B",
+   "focal": [
+    0.4,
+    0.35
+   ],
+   "source_px": [
+    560,
+    594
+   ],
+   "variants": {
+    "wide": {
+     "widths": [
+      480
+     ],
+     "lqip": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAABwBACdASoYAA4APu1iqU2ppaOiMAgBMB2JaACdMoADX2PuoRJy/BRmCnwbgADKuZzM8RD1H1lQpNu843l8qBlGAILTrRbrMGp8eNaaopsngTA1hw6qcO/3c+TbARIjEINXttd9AZVupIYyKK6s24HQPs6WVqBEo7xiSNeahMl4HGhqkAAAAA==",
+     "aspect": "16/9"
+    },
+    "card": {
+     "widths": [
+      480
+     ],
+     "lqip": "data:image/webp;base64,UklGRrIAAABXRUJQVlA4IKYAAAAQBQCdASoYABIAPu1qsFAppiUiqAqpMB2JZACxHs8sdBfsRkaoYLbRD1VNx9iAUjYAAPWBzIeswIP8IiXG2ULI4Je2HsFFR9Byu2HG+K4X6AFdyw27A05B1/tuaqvJBxdwWfzd8LaA0T8lHKOU/WZqOIFG8udCmsWTzZ0hcoHo+HtxmB0XZeV8fXDbiRPp9YdWgGvWIr0+T3lPg1ZgOLmZXdxXVgAA",
+     "aspect": "4/3"
+    },
+    "square": {
+     "widths": [
+      480
+     ],
+     "lqip": "data:image/webp;base64,UklGRs4AAABXRUJQVlA4IMIAAACQBQCdASoYABgAPu1oqk+ppiOiKA1RMB2JZgCdMs88IBfsRvS0l8mCNDP6mvVdvUVz8oKQAAD1gcyHrMCD/CIlxtlCyOCXth7BRUfQcrthxviuF+gBXcrtYt95I3n0Z+VaGwRNLbjBSAJis8UAYLarVLA9uiIURkJNGYs1rPMHRdmItxuRP8Tvx8Vn4niAoXPU4rzIwkzwYXzPKQphYR+xJKqLotpxFczW+XIbuBe+7/yo01xZvxZZJeFtvIu3tgAAAA==",
+     "aspect": "1/1"
+    },
+    "portrait": {
+     "widths": [
+      480
+     ],
+     "lqip": "data:image/webp;base64,UklGRvgAAABXRUJQVlA4IOwAAADwBQCdASoYAB4APu1iqE2ppaOiMAgBMB2JZACdG0QttUBz2WpqdcwD8wSUwgeOv66KKionQTfmAAD7ZlFsrSOzG1TqkvCfZkEY2WWhkG48wQbPOrPoQVnokGoiFJj517gWoLIFyYN6Ir5eawIXrmAl0dguI4EXnyFws3i2UTlv5RvAUoiYpb3lmXdSt3tcuvCHjHar7nYnMzNlDVGeZxbNYKLPlLFpoaY7IFTJacM6CKnQeokcjVdWcAMRxrJz6vZS5TUqT57QzmOQEpZv/qzFTrurwjS8EI1Rqwc0AsbDoJY98azfwv0ZMLAAAA==",
+     "aspect": "4/5"
+    }
+   },
+   "dominant": "#7e5d4d"
+  },
+  "kids-coding": {
+   "alt": "A teacher and smiling school children gather around a laptop in a classroom.",
+   "tags": [
+    "education",
+    "teach-kids-programming",
+    "kids"
+   ],
+   "tier": "B",
+   "focal": [
+    0.45,
+    0.45
+   ],
+   "source_px": [
+    976,
+    524
+   ],
+   "variants": {
+    "wide": {
+     "widths": [
+      480,
+      960
+     ],
+     "lqip": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAADQAwCdASoYAA4APu1iqU2ppaOiMAgBMB2JQBOmUAAY00Ii+rFSKoAA/gbszk/o4zl4fbaYfItnXEzTRKsc6rPrn7uZ0Pzlteb1MHbiX23sWeyPRtT8oIVOlNCS7B2hN895ZNjaoms+ogOJVuk+BtmG9S2+szBVfUqFJxYDhVMAxa0IsUAP7uAQAAA=",
+     "aspect": "16/9"
+    },
+    "card": {
+     "widths": [
+      480,
+      960
+     ],
+     "lqip": "data:image/webp;base64,UklGRrYAAABXRUJQVlA4IKoAAACQBQCdASoYABIAPu1srFEppaQiqAqpMB2JQBajawnMAHWmya5w1guWW8US4FVgkRZ/hr2fwAD8ENfq8bPf3JgcpoGg7EAtetsteD5jVSUWzBPjQcdgrlqqX3RW+5bJTeUSeRqQ2XeOoRUgGLxc+gKiWQN3hfv3TYQalPRdTv750IxdyvFV37bDo+jdMkflcawNx3m9tAM9rjzcQLqKMIORVTY5Voo5pkAAAA==",
+     "aspect": "4/3"
+    },
+    "square": {
+     "widths": [
+      480
+     ],
+     "lqip": "data:image/webp;base64,UklGRs4AAABXRUJQVlA4IMIAAACwBQCdASoYABgAPu1srFEppaQiqAqpMB2JZgCdMzQ3ABP3Vr5K3XJbcPV/B+NEyvFeM9dZyAAA9qIYWpsYehrlcesEEpG157wtlowERcC3SXRqmyh97ICArVVeJv/pNSNIBezYDIZreeMlmY57Z9BhT2SsDmsixBcp84iWSNVkYyZkaa2bcNRFilYtAYjqYIhiznFUTvFtYYucWA5UJLx1oE+qKld5eZGmEFHjXGB5DtlAKKSFQYQEhpey+SlbeO4AAA==",
+     "aspect": "1/1"
+    },
+    "portrait": {
+     "widths": [
+      480
+     ],
+     "lqip": "data:image/webp;base64,UklGRu4AAABXRUJQVlA4IOIAAADQBQCdASoYAB4APu1ur1IppiQiqAgBMB2JYgCdMoR7T6mBfPjYJkO6C9mfrRFUtb2Vb+KecdnwAPcrd1YGdVP7r88z7YT4ATBf4KoRjD//ArL9pkSaQnfbgY9DpMsT7Gn8Rt2FX5C3ARs7bhZNFX8td5p1VGRDscOlv3g8/wYqgnrWAyZkbMB72+zRbqfhyRT0jYOeAIqp7v4BVHjlaMBqMMMlELfQLWF1Ez4libheFZxgD0BNEUmzq26lmDMIZoFLOvyBsL8y81HJa5/wdtG/sF2GkcPU+KWfv1LDazYKOAAA",
+     "aspect": "4/5"
+    }
+   },
+   "dominant": "#775753"
+  },
+  "teacher-class": {
+   "alt": "A teacher smiles while working on a laptop with her pupils.",
+   "tags": [
+    "education",
+    "teach-online"
+   ],
+   "tier": "B",
+   "focal": [
+    0.4,
+    0.35
+   ],
+   "source_px": [
+    500,
+    544
+   ],
+   "variants": {
+    "wide": {
+     "widths": [
+      480
+     ],
+     "lqip": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAADwAwCdASoYAA4APu1iqk2ppaQiMAgBMB2JaACdLwAA50JY6fnxYE4AAM4CIREOoSj0KZnIXW+RXzMgz4/ZGlJYLDGd4q19Fma2WpTzMFweUBsZMs2PwQG1CkIGQuXCXenk+pwo3H+HERGXRMnZ9xMdg1qQ0zhMpfL/munZAC6iy2KUzQAAAA==",
+     "aspect": "16/9"
+    },
+    "card": {
+     "widths": [
+      480
+     ],
+     "lqip": "data:image/webp;base64,UklGRq4AAABXRUJQVlA4IKIAAABQBQCdASoYABIAPu1qrVCppaQiqAqpMB2JQBYj2g/qeAAa0d1+qaIka9n9Z3f08j707HgA31vjZmZtXp3vF50Xmk4Ob2njj2F0gbrYiUCmsRwIstwr1il1VMtjWrCw7wl7UIGRFDWGfiqo/bgvA7egK92WYnLsx4RmFq1hvBsl7JhBiKV2pvv4gfJakfKHCQZyoaftxfsCGDGRFcqCKaMfngA=",
+     "aspect": "4/3"
+    },
+    "square": {
+     "widths": [
+      480
+     ],
+     "lqip": "data:image/webp;base64,UklGRsQAAABXRUJQVlA4ILgAAADwBQCdASoYABgAPu1ur1KppiQiqAgBMB2JZACxHt16ACDsSzAJpUHWh3Ba5QunHr80Ax/0xd1OAADfW+NmbQ1z2t5PZc/HVYTUFy8QLy6tr4ES+zgSTuXIqCaw5rallX3kkYEtEYjskalv8MOl1gOSIsoAh5QfLZQDR/R5oW7YKSi5GXHZn9YqOz14pKb4V8T8CRXZgwVodM72TUjoOjTWSHnP4XRamWRpU+b+KjdZiOAECEUl+UwA",
+     "aspect": "1/1"
+    },
+    "portrait": {
+     "widths": [
+      480
+     ],
+     "lqip": "data:image/webp;base64,UklGRuwAAABXRUJQVlA4IOAAAADwBQCdASoYAB4APu1qrVEppaQiqAqpMB2JZgCdMoR/UBP7tF88zInyvP44pBYD/oVzEjyEjkHflAD3K5m8coiG9FUJ4xKpJaFAyyrFu9oY2yp8XplIjI35NMa19KoUf0kv2nc41q1P4ji0IfsvmY30caBd+pqjpKxq4CUp93BUVz2g3cemOeN1vkcjjo/nhnNBKjBOdrWcNsWeoB2KBjLNmItF6MagXePKPQzvl2SbzXrIyscRBWtPFeXaOrKggl6N+NZXT0xP5hACRss50K8o5crvMWNtY+QP5CervkCAAA==",
+     "aspect": "4/5"
+    }
+   },
+   "dominant": "#6b4a49"
+  },
+  "people-collage": {
+   "alt": "Collage of a nurse, a farmer, a developer, a tailor and a teacher with pupils, each using technology.",
+   "tags": [
+    "brand",
+    "home",
+    "og"
+   ],
+   "tier": "B",
+   "focal": [
+    0.5,
+    0.5
+   ],
+   "source_px": [
+    1536,
+    1024
+   ],
+   "variants": {
+    "wide": {
+     "widths": [
+      480,
+      960,
+      1600
+     ],
+     "lqip": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAAAwBACdASoYAA4APu1iqU2ppaOiMAgBMB2JQBWAAsD0LOKRsThCZ/WVygAA/kRbd0RTAXpTgvvSnUbr5+GxSBrgqBRWY9j03z0capuTmtcQqIJIWHLfTabMAKFfXZBDwk9AT1qspAZA4mGha4tqkDec05sV+RSxnCONAk26R2AAAA==",
+     "aspect": "16/9"
+    },
+    "card": {
+     "widths": [
+      480,
+      960,
+      1600
+     ],
+     "lqip": "data:image/webp;base64,UklGRrgAAABXRUJQVlA4IKwAAABwBQCdASoYABIAPu1srFEppaQiqAqpMB2JQBfntaAT6B/mjMb0t3P3OpadhZeAKxI2QbmAAPwK4i9vB685K4hsLYyOODWKjeYWuvOCKmk3dqEa80+7JR4S18L7F3BlpPUoIJtbacwoDPLPqBpUEDTBQG1Q021lk6+onjr2+FM8lyHBCOSi2bZ1SF2DbLYY2YPtuyr8ounto4fAbh8D3rngg7GlJ9VE3AUIAAAA",
+     "aspect": "4/3"
+    },
+    "square": {
+     "widths": [
+      480,
+      960,
+      1600
+     ],
+     "lqip": "data:image/webp;base64,UklGRtoAAABXRUJQVlA4IM4AAADQBQCdASoYABgAPu1srFEppaQiqAqpMB2JZACsAywAxBCBNifo0uCCGk4Ub3q3X4F1tKLKpbQAAM49JvA+M43HBX+g81eyu2DX45PK9WX83dyjwRXf7b6M6/2AhCLwsetAr7o8VC83mzUuN8c4SmqfX4gqtBMOaGsVL1INW491dG5BqwtiFZ/E6J1E/Be9c7Ch59H8ljf1b2Y9AyYr43hwlKyj9tn+h2ym66M++isBPDsKvUAtd+AODuoV1p9OVsE7IxDs12Xm/VT4SA4IAA==",
+     "aspect": "1/1"
+    },
+    "portrait": {
+     "widths": [
+      480,
+      960
+     ],
+     "lqip": "data:image/webp;base64,UklGRvgAAABXRUJQVlA4IOwAAACQBgCdASoYAB4APu1krFAppSQisBgIATAdiWwAnTKAqQTPEzVFfSbbw/Rrj45kiz/9H12ByMDpsX4oguhQAP5dshtboYc8dfwiP1REzpnK/qUtbgJHDKZ35kaahTbJWjQHAaKh7EkgnUtRwlSDefxSRxjSgqDAdP3eDWNGxa3vTMD6FkeMnNe/PTwTFnw7aYWOzRV8S8OkjrxCxUwNd+xx3Sf2WSVri8vvEuUDc4Qyi8cEFjtA4/oatkzSpdixWQL+QhRMoVn2vSdNfjPv68ncaEF/9NqaVKvzwf8x+PW4snCuSVmUkfK+GuAAAA==",
+     "aspect": "4/5"
+    }
+   },
+   "dominant": "#7d645b"
+  }
+ }
+}

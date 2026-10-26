@@ -1,500 +1,1071 @@
 {
-  "version": "2.5.0",
-  "transport": "POST /api/v1/events (sendBeacon, fire-and-forget). Server increments daily aggregate counters; no raw event log is kept.",
-  "global_rules": [
-    "No cookies, no localStorage identifiers, no fingerprinting, no IP storage (IP used in memory only for rate limiting).",
-    "No free text except 'query' on search_zero_results and search_submitted (normalised, lowercased, trimmed, max 80 chars, emails/phone-number patterns redacted to [redacted]).",
-    "Properties not listed here are dropped server-side.",
-    "Bots: drop requests with known bot user-agents; Cloudflare bot score where available.",
-    "Small samples: dashboards hide any dimension value with fewer than 5 counts in the period.",
-    "Helper events (V2.5) may carry the helper slug and stage number because helper pages are public content pages. A helper slug is never joined with an identity, sector, label or visitor. The 'for someone' label never leaves the device."
-  ],
-  "events": [
-    {
-      "name": "search_submitted",
-      "when": "User submits a query (Enter, search button, or chooses an example query).",
-      "props": {
-        "source": [
-          "home_hero",
-          "header",
-          "search_page",
-          "example_chip",
-          "zero_results_suggestion"
-        ],
-        "has_filters": "boolean",
-        "result_bucket": [
-          "0",
-          "1-5",
-          "6-20",
-          "21+"
-        ]
-      },
-      "aggregate_by": [
-        "date",
-        "source",
-        "result_bucket"
-      ],
-      "purpose": "Search volume; zero-result rate denominator."
-    },
-    {
-      "name": "search_zero_results",
-      "when": "A submitted search returns zero results after the OR fallback.",
-      "props": {
-        "query": "normalised string <=80 chars",
-        "has_filters": "boolean"
-      },
-      "aggregate_by": [
-        "date",
-        "query",
-        "has_filters"
-      ],
-      "retention_days": 90,
-      "purpose": "Content gap discovery (V1 metric)."
-    },
-    {
-      "name": "filter_applied",
-      "when": "A facet value is added or removed.",
-      "props": {
-        "facet": [
-          "type",
-          "category",
-          "cost",
-          "platform",
-          "level",
-          "audience",
-          "ai",
-          "include_unconfirmed"
-        ],
-        "action": [
-          "add",
-          "remove",
-          "clear_all"
-        ]
-      },
-      "aggregate_by": [
-        "date",
-        "facet",
-        "action"
-      ],
-      "purpose": "Which filters help."
-    },
-    {
-      "name": "search_result_opened",
-      "when": "User opens a result from search results or suggestions.",
-      "props": {
-        "position_bucket": [
-          "1",
-          "2-3",
-          "4-10",
-          "11+"
-        ],
-        "type": "content_type id",
-        "from": [
-          "results",
-          "suggestions"
-        ]
-      },
-      "aggregate_by": [
-        "date",
-        "position_bucket",
-        "type",
-        "from"
-      ],
-      "purpose": "Search success rate numerator."
-    },
-    {
-      "name": "content_viewed",
-      "when": "A content detail page is shown (once per page load).",
-      "props": {
-        "type": "content_type id",
-        "record_id": "id",
-        "entry": [
-          "internal",
-          "search_engine",
-          "direct_or_shared",
-          "other_site"
-        ]
-      },
-      "aggregate_by": [
-        "date",
-        "type",
-        "record_id",
-        "entry"
-      ],
-      "purpose": "Content engagement; shared deep-link visits."
-    },
-    {
-      "name": "official_link_clicked",
-      "when": "User clicks the official-site link of a tool.",
-      "props": {
-        "record_id": "tool id"
-      },
-      "aggregate_by": [
-        "date",
-        "record_id"
-      ],
-      "purpose": "Outbound click-through."
-    },
-    {
-      "name": "resource_opened",
-      "when": "User clicks through to an external resource.",
-      "props": {
-        "record_id": "res id",
-        "from_type": "content_type id"
-      },
-      "aggregate_by": [
-        "date",
-        "record_id",
-        "from_type"
-      ],
-      "purpose": "Tutorial usage."
-    },
-    {
-      "name": "source_link_clicked",
-      "when": "User opens a source citation.",
-      "props": {
-        "record_id": "id"
-      },
-      "aggregate_by": [
-        "date",
-        "record_id"
-      ],
-      "purpose": "Trust signal use."
-    },
-    {
-      "name": "share_clicked",
-      "when": "User uses the Share button (native share or copy link).",
-      "props": {
-        "type": "content_type id",
-        "method": [
-          "native",
-          "copy"
-        ]
-      },
-      "aggregate_by": [
-        "date",
-        "type",
-        "method"
-      ],
-      "purpose": "Sharing."
-    },
-    {
-      "name": "playbook_step_viewed",
-      "when": "A playbook step enters the viewport for >=2 s (once per step per page load).",
-      "props": {
-        "record_id": "pb id",
-        "step": "integer"
-      },
-      "aggregate_by": [
-        "date",
-        "record_id",
-        "step"
-      ],
-      "purpose": "Where people drop off. Not a completion claim."
-    },
-    {
-      "name": "playbook_checklist_completed",
-      "when": "All items in the on-page completion checklist are ticked (state is in-memory only).",
-      "props": {
-        "record_id": "pb id"
-      },
-      "aggregate_by": [
-        "date",
-        "record_id"
-      ],
-      "purpose": "Completion signal (V1 'guide completion signals')."
-    },
-    {
-      "name": "correction_submitted",
-      "when": "Correction API returns success.",
-      "props": {
-        "issue_type": "correction_issue_type id"
-      },
-      "aggregate_by": [
-        "date",
-        "issue_type"
-      ],
-      "purpose": "Report volume."
-    },
-    {
-      "name": "error_shown",
-      "when": "A user-visible error state renders.",
-      "props": {
-        "code": [
-          "search_index_failed",
-          "search_runtime_error",
-          "correction_failed",
-          "correction_rate_limited",
-          "not_found",
-          "js_error"
-        ],
-        "route_type": "screen id prefix"
-      },
-      "aggregate_by": [
-        "date",
-        "code",
-        "route_type"
-      ],
-      "purpose": "Reliability monitoring."
-    },
-    {
-      "name": "theme_changed",
-      "when": "User changes theme manually.",
-      "props": {
-        "to": [
-          "light",
-          "dark",
-          "system"
-        ]
-      },
-      "aggregate_by": [
-        "date",
-        "to"
-      ],
-      "purpose": "Validates dark-mode investment."
-    },
-    {
-      "name": "identity_selected",
-      "when": "An identity is chosen in the picker, from an example chip or the browse page.",
-      "props": {
-        "sector": "sector slug, or 'life_role' for sensitive life roles (person-with-a-disability, newcomer-to-a-country, family-carer, parent-of-a-disabled-child)",
-        "source": [
-          "home_picker",
-          "example_chip",
-          "browse",
-          "search_suggestion"
-        ]
-      },
-      "aggregate_by": [
-        "date",
-        "sector",
-        "source"
-      ],
-      "purpose": "Which sectors arrive; never the identity itself (18 §10)."
-    },
-    {
-      "name": "need_chip_selected",
-      "when": "A need chip is chosen on home or an identity page.",
-      "props": {
-        "task_family": "task family slug"
-      },
-      "aggregate_by": [
-        "date",
-        "task_family"
-      ],
-      "purpose": "What people want to do."
-    },
-    {
-      "name": "lens_viewed",
-      "when": "A lens page or identity×tool page renders.",
-      "props": {
-        "kind": [
-          "flagship",
-          "auto"
-        ],
-        "roadmap": "roadmap slug"
-      },
-      "aggregate_by": [
-        "date",
-        "kind",
-        "roadmap"
-      ],
-      "purpose": "Demand for tailored learning."
-    },
-    {
-      "name": "module_marked_done",
-      "when": "A learner ticks 'I can do this' (stored on device only).",
-      "props": {
-        "level": [
-          "beginner",
-          "intermediate",
-          "expert"
-        ]
-      },
-      "aggregate_by": [
-        "date",
-        "level"
-      ],
-      "purpose": "Learning engagement without identity."
-    },
-    {
-      "name": "toolkit_shared",
-      "when": "Share/print/copy on a toolkit card or 'explain this to someone'.",
-      "props": {
-        "method": [
-          "native",
-          "copy",
-          "print",
-          "whatsapp_text"
-        ]
-      },
-      "aggregate_by": [
-        "date",
-        "method"
-      ],
-      "purpose": "Advising family and friends (18 §11)."
-    },
-    {
-      "name": "helping_mode_toggled",
-      "when": "'I'm helping someone else' switched on.",
-      "props": {},
-      "aggregate_by": [
-        "date"
-      ],
-      "purpose": "How often people use the site on behalf of others."
-    },
-    {
-      "name": "identity_no_match",
-      "when": "The identity picker shows no match for a typed query (after fuzzy and alias matching) and the visitor leaves or submits.",
-      "props": {
-        "query": "normalised string <=40 chars"
-      },
-      "aggregate_by": [
-        "date",
-        "query"
-      ],
-      "retention_days": 90,
-      "min_count_to_display": 3,
-      "purpose": "Missing-profession discovery for the admin (20 §3). Shown in the admin report only when the same query occurs at least 3 times, so one person's typing is never visible."
-    },
-    {
-      "name": "explore_mode_changed",
-      "when": "Visitor switches the 'Explore by' entry point.",
-      "props": {
-        "mode": [
-          "identity",
-          "goal",
-          "skill",
-          "tool",
-          "sector"
-        ]
-      },
-      "aggregate_by": [
-        "date",
-        "mode"
-      ],
-      "purpose": "Which entry points people use (18 §18)."
-    },
-    {
-      "name": "skill_selected",
-      "when": "Visitor opens a skill page or picks a skill in autocomplete.",
-      "props": {
-        "group": "skill group slug",
-        "source": [
-          "explore_switcher",
-          "autocomplete",
-          "skills_index",
-          "identity_page"
-        ]
-      },
-      "aggregate_by": [
-        "date",
-        "group",
-        "source"
-      ],
-      "purpose": "Skills entry point demand."
-    },
-    {
-      "name": "suggest_edit_opened",
-      "when": "Visitor opens the Suggest an edit sheet (S36).",
-      "props": {
-        "record_kind": [
-          "identity",
-          "tool",
-          "need",
-          "roadmap",
-          "lens",
-          "skill",
-          "page"
-        ]
-      },
-      "aggregate_by": [
-        "date",
-        "record_kind"
-      ],
-      "purpose": "How often people want to help, by page type."
-    },
-    {
-      "name": "whats_new_viewed",
-      "when": "S37 viewed.",
-      "props": {},
-      "aggregate_by": [
-        "date"
-      ],
-      "purpose": "Interest in improvements."
-    },
-    {
-      "name": "helper_started",
-      "when": "A visitor starts a helper (S40 Start button or S39 card).",
-      "props": {
-        "helper": "slug (flag-listed helpers only)",
-        "for_someone": "boolean"
-      },
-      "aggregate_by": [
-        "date",
-        "helper"
-      ],
-      "purpose": "Which helpers attract people."
-    },
-    {
-      "name": "helper_stage_completed",
-      "when": "The last 'done' item of a stage is ticked.",
-      "props": {
-        "helper": "slug",
-        "stage": "integer 1–8"
-      },
-      "aggregate_by": [
-        "date",
-        "helper",
-        "stage"
-      ],
-      "purpose": "Where people finish and where they stall."
-    },
-    {
-      "name": "helper_panel_opened",
-      "when": "The S41 panel sheet is expanded.",
-      "props": {
-        "helper": "slug",
-        "page_kind": [
-          "home",
-          "identity",
-          "tool",
-          "need",
-          "skill",
-          "helper",
-          "other"
-        ]
-      },
-      "aggregate_by": [
-        "date",
-        "helper",
-        "page_kind"
-      ],
-      "purpose": "Whether the panel is useful on other pages."
-    },
-    {
-      "name": "helper_shared",
-      "when": "Share or print is used on a helper (S40/S41).",
-      "props": {
-        "helper": "slug",
-        "method": [
-          "link",
-          "whatsapp",
-          "print"
-        ]
-      },
-      "aggregate_by": [
-        "date",
-        "helper",
-        "method"
-      ],
-      "purpose": "Whether helpers spread to friends and family."
-    }
-  ],
-  "not_implemented_in_r1": [
-    "bookmark_added",
-    "bookmark_removed",
-    "sign_up_completed",
-    "workflow_completed (replaced by playbook_checklist_completed)"
-  ]
+ "version": "2.6.0",
+ "transport": "POST /api/v1/events (sendBeacon, fire-and-forget). Server increments daily aggregate counters; no raw event log is kept.",
+ "global_rules": [
+  "No cookies, no localStorage identifiers, no fingerprinting, no IP storage (IP used in memory only for rate limiting).",
+  "No free text except 'query' on search_zero_results and search_submitted (normalised, lowercased, trimmed, max 80 chars, emails/phone-number patterns redacted to [redacted]).",
+  "Properties not listed here are dropped server-side.",
+  "Bots: drop requests with known bot user-agents; Cloudflare bot score where available.",
+  "Small samples: dashboards hide any dimension value with fewer than 5 counts in the period.",
+  "Helper events (V2.5) may carry the helper slug and stage number because helper pages are public content pages. A helper slug is never joined with an identity, sector, label or visitor. The 'for someone' label never leaves the device.",
+  "V2.6: events from a signed-in user are still counted anonymously in event_counts. User-linked activity used for recommendations and trending is a separate store (db/0002 `activity`), never mixed with these counters, kept 90 days, and written only after the user consents (24 §7)."
+ ],
+ "events": [
+  {
+   "name": "search_submitted",
+   "when": "User submits a query (Enter, search button, or chooses an example query).",
+   "props": {
+    "source": [
+     "home_hero",
+     "header",
+     "search_page",
+     "example_chip",
+     "zero_results_suggestion"
+    ],
+    "has_filters": "boolean",
+    "result_bucket": [
+     "0",
+     "1-5",
+     "6-20",
+     "21+"
+    ]
+   },
+   "aggregate_by": [
+    "date",
+    "source",
+    "result_bucket"
+   ],
+   "purpose": "Search volume; zero-result rate denominator."
+  },
+  {
+   "name": "search_zero_results",
+   "when": "A submitted search returns zero results after the OR fallback.",
+   "props": {
+    "query": "normalised string <=80 chars",
+    "has_filters": "boolean"
+   },
+   "aggregate_by": [
+    "date",
+    "query",
+    "has_filters"
+   ],
+   "retention_days": 90,
+   "purpose": "Content gap discovery (V1 metric)."
+  },
+  {
+   "name": "filter_applied",
+   "when": "A facet value is added or removed.",
+   "props": {
+    "facet": [
+     "type",
+     "category",
+     "cost",
+     "platform",
+     "level",
+     "audience",
+     "ai",
+     "include_unconfirmed"
+    ],
+    "action": [
+     "add",
+     "remove",
+     "clear_all"
+    ]
+   },
+   "aggregate_by": [
+    "date",
+    "facet",
+    "action"
+   ],
+   "purpose": "Which filters help."
+  },
+  {
+   "name": "search_result_opened",
+   "when": "User opens a result from search results or suggestions.",
+   "props": {
+    "position_bucket": [
+     "1",
+     "2-3",
+     "4-10",
+     "11+"
+    ],
+    "type": "content_type id",
+    "from": [
+     "results",
+     "suggestions"
+    ]
+   },
+   "aggregate_by": [
+    "date",
+    "position_bucket",
+    "type",
+    "from"
+   ],
+   "purpose": "Search success rate numerator."
+  },
+  {
+   "name": "content_viewed",
+   "when": "A content detail page is shown (once per page load).",
+   "props": {
+    "type": "content_type id",
+    "record_id": "id",
+    "entry": [
+     "internal",
+     "search_engine",
+     "direct_or_shared",
+     "other_site"
+    ]
+   },
+   "aggregate_by": [
+    "date",
+    "type",
+    "record_id",
+    "entry"
+   ],
+   "purpose": "Content engagement; shared deep-link visits."
+  },
+  {
+   "name": "official_link_clicked",
+   "when": "User clicks the official-site link of a tool.",
+   "props": {
+    "record_id": "tool id"
+   },
+   "aggregate_by": [
+    "date",
+    "record_id"
+   ],
+   "purpose": "Outbound click-through."
+  },
+  {
+   "name": "resource_opened",
+   "when": "User clicks through to an external resource.",
+   "props": {
+    "record_id": "res id",
+    "from_type": "content_type id"
+   },
+   "aggregate_by": [
+    "date",
+    "record_id",
+    "from_type"
+   ],
+   "purpose": "Tutorial usage."
+  },
+  {
+   "name": "source_link_clicked",
+   "when": "User opens a source citation.",
+   "props": {
+    "record_id": "id"
+   },
+   "aggregate_by": [
+    "date",
+    "record_id"
+   ],
+   "purpose": "Trust signal use."
+  },
+  {
+   "name": "share_clicked",
+   "when": "User uses the Share button (native share or copy link).",
+   "props": {
+    "type": "content_type id",
+    "method": [
+     "native",
+     "copy"
+    ]
+   },
+   "aggregate_by": [
+    "date",
+    "type",
+    "method"
+   ],
+   "purpose": "Sharing."
+  },
+  {
+   "name": "playbook_step_viewed",
+   "when": "A playbook step enters the viewport for >=2 s (once per step per page load).",
+   "props": {
+    "record_id": "pb id",
+    "step": "integer"
+   },
+   "aggregate_by": [
+    "date",
+    "record_id",
+    "step"
+   ],
+   "purpose": "Where people drop off. Not a completion claim."
+  },
+  {
+   "name": "playbook_checklist_completed",
+   "when": "All items in the on-page completion checklist are ticked (state is in-memory only).",
+   "props": {
+    "record_id": "pb id"
+   },
+   "aggregate_by": [
+    "date",
+    "record_id"
+   ],
+   "purpose": "Completion signal (V1 'guide completion signals')."
+  },
+  {
+   "name": "correction_submitted",
+   "when": "Correction API returns success.",
+   "props": {
+    "issue_type": "correction_issue_type id"
+   },
+   "aggregate_by": [
+    "date",
+    "issue_type"
+   ],
+   "purpose": "Report volume."
+  },
+  {
+   "name": "error_shown",
+   "when": "A user-visible error state renders.",
+   "props": {
+    "code": [
+     "search_index_failed",
+     "search_runtime_error",
+     "correction_failed",
+     "correction_rate_limited",
+     "not_found",
+     "js_error"
+    ],
+    "route_type": "screen id prefix"
+   },
+   "aggregate_by": [
+    "date",
+    "code",
+    "route_type"
+   ],
+   "purpose": "Reliability monitoring."
+  },
+  {
+   "name": "theme_changed",
+   "when": "User changes theme manually.",
+   "props": {
+    "to": [
+     "light",
+     "dark",
+     "system"
+    ]
+   },
+   "aggregate_by": [
+    "date",
+    "to"
+   ],
+   "purpose": "Validates dark-mode investment."
+  },
+  {
+   "name": "identity_selected",
+   "when": "An identity is chosen in the picker, from an example chip or the browse page.",
+   "props": {
+    "sector": "sector slug, or 'life_role' for sensitive life roles (person-with-a-disability, newcomer-to-a-country, family-carer, parent-of-a-disabled-child)",
+    "source": [
+     "home_picker",
+     "example_chip",
+     "browse",
+     "search_suggestion"
+    ]
+   },
+   "aggregate_by": [
+    "date",
+    "sector",
+    "source"
+   ],
+   "purpose": "Which sectors arrive; never the identity itself (18 §10)."
+  },
+  {
+   "name": "need_chip_selected",
+   "when": "A need chip is chosen on home or an identity page.",
+   "props": {
+    "task_family": "task family slug"
+   },
+   "aggregate_by": [
+    "date",
+    "task_family"
+   ],
+   "purpose": "What people want to do."
+  },
+  {
+   "name": "lens_viewed",
+   "when": "A lens page or identity×tool page renders.",
+   "props": {
+    "kind": [
+     "flagship",
+     "auto"
+    ],
+    "roadmap": "roadmap slug"
+   },
+   "aggregate_by": [
+    "date",
+    "kind",
+    "roadmap"
+   ],
+   "purpose": "Demand for tailored learning."
+  },
+  {
+   "name": "module_marked_done",
+   "when": "A learner ticks 'I can do this' (stored on device only).",
+   "props": {
+    "level": [
+     "beginner",
+     "intermediate",
+     "expert"
+    ]
+   },
+   "aggregate_by": [
+    "date",
+    "level"
+   ],
+   "purpose": "Learning engagement without identity."
+  },
+  {
+   "name": "toolkit_shared",
+   "when": "Share/print/copy on a toolkit card or 'explain this to someone'.",
+   "props": {
+    "method": [
+     "native",
+     "copy",
+     "print",
+     "whatsapp_text"
+    ]
+   },
+   "aggregate_by": [
+    "date",
+    "method"
+   ],
+   "purpose": "Advising family and friends (18 §11)."
+  },
+  {
+   "name": "helping_mode_toggled",
+   "when": "'I'm helping someone else' switched on.",
+   "props": {},
+   "aggregate_by": [
+    "date"
+   ],
+   "purpose": "How often people use the site on behalf of others."
+  },
+  {
+   "name": "identity_no_match",
+   "when": "The identity picker shows no match for a typed query (after fuzzy and alias matching) and the visitor leaves or submits.",
+   "props": {
+    "query": "normalised string <=40 chars"
+   },
+   "aggregate_by": [
+    "date",
+    "query"
+   ],
+   "retention_days": 90,
+   "min_count_to_display": 3,
+   "purpose": "Missing-profession discovery for the admin (20 §3). Shown in the admin report only when the same query occurs at least 3 times, so one person's typing is never visible."
+  },
+  {
+   "name": "explore_mode_changed",
+   "when": "Visitor switches the 'Explore by' entry point.",
+   "props": {
+    "mode": [
+     "identity",
+     "goal",
+     "skill",
+     "tool",
+     "sector"
+    ]
+   },
+   "aggregate_by": [
+    "date",
+    "mode"
+   ],
+   "purpose": "Which entry points people use (18 §18)."
+  },
+  {
+   "name": "skill_selected",
+   "when": "Visitor opens a skill page or picks a skill in autocomplete.",
+   "props": {
+    "group": "skill group slug",
+    "source": [
+     "explore_switcher",
+     "autocomplete",
+     "skills_index",
+     "identity_page"
+    ]
+   },
+   "aggregate_by": [
+    "date",
+    "group",
+    "source"
+   ],
+   "purpose": "Skills entry point demand."
+  },
+  {
+   "name": "suggest_edit_opened",
+   "when": "Visitor opens the Suggest an edit sheet (S36).",
+   "props": {
+    "record_kind": [
+     "identity",
+     "tool",
+     "need",
+     "roadmap",
+     "lens",
+     "skill",
+     "page"
+    ]
+   },
+   "aggregate_by": [
+    "date",
+    "record_kind"
+   ],
+   "purpose": "How often people want to help, by page type."
+  },
+  {
+   "name": "whats_new_viewed",
+   "when": "S37 viewed.",
+   "props": {},
+   "aggregate_by": [
+    "date"
+   ],
+   "purpose": "Interest in improvements."
+  },
+  {
+   "name": "helper_started",
+   "when": "A visitor starts a helper (S40 Start button or S39 card).",
+   "props": {
+    "helper": "slug (flag-listed helpers only)",
+    "for_someone": "boolean"
+   },
+   "aggregate_by": [
+    "date",
+    "helper"
+   ],
+   "purpose": "Which helpers attract people."
+  },
+  {
+   "name": "helper_stage_completed",
+   "when": "The last 'done' item of a stage is ticked.",
+   "props": {
+    "helper": "slug",
+    "stage": "integer 1–8"
+   },
+   "aggregate_by": [
+    "date",
+    "helper",
+    "stage"
+   ],
+   "purpose": "Where people finish and where they stall."
+  },
+  {
+   "name": "helper_panel_opened",
+   "when": "The S41 panel sheet is expanded.",
+   "props": {
+    "helper": "slug",
+    "page_kind": [
+     "home",
+     "identity",
+     "tool",
+     "need",
+     "skill",
+     "helper",
+     "other"
+    ]
+   },
+   "aggregate_by": [
+    "date",
+    "helper",
+    "page_kind"
+   ],
+   "purpose": "Whether the panel is useful on other pages."
+  },
+  {
+   "name": "helper_shared",
+   "when": "Share or print is used on a helper (S40/S41).",
+   "props": {
+    "helper": "slug",
+    "method": [
+     "link",
+     "whatsapp",
+     "print"
+    ]
+   },
+   "aggregate_by": [
+    "date",
+    "helper",
+    "method"
+   ],
+   "purpose": "Whether helpers spread to friends and family."
+  },
+  {
+   "name": "goal_opened",
+   "when": "A goal page (S43) is opened.",
+   "props": {
+    "goal": "slug",
+    "from": [
+     "search",
+     "home",
+     "need",
+     "tool",
+     "recommendation",
+     "trending",
+     "other"
+    ]
+   },
+   "aggregate_by": [
+    "date",
+    "goal",
+    "from"
+   ],
+   "purpose": "Which goals people actually need; feeds trending only for consenting signed-in users."
+  },
+  {
+   "name": "goal_search",
+   "when": "A goal search returns results or none.",
+   "props": {
+    "results": "integer bucket (0,1-3,4-10,11+)",
+    "market": [
+     "ng",
+     "africa",
+     "other"
+    ]
+   },
+   "aggregate_by": [
+    "date",
+    "results",
+    "market"
+   ],
+   "purpose": "Zero-result goal searches become new goals (research queue)."
+  },
+  {
+   "name": "alternative_opened",
+   "when": "A tool is opened from the 'Other ways to do this' strip (S43/tool page).",
+   "props": {
+    "from_tool": "slug",
+    "to_tool": "slug",
+    "rank": "1-7"
+   },
+   "aggregate_by": [
+    "date",
+    "rank"
+   ],
+   "purpose": "Are alternatives useful, and which rank gets chosen."
+  },
+  {
+   "name": "intent_selected",
+   "when": "A visitor taps Compete, Grow or Scale on the home page (S01-R).",
+   "props": {
+    "intent": [
+     "compete",
+     "grow",
+     "scale"
+    ]
+   },
+   "aggregate_by": [
+    "date",
+    "intent"
+   ],
+   "purpose": "Tests the positioning (D-075)."
+  },
+  {
+   "name": "star_toggled",
+   "when": "An item is starred or unstarred.",
+   "props": {
+    "kind": [
+     "skill",
+     "tool",
+     "goal",
+     "helper"
+    ],
+    "state": [
+     "on",
+     "off"
+    ],
+    "signed_in": "boolean"
+   },
+   "aggregate_by": [
+    "date",
+    "kind",
+    "state",
+    "signed_in"
+   ],
+   "purpose": "Interest signal; the cheapest commitment."
+  },
+  {
+   "name": "signin_prompt_shown",
+   "when": "The sign-in moment (S44) is shown.",
+   "props": {
+    "trigger": [
+     "third_star",
+     "first_stage",
+     "fifth_tick",
+     "return_visit",
+     "manual"
+    ]
+   },
+   "aggregate_by": [
+    "date",
+    "trigger"
+   ],
+   "purpose": "Which moments earn a sign-in."
+  },
+  {
+   "name": "signin_completed",
+   "when": "A visitor completes sign-in.",
+   "props": {
+    "method": [
+     "email_code",
+     "google"
+    ],
+    "trigger": [
+     "third_star",
+     "first_stage",
+     "fifth_tick",
+     "return_visit",
+     "manual"
+    ],
+    "trending_consent": "boolean"
+   },
+   "aggregate_by": [
+    "date",
+    "method",
+    "trigger",
+    "trending_consent"
+   ],
+   "purpose": "Sign-in conversion per trigger; consent rate for trending."
+  },
+  {
+   "name": "signin_dismissed",
+   "when": "The sign-in moment is dismissed.",
+   "props": {
+    "trigger": [
+     "third_star",
+     "first_stage",
+     "fifth_tick",
+     "return_visit",
+     "manual"
+    ],
+    "reason": [
+     "not_now",
+     "never"
+    ]
+   },
+   "aggregate_by": [
+    "date",
+    "trigger",
+    "reason"
+   ],
+   "purpose": "Respect 'never'; tune triggers."
+  },
+  {
+   "name": "recommendation_shown",
+   "when": "A recommendation card is shown (S01-R, S45).",
+   "props": {
+    "rule": [
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5",
+     "R6",
+     "R7",
+     "R8"
+    ],
+    "kind": [
+     "skill",
+     "tool",
+     "goal",
+     "helper",
+     "module"
+    ]
+   },
+   "aggregate_by": [
+    "date",
+    "rule",
+    "kind"
+   ],
+   "purpose": "Impressions per rule (D-080)."
+  },
+  {
+   "name": "recommendation_clicked",
+   "when": "A recommendation card is opened.",
+   "props": {
+    "rule": [
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5",
+     "R6",
+     "R7",
+     "R8"
+    ],
+    "kind": [
+     "skill",
+     "tool",
+     "goal",
+     "helper",
+     "module"
+    ]
+   },
+   "aggregate_by": [
+    "date",
+    "rule",
+    "kind"
+   ],
+   "purpose": "Click-through per rule; the only tuning input for D-080."
+  },
+  {
+   "name": "recommendation_dismissed",
+   "when": "'Not for me' or 'I already know this' is tapped.",
+   "props": {
+    "rule": [
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5",
+     "R6",
+     "R7",
+     "R8"
+    ],
+    "action": [
+     "not_for_me",
+     "already_know"
+    ]
+   },
+   "aggregate_by": [
+    "date",
+    "rule",
+    "action"
+   ],
+   "purpose": "Which rules annoy people."
+  },
+  {
+   "name": "trending_opened",
+   "when": "The trending list (S47) or a trending card is opened.",
+   "props": {
+    "list": [
+     "skills",
+     "professions",
+     "goals"
+    ],
+    "from": [
+     "home",
+     "workbench",
+     "trending_page"
+    ]
+   },
+   "aggregate_by": [
+    "date",
+    "list",
+    "from"
+   ],
+   "purpose": "Is social proof used."
+  },
+  {
+   "name": "outcome_reported",
+   "when": "'What changed for you?' is answered (FR-085).",
+   "props": {
+    "kind": [
+     "got_customer",
+     "saved_time",
+     "learned_something",
+     "earned_money",
+     "nothing_yet",
+     "other"
+    ],
+    "helper": "slug"
+   },
+   "aggregate_by": [
+    "date",
+    "kind",
+    "helper"
+   ],
+   "purpose": "The real success measure: did the person gain an edge."
+  },
+  {
+   "name": "stage_output_saved",
+   "when": "A stage output (note or link) is saved (FR-084).",
+   "props": {
+    "helper": "slug",
+    "stage": "integer"
+   },
+   "aggregate_by": [
+    "date",
+    "helper",
+    "stage"
+   ],
+   "purpose": "Do helper stages produce something real."
+  },
+  {
+   "name": "suggestion_status_viewed",
+   "when": "A suggestion status page (S48) is opened.",
+   "props": {
+    "status": [
+     "received",
+     "in_review",
+     "accepted",
+     "published",
+     "declined"
+    ]
+   },
+   "aggregate_by": [
+    "date",
+    "status"
+   ],
+   "purpose": "Does closing the loop bring contributors back."
+  },
+  {
+   "name": "continue_card_clicked",
+   "when": "The 'Continue where you left off' card is used.",
+   "props": {
+    "kind": [
+     "helper",
+     "skill",
+     "tool",
+     "goal"
+    ],
+    "signed_in": "boolean"
+   },
+   "aggregate_by": [
+    "date",
+    "kind",
+    "signed_in"
+   ],
+   "purpose": "Return behaviour: the core retention loop."
+  },
+  {
+   "name": "profile_exported",
+   "when": "A signed-in user downloads their data.",
+   "props": {},
+   "aggregate_by": [
+    "date"
+   ],
+   "purpose": "Privacy control is used (count only)."
+  },
+  {
+   "name": "account_deleted",
+   "when": "A signed-in user deletes their account.",
+   "props": {
+    "reason": [
+     "not_useful",
+     "privacy",
+     "duplicate",
+     "other",
+     "none"
+    ]
+   },
+   "aggregate_by": [
+    "date",
+    "reason"
+   ],
+   "purpose": "Why people leave (count only; no identifier)."
+  },
+  {
+   "name": "kit_opened",
+   "when": "A kit page is opened.",
+   "props": {
+    "kit": "kit slug",
+    "from": [
+     "search",
+     "home",
+     "suggested",
+     "goal",
+     "other"
+    ]
+   },
+   "aggregate_by": [
+    "date",
+    "kit",
+    "from"
+   ],
+   "purpose": "Which outcomes people come for."
+  },
+  {
+   "name": "kit_step_opened",
+   "when": "A kit step is opened.",
+   "props": {
+    "kit": "kit slug",
+    "step": "1-12"
+   },
+   "aggregate_by": [
+    "date",
+    "kit",
+    "step"
+   ],
+   "purpose": "Where people drop off inside a kit."
+  },
+  {
+   "name": "safety_panel_expanded",
+   "when": "The red-flag list on a safety panel is expanded.",
+   "props": {
+    "tag": [
+     "jobs",
+     "money",
+     "kids",
+     "health",
+     "legal",
+     "privacy",
+     "ai",
+     "content",
+     "official-fees"
+    ]
+   },
+   "aggregate_by": [
+    "date",
+    "tag"
+   ],
+   "purpose": "Whether safety notes are read."
+  },
+  {
+   "name": "profile_preview_opened",
+   "when": "The 'what is unchecked' list on a Preview label is opened.",
+   "props": {
+    "record_id": "tool id"
+   },
+   "aggregate_by": [
+    "date",
+    "record_id"
+   ],
+   "purpose": "Which tools people want verified first."
+  },
+  {
+   "name": "goal_search_no_kit",
+   "when": "A natural-language goal search returned no kit and no goal.",
+   "props": {
+    "query": "normalised, redacted, max 80 chars"
+   },
+   "aggregate_by": [
+    "date",
+    "query"
+   ],
+   "purpose": "Which outcomes need a new kit. Same redaction as search_submitted."
+  },
+  {
+   "name": "suggestion_card_clicked",
+   "when": "A card in Suggested for you is clicked.",
+   "props": {
+    "rule": [
+     "R9",
+     "R10",
+     "R11",
+     "R12"
+    ]
+   },
+   "aggregate_by": [
+    "date",
+    "rule"
+   ],
+   "purpose": "Which rule helps. Count only; no identifier."
+  },
+  {
+   "name": "next_step_click",
+   "when": "The NextStepCard action is clicked.",
+   "props": {
+    "page_type": "string",
+    "target_type": "string"
+   },
+   "aggregate_by": [
+    "date",
+    "page_type",
+    "target_type"
+   ],
+   "purpose": "Whether pages lead somewhere (D-092)."
+  },
+  {
+   "name": "learn_tool_click",
+   "when": "'Learn {tool}' is clicked.",
+   "props": {
+    "tool": "tool id",
+    "depth": [
+     "role",
+     "deep",
+     "general"
+    ]
+   },
+   "aggregate_by": [
+    "date",
+    "tool",
+    "depth"
+   ],
+   "purpose": "Which tools people want to learn and at what depth."
+  },
+  {
+   "name": "need_feedback",
+   "when": "A need card gets a thumbs up or down.",
+   "props": {
+    "identity": "identity slug",
+    "need": "need slug",
+    "value": [
+     "up",
+     "down"
+    ]
+   },
+   "aggregate_by": [
+    "date",
+    "identity",
+    "need",
+    "value"
+   ],
+   "purpose": "Curating identity to need maps (D-102). Anonymous."
+  },
+  {
+   "name": "helper_coach_dismiss",
+   "when": "The helper coach mark is dismissed.",
+   "props": {
+    "helper": "helper slug",
+    "action": [
+     "got_it",
+     "hide"
+    ]
+   },
+   "aggregate_by": [
+    "date",
+    "helper",
+    "action"
+   ],
+   "purpose": "Whether the helper bar is understood (D-100)."
+  },
+  {
+   "name": "helper_hide",
+   "when": "The helper bar is hidden.",
+   "props": {
+    "helper": "helper slug"
+   },
+   "aggregate_by": [
+    "date",
+    "helper"
+   ],
+   "purpose": "Whether the bar is in the way."
+  },
+  {
+   "name": "role_path_request",
+   "when": "'Ask for my job' on a general guide.",
+   "props": {
+    "tool": "tool id"
+   },
+   "aggregate_by": [
+    "date",
+    "tool"
+   ],
+   "purpose": "Which role paths to write first (D-094)."
+  },
+  {
+   "name": "role_suggest_open",
+   "when": "'Suggest my role' is opened.",
+   "props": {
+    "source": [
+     "browse",
+     "no_match",
+     "other"
+    ]
+   },
+   "aggregate_by": [
+    "date",
+    "source"
+   ],
+   "purpose": "Which occupations are missing (D-103)."
+  }
+ ],
+ "not_implemented_in_r1": [
+  "bookmark_added",
+  "bookmark_removed",
+  "sign_up_completed",
+  "workflow_completed (replaced by playbook_checklist_completed)"
+ ]
 }

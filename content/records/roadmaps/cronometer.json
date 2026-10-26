@@ -22,7 +22,9 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "nutrition-planning"
+     "nutrition-planning",
+     "personal-health-tracking",
+     "care-coordination"
     ],
     "estimated_hours": {
      "value": 1,
@@ -44,7 +46,8 @@
     "need_tags": [
      "personal-health-tracking",
      "online-safety",
-     "nutrition-planning"
+     "nutrition-planning",
+     "care-coordination"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -66,7 +69,8 @@
     "need_tags": [
      "personal-health-tracking",
      "mindfulness-wellbeing",
-     "nutrition-planning"
+     "nutrition-planning",
+     "care-coordination"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -89,7 +93,9 @@
     "practice": "Review a month of data and set one goal",
     "need_tags": [
      "training-load",
-     "nutrition-planning"
+     "nutrition-planning",
+     "personal-health-tracking",
+     "care-coordination"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -111,7 +117,8 @@
     "need_tags": [
      "online-coaching",
      "care-coordination",
-     "nutrition-planning"
+     "nutrition-planning",
+     "personal-health-tracking"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -132,7 +139,9 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "nutrition-planning"
+     "nutrition-planning",
+     "personal-health-tracking",
+     "care-coordination"
     ],
     "estimated_hours": {
      "value": 3,
@@ -153,7 +162,9 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "nutrition-planning"
+     "nutrition-planning",
+     "personal-health-tracking",
+     "care-coordination"
     ],
     "estimated_hours": {
      "value": 4,
@@ -175,7 +186,8 @@
     "need_tags": [
      "online-coaching",
      "care-coordination",
-     "nutrition-planning"
+     "nutrition-planning",
+     "personal-health-tracking"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -197,7 +209,9 @@
     "practice": "Connect Cronometer to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "nutrition-planning"
+     "nutrition-planning",
+     "personal-health-tracking",
+     "care-coordination"
     ],
     "estimated_hours": {
      "value": 2,
@@ -219,7 +233,9 @@
     "practice": "Write a one-page \"how we use Cronometer\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "nutrition-planning"
+     "nutrition-planning",
+     "personal-health-tracking",
+     "care-coordination"
     ],
     "estimated_hours": {
      "value": 2,

@@ -1,5 +1,8 @@
 # 12 — Security and Privacy Plan
 
+> **V2.8 hosting correction (D-069 / 32):** hosting is Vercel + Neon. Where this document says Cloudflare, Pages, Workers, D1, KV or wrangler, read the Vercel equivalent in `32_V2_8_Pack_Corrections.md` §2. Product behaviour and privacy rules are unchanged.
+
+
 **Version:** 2.5 · Applies to R1 as designed in 11. This plan does **not** claim legal compliance; launch-market legal review is D-027.
 
 ## 1. Assets and trust boundaries
@@ -20,7 +23,7 @@
 | XSS via reports | Low (reports aren't rendered on the site) | Issue body built from escaped Markdown; GitHub sanitises too | TC-053 |
 | Injection (SQL) | D1 events endpoint | Prepared statements only; event and dimension allow-lists | Unit |
 | Broken access control | Repo publishing; private repo | Branch protection on `main` (PR + 1 approval + CI green + no force push); CODEOWNERS; 2FA required for org members; private repo limited to triagers | Manual audit (16 §8) |
-| Session theft / insecure auth | No user sessions in R1 | GitHub accounts with 2FA for editors | — |
+| Session theft / insecure auth | No user sessions for anonymous visitors; for signed-in users (V2.6) HttpOnly Secure SameSite=Lax cookies, one-time codes with expiry and rate limits | GitHub accounts with 2FA for editors | — |
 | CSRF | Corrections endpoint is cookieless | No cookies or ambient auth. Content-Type JSON required (not form-encodable), plus an Origin header check equal to SITE_URL | TC-053 |
 | Open redirect | `_redirects` only (static) | Redirect targets must be internal paths (schema pattern `^/`) | Validator |
 | Malicious external links | Linked tools/resources could be compromised | Official-source policy; weekly link check; `rel="noopener"`; corrections can trigger a 24 h takedown (07 §8) | TC-046 |
@@ -32,7 +35,7 @@
 | Supply chain | npm dependencies | Committed `bun.lock` and `bun install --frozen-lockfile`; Bun does not run dependency lifecycle scripts unless a package is listed in `trustedDependencies` (keep that list empty or minimal, reviewed in PRs); Dependabot alerts; dependency audit in CI (fail on high/critical in runtime deps); minimal dependencies | TC-057 |
 | Unauthorised editorial changes | Yes | Branch protection; CODEOWNERS; signed commits recommended; Git history is the audit log | Manual |
 | Exposure of correction reports | Yes | Private repo; reference numbers only in public PRs; email redaction job | TC-058 |
-| Exposure of account information | No accounts | — | — |
+| Exposure of account information | None for anonymous visitors; for signed-in users (V2.6) minimal fields, encryption in transit and at rest by the host, export and delete | — | — |
 
 ## 3. Minimum controls checklist (Gap Analysis §23.1)
 - [ ] Server-side validation (JSON Schema) for all Function inputs; output encoding everywhere.
@@ -60,7 +63,7 @@
 | Theme preference | Remember the visitor's choice | Visitor's browser only | Visitor | Until cleared | Visitor | None | Privacy notice (strictly functional) |
 | Editor GitHub usernames | Public authorship history | GitHub | Public | Indefinite | — | GitHub | Contributor guidelines |
 
-**Not collected:** names, accounts, cookies for tracking, advertising IDs, precise location, full search history.
+**Not collected from anonymous visitors:** names, accounts, cookies for tracking, advertising IDs, precise location, full search history.
 
 **Privacy notice (S21) must state:**
 - the table above in plain language;
@@ -84,7 +87,7 @@ Because we hold almost no personal data:
 |---|---|---|---|---|---|
 | Suggestion text, proposed text, source link | Improve the catalogue | Private `da-corrections` issue | Only as edited content after approval | Issue lifetime; reviewers delete personal data about others | Legitimate interest; licence notice on the form |
 | Credit name (optional) | Thank the contributor | Issue + record credit line + S37/S38 | **Yes, with consent** | Until withdrawn | Consent (tick); withdrawal via the same form |
-| Email (optional, flag `suggest_email`) | Reply to the contributor | Issue only | No | 12 months after closing | Consent. **Off in the private beta** until the privacy notice is approved (D-027) |
+| Email (optional, flag `suggest_email`) | Reply to the contributor | Issue only | No | Until close or 90 days, whichever is first | Consent. **Off in the private beta** until the privacy notice is approved (D-027) |
 | Conflict-of-interest flag | Transparency | Issue label | No | Issue lifetime | — |
 
 **Controls:**
@@ -101,3 +104,20 @@ Because we hold almost no personal data:
 - **Threat: shared device.** Someone using a shared device can see another person's helper progress. Mitigation: "Clear my progress" is one tap in the panel; the privacy page says progress is stored on the device.
 - **Threat: inline-script CSP gap** from prerendered pages. Mitigation: build-time hashing (TC-129); no `unsafe-inline`.
 - **Threat: label as a vector for abuse** (a label is displayed back only to the same person on the same device, as escaped text, max 40 characters).
+
+## V2.6 additions — accounts, profile and trending
+- **Two modes.** Anonymous: unchanged (aggregate counters only). Signed-in (optional, D-076): email, chosen identities, intents, market, stars, progress, stage outputs, outcomes, recommendation feedback and activity.
+- **Consent.** Three separate switches, all off until chosen: save progress; use my profile to recommend; count me in trending. Withdrawing a switch stops that use.
+- **Retention.** Activity kept 90 days; account data until the person deletes it; one-time codes expire in 10 minutes.
+- **Rights.** Export (JSON) and delete in S46; requests by email are handled as in §5.
+- **Trending.** Aggregates only, k ≥ 10 per row, no row shows who is counted.
+- **Age.** Sign-in is offered to people 18 and over; no date of birth is collected.
+- **Legal review (before public launch):** consent wording, lawful basis and retention under the Nigeria Data Protection Act 2023 (and GDPR where visitors are in the EU), cross-border transfer to the Postgres region, the age rule, and whether registration with the regulator is needed. This is a list of questions for counsel, not legal advice.
+
+## V2.7 additions — profiles, safety and children
+- **Preview label is a safety control (D-084).** Showing an unchecked price without the label could mislead someone into paying. The label cannot be switched off for unverified profiles (flag `tool_profiles`), and CI fails if it is missing.
+- **Safety notes (D-087).** They state what to check and never certify. Wording is reviewed by a person before launch, jobs, money and kids first. Do not add affiliate or sponsor text to a panel.
+- **Suggestions without tracking (D-089).** R9 to R12 use the page, the session or the on-device identity only. TC-166 verifies that nothing is stored for anonymous visitors.
+- **Children (D-090).** Accounts are for adults. Do not collect a child's name, photo or school. The kids panel links to guidance on children's data under NDPA 2023. Counsel should confirm the age rule and the wording.
+- **Reporting scams.** Panels point to official bodies (EFCC Eagle Eye, SEC Nigeria, CBN, NAFDAC, NDPC). Check each link in the weekly link check; agencies move pages.
+- **No payments or personal data** are added by V2.7.

@@ -24,7 +24,8 @@
     "need_tags": [
      "product-analytics",
      "seo",
-     "web-analytics"
+     "web-analytics",
+     "online-ads"
     ],
     "estimated_hours": {
      "value": 1,
@@ -49,7 +50,8 @@
      "statistical-analysis",
      "product-analytics",
      "seo",
-     "web-analytics"
+     "web-analytics",
+     "online-ads"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -73,7 +75,8 @@
      "data-visualisation",
      "product-analytics",
      "seo",
-     "web-analytics"
+     "web-analytics",
+     "online-ads"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -100,7 +103,8 @@
      "data-cleaning",
      "product-analytics",
      "seo",
-     "web-analytics"
+     "web-analytics",
+     "online-ads"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -124,7 +128,8 @@
      "kpi-tracking",
      "product-analytics",
      "seo",
-     "web-analytics"
+     "web-analytics",
+     "online-ads"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -147,7 +152,8 @@
     "need_tags": [
      "product-analytics",
      "seo",
-     "web-analytics"
+     "web-analytics",
+     "online-ads"
     ],
     "estimated_hours": {
      "value": 3,
@@ -172,7 +178,8 @@
     "need_tags": [
      "product-analytics",
      "seo",
-     "web-analytics"
+     "web-analytics",
+     "online-ads"
     ],
     "estimated_hours": {
      "value": 4,
@@ -195,7 +202,8 @@
      "data-pipelines",
      "product-analytics",
      "seo",
-     "web-analytics"
+     "web-analytics",
+     "online-ads"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -219,7 +227,8 @@
      "automation-workflows",
      "product-analytics",
      "seo",
-     "web-analytics"
+     "web-analytics",
+     "online-ads"
     ],
     "estimated_hours": {
      "value": 2,
@@ -243,7 +252,8 @@
      "workshop-facilitation",
      "product-analytics",
      "seo",
-     "web-analytics"
+     "web-analytics",
+     "online-ads"
     ],
     "estimated_hours": {
      "value": 2,

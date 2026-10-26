@@ -1,0 +1,247 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_zoho_writer",
+ "slug": "zoho-writer",
+ "title": "Zoho Writer skill roadmap",
+ "tool_ids": [
+  "tool_zoho_writer"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_zoho_writer_productivity_app_0",
+    "slug": "zoho-writer-productivity-app-0",
+    "title": "Get started with Zoho Writer",
+    "outcome": "You can: set up Zoho Writer, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "documents-basics",
+     "write-clearly"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_zoho_writer_productivity_app_1",
+    "slug": "zoho-writer-productivity-app-1",
+    "title": "Set up and sync",
+    "outcome": "You can: set up Zoho Writer on your devices",
+    "topics": [
+     "account",
+     "sync",
+     "mobile app",
+     "settings"
+    ],
+    "practice": "Install Zoho Writer on phone and computer",
+    "need_tags": [
+     "documents-basics",
+     "write-clearly"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_zoho_writer_productivity_app_2",
+    "slug": "zoho-writer-productivity-app-2",
+    "title": "Daily use",
+    "outcome": "You can: do your daily tasks faster",
+    "topics": [
+     "core actions",
+     "shortcuts",
+     "search"
+    ],
+    "practice": "Use Zoho Writer for a week and note one saved hour",
+    "need_tags": [
+     "personal-productivity",
+     "documents-basics",
+     "write-clearly"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_zoho_writer_productivity_app_3",
+    "slug": "zoho-writer-productivity-app-3",
+    "title": "Organise",
+    "outcome": "You can: build a simple system",
+    "topics": [
+     "folders/labels/tags",
+     "templates",
+     "naming conventions"
+    ],
+    "practice": "Reorganise your Zoho Writer with a clear system",
+    "need_tags": [
+     "personal-productivity",
+     "records-management",
+     "documents-basics",
+     "write-clearly"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_zoho_writer_productivity_app_4",
+    "slug": "zoho-writer-productivity-app-4",
+    "title": "Share safely",
+    "outcome": "You can: collaborate without oversharing",
+    "topics": [
+     "sharing permissions",
+     "links",
+     "version history"
+    ],
+    "practice": "Audit your shared items",
+    "need_tags": [
+     "files-cloud-storage",
+     "online-safety",
+     "documents-basics",
+     "write-clearly"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_zoho_writer_productivity_app_8",
+    "slug": "zoho-writer-productivity-app-8",
+    "title": "Signature skills in Zoho Writer",
+    "outcome": "You can: use the features that make Zoho Writer distinctive",
+    "topics": [
+     "setup",
+     "daily use",
+     "sharing"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "documents-basics",
+     "write-clearly"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_zoho_writer_productivity_app_9",
+    "slug": "zoho-writer-productivity-app-9",
+    "title": "Advanced Zoho Writer",
+    "outcome": "You can: use Zoho Writer's advanced capabilities with confidence",
+    "topics": [
+     "automation",
+     "organisation systems",
+     "security"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "documents-basics",
+     "write-clearly"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_zoho_writer_productivity_app_5",
+    "slug": "zoho-writer-productivity-app-5",
+    "title": "Automate",
+    "outcome": "You can: let Zoho Writer work for you",
+    "topics": [
+     "rules",
+     "integrations",
+     "scheduled tasks"
+    ],
+    "practice": "Create two automation rules",
+    "need_tags": [
+     "automation-workflows",
+     "documents-basics",
+     "write-clearly"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_zoho_writer_productivity_app_10",
+    "slug": "zoho-writer-productivity-app-10",
+    "title": "Integrate Zoho Writer into your workflow",
+    "outcome": "You can: connect Zoho Writer with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Zoho Writer to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "documents-basics",
+     "write-clearly"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_zoho_writer_productivity_app_11",
+    "slug": "zoho-writer-productivity-app-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Zoho Writer well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Zoho Writer\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "documents-basics",
+     "write-clearly"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype",
+ "archetype": "productivity-app",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

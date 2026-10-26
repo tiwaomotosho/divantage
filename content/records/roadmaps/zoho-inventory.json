@@ -24,7 +24,10 @@
     "need_tags": [
      "pharmacy-stock",
      "inventory-procurement",
-     "warehouse-inventory"
+     "warehouse-inventory",
+     "point-of-sale",
+     "production-planning",
+     "veterinary-practice"
     ],
     "estimated_hours": {
      "value": 1,
@@ -47,7 +50,10 @@
     "need_tags": [
      "pharmacy-stock",
      "inventory-procurement",
-     "warehouse-inventory"
+     "warehouse-inventory",
+     "point-of-sale",
+     "production-planning",
+     "veterinary-practice"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -69,7 +75,10 @@
     "need_tags": [
      "pharmacy-stock",
      "inventory-procurement",
-     "warehouse-inventory"
+     "warehouse-inventory",
+     "point-of-sale",
+     "production-planning",
+     "veterinary-practice"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -95,7 +104,10 @@
      "project-scheduling",
      "inventory-procurement",
      "pharmacy-stock",
-     "warehouse-inventory"
+     "warehouse-inventory",
+     "point-of-sale",
+     "production-planning",
+     "veterinary-practice"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -118,7 +130,10 @@
      "kpi-tracking",
      "pharmacy-stock",
      "inventory-procurement",
-     "warehouse-inventory"
+     "warehouse-inventory",
+     "point-of-sale",
+     "production-planning",
+     "veterinary-practice"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -141,7 +156,10 @@
     "need_tags": [
      "pharmacy-stock",
      "inventory-procurement",
-     "warehouse-inventory"
+     "warehouse-inventory",
+     "point-of-sale",
+     "production-planning",
+     "veterinary-practice"
     ],
     "estimated_hours": {
      "value": 3,
@@ -165,7 +183,10 @@
     "need_tags": [
      "pharmacy-stock",
      "inventory-procurement",
-     "warehouse-inventory"
+     "warehouse-inventory",
+     "point-of-sale",
+     "production-planning",
+     "veterinary-practice"
     ],
     "estimated_hours": {
      "value": 4,
@@ -190,7 +211,10 @@
      "process-mapping",
      "pharmacy-stock",
      "inventory-procurement",
-     "warehouse-inventory"
+     "warehouse-inventory",
+     "point-of-sale",
+     "production-planning",
+     "veterinary-practice"
     ],
     "estimated_hours": {
      "value": 4.0,
@@ -214,7 +238,10 @@
      "automation-workflows",
      "pharmacy-stock",
      "inventory-procurement",
-     "warehouse-inventory"
+     "warehouse-inventory",
+     "point-of-sale",
+     "production-planning",
+     "veterinary-practice"
     ],
     "estimated_hours": {
      "value": 2,
@@ -238,7 +265,10 @@
      "workshop-facilitation",
      "pharmacy-stock",
      "inventory-procurement",
-     "warehouse-inventory"
+     "warehouse-inventory",
+     "point-of-sale",
+     "production-planning",
+     "veterinary-practice"
     ],
     "estimated_hours": {
      "value": 2,

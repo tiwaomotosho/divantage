@@ -1,0 +1,364 @@
+{
+ "tools": 1781,
+ "goals": 1050,
+ "needs": 279,
+ "goals_per_need_min": 2,
+ "goals_per_need_avg": 3.76,
+ "tools_referenced_by_a_goal": 1781,
+ "alternatives": {
+  "complete": 1780,
+  "partial": 1
+ },
+ "complete_pct": 99.9,
+ "alternatives_same_kind": {
+  "complete": 1728,
+  "partial": 50,
+  "none": 3
+ },
+ "same_kind_complete_pct": 97.0,
+ "intents": {
+  "compete": {
+   "needs": 114,
+   "goals": 432
+  },
+  "grow": {
+   "needs": 97,
+   "goals": 450
+  },
+  "scale": {
+   "needs": 90,
+   "goals": 282
+  }
+ },
+ "local_tools": {
+  "ng": 98,
+  "africa": 58
+ },
+ "by_category": {
+  "ai-assistants": {
+   "complete": 20
+  },
+  "audio": {
+   "complete": 44,
+   "partial": 1
+  },
+  "automation": {
+   "complete": 21
+  },
+  "business-operations": {
+   "complete": 151
+  },
+  "career": {
+   "complete": 86
+  },
+  "collaboration": {
+   "complete": 31
+  },
+  "data": {
+   "complete": 78
+  },
+  "design": {
+   "complete": 81
+  },
+  "development": {
+   "complete": 185
+  },
+  "education": {
+   "complete": 167
+  },
+  "everyday": {
+   "complete": 131
+  },
+  "industry": {
+   "complete": 199
+  },
+  "marketing": {
+   "complete": 90
+  },
+  "productivity": {
+   "complete": 126
+  },
+  "research": {
+   "complete": 129
+  },
+  "security-privacy-accessibility": {
+   "complete": 71
+  },
+  "video": {
+   "complete": 61
+  },
+  "websites": {
+   "complete": 63
+  },
+  "writing": {
+   "complete": 46
+  }
+ },
+ "tools_needing_more_alternatives": [
+  {
+   "tool": "stagebiz",
+   "have_listed": 7,
+   "have_same_kind": 0
+  },
+  {
+   "tool": "wolfram-alpha",
+   "have_listed": 7,
+   "have_same_kind": 0
+  },
+  {
+   "tool": "zola",
+   "have_listed": 7,
+   "have_same_kind": 0
+  },
+  {
+   "tool": "deeplearning-ai",
+   "have_listed": 7,
+   "have_same_kind": 1
+  },
+  {
+   "tool": "internet-archive",
+   "have_listed": 7,
+   "have_same_kind": 2
+  },
+  {
+   "tool": "project-gutenberg",
+   "have_listed": 7,
+   "have_same_kind": 2
+  },
+  {
+   "tool": "commcare",
+   "have_listed": 7,
+   "have_same_kind": 3
+  },
+  {
+   "tool": "devpost",
+   "have_listed": 7,
+   "have_same_kind": 3
+  },
+  {
+   "tool": "epicollect5",
+   "have_listed": 7,
+   "have_same_kind": 3
+  },
+  {
+   "tool": "everfit",
+   "have_listed": 7,
+   "have_same_kind": 3
+  },
+  {
+   "tool": "github-student-developer-pack",
+   "have_listed": 7,
+   "have_same_kind": 3
+  },
+  {
+   "tool": "n-atlas",
+   "have_listed": 7,
+   "have_same_kind": 3
+  },
+  {
+   "tool": "survey123",
+   "have_listed": 7,
+   "have_same_kind": 3
+  },
+  {
+   "tool": "surveycto",
+   "have_listed": 7,
+   "have_same_kind": 3
+  },
+  {
+   "tool": "trainerize",
+   "have_listed": 7,
+   "have_same_kind": 3
+  },
+  {
+   "tool": "truecoach",
+   "have_listed": 7,
+   "have_same_kind": 3
+  },
+  {
+   "tool": "freeshow",
+   "have_listed": 7,
+   "have_same_kind": 4
+  },
+  {
+   "tool": "kippa",
+   "have_listed": 7,
+   "have_same_kind": 4
+  },
+  {
+   "tool": "african-storybook",
+   "have_listed": 7,
+   "have_same_kind": 5
+  },
+  {
+   "tool": "causal",
+   "have_listed": 7,
+   "have_same_kind": 5
+  },
+  {
+   "tool": "dbeaver",
+   "have_listed": 7,
+   "have_same_kind": 5
+  },
+  {
+   "tool": "google-lens",
+   "have_listed": 7,
+   "have_same_kind": 5
+  },
+  {
+   "tool": "jira",
+   "have_listed": 7,
+   "have_same_kind": 5
+  },
+  {
+   "tool": "life-qi",
+   "have_listed": 7,
+   "have_same_kind": 5
+  },
+  {
+   "tool": "openwho",
+   "have_listed": 7,
+   "have_same_kind": 5
+  },
+  {
+   "tool": "signupgenius",
+   "have_listed": 7,
+   "have_same_kind": 5
+  },
+  {
+   "tool": "storyweaver",
+   "have_listed": 7,
+   "have_same_kind": 5
+  },
+  {
+   "tool": "whimsical",
+   "have_listed": 7,
+   "have_same_kind": 5
+  },
+  {
+   "tool": "x-plane",
+   "have_listed": 7,
+   "have_same_kind": 5
+  },
+  {
+   "tool": "apple-music-for-artists",
+   "have_listed": 7,
+   "have_same_kind": 6
+  },
+  {
+   "tool": "bamboo",
+   "have_listed": 7,
+   "have_same_kind": 6
+  },
+  {
+   "tool": "captivate",
+   "have_listed": 6,
+   "have_same_kind": 6
+  },
+  {
+   "tool": "chaka",
+   "have_listed": 7,
+   "have_same_kind": 6
+  },
+  {
+   "tool": "common-voice",
+   "have_listed": 7,
+   "have_same_kind": 6
+  },
+  {
+   "tool": "dataverse",
+   "have_listed": 7,
+   "have_same_kind": 6
+  },
+  {
+   "tool": "desmos",
+   "have_listed": 7,
+   "have_same_kind": 6
+  },
+  {
+   "tool": "draw-io",
+   "have_listed": 7,
+   "have_same_kind": 6
+  },
+  {
+   "tool": "dryad",
+   "have_listed": 7,
+   "have_same_kind": 6
+  },
+  {
+   "tool": "excalidraw",
+   "have_listed": 7,
+   "have_same_kind": 6
+  },
+  {
+   "tool": "figshare",
+   "have_listed": 7,
+   "have_same_kind": 6
+  },
+  {
+   "tool": "fullstory",
+   "have_listed": 7,
+   "have_same_kind": 6
+  },
+  {
+   "tool": "geogebra",
+   "have_listed": 7,
+   "have_same_kind": 6
+  },
+  {
+   "tool": "khanmigo",
+   "have_listed": 7,
+   "have_same_kind": 6
+  },
+  {
+   "tool": "linear",
+   "have_listed": 7,
+   "have_same_kind": 6
+  },
+  {
+   "tool": "masakhane",
+   "have_listed": 7,
+   "have_same_kind": 6
+  },
+  {
+   "tool": "microsoft-whiteboard",
+   "have_listed": 7,
+   "have_same_kind": 6
+  },
+  {
+   "tool": "osf",
+   "have_listed": 7,
+   "have_same_kind": 6
+  },
+  {
+   "tool": "phet",
+   "have_listed": 7,
+   "have_same_kind": 6
+  },
+  {
+   "tool": "risevest",
+   "have_listed": 7,
+   "have_same_kind": 6
+  },
+  {
+   "tool": "shortcut",
+   "have_listed": 7,
+   "have_same_kind": 6
+  },
+  {
+   "tool": "speedtest",
+   "have_listed": 7,
+   "have_same_kind": 6
+  },
+  {
+   "tool": "taiga",
+   "have_listed": 7,
+   "have_same_kind": 6
+  },
+  {
+   "tool": "zenodo",
+   "have_listed": 7,
+   "have_same_kind": 6
+  }
+ ]
+}

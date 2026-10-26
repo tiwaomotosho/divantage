@@ -25,7 +25,10 @@
      "pdf-work",
      "e-signatures",
      "drawing-markup",
-     "contract-drafting"
+     "contract-drafting",
+     "scan-documents",
+     "ediscovery",
+     "accessible-materials"
     ],
     "estimated_hours": {
      "value": 1,
@@ -49,7 +52,10 @@
      "pdf-work",
      "e-signatures",
      "drawing-markup",
-     "contract-drafting"
+     "contract-drafting",
+     "scan-documents",
+     "ediscovery",
+     "accessible-materials"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -73,7 +79,10 @@
      "pdf-work",
      "e-signatures",
      "drawing-markup",
-     "contract-drafting"
+     "contract-drafting",
+     "scan-documents",
+     "ediscovery",
+     "accessible-materials"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -100,7 +109,10 @@
      "pdf-work",
      "e-signatures",
      "drawing-markup",
-     "contract-drafting"
+     "contract-drafting",
+     "scan-documents",
+     "ediscovery",
+     "accessible-materials"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -125,7 +137,10 @@
      "pdf-work",
      "e-signatures",
      "drawing-markup",
-     "contract-drafting"
+     "contract-drafting",
+     "scan-documents",
+     "ediscovery",
+     "accessible-materials"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -149,7 +164,10 @@
      "pdf-work",
      "e-signatures",
      "drawing-markup",
-     "contract-drafting"
+     "contract-drafting",
+     "scan-documents",
+     "ediscovery",
+     "accessible-materials"
     ],
     "estimated_hours": {
      "value": 3,
@@ -175,7 +193,10 @@
      "pdf-work",
      "e-signatures",
      "drawing-markup",
-     "contract-drafting"
+     "contract-drafting",
+     "scan-documents",
+     "ediscovery",
+     "accessible-materials"
     ],
     "estimated_hours": {
      "value": 4,
@@ -199,7 +220,10 @@
      "pdf-work",
      "e-signatures",
      "drawing-markup",
-     "contract-drafting"
+     "contract-drafting",
+     "scan-documents",
+     "ediscovery",
+     "accessible-materials"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -224,7 +248,10 @@
      "pdf-work",
      "e-signatures",
      "drawing-markup",
-     "contract-drafting"
+     "contract-drafting",
+     "scan-documents",
+     "ediscovery",
+     "accessible-materials"
     ],
     "estimated_hours": {
      "value": 2,
@@ -249,7 +276,10 @@
      "pdf-work",
      "e-signatures",
      "drawing-markup",
-     "contract-drafting"
+     "contract-drafting",
+     "scan-documents",
+     "ediscovery",
+     "accessible-materials"
     ],
     "estimated_hours": {
      "value": 2,

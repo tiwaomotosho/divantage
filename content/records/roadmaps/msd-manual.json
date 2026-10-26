@@ -1,0 +1,245 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_msd_manual",
+ "slug": "msd-manual",
+ "title": "MSD Manual skill roadmap",
+ "tool_ids": [
+  "tool_msd_manual"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_msd_manual_clinical_reference_0",
+    "slug": "msd-manual-clinical-reference-0",
+    "title": "Get started with MSD Manual",
+    "outcome": "You can: set up MSD Manual, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "clinical-reference",
+     "personal-health-tracking"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_msd_manual_clinical_reference_1",
+    "slug": "msd-manual-clinical-reference-1",
+    "title": "Find answers fast",
+    "outcome": "You can: search MSD Manual efficiently at the point of care",
+    "topics": [
+     "search terms",
+     "topic structure",
+     "key recommendations"
+    ],
+    "practice": "Answer three clinical questions from your practice",
+    "need_tags": [
+     "clinical-reference",
+     "personal-health-tracking"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_msd_manual_clinical_reference_2",
+    "slug": "msd-manual-clinical-reference-2",
+    "title": "Read with judgement",
+    "outcome": "You can: understand strength of evidence",
+    "topics": [
+     "evidence grades",
+     "dates",
+     "local vs international guidance"
+    ],
+    "practice": "Compare MSD Manual's advice with a local guideline",
+    "need_tags": [
+     "evidence-based-medicine",
+     "clinical-reference",
+     "personal-health-tracking"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_msd_manual_clinical_reference_3",
+    "slug": "msd-manual-clinical-reference-3",
+    "title": "Drugs and calculations",
+    "outcome": "You can: check doses and interactions safely",
+    "topics": [
+     "dosing",
+     "renal/hepatic adjustment",
+     "interactions",
+     "calculators"
+    ],
+    "practice": "Check three prescriptions for interactions",
+    "need_tags": [
+     "drug-information",
+     "medical-calculators",
+     "clinical-reference",
+     "personal-health-tracking"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_msd_manual_clinical_reference_4",
+    "slug": "msd-manual-clinical-reference-4",
+    "title": "Use on mobile",
+    "outcome": "You can: use MSD Manual quickly on a phone",
+    "topics": [
+     "app features",
+     "offline access",
+     "bookmarks"
+    ],
+    "practice": "Set up bookmarks for your top 10 topics",
+    "need_tags": [
+     "clinical-reference",
+     "personal-health-tracking"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_msd_manual_clinical_reference_8",
+    "slug": "msd-manual-clinical-reference-8",
+    "title": "Signature skills in MSD Manual",
+    "outcome": "You can: use the features that make MSD Manual distinctive",
+    "topics": [
+     "searching",
+     "reading summaries",
+     "calculators"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "clinical-reference",
+     "personal-health-tracking"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_msd_manual_clinical_reference_9",
+    "slug": "msd-manual-clinical-reference-9",
+    "title": "Advanced MSD Manual",
+    "outcome": "You can: use MSD Manual's advanced capabilities with confidence",
+    "topics": [
+     "evidence grading",
+     "saving and CPD",
+     "local guidance"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "clinical-reference",
+     "personal-health-tracking"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_msd_manual_clinical_reference_5",
+    "slug": "msd-manual-clinical-reference-5",
+    "title": "Teach and audit with it",
+    "outcome": "You can: use MSD Manual for teaching and CPD",
+    "topics": [
+     "CPD logging",
+     "teaching cases",
+     "audit standards"
+    ],
+    "practice": "Turn one topic into a teaching session",
+    "need_tags": [
+     "cpd-learning",
+     "clinical-reference",
+     "personal-health-tracking"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_msd_manual_clinical_reference_10",
+    "slug": "msd-manual-clinical-reference-10",
+    "title": "Integrate MSD Manual into your workflow",
+    "outcome": "You can: connect MSD Manual with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect MSD Manual to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "clinical-reference",
+     "personal-health-tracking"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_msd_manual_clinical_reference_11",
+    "slug": "msd-manual-clinical-reference-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use MSD Manual well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use MSD Manual\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "clinical-reference",
+     "personal-health-tracking"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype",
+ "archetype": "clinical-reference",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

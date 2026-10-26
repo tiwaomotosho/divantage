@@ -1,0 +1,247 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_apple_dictation",
+ "slug": "apple-dictation",
+ "title": "Apple Dictation skill roadmap",
+ "tool_ids": [
+  "tool_apple_dictation"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_apple_dictation_accessibility_tool_0",
+    "slug": "apple-dictation-accessibility-tool-0",
+    "title": "Get started with Apple Dictation",
+    "outcome": "You can: set up Apple Dictation, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "voice-typing-transcription",
+     "accessible-communication"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_apple_dictation_accessibility_tool_1",
+    "slug": "apple-dictation-accessibility-tool-1",
+    "title": "Turn it on and set it up",
+    "outcome": "You can: start using Apple Dictation",
+    "topics": [
+     "installation",
+     "settings",
+     "voices/languages",
+     "shortcuts"
+    ],
+    "practice": "Set up Apple Dictation for your needs",
+    "need_tags": [
+     "accessibility-tools",
+     "accessible-communication",
+     "voice-typing-transcription"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_apple_dictation_accessibility_tool_2",
+    "slug": "apple-dictation-accessibility-tool-2",
+    "title": "Everyday tasks",
+    "outcome": "You can: use Apple Dictation for daily tasks",
+    "topics": [
+     "reading",
+     "messaging",
+     "navigation",
+     "documents"
+    ],
+    "practice": "Complete three daily tasks with Apple Dictation",
+    "need_tags": [
+     "accessibility-tools",
+     "voice-typing-transcription",
+     "accessible-communication"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_apple_dictation_accessibility_tool_3",
+    "slug": "apple-dictation-accessibility-tool-3",
+    "title": "Customise",
+    "outcome": "You can: tailor Apple Dictation to you",
+    "topics": [
+     "speed",
+     "vocabulary",
+     "profiles",
+     "gestures"
+    ],
+    "practice": "Customise three settings",
+    "need_tags": [
+     "accessibility-tools",
+     "voice-typing-transcription",
+     "accessible-communication"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_apple_dictation_accessibility_tool_4",
+    "slug": "apple-dictation-accessibility-tool-4",
+    "title": "Work and study",
+    "outcome": "You can: use Apple Dictation at work or school",
+    "topics": [
+     "meetings",
+     "documents",
+     "forms",
+     "requesting adjustments"
+    ],
+    "practice": "Use Apple Dictation in one meeting or class",
+    "need_tags": [
+     "accessible-communication",
+     "voice-typing-transcription"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_apple_dictation_accessibility_tool_8",
+    "slug": "apple-dictation-accessibility-tool-8",
+    "title": "Signature skills in Apple Dictation",
+    "outcome": "You can: use the features that make Apple Dictation distinctive",
+    "topics": [
+     "setup",
+     "core use",
+     "customisation"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "voice-typing-transcription",
+     "accessible-communication"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_apple_dictation_accessibility_tool_9",
+    "slug": "apple-dictation-accessibility-tool-9",
+    "title": "Advanced Apple Dictation",
+    "outcome": "You can: use Apple Dictation's advanced capabilities with confidence",
+    "topics": [
+     "advanced shortcuts",
+     "supporting others"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "voice-typing-transcription",
+     "accessible-communication"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_apple_dictation_accessibility_tool_5",
+    "slug": "apple-dictation-accessibility-tool-5",
+    "title": "Support and advocate",
+    "outcome": "You can: help others and test accessibility",
+    "topics": [
+     "teaching others",
+     "testing content",
+     "reporting barriers"
+    ],
+    "practice": "Test a document or website with Apple Dictation",
+    "need_tags": [
+     "accessible-materials",
+     "voice-typing-transcription",
+     "accessible-communication"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_apple_dictation_accessibility_tool_10",
+    "slug": "apple-dictation-accessibility-tool-10",
+    "title": "Integrate Apple Dictation into your workflow",
+    "outcome": "You can: connect Apple Dictation with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Apple Dictation to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "voice-typing-transcription",
+     "accessible-communication"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_apple_dictation_accessibility_tool_11",
+    "slug": "apple-dictation-accessibility-tool-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Apple Dictation well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Apple Dictation\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "voice-typing-transcription",
+     "accessible-communication"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype",
+ "archetype": "accessibility-tool",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

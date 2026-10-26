@@ -22,7 +22,14 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "podcast-production"
+     "podcast-production",
+     "voice-typing-transcription",
+     "short-video",
+     "screen-recording",
+     "qualitative-analysis",
+     "creator-income",
+     "accessible-materials",
+     "audio-production"
     ],
     "estimated_hours": {
      "value": 1,
@@ -44,7 +51,13 @@
     "practice": "Record a 1-minute voice or instrument take with good levels",
     "need_tags": [
      "audio-production",
-     "podcast-production"
+     "podcast-production",
+     "voice-typing-transcription",
+     "short-video",
+     "screen-recording",
+     "qualitative-analysis",
+     "creator-income",
+     "accessible-materials"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -66,7 +79,13 @@
     "practice": "Edit a rough recording into a clean 2-minute piece",
     "need_tags": [
      "audio-production",
-     "podcast-production"
+     "podcast-production",
+     "voice-typing-transcription",
+     "short-video",
+     "screen-recording",
+     "qualitative-analysis",
+     "creator-income",
+     "accessible-materials"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -90,7 +109,13 @@
     "practice": "Mix a short track or podcast episode",
     "need_tags": [
      "audio-production",
-     "podcast-production"
+     "podcast-production",
+     "voice-typing-transcription",
+     "short-video",
+     "screen-recording",
+     "qualitative-analysis",
+     "creator-income",
+     "accessible-materials"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -112,7 +137,13 @@
     "practice": "Export versions for streaming, podcast and video",
     "need_tags": [
      "audio-production",
-     "podcast-production"
+     "podcast-production",
+     "voice-typing-transcription",
+     "short-video",
+     "screen-recording",
+     "qualitative-analysis",
+     "creator-income",
+     "accessible-materials"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -133,7 +164,14 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "podcast-production"
+     "podcast-production",
+     "voice-typing-transcription",
+     "short-video",
+     "screen-recording",
+     "qualitative-analysis",
+     "creator-income",
+     "accessible-materials",
+     "audio-production"
     ],
     "estimated_hours": {
      "value": 3,
@@ -156,7 +194,14 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "podcast-production"
+     "podcast-production",
+     "voice-typing-transcription",
+     "short-video",
+     "screen-recording",
+     "qualitative-analysis",
+     "creator-income",
+     "accessible-materials",
+     "audio-production"
     ],
     "estimated_hours": {
      "value": 4,
@@ -179,7 +224,12 @@
     "need_tags": [
      "audio-production",
      "creator-income",
-     "podcast-production"
+     "podcast-production",
+     "voice-typing-transcription",
+     "short-video",
+     "screen-recording",
+     "qualitative-analysis",
+     "accessible-materials"
     ],
     "estimated_hours": {
      "value": 6.0,
@@ -201,7 +251,14 @@
     "practice": "Connect Descript to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "podcast-production"
+     "podcast-production",
+     "voice-typing-transcription",
+     "short-video",
+     "screen-recording",
+     "qualitative-analysis",
+     "creator-income",
+     "accessible-materials",
+     "audio-production"
     ],
     "estimated_hours": {
      "value": 2,
@@ -223,7 +280,14 @@
     "practice": "Write a one-page \"how we use Descript\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "podcast-production"
+     "podcast-production",
+     "voice-typing-transcription",
+     "short-video",
+     "screen-recording",
+     "qualitative-analysis",
+     "creator-income",
+     "accessible-materials",
+     "audio-production"
     ],
     "estimated_hours": {
      "value": 2,

@@ -1,0 +1,53 @@
+{
+  "$comment": "Map each reference screen to the app route that implements it. design-audit.mjs checks every mapped route. A null route = not built yet (reported, not failed). 'setup' runs JS in the page before checks, e.g. to open a sheet. Routes follow doc 03 URL patterns.",
+  "themeSetter": "data-theme",
+  "maxPrimaryInView": 1,
+  "allowMultiPrimary": [
+    "17-sign-in",
+    "02-home-picked"
+  ],
+  "optionalComponents": [
+    "footer",
+    "hero-mosaic",
+    "global-search",
+    "sign-in-link"
+  ],
+  "routes": {
+    "01-home": "/",
+    "02-home-picked": "/?roles=nurse,content-creator",
+    "03-search": "/search?q=get%20a%20remote%20job%20that%20pays%20in%20dollars",
+    "04-identity": "/for/nurse",
+    "05-browse": "/for",
+    "06-goals": "/goals",
+    "07-goal": "/goals/find-remote-jobs-open-to-africa",
+    "08-goal-safety-sheet": "/goals/find-remote-jobs-open-to-africa?sheet=safety",
+    "09-kits": "/kits",
+    "10-kit": "/kits/teach-kids-programming",
+    "11-tool": "/tools/canva",
+    "12-tool-unavailable": "/tools/uber",
+    "13-roadmap": "/tools/microsoft-excel/for/nurse",
+    "14-roadmap-general": "/tools/google-forms/roadmap",
+    "15-helper": "/helpers/musician",
+    "16-workbench": "/me",
+    "17-sign-in": "/goals/find-remote-jobs-open-to-africa?signin=1",
+    "18-consent": "/me/welcome",
+    "19-privacy": "/me/profile",
+    "20-suggest-edit": "/tools/canva?suggest=price",
+    "21-status-whats-new": "/suggestions/DA-20261026-7K2Q",
+    "22-trending": "/trending",
+    "23-how-we-review": "/about/how-we-review",
+    "24-not-found": "/this-page-does-not-exist",
+    "25-offline": "/offline",
+    "26-error": null,
+    "27-no-results": "/search?q=fix%20a%20leaking%20roof"
+  },
+  "setup": {
+    "15-helper": "(async()=>{sessionStorage.setItem('da.prompted','1');localStorage.setItem('da.helper.v1',JSON.stringify({v:1,active:'musician',paused:false,label:'self',progress:{musician:{ticks:{'1-0':true,'1-1':true,'1-2':true,'2-0':true,'2-1':true,'2-2':true},opened:{}}},updated:''}));localStorage.removeItem('da.device.v1');window.dispatchEvent(new StorageEvent('storage',{key:'da.helper.v1'}));await new Promise(r=>setTimeout(r,1200));})()",
+    "16-workbench": "(async()=>{sessionStorage.setItem('da.prompted','1');localStorage.setItem('da.identities.v1',JSON.stringify({v:1,slugs:[{slug:'data-analyst',label:'Data Analyst'},{slug:'content-creator',label:'Content Creator'}]}));localStorage.setItem('da.device.v1',JSON.stringify({v:1,stars:{'tool:power-bi':{type:'tool',slug:'power-bi',label:'Power BI',at:'2026-10-26T09:00:00Z'},'tool:canva':{type:'tool',slug:'canva',label:'Canva',at:'2026-10-25T09:00:00Z'},'kit:teach-kids-programming':{type:'kit',slug:'teach-kids-programming',label:'Teach kids programming',at:'2026-10-24T09:00:00Z'}},kits:{'get-a-remote-job':[1,2,3,4,5,6]},market:'ng',helperHidden:false,coachSeen:true,dismissed:{},last:{url:'/tools/power-bi/for/data-analyst',title:'Power BI for data analysts',kicker:'Learning path \u00b7 5 of 10 done',tool:'power-bi',at:'2026-10-26T09:00:00Z'}}));window.dispatchEvent(new StorageEvent('storage',{key:'da.device.v1'}));await new Promise(r=>setTimeout(r,1500));})()"
+  },
+  "$routesNote": "All features are on (owner decision 26 Oct 2026). Account, trending and suggestion-status screens run on labelled demo data. 07/08/17 use a goal that sits in a kit.",
+  "$setupNote": "Setup seeds the on-device state each reference depicts (an active helper; a workbench with progress). Nothing is sent to a server.",
+  "$knownGaps": {
+    "verified": "07-goal, 08-goal-safety-sheet, 17-sign-in expect a 'Checked {date}' chip. No profile has a dated price check yet, and the owner decided (26 Oct 2026) that 'partly checked' stays Preview. Not a UI fault; clears when profile_verified.txt records a price check."
+  }
+}

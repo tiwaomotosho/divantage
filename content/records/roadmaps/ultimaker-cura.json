@@ -22,7 +22,8 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "3d-printing"
+     "3d-printing",
+     "lesson-planning"
     ],
     "estimated_hours": {
      "value": 1,
@@ -44,7 +45,8 @@
     "need_tags": [
      "plc-automation",
      "cnc-cam",
-     "3d-printing"
+     "3d-printing",
+     "lesson-planning"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -65,7 +67,8 @@
     "need_tags": [
      "plc-automation",
      "cnc-cam",
-     "3d-printing"
+     "3d-printing",
+     "lesson-planning"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -87,7 +90,8 @@
     ],
     "practice": "Simulate and fix two faults",
     "need_tags": [
-     "3d-printing"
+     "3d-printing",
+     "lesson-planning"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -107,7 +111,8 @@
     ],
     "practice": "Build a reusable settings library",
     "need_tags": [
-     "3d-printing"
+     "3d-printing",
+     "lesson-planning"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -128,7 +133,8 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "3d-printing"
+     "3d-printing",
+     "lesson-planning"
     ],
     "estimated_hours": {
      "value": 3,
@@ -150,7 +156,8 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "3d-printing"
+     "3d-printing",
+     "lesson-planning"
     ],
     "estimated_hours": {
      "value": 4,
@@ -172,7 +179,8 @@
     "practice": "Improve one program and document the change",
     "need_tags": [
      "process-mapping",
-     "3d-printing"
+     "3d-printing",
+     "lesson-planning"
     ],
     "estimated_hours": {
      "value": 4.0,
@@ -194,7 +202,8 @@
     "practice": "Connect UltiMaker Cura to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "3d-printing"
+     "3d-printing",
+     "lesson-planning"
     ],
     "estimated_hours": {
      "value": 2,
@@ -216,7 +225,8 @@
     "practice": "Write a one-page \"how we use UltiMaker Cura\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "3d-printing"
+     "3d-printing",
+     "lesson-planning"
     ],
     "estimated_hours": {
      "value": 2,

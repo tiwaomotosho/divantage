@@ -27,7 +27,15 @@
      "statistical-analysis",
      "risk-modelling",
      "sports-analytics",
-     "scientific-computing"
+     "scientific-computing",
+     "engineering-data-analysis",
+     "petrophysics",
+     "data-cleaning",
+     "audit-analytics",
+     "research-surveys",
+     "quality-statistics",
+     "scientific-figures",
+     "policy-research"
     ],
     "estimated_hours": {
      "value": 1,
@@ -54,7 +62,15 @@
      "public-health-data",
      "risk-modelling",
      "sports-analytics",
-     "scientific-computing"
+     "scientific-computing",
+     "engineering-data-analysis",
+     "petrophysics",
+     "data-cleaning",
+     "audit-analytics",
+     "research-surveys",
+     "quality-statistics",
+     "scientific-figures",
+     "policy-research"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -81,7 +97,15 @@
      "statistical-analysis",
      "risk-modelling",
      "sports-analytics",
-     "scientific-computing"
+     "scientific-computing",
+     "engineering-data-analysis",
+     "petrophysics",
+     "data-cleaning",
+     "audit-analytics",
+     "research-surveys",
+     "quality-statistics",
+     "scientific-figures",
+     "policy-research"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -110,7 +134,14 @@
      "public-health-data",
      "risk-modelling",
      "sports-analytics",
-     "scientific-computing"
+     "scientific-computing",
+     "engineering-data-analysis",
+     "petrophysics",
+     "audit-analytics",
+     "research-surveys",
+     "quality-statistics",
+     "scientific-figures",
+     "policy-research"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -137,7 +168,15 @@
      "statistical-analysis",
      "risk-modelling",
      "sports-analytics",
-     "scientific-computing"
+     "scientific-computing",
+     "engineering-data-analysis",
+     "petrophysics",
+     "data-cleaning",
+     "audit-analytics",
+     "research-surveys",
+     "quality-statistics",
+     "scientific-figures",
+     "policy-research"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -163,7 +202,15 @@
      "statistical-analysis",
      "risk-modelling",
      "sports-analytics",
-     "scientific-computing"
+     "scientific-computing",
+     "engineering-data-analysis",
+     "petrophysics",
+     "data-cleaning",
+     "audit-analytics",
+     "research-surveys",
+     "quality-statistics",
+     "scientific-figures",
+     "policy-research"
     ],
     "estimated_hours": {
      "value": 3,
@@ -191,7 +238,15 @@
      "statistical-analysis",
      "risk-modelling",
      "sports-analytics",
-     "scientific-computing"
+     "scientific-computing",
+     "engineering-data-analysis",
+     "petrophysics",
+     "data-cleaning",
+     "audit-analytics",
+     "research-surveys",
+     "quality-statistics",
+     "scientific-figures",
+     "policy-research"
     ],
     "estimated_hours": {
      "value": 4,
@@ -217,7 +272,15 @@
      "statistical-analysis",
      "risk-modelling",
      "sports-analytics",
-     "scientific-computing"
+     "scientific-computing",
+     "engineering-data-analysis",
+     "petrophysics",
+     "data-cleaning",
+     "audit-analytics",
+     "research-surveys",
+     "quality-statistics",
+     "scientific-figures",
+     "policy-research"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -244,7 +307,15 @@
      "statistical-analysis",
      "risk-modelling",
      "sports-analytics",
-     "scientific-computing"
+     "scientific-computing",
+     "engineering-data-analysis",
+     "petrophysics",
+     "data-cleaning",
+     "audit-analytics",
+     "research-surveys",
+     "quality-statistics",
+     "scientific-figures",
+     "policy-research"
     ],
     "estimated_hours": {
      "value": 2,
@@ -271,7 +342,15 @@
      "statistical-analysis",
      "risk-modelling",
      "sports-analytics",
-     "scientific-computing"
+     "scientific-computing",
+     "engineering-data-analysis",
+     "petrophysics",
+     "data-cleaning",
+     "audit-analytics",
+     "research-surveys",
+     "quality-statistics",
+     "scientific-figures",
+     "policy-research"
     ],
     "estimated_hours": {
      "value": 2,

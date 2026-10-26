@@ -22,7 +22,8 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "petrophysics"
+     "petrophysics",
+     "geomechanics"
     ],
     "estimated_hours": {
      "value": 1,
@@ -43,7 +44,8 @@
     ],
     "practice": "Load and QC a sample dataset",
     "need_tags": [
-     "petrophysics"
+     "petrophysics",
+     "geomechanics"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -63,7 +65,8 @@
     ],
     "practice": "Complete a basic interpretation",
     "need_tags": [
-     "petrophysics"
+     "petrophysics",
+     "geomechanics"
     ],
     "estimated_hours": {
      "value": 4.0,
@@ -88,7 +91,8 @@
      "reservoir-modelling",
      "mine-planning",
      "well-planning-design",
-     "petrophysics"
+     "petrophysics",
+     "geomechanics"
     ],
     "estimated_hours": {
      "value": 5.0,
@@ -109,7 +113,8 @@
     "practice": "Run three scenarios and compare",
     "need_tags": [
      "risk-modelling",
-     "petrophysics"
+     "petrophysics",
+     "geomechanics"
     ],
     "estimated_hours": {
      "value": 4.0,
@@ -130,7 +135,8 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "petrophysics"
+     "petrophysics",
+     "geomechanics"
     ],
     "estimated_hours": {
      "value": 3,
@@ -152,7 +158,8 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "petrophysics"
+     "petrophysics",
+     "geomechanics"
     ],
     "estimated_hours": {
      "value": 4,
@@ -175,7 +182,8 @@
     "need_tags": [
      "regulatory-reporting",
      "technical-reporting",
-     "petrophysics"
+     "petrophysics",
+     "geomechanics"
     ],
     "estimated_hours": {
      "value": 4.0,
@@ -197,7 +205,8 @@
     "practice": "Connect Interactive Petrophysics to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "petrophysics"
+     "petrophysics",
+     "geomechanics"
     ],
     "estimated_hours": {
      "value": 2,
@@ -219,7 +228,8 @@
     "practice": "Write a one-page \"how we use Interactive Petrophysics\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "petrophysics"
+     "petrophysics",
+     "geomechanics"
     ],
     "estimated_hours": {
      "value": 2,

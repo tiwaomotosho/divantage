@@ -19,11 +19,15 @@ function* walk(dir: string): Generator<string> {
 }
 
 const SCRIPT_RE = /<script(?![^>]*\bsrc=)[^>]*>([\s\S]*?)<\/script>/g;
-const policy = (hashes: string[]) =>
+const decode = (v: string) => v.replace(/&quot;/g, '"').replace(/&#x27;|&#39;/g, "'").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&amp;/g, "&");
+const STYLE_RE = /\sstyle="([^"]*)"/g;
+const sha = (v: string) => `'sha256-${crypto.createHash("sha256").update(v, "utf8").digest("base64")}'`;
+const policy = (hashes: string[], styles: string[]) =>
   [
     "default-src 'self'",
     `script-src 'self' ${hashes.join(" ")}`,
-    "style-src 'self'",
+    // Inline style attributes from the reference markup are allowed only by hash ('unsafe-inline' stays banned).
+    styles.length ? `style-src 'self' 'unsafe-hashes' ${styles.join(" ")}` : "style-src 'self'",
     "img-src 'self' data:",
     "font-src 'self'",
     "connect-src 'self'",
@@ -45,8 +49,10 @@ for (const file of walk(OUT)) {
   for (const m of html.matchAll(SCRIPT_RE)) {
     hashes.add(`'sha256-${crypto.createHash("sha256").update(m[1], "utf8").digest("base64")}'`);
   }
+  const styles = new Set<string>();
+  for (const m of html.matchAll(STYLE_RE)) styles.add(sha(decode(m[1])));
   html = html.replace(/<meta http-equiv="Content-Security-Policy"[^>]*>/, "");
-  html = html.replace("<head>", `<head><meta http-equiv="Content-Security-Policy" content="${policy([...hashes])}">`);
+  html = html.replace("<head>", `<head><meta http-equiv="Content-Security-Policy" content="${policy([...hashes], [...styles])}">`);
   fs.writeFileSync(file, html);
   pages++;
   htmlBytes += Buffer.byteLength(html);

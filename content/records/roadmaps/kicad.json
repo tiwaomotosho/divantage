@@ -23,7 +23,8 @@
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
      "electrical-design",
-     "repair-guides"
+     "repair-guides",
+     "engineering-calculations"
     ],
     "estimated_hours": {
      "value": 1,
@@ -46,7 +47,8 @@
     "need_tags": [
      "cad-drafting",
      "electrical-design",
-     "repair-guides"
+     "repair-guides",
+     "engineering-calculations"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -71,7 +73,8 @@
      "mechanical-design",
      "bim-modelling",
      "electrical-design",
-     "repair-guides"
+     "repair-guides",
+     "engineering-calculations"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -97,7 +100,8 @@
      "cad-drafting",
      "technical-reporting",
      "electrical-design",
-     "repair-guides"
+     "repair-guides",
+     "engineering-calculations"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -121,7 +125,8 @@
      "bim-modelling",
      "drawing-markup",
      "electrical-design",
-     "repair-guides"
+     "repair-guides",
+     "engineering-calculations"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -143,7 +148,8 @@
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
      "electrical-design",
-     "repair-guides"
+     "repair-guides",
+     "engineering-calculations"
     ],
     "estimated_hours": {
      "value": 3,
@@ -166,7 +172,8 @@
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
      "electrical-design",
-     "repair-guides"
+     "repair-guides",
+     "engineering-calculations"
     ],
     "estimated_hours": {
      "value": 4,
@@ -190,7 +197,8 @@
      "cost-estimation",
      "bim-modelling",
      "electrical-design",
-     "repair-guides"
+     "repair-guides",
+     "engineering-calculations"
     ],
     "estimated_hours": {
      "value": 5.0,
@@ -213,7 +221,8 @@
     "need_tags": [
      "automation-workflows",
      "electrical-design",
-     "repair-guides"
+     "repair-guides",
+     "engineering-calculations"
     ],
     "estimated_hours": {
      "value": 2,
@@ -236,7 +245,8 @@
     "need_tags": [
      "workshop-facilitation",
      "electrical-design",
-     "repair-guides"
+     "repair-guides",
+     "engineering-calculations"
     ],
     "estimated_hours": {
      "value": 2,

@@ -1,5 +1,7 @@
 # 06 — Visual Design System
 
+> **Superseded for visuals by V2.8.** Doc 28 (UI/UX brief), doc 29 (fidelity contract), `design/tokens/tokens.json` and `design/reference/screens/` now govern look and components. Fonts changed by D-091 (revertible). Keep this document for history and for sections not repeated in doc 28.
+
 **Version:** 2.5 · **Source of truth:** `spec-assets/tokens/tokens.json`. `tokens.css` is generated from it and must not be edited by hand. Contrast for every intended pairing is verified in `spec-assets/tokens/contrast-report.md` (0 failures).
 
 ## 1. Art direction

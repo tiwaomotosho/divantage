@@ -1,5 +1,36 @@
-# DIGITAL ADVANTAGE — Product & Design Specification Pack **V2.5**
-**Version:** 2.5 · **Date:** 21 October 2026 · **Status:** Implementation baseline: build the three starter helpers on Bun + Vite + React, then a private beta · **Working name:** *Whoolkit* (recommended, D-059; final brand is D-019) · **Business model:** Non-commercial through MVP (approved); monetisation options for after MVP in doc 19
+# DIGITAL ADVANTAGE — Product & Design Specification Pack **V2.8**
+**Version:** 2.8 · **Date:** 26 October 2026 · **Status:** Implementation baseline: build the three starter helpers on Bun + Vite + React, then a private beta · **Working name:** *Whoolkit* (recommended, D-059; final brand is D-019) · **Business model:** Non-commercial through MVP (approved); monetisation options for after MVP in doc 19
+
+## What's new in V2.8: pilot learnings, the UI/UX concept and a design fidelity contract
+- **Pilot round 1 (doc 27):** 17 responses turned into changes. iPhone layout bugs, unclear next steps, weak trust signals and "paths not written for my job" drive the rest.
+- **One promise (D-104):** "Find the tools people in your job use. Learn them step by step." Every tool page ends with a next step and "Learn {tool}" (D-092); price and claims carry a TrustLine (D-093); every learning path says whether it is **For {job}**, **In depth** or a **General guide** (D-094).
+- **Calm design (docs 28 to 30, D-095 to D-103):** colour and button budget, closed photo and icon sets, monogram tool logos, helper explainer with first-run coach mark, phone shell safety, need feedback, Suggest my role.
+- **Design fidelity contract (doc 29, D-099):** tokens generate CSS, TypeScript and Tailwind; a static lint and a runtime audit fail the build when a screen drifts from the reference. Builders read `CLAUDE.md`.
+- **Fixes to V2.7:** safety false positives, kit hint spread, superlative descriptions, SQL consents, rate-limit table, Vercel configuration, email retention. Status of every checklist item: doc 32.
+- **Read:** docs 27 to 32. 20 new tests (188), 8 feature rows (56), 60 events, 38 flags.
+- **Needs you:** D-091 fonts, D-105 precedence order, D-019 brand, D-027 legal and markets, D-061 licences. **Supplied separately by you at the build point (on purpose):** the patch's asset files, PNG references and concept board PDF. See `ASSETS_AT_BUILD.md`.
+- **Not done:** no app, SQL not run on Neon, no counsel review, role-specific paths not written.
+
+## What's new in V2.7: tool profiles, goal kits, safety and discovery
+- **Every tool has a profile (D-084):** a short paragraph, pricing model, free-tier flag and price note, for all 1,781 tools. Unchecked ones carry a **Preview** label that says what is unchecked. Honest status: 5 are partly web-checked (for what the tool is, not its price); 1,776 are AI-drafted.
+- **Same-kind alternatives 59% → 97.0% (D-085),** with a build gate at 95%.
+- **Goal kits (D-086):** 29 paths such as *Get a remote job*, *Edit a short video*, *Teach kids programming*, *Become a freelancer*, *CV, portfolio and proofreading pack*. 1,050 goals (was 633) and 1,781 tools (was 1,479).
+- **Safety notes (D-087):** nine rule sets on 498 goals, with red flags and where to get help.
+- **Easy to find and connected (D-088):** seven entry paths, natural-language search ("I want to get a remote job"), 3+ related goals each. 131 search tests pass.
+- **Suggestions for people who do not search (D-089)** and a **Technology Education pillar (D-090).**
+- **Read:** doc 26. 18 new tests (168), 8 feature rows (48), 53 events, 33 flags. New validators: `validate_profiles.py`, `validate_discovery.py`.
+- **Not done:** no app, no executed SQL, no legal review, no human or domain-expert review of the new data. Prices in profiles may be wrong, which is why the label exists.
+
+## What's new in V2.6: goals, alternatives, accounts and recommendations
+- **Positioning (D-075):** use technology to **compete, grow and scale**. Every need has intents; three chips on home.
+- **Goals (D-071):** 633 outcome-phrased goals under 279 needs (1,050 in V2.7); jump straight to a goal (search includes tool names).
+- **Alternatives and more tools (D-072, D-073):** registry 723 → **1,479** (1,781 in V2.7); each tool lists up to 7 alternatives derived from goals. Honest figure: 94.8% have 7 *listed*; about 59% have 7 of the same category or archetype. The 756 new tools are unverified stubs.
+- **Nigeria and Africa (D-074):** local tools and goals (inDrive, Bolt, Paystack and more), Nigeria-first ranking, availability notes (Uber left Nigeria in Sep 2026; Showmax closed Apr 2026).
+- **Optional sign-in after value, stars, My workbench (D-076 to D-079):** no gating; works on-device first.
+- **Recommendations without machine learning (D-080) and trending (D-081):** rules R1 to R8; trending hidden until there is enough use, with a privacy floor of 10.
+- **Retention loop (D-082), Vercel (D-083):** continue card, saved outputs, outcome prompt, suggestion status.
+- **Read:** doc 24 (what and why) and doc 25 (how to build it in your existing repo). 18 new tests (150 in total), 11 feature rows (40), 47 events, 28 flags.
+- **Not done:** no app, no executed SQL, no legal review, no human review of the new goal and tool data.
 
 ## What's new in V2.5: helpers, one checklist for every feature, and your stack
 - **Helpers (D-066):** the journeys are now **helpers**. A helper is a guided path that **follows you across the app**: a small panel shows your stage and next step on every page, remembers your place on your own device, and never sends your progress anywhere. New screens S39 (Helpers), S40 (Helper page) and S41 (Helper panel).
@@ -91,7 +122,7 @@ V2 turns the V1 foundation into an implementation-ready blueprint, following the
 |---|---|---|
 | 00 | V1 Reconciliation and Conflict Log | Precedence rules; conflicts C-01 to C-37 |
 | 01 | Master PRD | Vision, scope matrix (R1/R1.5/R2), JTBD matrix, KPI dictionary, FR-035 to FR-075, release gates |
-| 02 | Product Decision Register | Every product and technical decision (D-001 to D-070) |
+| 02 | Product Decision Register | Every product and technical decision (D-001 to D-106) |
 | 03 | Information Architecture and Taxonomy | Route tree, navigation, taxonomy governance, slugs, redirects, discovery and related-content rules |
 | 04 | Screen Inventory and UX Specification | Screens S01–S41 + A01, route inventory, full screen contracts, interaction-state matrix |
 | 05 | User Journeys and Interaction Flows | Search, browse, decision, resource, playbook, correction, editorial and theme flows (Mermaid) |
@@ -113,6 +144,15 @@ V2 turns the V1 foundation into an implementation-ready blueprint, following the
 | 21 | Name and Brand Options | Woogle-inspired naming, shortlist, recommendation (*Whoolkit*), adoption checklist |
 | **23** | **Feature Completeness and App Scope** | **Every owner request in their own words → decision, requirement, screen, test, stage, flag; the launch gate; what is deliberately not in the MVP** |
 | **22** | **Open Contribution and Beta Plan** | **Suggest-an-edit model, review rules, guardrails, credit, licences, easy-change delivery, starter journeys, Pilot 20, beta release plan and weekly loop, beta invite text** |
+| 24 | Goals, Accounts and Recommendations | Goals, alternatives, optional sign-in, stars, recommendations rules, trending (V2.6) |
+| 25 | Build Brief for Existing App | How to build V2.6 and later into the existing repo |
+| 26 | Goal Kits, Tool Profiles and Safety | Profiles and Preview label, 29 kits, safety rule sets, discovery (V2.7) |
+| **27** | **Pilot Round 1 Findings** | **17 responses → changes; round 2 targets** |
+| **28** | **UI/UX Brief V2.8** | **Supersedes doc 06 and the visual parts of doc 04** |
+| **29** | **Design Fidelity Contract** | **Seven locks that keep the build matching the reference screens** |
+| **30** | **Asset Library Guide** | **Photos, icons, monograms, illustrations, brand kit** |
+| **31** | **Decisions and Spec Corrections V2.8** | **D-091 to D-106, FR-109 to FR-119, DepthLabel rule, precedence (proposed)** |
+| **32** | **V2.8 Pack Corrections** | **Status of every checklist item; Cloudflare to Vercel mapping** |
 
 ### `spec-assets/` (machine-readable contracts)
 | Path | What |
@@ -131,14 +171,19 @@ V2 turns the V1 foundation into an implementation-ready blueprint, following the
 | `validate_catalogue.py` | Reference validator (schemas + integrity rules); run with `python3 -I spec-assets/validate_catalogue.py spec-assets 08_Starter_Catalogue/records` |
 | `fixtures/` | Valid and invalid example records; `invalid/EXPECTED.json` lists the required failure for each |
 | `search/` | Search engine configuration (boosts, synonyms, ranking rules, facets, URL state) and a versioned test set of 25 queries |
-| `analytics/events.json` | 29 privacy-first aggregate events (6 added in V2.1, 3 in V2.2, 2 in V2.3, 4 in V2.5; identity never recorded) |
+| `analytics/events.json` | 47 privacy-first aggregate events (6 added in V2.1, 3 in V2.2, 2 in V2.3, 4 in V2.5; identity never recorded) |
 | `api/openapi.yaml` | API contract |
 | `db/0001_analytics_counters.sql` | D1 migration |
 | `config/_headers`, `env.example` | Security headers and CSP, environment variables |
 | `config/feature-flags.json` | Feature flags with beta defaults, **launch values**, owners and review dates |
 | `config/home-featured.json` | The home page's popular chips and identity ribbon (V2.5) |
 | `repo-templates/` | LICENSE (MIT), LICENSE-CONTENT (CC BY 4.0), CONTRIBUTING, CODE_OF_CONDUCT, GitHub issue forms, PR template, labels, reference CI (V2.3) |
-| `qa/acceptance-matrix.csv` | 132 test cases with requirement traceability |
+| `registry/tool-profiles.json`, `taxonomy/goal-kits.json`, `goal-links.json`, `goal-safety.json`, `identity-kit-hints.json`, `entry-paths.json` | Generated (V2.7): profiles with the Preview label, 29 kits, related goals, safety notes, kit hints, entry paths |
+| `generators/build_profiles.py`, `build_discovery.py`, `validate_profiles.py`, `validate_discovery.py` | Profile and discovery generators and checks (V2.7) |
+| `taxonomy/goals.json`, `alternatives.json`, `intents.json`, `tool-markets.json`, `tool-availability.json` | Generated (V2.6; 1,050 goals in V2.7): derived alternatives, compete/grow/scale, local markets, availability |
+| `db/0002_accounts_profiles_postgres.sql` | Accounts, profiles, stars, progress, outcomes, trending (V2.6; parsed, not executed) |
+| `generators/build_goals.py`, `validate_goals.py`, `schemas/goal.schema.json` | Goals and alternatives generator and checks (V2.6) |
+| `qa/acceptance-matrix.csv` | 150 test cases with requirement traceability |
 | `qa/feature-matrix.csv`, `validate_feature_matrix.py` | Every owner feature traced to decisions, requirements, screens, tests and flags; the checker (V2.5) |
 
 ## Outstanding decisions (block the public launch, not the build or the private beta)
@@ -156,7 +201,7 @@ V2 turns the V1 foundation into an implementation-ready blueprint, following the
 - **R2:** accounts, learning paths with progress, projects, grounded AI discovery, contributor submissions.
 
 ## Known limitations of this pack
-- **Breadth vs depth:** 723 tools exist in the registry, but only 10 have full, source-backed profiles (pricing, platforms) and 21 more have AI-drafted guides waiting for a human check (`pilot_profiles.txt`). The rest show name, link and who uses them until profiled (D-048). Profiling the 50 most-used tools is the first content task after build.
+- **Breadth vs depth:** 1,781 tools exist in the registry and every one has a short profile with price information, but only 5 are partly web-checked and none has verified pricing. Ten have full source-backed records and 21 more have AI-drafted guides waiting for a human check (`pilot_profiles.txt`). The rest show name, link and who uses them until profiled (D-048). Profiling the 50 most-used tools is the first content task after build.
 - **Expert review pending:** identities, needs, roadmaps and lenses are AI-drafted and published under the owner's blanket approval (D-044). Domain experts will validate them (18 §13).
 - **Coverage:** every ISCO-08 unit group has at least one identity, but local job titles keep appearing. The identity-miss report and suggestions (20 §3) are how gaps get closed. ESCO titles are the next alias source.
 - **Roadmap depth:** 636 roadmaps are "standard" (template + tool-specific skills), and are labelled as such on screen. Upgrading the most-used ones to handwritten is a quarterly admin task (20 §5.4).

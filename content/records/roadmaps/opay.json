@@ -1,0 +1,309 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_opay",
+ "slug": "opay",
+ "title": "OPay skill roadmap",
+ "tool_ids": [
+  "tool_opay"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_opay_finance_payments_0",
+    "slug": "opay-finance-payments-0",
+    "title": "Get started with OPay",
+    "outcome": "You can: set up OPay, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "personal-finance",
+     "online-payments",
+     "creator-income",
+     "point-of-sale",
+     "online-giving",
+     "driver-earnings",
+     "restaurant-operations",
+     "family-organisation"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_opay_finance_payments_1",
+    "slug": "opay-finance-payments-1",
+    "title": "Get paid",
+    "outcome": "You can: send invoices or payment links",
+    "topics": [
+     "customers",
+     "invoices/links",
+     "payment methods",
+     "receipts"
+    ],
+    "practice": "Send a test invoice or payment link",
+    "need_tags": [
+     "invoicing",
+     "online-payments",
+     "personal-finance",
+     "creator-income",
+     "point-of-sale",
+     "online-giving",
+     "driver-earnings",
+     "restaurant-operations",
+     "family-organisation"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_opay_finance_payments_2",
+    "slug": "opay-finance-payments-2",
+    "title": "Keep records straight",
+    "outcome": "You can: record income and expenses",
+    "topics": [
+     "categories",
+     "attachments",
+     "bank feeds"
+    ],
+    "practice": "Record a week of transactions",
+    "need_tags": [
+     "bookkeeping",
+     "personal-finance",
+     "online-payments",
+     "creator-income",
+     "point-of-sale",
+     "online-giving",
+     "driver-earnings",
+     "restaurant-operations",
+     "family-organisation"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_opay_finance_payments_3",
+    "slug": "opay-finance-payments-3",
+    "title": "Reconcile",
+    "outcome": "You can: match records to the bank",
+    "topics": [
+     "reconciliation",
+     "refunds",
+     "fees",
+     "disputes"
+    ],
+    "practice": "Reconcile a month",
+    "need_tags": [
+     "bookkeeping",
+     "audit-analytics",
+     "personal-finance",
+     "online-payments",
+     "creator-income",
+     "point-of-sale",
+     "online-giving",
+     "driver-earnings",
+     "restaurant-operations",
+     "family-organisation"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_opay_finance_payments_4",
+    "slug": "opay-finance-payments-4",
+    "title": "Security and fraud",
+    "outcome": "You can: protect money and accounts",
+    "topics": [
+     "two-step verification",
+     "user roles",
+     "scam awareness"
+    ],
+    "practice": "Review security settings and user roles",
+    "need_tags": [
+     "online-safety",
+     "personal-finance",
+     "online-payments",
+     "creator-income",
+     "point-of-sale",
+     "online-giving",
+     "driver-earnings",
+     "restaurant-operations",
+     "family-organisation"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_opay_finance_payments_8",
+    "slug": "opay-finance-payments-8",
+    "title": "Signature skills in OPay",
+    "outcome": "You can: use the features that make OPay distinctive",
+    "topics": [
+     "invoices",
+     "payments",
+     "reconciliation"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "personal-finance",
+     "online-payments",
+     "creator-income",
+     "point-of-sale",
+     "online-giving",
+     "driver-earnings",
+     "restaurant-operations",
+     "family-organisation"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_opay_finance_payments_9",
+    "slug": "opay-finance-payments-9",
+    "title": "Advanced OPay",
+    "outcome": "You can: use OPay's advanced capabilities with confidence",
+    "topics": [
+     "reporting",
+     "tax and compliance",
+     "integrations"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "personal-finance",
+     "online-payments",
+     "creator-income",
+     "point-of-sale",
+     "online-giving",
+     "driver-earnings",
+     "restaurant-operations",
+     "family-organisation"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_opay_finance_payments_5",
+    "slug": "opay-finance-payments-5",
+    "title": "Reporting and integration",
+    "outcome": "You can: connect payments to accounting and reports",
+    "topics": [
+     "exports",
+     "APIs/webhooks",
+     "month-end reports"
+    ],
+    "practice": "Connect OPay to your books or a sheet",
+    "need_tags": [
+     "bookkeeping",
+     "automation-workflows",
+     "personal-finance",
+     "online-payments",
+     "creator-income",
+     "point-of-sale",
+     "online-giving",
+     "driver-earnings",
+     "restaurant-operations",
+     "family-organisation"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_opay_finance_payments_10",
+    "slug": "opay-finance-payments-10",
+    "title": "Integrate OPay into your workflow",
+    "outcome": "You can: connect OPay with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect OPay to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "personal-finance",
+     "online-payments",
+     "creator-income",
+     "point-of-sale",
+     "online-giving",
+     "driver-earnings",
+     "restaurant-operations",
+     "family-organisation"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_opay_finance_payments_11",
+    "slug": "opay-finance-payments-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use OPay well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use OPay\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "personal-finance",
+     "online-payments",
+     "creator-income",
+     "point-of-sale",
+     "online-giving",
+     "driver-earnings",
+     "restaurant-operations",
+     "family-organisation"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype",
+ "archetype": "finance-payments",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

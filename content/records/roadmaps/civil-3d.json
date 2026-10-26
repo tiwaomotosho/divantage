@@ -23,7 +23,10 @@
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
      "bim-modelling",
-     "surveying-photogrammetry"
+     "surveying-photogrammetry",
+     "hydraulic-modelling",
+     "geotechnical-analysis",
+     "cad-drafting"
     ],
     "estimated_hours": {
      "value": 1,
@@ -46,7 +49,9 @@
     "need_tags": [
      "cad-drafting",
      "bim-modelling",
-     "surveying-photogrammetry"
+     "surveying-photogrammetry",
+     "hydraulic-modelling",
+     "geotechnical-analysis"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -70,7 +75,9 @@
      "cad-drafting",
      "mechanical-design",
      "bim-modelling",
-     "surveying-photogrammetry"
+     "surveying-photogrammetry",
+     "hydraulic-modelling",
+     "geotechnical-analysis"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -96,7 +103,9 @@
      "cad-drafting",
      "technical-reporting",
      "bim-modelling",
-     "surveying-photogrammetry"
+     "surveying-photogrammetry",
+     "hydraulic-modelling",
+     "geotechnical-analysis"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -119,7 +128,10 @@
     "need_tags": [
      "bim-modelling",
      "drawing-markup",
-     "surveying-photogrammetry"
+     "surveying-photogrammetry",
+     "hydraulic-modelling",
+     "geotechnical-analysis",
+     "cad-drafting"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -141,7 +153,10 @@
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
      "bim-modelling",
-     "surveying-photogrammetry"
+     "surveying-photogrammetry",
+     "hydraulic-modelling",
+     "geotechnical-analysis",
+     "cad-drafting"
     ],
     "estimated_hours": {
      "value": 3,
@@ -164,7 +179,10 @@
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
      "bim-modelling",
-     "surveying-photogrammetry"
+     "surveying-photogrammetry",
+     "hydraulic-modelling",
+     "geotechnical-analysis",
+     "cad-drafting"
     ],
     "estimated_hours": {
      "value": 4,
@@ -187,7 +205,10 @@
     "need_tags": [
      "cost-estimation",
      "bim-modelling",
-     "surveying-photogrammetry"
+     "surveying-photogrammetry",
+     "hydraulic-modelling",
+     "geotechnical-analysis",
+     "cad-drafting"
     ],
     "estimated_hours": {
      "value": 5.0,
@@ -210,7 +231,10 @@
     "need_tags": [
      "automation-workflows",
      "bim-modelling",
-     "surveying-photogrammetry"
+     "surveying-photogrammetry",
+     "hydraulic-modelling",
+     "geotechnical-analysis",
+     "cad-drafting"
     ],
     "estimated_hours": {
      "value": 2,
@@ -233,7 +257,10 @@
     "need_tags": [
      "workshop-facilitation",
      "bim-modelling",
-     "surveying-photogrammetry"
+     "surveying-photogrammetry",
+     "hydraulic-modelling",
+     "geotechnical-analysis",
+     "cad-drafting"
     ],
     "estimated_hours": {
      "value": 2,

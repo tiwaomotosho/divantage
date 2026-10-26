@@ -1,91 +1,36 @@
-// S13 Playbook detail (timeline stepper).
+// S13 Playbook.
 import { data } from "react-router";
 import type { Route } from "./+types/playbooks.$slug";
-import { recordBySlug, toolRow } from "~/lib/content.server";
+import { mention, recordBySlug } from "~/lib/content.server";
+import type { ToolMention } from "~/lib/view";
 import { meta as pageMeta } from "../lib/build";
-import { Breadcrumb, Callout, PageHeader, Section, ToolRow, TrustFooter } from "../components/ui";
+import { Bullets, RecordPage, Steps } from "../components/Record";
+import { Icon, ToolRowCard } from "../components/da";
 
 export function loader({ params }: Route.LoaderArgs) {
   const r = recordBySlug("playbooks", params.slug);
   if (!r) throw data("Not found", { status: 404 });
-  return { r, tools: (r.tool_ids ?? []).map(toolRow).filter(Boolean) };
+  return { r, tools: (r.tool_ids ?? []).map((id: string) => mention(id, { desc: true })).filter(Boolean) as ToolMention[] };
 }
-
 export const meta: Route.MetaFunction = ({ data: d }) => (d ? pageMeta(d.r.title, d.r.outcome) : pageMeta("Not found"));
 
 export default function Playbook({ loaderData: { r, tools } }: Route.ComponentProps) {
-  const list = (title: string, xs?: string[]) =>
-    xs?.length ? (
-      <Section title={title} id={`h-${title.toLowerCase().replace(/\W+/g, "-")}`}>
-        <ul className="reading bullets">
-          {xs.map((x) => (
-            <li key={x}>{x}</li>
-          ))}
-        </ul>
-      </Section>
-    ) : null;
   return (
-    <div className="container">
-      <Breadcrumb items={[{ to: "/playbooks", label: "Playbooks" }, { label: r.title }]} />
-      <PageHeader eyebrow="Playbook" title={r.title} lead={r.outcome}>
-        <p className="meta">
-          {r.estimated_duration?.label} · {r.difficulty}
-        </p>
-      </PageHeader>
-      {list("You'll need", [...(r.prerequisites ?? []), ...(r.required_inputs ?? [])])}
-      <Section title="Tools" id="h-tools">
-        <ul className="tool-rows">
-          {tools.map((t: any) => (
-            <ToolRow key={t.slug} t={t} />
-          ))}
-        </ul>
-      </Section>
-      <Section title="Steps" id="h-steps">
-        <ol className="stepper stepper-timeline">
-          {r.steps.map((s: any) => (
-            <li key={s.n} className="stepper-item">
-              <span className="stepper-num" aria-hidden="true">
-                {s.n}
-              </span>
-              <div>
-                <h3>{s.title}</h3>
-                {s.purpose && <p className="meta">{s.purpose}</p>}
-                <p className="reading">{s.instructions}</p>
-                {s.expected_output && <p className="meta">Output: {s.expected_output}</p>}
-                {s.check && <p className="meta">Check: {s.check}</p>}
-              </div>
-            </li>
-          ))}
-        </ol>
-      </Section>
+    <RecordPage crumbs={[{ to: "/playbooks", label: "Playbooks" }, { label: r.title }]} label="Playbook" title={r.title} lead={r.outcome} tags={[{ hue: "slate", icon: "clock", text: r.estimated_duration?.label ?? "" }, { hue: "green", text: r.difficulty[0].toUpperCase() + r.difficulty.slice(1) }]} sources={r.sources} recordId={r.id} next={tools[0] ? { kicker: "Your next step", title: `Learn ${tools[0].name}`, sub: "Start with the first module", url: tools[0].learn, cta: "Start" } : undefined} aside={<><Bullets title="You'll need" items={[...(r.prerequisites ?? []), ...(r.required_inputs ?? [])]} /><Bullets title="You've succeeded when" items={r.success_criteria} /><Bullets title="Common failures" items={r.common_failure_modes} icon="flag" /></>}>
+      <h2 className="t-h3">Tools</h2>
+      {tools.map((t, i) => (
+        <ToolRowCard key={t.slug} t={t} rank={i + 1} top={i === 0} />
+      ))}
+      <h2 className="t-h3">Steps</h2>
+      <Steps id={r.slug} steps={r.steps.map((s: any) => ({ n: s.n, title: s.title, body: s.instructions, extra: s.check ? `Check: ${s.check}` : undefined }))} />
       {r.verification && (
-        <Callout tone="info" title="Verify your work">
-          <p>{r.verification}</p>
-        </Callout>
+        <div className="banner info">
+          <Icon name="check-circle" />
+          <div className="fl1 t-sm">
+            <b>Verify your work:</b> <span className="mu">{r.verification}</span>
+          </div>
+        </div>
       )}
-      {list("You've succeeded when", r.success_criteria)}
-      {list("Common failures", r.common_failure_modes)}
-      {r.troubleshooting?.length > 0 && (
-        <Section title="Troubleshooting" id="h-trouble">
-          {r.troubleshooting.map((t: any) => (
-            <details key={t.problem} className="accordion">
-              <summary>{t.problem}</summary>
-              <p>{t.fix}</p>
-            </details>
-          ))}
-        </Section>
-      )}
-      {r.example && (
-        <Section title="Example" id="h-example">
-          <p className="reading">
-            <strong>Input:</strong> {r.example.input}
-          </p>
-          <p className="reading">
-            <strong>Output:</strong> {r.example.output}
-          </p>
-        </Section>
-      )}
-      <TrustFooter reviewed={r.editorial?.last_verified_at} sources={r.sources} recordId={r.id} validation="pending" />
-    </div>
+    </RecordPage>
   );
 }

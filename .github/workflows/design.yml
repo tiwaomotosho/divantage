@@ -1,0 +1,28 @@
+# Design fidelity CI (docs/29 §4), adapted for Bun and this repo's paths (app/ and src/).
+name: design
+on: [pull_request, push]
+jobs:
+  design:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version-file: BUN_VERSION
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - run: bun install --frozen-lockfile
+      - name: Tokens are generated, not hand-edited (L1)
+        run: node tools/build-tokens.mjs && git diff --exit-code design/tokens
+      - name: Static design lint (L4)
+        run: node tools/check-design.mjs app && node tools/check-design.mjs src
+      - run: bunx playwright install --with-deps chromium
+      - name: Reference self-test
+        run: node tools/design-audit.mjs --reference
+      - name: Build and preview the app
+        run: bun run build && (bun run preview &) && npx --yes wait-on http://localhost:4173
+      - name: Runtime design audit (L5)
+        run: node tools/design-audit.mjs --base http://localhost:4173
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: { name: design-audit-report, path: design-audit-report }

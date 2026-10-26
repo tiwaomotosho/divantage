@@ -22,7 +22,14 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "project-management"
+     "project-management",
+     "project-scheduling",
+     "agile-tracking",
+     "content-planning",
+     "kpi-tracking",
+     "recruitment",
+     "stage-production",
+     "meeting-minutes"
     ],
     "estimated_hours": {
      "value": 1,
@@ -44,7 +51,14 @@
     "practice": "Post an update and share a file with your team",
     "need_tags": [
      "group-messaging",
-     "project-management"
+     "project-management",
+     "project-scheduling",
+     "agile-tracking",
+     "content-planning",
+     "kpi-tracking",
+     "recruitment",
+     "stage-production",
+     "meeting-minutes"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -66,7 +80,14 @@
     "practice": "Set notifications so only what matters reaches you",
     "need_tags": [
      "personal-productivity",
-     "project-management"
+     "project-management",
+     "project-scheduling",
+     "agile-tracking",
+     "content-planning",
+     "kpi-tracking",
+     "recruitment",
+     "stage-production",
+     "meeting-minutes"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -88,7 +109,14 @@
     ],
     "practice": "Set up a space for a real project",
     "need_tags": [
-     "project-management"
+     "project-management",
+     "project-scheduling",
+     "agile-tracking",
+     "content-planning",
+     "kpi-tracking",
+     "recruitment",
+     "stage-production",
+     "meeting-minutes"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -110,7 +138,13 @@
     "need_tags": [
      "meeting-minutes",
      "workshop-facilitation",
-     "project-management"
+     "project-management",
+     "project-scheduling",
+     "agile-tracking",
+     "content-planning",
+     "kpi-tracking",
+     "recruitment",
+     "stage-production"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -131,7 +165,14 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "project-management"
+     "project-management",
+     "project-scheduling",
+     "agile-tracking",
+     "content-planning",
+     "kpi-tracking",
+     "recruitment",
+     "stage-production",
+     "meeting-minutes"
     ],
     "estimated_hours": {
      "value": 3,
@@ -154,7 +195,14 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "project-management"
+     "project-management",
+     "project-scheduling",
+     "agile-tracking",
+     "content-planning",
+     "kpi-tracking",
+     "recruitment",
+     "stage-production",
+     "meeting-minutes"
     ],
     "estimated_hours": {
      "value": 4,
@@ -177,7 +225,14 @@
     "need_tags": [
      "records-management",
      "online-safety",
-     "project-management"
+     "project-management",
+     "project-scheduling",
+     "agile-tracking",
+     "content-planning",
+     "kpi-tracking",
+     "recruitment",
+     "stage-production",
+     "meeting-minutes"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -199,7 +254,14 @@
     "practice": "Connect Asana to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "project-management"
+     "project-management",
+     "project-scheduling",
+     "agile-tracking",
+     "content-planning",
+     "kpi-tracking",
+     "recruitment",
+     "stage-production",
+     "meeting-minutes"
     ],
     "estimated_hours": {
      "value": 2,
@@ -221,7 +283,14 @@
     "practice": "Write a one-page \"how we use Asana\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "project-management"
+     "project-management",
+     "project-scheduling",
+     "agile-tracking",
+     "content-planning",
+     "kpi-tracking",
+     "recruitment",
+     "stage-production",
+     "meeting-minutes"
     ],
     "estimated_hours": {
      "value": 2,

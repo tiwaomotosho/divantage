@@ -22,7 +22,10 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "email-and-calendar"
+     "email-and-calendar",
+     "records-management",
+     "online-safety",
+     "kids-online-safety"
     ],
     "estimated_hours": {
      "value": 1,
@@ -44,7 +47,9 @@
     "practice": "Set up Proton Mail and store recovery details safely",
     "need_tags": [
      "online-safety",
-     "email-and-calendar"
+     "email-and-calendar",
+     "records-management",
+     "kids-online-safety"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -64,7 +69,9 @@
     "practice": "Use Proton Mail for a week on your main accounts",
     "need_tags": [
      "online-safety",
-     "email-and-calendar"
+     "email-and-calendar",
+     "records-management",
+     "kids-online-safety"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -88,7 +95,9 @@
     "practice": "Secure your top five accounts",
     "need_tags": [
      "online-safety",
-     "email-and-calendar"
+     "email-and-calendar",
+     "records-management",
+     "kids-online-safety"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -111,7 +120,9 @@
     "need_tags": [
      "online-safety",
      "fact-check",
-     "email-and-calendar"
+     "email-and-calendar",
+     "records-management",
+     "kids-online-safety"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -132,7 +143,10 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "email-and-calendar"
+     "email-and-calendar",
+     "records-management",
+     "online-safety",
+     "kids-online-safety"
     ],
     "estimated_hours": {
      "value": 3,
@@ -154,7 +168,10 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "email-and-calendar"
+     "email-and-calendar",
+     "records-management",
+     "online-safety",
+     "kids-online-safety"
     ],
     "estimated_hours": {
      "value": 4,
@@ -176,7 +193,9 @@
     "need_tags": [
      "online-safety",
      "digital-basics",
-     "email-and-calendar"
+     "email-and-calendar",
+     "records-management",
+     "kids-online-safety"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -198,7 +217,10 @@
     "practice": "Connect Proton Mail to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "email-and-calendar"
+     "email-and-calendar",
+     "records-management",
+     "online-safety",
+     "kids-online-safety"
     ],
     "estimated_hours": {
      "value": 2,
@@ -220,7 +242,10 @@
     "practice": "Write a one-page \"how we use Proton Mail\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "email-and-calendar"
+     "email-and-calendar",
+     "records-management",
+     "online-safety",
+     "kids-online-safety"
     ],
     "estimated_hours": {
      "value": 2,

@@ -23,7 +23,8 @@
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
      "release-music",
-     "artist-profiles"
+     "artist-profiles",
+     "personal-productivity"
     ],
     "estimated_hours": {
      "value": 1,
@@ -45,7 +46,8 @@
     "practice": "Prepare one finished song with artwork and correct metadata",
     "need_tags": [
      "release-music",
-     "artist-profiles"
+     "artist-profiles",
+     "personal-productivity"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -67,7 +69,8 @@
     "need_tags": [
      "artist-profiles",
      "social-media-presence",
-     "release-music"
+     "release-music",
+     "personal-productivity"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -92,7 +95,8 @@
     "need_tags": [
      "artist-profiles",
      "kpi-tracking",
-     "release-music"
+     "release-music",
+     "personal-productivity"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -115,7 +119,8 @@
     "need_tags": [
      "release-music",
      "creator-income",
-     "artist-profiles"
+     "artist-profiles",
+     "personal-productivity"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -137,7 +142,8 @@
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
      "release-music",
-     "artist-profiles"
+     "artist-profiles",
+     "personal-productivity"
     ],
     "estimated_hours": {
      "value": 3,
@@ -161,7 +167,8 @@
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
      "release-music",
-     "artist-profiles"
+     "artist-profiles",
+     "personal-productivity"
     ],
     "estimated_hours": {
      "value": 4,
@@ -184,7 +191,8 @@
     "need_tags": [
      "release-music",
      "artist-profiles",
-     "content-planning"
+     "content-planning",
+     "personal-productivity"
     ],
     "estimated_hours": {
      "value": 4.0,
@@ -207,7 +215,8 @@
     "need_tags": [
      "automation-workflows",
      "release-music",
-     "artist-profiles"
+     "artist-profiles",
+     "personal-productivity"
     ],
     "estimated_hours": {
      "value": 2,
@@ -230,7 +239,8 @@
     "need_tags": [
      "workshop-facilitation",
      "release-music",
-     "artist-profiles"
+     "artist-profiles",
+     "personal-productivity"
     ],
     "estimated_hours": {
      "value": 2,

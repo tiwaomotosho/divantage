@@ -1,0 +1,4 @@
+#!/bin/sh
+# Blocks commits that break the design contract (docs/29 L1, L4).
+node tools/build-tokens.mjs >/dev/null && git diff --quiet design/tokens || { echo "Tokens out of date: commit regenerated design/tokens"; exit 1; }
+node tools/check-design.mjs app && node tools/check-design.mjs src || { echo "check-design failed. See docs/29."; exit 1; }

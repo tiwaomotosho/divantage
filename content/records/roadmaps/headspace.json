@@ -22,7 +22,8 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "mindfulness-wellbeing"
+     "mindfulness-wellbeing",
+     "personal-health-tracking"
     ],
     "estimated_hours": {
      "value": 1,
@@ -89,7 +90,8 @@
     "need_tags": [
      "training-load",
      "nutrition-planning",
-     "mindfulness-wellbeing"
+     "mindfulness-wellbeing",
+     "personal-health-tracking"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -111,7 +113,8 @@
     "need_tags": [
      "online-coaching",
      "care-coordination",
-     "mindfulness-wellbeing"
+     "mindfulness-wellbeing",
+     "personal-health-tracking"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -132,7 +135,8 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "mindfulness-wellbeing"
+     "mindfulness-wellbeing",
+     "personal-health-tracking"
     ],
     "estimated_hours": {
      "value": 3,
@@ -153,7 +157,8 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "mindfulness-wellbeing"
+     "mindfulness-wellbeing",
+     "personal-health-tracking"
     ],
     "estimated_hours": {
      "value": 4,
@@ -175,7 +180,8 @@
     "need_tags": [
      "online-coaching",
      "care-coordination",
-     "mindfulness-wellbeing"
+     "mindfulness-wellbeing",
+     "personal-health-tracking"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -197,7 +203,8 @@
     "practice": "Connect Headspace to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "mindfulness-wellbeing"
+     "mindfulness-wellbeing",
+     "personal-health-tracking"
     ],
     "estimated_hours": {
      "value": 2,
@@ -219,7 +226,8 @@
     "practice": "Write a one-page \"how we use Headspace\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "mindfulness-wellbeing"
+     "mindfulness-wellbeing",
+     "personal-health-tracking"
     ],
     "estimated_hours": {
      "value": 2,

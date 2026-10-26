@@ -1,5 +1,7 @@
 # 04 — Screen Inventory and UX Specification
 
+> **V2.8:** the visual layout of each screen is defined by `design/reference/screens/*.html` (27 responsive references, mapped in `design/fidelity.config.json`) and doc 28. Where this document and a reference screen differ in layout, the reference wins (doc 29 §2). Behaviour and data rules here still apply.
+
 **Version:** 2.5 · Components are named as in `06_Visual_Design_System.md` §6. Events are from `spec-assets/analytics/events.json`. Tests (TC-xxx) are in `15_QA_and_Acceptance_Matrix.md`.
 
 ## 1. Route inventory (Gap Analysis §9.4)
@@ -841,3 +843,44 @@ Behaviour rules: 22 §5 and §9 below. Decisions: D-066, D-067, D-070. Requireme
 - **Global navigation:** the header at 720 px and above shows Helpers, Skills, What's new, the theme switch and search. Below 720 px a **bottom tab bar** shows Home, Helpers, Skills and Suggest an edit (icons with labels, 44 px or larger targets, `nav` landmark named "Quick", `aria-current` on the active tab, hidden at 720 px and above). The page reserves space for it.
 - **S36 (suggest an edit):** a new type `suggest_helper` ("I want a helper for my work") is added to the type chips.
 - **A01 (admin report):** moves from R1.5 into R1 (D-068). It also reports, per helper, starts and stage completions from the aggregate events.
+
+## 10. V2.6 screens (goals, accounts, recommendations)
+
+### S42 — Goals `/goals`
+Purpose: jump straight to a goal. A search box (goal labels, search words, tool names), three intent chips (Compete, Grow, Scale), then goals grouped by need. Nigerian visitors see market-tagged goals first. Empty state: "No goal matches. Try a tool name or tell us what you want to do." with a suggest link. Flag `goals`.
+
+### S43 — Goal page `/goals/{slug}`
+The outcome as the heading, the parent need, intent tags, a market note, the tools ranked (best first) with a short "why this one" line where known, a compare strip for the top three, and a star. Stub tools show the badge "Details being confirmed". Flag `goals`.
+
+### S44 — Sign-in sheet (global component, no route)
+A bottom sheet on phones, a dialog on desktop, shown only by the triggers in FR-084. Email code and Google. Text explains what saving gives (progress, stars, suggestions) and that the site works without it. "Not now" is the same size as the main button. Focus is trapped and Escape closes it. Flag `accounts`.
+
+### S45 — My workbench `/me`
+Sections: Continue, Learning, Starred, Can do, Goals I follow, What changed for you. Works on-device without an account (no personalised recommendations, no sync). Recommendation cards (R1–R8) appear at the top when the flags and consent allow, each with its "why" and the two dismiss actions. Flags `stars`, `continue_card`, `recommendations`.
+
+### S46 — Profile and privacy `/me/profile`
+Identities, intents and market (editable); the three consent switches; export my data; delete my account (with a confirmation step); data kept for 90 days explained. Flag `accounts`.
+
+### S47 — Trending `/trending`
+Top skills, professions, goals and tools this week, three to ten rows each, labelled "from people who chose to be counted". Below the activity gate the page shows "Trending appears when enough people have used the product this week" and nothing else. Flag `trending`.
+
+### S48 — Suggestion status `/suggestions/{ref}`
+Shows the status of a suggestion (received, triaged, fixed, declined) and the editor's note. The ref is unguessable (random). Flag `suggestion_status`.
+
+### S49 — Kits `/kits`
+A grid of the 29 kits as cards: title, one-line promise, number of steps. Search box ("I want to…") at the top. Flag `kits`.
+
+### S50 — Kit page `/kits/{slug}`
+Title and promise; the safety panel when any step carries a tag; numbered steps. Each step: goal title, top three tools with price chip and Preview mark, "Open this goal", and "Next: …". A kit can be starred. Flag `kits`.
+
+### S51 — "I want to…" results (amends S42)
+One search box. Results are grouped: Kits first, then Goals, then Tools. Lead-ins are stripped. If nothing matches, the page offers the seven entry paths instead of an empty state. Flag `goal_search_natural`.
+
+### S52 — Suggested for you (component)
+A row of up to five cards on home, goal, tool and workbench pages: R9 next in your kit, R10 kits for people like you, R11 while you are here, R12 check first. Each card shows why. Works without sign-in. Flag `suggested_for_you`.
+
+### Amendments to existing screens
+- **S01-R Home:** intent chips under "Who are you?"; a jump-to-goal link; the continue card when a helper or module is in progress; the trending strip only when S47 is visible.
+- **V2.7 tool page:** the profile block (paragraph, price chip, free-tier chip, price note, Preview label with an expandable "what is unchecked"), a "Goals that use this" list and the "While you are here" card (R11).
+- **V2.7 goal page (S43):** the safety panel, tools with price chips, related goals (3 to 6) and "Next in this kit".
+- **Tool page:** an Alternatives section (up to 7), the availability notice, a star, and the stub badge.

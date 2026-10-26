@@ -1,0 +1,248 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_medplum",
+ "slug": "medplum",
+ "title": "Medplum skill roadmap",
+ "tool_ids": [
+  "tool_medplum"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_medplum_health_system_0",
+    "slug": "medplum-health-system-0",
+    "title": "Get started with Medplum",
+    "outcome": "You can: set up Medplum, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "electronic-health-records",
+     "veterinary-practice"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_medplum_health_system_1",
+    "slug": "medplum-health-system-1",
+    "title": "Find and document",
+    "outcome": "You can: find patients and document care",
+    "topics": [
+     "search",
+     "patient summary",
+     "notes",
+     "privacy"
+    ],
+    "practice": "Document a sample (training) encounter",
+    "need_tags": [
+     "electronic-health-records",
+     "veterinary-practice"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_medplum_health_system_2",
+    "slug": "medplum-health-system-2",
+    "title": "Orders and results",
+    "outcome": "You can: place orders and review results safely",
+    "topics": [
+     "orders",
+     "results",
+     "alerts",
+     "acknowledgement"
+    ],
+    "practice": "Complete a training order-to-result cycle",
+    "need_tags": [
+     "electronic-health-records",
+     "veterinary-practice"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_medplum_health_system_3",
+    "slug": "medplum-health-system-3",
+    "title": "Efficiency features",
+    "outcome": "You can: document faster without losing quality",
+    "topics": [
+     "templates",
+     "smart phrases",
+     "favourites",
+     "voice"
+    ],
+    "practice": "Build three personal templates",
+    "need_tags": [
+     "electronic-health-records",
+     "veterinary-practice"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_medplum_health_system_4",
+    "slug": "medplum-health-system-4",
+    "title": "Scheduling and communication",
+    "outcome": "You can: manage appointments and messages",
+    "topics": [
+     "scheduling",
+     "reminders",
+     "patient messages",
+     "telehealth"
+    ],
+    "practice": "Set up reminders for a clinic list",
+    "need_tags": [
+     "clinic-scheduling",
+     "telemedicine",
+     "electronic-health-records",
+     "veterinary-practice"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_medplum_health_system_8",
+    "slug": "medplum-health-system-8",
+    "title": "Signature skills in Medplum",
+    "outcome": "You can: use the features that make Medplum distinctive",
+    "topics": [
+     "patient records",
+     "orders and documentation",
+     "scheduling"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "electronic-health-records",
+     "veterinary-practice"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_medplum_health_system_9",
+    "slug": "medplum-health-system-9",
+    "title": "Advanced Medplum",
+    "outcome": "You can: use Medplum's advanced capabilities with confidence",
+    "topics": [
+     "templates",
+     "reporting",
+     "safety features"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "electronic-health-records",
+     "veterinary-practice"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_medplum_health_system_5",
+    "slug": "medplum-health-system-5",
+    "title": "Reporting and quality",
+    "outcome": "You can: use system data for audit and improvement",
+    "topics": [
+     "reports",
+     "registries",
+     "quality measures",
+     "governance"
+    ],
+    "practice": "Run a report for a clinical audit",
+    "need_tags": [
+     "clinical-audit-qi",
+     "electronic-health-records",
+     "veterinary-practice"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_medplum_health_system_10",
+    "slug": "medplum-health-system-10",
+    "title": "Integrate Medplum into your workflow",
+    "outcome": "You can: connect Medplum with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Medplum to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "electronic-health-records",
+     "veterinary-practice"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_medplum_health_system_11",
+    "slug": "medplum-health-system-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Medplum well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Medplum\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "electronic-health-records",
+     "veterinary-practice"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype",
+ "archetype": "health-system",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

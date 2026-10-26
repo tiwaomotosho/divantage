@@ -1,34 +1,12 @@
-// S10 Resource index.
-import { Link } from "react-router";
+// S10 Learning resources.
 import type { Route } from "./+types/resources";
 import { db } from "~/lib/content.server";
 import { meta as pageMeta } from "../lib/build";
-import { PageHeader } from "../components/ui";
+import { RecordList } from "../components/Record";
 
-export function loader() {
-  return {
-    items: db()
-      .records.resources.map((r) => ({ slug: r.slug, title: r.title, summary: r.summary, publisher: r.publisher }))
-      .sort((a, b) => a.title.localeCompare(b.title)),
-  };
-}
+export const loader = () => ({ items: db().records.resources.map((r) => ({ slug: r.slug, title: r.title, summary: r.summary })) });
 export const meta: Route.MetaFunction = () => pageMeta("Learning resources", "Official documentation and free courses we have checked.");
 
 export default function Resources({ loaderData: d }: Route.ComponentProps) {
-  return (
-    <div className="container">
-      <PageHeader title="Learning resources" lead="Official documentation and free courses, checked and linked at the source." />
-      <ul className="card-grid">
-        {d.items.map((t) => (
-          <li key={t.slug} className="card card-link">
-            <h3>
-              <Link to={`/resources/${t.slug}`}>{t.title}</Link>
-            </h3>
-            <p className="meta">{t.publisher}</p>
-            <p className="meta">{t.summary}</p>
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
+  return <RecordList label="Learning resources" title="Official docs and free courses" lead="Checked and linked at the source." items={d.items} base="/resources/" icon="book-open" hue="blue" />;
 }

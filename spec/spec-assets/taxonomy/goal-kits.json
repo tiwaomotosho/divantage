@@ -1,0 +1,898 @@
+{
+ "version": "2.7.0",
+ "note": "Kits are ordered paths of goals for outcomes people state in their own words (D-086). Edit goal_kits.txt, never this file.",
+ "count": 29,
+ "values": [
+  {
+   "slug": "get-a-remote-job",
+   "title": "Get a remote job",
+   "promise": "From a CV that passes screening to a safe, paid job: pick a board, apply, interview, get paid in dollars without scams.",
+   "markets": [
+    "all"
+   ],
+   "goal_ids": [
+    "goal_write_a_cv_that_passes_applicant_tracking_systems",
+    "goal_build_a_cv_for_free",
+    "goal_optimise_my_linkedin_profile_for_recruiters",
+    "goal_build_a_portfolio_for_a_job_or_clients",
+    "goal_pick_a_remote_job_board",
+    "goal_find_remote_jobs_open_to_africa",
+    "goal_check_a_remote_job_offer_is_genuine",
+    "goal_prepare_for_a_remote_interview",
+    "goal_compare_ways_to_get_paid_from_abroad"
+   ],
+   "goal_slugs": [
+    "write-a-cv-that-passes-applicant-tracking-systems",
+    "build-a-cv-for-free",
+    "optimise-my-linkedin-profile-for-recruiters",
+    "build-a-portfolio-for-a-job-or-clients",
+    "pick-a-remote-job-board",
+    "find-remote-jobs-open-to-africa",
+    "check-a-remote-job-offer-is-genuine",
+    "prepare-for-a-remote-interview",
+    "compare-ways-to-get-paid-from-abroad"
+   ],
+   "search_phrases": [
+    "i want a remote job",
+    "work from home",
+    "get hired abroad",
+    "remote work nigeria",
+    "online job",
+    "job in dollars"
+   ]
+  },
+  {
+   "slug": "become-a-freelancer",
+   "title": "Start freelancing and win your first client",
+   "promise": "Set up a profile, find work, price it, sign a contract and get paid safely.",
+   "markets": [
+    "all"
+   ],
+   "goal_ids": [
+    "goal_start_freelancing_with_a_strong_profile",
+    "goal_build_a_portfolio_for_a_job_or_clients",
+    "goal_find_freelance_work_from_nigeria",
+    "goal_win_my_first_freelance_client",
+    "goal_price_my_freelance_work",
+    "goal_write_a_freelance_contract_and_get_it_signed",
+    "goal_compare_ways_to_get_paid_from_abroad",
+    "goal_keep_freelance_income_safe_from_failed_payment_apps",
+    "goal_manage_freelance_time_and_clients"
+   ],
+   "goal_slugs": [
+    "start-freelancing-with-a-strong-profile",
+    "build-a-portfolio-for-a-job-or-clients",
+    "find-freelance-work-from-nigeria",
+    "win-my-first-freelance-client",
+    "price-my-freelance-work",
+    "write-a-freelance-contract-and-get-it-signed",
+    "compare-ways-to-get-paid-from-abroad",
+    "keep-freelance-income-safe-from-failed-payment-apps",
+    "manage-freelance-time-and-clients"
+   ],
+   "search_phrases": [
+    "become a freelancer",
+    "earn online",
+    "side income",
+    "get clients online"
+   ]
+  },
+  {
+   "slug": "edit-a-short-video",
+   "title": "Edit a short video",
+   "promise": "Shoot, edit, caption and publish a short video on a phone or low-spec laptop without copyright trouble.",
+   "markets": [
+    "all"
+   ],
+   "goal_ids": [
+    "goal_make_a_short_video_on_my_phone",
+    "goal_edit_a_short_video_for_tiktok_reels_or_shorts",
+    "goal_add_captions_to_a_video",
+    "goal_find_free_photos_videos_and_music_i_can_use",
+    "goal_avoid_copyright_strikes_on_my_videos",
+    "goal_make_a_thumbnail_that_gets_clicks",
+    "goal_compress_and_convert_video_to_save_data"
+   ],
+   "goal_slugs": [
+    "make-a-short-video-on-my-phone",
+    "edit-a-short-video-for-tiktok-reels-or-shorts",
+    "add-captions-to-a-video",
+    "find-free-photos-videos-and-music-i-can-use",
+    "avoid-copyright-strikes-on-my-videos",
+    "make-a-thumbnail-that-gets-clicks",
+    "compress-and-convert-video-to-save-data"
+   ],
+   "search_phrases": [
+    "edit a video",
+    "make a reel",
+    "tiktok video",
+    "video editing app",
+    "short video"
+   ]
+  },
+  {
+   "slug": "teach-kids-programming",
+   "title": "Teach kids programming",
+   "promise": "Choose age-right tools, plan lessons, start a club and keep children's data safe.",
+   "markets": [
+    "all"
+   ],
+   "goal_ids": [
+    "goal_pick_a_coding_app_for_children",
+    "goal_teach_young_children_their_first_coding",
+    "goal_teach_kids_to_code_with_blocks",
+    "goal_teach_kids_programming_without_a_computer",
+    "goal_teach_kids_game_making",
+    "goal_teach_kids_robotics_and_electronics",
+    "goal_teach_kids_real_text_coding",
+    "goal_start_a_kids_coding_club_or_class",
+    "goal_keep_kids_safe_on_coding_platforms"
+   ],
+   "goal_slugs": [
+    "pick-a-coding-app-for-children",
+    "teach-young-children-their-first-coding",
+    "teach-kids-to-code-with-blocks",
+    "teach-kids-programming-without-a-computer",
+    "teach-kids-game-making",
+    "teach-kids-robotics-and-electronics",
+    "teach-kids-real-text-coding",
+    "start-a-kids-coding-club-or-class",
+    "keep-kids-safe-on-coding-platforms"
+   ],
+   "search_phrases": [
+    "teach kids to code",
+    "kids coding class",
+    "children programming",
+    "coding club",
+    "teach scratch"
+   ]
+  },
+  {
+   "slug": "learn-to-code",
+   "title": "Learn to code from zero",
+   "promise": "Pick a path, practise daily on a phone or laptop, build projects and get unstuck.",
+   "markets": [
+    "all"
+   ],
+   "goal_ids": [
+    "goal_learn_to_code_from_zero",
+    "goal_learn_to_code_on_my_phone",
+    "goal_learn_web_development",
+    "goal_learn_python",
+    "goal_code_in_the_browser_without_installing_anything",
+    "goal_get_unstuck_when_code_breaks",
+    "goal_build_a_developer_portfolio",
+    "goal_practise_coding_interview_questions"
+   ],
+   "goal_slugs": [
+    "learn-to-code-from-zero",
+    "learn-to-code-on-my-phone",
+    "learn-web-development",
+    "learn-python",
+    "code-in-the-browser-without-installing-anything",
+    "get-unstuck-when-code-breaks",
+    "build-a-developer-portfolio",
+    "practise-coding-interview-questions"
+   ],
+   "search_phrases": [
+    "learn programming",
+    "become a developer",
+    "learn python",
+    "learn web development",
+    "free coding course"
+   ]
+  },
+  {
+   "slug": "get-a-tech-job",
+   "title": "Break into tech",
+   "promise": "Learn a skill, join a free programme, build proof of work and apply to local and remote roles.",
+   "markets": [
+    "ng"
+   ],
+   "goal_ids": [
+    "goal_learn_tech_free_with_a_nigerian_programme",
+    "goal_learn_to_code_from_zero",
+    "goal_build_a_developer_portfolio",
+    "goal_find_a_hackathon_to_build_and_win",
+    "goal_optimise_my_linkedin_profile_for_recruiters",
+    "goal_network_and_find_a_mentor",
+    "goal_find_graduate_trainee_and_internship_roles"
+   ],
+   "goal_slugs": [
+    "learn-tech-free-with-a-nigerian-programme",
+    "learn-to-code-from-zero",
+    "build-a-developer-portfolio",
+    "find-a-hackathon-to-build-and-win",
+    "optimise-my-linkedin-profile-for-recruiters",
+    "network-and-find-a-mentor",
+    "find-graduate-trainee-and-internship-roles"
+   ],
+   "search_phrases": [
+    "tech career",
+    "3mtt",
+    "get into tech",
+    "developer job nigeria"
+   ]
+  },
+  {
+   "slug": "make-my-cv-and-portfolio",
+   "title": "CV, portfolio and proofreading pack",
+   "promise": "Everything you need to apply: CV, portfolio site, proofreading and a LinkedIn profile.",
+   "markets": [
+    "all"
+   ],
+   "goal_ids": [
+    "goal_pick_a_cv_builder",
+    "goal_write_a_cv_that_passes_applicant_tracking_systems",
+    "goal_pick_a_cv_checker_and_job_tracker",
+    "goal_proofread_and_fix_grammar_in_anything_i_write",
+    "goal_build_a_portfolio_for_a_job_or_clients",
+    "goal_pick_a_portfolio_site_builder",
+    "goal_make_a_one_page_resume_website",
+    "goal_set_up_a_linkedin_profile"
+   ],
+   "goal_slugs": [
+    "pick-a-cv-builder",
+    "write-a-cv-that-passes-applicant-tracking-systems",
+    "pick-a-cv-checker-and-job-tracker",
+    "proofread-and-fix-grammar-in-anything-i-write",
+    "build-a-portfolio-for-a-job-or-clients",
+    "pick-a-portfolio-site-builder",
+    "make-a-one-page-resume-website",
+    "set-up-a-linkedin-profile"
+   ],
+   "search_phrases": [
+    "write a cv",
+    "make a resume",
+    "portfolio website",
+    "cover letter",
+    "proofread my cv"
+   ]
+  },
+  {
+   "slug": "sell-on-whatsapp",
+   "title": "Sell on WhatsApp",
+   "promise": "Set up a catalogue, take payments, build trust and avoid scams.",
+   "markets": [
+    "ng"
+   ],
+   "goal_ids": [
+    "goal_sell_on_whatsapp_with_a_catalogue_and_payments",
+    "goal_get_a_payment_link_without_a_website",
+    "goal_give_customers_a_short_link_or_qr_code",
+    "goal_get_reviews_and_show_trust_online",
+    "goal_protect_whatsapp_and_social_accounts_from_takeover"
+   ],
+   "goal_slugs": [
+    "sell-on-whatsapp-with-a-catalogue-and-payments",
+    "get-a-payment-link-without-a-website",
+    "give-customers-a-short-link-or-qr-code",
+    "get-reviews-and-show-trust-online",
+    "protect-whatsapp-and-social-accounts-from-takeover"
+   ],
+   "search_phrases": [
+    "sell on whatsapp",
+    "online shop",
+    "sell products online",
+    "instagram business"
+   ]
+  },
+  {
+   "slug": "start-a-business-in-nigeria",
+   "title": "Start and register a business in Nigeria",
+   "promise": "Test the idea, register with CAC, price, get paid and stay on the right side of data and tax rules.",
+   "markets": [
+    "ng"
+   ],
+   "goal_ids": [
+    "goal_validate_a_business_idea_before_spending_money",
+    "goal_choose_and_check_a_business_name",
+    "goal_get_free_or_cheap_business_registration_in_nigeria",
+    "goal_price_my_product_or_service",
+    "goal_get_a_payment_link_without_a_website",
+    "goal_understand_nigeria_data_protection_rules_as_a_small_business",
+    "goal_get_funding_grants_and_loans_for_my_small_business"
+   ],
+   "goal_slugs": [
+    "validate-a-business-idea-before-spending-money",
+    "choose-and-check-a-business-name",
+    "get-free-or-cheap-business-registration-in-nigeria",
+    "price-my-product-or-service",
+    "get-a-payment-link-without-a-website",
+    "understand-nigeria-data-protection-rules-as-a-small-business",
+    "get-funding-grants-and-loans-for-my-small-business"
+   ],
+   "search_phrases": [
+    "start a business",
+    "register business",
+    "cac",
+    "small business",
+    "startup"
+   ]
+  },
+  {
+   "slug": "stay-safe-online",
+   "title": "Stay safe online and avoid scams",
+   "promise": "Spot fake sites and offers, secure accounts, check investments and report fraud.",
+   "markets": [
+    "all"
+   ],
+   "goal_ids": [
+    "goal_spot_a_fake_website_shop_or_social_page",
+    "goal_protect_whatsapp_and_social_accounts_from_takeover",
+    "goal_check_if_my_email_or_password_leaked",
+    "goal_check_an_investment_or_loan_app_is_legal_before_paying",
+    "goal_report_fraud_or_a_scam_in_nigeria",
+    "goal_find_or_lock_a_lost_or_stolen_phone"
+   ],
+   "goal_slugs": [
+    "spot-a-fake-website-shop-or-social-page",
+    "protect-whatsapp-and-social-accounts-from-takeover",
+    "check-if-my-email-or-password-leaked",
+    "check-an-investment-or-loan-app-is-legal-before-paying",
+    "report-fraud-or-a-scam-in-nigeria",
+    "find-or-lock-a-lost-or-stolen-phone"
+   ],
+   "search_phrases": [
+    "online scam",
+    "hacked",
+    "fake website",
+    "fraud",
+    "phishing",
+    "safe online"
+   ]
+  },
+  {
+   "slug": "keep-my-child-safe-online",
+   "title": "Keep my child safe online",
+   "promise": "Set limits, choose safe apps, talk about risks and know where to get help.",
+   "markets": [
+    "all"
+   ],
+   "goal_ids": [
+    "goal_set_screen_time_and_content_limits_for_kids",
+    "goal_get_a_safe_first_phone_or_tablet_for_a_child",
+    "goal_talk_to_children_about_online_risks",
+    "goal_protect_children_from_sharing_images_and_grooming"
+   ],
+   "goal_slugs": [
+    "set-screen-time-and-content-limits-for-kids",
+    "get-a-safe-first-phone-or-tablet-for-a-child",
+    "talk-to-children-about-online-risks",
+    "protect-children-from-sharing-images-and-grooming"
+   ],
+   "search_phrases": [
+    "parental controls",
+    "child safety online",
+    "kids phone",
+    "screen time"
+   ]
+  },
+  {
+   "slug": "write-better-in-english",
+   "title": "Write clearly and correctly",
+   "promise": "Fix grammar, sound professional, check plagiarism honestly and cite sources.",
+   "markets": [
+    "all"
+   ],
+   "goal_ids": [
+    "goal_proofread_and_fix_grammar_in_anything_i_write",
+    "goal_write_in_a_clear_professional_tone",
+    "goal_rewrite_a_paragraph_so_it_sounds_better",
+    "goal_write_with_ai_without_sounding_like_a_robot",
+    "goal_check_an_essay_for_plagiarism_the_honest_way",
+    "goal_cite_sources_and_build_a_reference_list"
+   ],
+   "goal_slugs": [
+    "proofread-and-fix-grammar-in-anything-i-write",
+    "write-in-a-clear-professional-tone",
+    "rewrite-a-paragraph-so-it-sounds-better",
+    "write-with-ai-without-sounding-like-a-robot",
+    "check-an-essay-for-plagiarism-the-honest-way",
+    "cite-sources-and-build-a-reference-list"
+   ],
+   "search_phrases": [
+    "proofread",
+    "grammar",
+    "improve my english",
+    "essay help",
+    "paraphrase"
+   ]
+  },
+  {
+   "slug": "get-paid-from-abroad",
+   "title": "Get paid from abroad",
+   "promise": "Compare ways to receive foreign currency, send money cheaply and protect your income.",
+   "markets": [
+    "ng"
+   ],
+   "goal_ids": [
+    "goal_compare_ways_to_get_paid_from_abroad",
+    "goal_send_money_to_and_from_africa_cheaply",
+    "goal_keep_freelance_income_safe_from_failed_payment_apps",
+    "goal_check_an_investment_or_loan_app_is_legal_before_paying"
+   ],
+   "goal_slugs": [
+    "compare-ways-to-get-paid-from-abroad",
+    "send-money-to-and-from-africa-cheaply",
+    "keep-freelance-income-safe-from-failed-payment-apps",
+    "check-an-investment-or-loan-app-is-legal-before-paying"
+   ],
+   "search_phrases": [
+    "receive dollars",
+    "payoneer",
+    "foreign account",
+    "get paid by clients abroad"
+   ]
+  },
+  {
+   "slug": "start-a-youtube-channel",
+   "title": "Start a YouTube or TikTok channel",
+   "promise": "Plan, record, edit, publish and grow a channel.",
+   "markets": [
+    "all"
+   ],
+   "goal_ids": [
+    "goal_start_a_youtube_or_tiktok_channel",
+    "goal_edit_a_youtube_video_on_a_laptop",
+    "goal_make_a_thumbnail_that_gets_clicks",
+    "goal_avoid_copyright_strikes_on_my_videos",
+    "goal_grow_an_instagram_or_tiktok_following",
+    "goal_start_and_grow_a_youtube_channel"
+   ],
+   "goal_slugs": [
+    "start-a-youtube-or-tiktok-channel",
+    "edit-a-youtube-video-on-a-laptop",
+    "make-a-thumbnail-that-gets-clicks",
+    "avoid-copyright-strikes-on-my-videos",
+    "grow-an-instagram-or-tiktok-following",
+    "start-and-grow-a-youtube-channel"
+   ],
+   "search_phrases": [
+    "youtube channel",
+    "content creator",
+    "start tiktok",
+    "become a creator"
+   ]
+  },
+  {
+   "slug": "study-for-free-online",
+   "title": "Study and learn for free",
+   "promise": "Find free courses, learn on a phone, revise smarter and earn certificates.",
+   "markets": [
+    "all"
+   ],
+   "goal_ids": [
+    "goal_learn_skills_on_youtube_the_smart_way",
+    "goal_take_better_notes_in_class_or_meetings",
+    "goal_make_flashcards_and_revise_smarter",
+    "goal_summarise_a_book_or_long_document_in_minutes",
+    "goal_read_free_books_and_textbooks_legally"
+   ],
+   "goal_slugs": [
+    "learn-skills-on-youtube-the-smart-way",
+    "take-better-notes-in-class-or-meetings",
+    "make-flashcards-and-revise-smarter",
+    "summarise-a-book-or-long-document-in-minutes",
+    "read-free-books-and-textbooks-legally"
+   ],
+   "search_phrases": [
+    "free courses",
+    "study online",
+    "learn new skill",
+    "exam preparation"
+   ]
+  },
+  {
+   "slug": "farm-smarter",
+   "title": "Farm smarter and sell better",
+   "promise": "Keep farm records, check weather, find pests and buyers, and sell online.",
+   "markets": [
+    "all"
+   ],
+   "goal_ids": [
+    "goal_keep_farm_records_and_costs",
+    "goal_work_out_farm_profit_per_crop_or_batch",
+    "goal_check_weather_before_planting_or_harvest",
+    "goal_learn_which_pests_and_weeds_hit_my_crop",
+    "goal_find_buyers_and_current_crop_prices",
+    "goal_sell_farm_produce_online"
+   ],
+   "goal_slugs": [
+    "keep-farm-records-and-costs",
+    "work-out-farm-profit-per-crop-or-batch",
+    "check-weather-before-planting-or-harvest",
+    "learn-which-pests-and-weeds-hit-my-crop",
+    "find-buyers-and-current-crop-prices",
+    "sell-farm-produce-online"
+   ],
+   "search_phrases": [
+    "farming app",
+    "farm records",
+    "sell my produce",
+    "crop prices",
+    "farmer"
+   ]
+  },
+  {
+   "slug": "run-a-small-shop",
+   "title": "Run a small shop or business day to day",
+   "promise": "Till and stock, card and transfer payments, books and invoices, and customer trust.",
+   "markets": [
+    "ng"
+   ],
+   "goal_ids": [
+    "goal_run_a_shop_till_and_stock",
+    "goal_take_card_and_transfer_payments_in_a_shop",
+    "goal_keep_books_for_a_nigerian_small_business",
+    "goal_send_an_invoice_and_chase_payment",
+    "goal_price_my_product_or_service",
+    "goal_get_reviews_and_show_trust_online"
+   ],
+   "goal_slugs": [
+    "run-a-shop-till-and-stock",
+    "take-card-and-transfer-payments-in-a-shop",
+    "keep-books-for-a-nigerian-small-business",
+    "send-an-invoice-and-chase-payment",
+    "price-my-product-or-service",
+    "get-reviews-and-show-trust-online"
+   ],
+   "search_phrases": [
+    "run my shop",
+    "small business tools",
+    "keep records",
+    "invoice customers"
+   ]
+  },
+  {
+   "slug": "sell-online-in-nigeria",
+   "title": "Open an online shop",
+   "promise": "Open a shop, take payments, ship orders, and advertise on social media.",
+   "markets": [
+    "ng"
+   ],
+   "goal_ids": [
+    "goal_open_an_online_shop",
+    "goal_build_an_online_shop_website",
+    "goal_take_card_and_transfer_payments_in_a_shop",
+    "goal_pick_inventory_shipping_and_stock_software",
+    "goal_run_facebook_and_instagram_ads",
+    "goal_make_social_media_graphics"
+   ],
+   "goal_slugs": [
+    "open-an-online-shop",
+    "build-an-online-shop-website",
+    "take-card-and-transfer-payments-in-a-shop",
+    "pick-inventory-shipping-and-stock-software",
+    "run-facebook-and-instagram-ads",
+    "make-social-media-graphics"
+   ],
+   "search_phrases": [
+    "sell online",
+    "ecommerce",
+    "online store",
+    "instagram shop"
+   ]
+  },
+  {
+   "slug": "build-a-brand",
+   "title": "Build a brand people trust",
+   "promise": "Name, logo, brand colours, business card, social graphics and a website.",
+   "markets": [
+    "all"
+   ],
+   "goal_ids": [
+    "goal_choose_and_check_a_business_name",
+    "goal_make_a_logo_and_brand_colours_and_fonts",
+    "goal_create_a_business_card_and_brand_kit",
+    "goal_make_social_media_graphics",
+    "goal_get_a_professional_domain_and_email_for_my_name",
+    "goal_build_a_website_without_code"
+   ],
+   "goal_slugs": [
+    "choose-and-check-a-business-name",
+    "make-a-logo-and-brand-colours-and-fonts",
+    "create-a-business-card-and-brand-kit",
+    "make-social-media-graphics",
+    "get-a-professional-domain-and-email-for-my-name",
+    "build-a-website-without-code"
+   ],
+   "search_phrases": [
+    "make a logo",
+    "brand identity",
+    "business card",
+    "brand colours"
+   ]
+  },
+  {
+   "slug": "teach-online",
+   "title": "Teach online",
+   "promise": "Plan lessons, record them, make them interactive, include everyone and keep it light on data.",
+   "markets": [
+    "all"
+   ],
+   "goal_ids": [
+    "goal_plan_a_lesson",
+    "goal_record_a_lesson_or_screencast",
+    "goal_make_a_lesson_interactive",
+    "goal_teach_online_with_a_classroom_space",
+    "goal_teach_on_whatsapp_or_low_data",
+    "goal_add_captions_and_transcripts_to_teaching_videos",
+    "goal_make_learning_games_and_quizzes_for_students"
+   ],
+   "goal_slugs": [
+    "plan-a-lesson",
+    "record-a-lesson-or-screencast",
+    "make-a-lesson-interactive",
+    "teach-online-with-a-classroom-space",
+    "teach-on-whatsapp-or-low-data",
+    "add-captions-and-transcripts-to-teaching-videos",
+    "make-learning-games-and-quizzes-for-students"
+   ],
+   "search_phrases": [
+    "teach online",
+    "online class",
+    "virtual classroom",
+    "make lessons",
+    "teacher tools"
+   ]
+  },
+  {
+   "slug": "pass-my-exams",
+   "title": "Pass my exams",
+   "promise": "Register, revise, practise and manage time, with honest use of AI.",
+   "markets": [
+    "all"
+   ],
+   "goal_ids": [
+    "goal_pick_a_way_to_register_for_nigerian_exams",
+    "goal_study_effectively_for_exams",
+    "goal_make_flashcards_and_revise_smarter",
+    "goal_take_better_notes_in_class_or_meetings",
+    "goal_use_ai_to_study_and_write_better",
+    "goal_pay_school_fees_and_exam_fees_online"
+   ],
+   "goal_slugs": [
+    "pick-a-way-to-register-for-nigerian-exams",
+    "study-effectively-for-exams",
+    "make-flashcards-and-revise-smarter",
+    "take-better-notes-in-class-or-meetings",
+    "use-ai-to-study-and-write-better",
+    "pay-school-fees-and-exam-fees-online"
+   ],
+   "search_phrases": [
+    "exam preparation",
+    "waec",
+    "jamb",
+    "study tips",
+    "revision"
+   ]
+  },
+  {
+   "slug": "write-and-publish-a-book",
+   "title": "Write and publish a book",
+   "promise": "Write, edit, format, design the cover and publish and sell.",
+   "markets": [
+    "all"
+   ],
+   "goal_ids": [
+    "goal_pick_a_tool_to_write_and_publish_a_book",
+    "goal_proofread_and_fix_grammar_in_anything_i_write",
+    "goal_design_a_print_ready_brochure_or_book_cover",
+    "goal_write_and_publish_a_book",
+    "goal_pick_a_publishing_platform_for_writers"
+   ],
+   "goal_slugs": [
+    "pick-a-tool-to-write-and-publish-a-book",
+    "proofread-and-fix-grammar-in-anything-i-write",
+    "design-a-print-ready-brochure-or-book-cover",
+    "write-and-publish-a-book",
+    "pick-a-publishing-platform-for-writers"
+   ],
+   "search_phrases": [
+    "write a book",
+    "self publish",
+    "publish ebook",
+    "author"
+   ]
+  },
+  {
+   "slug": "release-my-music",
+   "title": "Record and release my music",
+   "promise": "Record, mix, distribute, grow your artist profile and make a video.",
+   "markets": [
+    "all"
+   ],
+   "goal_ids": [
+    "goal_record_and_mix_a_song",
+    "goal_release_a_song_to_streaming_platforms",
+    "goal_release_music_in_africa",
+    "goal_grow_an_artist_profile_on_streaming",
+    "goal_make_a_short_video_on_my_phone",
+    "goal_avoid_copyright_strikes_on_my_videos"
+   ],
+   "goal_slugs": [
+    "record-and-mix-a-song",
+    "release-a-song-to-streaming-platforms",
+    "release-music-in-africa",
+    "grow-an-artist-profile-on-streaming",
+    "make-a-short-video-on-my-phone",
+    "avoid-copyright-strikes-on-my-videos"
+   ],
+   "search_phrases": [
+    "release a song",
+    "music distribution",
+    "spotify for artists",
+    "make a beat"
+   ]
+  },
+  {
+   "slug": "run-a-clinic-or-practice",
+   "title": "Run a small clinic or practice",
+   "promise": "Records, appointments, telemedicine and evidence at the point of care.",
+   "markets": [
+    "all"
+   ],
+   "goal_ids": [
+    "goal_run_a_clinic_record_system_on_a_small_budget",
+    "goal_keep_patient_notes_in_an_electronic_record",
+    "goal_take_clinic_appointments_and_send_reminders",
+    "goal_see_patients_by_video",
+    "goal_find_the_best_evidence_for_a_clinical_question"
+   ],
+   "goal_slugs": [
+    "run-a-clinic-record-system-on-a-small-budget",
+    "keep-patient-notes-in-an-electronic-record",
+    "take-clinic-appointments-and-send-reminders",
+    "see-patients-by-video",
+    "find-the-best-evidence-for-a-clinical-question"
+   ],
+   "search_phrases": [
+    "clinic software",
+    "patient records",
+    "telemedicine",
+    "run a clinic"
+   ]
+  },
+  {
+   "slug": "organise-an-event",
+   "title": "Plan an event or wedding",
+   "promise": "Plan, sell tickets, run the roster and collect money.",
+   "markets": [
+    "all"
+   ],
+   "goal_ids": [
+    "goal_organise_a_wedding_or_big_family_event",
+    "goal_plan_and_sell_tickets_for_an_event",
+    "goal_run_a_community_event_or_volunteer_roster",
+    "goal_pick_tools_to_sell_tickets_and_raise_money_for_an_event"
+   ],
+   "goal_slugs": [
+    "organise-a-wedding-or-big-family-event",
+    "plan-and-sell-tickets-for-an-event",
+    "run-a-community-event-or-volunteer-roster",
+    "pick-tools-to-sell-tickets-and-raise-money-for-an-event"
+   ],
+   "search_phrases": [
+    "plan an event",
+    "wedding planning",
+    "sell tickets",
+    "owambe"
+   ]
+  },
+  {
+   "slug": "earn-with-a-vehicle",
+   "title": "Earn with a car, bike or delivery rides",
+   "promise": "Ride-hailing and delivery apps, trip costs and tracking your profit.",
+   "markets": [
+    "ng"
+   ],
+   "goal_ids": [
+    "goal_earn_more_as_a_ride_hailing_driver",
+    "goal_earn_as_a_delivery_rider",
+    "goal_keep_driver_expenses_and_profit",
+    "goal_track_vehicles_and_drivers",
+    "goal_plan_delivery_routes"
+   ],
+   "goal_slugs": [
+    "earn-more-as-a-ride-hailing-driver",
+    "earn-as-a-delivery-rider",
+    "keep-driver-expenses-and-profit",
+    "track-vehicles-and-drivers",
+    "plan-delivery-routes"
+   ],
+   "search_phrases": [
+    "uber driver",
+    "indrive",
+    "delivery rider",
+    "dispatch",
+    "earn with my car"
+   ]
+  },
+  {
+   "slug": "file-my-taxes",
+   "title": "Understand and file my taxes",
+   "promise": "Register, keep records and file, with a pointer to the official portal.",
+   "markets": [
+    "ng"
+   ],
+   "goal_ids": [
+    "goal_register_and_file_business_taxes_in_nigeria",
+    "goal_prepare_and_file_taxes",
+    "goal_keep_books_for_a_nigerian_small_business",
+    "goal_send_an_invoice_and_chase_payment"
+   ],
+   "goal_slugs": [
+    "register-and-file-business-taxes-in-nigeria",
+    "prepare-and-file-taxes",
+    "keep-books-for-a-nigerian-small-business",
+    "send-an-invoice-and-chase-payment"
+   ],
+   "search_phrases": [
+    "pay tax nigeria",
+    "firs",
+    "tin",
+    "file taxes",
+    "freelancer tax"
+   ]
+  },
+  {
+   "slug": "learn-ai-skills",
+   "title": "Learn and use AI well",
+   "promise": "Learn prompting, research with sources, build with AI and know the limits.",
+   "markets": [
+    "all"
+   ],
+   "goal_ids": [
+    "goal_learn_ai_and_prompting",
+    "goal_research_with_ai_and_sources",
+    "goal_use_ai_to_study_and_write_better",
+    "goal_make_a_cv_with_ai_help",
+    "goal_build_an_app_on_an_ai_model",
+    "goal_use_ai_in_yoruba_igbo_hausa_or_pidgin"
+   ],
+   "goal_slugs": [
+    "learn-ai-and-prompting",
+    "research-with-ai-and-sources",
+    "use-ai-to-study-and-write-better",
+    "make-a-cv-with-ai-help",
+    "build-an-app-on-an-ai-model",
+    "use-ai-in-yoruba-igbo-hausa-or-pidgin"
+   ],
+   "search_phrases": [
+    "learn ai",
+    "prompt engineering",
+    "chatgpt help",
+    "use ai for work"
+   ]
+  },
+  {
+   "slug": "manage-money-at-home",
+   "title": "Manage money and family life",
+   "promise": "Budget, school fees, saving safely and caring for family.",
+   "markets": [
+    "ng"
+   ],
+   "goal_ids": [
+    "goal_plan_family_money_and_school_fees",
+    "goal_save_and_invest_safely_in_nigeria",
+    "goal_check_an_investment_or_loan_app_is_legal_before_paying",
+    "goal_organise_care_for_a_parent_or_relative",
+    "goal_help_a_parent_or_grandparent_use_technology"
+   ],
+   "goal_slugs": [
+    "plan-family-money-and-school-fees",
+    "save-and-invest-safely-in-nigeria",
+    "check-an-investment-or-loan-app-is-legal-before-paying",
+    "organise-care-for-a-parent-or-relative",
+    "help-a-parent-or-grandparent-use-technology"
+   ],
+   "search_phrases": [
+    "budget",
+    "save money",
+    "family finance",
+    "care for parents"
+   ]
+  }
+ ]
+}

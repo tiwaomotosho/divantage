@@ -1,6 +1,6 @@
 # 14 — SEO, Analytics and Performance Plan
 
-**Version:** 2.5
+**Version:** 2.6
 
 ## 1. SEO and sharing
 **Canonical URLs and slugs:** see 03 §3.2 and §4. Every indexable page emits `<link rel="canonical" href="{SITE_URL}{path}">` with no query strings and no trailing slash, except `/`.
@@ -162,3 +162,14 @@ No uptime percentage is promised publicly.
 - **Techniques to hold the line:** route-level code splitting; the search runtime, MiniSearch and the indexes load on first focus; the helper panel is lazy-loaded; no UI component library; icons are inline SVG; CSS is hand-written from tokens.
 - **Helper pages (S39, S40)** are indexable at public launch with a canonical URL and are listed in the sitemap. They are noindex during the private beta (FR-066). Structured data on helper pages contains no price, rating or review.
 - **Analytics:** four new aggregate events (`helper_started`, `helper_stage_completed`, `helper_panel_opened`, `helper_shared`; 29 events in total). Helper funnels (start → stage completions) appear in the weekly report (A01).
+
+## V2.6 additions
+- **Analytics:** 18 new events (47 in total) for goals, alternatives, intents, stars, sign-in, recommendations, trending, outcomes, outputs and account actions. Rule: user-linked activity (signed in, consented) goes to the `activity` table; anonymous counters stay aggregate.
+- **Search budget:** the goal index adds about 54 KB gzip (all tool names indexed); the budget for it is 60 KB gzip.
+- **SEO:** `/goals` and `/goals/{slug}` are prerendered and indexable; `/me`, `/me/profile` and `/suggestions/{ref}` are `noindex`. `/trending` is indexable only when visible.
+
+## V2.7 additions
+- **Pages:** 29 kit pages and one `/kits` index, prerendered. Add to the sitemap. Title pattern: "How to {outcome}: tools, prices and safety checks".
+- **Structured data:** `ItemList` on kit pages (steps in order); keep price out of structured data while a profile is a Preview, because it is not verified.
+- **Events (6 new, 53 in total):** `kit_opened`, `kit_step_opened`, `safety_panel_expanded`, `profile_preview_opened`, `goal_search_no_kit`, `suggestion_card_clicked`. The `goal_search_no_kit` query is redacted like `search_submitted`.
+- **Budget:** the profile JSON is 1.4 MB raw; do not ship it whole to the browser. Serve per tool and as a price-chip index (slug, model, free tier, verified flag), about 100 KB raw.

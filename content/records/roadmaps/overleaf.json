@@ -23,7 +23,10 @@
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
      "technical-reporting",
-     "academic-writing"
+     "academic-writing",
+     "cv-portfolio",
+     "notebooks",
+     "literature-review"
     ],
     "estimated_hours": {
      "value": 1,
@@ -45,7 +48,10 @@
     "need_tags": [
      "write-clearly",
      "technical-reporting",
-     "academic-writing"
+     "academic-writing",
+     "cv-portfolio",
+     "notebooks",
+     "literature-review"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -67,7 +73,10 @@
     "need_tags": [
      "write-clearly",
      "technical-reporting",
-     "academic-writing"
+     "academic-writing",
+     "cv-portfolio",
+     "notebooks",
+     "literature-review"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -93,7 +102,10 @@
      "academic-writing",
      "book-writing-publishing",
      "technical-writing",
-     "technical-reporting"
+     "technical-reporting",
+     "cv-portfolio",
+     "notebooks",
+     "literature-review"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -116,7 +128,10 @@
      "technical-writing",
      "copywriting",
      "technical-reporting",
-     "academic-writing"
+     "academic-writing",
+     "cv-portfolio",
+     "notebooks",
+     "literature-review"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -138,7 +153,10 @@
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
      "technical-reporting",
-     "academic-writing"
+     "academic-writing",
+     "cv-portfolio",
+     "notebooks",
+     "literature-review"
     ],
     "estimated_hours": {
      "value": 3,
@@ -161,7 +179,10 @@
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
      "technical-reporting",
-     "academic-writing"
+     "academic-writing",
+     "cv-portfolio",
+     "notebooks",
+     "literature-review"
     ],
     "estimated_hours": {
      "value": 4,
@@ -183,7 +204,10 @@
     "need_tags": [
      "newsletter-publishing",
      "technical-reporting",
-     "academic-writing"
+     "academic-writing",
+     "cv-portfolio",
+     "notebooks",
+     "literature-review"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -206,7 +230,10 @@
     "need_tags": [
      "automation-workflows",
      "technical-reporting",
-     "academic-writing"
+     "academic-writing",
+     "cv-portfolio",
+     "notebooks",
+     "literature-review"
     ],
     "estimated_hours": {
      "value": 2,
@@ -229,7 +256,10 @@
     "need_tags": [
      "workshop-facilitation",
      "technical-reporting",
-     "academic-writing"
+     "academic-writing",
+     "cv-portfolio",
+     "notebooks",
+     "literature-review"
     ],
     "estimated_hours": {
      "value": 2,

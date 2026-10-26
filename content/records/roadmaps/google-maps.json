@@ -25,7 +25,15 @@
      "maps-navigation",
      "route-planning-fleet",
      "travel-planning",
-     "service-referral"
+     "service-referral",
+     "seo",
+     "driver-earnings",
+     "emergency-comms",
+     "volunteering",
+     "personal-health-tracking",
+     "restaurant-operations",
+     "business-planning",
+     "online-safety"
     ],
     "estimated_hours": {
      "value": 1,
@@ -48,7 +56,15 @@
      "maps-navigation",
      "travel-planning",
      "route-planning-fleet",
-     "service-referral"
+     "service-referral",
+     "seo",
+     "driver-earnings",
+     "emergency-comms",
+     "volunteering",
+     "personal-health-tracking",
+     "restaurant-operations",
+     "business-planning",
+     "online-safety"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -74,7 +90,15 @@
      "maritime-navigation",
      "route-planning-fleet",
      "travel-planning",
-     "service-referral"
+     "service-referral",
+     "seo",
+     "driver-earnings",
+     "emergency-comms",
+     "volunteering",
+     "personal-health-tracking",
+     "restaurant-operations",
+     "business-planning",
+     "online-safety"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -100,7 +124,15 @@
      "maps-navigation",
      "route-planning-fleet",
      "travel-planning",
-     "service-referral"
+     "service-referral",
+     "seo",
+     "driver-earnings",
+     "emergency-comms",
+     "volunteering",
+     "personal-health-tracking",
+     "restaurant-operations",
+     "business-planning",
+     "online-safety"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -123,7 +155,15 @@
      "maps-navigation",
      "route-planning-fleet",
      "travel-planning",
-     "service-referral"
+     "service-referral",
+     "seo",
+     "driver-earnings",
+     "emergency-comms",
+     "volunteering",
+     "personal-health-tracking",
+     "restaurant-operations",
+     "business-planning",
+     "online-safety"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -147,7 +187,15 @@
      "maps-navigation",
      "route-planning-fleet",
      "travel-planning",
-     "service-referral"
+     "service-referral",
+     "seo",
+     "driver-earnings",
+     "emergency-comms",
+     "volunteering",
+     "personal-health-tracking",
+     "restaurant-operations",
+     "business-planning",
+     "online-safety"
     ],
     "estimated_hours": {
      "value": 3,
@@ -173,7 +221,15 @@
      "maps-navigation",
      "route-planning-fleet",
      "travel-planning",
-     "service-referral"
+     "service-referral",
+     "seo",
+     "driver-earnings",
+     "emergency-comms",
+     "volunteering",
+     "personal-health-tracking",
+     "restaurant-operations",
+     "business-planning",
+     "online-safety"
     ],
     "estimated_hours": {
      "value": 4,
@@ -199,7 +255,15 @@
      "route-planning-fleet",
      "maps-navigation",
      "travel-planning",
-     "service-referral"
+     "service-referral",
+     "seo",
+     "driver-earnings",
+     "emergency-comms",
+     "volunteering",
+     "personal-health-tracking",
+     "restaurant-operations",
+     "business-planning",
+     "online-safety"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -224,7 +288,15 @@
      "maps-navigation",
      "route-planning-fleet",
      "travel-planning",
-     "service-referral"
+     "service-referral",
+     "seo",
+     "driver-earnings",
+     "emergency-comms",
+     "volunteering",
+     "personal-health-tracking",
+     "restaurant-operations",
+     "business-planning",
+     "online-safety"
     ],
     "estimated_hours": {
      "value": 2,
@@ -249,7 +321,15 @@
      "maps-navigation",
      "route-planning-fleet",
      "travel-planning",
-     "service-referral"
+     "service-referral",
+     "seo",
+     "driver-earnings",
+     "emergency-comms",
+     "volunteering",
+     "personal-health-tracking",
+     "restaurant-operations",
+     "business-planning",
+     "online-safety"
     ],
     "estimated_hours": {
      "value": 2,

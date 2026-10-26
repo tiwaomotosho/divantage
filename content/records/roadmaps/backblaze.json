@@ -1,0 +1,236 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_backblaze",
+ "slug": "backblaze",
+ "title": "Backblaze skill roadmap",
+ "tool_ids": [
+  "tool_backblaze"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_backblaze_productivity_app_0",
+    "slug": "backblaze-productivity-app-0",
+    "title": "Get started with Backblaze",
+    "outcome": "You can: set up Backblaze, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "files-cloud-storage"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_backblaze_productivity_app_1",
+    "slug": "backblaze-productivity-app-1",
+    "title": "Set up and sync",
+    "outcome": "You can: set up Backblaze on your devices",
+    "topics": [
+     "account",
+     "sync",
+     "mobile app",
+     "settings"
+    ],
+    "practice": "Install Backblaze on phone and computer",
+    "need_tags": [
+     "files-cloud-storage"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_backblaze_productivity_app_2",
+    "slug": "backblaze-productivity-app-2",
+    "title": "Daily use",
+    "outcome": "You can: do your daily tasks faster",
+    "topics": [
+     "core actions",
+     "shortcuts",
+     "search"
+    ],
+    "practice": "Use Backblaze for a week and note one saved hour",
+    "need_tags": [
+     "personal-productivity",
+     "files-cloud-storage"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_backblaze_productivity_app_3",
+    "slug": "backblaze-productivity-app-3",
+    "title": "Organise",
+    "outcome": "You can: build a simple system",
+    "topics": [
+     "folders/labels/tags",
+     "templates",
+     "naming conventions"
+    ],
+    "practice": "Reorganise your Backblaze with a clear system",
+    "need_tags": [
+     "personal-productivity",
+     "records-management",
+     "files-cloud-storage"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_backblaze_productivity_app_4",
+    "slug": "backblaze-productivity-app-4",
+    "title": "Share safely",
+    "outcome": "You can: collaborate without oversharing",
+    "topics": [
+     "sharing permissions",
+     "links",
+     "version history"
+    ],
+    "practice": "Audit your shared items",
+    "need_tags": [
+     "files-cloud-storage",
+     "online-safety"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_backblaze_productivity_app_8",
+    "slug": "backblaze-productivity-app-8",
+    "title": "Signature skills in Backblaze",
+    "outcome": "You can: use the features that make Backblaze distinctive",
+    "topics": [
+     "setup",
+     "daily use",
+     "sharing"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "files-cloud-storage"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_backblaze_productivity_app_9",
+    "slug": "backblaze-productivity-app-9",
+    "title": "Advanced Backblaze",
+    "outcome": "You can: use Backblaze's advanced capabilities with confidence",
+    "topics": [
+     "automation",
+     "organisation systems",
+     "security"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "files-cloud-storage"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_backblaze_productivity_app_5",
+    "slug": "backblaze-productivity-app-5",
+    "title": "Automate",
+    "outcome": "You can: let Backblaze work for you",
+    "topics": [
+     "rules",
+     "integrations",
+     "scheduled tasks"
+    ],
+    "practice": "Create two automation rules",
+    "need_tags": [
+     "automation-workflows",
+     "files-cloud-storage"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_backblaze_productivity_app_10",
+    "slug": "backblaze-productivity-app-10",
+    "title": "Integrate Backblaze into your workflow",
+    "outcome": "You can: connect Backblaze with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Backblaze to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "files-cloud-storage"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_backblaze_productivity_app_11",
+    "slug": "backblaze-productivity-app-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Backblaze well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Backblaze\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "files-cloud-storage"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype",
+ "archetype": "productivity-app",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

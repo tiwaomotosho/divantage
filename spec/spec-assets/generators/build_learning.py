@@ -116,8 +116,13 @@ need_ids=collections.defaultdict(set)
 for slug,res in resolved.items():
     for n in res["core"]+res["sector"]: need_ids[n].add(slug)
 who={}
+_gp=os.path.join(TAX,"goals.json")   # V2.6: a tool is also used for a need when one of that need's goals lists it
+goal_needs={}
+if os.path.exists(_gp):
+    for g in json.load(open(_gp))["values"]:
+        for tid in g["tool_ids"]: goal_needs.setdefault(tid,set()).add(g["need"])
 for t in reg.values():
-    ns=[n["slug"] for n in needs.values() if t["id"] in n["tool_ids"]]
+    ns=sorted({n["slug"] for n in needs.values() if t["id"] in n["tool_ids"]}|goal_needs.get(t["id"],set()))
     ids=set()
     universal=any(needs[n]["universal"] for n in ns)
     for n in ns: ids|=need_ids[n]

@@ -1,5 +1,7 @@
 # 17 — AI Implementation Master Prompt
 
+> **V2.8 override (D-105, proposed):** for Launch-stage features behind the `accounts` flag, the bans on accounts and recommendations, "Milestone F: skip accounts", "Cloudflare Pages" and the 723-tool figure no longer apply (hosting is Vercel, D-083). Beta stays static with no account. For UI work, read `CLAUDE.md` and docs 28 and 29 first.
+
 Copy everything below the line into your AI coding tool, or give it to the development team, together with this whole folder.
 
 ---
@@ -97,7 +99,7 @@ Ship the private beta (D-062) when the 22 §6 Stage 1 "done when" list passes, t
   - CI pipeline (16 §3).
 - **F — Accounts:** **skip** (not in R1).
 - **G — Quality gate:**
-  - run every automated TC in the matrix (TC-001 to TC-132) and `validate_feature_matrix.py`;
+  - run every automated TC in the matrix (TC-001 to TC-150) and `validate_feature_matrix.py`;
   - get the owner's or a designer's sign-off on the look (06 §12);
   - fill in the status column;
   - Lighthouse and axe results;
@@ -131,3 +133,6 @@ Files changed: [list]
 Anyone, from a radiologist or a wells engineer to an okada rider, a pastor or a grandmother, types who they are and within two taps sees tools and a learning path that clearly fit *their* work. They can then advise a friend or family member with a shareable toolkit card.
 
 A first-time visitor on a mid-range phone arrives from a QR code or search engine with a practical goal. They find relevant guidance, understand the options, costs and limits (with sources and dates), and take a useful next step, without needing to understand how the platform is organised.
+
+## V2.7 additions
+Read doc 26 first. Build in this order and stop to report after each: (1) tool profile block with the Preview label; (2) kits (S49, S50) and natural-language goal search; (3) safety panels, related goals and next steps; (4) rules R9 to R12. Do not remove or soften the Preview label, do not write copy that calls a tool safe, and do not hand-edit generated JSON; edit `spec-assets/taxonomy/source/*.txt` and run `rebuild_all.sh`. All V2.7 data is AI-drafted and must be shown as such.

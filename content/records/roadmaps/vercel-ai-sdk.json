@@ -1,0 +1,251 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_vercel_ai_sdk",
+ "slug": "vercel-ai-sdk",
+ "title": "Vercel AI SDK skill roadmap",
+ "tool_ids": [
+  "tool_vercel_ai_sdk"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_vercel_ai_sdk_dev_tool_0",
+    "slug": "vercel-ai-sdk-dev-tool-0",
+    "title": "Get started with Vercel AI SDK",
+    "outcome": "You can: set up Vercel AI SDK, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "ai-app-development",
+     "machine-learning"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_vercel_ai_sdk_dev_tool_1",
+    "slug": "vercel-ai-sdk-dev-tool-1",
+    "title": "Install and run",
+    "outcome": "You can: set up Vercel AI SDK and run a first project",
+    "topics": [
+     "installation",
+     "project structure",
+     "documentation",
+     "hello world"
+    ],
+    "practice": "Run the official quick start",
+    "need_tags": [
+     "write-code",
+     "ai-app-development",
+     "machine-learning"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_vercel_ai_sdk_dev_tool_2",
+    "slug": "vercel-ai-sdk-dev-tool-2",
+    "title": "Core workflow",
+    "outcome": "You can: do the everyday task Vercel AI SDK is for",
+    "topics": [
+     "core commands/APIs",
+     "configuration",
+     "conventions"
+    ],
+    "practice": "Build a small feature or config with Vercel AI SDK",
+    "need_tags": [
+     "write-code",
+     "ai-app-development",
+     "machine-learning"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_vercel_ai_sdk_dev_tool_3",
+    "slug": "vercel-ai-sdk-dev-tool-3",
+    "title": "Debug and test",
+    "outcome": "You can: find and prevent problems",
+    "topics": [
+     "logs",
+     "debugging",
+     "tests",
+     "common errors"
+    ],
+    "practice": "Fix a deliberately broken example",
+    "need_tags": [
+     "write-code",
+     "test-automation",
+     "ai-app-development",
+     "machine-learning"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_vercel_ai_sdk_dev_tool_4",
+    "slug": "vercel-ai-sdk-dev-tool-4",
+    "title": "Work in a team",
+    "outcome": "You can: use Vercel AI SDK in shared projects",
+    "topics": [
+     "version control",
+     "code review",
+     "environments",
+     "secrets"
+    ],
+    "practice": "Add Vercel AI SDK to a team repository with docs",
+    "need_tags": [
+     "version-control",
+     "ai-app-development",
+     "machine-learning"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_vercel_ai_sdk_dev_tool_8",
+    "slug": "vercel-ai-sdk-dev-tool-8",
+    "title": "Signature skills in Vercel AI SDK",
+    "outcome": "You can: use the features that make Vercel AI SDK distinctive",
+    "topics": [
+     "setup",
+     "core workflow",
+     "debugging"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "ai-app-development",
+     "machine-learning"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_vercel_ai_sdk_dev_tool_9",
+    "slug": "vercel-ai-sdk-dev-tool-9",
+    "title": "Advanced Vercel AI SDK",
+    "outcome": "You can: use Vercel AI SDK's advanced capabilities with confidence",
+    "topics": [
+     "performance",
+     "security",
+     "automation and CI"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "ai-app-development",
+     "machine-learning"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_vercel_ai_sdk_dev_tool_5",
+    "slug": "vercel-ai-sdk-dev-tool-5",
+    "title": "Production-ready",
+    "outcome": "You can: run Vercel AI SDK reliably in production",
+    "topics": [
+     "security",
+     "performance",
+     "monitoring",
+     "CI/CD"
+    ],
+    "practice": "Add Vercel AI SDK to a CI pipeline with checks",
+    "need_tags": [
+     "devops-cicd",
+     "observability",
+     "ai-app-development",
+     "machine-learning"
+    ],
+    "estimated_hours": {
+     "value": 5.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_vercel_ai_sdk_dev_tool_10",
+    "slug": "vercel-ai-sdk-dev-tool-10",
+    "title": "Integrate Vercel AI SDK into your workflow",
+    "outcome": "You can: connect Vercel AI SDK with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Vercel AI SDK to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "ai-app-development",
+     "machine-learning"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_vercel_ai_sdk_dev_tool_11",
+    "slug": "vercel-ai-sdk-dev-tool-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Vercel AI SDK well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Vercel AI SDK\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "ai-app-development",
+     "machine-learning"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype",
+ "archetype": "dev-tool",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

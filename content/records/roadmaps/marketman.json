@@ -1,0 +1,247 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_marketman",
+ "slug": "marketman",
+ "title": "MarketMan skill roadmap",
+ "tool_ids": [
+  "tool_marketman"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_marketman_erp_ops_0",
+    "slug": "marketman-erp-ops-0",
+    "title": "Get started with MarketMan",
+    "outcome": "You can: set up MarketMan, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "recipe-costing",
+     "inventory-procurement"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_marketman_erp_ops_1",
+    "slug": "marketman-erp-ops-1",
+    "title": "Navigate the system",
+    "outcome": "You can: find, create and update records",
+    "topics": [
+     "modules",
+     "master data",
+     "search",
+     "permissions"
+    ],
+    "practice": "Create and update one record end to end",
+    "need_tags": [
+     "recipe-costing",
+     "inventory-procurement"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_marketman_erp_ops_2",
+    "slug": "marketman-erp-ops-2",
+    "title": "Core workflow",
+    "outcome": "You can: complete your role's main workflow",
+    "topics": [
+     "orders/tasks/stock moves",
+     "approvals",
+     "statuses"
+    ],
+    "practice": "Complete one full workflow for your role",
+    "need_tags": [
+     "recipe-costing",
+     "inventory-procurement"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_marketman_erp_ops_3",
+    "slug": "marketman-erp-ops-3",
+    "title": "Planning and scheduling",
+    "outcome": "You can: plan work, stock or projects",
+    "topics": [
+     "schedules",
+     "dependencies",
+     "reorder points",
+     "resources"
+    ],
+    "practice": "Build a plan or schedule for a real piece of work",
+    "need_tags": [
+     "project-scheduling",
+     "inventory-procurement",
+     "recipe-costing"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_marketman_erp_ops_4",
+    "slug": "marketman-erp-ops-4",
+    "title": "Reports and dashboards",
+    "outcome": "You can: answer management questions",
+    "topics": [
+     "standard reports",
+     "filters",
+     "exports"
+    ],
+    "practice": "Build a report your manager asks for",
+    "need_tags": [
+     "kpi-tracking",
+     "recipe-costing",
+     "inventory-procurement"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_marketman_erp_ops_8",
+    "slug": "marketman-erp-ops-8",
+    "title": "Signature skills in MarketMan",
+    "outcome": "You can: use the features that make MarketMan distinctive",
+    "topics": [
+     "records and masters",
+     "workflows",
+     "reports"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "recipe-costing",
+     "inventory-procurement"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_marketman_erp_ops_9",
+    "slug": "marketman-erp-ops-9",
+    "title": "Advanced MarketMan",
+    "outcome": "You can: use MarketMan's advanced capabilities with confidence",
+    "topics": [
+     "configuration",
+     "integrations",
+     "analytics"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "recipe-costing",
+     "inventory-procurement"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_marketman_erp_ops_5",
+    "slug": "marketman-erp-ops-5",
+    "title": "Configure and integrate",
+    "outcome": "You can: adapt MarketMan to how your organisation works",
+    "topics": [
+     "custom fields",
+     "workflows",
+     "integrations",
+     "data quality"
+    ],
+    "practice": "Propose and test one configuration improvement",
+    "need_tags": [
+     "erp",
+     "process-mapping",
+     "recipe-costing",
+     "inventory-procurement"
+    ],
+    "estimated_hours": {
+     "value": 4.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_marketman_erp_ops_10",
+    "slug": "marketman-erp-ops-10",
+    "title": "Integrate MarketMan into your workflow",
+    "outcome": "You can: connect MarketMan with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect MarketMan to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "recipe-costing",
+     "inventory-procurement"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_marketman_erp_ops_11",
+    "slug": "marketman-erp-ops-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use MarketMan well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use MarketMan\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "recipe-costing",
+     "inventory-procurement"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype",
+ "archetype": "erp-ops",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

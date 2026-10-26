@@ -1,0 +1,4 @@
+# Tool availability — where a tool is NOT available or has closed. Checked against a dated source; re-check at every review (V2.6, D-074).
+# slug | markets where NOT available (ng | africa | all | ng,africa) | since (YYYY-MM) | note (what happened; a source is named in research-queue.md)
+# Rules: a goal tagged for a market must not list a tool that is unavailable there (validate_goals.py). A tool unavailable everywhere is removed from the registry instead.
+uber | ng | 2026-09 | Uber ended operations in Nigeria (rides and Uber Send) in September 2026; still available in other countries.

@@ -1,0 +1,238 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_shapr3d",
+ "slug": "shapr3d",
+ "title": "Shapr3D skill roadmap",
+ "tool_ids": [
+  "tool_shapr3d"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_shapr3d_three_d_0",
+    "slug": "shapr3d-three-d-0",
+    "title": "Get started with Shapr3D",
+    "outcome": "You can: set up Shapr3D, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "3d-modelling"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_shapr3d_three_d_1",
+    "slug": "shapr3d-three-d-1",
+    "title": "Navigate 3D space",
+    "outcome": "You can: move around and select confidently",
+    "topics": [
+     "views",
+     "navigation",
+     "selection",
+     "units"
+    ],
+    "practice": "Navigate and measure a sample scene",
+    "need_tags": [
+     "3d-modelling"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_shapr3d_three_d_2",
+    "slug": "shapr3d-three-d-2",
+    "title": "Model simple objects",
+    "outcome": "You can: build simple 3D forms",
+    "topics": [
+     "primitives",
+     "extrude",
+     "edit modes",
+     "precision"
+    ],
+    "practice": "Model a chair or a room",
+    "need_tags": [
+     "3d-modelling",
+     "interior-design"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_shapr3d_three_d_3",
+    "slug": "shapr3d-three-d-3",
+    "title": "Materials and lighting",
+    "outcome": "You can: make models look real",
+    "topics": [
+     "materials",
+     "textures",
+     "lights",
+     "cameras"
+    ],
+    "practice": "Light and texture your model",
+    "need_tags": [
+     "3d-modelling",
+     "architectural-visualisation"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_shapr3d_three_d_4",
+    "slug": "shapr3d-three-d-4",
+    "title": "Render and present",
+    "outcome": "You can: produce images or walkthroughs",
+    "topics": [
+     "render settings",
+     "composition",
+     "exporting"
+    ],
+    "practice": "Render three views for a client",
+    "need_tags": [
+     "architectural-visualisation",
+     "3d-modelling"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_shapr3d_three_d_8",
+    "slug": "shapr3d-three-d-8",
+    "title": "Signature skills in Shapr3D",
+    "outcome": "You can: use the features that make Shapr3D distinctive",
+    "topics": [
+     "navigation",
+     "modelling basics",
+     "materials"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "3d-modelling"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_shapr3d_three_d_9",
+    "slug": "shapr3d-three-d-9",
+    "title": "Advanced Shapr3D",
+    "outcome": "You can: use Shapr3D's advanced capabilities with confidence",
+    "topics": [
+     "rendering",
+     "animation",
+     "optimisation"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "3d-modelling"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_shapr3d_three_d_5",
+    "slug": "shapr3d-three-d-5",
+    "title": "Animate and optimise",
+    "outcome": "You can: animate and optimise scenes",
+    "topics": [
+     "keyframes",
+     "walkthroughs",
+     "performance",
+     "file exchange"
+    ],
+    "practice": "Produce a 20-second walkthrough",
+    "need_tags": [
+     "3d-modelling",
+     "motion-graphics"
+    ],
+    "estimated_hours": {
+     "value": 5.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_shapr3d_three_d_10",
+    "slug": "shapr3d-three-d-10",
+    "title": "Integrate Shapr3D into your workflow",
+    "outcome": "You can: connect Shapr3D with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Shapr3D to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "3d-modelling"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_shapr3d_three_d_11",
+    "slug": "shapr3d-three-d-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Shapr3D well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Shapr3D\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "3d-modelling"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype",
+ "archetype": "three-d",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

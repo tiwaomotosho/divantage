@@ -24,7 +24,9 @@
     "need_tags": [
      "fact-check",
      "media-verification",
-     "osint-research"
+     "osint-research",
+     "online-safety",
+     "find-information"
     ],
     "estimated_hours": {
      "value": 1,
@@ -49,7 +51,8 @@
      "literature-review",
      "fact-check",
      "media-verification",
-     "osint-research"
+     "osint-research",
+     "online-safety"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -73,7 +76,9 @@
      "literature-review",
      "fact-check",
      "media-verification",
-     "osint-research"
+     "osint-research",
+     "online-safety",
+     "find-information"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -98,7 +103,9 @@
      "literature-review",
      "fact-check",
      "media-verification",
-     "osint-research"
+     "osint-research",
+     "online-safety",
+     "find-information"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -121,7 +128,9 @@
      "academic-writing",
      "fact-check",
      "media-verification",
-     "osint-research"
+     "osint-research",
+     "online-safety",
+     "find-information"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -144,7 +153,9 @@
     "need_tags": [
      "fact-check",
      "media-verification",
-     "osint-research"
+     "osint-research",
+     "online-safety",
+     "find-information"
     ],
     "estimated_hours": {
      "value": 3,
@@ -167,7 +178,9 @@
     "need_tags": [
      "fact-check",
      "media-verification",
-     "osint-research"
+     "osint-research",
+     "online-safety",
+     "find-information"
     ],
     "estimated_hours": {
      "value": 4,
@@ -192,7 +205,9 @@
      "research-surveys",
      "fact-check",
      "media-verification",
-     "osint-research"
+     "osint-research",
+     "online-safety",
+     "find-information"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -216,7 +231,9 @@
      "automation-workflows",
      "fact-check",
      "media-verification",
-     "osint-research"
+     "osint-research",
+     "online-safety",
+     "find-information"
     ],
     "estimated_hours": {
      "value": 2,
@@ -240,7 +257,9 @@
      "workshop-facilitation",
      "fact-check",
      "media-verification",
-     "osint-research"
+     "osint-research",
+     "online-safety",
+     "find-information"
     ],
     "estimated_hours": {
      "value": 2,

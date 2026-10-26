@@ -8,26 +8,31 @@
     "data": "bun run scripts/build-data.ts",
     "preview": "bun run scripts/preview.ts",
     "typecheck": "react-router typegen && tsc",
-    "test": "bun test tests"
+    "test": "bun test tests/*.test.ts",
+    "design:tokens": "node tools/build-tokens.mjs",
+    "design:check": "node tools/check-design.mjs app && node tools/check-design.mjs src",
+    "design:audit": "node tools/design-audit.mjs --base http://localhost:4173",
+    "design:selftest": "node tools/design-audit.mjs --reference",
+    "test:visual": "playwright test",
+    "test:visual:update": "playwright test --update-snapshots"
   },
   "dependencies": {
-    "@fontsource-variable/atkinson-hyperlegible-next": "5.3.0",
-    "@fontsource-variable/bricolage-grotesque": "5.3.0",
     "@react-router/node": "7.18.4",
     "isbot": "5.2.2",
-    "lucide-react": "1.61.0",
     "minisearch": "7.2.0",
     "react": "19.3.1",
     "react-dom": "19.3.1",
     "react-router": "7.18.4"
   },
   "devDependencies": {
+    "@playwright/test": "1.56.1",
     "@react-router/dev": "7.18.4",
     "@types/bun": "1.4.3",
     "@types/node": "26.6.5",
     "@types/react": "19.3.0",
     "@types/react-dom": "19.3.0",
     "@vercel/node": "26.0.0",
+    "playwright": "1.56.1",
     "typescript": "5.9.3",
     "vite": "8.3.5"
   },

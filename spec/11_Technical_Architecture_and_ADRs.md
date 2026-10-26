@@ -1,5 +1,8 @@
 # 11 — Technical Architecture and ADRs
 
+> **V2.8 hosting correction (D-069 / 32):** hosting is Vercel + Neon. Where this document says Cloudflare, Pages, Workers, D1, KV or wrangler, read the Vercel equivalent in `32_V2_8_Pack_Corrections.md` §2. Product behaviour and privacy rules are unchanged.
+
+
 **Version:** 2.5 · Implements V1 07's logical layers with concrete choices (decision register D-010 to D-017, D-039 to D-041, and D-069 for the Bun + Vite + React base). **ADR-008 supersedes ADR-001.**
 
 ## 1. Architecture overview
@@ -186,6 +189,10 @@ Each ADR covers context, decision, consequences, limitations, cost, portability 
   - *Next.js static export:* works, but adds a second framework's conventions the owner didn't ask for.
   - *Astro + React islands:* the lightest pages, but not the owner's preferred base. Kept as the fallback.
 - **Cost:** £0 framework. **Portability:** high (JSON content, plain TypeScript logic, standard static output). **Replacement:** Astro with islands, or Next.js static export.
+
+**ADR-009 Vercel and Postgres (D-083)** — Status: accepted. Context: the owner's pilot runs on Vercel and accepts Vercel for now; accounts, profiles and trending need relational data. Decision: Vercel for hosting and Functions; Neon Postgres via the Vercel Marketplace; migration `db/0002_accounts_profiles_postgres.sql` (it also holds `event_counts`, replacing the D1 counters). Consequences: vendor concentration on Vercel; costs scale with usage; the SQL has not been run against a real database and must be tested in Spike S-2's environment first. Revisit at 10,000 weekly active signed-in users.
+
+**ADR-010 Authentication (D-077)** — Status: proposed. Options: Auth.js (self-run, no per-user fee, more to maintain), Clerk (fast, per-user cost, third-party holds identities), Supabase Auth (bundled, ties to Supabase). Decision deferred to **Spike S-2**: compare cost at 10,000 users, Nigerian email deliverability, Google sign-in, data location and exit path. Default if the spike is not run: Auth.js with an email provider.
 
 ## 7. Technology versions
 Pin exact versions in `package.json` at project start, use the lockfile, and let Renovate or Dependabot propose updates weekly. Record the Bun version in `BUN_VERSION` (and `package.json`) and the Node LTS major in `.nvmrc`. Don't use any dependency that needs network access at runtime.

@@ -22,7 +22,9 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "online-safety"
+     "online-safety",
+     "security-testing",
+     "security-operations"
     ],
     "estimated_hours": {
      "value": 1,
@@ -43,7 +45,9 @@
     ],
     "practice": "Set up Microsoft Authenticator and store recovery details safely",
     "need_tags": [
-     "online-safety"
+     "online-safety",
+     "security-testing",
+     "security-operations"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -62,7 +66,9 @@
     ],
     "practice": "Use Microsoft Authenticator for a week on your main accounts",
     "need_tags": [
-     "online-safety"
+     "online-safety",
+     "security-testing",
+     "security-operations"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -85,7 +91,9 @@
     ],
     "practice": "Secure your top five accounts",
     "need_tags": [
-     "online-safety"
+     "online-safety",
+     "security-testing",
+     "security-operations"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -107,7 +115,9 @@
     "practice": "Review three real scam examples",
     "need_tags": [
      "online-safety",
-     "fact-check"
+     "fact-check",
+     "security-testing",
+     "security-operations"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -128,7 +138,9 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "online-safety"
+     "online-safety",
+     "security-testing",
+     "security-operations"
     ],
     "estimated_hours": {
      "value": 3,
@@ -149,7 +161,9 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "online-safety"
+     "online-safety",
+     "security-testing",
+     "security-operations"
     ],
     "estimated_hours": {
      "value": 4,
@@ -170,7 +184,9 @@
     "practice": "Help two people set up Microsoft Authenticator",
     "need_tags": [
      "online-safety",
-     "digital-basics"
+     "digital-basics",
+     "security-testing",
+     "security-operations"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -192,7 +208,9 @@
     "practice": "Connect Microsoft Authenticator to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "online-safety"
+     "online-safety",
+     "security-testing",
+     "security-operations"
     ],
     "estimated_hours": {
      "value": 2,
@@ -214,7 +232,9 @@
     "practice": "Write a one-page \"how we use Microsoft Authenticator\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "online-safety"
+     "online-safety",
+     "security-testing",
+     "security-operations"
     ],
     "estimated_hours": {
      "value": 2,

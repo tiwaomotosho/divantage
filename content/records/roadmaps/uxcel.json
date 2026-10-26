@@ -1,0 +1,247 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_uxcel",
+ "slug": "uxcel",
+ "title": "Uxcel skill roadmap",
+ "tool_ids": [
+  "tool_uxcel"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_uxcel_learning_platform_0",
+    "slug": "uxcel-learning-platform-0",
+    "title": "Get started with Uxcel",
+    "outcome": "You can: set up Uxcel, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "ui-ux-design",
+     "learn-online"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_uxcel_learning_platform_1",
+    "slug": "uxcel-learning-platform-1",
+    "title": "Choose the right course",
+    "outcome": "You can: pick learning that fits your goal",
+    "topics": [
+     "goals",
+     "levels",
+     "free vs paid",
+     "time needed"
+    ],
+    "practice": "Choose one course with a clear outcome",
+    "need_tags": [
+     "learn-online",
+     "ui-ux-design"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_uxcel_learning_platform_2",
+    "slug": "uxcel-learning-platform-2",
+    "title": "Build a study routine",
+    "outcome": "You can: study consistently",
+    "topics": [
+     "schedules",
+     "reminders",
+     "notes",
+     "offline options"
+    ],
+    "practice": "Plan four weeks of study",
+    "need_tags": [
+     "study-skills",
+     "learn-online",
+     "ui-ux-design"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_uxcel_learning_platform_3",
+    "slug": "uxcel-learning-platform-3",
+    "title": "Learn actively",
+    "outcome": "You can: remember and apply what you learn",
+    "topics": [
+     "practice",
+     "spaced repetition",
+     "projects"
+    ],
+    "practice": "Turn one module into flashcards and a small project",
+    "need_tags": [
+     "study-skills",
+     "memorise-knowledge",
+     "ui-ux-design",
+     "learn-online"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_uxcel_learning_platform_4",
+    "slug": "uxcel-learning-platform-4",
+    "title": "Prove your skills",
+    "outcome": "You can: turn learning into evidence",
+    "topics": [
+     "certificates",
+     "portfolios",
+     "LinkedIn"
+    ],
+    "practice": "Add a completed project to your portfolio",
+    "need_tags": [
+     "cv-portfolio",
+     "ui-ux-design",
+     "learn-online"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_uxcel_learning_platform_8",
+    "slug": "uxcel-learning-platform-8",
+    "title": "Signature skills in Uxcel",
+    "outcome": "You can: use the features that make Uxcel distinctive",
+    "topics": [
+     "finding courses",
+     "study routine",
+     "progress"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "ui-ux-design",
+     "learn-online"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_uxcel_learning_platform_9",
+    "slug": "uxcel-learning-platform-9",
+    "title": "Advanced Uxcel",
+    "outcome": "You can: use Uxcel's advanced capabilities with confidence",
+    "topics": [
+     "certificates",
+     "spaced practice",
+     "applying learning"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "ui-ux-design",
+     "learn-online"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_uxcel_learning_platform_5",
+    "slug": "uxcel-learning-platform-5",
+    "title": "Teach and learn with others",
+    "outcome": "You can: learn with and through other people",
+    "topics": [
+     "study groups",
+     "teaching",
+     "mentoring"
+    ],
+    "practice": "Run a study session for two friends",
+    "need_tags": [
+     "workshop-facilitation",
+     "ui-ux-design",
+     "learn-online"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_uxcel_learning_platform_10",
+    "slug": "uxcel-learning-platform-10",
+    "title": "Integrate Uxcel into your workflow",
+    "outcome": "You can: connect Uxcel with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Uxcel to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "ui-ux-design",
+     "learn-online"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_uxcel_learning_platform_11",
+    "slug": "uxcel-learning-platform-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Uxcel well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Uxcel\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "ui-ux-design",
+     "learn-online"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype",
+ "archetype": "learning-platform",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

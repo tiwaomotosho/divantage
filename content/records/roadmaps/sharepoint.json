@@ -23,7 +23,10 @@
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
      "regulatory-reporting",
-     "records-management"
+     "records-management",
+     "drilling-reporting",
+     "ediscovery",
+     "project-management"
     ],
     "estimated_hours": {
      "value": 1,
@@ -46,7 +49,10 @@
     "need_tags": [
      "group-messaging",
      "regulatory-reporting",
-     "records-management"
+     "records-management",
+     "drilling-reporting",
+     "ediscovery",
+     "project-management"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -69,7 +75,10 @@
     "need_tags": [
      "personal-productivity",
      "regulatory-reporting",
-     "records-management"
+     "records-management",
+     "drilling-reporting",
+     "ediscovery",
+     "project-management"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -93,7 +102,9 @@
     "need_tags": [
      "project-management",
      "regulatory-reporting",
-     "records-management"
+     "records-management",
+     "drilling-reporting",
+     "ediscovery"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -116,7 +127,10 @@
      "meeting-minutes",
      "workshop-facilitation",
      "regulatory-reporting",
-     "records-management"
+     "records-management",
+     "drilling-reporting",
+     "ediscovery",
+     "project-management"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -138,7 +152,10 @@
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
      "regulatory-reporting",
-     "records-management"
+     "records-management",
+     "drilling-reporting",
+     "ediscovery",
+     "project-management"
     ],
     "estimated_hours": {
      "value": 3,
@@ -162,7 +179,10 @@
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
      "regulatory-reporting",
-     "records-management"
+     "records-management",
+     "drilling-reporting",
+     "ediscovery",
+     "project-management"
     ],
     "estimated_hours": {
      "value": 4,
@@ -185,7 +205,10 @@
     "need_tags": [
      "records-management",
      "online-safety",
-     "regulatory-reporting"
+     "regulatory-reporting",
+     "drilling-reporting",
+     "ediscovery",
+     "project-management"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -208,7 +231,10 @@
     "need_tags": [
      "automation-workflows",
      "regulatory-reporting",
-     "records-management"
+     "records-management",
+     "drilling-reporting",
+     "ediscovery",
+     "project-management"
     ],
     "estimated_hours": {
      "value": 2,
@@ -231,7 +257,10 @@
     "need_tags": [
      "workshop-facilitation",
      "regulatory-reporting",
-     "records-management"
+     "records-management",
+     "drilling-reporting",
+     "ediscovery",
+     "project-management"
     ],
     "estimated_hours": {
      "value": 2,

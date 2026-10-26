@@ -1,5 +1,8 @@
 # 10 — API Specification
 
+> **V2.8 hosting correction (D-069 / 32):** hosting is Vercel + Neon. Where this document says Cloudflare, Pages, Workers, D1, KV or wrangler, read the Vercel equivalent in `32_V2_8_Pack_Corrections.md` §2. Product behaviour and privacy rules are unchanged.
+
+
 **Version:** 2.1 · **Machine-readable contract:** `spec-assets/api/openapi.yaml` (OpenAPI 3.1). Request bodies reference the JSON Schemas.
 
 ## 1. Shape of the R1 API
@@ -130,3 +133,38 @@ The schema also requires `supporting_url` for `pricing`, `feature`, `availabilit
 |---|---|---|
 | `/api/v1/whats-new.json` | Weekly entries: date, title, page, credit (consented only) | 5 min + SWR |
 | `/api/v1/flags.json` | Public flag values for client islands (no secrets) | 1 min |
+
+## 10. V2.6 additions (accounts and profile; flag `accounts`)
+All new endpoints are authenticated by a session cookie (HttpOnly, Secure, SameSite=Lax) except the first two. Public read endpoints are unchanged.
+
+| Method and path | Purpose |
+|---|---|
+| POST /api/v1/auth/request-code | Send a one-time email code (rate-limited, Turnstile) |
+| POST /api/v1/auth/verify | Exchange the code for a session; Google sign-in uses the provider callback |
+| POST /api/v1/auth/sign-out | End the session |
+| GET, PUT /api/v1/me | Read or edit the profile, identities, intents, market and the three consents |
+| GET /api/v1/me/export | JSON export of everything stored about the person |
+| DELETE /api/v1/me | Delete the account and its activity |
+| PUT, DELETE /api/v1/me/stars/{kind}/{id} | Star or unstar a skill, tool, goal or helper |
+| PUT /api/v1/me/skills/{id}/state | starred, learning or can_do |
+| PUT /api/v1/me/progress | Merge device progress (newer wins) |
+| POST /api/v1/me/outputs | Save a stage output (≤ 280 characters or https link) |
+| POST /api/v1/me/outcomes | Answer "What changed for you?" |
+| GET /api/v1/me/recommendations | Up to 5 cards with kind, target, why |
+| POST /api/v1/me/recommendations/{id}/feedback | not_for_me, already_know, clicked |
+| GET /api/v1/trending | Current lists or `{hidden:true}` |
+| GET /api/v1/suggestions/{ref} | Status of one suggestion |
+
+Errors use the existing envelope. Every write validates against a schema, enforces ownership by session user, and is rate-limited per user. Trending and the public endpoints send no personal data.
+
+## 11. V2.7 additions (read-only, static)
+All are generated JSON served from the build; no new write endpoints.
+| Endpoint | Source | Notes |
+|---|---|---|
+| `GET /api/v1/tool-profiles.json` and `/api/v1/tools/{slug}/profile.json` | `registry/tool-profiles.json` | Description, pricing model, free tier, price note, verification and the Preview label. Cache for a day. |
+| `GET /api/v1/kits.json` and `/api/v1/kits/{slug}.json` | `taxonomy/goal-kits.json` | Ordered goal slugs; the page joins goals, tools and profiles. |
+| `GET /api/v1/goal-links.json` | `taxonomy/goal-links.json` | Related goals, next steps, kits and safety tags per goal. |
+| `GET /api/v1/goal-safety.json` | `taxonomy/goal-safety.json` | Rule texts and the tags per goal. |
+| `GET /api/v1/identity-kit-hints.json` | `taxonomy/identity-kit-hints.json` | Three kit slugs per identity. |
+| `GET /api/v1/goals-index.json` | amended | Now also contains one entry per kit (`kit:{slug}`) with its phrases. Budget 60 KB gzip; measure it. |
+Events added: `kit_opened`, `kit_step_opened`, `safety_panel_expanded`, `profile_preview_opened`, `goal_search_no_kit`, `suggestion_card_clicked` (53 in total).

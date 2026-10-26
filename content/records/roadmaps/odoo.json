@@ -25,7 +25,16 @@
      "inventory-procurement",
      "erp",
      "production-planning",
-     "warehouse-inventory"
+     "warehouse-inventory",
+     "pharmacy-stock",
+     "maintenance-cmms",
+     "point-of-sale",
+     "property-management",
+     "restaurant-operations",
+     "hotel-management",
+     "case-management",
+     "quality-hse",
+     "project-management"
     ],
     "estimated_hours": {
      "value": 1,
@@ -49,7 +58,16 @@
      "inventory-procurement",
      "erp",
      "production-planning",
-     "warehouse-inventory"
+     "warehouse-inventory",
+     "pharmacy-stock",
+     "maintenance-cmms",
+     "point-of-sale",
+     "property-management",
+     "restaurant-operations",
+     "hotel-management",
+     "case-management",
+     "quality-hse",
+     "project-management"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -72,7 +90,16 @@
      "inventory-procurement",
      "erp",
      "production-planning",
-     "warehouse-inventory"
+     "warehouse-inventory",
+     "pharmacy-stock",
+     "maintenance-cmms",
+     "point-of-sale",
+     "property-management",
+     "restaurant-operations",
+     "hotel-management",
+     "case-management",
+     "quality-hse",
+     "project-management"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -99,7 +126,16 @@
      "inventory-procurement",
      "erp",
      "production-planning",
-     "warehouse-inventory"
+     "warehouse-inventory",
+     "pharmacy-stock",
+     "maintenance-cmms",
+     "point-of-sale",
+     "property-management",
+     "restaurant-operations",
+     "hotel-management",
+     "case-management",
+     "quality-hse",
+     "project-management"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -123,7 +159,16 @@
      "inventory-procurement",
      "erp",
      "production-planning",
-     "warehouse-inventory"
+     "warehouse-inventory",
+     "pharmacy-stock",
+     "maintenance-cmms",
+     "point-of-sale",
+     "property-management",
+     "restaurant-operations",
+     "hotel-management",
+     "case-management",
+     "quality-hse",
+     "project-management"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -147,7 +192,16 @@
      "inventory-procurement",
      "erp",
      "production-planning",
-     "warehouse-inventory"
+     "warehouse-inventory",
+     "pharmacy-stock",
+     "maintenance-cmms",
+     "point-of-sale",
+     "property-management",
+     "restaurant-operations",
+     "hotel-management",
+     "case-management",
+     "quality-hse",
+     "project-management"
     ],
     "estimated_hours": {
      "value": 3,
@@ -173,7 +227,16 @@
      "inventory-procurement",
      "erp",
      "production-planning",
-     "warehouse-inventory"
+     "warehouse-inventory",
+     "pharmacy-stock",
+     "maintenance-cmms",
+     "point-of-sale",
+     "property-management",
+     "restaurant-operations",
+     "hotel-management",
+     "case-management",
+     "quality-hse",
+     "project-management"
     ],
     "estimated_hours": {
      "value": 4,
@@ -198,7 +261,16 @@
      "process-mapping",
      "inventory-procurement",
      "production-planning",
-     "warehouse-inventory"
+     "warehouse-inventory",
+     "pharmacy-stock",
+     "maintenance-cmms",
+     "point-of-sale",
+     "property-management",
+     "restaurant-operations",
+     "hotel-management",
+     "case-management",
+     "quality-hse",
+     "project-management"
     ],
     "estimated_hours": {
      "value": 4.0,
@@ -223,7 +295,16 @@
      "inventory-procurement",
      "erp",
      "production-planning",
-     "warehouse-inventory"
+     "warehouse-inventory",
+     "pharmacy-stock",
+     "maintenance-cmms",
+     "point-of-sale",
+     "property-management",
+     "restaurant-operations",
+     "hotel-management",
+     "case-management",
+     "quality-hse",
+     "project-management"
     ],
     "estimated_hours": {
      "value": 2,
@@ -248,7 +329,16 @@
      "inventory-procurement",
      "erp",
      "production-planning",
-     "warehouse-inventory"
+     "warehouse-inventory",
+     "pharmacy-stock",
+     "maintenance-cmms",
+     "point-of-sale",
+     "property-management",
+     "restaurant-operations",
+     "hotel-management",
+     "case-management",
+     "quality-hse",
+     "project-management"
     ],
     "estimated_hours": {
      "value": 2,

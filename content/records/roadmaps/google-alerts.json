@@ -22,7 +22,8 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "pr-media-monitoring"
+     "pr-media-monitoring",
+     "find-information"
     ],
     "estimated_hours": {
      "value": 1,
@@ -44,7 +45,8 @@
     "practice": "Connect your accounts and set up your profile",
     "need_tags": [
      "social-media-presence",
-     "pr-media-monitoring"
+     "pr-media-monitoring",
+     "find-information"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -66,7 +68,8 @@
     "need_tags": [
      "social-media-management",
      "email-marketing",
-     "pr-media-monitoring"
+     "pr-media-monitoring",
+     "find-information"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -90,7 +93,8 @@
     "need_tags": [
      "web-analytics",
      "kpi-tracking",
-     "pr-media-monitoring"
+     "pr-media-monitoring",
+     "find-information"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -113,7 +117,8 @@
     "need_tags": [
      "email-marketing",
      "crm-sales",
-     "pr-media-monitoring"
+     "pr-media-monitoring",
+     "find-information"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -134,7 +139,8 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "pr-media-monitoring"
+     "pr-media-monitoring",
+     "find-information"
     ],
     "estimated_hours": {
      "value": 3,
@@ -157,7 +163,8 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "pr-media-monitoring"
+     "pr-media-monitoring",
+     "find-information"
     ],
     "estimated_hours": {
      "value": 4,
@@ -180,7 +187,8 @@
     "need_tags": [
      "automation-workflows",
      "online-ads",
-     "pr-media-monitoring"
+     "pr-media-monitoring",
+     "find-information"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -202,7 +210,8 @@
     "practice": "Connect Google Alerts to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "pr-media-monitoring"
+     "pr-media-monitoring",
+     "find-information"
     ],
     "estimated_hours": {
      "value": 2,
@@ -224,7 +233,8 @@
     "practice": "Write a one-page \"how we use Google Alerts\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "pr-media-monitoring"
+     "pr-media-monitoring",
+     "find-information"
     ],
     "estimated_hours": {
      "value": 2,

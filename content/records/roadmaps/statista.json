@@ -22,7 +22,9 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "market-research"
+     "market-research",
+     "policy-research",
+     "market-research-finance"
     ],
     "estimated_hours": {
      "value": 1,
@@ -45,7 +47,9 @@
     "need_tags": [
      "find-information",
      "literature-review",
-     "market-research"
+     "market-research",
+     "policy-research",
+     "market-research-finance"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -68,7 +72,9 @@
     "need_tags": [
      "literature-review",
      "fact-check",
-     "market-research"
+     "market-research",
+     "policy-research",
+     "market-research-finance"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -91,7 +97,9 @@
     "practice": "Build a reproducible search string",
     "need_tags": [
      "literature-review",
-     "market-research"
+     "market-research",
+     "policy-research",
+     "market-research-finance"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -112,7 +120,9 @@
     "practice": "Export results to Zotero and set an alert",
     "need_tags": [
      "academic-writing",
-     "market-research"
+     "market-research",
+     "policy-research",
+     "market-research-finance"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -133,7 +143,9 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "market-research"
+     "market-research",
+     "policy-research",
+     "market-research-finance"
     ],
     "estimated_hours": {
      "value": 3,
@@ -155,7 +167,9 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "market-research"
+     "market-research",
+     "policy-research",
+     "market-research-finance"
     ],
     "estimated_hours": {
      "value": 4,
@@ -178,7 +192,9 @@
     "need_tags": [
      "literature-review",
      "research-surveys",
-     "market-research"
+     "market-research",
+     "policy-research",
+     "market-research-finance"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -200,7 +216,9 @@
     "practice": "Connect Statista to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "market-research"
+     "market-research",
+     "policy-research",
+     "market-research-finance"
     ],
     "estimated_hours": {
      "value": 2,
@@ -222,7 +240,9 @@
     "practice": "Write a one-page \"how we use Statista\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "market-research"
+     "market-research",
+     "policy-research",
+     "market-research-finance"
     ],
     "estimated_hours": {
      "value": 2,

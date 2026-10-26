@@ -1,137 +1,277 @@
 {
-  "version": "2.5",
-  "note": "Feature flags (22 §4, §6.5). Read at build time and by client islands. Unknown flags are OFF. Runtime override: env var FLAG_<NAME>=on|off in Cloudflare Pages. Every flag has an owner and a review date so flags don't pile up. V2.5: each flag has a 'launch' value, the value it must have in production at the public launch (D-068, FR-073). validate_feature_matrix.py checks that every shipping feature's flags launch ON, except the beta-only flags noindex_site and beta_banner and the privacy-gated suggest_email.",
-  "flags": {
-    "explore_identity": {
-      "default": true,
-      "owner": "product",
-      "review_by": "2027-01-31",
-      "what": "Explore-by tab: Who are you? (S01-R)",
-      "launch": true
-    },
-    "explore_skills": {
-      "default": true,
-      "owner": "product",
-      "review_by": "2027-01-31",
-      "what": "Explore-by tab: Skills + S34/S35",
-      "launch": true
-    },
-    "explore_goal": {
-      "default": false,
-      "owner": "product",
-      "review_by": "2027-01-31",
-      "what": "Explore-by tab: What do you want to do?",
-      "launch": true
-    },
-    "explore_tools": {
-      "default": false,
-      "owner": "product",
-      "review_by": "2027-01-31",
-      "what": "Explore-by tab: Tools",
-      "launch": true
-    },
-    "explore_sectors": {
-      "default": false,
-      "owner": "product",
-      "review_by": "2027-01-31",
-      "what": "Explore-by tab: Sectors",
-      "launch": true
-    },
-    "suggest_edit": {
-      "default": true,
-      "owner": "product",
-      "review_by": "2027-06-30",
-      "what": "Suggest an edit button + S36 on every page",
-      "launch": true
-    },
-    "suggest_email": {
-      "default": false,
-      "owner": "product",
-      "review_by": "2027-01-31",
-      "what": "Optional email field in S36. Keep OFF until the privacy notice is approved (D-027). Stays off at launch until D-027 approves the privacy notice.",
-      "launch": false
-    },
-    "whats_new": {
-      "default": true,
-      "owner": "product",
-      "review_by": "2027-06-30",
-      "what": "S37 What's new page",
-      "launch": true
-    },
-    "contributors_page": {
-      "default": false,
-      "owner": "product",
-      "review_by": "2027-01-31",
-      "what": "S38 Contributors page",
-      "launch": true
-    },
-    "beta_banner": {
-      "default": true,
-      "owner": "product",
-      "review_by": "2027-01-31",
-      "what": "Site-wide early-version banner linking to Suggest an edit",
-      "launch": false
-    },
-    "roadmap_ticks": {
-      "default": true,
-      "owner": "product",
-      "review_by": "2027-06-30",
-      "what": "On-device 'I can do this' checkboxes",
-      "launch": true
-    },
-    "helping_mode": {
-      "default": false,
-      "owner": "product",
-      "review_by": "2027-01-31",
-      "what": "'I'm helping someone else' toggle (18 §11)",
-      "launch": true
-    },
-    "toolkit_cards": {
-      "default": false,
-      "owner": "product",
-      "review_by": "2027-01-31",
-      "what": "Printable/shareable toolkit cards",
-      "launch": true
-    },
-    "admin_report": {
-      "default": false,
-      "owner": "admin",
-      "review_by": "2027-03-31",
-      "what": "A01 internal admin report (moved from R1.5 into R1 by D-068)",
-      "launch": true
-    },
-    "noindex_site": {
-      "default": true,
-      "owner": "product",
-      "review_by": "2027-01-31",
-      "what": "Private beta: whole site noindex + robots disallow. Turn OFF per journey at open beta.",
-      "launch": false
-    },
-    "helpers": {
-      "default": true,
-      "launch": true,
-      "owner": "product",
-      "review_by": "2027-01-31",
-      "what": "Helpers: S39 index, S40 helper page (D-066)",
-      "listed": [
-        "musician",
-        "data-analyst",
-        "entrepreneur"
-      ]
-    },
-    "helper_panel": {
-      "default": true,
-      "launch": true,
-      "owner": "product",
-      "review_by": "2027-01-31",
-      "what": "S41 Helper panel shown on every page while a helper is active"
-    },
-    "helper_for_someone": {
-      "default": false,
-      "launch": true,
-      "owner": "product",
-      "review_by": "2027-01-31",
-      "what": "Start a helper for someone else; share link and card (FR-072). Turn on once the card text is reviewed."
-    }
+ "version": "2.6",
+ "note": "Feature flags (22 §4, §6.5). Read at build time and by client islands. Unknown flags are OFF. Runtime override: env var FLAG_<NAME>=on|off in Cloudflare Pages. Every flag has an owner and a review date so flags don't pile up. V2.5: each flag has a 'launch' value, the value it must have in production at the public launch (D-068, FR-073). validate_feature_matrix.py checks that every shipping feature's flags launch ON, except the beta-only flags noindex_site and beta_banner and the privacy-gated suggest_email.",
+ "flags": {
+  "explore_identity": {
+   "default": true,
+   "owner": "product",
+   "review_by": "2027-01-31",
+   "what": "Explore-by tab: Who are you? (S01-R)",
+   "launch": true
+  },
+  "explore_skills": {
+   "default": true,
+   "owner": "product",
+   "review_by": "2027-01-31",
+   "what": "Explore-by tab: Skills + S34/S35",
+   "launch": true
+  },
+  "explore_goal": {
+   "default": false,
+   "owner": "product",
+   "review_by": "2027-01-31",
+   "what": "Explore-by tab: What do you want to do?",
+   "launch": true
+  },
+  "explore_tools": {
+   "default": false,
+   "owner": "product",
+   "review_by": "2027-01-31",
+   "what": "Explore-by tab: Tools",
+   "launch": true
+  },
+  "explore_sectors": {
+   "default": false,
+   "owner": "product",
+   "review_by": "2027-01-31",
+   "what": "Explore-by tab: Sectors",
+   "launch": true
+  },
+  "suggest_edit": {
+   "default": true,
+   "owner": "product",
+   "review_by": "2027-06-30",
+   "what": "Suggest an edit button + S36 on every page",
+   "launch": true
+  },
+  "suggest_email": {
+   "default": false,
+   "owner": "product",
+   "review_by": "2027-01-31",
+   "what": "Optional email field in S36. Keep OFF until the privacy notice is approved (D-027). Stays off at launch until D-027 approves the privacy notice.",
+   "launch": false
+  },
+  "whats_new": {
+   "default": true,
+   "owner": "product",
+   "review_by": "2027-06-30",
+   "what": "S37 What's new page",
+   "launch": true
+  },
+  "contributors_page": {
+   "default": false,
+   "owner": "product",
+   "review_by": "2027-01-31",
+   "what": "S38 Contributors page",
+   "launch": true
+  },
+  "beta_banner": {
+   "default": true,
+   "owner": "product",
+   "review_by": "2027-01-31",
+   "what": "Site-wide early-version banner linking to Suggest an edit",
+   "launch": false
+  },
+  "roadmap_ticks": {
+   "default": true,
+   "owner": "product",
+   "review_by": "2027-06-30",
+   "what": "On-device 'I can do this' checkboxes",
+   "launch": true
+  },
+  "helping_mode": {
+   "default": false,
+   "owner": "product",
+   "review_by": "2027-01-31",
+   "what": "'I'm helping someone else' toggle (18 §11)",
+   "launch": true
+  },
+  "toolkit_cards": {
+   "default": false,
+   "owner": "product",
+   "review_by": "2027-01-31",
+   "what": "Printable/shareable toolkit cards",
+   "launch": true
+  },
+  "admin_report": {
+   "default": false,
+   "owner": "admin",
+   "review_by": "2027-03-31",
+   "what": "A01 internal admin report (moved from R1.5 into R1 by D-068)",
+   "launch": true
+  },
+  "noindex_site": {
+   "default": true,
+   "owner": "product",
+   "review_by": "2027-01-31",
+   "what": "Private beta: whole site noindex + robots disallow. Turn OFF per journey at open beta.",
+   "launch": false
+  },
+  "helpers": {
+   "default": true,
+   "launch": true,
+   "owner": "product",
+   "review_by": "2027-01-31",
+   "what": "Helpers: S39 index, S40 helper page (D-066)",
+   "listed": [
+    "musician",
+    "data-analyst",
+    "entrepreneur"
+   ]
+  },
+  "helper_panel": {
+   "default": true,
+   "launch": true,
+   "owner": "product",
+   "review_by": "2027-01-31",
+   "what": "S41 Helper panel shown on every page while a helper is active"
+  },
+  "helper_for_someone": {
+   "default": false,
+   "launch": true,
+   "owner": "product",
+   "review_by": "2027-01-31",
+   "what": "Start a helper for someone else; share link and card (FR-072). Turn on once the card text is reviewed."
+  },
+  "goals": {
+   "default": true,
+   "launch": true,
+   "owner": "product",
+   "review_by": "2027-01-31",
+   "what": "Goals (S42, S43), goal search and 'Jump straight to a goal' on the home page (D-071)"
+  },
+  "alternatives": {
+   "default": true,
+   "launch": true,
+   "owner": "product",
+   "review_by": "2027-01-31",
+   "what": "'Other ways to do this' strip: up to 7 derived alternatives on goal and tool pages (D-072)"
+  },
+  "intent_chips": {
+   "default": true,
+   "launch": true,
+   "owner": "product",
+   "review_by": "2027-01-31",
+   "what": "Compete / Grow / Scale chips on the home page (D-075)"
+  },
+  "stars": {
+   "default": true,
+   "launch": true,
+   "owner": "product",
+   "review_by": "2027-01-31",
+   "what": "Star skills, tools, goals and helpers; three skill states; My workbench (D-079). Device-only until accounts are on"
+  },
+  "continue_card": {
+   "default": true,
+   "launch": true,
+   "owner": "product",
+   "review_by": "2027-01-31",
+   "what": "'Continue where you left off' card on the home page (FR-083)"
+  },
+  "suggestion_status": {
+   "default": false,
+   "launch": true,
+   "owner": "product",
+   "review_by": "2027-01-31",
+   "what": "Suggestion status page /suggestions/{ref} (S48, FR-086) (default off in beta: needs accounts or server storage; turns on with them at Launch, V2.8)"
+  },
+  "outcome_prompt": {
+   "default": false,
+   "launch": true,
+   "owner": "product",
+   "review_by": "2027-01-31",
+   "what": "'What changed for you?' after a helper stage and 'Save what you made' (FR-084, FR-085) (default off in beta: needs accounts or server storage; turns on with them at Launch, V2.8)"
+  },
+  "accounts": {
+   "default": false,
+   "launch": true,
+   "owner": "product",
+   "review_by": "2027-01-31",
+   "what": "Optional sign-in after value is shown, with sync (D-076). Off in the first beta weeks until Spike S-2 passes"
+  },
+  "recommendations": {
+   "default": false,
+   "launch": true,
+   "owner": "product",
+   "review_by": "2027-01-31",
+   "what": "Rule-based 'next step' recommendations with a visible reason (D-080)"
+  },
+  "trending": {
+   "default": false,
+   "launch": true,
+   "owner": "product",
+   "review_by": "2027-01-31",
+   "what": "Aggregate 'popular this week' lists (D-081). Hidden until the minimum-size rules in 24 §9 are met"
+  },
+  "tool_profiles": {
+   "default": true,
+   "launch": true,
+   "owner": "product",
+   "review_by": "2027-01-31",
+   "what": "Tool description, price chip and Preview label on tool pages and cards (D-084). The Preview label cannot be switched off for unverified profiles"
+  },
+  "kits": {
+   "default": true,
+   "launch": true,
+   "owner": "product",
+   "review_by": "2027-01-31",
+   "what": "Goal kits S49 and S50 (D-086)"
+  },
+  "goal_safety": {
+   "default": true,
+   "launch": true,
+   "owner": "product",
+   "review_by": "2027-01-31",
+   "what": "Safety panel on tagged goals and kit steps (D-087)"
+  },
+  "goal_search_natural": {
+   "default": true,
+   "launch": true,
+   "owner": "product",
+   "review_by": "2027-01-31",
+   "what": "Natural-language goal search that strips lead-ins and ranks kits first (D-088)"
+  },
+  "suggested_for_you": {
+   "default": true,
+   "launch": true,
+   "owner": "product",
+   "review_by": "2027-01-31",
+   "what": "Rules R9 to R12 for people who do not search; no account needed (D-089)"
+  },
+  "next_step_card": {
+   "default": true,
+   "launch": true,
+   "owner": "product",
+   "review_by": "2027-01-31",
+   "what": "NextStepCard on every content page and Learn {tool} buttons (D-092)"
+  },
+  "need_feedback": {
+   "default": true,
+   "launch": true,
+   "owner": "product",
+   "review_by": "2027-01-31",
+   "what": "Thumbs up or down on need cards (D-102)"
+  },
+  "helper_coachmark": {
+   "default": true,
+   "launch": true,
+   "owner": "product",
+   "review_by": "2027-01-31",
+   "what": "Helper explainer banner, first-run coach mark, hide and restore (D-100)"
+  },
+  "depth_labels": {
+   "default": true,
+   "launch": true,
+   "owner": "product",
+   "review_by": "2027-01-31",
+   "what": "DepthLabel on every learning path (D-094)"
+  },
+  "trust_line": {
+   "default": true,
+   "launch": true,
+   "owner": "product",
+   "review_by": "2027-01-31",
+   "what": "TrustLine beside every price (D-093)"
   }
+ }
 }

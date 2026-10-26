@@ -23,7 +23,10 @@
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
      "cloud-infrastructure",
-     "web-development"
+     "web-development",
+     "devops-cicd",
+     "cv-portfolio",
+     "technical-writing"
     ],
     "estimated_hours": {
      "value": 1,
@@ -46,7 +49,10 @@
     "need_tags": [
      "write-code",
      "cloud-infrastructure",
-     "web-development"
+     "web-development",
+     "devops-cicd",
+     "cv-portfolio",
+     "technical-writing"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -68,7 +74,10 @@
     "need_tags": [
      "write-code",
      "cloud-infrastructure",
-     "web-development"
+     "web-development",
+     "devops-cicd",
+     "cv-portfolio",
+     "technical-writing"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -94,7 +103,10 @@
      "write-code",
      "test-automation",
      "cloud-infrastructure",
-     "web-development"
+     "web-development",
+     "devops-cicd",
+     "cv-portfolio",
+     "technical-writing"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -117,7 +129,10 @@
     "need_tags": [
      "version-control",
      "cloud-infrastructure",
-     "web-development"
+     "web-development",
+     "devops-cicd",
+     "cv-portfolio",
+     "technical-writing"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -139,7 +154,10 @@
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
      "cloud-infrastructure",
-     "web-development"
+     "web-development",
+     "devops-cicd",
+     "cv-portfolio",
+     "technical-writing"
     ],
     "estimated_hours": {
      "value": 3,
@@ -162,7 +180,10 @@
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
      "cloud-infrastructure",
-     "web-development"
+     "web-development",
+     "devops-cicd",
+     "cv-portfolio",
+     "technical-writing"
     ],
     "estimated_hours": {
      "value": 4,
@@ -186,7 +207,9 @@
      "devops-cicd",
      "observability",
      "cloud-infrastructure",
-     "web-development"
+     "web-development",
+     "cv-portfolio",
+     "technical-writing"
     ],
     "estimated_hours": {
      "value": 5.0,
@@ -209,7 +232,10 @@
     "need_tags": [
      "automation-workflows",
      "cloud-infrastructure",
-     "web-development"
+     "web-development",
+     "devops-cicd",
+     "cv-portfolio",
+     "technical-writing"
     ],
     "estimated_hours": {
      "value": 2,
@@ -232,7 +258,10 @@
     "need_tags": [
      "workshop-facilitation",
      "cloud-infrastructure",
-     "web-development"
+     "web-development",
+     "devops-cicd",
+     "cv-portfolio",
+     "technical-writing"
     ],
     "estimated_hours": {
      "value": 2,

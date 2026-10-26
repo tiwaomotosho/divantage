@@ -22,7 +22,10 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "ui-ux-design"
+     "ui-ux-design",
+     "cv-portfolio",
+     "web-development",
+     "visual-portfolio"
     ],
     "estimated_hours": {
      "value": 1,
@@ -45,7 +48,10 @@
     "need_tags": [
      "online-store",
      "marketplace-selling",
-     "ui-ux-design"
+     "ui-ux-design",
+     "cv-portfolio",
+     "web-development",
+     "visual-portfolio"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -68,7 +74,10 @@
     "need_tags": [
      "online-store",
      "product-photography",
-     "ui-ux-design"
+     "ui-ux-design",
+     "cv-portfolio",
+     "web-development",
+     "visual-portfolio"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -93,7 +102,10 @@
     "need_tags": [
      "online-store",
      "customer-support",
-     "ui-ux-design"
+     "ui-ux-design",
+     "cv-portfolio",
+     "web-development",
+     "visual-portfolio"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -116,7 +128,10 @@
     "need_tags": [
      "seo",
      "online-ads",
-     "ui-ux-design"
+     "ui-ux-design",
+     "cv-portfolio",
+     "web-development",
+     "visual-portfolio"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -137,7 +152,10 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "ui-ux-design"
+     "ui-ux-design",
+     "cv-portfolio",
+     "web-development",
+     "visual-portfolio"
     ],
     "estimated_hours": {
      "value": 3,
@@ -159,7 +177,10 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "ui-ux-design"
+     "ui-ux-design",
+     "cv-portfolio",
+     "web-development",
+     "visual-portfolio"
     ],
     "estimated_hours": {
      "value": 4,
@@ -182,7 +203,10 @@
     "need_tags": [
      "kpi-tracking",
      "inventory-procurement",
-     "ui-ux-design"
+     "ui-ux-design",
+     "cv-portfolio",
+     "web-development",
+     "visual-portfolio"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -204,7 +228,10 @@
     "practice": "Connect Framer to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "ui-ux-design"
+     "ui-ux-design",
+     "cv-portfolio",
+     "web-development",
+     "visual-portfolio"
     ],
     "estimated_hours": {
      "value": 2,
@@ -226,7 +253,10 @@
     "practice": "Write a one-page \"how we use Framer\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "ui-ux-design"
+     "ui-ux-design",
+     "cv-portfolio",
+     "web-development",
+     "visual-portfolio"
     ],
     "estimated_hours": {
      "value": 2,

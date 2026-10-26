@@ -22,7 +22,9 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "fundraising"
+     "fundraising",
+     "grant-finding",
+     "events-management"
     ],
     "estimated_hours": {
      "value": 1,
@@ -44,7 +46,8 @@
     "practice": "Publish a draft page",
     "need_tags": [
      "fundraising",
-     "events-management"
+     "events-management",
+     "grant-finding"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -66,7 +69,9 @@
     "practice": "Share and post one update",
     "need_tags": [
      "fundraising",
-     "social-media-presence"
+     "social-media-presence",
+     "grant-finding",
+     "events-management"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -90,7 +95,8 @@
     "practice": "Send thank-you messages",
     "need_tags": [
      "fundraising",
-     "events-management"
+     "events-management",
+     "grant-finding"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -111,7 +117,9 @@
     ],
     "practice": "Produce a results report",
     "need_tags": [
-     "fundraising"
+     "fundraising",
+     "grant-finding",
+     "events-management"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -132,7 +140,9 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "fundraising"
+     "fundraising",
+     "grant-finding",
+     "events-management"
     ],
     "estimated_hours": {
      "value": 3,
@@ -153,7 +163,9 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "fundraising"
+     "fundraising",
+     "grant-finding",
+     "events-management"
     ],
     "estimated_hours": {
      "value": 4,
@@ -174,7 +186,9 @@
     "practice": "Plan a follow-up campaign",
     "need_tags": [
      "fundraising",
-     "email-marketing"
+     "email-marketing",
+     "grant-finding",
+     "events-management"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -196,7 +210,9 @@
     "practice": "Connect GoFundMe to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "fundraising"
+     "fundraising",
+     "grant-finding",
+     "events-management"
     ],
     "estimated_hours": {
      "value": 2,
@@ -218,7 +234,9 @@
     "practice": "Write a one-page \"how we use GoFundMe\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "fundraising"
+     "fundraising",
+     "grant-finding",
+     "events-management"
     ],
     "estimated_hours": {
      "value": 2,

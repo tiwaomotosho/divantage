@@ -1,0 +1,249 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_midas_gen",
+ "slug": "midas-gen",
+ "title": "MIDAS Gen skill roadmap",
+ "tool_ids": [
+  "tool_midas_gen"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_midas_gen_engineering_sim_0",
+    "slug": "midas-gen-engineering-sim-0",
+    "title": "Get started with MIDAS Gen",
+    "outcome": "You can: set up MIDAS Gen, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "structural-analysis",
+     "geotechnical-analysis"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_midas_gen_engineering_sim_1",
+    "slug": "midas-gen-engineering-sim-1",
+    "title": "Understand the method",
+    "outcome": "You can: know what MIDAS Gen calculates and its limits",
+    "topics": [
+     "governing theory",
+     "assumptions",
+     "units",
+     "when not to use it"
+    ],
+    "practice": "Write a one-page note on MIDAS Gen's assumptions",
+    "need_tags": [
+     "engineering-calculations",
+     "structural-analysis",
+     "geotechnical-analysis"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_midas_gen_engineering_sim_2",
+    "slug": "midas-gen-engineering-sim-2",
+    "title": "Build a first model",
+    "outcome": "You can: set up a simple model correctly",
+    "topics": [
+     "geometry/network",
+     "properties",
+     "inputs",
+     "checks"
+    ],
+    "practice": "Rebuild a published tutorial example",
+    "need_tags": [
+     "engineering-calculations",
+     "structural-analysis",
+     "geotechnical-analysis"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_midas_gen_engineering_sim_3",
+    "slug": "midas-gen-engineering-sim-3",
+    "title": "Run and interpret",
+    "outcome": "You can: run analyses and read results critically",
+    "topics": [
+     "solver settings",
+     "convergence",
+     "results review",
+     "sanity checks"
+    ],
+    "practice": "Compare results with a hand calculation",
+    "need_tags": [
+     "engineering-data-analysis",
+     "structural-analysis",
+     "geotechnical-analysis"
+    ],
+    "estimated_hours": {
+     "value": 4.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_midas_gen_engineering_sim_4",
+    "slug": "midas-gen-engineering-sim-4",
+    "title": "Sensitivity and scenarios",
+    "outcome": "You can: test what matters",
+    "topics": [
+     "sensitivity runs",
+     "scenarios",
+     "uncertainty"
+    ],
+    "practice": "Run a sensitivity study on two inputs",
+    "need_tags": [
+     "risk-modelling",
+     "structural-analysis",
+     "geotechnical-analysis"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_midas_gen_engineering_sim_8",
+    "slug": "midas-gen-engineering-sim-8",
+    "title": "Signature skills in MIDAS Gen",
+    "outcome": "You can: use the features that make MIDAS Gen distinctive",
+    "topics": [
+     "model setup",
+     "loads and boundary conditions",
+     "results"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "structural-analysis",
+     "geotechnical-analysis"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_midas_gen_engineering_sim_9",
+    "slug": "midas-gen-engineering-sim-9",
+    "title": "Advanced MIDAS Gen",
+    "outcome": "You can: use MIDAS Gen's advanced capabilities with confidence",
+    "topics": [
+     "sensitivity and calibration",
+     "automation",
+     "verification"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "structural-analysis",
+     "geotechnical-analysis"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_midas_gen_engineering_sim_5",
+    "slug": "midas-gen-engineering-sim-5",
+    "title": "Verify, document and automate",
+    "outcome": "You can: deliver defensible analysis",
+    "topics": [
+     "verification",
+     "calibration to data",
+     "reports",
+     "scripting/batch runs"
+    ],
+    "practice": "Produce a verified analysis report",
+    "need_tags": [
+     "technical-reporting",
+     "structural-analysis",
+     "geotechnical-analysis"
+    ],
+    "estimated_hours": {
+     "value": 6.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_midas_gen_engineering_sim_10",
+    "slug": "midas-gen-engineering-sim-10",
+    "title": "Integrate MIDAS Gen into your workflow",
+    "outcome": "You can: connect MIDAS Gen with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect MIDAS Gen to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "structural-analysis",
+     "geotechnical-analysis"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_midas_gen_engineering_sim_11",
+    "slug": "midas-gen-engineering-sim-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use MIDAS Gen well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use MIDAS Gen\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "structural-analysis",
+     "geotechnical-analysis"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype",
+ "archetype": "engineering-sim",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

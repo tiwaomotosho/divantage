@@ -274,3 +274,70 @@ export function routeToolForIdentity(
   if (!id) return null;
   return { url: `/for/${id.slug}/${tool.slug}`, tool: tool.name, identity: id.label };
 }
+
+// ---------- Goal and kit search ("I want to…", doc 26 §6; port of goal-harness.mjs) ----------
+
+export interface GoalDoc {
+  /** goal slug, or "kit:{slug}" */
+  id: string;
+  label: string;
+  terms: string;
+  need: string;
+  tools: string;
+  top: string;
+  markets: string[];
+  /** top tool slugs for logos */
+  logos: string[];
+  safety: boolean;
+}
+
+const LEAD =
+  /^(i (really )?(want|need|wish|would like|'d like|wanna|have) to |i'd like to |i want a |i need a |i want |how (do|can|should) i |how to |help me( to)? |can you help me( to)? |where (can|do) i |what is the best way to |show me how to |i am looking for |i'm looking for |looking for )/i;
+
+const FILLER = new Set(["a", "an", "the", "that", "this", "in", "on", "to", "for", "of", "and", "or", "my", "me", "i", "it", "is", "with", "from", "at", "by", "your", "our", "can", "do"]);
+
+export function cleanGoalQuery(q: string) {
+  let x = q.trim().replace(/[?!.]+$/, "");
+  for (let i = 0; i < 2; i++) x = x.replace(LEAD, "");
+  return x.replace(/\b(please|pls|for free online)\b/gi, "").trim() || q;
+}
+
+export function createGoalSearch(docs: GoalDoc[]) {
+  const boost = { label: 4, terms: 3, top: 2, tools: 1.5, need: 0.6 };
+  const byId = new Map(docs.map((d) => [d.id, d]));
+  const ms = new MiniSearch<GoalDoc>({
+    fields: Object.keys(boost),
+    storeFields: ["label"],
+    processTerm: (t) => stem(t),
+    tokenize,
+    searchOptions: { boost, prefix: true, fuzzy: (t) => (t.length >= 5 ? 0.2 : false), processTerm: (t) => stem(t) },
+  });
+  ms.addAll(docs);
+  return function searchGoals(q0: string, market?: string) {
+    const q = cleanGoalQuery(q0);
+    if (!q.trim()) return Object.assign([] as { doc: GoalDoc; score: number; coverage: number }[], { andEmpty: true, weak: true });
+    let r = ms.search(q, { combineWith: "AND" });
+    const andEmpty = r.length === 0;
+    if (andEmpty) r = ms.search(q, { combineWith: "OR" });
+    else {
+      // Kits answer outcomes in people's own words, so they also get a partial-match pass (doc 26 §6).
+      const seen = new Set(r.map((x) => x.id));
+      r = [...r, ...ms.search(q, { combineWith: "OR", filter: (x) => String(x.id).startsWith("kit:") && !seen.has(x.id) })];
+    }
+    const words = [...new Set(tokenize(q.toLowerCase()).filter((w) => !FILLER.has(w)).map(stem))];
+    const out = r
+      .map((x) => {
+        const d = byId.get(String(x.id))!;
+        let s = x.score * (d.id.startsWith("kit:") ? 1.3 : 1);
+        if (market && d.markets.includes(market)) s *= 1.25;
+        if (flat(d.label).includes(flat(q))) s *= 1.5;
+        const matched = new Set((x.queryTerms ?? []).map(stem));
+        const coverage = words.length ? words.filter((w) => matched.has(w)).length / words.length : 1;
+        return { doc: d, score: s, coverage };
+      })
+      .sort((a, b) => b.score - a.score);
+    /** No answer when even the best result matches under half of the meaningful words (27-no-results). */
+    const weak = out.length === 0 || Math.max(...out.slice(0, 10).map((o) => o.coverage)) < 0.5;
+    return Object.assign(out.filter((o) => o.coverage >= 0.4), { andEmpty, weak });
+  };
+}

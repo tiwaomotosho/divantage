@@ -1,0 +1,239 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_relux",
+ "slug": "relux",
+ "title": "Relux skill roadmap",
+ "tool_ids": [
+  "tool_relux"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_relux_engineering_sim_0",
+    "slug": "relux-engineering-sim-0",
+    "title": "Get started with Relux",
+    "outcome": "You can: set up Relux, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "electrical-design"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_relux_engineering_sim_1",
+    "slug": "relux-engineering-sim-1",
+    "title": "Understand the method",
+    "outcome": "You can: know what Relux calculates and its limits",
+    "topics": [
+     "governing theory",
+     "assumptions",
+     "units",
+     "when not to use it"
+    ],
+    "practice": "Write a one-page note on Relux's assumptions",
+    "need_tags": [
+     "engineering-calculations",
+     "electrical-design"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_relux_engineering_sim_2",
+    "slug": "relux-engineering-sim-2",
+    "title": "Build a first model",
+    "outcome": "You can: set up a simple model correctly",
+    "topics": [
+     "geometry/network",
+     "properties",
+     "inputs",
+     "checks"
+    ],
+    "practice": "Rebuild a published tutorial example",
+    "need_tags": [
+     "engineering-calculations",
+     "electrical-design"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_relux_engineering_sim_3",
+    "slug": "relux-engineering-sim-3",
+    "title": "Run and interpret",
+    "outcome": "You can: run analyses and read results critically",
+    "topics": [
+     "solver settings",
+     "convergence",
+     "results review",
+     "sanity checks"
+    ],
+    "practice": "Compare results with a hand calculation",
+    "need_tags": [
+     "engineering-data-analysis",
+     "electrical-design"
+    ],
+    "estimated_hours": {
+     "value": 4.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_relux_engineering_sim_4",
+    "slug": "relux-engineering-sim-4",
+    "title": "Sensitivity and scenarios",
+    "outcome": "You can: test what matters",
+    "topics": [
+     "sensitivity runs",
+     "scenarios",
+     "uncertainty"
+    ],
+    "practice": "Run a sensitivity study on two inputs",
+    "need_tags": [
+     "risk-modelling",
+     "electrical-design"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_relux_engineering_sim_8",
+    "slug": "relux-engineering-sim-8",
+    "title": "Signature skills in Relux",
+    "outcome": "You can: use the features that make Relux distinctive",
+    "topics": [
+     "model setup",
+     "loads and boundary conditions",
+     "results"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "electrical-design"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_relux_engineering_sim_9",
+    "slug": "relux-engineering-sim-9",
+    "title": "Advanced Relux",
+    "outcome": "You can: use Relux's advanced capabilities with confidence",
+    "topics": [
+     "sensitivity and calibration",
+     "automation",
+     "verification"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "electrical-design"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_relux_engineering_sim_5",
+    "slug": "relux-engineering-sim-5",
+    "title": "Verify, document and automate",
+    "outcome": "You can: deliver defensible analysis",
+    "topics": [
+     "verification",
+     "calibration to data",
+     "reports",
+     "scripting/batch runs"
+    ],
+    "practice": "Produce a verified analysis report",
+    "need_tags": [
+     "technical-reporting",
+     "electrical-design"
+    ],
+    "estimated_hours": {
+     "value": 6.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_relux_engineering_sim_10",
+    "slug": "relux-engineering-sim-10",
+    "title": "Integrate Relux into your workflow",
+    "outcome": "You can: connect Relux with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Relux to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "electrical-design"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_relux_engineering_sim_11",
+    "slug": "relux-engineering-sim-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Relux well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Relux\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "electrical-design"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype",
+ "archetype": "engineering-sim",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

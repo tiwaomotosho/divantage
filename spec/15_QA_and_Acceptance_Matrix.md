@@ -1,6 +1,6 @@
 # 15 — QA and Acceptance Matrix
 
-**Version:** 2.5 · **Machine-readable matrix:** `spec-assets/qa/acceptance-matrix.csv`. It has 132 test cases (TC-001 to TC-132), each with requirement references, scenario, method, expected result, priority (P1–P3), release gate and status. Every TC referenced in documents 04–14 exists in the CSV; this was checked at authoring time.
+**Version:** 2.6 · **Machine-readable matrix:** `spec-assets/qa/acceptance-matrix.csv`. It has 150 test cases (TC-001 to TC-150), each with requirement references, scenario, method, expected result, priority (P1–P3), release gate and status. Every TC referenced in documents 04–14 exists in the CSV; this was checked at authoring time.
 
 ## 1. Test layers (Gap Analysis §29.1)
 | Layer | Tool | Where | Runs |
@@ -170,3 +170,19 @@ A new release-gate value, **Beta**, marks tests that must pass before inviting f
 | Stack | TC-128 Bun build, TC-129 bundle budgets, no raw HTML, CSP hashes |
 | Completeness and look | TC-130 feature matrix gate, TC-131 signature visuals responsive, TC-132 non-commercial guard |
 The launch gate in §4 gains three rows (feature matrix, full prerender, look sign-off). TC-117 and TC-118 now describe *helpers* (formerly journeys).
+
+## V2.6 additions (TC-133 to TC-150)
+| Area | Tests |
+|---|---|
+| Goals and alternatives | TC-133 build rules, TC-134 derived alternatives, TC-135 goal search, TC-139 tool page |
+| Intent and markets | TC-136 intent chips, TC-137 Nigeria-first, TC-138 availability |
+| Stars and workbench | TC-140 stars, TC-141 workbench and continue card |
+| Accounts and privacy | TC-142 sign-in triggers, TC-143 consent defaults, TC-144 export and delete, TC-145 merge |
+| Recommendations and trending | TC-146 limits, TC-147 rules R1 to R8, TC-148 trending floor and gate |
+| Retention loop | TC-149 outputs and outcomes, TC-150 suggestion status |
+
+## V2.7 additions (TC-151 to TC-168)
+Eighteen tests in `spec-assets/qa/acceptance-matrix.csv` (168 in total): profile coverage and the Preview label (TC-151 to TC-154), the 95% same-kind gate (TC-155), kit rules and pages (TC-156, TC-157), safety tags and panel (TC-158, TC-159), natural-language search and entry paths (TC-160 to TC-162), connected goals (TC-163), suggestions (TC-164 to TC-166), and the technology-enablement and kids-programming checks (TC-167, TC-168).
+- **New CI gates:** `validate_profiles.py`, `validate_discovery.py` and the same-kind check in `validate_goals.py` are part of `rebuild_all.sh`.
+- **Manual check before beta:** read ten safety panels (jobs, money and kids first) and confirm none implies a tool is safe or verified.
+- **Honest limit:** the 131 goal-search queries test ranking on our own data, not real users. Add real queries from `goal_search_no_kit` after beta.

@@ -67,3 +67,19 @@ export function useLazy<T>(loader: () => Promise<T>, enabled: boolean): LoadStat
   }, [enabled]);
   return state;
 }
+
+import { createGoalSearch, type GoalDoc } from "~/lib/search";
+export interface GoalIndexFile {
+  docs: GoalDoc[];
+  kits: Record<string, { title: string; promise: string; steps: number; photo: string | null }>;
+  safety: Record<string, { label: string; what: string }>;
+  goalTags: Record<string, string[]>;
+}
+let goals: Promise<{ search: ReturnType<typeof createGoalSearch>; file: GoalIndexFile }> | undefined;
+export const loadGoalSearch = () =>
+  (goals ??= fetchJson<GoalIndexFile>("/api/v1/goals-index.json")
+    .then((file) => ({ search: createGoalSearch(file.docs), file }))
+    .catch((e) => {
+      goals = undefined;
+      throw e;
+    }));

@@ -22,7 +22,8 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "browser-productivity"
+     "browser-productivity",
+     "online-safety"
     ],
     "estimated_hours": {
      "value": 1,
@@ -43,7 +44,8 @@
     ],
     "practice": "Install Firefox on phone and computer",
     "need_tags": [
-     "browser-productivity"
+     "browser-productivity",
+     "online-safety"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -64,7 +66,8 @@
     "practice": "Use Firefox for a week and note one saved hour",
     "need_tags": [
      "personal-productivity",
-     "browser-productivity"
+     "browser-productivity",
+     "online-safety"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -88,7 +91,8 @@
     "need_tags": [
      "personal-productivity",
      "records-management",
-     "browser-productivity"
+     "browser-productivity",
+     "online-safety"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -131,7 +135,8 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "browser-productivity"
+     "browser-productivity",
+     "online-safety"
     ],
     "estimated_hours": {
      "value": 3,
@@ -153,7 +158,8 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "browser-productivity"
+     "browser-productivity",
+     "online-safety"
     ],
     "estimated_hours": {
      "value": 4,
@@ -174,7 +180,8 @@
     "practice": "Create two automation rules",
     "need_tags": [
      "automation-workflows",
-     "browser-productivity"
+     "browser-productivity",
+     "online-safety"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -196,7 +203,8 @@
     "practice": "Connect Firefox to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "browser-productivity"
+     "browser-productivity",
+     "online-safety"
     ],
     "estimated_hours": {
      "value": 2,
@@ -218,7 +226,8 @@
     "practice": "Write a one-page \"how we use Firefox\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "browser-productivity"
+     "browser-productivity",
+     "online-safety"
     ],
     "estimated_hours": {
      "value": 2,

@@ -18,5 +18,5 @@ jobs:
       - run: bun run typecheck
       - run: bun test tests
       - name: Feature matrix check (TC-130)
-        run: python3 -I spec/spec-assets/validate_feature_matrix.py spec || true
+        run: python3 -I spec/spec-assets/validate_feature_matrix.py spec
       - run: bun run build

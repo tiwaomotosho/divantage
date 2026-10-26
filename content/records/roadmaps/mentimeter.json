@@ -24,7 +24,8 @@
     "need_tags": [
      "quizzes-assessment",
      "interactive-teaching",
-     "workshop-facilitation"
+     "workshop-facilitation",
+     "anatomy-3d"
     ],
     "estimated_hours": {
      "value": 1,
@@ -48,7 +49,8 @@
      "virtual-classroom",
      "interactive-teaching",
      "quizzes-assessment",
-     "workshop-facilitation"
+     "workshop-facilitation",
+     "anatomy-3d"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -71,7 +73,8 @@
      "lesson-planning",
      "quizzes-assessment",
      "interactive-teaching",
-     "workshop-facilitation"
+     "workshop-facilitation",
+     "anatomy-3d"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -97,7 +100,8 @@
      "quizzes-assessment",
      "grading-feedback",
      "interactive-teaching",
-     "workshop-facilitation"
+     "workshop-facilitation",
+     "anatomy-3d"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -120,7 +124,8 @@
      "interactive-teaching",
      "accessible-materials",
      "quizzes-assessment",
-     "workshop-facilitation"
+     "workshop-facilitation",
+     "anatomy-3d"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -143,7 +148,8 @@
     "need_tags": [
      "quizzes-assessment",
      "interactive-teaching",
-     "workshop-facilitation"
+     "workshop-facilitation",
+     "anatomy-3d"
     ],
     "estimated_hours": {
      "value": 3,
@@ -167,7 +173,8 @@
     "need_tags": [
      "quizzes-assessment",
      "interactive-teaching",
-     "workshop-facilitation"
+     "workshop-facilitation",
+     "anatomy-3d"
     ],
     "estimated_hours": {
      "value": 4,
@@ -190,7 +197,8 @@
      "grading-feedback",
      "quizzes-assessment",
      "interactive-teaching",
-     "workshop-facilitation"
+     "workshop-facilitation",
+     "anatomy-3d"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -214,7 +222,8 @@
      "automation-workflows",
      "quizzes-assessment",
      "interactive-teaching",
-     "workshop-facilitation"
+     "workshop-facilitation",
+     "anatomy-3d"
     ],
     "estimated_hours": {
      "value": 2,
@@ -237,7 +246,8 @@
     "need_tags": [
      "workshop-facilitation",
      "quizzes-assessment",
-     "interactive-teaching"
+     "interactive-teaching",
+     "anatomy-3d"
     ],
     "estimated_hours": {
      "value": 2,

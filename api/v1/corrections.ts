@@ -4,7 +4,7 @@
 
 const ISSUE_TYPES = new Set([
   "pricing", "availability", "broken_link", "feature", "outdated_steps", "accessibility", "other",
-  "suggest_tool", "suggest_identity", "suggest_need", "suggest_helper", "roadmap_feedback", "tool_discontinued",
+  "suggest_tool", "suggest_identity", "suggest_need", "suggest_helper", "roadmap_feedback", "tool_discontinued", "role_path_request",
 ]);
 const NEEDS_SOURCE = new Set(["pricing", "feature", "availability", "tool_discontinued"]);
 const RECORD_RE = /^(tool|task|res|pb|cmp|id|need|rm|lens|skill)_[a-z0-9_]+$/;

@@ -22,7 +22,8 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "video-editing-pro"
+     "video-editing-pro",
+     "freelancing"
     ],
     "estimated_hours": {
      "value": 1,
@@ -44,7 +45,8 @@
     "practice": "Edit a 1-minute piece",
     "need_tags": [
      "video-editing-pro",
-     "short-video"
+     "short-video",
+     "freelancing"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -65,7 +67,8 @@
     "practice": "Add captions and a title to your piece",
     "need_tags": [
      "video-editing-pro",
-     "accessible-materials"
+     "accessible-materials",
+     "freelancing"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -87,7 +90,8 @@
     ],
     "practice": "Correct colour and balance audio",
     "need_tags": [
-     "video-editing-pro"
+     "video-editing-pro",
+     "freelancing"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -108,7 +112,8 @@
     "practice": "Create an animated intro",
     "need_tags": [
      "motion-graphics",
-     "video-editing-pro"
+     "video-editing-pro",
+     "freelancing"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -129,7 +134,8 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "video-editing-pro"
+     "video-editing-pro",
+     "freelancing"
     ],
     "estimated_hours": {
      "value": 3,
@@ -152,7 +158,8 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "video-editing-pro"
+     "video-editing-pro",
+     "freelancing"
     ],
     "estimated_hours": {
      "value": 4,
@@ -173,7 +180,8 @@
     ],
     "practice": "Deliver three platform versions",
     "need_tags": [
-     "video-editing-pro"
+     "video-editing-pro",
+     "freelancing"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -195,7 +203,8 @@
     "practice": "Connect Adobe Premiere Pro to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "video-editing-pro"
+     "video-editing-pro",
+     "freelancing"
     ],
     "estimated_hours": {
      "value": 2,
@@ -217,7 +226,8 @@
     "practice": "Write a one-page \"how we use Adobe Premiere Pro\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "video-editing-pro"
+     "video-editing-pro",
+     "freelancing"
     ],
     "estimated_hours": {
      "value": 2,

@@ -23,7 +23,13 @@
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
      "memorise-knowledge",
-     "study-skills"
+     "study-skills",
+     "language-learning",
+     "cpd-learning",
+     "quizzes-assessment",
+     "interactive-teaching",
+     "sign-language",
+     "use-ai-assistants"
     ],
     "estimated_hours": {
      "value": 1,
@@ -46,7 +52,13 @@
     "need_tags": [
      "learn-online",
      "memorise-knowledge",
-     "study-skills"
+     "study-skills",
+     "language-learning",
+     "cpd-learning",
+     "quizzes-assessment",
+     "interactive-teaching",
+     "sign-language",
+     "use-ai-assistants"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -69,7 +81,13 @@
     "need_tags": [
      "study-skills",
      "learn-online",
-     "memorise-knowledge"
+     "memorise-knowledge",
+     "language-learning",
+     "cpd-learning",
+     "quizzes-assessment",
+     "interactive-teaching",
+     "sign-language",
+     "use-ai-assistants"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -92,7 +110,13 @@
     "practice": "Turn one module into flashcards and a small project",
     "need_tags": [
      "study-skills",
-     "memorise-knowledge"
+     "memorise-knowledge",
+     "language-learning",
+     "cpd-learning",
+     "quizzes-assessment",
+     "interactive-teaching",
+     "sign-language",
+     "use-ai-assistants"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -114,7 +138,13 @@
     "need_tags": [
      "cv-portfolio",
      "memorise-knowledge",
-     "study-skills"
+     "study-skills",
+     "language-learning",
+     "cpd-learning",
+     "quizzes-assessment",
+     "interactive-teaching",
+     "sign-language",
+     "use-ai-assistants"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -136,7 +166,13 @@
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
      "memorise-knowledge",
-     "study-skills"
+     "study-skills",
+     "language-learning",
+     "cpd-learning",
+     "quizzes-assessment",
+     "interactive-teaching",
+     "sign-language",
+     "use-ai-assistants"
     ],
     "estimated_hours": {
      "value": 3,
@@ -159,7 +195,13 @@
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
      "memorise-knowledge",
-     "study-skills"
+     "study-skills",
+     "language-learning",
+     "cpd-learning",
+     "quizzes-assessment",
+     "interactive-teaching",
+     "sign-language",
+     "use-ai-assistants"
     ],
     "estimated_hours": {
      "value": 4,
@@ -181,7 +223,13 @@
     "need_tags": [
      "workshop-facilitation",
      "memorise-knowledge",
-     "study-skills"
+     "study-skills",
+     "language-learning",
+     "cpd-learning",
+     "quizzes-assessment",
+     "interactive-teaching",
+     "sign-language",
+     "use-ai-assistants"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -204,7 +252,13 @@
     "need_tags": [
      "automation-workflows",
      "memorise-knowledge",
-     "study-skills"
+     "study-skills",
+     "language-learning",
+     "cpd-learning",
+     "quizzes-assessment",
+     "interactive-teaching",
+     "sign-language",
+     "use-ai-assistants"
     ],
     "estimated_hours": {
      "value": 2,
@@ -227,7 +281,13 @@
     "need_tags": [
      "workshop-facilitation",
      "memorise-knowledge",
-     "study-skills"
+     "study-skills",
+     "language-learning",
+     "cpd-learning",
+     "quizzes-assessment",
+     "interactive-teaching",
+     "sign-language",
+     "use-ai-assistants"
     ],
     "estimated_hours": {
      "value": 2,

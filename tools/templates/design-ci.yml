@@ -1,0 +1,27 @@
+# Design fidelity CI (docs/29 §4). Copy to .github/workflows/design.yml
+name: design
+on: [pull_request, push]
+jobs:
+  design:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - run: npm ci
+      - name: Tokens are generated, not hand-edited
+        run: node tools/build-tokens.mjs && git diff --exit-code design/tokens
+      - name: Static design lint (L4)
+        run: node tools/check-design.mjs src
+      - run: npx playwright install --with-deps chromium
+      - name: Reference self-test (audit must pass on the concept itself)
+        run: node tools/design-audit.mjs --reference
+      - name: Build and preview the app
+        run: npm run build && (npm run preview -- --port 4173 &) && npx wait-on http://localhost:4173
+      - name: Runtime design audit (L5)
+        run: node tools/design-audit.mjs --base http://localhost:4173
+      - name: Visual regression (L7, after sign-off)
+        run: npx playwright test tests/visual
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: { name: design-audit-report, path: design-audit-report }

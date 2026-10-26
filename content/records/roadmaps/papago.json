@@ -1,0 +1,239 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_papago",
+ "slug": "papago",
+ "title": "Papago skill roadmap",
+ "tool_ids": [
+  "tool_papago"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_papago_writing_tool_0",
+    "slug": "papago-writing-tool-0",
+    "title": "Get started with Papago",
+    "outcome": "You can: set up Papago, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "translate-languages"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_papago_writing_tool_1",
+    "slug": "papago-writing-tool-1",
+    "title": "Draft and organise",
+    "outcome": "You can: draft efficiently in Papago",
+    "topics": [
+     "structure",
+     "outlining",
+     "distraction-free writing"
+    ],
+    "practice": "Draft a 500-word piece",
+    "need_tags": [
+     "write-clearly",
+     "translate-languages"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_papago_writing_tool_2",
+    "slug": "papago-writing-tool-2",
+    "title": "Edit for clarity",
+    "outcome": "You can: improve clarity and correctness",
+    "topics": [
+     "grammar",
+     "readability",
+     "tone"
+    ],
+    "practice": "Edit your draft using Papago's suggestions critically",
+    "need_tags": [
+     "write-clearly",
+     "translate-languages"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_papago_writing_tool_3",
+    "slug": "papago-writing-tool-3",
+    "title": "Long-form and formatting",
+    "outcome": "You can: manage long documents",
+    "topics": [
+     "sections",
+     "references",
+     "templates",
+     "exports"
+    ],
+    "practice": "Format a long document for publication",
+    "need_tags": [
+     "academic-writing",
+     "book-writing-publishing",
+     "technical-writing",
+     "translate-languages"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_papago_writing_tool_4",
+    "slug": "papago-writing-tool-4",
+    "title": "Style and voice",
+    "outcome": "You can: keep a consistent voice",
+    "topics": [
+     "style rules",
+     "custom dictionaries",
+     "terminology"
+    ],
+    "practice": "Create a mini style guide",
+    "need_tags": [
+     "technical-writing",
+     "copywriting",
+     "translate-languages"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_papago_writing_tool_8",
+    "slug": "papago-writing-tool-8",
+    "title": "Signature skills in Papago",
+    "outcome": "You can: use the features that make Papago distinctive",
+    "topics": [
+     "drafting",
+     "editing",
+     "publishing"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "translate-languages"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_papago_writing_tool_9",
+    "slug": "papago-writing-tool-9",
+    "title": "Advanced Papago",
+    "outcome": "You can: use Papago's advanced capabilities with confidence",
+    "topics": [
+     "style guides",
+     "long-form structure",
+     "automation"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "translate-languages"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_papago_writing_tool_5",
+    "slug": "papago-writing-tool-5",
+    "title": "Publish and collaborate",
+    "outcome": "You can: publish and work with editors",
+    "topics": [
+     "collaboration",
+     "version control",
+     "publishing pipelines"
+    ],
+    "practice": "Publish a piece with an editor's review",
+    "need_tags": [
+     "newsletter-publishing",
+     "translate-languages"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_papago_writing_tool_10",
+    "slug": "papago-writing-tool-10",
+    "title": "Integrate Papago into your workflow",
+    "outcome": "You can: connect Papago with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Papago to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "translate-languages"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_papago_writing_tool_11",
+    "slug": "papago-writing-tool-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Papago well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Papago\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "translate-languages"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype",
+ "archetype": "writing-tool",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

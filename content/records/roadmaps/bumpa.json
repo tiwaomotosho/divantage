@@ -1,0 +1,371 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_bumpa",
+ "slug": "bumpa",
+ "title": "Bumpa skill roadmap",
+ "tool_ids": [
+  "tool_bumpa"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_bumpa_ecommerce_0",
+    "slug": "bumpa-ecommerce-0",
+    "title": "Get started with Bumpa",
+    "outcome": "You can: set up Bumpa, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "pharmacy-stock",
+     "web-development",
+     "bookkeeping",
+     "creator-income",
+     "online-store",
+     "point-of-sale",
+     "marketplace-selling",
+     "agri-market-access",
+     "trade-quotes-invoicing",
+     "production-planning",
+     "restaurant-operations",
+     "online-payments",
+     "crm-sales",
+     "business-planning"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_bumpa_ecommerce_1",
+    "slug": "bumpa-ecommerce-1",
+    "title": "Open your shop",
+    "outcome": "You can: set up a store or seller account",
+    "topics": [
+     "account",
+     "policies",
+     "payments",
+     "verification"
+    ],
+    "practice": "Set up your seller profile",
+    "need_tags": [
+     "online-store",
+     "marketplace-selling",
+     "pharmacy-stock",
+     "web-development",
+     "bookkeeping",
+     "creator-income",
+     "point-of-sale",
+     "agri-market-access",
+     "trade-quotes-invoicing",
+     "production-planning",
+     "restaurant-operations",
+     "online-payments",
+     "crm-sales",
+     "business-planning"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_bumpa_ecommerce_2",
+    "slug": "bumpa-ecommerce-2",
+    "title": "List products that sell",
+    "outcome": "You can: create great listings",
+    "topics": [
+     "titles",
+     "photos",
+     "prices",
+     "variants"
+    ],
+    "practice": "List five products",
+    "need_tags": [
+     "online-store",
+     "product-photography",
+     "pharmacy-stock",
+     "web-development",
+     "bookkeeping",
+     "creator-income",
+     "point-of-sale",
+     "marketplace-selling",
+     "agri-market-access",
+     "trade-quotes-invoicing",
+     "production-planning",
+     "restaurant-operations",
+     "online-payments",
+     "crm-sales",
+     "business-planning"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_bumpa_ecommerce_3",
+    "slug": "bumpa-ecommerce-3",
+    "title": "Orders, delivery and returns",
+    "outcome": "You can: fulfil orders reliably",
+    "topics": [
+     "order flow",
+     "shipping options",
+     "returns",
+     "customer messages"
+    ],
+    "practice": "Process a test order end to end",
+    "need_tags": [
+     "online-store",
+     "customer-support",
+     "pharmacy-stock",
+     "web-development",
+     "bookkeeping",
+     "creator-income",
+     "point-of-sale",
+     "marketplace-selling",
+     "agri-market-access",
+     "trade-quotes-invoicing",
+     "production-planning",
+     "restaurant-operations",
+     "online-payments",
+     "crm-sales",
+     "business-planning"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_bumpa_ecommerce_4",
+    "slug": "bumpa-ecommerce-4",
+    "title": "Promote",
+    "outcome": "You can: bring buyers to your listings",
+    "topics": [
+     "promotions",
+     "SEO for listings",
+     "ads",
+     "reviews"
+    ],
+    "practice": "Run one promotion",
+    "need_tags": [
+     "seo",
+     "online-ads",
+     "pharmacy-stock",
+     "web-development",
+     "bookkeeping",
+     "creator-income",
+     "online-store",
+     "point-of-sale",
+     "marketplace-selling",
+     "agri-market-access",
+     "trade-quotes-invoicing",
+     "production-planning",
+     "restaurant-operations",
+     "online-payments",
+     "crm-sales",
+     "business-planning"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_bumpa_ecommerce_8",
+    "slug": "bumpa-ecommerce-8",
+    "title": "Signature skills in Bumpa",
+    "outcome": "You can: use the features that make Bumpa distinctive",
+    "topics": [
+     "listings",
+     "orders",
+     "payments"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "pharmacy-stock",
+     "web-development",
+     "bookkeeping",
+     "creator-income",
+     "online-store",
+     "point-of-sale",
+     "marketplace-selling",
+     "agri-market-access",
+     "trade-quotes-invoicing",
+     "production-planning",
+     "restaurant-operations",
+     "online-payments",
+     "crm-sales",
+     "business-planning"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_bumpa_ecommerce_9",
+    "slug": "bumpa-ecommerce-9",
+    "title": "Advanced Bumpa",
+    "outcome": "You can: use Bumpa's advanced capabilities with confidence",
+    "topics": [
+     "shipping",
+     "promotions",
+     "analytics"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "pharmacy-stock",
+     "web-development",
+     "bookkeeping",
+     "creator-income",
+     "online-store",
+     "point-of-sale",
+     "marketplace-selling",
+     "agri-market-access",
+     "trade-quotes-invoicing",
+     "production-planning",
+     "restaurant-operations",
+     "online-payments",
+     "crm-sales",
+     "business-planning"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_bumpa_ecommerce_5",
+    "slug": "bumpa-ecommerce-5",
+    "title": "Grow with data",
+    "outcome": "You can: use sales data to grow",
+    "topics": [
+     "analytics",
+     "inventory sync",
+     "integrations",
+     "fees review"
+    ],
+    "practice": "Review margins after fees and adjust prices",
+    "need_tags": [
+     "kpi-tracking",
+     "inventory-procurement",
+     "pharmacy-stock",
+     "web-development",
+     "bookkeeping",
+     "creator-income",
+     "online-store",
+     "point-of-sale",
+     "marketplace-selling",
+     "agri-market-access",
+     "trade-quotes-invoicing",
+     "production-planning",
+     "restaurant-operations",
+     "online-payments",
+     "crm-sales",
+     "business-planning"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_bumpa_ecommerce_10",
+    "slug": "bumpa-ecommerce-10",
+    "title": "Integrate Bumpa into your workflow",
+    "outcome": "You can: connect Bumpa with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Bumpa to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "pharmacy-stock",
+     "web-development",
+     "bookkeeping",
+     "creator-income",
+     "online-store",
+     "point-of-sale",
+     "marketplace-selling",
+     "agri-market-access",
+     "trade-quotes-invoicing",
+     "production-planning",
+     "restaurant-operations",
+     "online-payments",
+     "crm-sales",
+     "business-planning"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_bumpa_ecommerce_11",
+    "slug": "bumpa-ecommerce-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Bumpa well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Bumpa\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "pharmacy-stock",
+     "web-development",
+     "bookkeeping",
+     "creator-income",
+     "online-store",
+     "point-of-sale",
+     "marketplace-selling",
+     "agri-market-access",
+     "trade-quotes-invoicing",
+     "production-planning",
+     "restaurant-operations",
+     "online-payments",
+     "crm-sales",
+     "business-planning"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype",
+ "archetype": "ecommerce",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

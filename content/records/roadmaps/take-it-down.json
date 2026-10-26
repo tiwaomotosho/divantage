@@ -1,0 +1,238 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_take_it_down",
+ "slug": "take-it-down",
+ "title": "Take It Down skill roadmap",
+ "tool_ids": [
+  "tool_take_it_down"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_take_it_down_personal_security_0",
+    "slug": "take-it-down-personal-security-0",
+    "title": "Get started with Take It Down",
+    "outcome": "You can: set up Take It Down, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "kids-online-safety"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_take_it_down_personal_security_1",
+    "slug": "take-it-down-personal-security-1",
+    "title": "Set it up right",
+    "outcome": "You can: install and configure Take It Down",
+    "topics": [
+     "install",
+     "account",
+     "recovery codes",
+     "backups"
+    ],
+    "practice": "Set up Take It Down and store recovery details safely",
+    "need_tags": [
+     "online-safety",
+     "kids-online-safety"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_take_it_down_personal_security_2",
+    "slug": "take-it-down-personal-security-2",
+    "title": "Everyday use",
+    "outcome": "You can: use Take It Down without friction",
+    "topics": [
+     "daily workflow",
+     "browser/phone integration"
+    ],
+    "practice": "Use Take It Down for a week on your main accounts",
+    "need_tags": [
+     "online-safety",
+     "kids-online-safety"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_take_it_down_personal_security_3",
+    "slug": "take-it-down-personal-security-3",
+    "title": "Protect what matters most",
+    "outcome": "You can: secure your critical accounts",
+    "topics": [
+     "email",
+     "banking",
+     "work",
+     "phone number risks"
+    ],
+    "practice": "Secure your top five accounts",
+    "need_tags": [
+     "online-safety",
+     "kids-online-safety"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_take_it_down_personal_security_4",
+    "slug": "take-it-down-personal-security-4",
+    "title": "Spot scams",
+    "outcome": "You can: recognise phishing and fraud",
+    "topics": [
+     "phishing signs",
+     "fake support",
+     "SIM swap",
+     "reporting"
+    ],
+    "practice": "Review three real scam examples",
+    "need_tags": [
+     "online-safety",
+     "fact-check",
+     "kids-online-safety"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_take_it_down_personal_security_8",
+    "slug": "take-it-down-personal-security-8",
+    "title": "Signature skills in Take It Down",
+    "outcome": "You can: use the features that make Take It Down distinctive",
+    "topics": [
+     "setup",
+     "everyday use",
+     "recovery"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "kids-online-safety"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_take_it_down_personal_security_9",
+    "slug": "take-it-down-personal-security-9",
+    "title": "Advanced Take It Down",
+    "outcome": "You can: use Take It Down's advanced capabilities with confidence",
+    "topics": [
+     "family/team sharing",
+     "advanced protection"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "kids-online-safety"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_take_it_down_personal_security_5",
+    "slug": "take-it-down-personal-security-5",
+    "title": "Help family or team",
+    "outcome": "You can: roll out good security habits to others",
+    "topics": [
+     "sharing",
+     "family plans",
+     "simple policies"
+    ],
+    "practice": "Help two people set up Take It Down",
+    "need_tags": [
+     "online-safety",
+     "digital-basics",
+     "kids-online-safety"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_take_it_down_personal_security_10",
+    "slug": "take-it-down-personal-security-10",
+    "title": "Integrate Take It Down into your workflow",
+    "outcome": "You can: connect Take It Down with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Take It Down to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "kids-online-safety"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_take_it_down_personal_security_11",
+    "slug": "take-it-down-personal-security-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Take It Down well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Take It Down\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "kids-online-safety"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype",
+ "archetype": "personal-security",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

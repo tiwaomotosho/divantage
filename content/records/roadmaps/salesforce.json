@@ -23,7 +23,8 @@
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
      "crm-sales",
-     "case-management"
+     "case-management",
+     "fundraising"
     ],
     "estimated_hours": {
      "value": 1,
@@ -46,7 +47,8 @@
     "need_tags": [
      "social-media-presence",
      "crm-sales",
-     "case-management"
+     "case-management",
+     "fundraising"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -69,7 +71,8 @@
      "social-media-management",
      "email-marketing",
      "crm-sales",
-     "case-management"
+     "case-management",
+     "fundraising"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -94,7 +97,8 @@
      "web-analytics",
      "kpi-tracking",
      "crm-sales",
-     "case-management"
+     "case-management",
+     "fundraising"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -117,7 +121,8 @@
     "need_tags": [
      "email-marketing",
      "crm-sales",
-     "case-management"
+     "case-management",
+     "fundraising"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -139,7 +144,8 @@
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
      "crm-sales",
-     "case-management"
+     "case-management",
+     "fundraising"
     ],
     "estimated_hours": {
      "value": 3,
@@ -163,7 +169,8 @@
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
      "crm-sales",
-     "case-management"
+     "case-management",
+     "fundraising"
     ],
     "estimated_hours": {
      "value": 4,
@@ -187,7 +194,8 @@
      "automation-workflows",
      "online-ads",
      "crm-sales",
-     "case-management"
+     "case-management",
+     "fundraising"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -210,7 +218,8 @@
     "need_tags": [
      "automation-workflows",
      "crm-sales",
-     "case-management"
+     "case-management",
+     "fundraising"
     ],
     "estimated_hours": {
      "value": 2,
@@ -233,7 +242,8 @@
     "need_tags": [
      "workshop-facilitation",
      "crm-sales",
-     "case-management"
+     "case-management",
+     "fundraising"
     ],
     "estimated_hours": {
      "value": 2,

@@ -1,0 +1,2212 @@
+{
+ "version": "2.7.0",
+ "note": "Safety notes shown on goals that match a tag (D-087). Keyword-derived; a reviewer may add or remove tags per goal later.",
+ "rules": [
+  {
+   "tag": "jobs",
+   "label": "Job and income offers",
+   "keywords": [
+    "job",
+    "jobs",
+    "hire",
+    "hiring",
+    "recruiter",
+    "freelance",
+    "freelancer",
+    "internship",
+    "intern",
+    "vacancy",
+    "job interview",
+    "remote job",
+    "remote work",
+    "scholarship",
+    "fellowship",
+    "apply for"
+   ],
+   "what_to_know": "Real employers and real scholarships do not charge you to apply or to be hired. Check the company and the person before you share documents or bank details.",
+   "red_flags": [
+    "asks you to pay for a form, training or equipment first",
+    "interview only on WhatsApp or Telegram",
+    "salary far above the usual",
+    "a cheque or transfer 'to buy equipment'",
+    "urgent deadline"
+   ],
+   "where_to_get_help": "Search the company on its official site and on CAC records, then report scams on EFCC's Eagle Eye page"
+  },
+  {
+   "tag": "money",
+   "label": "Money, investing and payments",
+   "keywords": [
+    "invest",
+    "investing",
+    "investment",
+    "loan",
+    "loans",
+    "lending",
+    "savings",
+    "forex",
+    "trading",
+    "crypto",
+    "funding",
+    "grant",
+    "grants",
+    "money transfer",
+    "remittance",
+    "payment",
+    "payments",
+    "payout",
+    "bank account",
+    "banking",
+    "wallet",
+    "microfinance",
+    "get paid"
+   ],
+   "what_to_know": "Money tools can lose you money. Check that the provider is licensed in your country and read the fees before you send anything. Nothing here is financial advice.",
+   "red_flags": [
+    "promises of fixed or doubled returns",
+    "pressure to recruit others",
+    "withdrawal fees before you can cash out",
+    "app that asks for your contacts and photos",
+    "unlicensed lender"
+   ],
+   "where_to_get_help": "SEC Nigeria and CBN lists for licensed providers; EFCC for fraud reports"
+  },
+  {
+   "tag": "kids",
+   "label": "Children and teaching",
+   "keywords": [
+    "kids",
+    "kid",
+    "child",
+    "children",
+    "pupil",
+    "pupils",
+    "teach kids",
+    "classroom",
+    "parental",
+    "parents of"
+   ],
+   "what_to_know": "Children's data and images are sensitive. Use child-safe platforms, avoid sharing identifying details and follow your school's rules and the law on children's data.",
+   "red_flags": [
+    "an app that asks for a child's full name, photo or location",
+    "open chat with strangers",
+    "ads aimed at children",
+    "sharing children's work publicly without consent"
+   ],
+   "where_to_get_help": "Take It Down for removing images; your school's safeguarding lead; the Nigeria Data Protection Commission"
+  },
+  {
+   "tag": "health",
+   "label": "Health information",
+   "keywords": [
+    "health advice",
+    "health information",
+    "health worker",
+    "health record",
+    "health emergenc",
+    "patient",
+    "patients",
+    "doctor",
+    "symptom",
+    "symptoms",
+    "medicine",
+    "drug",
+    "drugs",
+    "clinic",
+    "medical",
+    "nursing",
+    "therapy",
+    "nutrition"
+   ],
+   "what_to_know": "These tools give information, not a diagnosis. For anything serious or urgent, see a qualified health worker or go to the nearest hospital.",
+   "red_flags": [
+    "a tool that diagnoses with certainty",
+    "a cure with no side effects",
+    "selling prescription drugs without a prescription"
+   ],
+   "where_to_get_help": "A licensed doctor or pharmacist; NAFDAC to check a product"
+  },
+  {
+   "tag": "legal",
+   "label": "Contracts, registration and tax",
+   "keywords": [
+    "contract",
+    "contracts",
+    "legal",
+    "lawyer",
+    "register a business",
+    "registration",
+    "tax",
+    "taxes",
+    "compliance",
+    "privacy policy",
+    "terms and conditions",
+    "ndpa",
+    "cac",
+    "copyright"
+   ],
+   "what_to_know": "Templates and AI drafts are a starting point. Have a lawyer or the official body confirm anything that binds you or your business, because rules change.",
+   "red_flags": [
+    "an agent who wants cash to 'speed up' registration",
+    "a copied contract you do not understand",
+    "ignoring a filing deadline"
+   ],
+   "where_to_get_help": "The official portal for the agency concerned; a qualified lawyer or accountant"
+  },
+  {
+   "tag": "privacy",
+   "label": "Privacy and accounts",
+   "keywords": [
+    "password",
+    "passwords",
+    "privacy",
+    "data",
+    "security",
+    "secure",
+    "vpn",
+    "account",
+    "accounts",
+    "login",
+    "hacked",
+    "scan",
+    "ocr",
+    "upload",
+    "backup"
+   ],
+   "what_to_know": "Do not upload private documents (IDs, contracts, medical records) to free online tools you do not know. Use two-step sign-in on important accounts.",
+   "red_flags": [
+    "a site that asks for your password or OTP",
+    "a link sent by an unknown contact",
+    "a free tool that wants broad permissions"
+   ],
+   "where_to_get_help": "Your account provider's recovery page; NDPC for your data rights"
+  },
+  {
+   "tag": "ai",
+   "label": "Using AI tools",
+   "keywords": [
+    "ai",
+    "chatgpt",
+    "claude",
+    "gemini",
+    "copilot",
+    "chatbot",
+    "generate",
+    "generative",
+    "assistant"
+   ],
+   "what_to_know": "AI can be wrong or invent facts and sources. Check anything that matters, do not paste private or customer data, and follow your school or employer's rules on AI use.",
+   "red_flags": [
+    "invented references",
+    "confident wrong answers",
+    "sharing personal data in a prompt"
+   ],
+   "where_to_get_help": "The tool's own privacy settings; your school or employer's AI policy"
+  },
+  {
+   "tag": "official-fees",
+   "label": "Government and exam services",
+   "keywords": [
+    "passport",
+    "visa",
+    "nin number",
+    "nin slip",
+    "bvn",
+    "waec",
+    "neco",
+    "jamb",
+    "driving licence",
+    "driver's licence",
+    "tax id",
+    "tin number",
+    "immigration"
+   ],
+   "what_to_know": "Use the official site or office only. Official fees are published, and agents who ask for extra money may be scammers.",
+   "red_flags": [
+    "someone offers to 'fast-track' for cash",
+    "a lookalike website",
+    "fees paid to a personal account"
+   ],
+   "where_to_get_help": "The official agency website and offices; report extortion to the relevant agency"
+  },
+  {
+   "tag": "content",
+   "label": "Copyright and posting",
+   "keywords": [
+    "video",
+    "videos",
+    "music",
+    "song",
+    "songs",
+    "photo",
+    "photos",
+    "image",
+    "images",
+    "podcast",
+    "thumbnail",
+    "stream",
+    "download",
+    "creator"
+   ],
+   "what_to_know": "Only use music, photos and clips you made or have a licence for, or you can lose reach or income to copyright strikes. Check the licence on free libraries, and get consent before posting anyone's face or voice.",
+   "red_flags": [
+    "'free' downloads of paid songs or films",
+    "cracked editing software that carries malware",
+    "posting someone's photo without asking"
+   ],
+   "where_to_get_help": "The platform's copyright help page; the licence terms on the source site"
+  }
+ ],
+ "goal_tags": {
+  "translate-a-message": [],
+  "translate-a-document": [],
+  "talk-across-languages-live": [],
+  "translate-local-languages": [],
+  "proofread-an-email": [],
+  "write-a-formal-letter": [],
+  "make-writing-simpler": [],
+  "get-started-with-ai": [
+   "ai"
+  ],
+  "research-with-ai-and-sources": [
+   "ai"
+  ],
+  "summarise-a-long-document-with-ai": [
+   "ai"
+  ],
+  "manage-an-inbox": [],
+  "schedule-meetings-without-back-and-forth": [],
+  "get-a-professional-email-address": [],
+  "run-a-video-meeting": [
+   "content"
+  ],
+  "host-a-webinar": [],
+  "low-data-video-calls": [
+   "privacy",
+   "content"
+  ],
+  "write-a-document": [],
+  "work-on-a-document-together": [],
+  "use-office-apps-for-free": [],
+  "build-a-simple-tracker-in-a-spreadsheet": [],
+  "calculate-with-formulas": [],
+  "clean-up-messy-spreadsheet-data": [
+   "privacy"
+  ],
+  "make-a-slide-deck": [],
+  "present-to-a-room-or-online": [],
+  "store-and-share-files": [],
+  "back-up-my-phone-and-photos": [
+   "privacy",
+   "content"
+  ],
+  "send-large-files": [
+   "content"
+  ],
+  "secure-my-accounts": [
+   "privacy"
+  ],
+  "spot-scams-and-fake-messages": [],
+  "protect-my-phone-and-laptop": [
+   "content"
+  ],
+  "recover-a-hacked-account": [
+   "privacy"
+  ],
+  "learn-a-skill-for-free": [],
+  "earn-a-certificate-online": [],
+  "learn-with-african-focused-platforms": [],
+  "keep-to-do-lists-and-reminders": [],
+  "take-and-find-notes": [],
+  "plan-my-week-and-focus": [],
+  "set-up-a-linkedin-profile": [],
+  "build-a-personal-website": [],
+  "create-a-business-card-and-brand-kit": [],
+  "budget-my-money-each-month": [],
+  "budget-and-save-in-naira": [],
+  "split-bills-and-track-shared-spending": [
+   "money"
+  ],
+  "make-a-poster-or-flyer": [],
+  "make-a-logo": [],
+  "make-social-media-graphics": [
+   "content"
+  ],
+  "check-if-something-is-true": [
+   "content"
+  ],
+  "find-a-reliable-answer-online": [],
+  "find-an-old-or-deleted-web-page": [],
+  "use-accessibility-features-on-my-phone": [],
+  "read-text-aloud": [],
+  "dictate-instead-of-typing": [],
+  "transcribe-an-interview-or-meeting": [],
+  "merge-split-and-compress-pdfs": [],
+  "convert-pdf-and-word": [],
+  "fill-in-a-pdf-form": [],
+  "scan-a-document-with-my-phone": [
+   "privacy",
+   "content"
+  ],
+  "turn-a-scan-into-editable-text": [
+   "privacy",
+   "content"
+  ],
+  "sign-a-document-without-printing": [],
+  "get-contracts-signed-by-others": [
+   "legal"
+  ],
+  "run-a-group-chat-for-a-team-or-community": [],
+  "send-updates-to-many-people": [],
+  "run-a-quick-survey": [],
+  "collect-registrations-and-payments": [
+   "money",
+   "legal"
+  ],
+  "collect-data-in-the-field-offline": [
+   "jobs",
+   "privacy"
+  ],
+  "find-and-apply-for-jobs": [
+   "jobs"
+  ],
+  "find-jobs-in-nigeria": [
+   "jobs"
+  ],
+  "find-remote-jobs": [
+   "jobs"
+  ],
+  "prepare-for-a-job-interview": [
+   "jobs"
+  ],
+  "write-a-cv": [],
+  "build-a-portfolio-site": [],
+  "share-my-work-on-social-media": [],
+  "schedule-posts-in-advance": [],
+  "make-a-short-video-on-my-phone": [
+   "content"
+  ],
+  "add-captions-to-a-video": [
+   "content"
+  ],
+  "fix-and-enhance-a-photo": [
+   "content"
+  ],
+  "remove-a-photo-background": [
+   "content"
+  ],
+  "find-my-way-and-share-my-location": [],
+  "navigate-without-data": [
+   "privacy"
+  ],
+  "find-an-address-in-nigeria": [],
+  "pay-and-get-paid-online": [
+   "money"
+  ],
+  "send-money-abroad-or-to-family": [
+   "jobs",
+   "money"
+  ],
+  "send-and-receive-money-in-nigeria": [],
+  "pay-bills-and-buy-airtime-or-data": [
+   "privacy"
+  ],
+  "receive-payments-from-customers-in-naira-and-dollars": [
+   "money"
+  ],
+  "learn-a-language-from-scratch": [],
+  "practise-speaking-with-a-tutor": [],
+  "learn-a-nigerian-language": [],
+  "look-up-a-condition-at-the-bedside": [
+   "health"
+  ],
+  "find-national-treatment-guidelines": [
+   "jobs"
+  ],
+  "check-a-drug-interaction": [
+   "health"
+  ],
+  "check-a-drug-dose": [
+   "health"
+  ],
+  "check-medicine-safety-in-pregnancy-or-breastfeeding": [
+   "health"
+  ],
+  "calculate-a-clinical-score": [
+   "health"
+  ],
+  "calculate-a-dose-or-infusion-rate": [],
+  "find-the-best-evidence-for-a-clinical-question": [
+   "health"
+  ],
+  "appraise-a-paper": [],
+  "keep-patient-notes-in-an-electronic-record": [
+   "health"
+  ],
+  "run-a-clinic-record-system-on-a-small-budget": [
+   "health"
+  ],
+  "see-patients-by-video": [
+   "health",
+   "content"
+  ],
+  "run-teleconsultation-in-nigeria": [
+   "health"
+  ],
+  "write-a-patient-leaflet": [
+   "health"
+  ],
+  "explain-a-condition-with-pictures": [
+   "health"
+  ],
+  "view-a-ct-or-x-ray-on-a-computer": [
+   "privacy",
+   "content"
+  ],
+  "build-a-3d-model-from-scans": [
+   "health"
+  ],
+  "write-a-structured-radiology-report": [],
+  "run-a-clinical-audit": [
+   "health",
+   "legal"
+  ],
+  "plan-a-quality-improvement-project": [],
+  "collect-research-data-from-patients": [
+   "health",
+   "privacy"
+  ],
+  "analyse-health-research-data": [
+   "privacy"
+  ],
+  "keep-up-with-cpd-points": [],
+  "revise-for-medical-exams": [
+   "health"
+  ],
+  "memorise-facts-with-spaced-repetition": [],
+  "memorise-scripture-or-long-texts-word-for-word": [],
+  "learn-anatomy-in-3d": [],
+  "teach-anatomy-to-a-class": [
+   "kids"
+  ],
+  "build-a-ward-or-shift-rota": [],
+  "swap-shifts-and-cover-absences": [],
+  "prescribe-a-home-exercise-programme": [],
+  "track-a-patients-exercise-progress": [
+   "health"
+  ],
+  "analyse-a-walking-or-sport-movement-on-video": [
+   "content"
+  ],
+  "plan-a-diet-and-check-nutrients": [],
+  "plan-meals-with-local-african-foods": [],
+  "map-disease-and-health-data": [
+   "privacy"
+  ],
+  "build-a-health-dashboard": [],
+  "keep-therapy-notes-securely": [
+   "health",
+   "privacy"
+  ],
+  "schedule-and-bill-therapy-clients": [
+   "health"
+  ],
+  "take-clinic-appointments-and-send-reminders": [
+   "health"
+  ],
+  "reduce-missed-appointments": [],
+  "keep-pet-records-and-book-vet-visits": [],
+  "record-lab-samples-and-results": [],
+  "keep-an-electronic-lab-notebook": [],
+  "track-pharmacy-stock-and-expiry": [
+   "health"
+  ],
+  "run-a-pharmacy-till-and-stock-in-nigeria": [
+   "health"
+  ],
+  "run-a-dental-practice": [],
+  "do-engineering-calculations-with-documentation": [],
+  "solve-equations-and-model-systems": [],
+  "draw-a-2d-technical-drawing": [],
+  "get-a-free-cad-tool": [],
+  "model-a-building-in-bim": [],
+  "coordinate-and-check-models-for-clashes": [],
+  "design-a-concrete-or-steel-structure": [],
+  "check-a-structure-with-finite-element-analysis": [],
+  "check-slope-stability-and-foundations": [],
+  "model-a-drainage-or-river-system": [],
+  "design-a-water-supply-network": [],
+  "make-a-map-and-analyse-locations": [],
+  "collect-gps-points-in-the-field": [
+   "content"
+  ],
+  "process-drone-photos-into-maps-and-3d-models": [
+   "content"
+  ],
+  "process-survey-data-for-design": [
+   "privacy"
+  ],
+  "plan-a-project-programme-with-critical-path": [],
+  "track-progress-against-the-programme": [],
+  "measure-quantities-from-drawings-and-price-them": [],
+  "prepare-a-bill-of-quantities-in-a-spreadsheet": [],
+  "mark-up-a-drawing-for-review": [],
+  "simulate-airflow-heat-or-fluids": [],
+  "design-a-mechanical-part": [],
+  "design-for-manufacture-and-make-drawings": [],
+  "draw-an-electrical-circuit-or-pcb": [],
+  "design-a-building-lighting-or-power-system": [],
+  "program-a-plc": [],
+  "simulate-a-control-system": [],
+  "simulate-a-chemical-process": [],
+  "size-process-equipment": [],
+  "analyse-sensor-and-machine-data": [
+   "privacy"
+  ],
+  "write-a-technical-report": [],
+  "record-safety-observations-and-audits": [],
+  "plan-preventive-maintenance": [],
+  "plan-a-well-trajectory": [],
+  "estimate-well-cost-and-time": [],
+  "write-the-daily-drilling-report": [],
+  "analyse-drilling-performance-and-npt": [],
+  "model-well-inflow-and-flow-assurance": [],
+  "forecast-production-decline": [],
+  "build-a-geological-or-reservoir-model": [],
+  "interpret-seismic-data": [
+   "privacy"
+  ],
+  "check-wellbore-stability": [],
+  "build-a-mechanical-earth-model": [],
+  "interpret-well-logs": [],
+  "build-a-quick-petrophysical-calculation": [],
+  "monitor-daily-production": [],
+  "build-a-production-dashboard": [],
+  "model-a-solar-or-wind-project": [],
+  "size-a-solar-system-for-a-home-or-business": [
+   "privacy"
+  ],
+  "design-a-mine-and-model-the-ore-body": [],
+  "prepare-a-regulatory-submission": [
+   "legal"
+  ],
+  "learn-to-write-code": [],
+  "write-and-debug-code-faster": [
+   "ai"
+  ],
+  "keep-code-history-and-collaborate": [],
+  "review-code-changes": [],
+  "automate-testing-and-deployment": [],
+  "deploy-a-website-or-app-for-free": [],
+  "package-an-app-in-a-container": [
+   "content"
+  ],
+  "run-containers-at-scale": [],
+  "host-an-application-in-the-cloud": [],
+  "manage-infrastructure-as-code": [],
+  "test-and-document-an-api": [],
+  "build-an-api": [],
+  "automate-browser-testing": [],
+  "test-a-mobile-app-automatically": [],
+  "plan-and-track-software-testing": [],
+  "measure-how-a-system-behaves-under-load": [],
+  "run-a-sprint-board": [],
+  "manage-a-small-team-backlog-for-free": [],
+  "find-out-what-customers-need-before-building": [],
+  "decide-what-to-build-next": [],
+  "see-how-people-use-my-product": [],
+  "watch-recordings-of-user-sessions": [],
+  "share-a-product-roadmap": [],
+  "design-an-app-screen": [],
+  "build-a-clickable-prototype": [],
+  "test-a-design-with-real-users": [],
+  "organise-interview-notes-into-insights": [],
+  "watch-for-errors-and-slow-pages": [],
+  "set-up-uptime-alerts-for-a-website": [],
+  "test-my-own-site-for-security-weaknesses": [
+   "privacy"
+  ],
+  "respond-to-a-security-alert": [
+   "privacy"
+  ],
+  "run-it-support-tickets": [],
+  "manage-company-laptops-and-accounts": [
+   "privacy"
+  ],
+  "fix-a-network-problem": [],
+  "design-and-simulate-a-network": [],
+  "design-and-query-a-database": [],
+  "pick-a-simple-database-for-an-app": [],
+  "build-a-mobile-app": [],
+  "publish-an-app-to-the-play-store-or-app-store": [],
+  "build-a-website-with-code": [],
+  "build-a-website-without-code": [],
+  "build-a-business-website": [],
+  "build-an-online-shop-website": [],
+  "launch-a-blog": [],
+  "host-a-website-in-nigeria": [],
+  "build-an-app-without-code": [
+   "jobs"
+  ],
+  "build-an-internal-tool-for-my-team": [
+   "jobs"
+  ],
+  "make-a-simple-game": [],
+  "write-documentation-for-software": [],
+  "draw-a-system-or-process-diagram": [],
+  "train-a-machine-learning-model": [],
+  "learn-machine-learning-for-free": [
+   "privacy",
+   "ai"
+  ],
+  "build-an-app-on-an-ai-model": [
+   "ai"
+  ],
+  "build-a-chatbot-for-whatsapp-or-the-web": [
+   "ai"
+  ],
+  "automate-a-task-between-apps": [],
+  "automate-notifications-and-reports": [],
+  "work-faster-in-the-browser": [],
+  "clean-messy-data": [
+   "privacy"
+  ],
+  "combine-data-from-many-files": [
+   "privacy"
+  ],
+  "pull-data-with-sql": [
+   "privacy"
+  ],
+  "practise-sql-for-free": [],
+  "build-a-live-dashboard": [],
+  "build-a-free-dashboard-from-a-spreadsheet": [],
+  "test-whether-a-difference-is-real": [],
+  "run-a-regression-or-forecast": [],
+  "make-a-clear-chart": [],
+  "make-an-interactive-map-or-chart-for-the-web": [],
+  "move-data-automatically-between-systems": [
+   "privacy"
+  ],
+  "transform-data-with-sql-models": [
+   "privacy"
+  ],
+  "analyse-data-in-a-notebook": [
+   "privacy"
+  ],
+  "share-an-analysis-as-a-report": [],
+  "build-a-financial-model": [],
+  "value-a-business-or-project": [],
+  "keep-simple-business-books": [
+   "privacy"
+  ],
+  "keep-books-for-a-nigerian-small-business": [
+   "privacy"
+  ],
+  "send-an-invoice-and-chase-payment": [
+   "money"
+  ],
+  "get-paid-by-international-clients": [
+   "jobs",
+   "money"
+  ],
+  "prepare-and-file-taxes": [
+   "legal"
+  ],
+  "register-and-file-business-taxes-in-nigeria": [
+   "legal"
+  ],
+  "analyse-transactions-for-audit": [],
+  "research-a-company-or-stock": [],
+  "research-nigerian-stocks-and-markets": [],
+  "plan-a-budget-and-forecast": [],
+  "run-payroll-for-a-small-team": [],
+  "run-payroll-in-nigeria": [],
+  "model-risk-and-scenarios": [],
+  "find-case-law-and-statutes": [],
+  "research-nigerian-law": [],
+  "draft-a-contract": [
+   "legal"
+  ],
+  "review-a-contract-for-risk": [
+   "legal"
+  ],
+  "manage-cases-time-and-billing": [
+   "legal"
+  ],
+  "run-a-small-law-practice": [],
+  "review-thousands-of-documents-for-a-case": [],
+  "plan-a-lesson": [],
+  "plan-a-whole-course-or-term": [],
+  "teach-online-with-a-classroom-space": [
+   "kids"
+  ],
+  "teach-on-whatsapp-or-low-data": [
+   "privacy"
+  ],
+  "make-a-quiz-or-test": [],
+  "mark-and-give-feedback-quickly": [],
+  "check-student-work-for-originality": [
+   "ai"
+  ],
+  "make-a-lesson-interactive": [],
+  "run-a-whiteboard-brainstorm-with-students": [],
+  "record-a-lesson-or-screencast": [
+   "content"
+  ],
+  "review-the-literature-on-a-topic": [],
+  "manage-references-and-citations": [],
+  "write-a-thesis-or-paper": [],
+  "format-a-paper-in-latex": [],
+  "run-a-research-survey": [],
+  "analyse-survey-responses": [],
+  "code-and-analyse-interviews": [],
+  "transcribe-research-interviews": [],
+  "make-materials-accessible-for-all-learners": [],
+  "study-effectively-for-exams": [],
+  "study-for-jamb-waec-or-neco": [
+   "official-fees"
+  ],
+  "design-professional-graphics": [],
+  "design-a-print-ready-brochure-or-book-cover": [],
+  "build-a-brand-identity": [],
+  "make-a-brand-guide-others-can-follow": [],
+  "edit-a-video-professionally": [
+   "content"
+  ],
+  "edit-video-on-a-low-spec-laptop": [
+   "content"
+  ],
+  "make-animated-titles-and-effects": [],
+  "animate-a-simple-explainer": [
+   "content"
+  ],
+  "model-and-render-in-3d": [],
+  "make-a-3d-model-to-print-or-show": [],
+  "manage-and-edit-a-photo-library": [
+   "content"
+  ],
+  "edit-raw-photos-for-free": [
+   "content"
+  ],
+  "record-and-mix-a-song": [
+   "content"
+  ],
+  "make-beats-on-a-phone-or-low-spec-laptop": [],
+  "record-a-podcast-episode": [
+   "content"
+  ],
+  "publish-and-grow-a-podcast": [
+   "content"
+  ],
+  "go-live-on-youtube-facebook-and-others": [],
+  "stream-with-a-phone-or-basic-laptop": [
+   "content"
+  ],
+  "write-and-publish-a-book": [],
+  "sell-an-ebook-or-digital-product": [
+   "content"
+  ],
+  "write-sheet-music": [
+   "content"
+  ],
+  "verify-a-photo-or-video": [
+   "content"
+  ],
+  "start-a-newsletter": [],
+  "plan-a-content-calendar": [],
+  "earn-money-from-my-content": [],
+  "get-paid-by-fans-in-africa": [
+   "money"
+  ],
+  "release-a-song-to-streaming-platforms": [
+   "privacy",
+   "content"
+  ],
+  "release-music-in-africa": [
+   "content"
+  ],
+  "grow-an-artist-profile-on-streaming": [
+   "content"
+  ],
+  "design-clothing-and-patterns": [],
+  "sketch-and-present-a-fashion-collection": [],
+  "design-a-room-layout": [],
+  "make-a-realistic-render-of-an-interior": [],
+  "visualise-a-building-for-clients": [],
+  "paint-and-illustrate-digitally": [],
+  "draw-comics-and-characters": [],
+  "sell-art-and-crafts-online": [],
+  "sell-art-prints-and-merch-with-no-stock": [],
+  "manage-business-social-accounts": [
+   "privacy"
+  ],
+  "grow-an-instagram-or-tiktok-following": [],
+  "send-marketing-emails": [],
+  "send-bulk-sms-and-whatsapp-messages": [],
+  "get-found-on-google": [],
+  "get-found-on-google-maps": [],
+  "track-a-sales-pipeline": [],
+  "manage-customers-on-whatsapp": [],
+  "run-facebook-and-instagram-ads": [],
+  "run-google-ads": [],
+  "see-where-website-visitors-come-from": [],
+  "track-what-people-say-about-a-brand": [],
+  "answer-customers-quickly": [],
+  "build-a-help-centre-for-customers": [],
+  "plan-and-sell-tickets-for-an-event": [
+   "legal"
+  ],
+  "run-a-community-event-or-volunteer-roster": [],
+  "write-copy-that-sells": [],
+  "research-competitors-and-customers": [],
+  "write-a-business-plan": [],
+  "write-a-business-plan-for-a-loan-or-grant": [
+   "money"
+  ],
+  "register-a-business-in-nigeria": [
+   "legal"
+  ],
+  "plan-and-track-a-project": [],
+  "run-a-team-on-one-shared-board": [],
+  "map-a-business-process": [],
+  "write-standard-operating-procedures": [],
+  "track-goals-and-kpis": [],
+  "run-a-team-scorecard-and-weekly-review": [],
+  "post-a-job-and-screen-candidates": [
+   "jobs"
+  ],
+  "onboard-a-new-hire": [
+   "jobs"
+  ],
+  "keep-staff-records-leave-and-reviews": [],
+  "track-stock-and-reorder": [],
+  "manage-suppliers-and-purchase-orders": [],
+  "run-a-company-on-one-system": [
+   "privacy"
+  ],
+  "take-meeting-minutes-and-actions": [],
+  "open-an-online-shop": [],
+  "sell-on-instagram-and-whatsapp": [],
+  "take-bookings-online": [],
+  "take-card-and-transfer-payments-in-a-shop": [
+   "money"
+  ],
+  "run-a-shop-till-and-stock": [],
+  "become-a-pos-agent": [
+   "money"
+  ],
+  "build-a-consulting-analysis-and-slides": [],
+  "facilitate-a-workshop": [],
+  "sell-on-online-marketplaces": [],
+  "sell-on-jumia-konga-and-jiji": [
+   "privacy"
+  ],
+  "photograph-products-that-sell": [
+   "content"
+  ],
+  "research-and-draft-a-policy-brief": [],
+  "gather-public-input": [],
+  "track-programme-results": [],
+  "collect-baseline-and-endline-data": [
+   "privacy"
+  ],
+  "raise-money-and-manage-donors": [],
+  "run-a-crowdfunding-campaign": [],
+  "find-grants-and-funding": [
+   "jobs",
+   "money"
+  ],
+  "coordinate-volunteers": [],
+  "keep-official-records-in-order": [],
+  "publish-and-use-open-data": [
+   "privacy"
+  ],
+  "study-scripture-and-prepare-a-lesson": [],
+  "read-scripture-daily-with-a-plan": [],
+  "run-lyrics-and-slides-for-a-service": [
+   "content"
+  ],
+  "stream-a-church-service-online": [
+   "content"
+  ],
+  "stream-a-service-on-limited-data": [
+   "privacy",
+   "content"
+  ],
+  "manage-members-groups-and-attendance": [],
+  "check-in-attendance-by-qr-or-phone": [],
+  "receive-tithes-and-offerings-online": [],
+  "receive-offerings-in-naira-by-transfer-or-card": [
+   "privacy"
+  ],
+  "organise-pastoral-visits-and-follow-up": [],
+  "track-training-load-and-recovery": [],
+  "plan-a-training-programme": [],
+  "review-match-and-training-video": [
+   "content"
+  ],
+  "analyse-opponents-and-players": [],
+  "organise-a-team-fixtures-and-messages": [],
+  "organise-a-local-football-or-sports-club": [],
+  "coach-clients-online": [],
+  "analyse-sports-data": [
+   "privacy"
+  ],
+  "take-gym-memberships-and-bookings": [],
+  "build-an-athlete-personal-brand": [],
+  "keep-farm-records-and-costs": [],
+  "work-out-farm-profit-per-crop-or-batch": [],
+  "watch-my-crops-from-space": [
+   "content"
+  ],
+  "check-weather-before-planting-or-harvest": [],
+  "find-a-plant-disease-or-pest": [],
+  "keep-animal-health-and-breeding-records": [],
+  "find-buyers-and-current-crop-prices": [],
+  "sell-farm-produce-online": [],
+  "record-wildlife-and-plants": [],
+  "track-forests-and-land-change": [],
+  "keep-food-safety-records": [],
+  "cost-a-recipe-and-menu": [],
+  "manage-a-building-site-and-snags": [],
+  "track-site-progress-with-photos": [
+   "content"
+  ],
+  "market-a-property-listing": [],
+  "sell-or-rent-property-in-nigeria": [],
+  "collect-rent-and-manage-tenants": [],
+  "manage-a-block-of-flats-or-estate": [],
+  "quote-a-job-and-send-the-invoice": [
+   "jobs"
+  ],
+  "get-more-customers-as-a-tradesperson": [],
+  "measure-a-room-or-site-with-my-phone": [],
+  "diagnose-a-car-problem": [],
+  "find-a-repair-guide-or-wiring-diagram": [],
+  "design-a-piece-of-furniture-and-cut-list": [],
+  "plan-production-and-materials": [],
+  "run-a-small-factory-or-workshop": [],
+  "control-quality-with-statistics": [],
+  "run-a-lean-or-six-sigma-project": [],
+  "program-a-cnc-machine": [],
+  "prepare-a-model-for-3d-printing": [],
+  "plan-delivery-routes": [],
+  "track-vehicles-and-drivers": [],
+  "run-warehouse-stock": [],
+  "book-and-track-a-shipment": [],
+  "ship-parcels-within-nigeria": [],
+  "plan-a-flight-and-study-aviation": [],
+  "plan-a-passage-and-navigate-at-sea": [],
+  "earn-more-as-a-ride-hailing-driver": [],
+  "earn-as-a-delivery-rider": [],
+  "keep-driver-expenses-and-profit": [],
+  "get-a-ride-in-a-nigerian-city": [],
+  "compare-ride-prices-and-stay-safe": [],
+  "take-orders-and-run-a-restaurant": [],
+  "get-restaurant-orders-from-delivery-apps": [],
+  "sell-food-from-a-small-kitchen": [],
+  "manage-guesthouse-or-hotel-bookings": [],
+  "list-a-room-or-apartment-for-short-stays": [],
+  "respond-to-online-reviews": [],
+  "plan-a-trip-and-book-travel": [],
+  "book-flights-and-hotels-from-nigeria": [
+   "official-fees"
+  ],
+  "sell-tours-and-activities": [],
+  "take-salon-and-spa-bookings": [],
+  "get-salon-clients-from-instagram-and-whatsapp": [],
+  "show-my-work-as-a-gallery": [],
+  "support-my-mental-wellbeing": [],
+  "log-an-incident-and-write-the-report": [
+   "privacy"
+  ],
+  "alert-people-and-coordinate-in-an-emergency": [],
+  "map-reports-from-a-crisis": [],
+  "research-open-sources-ethically": [],
+  "preserve-and-examine-digital-evidence": [
+   "content"
+  ],
+  "run-calculations-and-simulations": [],
+  "design-and-analyse-dna-or-protein-work": [],
+  "draw-molecules-and-reactions": [],
+  "make-a-figure-for-a-paper": [],
+  "store-and-share-research-data": [
+   "privacy"
+  ],
+  "observe-and-photograph-the-night-sky": [
+   "content"
+  ],
+  "manage-cases-and-care-plans": [],
+  "find-local-services-and-refer-someone": [],
+  "communicate-with-deaf-or-blind-people": [],
+  "learn-sign-language": [],
+  "organise-care-for-a-parent-or-relative": [],
+  "run-a-stage-show-or-production": [],
+  "find-auditions-and-submit-self-tapes": [],
+  "organise-family-life": [],
+  "plan-family-money-and-school-fees": [
+   "money"
+  ],
+  "keep-children-safe-online": [
+   "kids"
+  ],
+  "talk-to-children-about-online-risks": [
+   "kids"
+  ],
+  "get-confident-with-a-smartphone": [],
+  "help-a-parent-or-grandparent-use-technology": [
+   "content"
+  ],
+  "find-volunteering-near-me": [],
+  "start-freelancing": [
+   "jobs"
+  ],
+  "find-freelance-work-from-nigeria": [
+   "jobs"
+  ],
+  "track-my-health-and-medicines": [
+   "health"
+  ],
+  "book-a-doctor-or-find-a-clinic": [
+   "health"
+  ],
+  "build-a-landing-page": [],
+  "build-a-website-for-a-church-school-or-ngo": [],
+  "build-a-website-that-works-on-slow-phones": [
+   "privacy"
+  ],
+  "build-a-link-in-bio-page": [],
+  "accept-bookings-and-payments-on-my-own-site": [
+   "money"
+  ],
+  "buy-and-sell-safely-on-nigerian-classifieds": [],
+  "shop-online-in-nigeria": [],
+  "order-food-and-groceries-for-delivery": [],
+  "save-money-in-naira-automatically": [
+   "money"
+  ],
+  "invest-small-amounts-in-stocks-or-funds": [
+   "money"
+  ],
+  "get-a-small-loan-responsibly": [
+   "money"
+  ],
+  "open-a-digital-bank-account": [
+   "money",
+   "privacy",
+   "official-fees"
+  ],
+  "pay-school-fees-and-exam-fees-online": [
+   "official-fees"
+  ],
+  "get-a-dollar-account-or-card-for-online-payments": [
+   "jobs",
+   "money",
+   "privacy"
+  ],
+  "use-government-services-online-in-nigeria": [
+   "legal",
+   "official-fees"
+  ],
+  "buy-electricity-and-pay-utility-bills": [],
+  "watch-and-stream-entertainment": [
+   "content"
+  ],
+  "get-news-and-check-it-is-real": [],
+  "start-a-youtube-or-tiktok-channel": [
+   "content"
+  ],
+  "start-a-small-online-business-with-no-stock": [],
+  "accept-donations-for-a-cause": [],
+  "set-up-a-small-company-email-and-shared-drive": [],
+  "back-up-business-records-safely": [
+   "privacy"
+  ],
+  "build-a-simple-database-in-a-spreadsheet-tool": [],
+  "learn-excel-from-scratch": [],
+  "learn-data-analysis-from-scratch": [
+   "privacy"
+  ],
+  "get-hired-in-tech-from-nigeria": [
+   "jobs"
+  ],
+  "write-a-grant-or-fellowship-application": [
+   "jobs",
+   "money"
+  ],
+  "apply-for-a-scholarship-abroad": [
+   "jobs"
+  ],
+  "prepare-for-ielts-or-toefl": [],
+  "organise-a-wedding-or-big-family-event": [],
+  "share-photos-and-memories-with-family": [
+   "content"
+  ],
+  "find-a-tutor-or-lesson-teacher": [],
+  "learn-a-trade-or-craft-online": [],
+  "use-ai-to-study-and-write-better": [
+   "ai"
+  ],
+  "create-images-and-media-with-ai": [
+   "ai",
+   "content"
+  ],
+  "report-from-structured-radiology-templates-to-referrers": [
+   "health"
+  ],
+  "measure-joint-angles-and-posture-from-photos": [
+   "content"
+  ],
+  "manage-a-vet-clinic-stock-and-invoices": [
+   "health"
+  ],
+  "remind-pet-owners-about-vaccinations": [],
+  "send-dental-recalls-and-treatment-plans": [
+   "health"
+  ],
+  "check-ground-conditions-and-bearing-capacity": [],
+  "compare-drawing-revisions": [],
+  "check-a-design-against-loads-with-a-quick-simulation": [],
+  "clean-and-plot-test-data": [
+   "privacy"
+  ],
+  "write-a-clear-engineering-specification": [],
+  "run-quality-audits-and-corrective-actions": [],
+  "log-equipment-faults-and-repairs": [],
+  "calculate-reserves-and-ore-grades": [],
+  "keep-regulatory-returns-and-deadlines": [
+   "legal"
+  ],
+  "write-and-run-test-cases-by-hand": [],
+  "find-the-slowest-part-of-an-app": [],
+  "plan-a-roadmap-for-a-small-team": [],
+  "secure-a-small-company-network-and-accounts": [
+   "privacy"
+  ],
+  "investigate-a-suspicious-login-or-file": [
+   "money",
+   "privacy"
+  ],
+  "learn-to-make-a-game-without-code": [],
+  "write-clear-user-guides-and-how-tos": [],
+  "sketch-an-idea-quickly": [],
+  "turn-my-browser-into-a-work-hub": [],
+  "find-unusual-transactions-in-accounting-data": [
+   "privacy"
+  ],
+  "track-actual-spending-against-the-budget": [],
+  "stress-test-a-plan-with-what-ifs": [],
+  "organise-evidence-and-exhibits-for-a-hearing": [],
+  "give-feedback-on-quizzes-instantly": [],
+  "make-a-short-lesson-video": [
+   "content"
+  ],
+  "add-captions-and-transcripts-to-teaching-videos": [
+   "content"
+  ],
+  "make-an-audio-version-of-a-lesson": [],
+  "arrange-a-song-for-a-choir-or-band": [
+   "content"
+  ],
+  "make-a-lead-sheet-with-chords-and-lyrics": [],
+  "check-where-an-image-or-claim-first-appeared": [
+   "content"
+  ],
+  "grow-newsletter-subscribers": [],
+  "batch-and-schedule-a-months-content": [],
+  "plan-an-album-or-single-release-campaign": [],
+  "render-a-quick-concept-model-for-a-client": [],
+  "track-a-campaign-in-google-analytics": [],
+  "get-press-coverage": [],
+  "write-a-product-description-or-ad-script": [],
+  "size-a-market-and-pick-a-niche": [],
+  "plan-and-track-leave-and-attendance": [],
+  "run-staff-appraisals-and-feedback": [],
+  "set-up-erp-for-a-growing-business": [
+   "privacy"
+  ],
+  "record-decisions-and-owners-after-meetings": [],
+  "build-a-client-ready-deck-from-data": [
+   "privacy"
+  ],
+  "run-a-virtual-retro-or-planning-session": [],
+  "shoot-product-photos-with-a-phone": [
+   "content"
+  ],
+  "compare-policy-options-with-data": [
+   "privacy"
+  ],
+  "run-a-citizen-poll-by-whatsapp-or-sms": [],
+  "schedule-volunteers-and-send-reminders": [],
+  "scan-and-organise-paper-archives": [
+   "privacy"
+  ],
+  "turn-a-spreadsheet-into-an-open-dataset": [],
+  "prepare-sermon-slides-and-notes": [],
+  "keep-a-prayer-and-care-list": [],
+  "coach-clients-by-whatsapp-with-check-ins": [
+   "health",
+   "privacy"
+  ],
+  "analyse-player-performance-from-gps-and-stats": [
+   "privacy"
+  ],
+  "sell-gym-passes-and-take-recurring-payments": [
+   "money"
+  ],
+  "make-a-highlight-reel": [
+   "content"
+  ],
+  "map-field-boundaries-and-plan-plots": [],
+  "plan-irrigation-and-rain-dependent-work": [],
+  "learn-which-pests-and-weeds-hit-my-crop": [],
+  "plan-breeding-and-feeding-for-livestock": [],
+  "keep-a-temperature-and-cleaning-log": [],
+  "work-out-menu-prices-and-margins": [],
+  "measure-and-sketch-a-floor-plan": [],
+  "read-error-codes-from-a-motorbike-or-car": [
+   "privacy"
+  ],
+  "fix-a-phone-laptop-or-appliance-yourself": [],
+  "plan-woodwork-from-a-sketch": [],
+  "find-the-cause-of-defects": [],
+  "map-a-value-stream-and-cut-waste": [
+   "content"
+  ],
+  "generate-toolpaths-from-a-cad-model": [
+   "ai"
+  ],
+  "slice-and-print-a-part-reliably": [],
+  "count-stock-and-find-things-in-a-store": [],
+  "check-weather-notams-and-charts-before-a-flight": [],
+  "track-ships-and-check-tides": [],
+  "ask-for-reviews-and-fix-bad-ones": [],
+  "take-tour-bookings-by-whatsapp-and-card": [],
+  "show-a-portfolio-of-photos-or-designs": [
+   "content"
+  ],
+  "sleep-better-and-lower-stress": [],
+  "track-security-patrols-and-incidents": [
+   "privacy"
+  ],
+  "find-people-and-businesses-from-public-records": [],
+  "recover-deleted-files-and-trace-activity": [],
+  "fit-a-curve-and-test-a-model": [],
+  "analyse-microscopy-or-lab-images": [
+   "content"
+  ],
+  "sketch-a-reaction-mechanism-for-teaching": [],
+  "turn-data-into-a-journal-quality-chart": [
+   "privacy"
+  ],
+  "write-a-data-management-plan": [
+   "privacy"
+  ],
+  "plan-an-astronomy-night": [],
+  "log-client-contacts-and-next-steps": [],
+  "build-a-referral-directory": [],
+  "use-text-to-speech-for-someone-who-cannot-speak": [],
+  "understand-signed-or-spoken-conversations-with-captions": [],
+  "learn-nigerian-sign-language-basics": [],
+  "keep-a-shared-care-calendar": [
+   "health"
+  ],
+  "manage-a-theatre-or-film-crew-schedule": [],
+  "build-an-acting-reel": [],
+  "find-ngo-or-community-volunteer-roles": [
+   "jobs"
+  ],
+  "get-around-a-city-you-do-not-know": [],
+  "get-a-remote-job-paid-in-dollars": [
+   "jobs"
+  ],
+  "find-remote-jobs-open-to-africa": [
+   "jobs"
+  ],
+  "find-remote-jobs-that-hire-from-anywhere": [
+   "jobs"
+  ],
+  "find-a-remote-developer-job": [
+   "jobs"
+  ],
+  "find-a-remote-design-job": [
+   "jobs"
+  ],
+  "find-a-remote-writing-or-content-job": [
+   "jobs"
+  ],
+  "find-a-remote-customer-support-job": [
+   "jobs"
+  ],
+  "find-a-remote-virtual-assistant-job": [
+   "jobs",
+   "ai"
+  ],
+  "find-a-remote-data-or-ai-job": [
+   "jobs",
+   "privacy",
+   "ai"
+  ],
+  "find-a-remote-marketing-job": [
+   "jobs"
+  ],
+  "find-a-remote-product-or-project-manager-job": [
+   "jobs"
+  ],
+  "check-a-remote-job-offer-is-genuine": [
+   "jobs"
+  ],
+  "get-hired-by-an-employer-of-record-or-global-payroll": [
+   "money",
+   "legal"
+  ],
+  "prepare-for-a-remote-interview": [
+   "content"
+  ],
+  "practise-coding-interview-questions": [],
+  "find-out-what-a-job-should-pay": [
+   "jobs"
+  ],
+  "write-a-cv-that-passes-applicant-tracking-systems": [],
+  "build-a-cv-for-free": [
+   "content"
+  ],
+  "make-a-cv-with-ai-help": [
+   "ai"
+  ],
+  "write-a-cover-letter": [
+   "jobs"
+  ],
+  "write-a-job-application-email": [
+   "jobs"
+  ],
+  "make-a-one-page-resume-website": [],
+  "track-my-job-applications": [
+   "jobs"
+  ],
+  "optimise-my-linkedin-profile-for-recruiters": [
+   "jobs"
+  ],
+  "network-and-find-a-mentor": [],
+  "find-graduate-trainee-and-internship-roles": [
+   "jobs"
+  ],
+  "find-jobs-across-africa": [
+   "jobs"
+  ],
+  "get-ready-for-nysc": [
+   "legal"
+  ],
+  "find-scholarships-and-fellowships": [
+   "jobs",
+   "money"
+  ],
+  "build-a-portfolio-for-a-job-or-clients": [
+   "jobs"
+  ],
+  "build-a-developer-portfolio": [],
+  "build-a-designer-portfolio": [],
+  "build-a-writer-portfolio": [],
+  "build-a-photographer-or-videographer-portfolio": [
+   "content"
+  ],
+  "build-a-data-analyst-portfolio": [
+   "privacy"
+  ],
+  "show-my-work-in-a-link-in-bio": [],
+  "get-a-professional-domain-and-email-for-my-name": [],
+  "start-freelancing-with-a-strong-profile": [
+   "jobs"
+  ],
+  "win-my-first-freelance-client": [
+   "jobs"
+  ],
+  "price-my-freelance-work": [
+   "jobs"
+  ],
+  "write-a-freelance-contract-and-get-it-signed": [
+   "jobs",
+   "legal"
+  ],
+  "invoice-international-clients": [
+   "jobs",
+   "money"
+  ],
+  "receive-client-payments-from-abroad-in-nigeria": [
+   "money",
+   "privacy"
+  ],
+  "keep-freelance-income-safe-from-failed-payment-apps": [
+   "jobs",
+   "money",
+   "privacy"
+  ],
+  "manage-freelance-time-and-clients": [
+   "jobs"
+  ],
+  "work-across-time-zones": [
+   "jobs"
+  ],
+  "set-up-a-home-office-that-works-in-nigeria": [
+   "jobs",
+   "privacy"
+  ],
+  "take-on-a-gig-or-micro-task-online": [],
+  "design-logos-and-graphics-for-clients-online": [],
+  "become-a-freelance-translator-or-transcriber": [
+   "jobs"
+  ],
+  "become-a-freelance-developer": [
+   "jobs"
+  ],
+  "become-a-freelance-video-editor": [
+   "jobs",
+   "content"
+  ],
+  "find-volunteer-or-experience-roles-that-build-a-cv": [
+   "jobs"
+  ],
+  "teach-kids-programming-without-a-computer": [
+   "kids"
+  ],
+  "teach-kids-to-code-with-blocks": [
+   "kids"
+  ],
+  "teach-young-children-their-first-coding": [
+   "kids"
+  ],
+  "teach-kids-real-text-coding": [
+   "kids"
+  ],
+  "start-a-kids-coding-club-or-class": [
+   "kids"
+  ],
+  "teach-kids-robotics-and-electronics": [
+   "kids"
+  ],
+  "teach-kids-game-making": [
+   "kids"
+  ],
+  "teach-kids-app-making": [
+   "kids"
+  ],
+  "teach-kids-3d-design-and-printing": [
+   "kids"
+  ],
+  "run-a-school-computer-lab-with-limited-devices": [
+   "jobs"
+  ],
+  "keep-kids-safe-on-coding-platforms": [
+   "kids",
+   "privacy"
+  ],
+  "find-a-paid-online-coding-class-for-my-child": [
+   "kids"
+  ],
+  "learn-to-code-from-zero": [],
+  "learn-to-code-on-my-phone": [],
+  "learn-web-development": [],
+  "learn-python": [],
+  "learn-sql-and-databases": [
+   "privacy"
+  ],
+  "learn-data-analysis-and-visualisation": [
+   "privacy"
+  ],
+  "learn-ui-ux-design": [],
+  "learn-digital-marketing": [],
+  "learn-cybersecurity-basics": [
+   "privacy"
+  ],
+  "learn-cloud-computing": [],
+  "learn-ai-and-prompting": [
+   "ai"
+  ],
+  "learn-no-code-app-building": [],
+  "learn-product-management": [],
+  "learn-excel-and-office-skills": [],
+  "get-a-free-tech-certificate-recognised-by-employers": [],
+  "join-a-nigerian-tech-training-programme": [
+   "jobs"
+  ],
+  "join-an-african-tech-bootcamp": [
+   "jobs"
+  ],
+  "find-a-coding-community-near-me": [],
+  "find-free-university-courses": [],
+  "find-the-right-online-course": [],
+  "build-a-habit-of-learning-every-day": [],
+  "prepare-for-a-tech-certification-exam": [],
+  "practise-coding-with-projects": [],
+  "code-in-the-browser-without-installing-anything": [],
+  "get-unstuck-when-code-breaks": [],
+  "build-an-app-by-describing-it-to-ai": [
+   "ai"
+  ],
+  "learn-electronics-and-iot": [
+   "jobs"
+  ],
+  "prepare-for-jamb-waec-and-neco-with-practice-questions": [
+   "official-fees"
+  ],
+  "register-for-jamb-waec-or-neco-online": [
+   "legal",
+   "official-fees"
+  ],
+  "help-a-child-with-maths-and-school-subjects": [
+   "kids"
+  ],
+  "make-learning-games-and-quizzes-for-students": [
+   "kids"
+  ],
+  "make-interactive-lessons-from-videos": [
+   "kids",
+   "content"
+  ],
+  "let-students-publish-their-own-books-and-portfolios": [],
+  "learn-skills-on-youtube-the-smart-way": [
+   "content"
+  ],
+  "edit-a-short-video-for-tiktok-reels-or-shorts": [
+   "content"
+  ],
+  "edit-a-video-on-an-iphone-or-ipad": [
+   "content"
+  ],
+  "edit-a-video-on-a-low-end-android-phone": [
+   "content"
+  ],
+  "edit-a-video-in-the-browser-without-installing": [
+   "content"
+  ],
+  "edit-a-youtube-video-on-a-laptop": [
+   "content"
+  ],
+  "make-videos-from-text-or-a-script-with-ai": [
+   "ai",
+   "content"
+  ],
+  "make-an-ai-avatar-video-for-training-or-marketing": [
+   "ai",
+   "content"
+  ],
+  "turn-a-long-video-into-short-clips": [
+   "content"
+  ],
+  "add-subtitles-in-english-yoruba-igbo-or-hausa": [
+   "content"
+  ],
+  "compress-and-convert-video-to-save-data": [
+   "privacy",
+   "content"
+  ],
+  "make-a-thumbnail-that-gets-clicks": [
+   "content"
+  ],
+  "find-free-photos-videos-and-music-i-can-use": [
+   "legal",
+   "content"
+  ],
+  "avoid-copyright-strikes-on-my-videos": [
+   "legal",
+   "content"
+  ],
+  "start-and-grow-a-youtube-channel": [],
+  "go-live-from-a-phone-or-laptop": [
+   "content"
+  ],
+  "record-a-screen-tutorial-or-demo": [
+   "content"
+  ],
+  "make-a-voice-over-without-a-microphone-studio": [
+   "ai"
+  ],
+  "clean-up-noisy-audio-and-voice-recordings": [
+   "content"
+  ],
+  "make-music-with-ai": [
+   "ai",
+   "content"
+  ],
+  "start-a-podcast": [
+   "content"
+  ],
+  "remove-a-background-or-fix-a-photo-quickly": [
+   "official-fees",
+   "content"
+  ],
+  "edit-photos-like-a-pro-for-free": [
+   "content"
+  ],
+  "make-a-logo-and-brand-colours-and-fonts": [],
+  "make-a-social-media-graphic-in-minutes": [],
+  "make-a-presentation-with-ai": [
+   "ai"
+  ],
+  "make-an-infographic-or-simple-animation": [],
+  "plan-and-schedule-content-for-the-month": [],
+  "find-content-ideas-that-people-search-for": [],
+  "earn-from-my-content-and-audience": [
+   "content"
+  ],
+  "sell-a-course-or-digital-download": [
+   "money",
+   "content"
+  ],
+  "grow-an-email-list-and-send-a-newsletter": [],
+  "write-a-blog-people-find-on-google": [],
+  "make-a-podcast-or-youtube-transcript-and-notes": [
+   "content"
+  ],
+  "translate-a-video-or-podcast-into-other-languages": [
+   "content"
+  ],
+  "proofread-and-fix-grammar-in-anything-i-write": [],
+  "rewrite-a-paragraph-so-it-sounds-better": [],
+  "write-in-a-clear-professional-tone": [],
+  "check-my-spelling-and-meaning-of-a-word": [],
+  "write-a-formal-complaint-or-application-letter": [],
+  "write-with-ai-without-sounding-like-a-robot": [
+   "ai"
+  ],
+  "write-marketing-copy-and-ads-with-ai": [
+   "ai"
+  ],
+  "check-an-essay-for-plagiarism-the-honest-way": [],
+  "cite-sources-and-build-a-reference-list": [],
+  "write-a-final-year-project-or-thesis-in-nigeria": [],
+  "write-a-research-paper-with-ai-support-honestly": [
+   "ai"
+  ],
+  "improve-academic-english-for-publication": [],
+  "translate-into-yoruba-igbo-hausa-or-pidgin": [],
+  "translate-between-french-arabic-portuguese-and-english": [],
+  "translate-a-pdf-or-scanned-document": [
+   "privacy"
+  ],
+  "make-a-pdf-from-photos-or-word": [
+   "content"
+  ],
+  "reduce-a-pdf-file-size-for-email-or-portals": [
+   "privacy",
+   "content"
+  ],
+  "edit-a-pdf-for-free": [],
+  "fill-and-sign-a-form-on-my-phone": [],
+  "make-a-passport-photo-or-id-photo-at-home": [
+   "official-fees",
+   "content"
+  ],
+  "turn-handwritten-notes-into-typed-text": [
+   "privacy",
+   "content"
+  ],
+  "take-better-notes-in-class-or-meetings": [],
+  "make-flashcards-and-revise-smarter": [],
+  "summarise-a-book-or-long-document-in-minutes": [],
+  "speak-english-with-confidence": [],
+  "learn-french-or-another-language-for-work-or-travel": [],
+  "type-faster-and-with-less-effort": [],
+  "check-a-nigerian-company-is-registered": [
+   "legal"
+  ],
+  "get-free-or-cheap-business-registration-in-nigeria": [
+   "legal"
+  ],
+  "choose-and-check-a-business-name": [],
+  "get-funding-grants-and-loans-for-my-small-business": [
+   "money"
+  ],
+  "learn-startup-skills-for-free": [],
+  "follow-african-tech-and-business-news": [
+   "money"
+  ],
+  "make-a-privacy-policy-and-terms-for-my-site-or-app": [
+   "legal",
+   "privacy"
+  ],
+  "understand-nigeria-data-protection-rules-as-a-small-business": [
+   "legal",
+   "privacy"
+  ],
+  "protect-customer-data-in-my-shop-or-app": [
+   "privacy"
+  ],
+  "price-my-product-or-service": [],
+  "validate-a-business-idea-before-spending-money": [],
+  "find-suppliers-and-import-goods-safely": [],
+  "sell-on-whatsapp-with-a-catalogue-and-payments": [
+   "money"
+  ],
+  "get-a-payment-link-without-a-website": [
+   "money"
+  ],
+  "give-customers-a-short-link-or-qr-code": [],
+  "run-a-simple-loyalty-or-referral-offer": [],
+  "get-reviews-and-show-trust-online": [],
+  "set-up-a-google-business-profile-so-nearby-customers-find-me": [],
+  "save-and-invest-safely-in-nigeria": [
+   "money"
+  ],
+  "check-an-investment-or-loan-app-is-legal-before-paying": [
+   "money",
+   "legal"
+  ],
+  "send-money-to-and-from-africa-cheaply": [
+   "money"
+  ],
+  "compare-ways-to-get-paid-from-abroad": [
+   "money",
+   "privacy"
+  ],
+  "verify-a-product-is-genuine-and-approved-in-nigeria": [
+   "health"
+  ],
+  "spot-a-fake-website-shop-or-social-page": [],
+  "report-fraud-or-a-scam-in-nigeria": [],
+  "protect-whatsapp-and-social-accounts-from-takeover": [
+   "privacy"
+  ],
+  "find-or-lock-a-lost-or-stolen-phone": [],
+  "use-the-internet-safely-on-public-wifi": [
+   "jobs",
+   "privacy"
+  ],
+  "learn-my-rights-over-my-personal-data": [
+   "legal",
+   "privacy"
+  ],
+  "check-if-my-email-or-password-leaked": [
+   "privacy"
+  ],
+  "protect-children-from-sharing-images-and-grooming": [
+   "kids",
+   "content"
+  ],
+  "set-screen-time-and-content-limits-for-kids": [
+   "kids"
+  ],
+  "get-a-safe-first-phone-or-tablet-for-a-child": [
+   "kids"
+  ],
+  "learn-to-spot-false-news-and-ai-fakes": [
+   "ai",
+   "content"
+  ],
+  "check-the-health-advice-i-found-online": [
+   "health"
+  ],
+  "check-symptoms-and-know-when-to-see-a-doctor": [
+   "health"
+  ],
+  "pick-a-site-to-practise-coding-challenges": [],
+  "pick-an-online-code-editor": [],
+  "pick-an-ai-coding-assistant": [
+   "ai"
+  ],
+  "pick-a-code-editor-or-ide": [],
+  "pick-a-tool-for-project-documentation-sites": [],
+  "pick-a-free-host-for-a-website-or-app": [],
+  "pick-a-managed-database-for-an-app": [],
+  "pick-a-front-end-framework-or-library": [],
+  "pick-a-machine-learning-or-ai-library": [
+   "ai"
+  ],
+  "pick-an-ai-model-api-to-build-with": [
+   "ai"
+  ],
+  "pick-a-network-simulator-or-admin-tool": [],
+  "pick-a-container-tool": [],
+  "pick-a-monitoring-and-error-tracking-tool": [],
+  "pick-a-developer-project-tracker": [],
+  "pick-a-scientific-computing-environment": [],
+  "pick-a-community-to-ask-developers-for-help": [],
+  "pick-a-no-code-mobile-app-builder": [],
+  "pick-an-sms-or-voice-api-for-an-app": [],
+  "pick-a-portfolio-site-builder": [
+   "content"
+  ],
+  "pick-a-simple-landing-page-builder": [],
+  "pick-wordpress-tools-for-a-business-site": [],
+  "pick-a-domain-and-web-host-for-nigeria": [],
+  "pick-a-host-with-local-support": [
+   "money"
+  ],
+  "pick-an-online-store-builder": [],
+  "pick-a-place-to-sell-digital-products": [
+   "content"
+  ],
+  "pick-a-marketplace-to-sell-on": [],
+  "find-a-property-listing-site": [],
+  "pick-a-print-on-demand-partner": [],
+  "pick-a-free-blog-platform": [],
+  "pick-a-tool-to-write-and-publish-a-book": [],
+  "pick-a-way-to-sell-and-distribute-my-book": [],
+  "pick-a-tool-for-papers-and-technical-documents": [],
+  "pick-a-publishing-platform-for-writers": [],
+  "pick-an-ai-writing-assistant": [
+   "ai"
+  ],
+  "pick-tools-for-african-languages": [
+   "ai"
+  ],
+  "pick-a-writing-style-checker": [],
+  "pick-an-email-app-or-provider": [],
+  "pick-a-to-do-app": [],
+  "pick-a-time-tracker-and-time-zone-tool": [],
+  "pick-a-presentation-tool": [],
+  "pick-a-form-and-survey-builder": [
+   "legal"
+  ],
+  "pick-a-no-code-database": [],
+  "pick-an-ai-meeting-note-taker": [
+   "ai"
+  ],
+  "pick-a-planner-for-project-schedules-in-excel": [],
+  "pick-a-pdf-editor": [],
+  "pick-a-tool-to-document-a-process-with-screenshots": [],
+  "pick-an-appointment-scheduler": [],
+  "pick-a-booking-system-for-a-salon-or-gym": [],
+  "pick-software-to-run-a-guesthouse-or-rental": [],
+  "pick-a-platform-to-sell-tours-and-stays": [],
+  "pick-a-delivery-and-fleet-tool": [],
+  "pick-a-till-and-point-of-sale-system": [],
+  "find-government-and-startup-support-for-a-small-business": [],
+  "pick-a-live-webinar-or-streaming-tool": [
+   "content"
+  ],
+  "pick-a-tool-for-animated-explainers": [
+   "content"
+  ],
+  "pick-an-ai-video-generator": [
+   "ai",
+   "content"
+  ],
+  "pick-a-phone-video-editor": [
+   "content"
+  ],
+  "pick-a-video-converter-player-and-subtitle-tool": [
+   "content"
+  ],
+  "pick-a-video-hosting-and-streaming-platform": [
+   "privacy",
+   "content"
+  ],
+  "pick-a-screen-recorder": [],
+  "pick-a-wireframing-and-prototyping-tool": [],
+  "pick-a-source-of-free-stock-media": [
+   "content"
+  ],
+  "pick-a-place-to-find-design-inspiration": [],
+  "pick-a-raw-photo-editor": [
+   "content"
+  ],
+  "pick-an-ai-image-and-photo-tool": [
+   "ai",
+   "content"
+  ],
+  "pick-a-drawing-and-illustration-app": [],
+  "pick-a-vector-and-ui-design-tool": [],
+  "pick-a-bulk-messaging-service-for-africa": [],
+  "pick-a-crm": [],
+  "pick-a-help-desk-and-live-chat": [],
+  "pick-a-social-ads-platform": [],
+  "pick-a-social-media-scheduler": [],
+  "pick-which-social-platforms-to-be-on": [],
+  "pick-a-privacy-friendly-website-analytics-tool": [
+   "privacy"
+  ],
+  "pick-link-in-bio-qr-and-short-link-tools": [],
+  "pick-keyword-and-product-feed-tools": [],
+  "pick-an-email-marketing-service": [],
+  "pick-a-cv-builder": [],
+  "pick-a-cv-checker-and-job-tracker": [
+   "jobs"
+  ],
+  "pick-an-interview-practice-tool": [],
+  "pick-a-mentor-and-professional-network-platform": [],
+  "find-creative-work-and-casting-calls": [
+   "jobs"
+  ],
+  "find-volunteering-and-service-opportunities": [],
+  "pick-a-remote-job-board": [
+   "jobs"
+  ],
+  "pick-a-tech-job-board": [
+   "jobs"
+  ],
+  "pick-a-way-to-register-for-nigerian-exams": [
+   "official-fees"
+  ],
+  "pick-a-stem-kit-or-board-for-learners": [],
+  "pick-a-coding-app-for-children": [
+   "kids"
+  ],
+  "pick-a-premium-course-library": [],
+  "pick-a-roadmap-for-a-tech-career": [
+   "ai"
+  ],
+  "pick-a-company-academy-for-a-free-certificate": [],
+  "pick-a-medical-exam-prep-tool": [
+   "health"
+  ],
+  "join-a-community-code-programme": [
+   "jobs"
+  ],
+  "pick-a-molecule-drawing-and-viewing-tool": [],
+  "pick-a-scientific-image-analysis-tool": [
+   "health",
+   "content"
+  ],
+  "pick-a-dna-and-protein-analysis-tool": [],
+  "pick-an-astronomy-planning-and-imaging-tool": [],
+  "pick-an-electronic-lab-notebook-or-trial-database": [
+   "health",
+   "privacy"
+  ],
+  "pick-a-research-data-repository": [
+   "privacy"
+  ],
+  "pick-a-process-simulator": [],
+  "pick-oil-and-gas-production-modelling-software": [],
+  "pick-solar-wind-and-energy-modelling-software": [],
+  "pick-lighting-and-electrical-design-software": [],
+  "pick-structural-analysis-software": [],
+  "pick-geotechnical-analysis-software": [],
+  "pick-water-and-flood-modelling-software": [],
+  "pick-a-music-or-video-streaming-app": [
+   "content"
+  ],
+  "pick-an-expense-splitting-or-budget-app": [],
+  "compare-nigerian-loan-and-savings-apps-carefully": [
+   "money"
+  ],
+  "get-around-and-get-things-delivered-in-nigerian-cities": [],
+  "do-government-paperwork-online-in-nigeria": [
+   "legal",
+   "official-fees"
+  ],
+  "use-a-health-app-for-symptoms-and-medicines": [
+   "health"
+  ],
+  "pick-a-meditation-app": [],
+  "pick-a-food-and-nutrition-tracker": [
+   "health"
+  ],
+  "organise-care-and-find-help": [],
+  "pick-a-project-and-planning-system": [],
+  "pick-quality-document-and-maintenance-software": [],
+  "pick-inventory-shipping-and-stock-software": [],
+  "track-vehicles-and-equipment-by-gps": [],
+  "estimate-construction-quantities-and-costs": [],
+  "find-funders-and-organise-volunteers": [
+   "money"
+  ],
+  "pick-farm-record-and-advice-software": [
+   "jobs"
+  ],
+  "identify-plants-weather-and-wildlife-with-my-phone": [],
+  "pick-a-field-data-collection-app": [
+   "privacy"
+  ],
+  "pick-a-car-diagnostic-scanner": [],
+  "pick-recipe-costing-and-restaurant-software": [],
+  "measure-and-document-a-building-site": [
+   "privacy",
+   "content"
+  ],
+  "pick-a-flight-and-travel-booking-site": [],
+  "plan-a-flight-with-charts-and-weather": [],
+  "navigate-at-sea-and-check-the-tides": [],
+  "send-parcels-and-compare-couriers": [],
+  "find-hiking-and-offline-trail-maps": [],
+  "pick-a-business-intelligence-and-audit-analytics-tool": [
+   "privacy"
+  ],
+  "pick-a-data-pipeline-and-warehouse-tool": [
+   "privacy"
+  ],
+  "pick-a-product-analytics-tool": [],
+  "pick-statistics-software": [],
+  "pick-a-dashboard-tool": [],
+  "pick-a-notebook-or-reproducible-report-tool": [],
+  "pick-an-open-data-and-humanitarian-tool": [
+   "privacy"
+  ],
+  "pick-a-scientific-plotting-and-chart-tool": [],
+  "pick-a-reference-manager": [],
+  "pick-a-search-engine-for-privacy-or-archives": [
+   "privacy"
+  ],
+  "pick-an-open-source-investigation-toolkit": [
+   "money",
+   "content"
+  ],
+  "pick-a-biomedical-literature-and-evidence-database": [
+   "health"
+  ],
+  "pick-a-legal-research-database": [
+   "legal"
+  ],
+  "pick-market-and-startup-intelligence-sources": [
+   "money",
+   "privacy"
+  ],
+  "find-a-product-manual-or-repair-guide": [],
+  "pick-a-plagiarism-and-originality-checker": [
+   "ai"
+  ],
+  "pick-a-learning-management-system": [
+   "kids"
+  ],
+  "pick-a-tool-to-record-and-annotate-lessons": [
+   "content"
+  ],
+  "pick-dental-clinic-software": [
+   "health"
+  ],
+  "pick-veterinary-practice-software": [
+   "health"
+  ],
+  "pick-clinic-notes-telehealth-and-exercise-software": [
+   "health"
+  ],
+  "pick-test-management-software": [],
+  "pick-it-device-and-identity-management": [],
+  "pick-a-team-work-management-tool": [],
+  "support-someone-remotely-with-screen-and-video": [
+   "content"
+  ],
+  "gather-public-input-and-run-workshops-online": [],
+  "pick-an-emergency-alert-and-push-to-talk-tool": [],
+  "pick-qualitative-research-coding-software": [],
+  "pick-a-survey-and-user-testing-tool": [],
+  "pick-practice-management-software-for-lawyers": [
+   "legal"
+  ],
+  "pick-ediscovery-and-document-review-software": [],
+  "pick-mining-software": [],
+  "pick-seismic-and-geology-interpretation-software": [],
+  "pick-petrophysics-and-well-planning-software": [],
+  "pick-drone-mapping-and-point-cloud-software": [
+   "content"
+  ],
+  "pick-web-mapping-and-earth-data-tools": [
+   "privacy"
+  ],
+  "pick-a-team-organiser-app": [],
+  "pick-sports-video-and-data-analysis-tools": [
+   "privacy",
+   "content"
+  ],
+  "pick-digital-forensics-and-monitoring-tools": [],
+  "pick-vulnerability-scanners-and-pentest-tools": [
+   "privacy"
+  ],
+  "check-my-network-and-internet-speed": [
+   "jobs",
+   "privacy"
+  ],
+  "pick-hiring-and-onboarding-software": [
+   "jobs"
+  ],
+  "pick-payroll-and-shift-scheduling-software": [],
+  "pick-surveying-and-site-cad-software": [],
+  "pick-takeoff-markup-and-model-checking-software": [],
+  "pick-an-ai-chat-assistant-for-images-and-text": [
+   "ai",
+   "content"
+  ],
+  "pick-an-ai-assistant-for-writing-and-research": [
+   "ai"
+  ],
+  "pick-an-ai-platform-to-build-with": [
+   "ai"
+  ],
+  "pick-tools-to-sell-tickets-and-raise-money-for-an-event": [],
+  "pick-crowdfunding-and-ticketing-platform": [],
+  "pick-dictation-and-voice-typing-software": [],
+  "test-or-use-a-screen-reader": [],
+  "pick-a-device-finder-and-security-suite": [
+   "privacy"
+  ],
+  "pick-scam-checking-and-reporting-tools": [],
+  "get-help-removing-private-images-and-harassment": [
+   "content"
+  ],
+  "pick-a-private-email-vpn-and-password-suite": [
+   "privacy"
+  ],
+  "pick-a-chatbot-builder": [
+   "ai"
+  ],
+  "pick-an-internal-app-builder": [
+   "jobs"
+  ],
+  "pick-a-money-transfer-service": [
+   "money"
+  ],
+  "pick-a-bill-payment-and-bank-transfer-app": [
+   "money"
+  ],
+  "study-sacred-texts-and-original-languages": [],
+  "read-and-search-scripture-in-many-translations": [],
+  "pick-royalty-free-music-and-sound-sources": [
+   "ai",
+   "content"
+  ],
+  "run-sound-and-cues-for-a-live-show": [],
+  "pick-a-diagramming-tool": [],
+  "pick-a-host-for-source-code": [],
+  "pick-a-tool-that-builds-web-apps-from-a-description": [
+   "ai"
+  ],
+  "prepare-a-part-for-3d-printing-or-cnc": [],
+  "simulate-a-factory-or-plc-program-before-building": [],
+  "pick-a-floor-plan-and-interior-visualiser": [],
+  "pick-3d-modelling-software-for-beginners": [],
+  "quote-a-job-and-invoice-the-customer": [
+   "jobs"
+  ],
+  "run-quality-improvement-and-audits": [],
+  "pick-drug-and-dose-reference-apps": [
+   "health"
+  ],
+  "pick-a-clinical-evidence-and-guideline-reference": [
+   "health"
+  ],
+  "pick-an-artist-dashboard-and-distributor": [
+   "content"
+  ],
+  "pick-church-management-and-giving-software": [],
+  "pick-drilling-reporting-and-subsurface-suites": [
+   "privacy"
+  ],
+  "open-and-use-african-language-datasets": [
+   "privacy"
+  ],
+  "see-a-doctor-online-in-nigeria": [
+   "health"
+  ],
+  "use-ai-in-yoruba-igbo-hausa-or-pidgin": [
+   "ai"
+  ],
+  "learn-tech-free-with-a-nigerian-programme": [
+   "jobs",
+   "money"
+  ],
+  "get-free-developer-tools-as-a-student": [],
+  "find-a-hackathon-to-build-and-win": [],
+  "learn-maths-and-science-with-free-simulations": [],
+  "read-free-books-and-textbooks-legally": [
+   "legal"
+  ],
+  "find-stories-for-children-in-african-languages": [
+   "kids"
+  ],
+  "learn-about-health-emergencies-for-free": [
+   "health"
+  ],
+  "keep-simple-sales-and-debt-records-on-my-phone": []
+ }
+}

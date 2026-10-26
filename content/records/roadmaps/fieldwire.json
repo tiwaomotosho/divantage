@@ -22,7 +22,11 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "site-management"
+     "site-management",
+     "project-scheduling",
+     "quality-hse",
+     "cost-estimation",
+     "site-measurement"
     ],
     "estimated_hours": {
      "value": 1,
@@ -44,7 +48,11 @@
     "practice": "Complete a full daily report",
     "need_tags": [
      "drilling-reporting",
-     "site-management"
+     "site-management",
+     "project-scheduling",
+     "quality-hse",
+     "cost-estimation",
+     "site-measurement"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -67,7 +75,11 @@
     "need_tags": [
      "drilling-reporting",
      "data-cleaning",
-     "site-management"
+     "site-management",
+     "project-scheduling",
+     "quality-hse",
+     "cost-estimation",
+     "site-measurement"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -91,7 +103,11 @@
     "practice": "Produce a weekly KPI report",
     "need_tags": [
      "kpi-tracking",
-     "site-management"
+     "site-management",
+     "project-scheduling",
+     "quality-hse",
+     "cost-estimation",
+     "site-measurement"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -113,7 +129,10 @@
     "practice": "Build a two-week lookahead",
     "need_tags": [
      "project-scheduling",
-     "site-management"
+     "site-management",
+     "quality-hse",
+     "cost-estimation",
+     "site-measurement"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -134,7 +153,11 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "site-management"
+     "site-management",
+     "project-scheduling",
+     "quality-hse",
+     "cost-estimation",
+     "site-measurement"
     ],
     "estimated_hours": {
      "value": 3,
@@ -156,7 +179,11 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "site-management"
+     "site-management",
+     "project-scheduling",
+     "quality-hse",
+     "cost-estimation",
+     "site-measurement"
     ],
     "estimated_hours": {
      "value": 4,
@@ -179,7 +206,11 @@
     "need_tags": [
      "dashboards-bi",
      "regulatory-reporting",
-     "site-management"
+     "site-management",
+     "project-scheduling",
+     "quality-hse",
+     "cost-estimation",
+     "site-measurement"
     ],
     "estimated_hours": {
      "value": 4.0,
@@ -201,7 +232,11 @@
     "practice": "Connect Fieldwire to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "site-management"
+     "site-management",
+     "project-scheduling",
+     "quality-hse",
+     "cost-estimation",
+     "site-measurement"
     ],
     "estimated_hours": {
      "value": 2,
@@ -223,7 +258,11 @@
     "practice": "Write a one-page \"how we use Fieldwire\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "site-management"
+     "site-management",
+     "project-scheduling",
+     "quality-hse",
+     "cost-estimation",
+     "site-measurement"
     ],
     "estimated_hours": {
      "value": 2,

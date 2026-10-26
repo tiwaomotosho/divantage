@@ -22,7 +22,10 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "book-writing-publishing"
+     "book-writing-publishing",
+     "technical-reporting",
+     "academic-writing",
+     "newsletter-publishing"
     ],
     "estimated_hours": {
      "value": 1,
@@ -43,7 +46,10 @@
     "practice": "Draft a 500-word piece",
     "need_tags": [
      "write-clearly",
-     "book-writing-publishing"
+     "book-writing-publishing",
+     "technical-reporting",
+     "academic-writing",
+     "newsletter-publishing"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -64,7 +70,10 @@
     "practice": "Edit your draft using Scrivener's suggestions critically",
     "need_tags": [
      "write-clearly",
-     "book-writing-publishing"
+     "book-writing-publishing",
+     "technical-reporting",
+     "academic-writing",
+     "newsletter-publishing"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -89,7 +98,9 @@
     "need_tags": [
      "academic-writing",
      "book-writing-publishing",
-     "technical-writing"
+     "technical-writing",
+     "technical-reporting",
+     "newsletter-publishing"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -111,7 +122,10 @@
     "need_tags": [
      "technical-writing",
      "copywriting",
-     "book-writing-publishing"
+     "book-writing-publishing",
+     "technical-reporting",
+     "academic-writing",
+     "newsletter-publishing"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -132,7 +146,10 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "book-writing-publishing"
+     "book-writing-publishing",
+     "technical-reporting",
+     "academic-writing",
+     "newsletter-publishing"
     ],
     "estimated_hours": {
      "value": 3,
@@ -154,7 +171,10 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "book-writing-publishing"
+     "book-writing-publishing",
+     "technical-reporting",
+     "academic-writing",
+     "newsletter-publishing"
     ],
     "estimated_hours": {
      "value": 4,
@@ -175,7 +195,9 @@
     "practice": "Publish a piece with an editor's review",
     "need_tags": [
      "newsletter-publishing",
-     "book-writing-publishing"
+     "book-writing-publishing",
+     "technical-reporting",
+     "academic-writing"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -197,7 +219,10 @@
     "practice": "Connect Scrivener to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "book-writing-publishing"
+     "book-writing-publishing",
+     "technical-reporting",
+     "academic-writing",
+     "newsletter-publishing"
     ],
     "estimated_hours": {
      "value": 2,
@@ -219,7 +244,10 @@
     "practice": "Write a one-page \"how we use Scrivener\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "book-writing-publishing"
+     "book-writing-publishing",
+     "technical-reporting",
+     "academic-writing",
+     "newsletter-publishing"
     ],
     "estimated_hours": {
      "value": 2,

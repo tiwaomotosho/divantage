@@ -25,7 +25,11 @@
      "game-development",
      "motion-graphics",
      "3d-modelling",
-     "architectural-visualisation"
+     "architectural-visualisation",
+     "medical-imaging-viewing",
+     "interior-design",
+     "3d-printing",
+     "lesson-planning"
     ],
     "estimated_hours": {
      "value": 1,
@@ -49,7 +53,11 @@
      "3d-modelling",
      "game-development",
      "motion-graphics",
-     "architectural-visualisation"
+     "architectural-visualisation",
+     "medical-imaging-viewing",
+     "interior-design",
+     "3d-printing",
+     "lesson-planning"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -74,7 +82,10 @@
      "interior-design",
      "game-development",
      "motion-graphics",
-     "architectural-visualisation"
+     "architectural-visualisation",
+     "medical-imaging-viewing",
+     "3d-printing",
+     "lesson-planning"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -100,7 +111,11 @@
      "3d-modelling",
      "architectural-visualisation",
      "game-development",
-     "motion-graphics"
+     "motion-graphics",
+     "medical-imaging-viewing",
+     "interior-design",
+     "3d-printing",
+     "lesson-planning"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -123,7 +138,11 @@
      "architectural-visualisation",
      "game-development",
      "motion-graphics",
-     "3d-modelling"
+     "3d-modelling",
+     "medical-imaging-viewing",
+     "interior-design",
+     "3d-printing",
+     "lesson-planning"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -147,7 +166,11 @@
      "game-development",
      "motion-graphics",
      "3d-modelling",
-     "architectural-visualisation"
+     "architectural-visualisation",
+     "medical-imaging-viewing",
+     "interior-design",
+     "3d-printing",
+     "lesson-planning"
     ],
     "estimated_hours": {
      "value": 3,
@@ -173,7 +196,11 @@
      "game-development",
      "motion-graphics",
      "3d-modelling",
-     "architectural-visualisation"
+     "architectural-visualisation",
+     "medical-imaging-viewing",
+     "interior-design",
+     "3d-printing",
+     "lesson-planning"
     ],
     "estimated_hours": {
      "value": 4,
@@ -197,7 +224,11 @@
      "3d-modelling",
      "motion-graphics",
      "game-development",
-     "architectural-visualisation"
+     "architectural-visualisation",
+     "medical-imaging-viewing",
+     "interior-design",
+     "3d-printing",
+     "lesson-planning"
     ],
     "estimated_hours": {
      "value": 5.0,
@@ -222,7 +253,11 @@
      "game-development",
      "motion-graphics",
      "3d-modelling",
-     "architectural-visualisation"
+     "architectural-visualisation",
+     "medical-imaging-viewing",
+     "interior-design",
+     "3d-printing",
+     "lesson-planning"
     ],
     "estimated_hours": {
      "value": 2,
@@ -247,7 +282,11 @@
      "game-development",
      "motion-graphics",
      "3d-modelling",
-     "architectural-visualisation"
+     "architectural-visualisation",
+     "medical-imaging-viewing",
+     "interior-design",
+     "3d-printing",
+     "lesson-planning"
     ],
     "estimated_hours": {
      "value": 2,

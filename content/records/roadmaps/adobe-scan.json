@@ -22,7 +22,11 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "scan-documents"
+     "scan-documents",
+     "records-management",
+     "study-skills",
+     "translate-languages",
+     "pdf-work"
     ],
     "estimated_hours": {
      "value": 1,
@@ -43,7 +47,11 @@
     ],
     "practice": "Install Adobe Scan on phone and computer",
     "need_tags": [
-     "scan-documents"
+     "scan-documents",
+     "records-management",
+     "study-skills",
+     "translate-languages",
+     "pdf-work"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -64,7 +72,11 @@
     "practice": "Use Adobe Scan for a week and note one saved hour",
     "need_tags": [
      "personal-productivity",
-     "scan-documents"
+     "scan-documents",
+     "records-management",
+     "study-skills",
+     "translate-languages",
+     "pdf-work"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -88,7 +100,10 @@
     "need_tags": [
      "personal-productivity",
      "records-management",
-     "scan-documents"
+     "scan-documents",
+     "study-skills",
+     "translate-languages",
+     "pdf-work"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -110,7 +125,11 @@
     "need_tags": [
      "files-cloud-storage",
      "online-safety",
-     "scan-documents"
+     "scan-documents",
+     "records-management",
+     "study-skills",
+     "translate-languages",
+     "pdf-work"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -131,7 +150,11 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "scan-documents"
+     "scan-documents",
+     "records-management",
+     "study-skills",
+     "translate-languages",
+     "pdf-work"
     ],
     "estimated_hours": {
      "value": 3,
@@ -152,7 +175,11 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "scan-documents"
+     "scan-documents",
+     "records-management",
+     "study-skills",
+     "translate-languages",
+     "pdf-work"
     ],
     "estimated_hours": {
      "value": 4,
@@ -173,7 +200,11 @@
     "practice": "Create two automation rules",
     "need_tags": [
      "automation-workflows",
-     "scan-documents"
+     "scan-documents",
+     "records-management",
+     "study-skills",
+     "translate-languages",
+     "pdf-work"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -195,7 +226,11 @@
     "practice": "Connect Adobe Scan to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "scan-documents"
+     "scan-documents",
+     "records-management",
+     "study-skills",
+     "translate-languages",
+     "pdf-work"
     ],
     "estimated_hours": {
      "value": 2,
@@ -217,7 +252,11 @@
     "practice": "Write a one-page \"how we use Adobe Scan\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "scan-documents"
+     "scan-documents",
+     "records-management",
+     "study-skills",
+     "translate-languages",
+     "pdf-work"
     ],
     "estimated_hours": {
      "value": 2,

@@ -28,3 +28,30 @@ F-26,Ticks that show I can do this,On-device module ticks on roadmaps; helper ch
 F-27,Identity stays private,The chosen identity and helper progress never leave the device,D-053,FR-054; FR-069,S01-R,TC-074; TC-122,Beta,,Specified V2.1; extended V2.5
 F-28,Occupations list for experts to review,Occupations directory (CSV and Markdown) generated from the sources,D-055,,,TC-103; TC-105,Beta,,Specified V2.2
 F-29,Improve every week from what people say,"Weekly loop: sort, fix, release, announce in What's new",D-062; D-064,FR-065,S37,TC-111,Beta,whats_new,Specified V2.3
+F-30,"Using tech to compete, grow and scale","Positioning and three intent chips (compete, grow, scale) on every need and goal",D-075,FR-076,S01-R; S42,TC-136,Beta,intent_chips,Specified V2.6
+F-31,Jump straight to a goal,"1,050 goals under 279 needs; search by goal, search words and tool names",D-071,FR-077; FR-078,S42; S43,TC-133; TC-135,Beta,goals,Specified V2.6
+F-32,7 alternatives per tool,"Alternatives derived from goals for 1,781 tools; 99.9% list 7 and 97.0% have 7 of the same kind (build gate 95%)",D-072; D-073,FR-079; FR-080,S43,TC-134; TC-139,Beta,alternatives,Specified V2.6
+F-33,Something very Nigerian (inDrive) and local tools,"Markets, Nigeria-first ranking, availability notes (Uber, Showmax)",D-074,FR-081; FR-082,S42; S43,TC-137; TC-138,Beta,goals,Specified V2.6
+F-34,Skills can be starred,"Stars for skills, tools, goals and helpers; My workbench",D-079,FR-083,S45,TC-140; TC-141,Beta,stars,Specified V2.6
+F-35,Sign-in after value is discovered,Optional sign-in with triggers and a frequency cap,D-076; D-077,FR-084; FR-085,S44,TC-142,Launch,accounts,Specified V2.6
+F-36,Profile and your data,"Profile, three consent switches, export and delete",D-078,FR-086; FR-087; FR-088; FR-094,S46,TC-143; TC-144; TC-145,Launch,accounts,Specified V2.6
+F-37,Intelligent recommendation that keeps improving,Rule-based recommendations R1 to R8 with a why line; no machine learning,D-080,FR-089,S45,TC-146; TC-147,Launch,recommendations,Specified V2.6
+F-38,"Top skills, professions and goals this week",Trending lists with privacy floor and activity gate,D-081,FR-090,S47,TC-148,Launch,trending,Specified V2.6
+F-39,Come back to keep going,"Continue card, saved stage outputs and the outcome prompt",D-082,FR-091; FR-092,S45,TC-141; TC-149,Launch,continue_card; outcome_prompt,Specified V2.6
+F-40,See what happened to my suggestion,Suggestion status page,D-082,FR-093,S48,TC-150,Launch,suggestion_status,Specified V2.6
+F-41,"A brief paragraph, subscription and price for every tool, with a label","Short description, pricing model, free tier and price note for 1,781 tools; unchecked ones carry a Preview label that says what is unchecked",D-084,FR-095; FR-096; FR-097,S51,TC-151; TC-152; TC-153; TC-154,Beta,tool_profiles,Specified V2.7
+F-42,Take the 59% to at least 95%,Same-kind alternatives measured and gated at 95% (now 97.0%),D-085,FR-098,,TC-155,Beta,alternatives,Specified V2.7
+F-43,I want to get a remote job; I want to edit a short video,"29 goal kits: ordered steps with tools, price chips, safety notes and next step",D-086,FR-099; FR-100,S49; S50,TC-156; TC-157,Beta,kits,Specified V2.7
+F-44,Make people happy and safe,"Safety panel on goals about jobs, money, children, health, legal, privacy, AI, content and official fees",D-087,FR-101; FR-102,S43; S50,TC-158; TC-159,Beta,goal_safety,Specified V2.7
+F-45,"Easy to find goals: who are you, skills, say it your way",Seven entry paths and natural-language goal search that ranks kits first,D-088,FR-103; FR-104,S01-R; S42; S51,TC-160; TC-161; TC-162,Beta,goal_search_natural,Specified V2.7
+F-46,Everything connected,"Three to six related goals per goal, next step in kits, goals that use each tool",D-088,FR-105,S43,TC-163,Beta,goals,Specified V2.7
+F-47,Suggest goals to people who don't go there directly,"Suggested for you: next in kit, kits for people like you, while you are here, check first; no account needed",D-089,FR-106,S52,TC-164; TC-165; TC-166,Beta,suggested_for_you,Specified V2.7
+F-48,"We own Technology Education: teach kids programming, tech enablement","Kids programming kit, learn to code, break into tech and a build-time coverage floor",D-090,FR-107; FR-108,S50,TC-167; TC-168,Beta,kits,Specified V2.7
+F-49,Every page ends with a next step; Learn {tool} everywhere,NextStepCard on every content page and a Learn {tool} button on every tool row and page,D-092,FR-109; FR-110,S09; S27; S30; S40; S43; S50,TC-169; TC-170; TC-171,Beta,next_step_card,Specified V2.8
+F-50,Visible trust,TrustLine (price plus Checked date or Preview) on every tool mention; trust strip on home; How we review page,D-093,FR-111,S01-R; S09,TC-172,Beta,trust_line,Specified V2.8
+F-51,Learning paths written for my job,"DepthLabel (For {job}, In depth, General guide), job paths first, Ask for my job",D-094,FR-112; FR-113,S30,TC-173; TC-174,Beta,depth_labels,Specified V2.8; role paths still to be written
+F-52,"Calm, consistent look that survives the build","Colour and button budget, closed asset set, fidelity contract, lint and runtime audit",D-095; D-096; D-097; D-098; D-099; D-091,FR-119,S01-R,TC-182; TC-183; TC-184; TC-185; TC-186; TC-187; TC-188,Beta,,Specified V2.8
+F-53,Helper makes sense,"Helper explainer, first-run coach mark, hide and restore, never covers content",D-100,FR-115,S40; S41,TC-179,Beta,helper_coachmark,Specified V2.8
+F-54,Nothing cut off on iPhone,"Overflow guard, reserved space for fixed bars, no dead controls",D-101,FR-116,S01-R,TC-176; TC-177; TC-178,Beta,,Specified V2.8
+F-55,Needs that fit my work; more occupations,Right for your work thumbs on needs; Suggest my role,D-102; D-103,FR-114; FR-117,S27; S33,TC-175; TC-180,Beta,need_feedback,Specified V2.8
+F-56,One clear promise,Home H1 and meta use 'Find the tools people in your job use. Learn them step by step.'; UI says learning path,D-104; D-106,FR-118,S01-R,TC-181,Beta,,Specified V2.8

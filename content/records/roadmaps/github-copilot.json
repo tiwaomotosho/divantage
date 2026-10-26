@@ -22,7 +22,8 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "write-code"
+     "write-code",
+     "ai-app-development"
     ],
     "estimated_hours": {
      "value": 1,
@@ -44,7 +45,8 @@
     "need_tags": [
      "use-ai-assistants",
      "fact-check",
-     "write-code"
+     "write-code",
+     "ai-app-development"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -66,7 +68,8 @@
     "need_tags": [
      "use-ai-assistants",
      "online-safety",
-     "write-code"
+     "write-code",
+     "ai-app-development"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -88,7 +91,8 @@
     ],
     "practice": "Create three prompts for your weekly tasks",
     "need_tags": [
-     "write-code"
+     "write-code",
+     "ai-app-development"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -110,7 +114,8 @@
     "need_tags": [
      "literature-review",
      "find-information",
-     "write-code"
+     "write-code",
+     "ai-app-development"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -131,7 +136,8 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "write-code"
+     "write-code",
+     "ai-app-development"
     ],
     "estimated_hours": {
      "value": 3,
@@ -154,7 +160,8 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "write-code"
+     "write-code",
+     "ai-app-development"
     ],
     "estimated_hours": {
      "value": 4,
@@ -198,7 +205,8 @@
     "practice": "Connect GitHub Copilot to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "write-code"
+     "write-code",
+     "ai-app-development"
     ],
     "estimated_hours": {
      "value": 2,
@@ -220,7 +228,8 @@
     "practice": "Write a one-page \"how we use GitHub Copilot\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "write-code"
+     "write-code",
+     "ai-app-development"
     ],
     "estimated_hours": {
      "value": 2,

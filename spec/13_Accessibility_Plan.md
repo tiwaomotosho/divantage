@@ -1,5 +1,7 @@
 # 13 — Accessibility Plan
 
+> **V2.8:** targets are 24 px minimum, WCAG 2.2 AA, and the phone-shell rules in D-101; see doc 28 §7. Still to add here: the sign-in sheet, safety panel and suggestion cards (checklist 11.2).
+
 **Version:** 2.1 · **Target:** WCAG 2.2 Level AA (V1 NFR-019), verified by automated and manual testing. A formal external audit is recommended before public launch, if capacity allows.
 
 ## 1. WCAG 2.2 AA mapping (key criteria → implementation → test)

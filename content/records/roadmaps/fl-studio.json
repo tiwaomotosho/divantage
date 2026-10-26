@@ -22,7 +22,8 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "audio-production"
+     "audio-production",
+     "stage-production"
     ],
     "estimated_hours": {
      "value": 1,
@@ -44,7 +45,8 @@
     "practice": "Record a 1-minute voice or instrument take with good levels",
     "need_tags": [
      "audio-production",
-     "podcast-production"
+     "podcast-production",
+     "stage-production"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -65,7 +67,8 @@
     ],
     "practice": "Edit a rough recording into a clean 2-minute piece",
     "need_tags": [
-     "audio-production"
+     "audio-production",
+     "stage-production"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -88,7 +91,8 @@
     ],
     "practice": "Mix a short track or podcast episode",
     "need_tags": [
-     "audio-production"
+     "audio-production",
+     "stage-production"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -110,7 +114,8 @@
     "practice": "Export versions for streaming, podcast and video",
     "need_tags": [
      "audio-production",
-     "podcast-production"
+     "podcast-production",
+     "stage-production"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -131,7 +136,8 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "audio-production"
+     "audio-production",
+     "stage-production"
     ],
     "estimated_hours": {
      "value": 3,
@@ -154,7 +160,8 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "audio-production"
+     "audio-production",
+     "stage-production"
     ],
     "estimated_hours": {
      "value": 4,
@@ -176,7 +183,8 @@
     "practice": "Produce and release a complete track or episode",
     "need_tags": [
      "audio-production",
-     "creator-income"
+     "creator-income",
+     "stage-production"
     ],
     "estimated_hours": {
      "value": 6.0,
@@ -198,7 +206,8 @@
     "practice": "Connect FL Studio to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "audio-production"
+     "audio-production",
+     "stage-production"
     ],
     "estimated_hours": {
      "value": 2,
@@ -220,7 +229,8 @@
     "practice": "Write a one-page \"how we use FL Studio\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "audio-production"
+     "audio-production",
+     "stage-production"
     ],
     "estimated_hours": {
      "value": 2,

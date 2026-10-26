@@ -470,5 +470,898 @@
         "learning-teaching"
       ]
     }
-  ]
+  ],
+  "goal_queries": [
+    {
+      "query": "indrive",
+      "expect_any_top5": [
+        "get-a-ride-in-a-nigerian-city",
+        "earn-more-as-a-ride-hailing-driver",
+        "compare-ride-prices-and-stay-safe"
+      ]
+    },
+    {
+      "query": "ride hailing",
+      "expect_any_top5": [
+        "get-a-ride-in-a-nigerian-city",
+        "earn-more-as-a-ride-hailing-driver"
+      ]
+    },
+    {
+      "query": "okada",
+      "expect_any_top5": [
+        "get-a-ride-in-a-nigerian-city"
+      ],
+      "market": "ng"
+    },
+    {
+      "query": "pos agent",
+      "expect_any_top5": [
+        "become-a-pos-agent"
+      ]
+    },
+    {
+      "query": "wordpress",
+      "expect_any_top5": [
+        "build-a-business-website",
+        "build-a-website-without-code",
+        "launch-a-blog"
+      ]
+    },
+    {
+      "query": "build a website",
+      "expect_any_top5": [
+        "build-a-website-without-code",
+        "build-a-business-website"
+      ]
+    },
+    {
+      "query": "website for my church",
+      "expect_any_top5": [
+        "build-a-website-for-a-church-school-or-ngo"
+      ]
+    },
+    {
+      "query": "piggyvest",
+      "expect_any_top5": [
+        "save-money-in-naira-automatically",
+        "budget-and-save-in-naira"
+      ]
+    },
+    {
+      "query": "save money",
+      "expect_any_top5": [
+        "save-money-in-naira-automatically",
+        "budget-and-save-in-naira",
+        "budget-my-money-each-month"
+      ]
+    },
+    {
+      "query": "buy airtime",
+      "expect_any_top5": [
+        "pay-bills-and-buy-airtime-or-data"
+      ]
+    },
+    {
+      "query": "electricity token",
+      "expect_any_top5": [
+        "buy-electricity-and-pay-utility-bills",
+        "pay-bills-and-buy-airtime-or-data"
+      ]
+    },
+    {
+      "query": "translate yoruba",
+      "expect_any_top5": [
+        "translate-local-languages"
+      ]
+    },
+    {
+      "query": "pidgin",
+      "expect_any_top5": [
+        "translate-local-languages",
+        "learn-a-nigerian-language"
+      ]
+    },
+    {
+      "query": "free dashboard",
+      "expect_any_top5": [
+        "build-a-free-dashboard-from-a-spreadsheet",
+        "build-a-live-dashboard"
+      ]
+    },
+    {
+      "query": "make a logo",
+      "expect_any_top5": [
+        "make-a-logo",
+        "build-a-brand-identity"
+      ]
+    },
+    {
+      "query": "online giving",
+      "expect_any_top5": [
+        "receive-tithes-and-offerings-online",
+        "receive-offerings-in-naira-by-transfer-or-card"
+      ]
+    },
+    {
+      "query": "sell on instagram",
+      "expect_any_top5": [
+        "sell-on-instagram-and-whatsapp"
+      ]
+    },
+    {
+      "query": "jamb",
+      "expect_any_top5": [
+        "study-for-jamb-waec-or-neco"
+      ]
+    },
+    {
+      "query": "register a business",
+      "expect_any_top5": [
+        "register-a-business-in-nigeria"
+      ]
+    },
+    {
+      "query": "cac",
+      "expect_any_top5": [
+        "register-a-business-in-nigeria"
+      ]
+    },
+    {
+      "query": "tax",
+      "expect_any_top5": [
+        "register-and-file-business-taxes-in-nigeria",
+        "prepare-and-file-taxes"
+      ]
+    },
+    {
+      "query": "learn to code",
+      "expect_any_top5": [
+        "learn-to-write-code"
+      ]
+    },
+    {
+      "query": "bulk sms",
+      "expect_any_top5": [
+        "send-bulk-sms-and-whatsapp-messages"
+      ]
+    },
+    {
+      "query": "scan a document",
+      "expect_any_top5": [
+        "scan-a-document-with-my-phone"
+      ]
+    },
+    {
+      "query": "remote jobs",
+      "expect_any_top5": [
+        "find-remote-jobs"
+      ]
+    },
+    {
+      "query": "stream church service",
+      "expect_any_top5": [
+        "stream-a-church-service-online",
+        "stream-a-service-on-limited-data"
+      ]
+    },
+    {
+      "query": "start a podcast",
+      "expect_any_top5": [
+        "record-a-podcast-episode",
+        "publish-and-grow-a-podcast",
+        "start-a-podcast"
+      ]
+    },
+    {
+      "query": "release a song",
+      "expect_any_top5": [
+        "release-a-song-to-streaming-platforms",
+        "release-music-in-africa"
+      ]
+    },
+    {
+      "query": "afrobeats",
+      "expect_any_top5": [
+        "make-beats-on-a-phone-or-low-spec-laptop",
+        "release-music-in-africa"
+      ]
+    },
+    {
+      "query": "solar",
+      "expect_any_top5": [
+        "size-a-solar-system-for-a-home-or-business",
+        "model-a-solar-or-wind-project"
+      ]
+    },
+    {
+      "query": "send an invoice",
+      "expect_any_top5": [
+        "send-an-invoice-and-chase-payment"
+      ]
+    },
+    {
+      "query": "dollar card",
+      "expect_any_top5": [
+        "get-a-dollar-account-or-card-for-online-payments"
+      ]
+    },
+    {
+      "query": "food delivery",
+      "expect_any_top5": [
+        "order-food-and-groceries-for-delivery",
+        "get-restaurant-orders-from-delivery-apps"
+      ]
+    },
+    {
+      "query": "nin",
+      "expect_any_top5": [
+        "use-government-services-online-in-nigeria"
+      ]
+    },
+    {
+      "query": "school fees",
+      "expect_any_top5": [
+        "pay-school-fees-and-exam-fees-online",
+        "plan-family-money-and-school-fees"
+      ]
+    },
+    {
+      "query": "free cad",
+      "expect_any_top5": [
+        "get-a-free-cad-tool"
+      ]
+    },
+    {
+      "query": "drone map",
+      "expect_any_top5": [
+        "process-drone-photos-into-maps-and-3d-models"
+      ]
+    },
+    {
+      "query": "excel formulas",
+      "expect_any_top5": [
+        "calculate-with-formulas",
+        "learn-excel-from-scratch"
+      ]
+    },
+    {
+      "query": "whatsapp business",
+      "expect_any_top5": [
+        "manage-customers-on-whatsapp",
+        "sell-on-instagram-and-whatsapp"
+      ]
+    },
+    {
+      "query": "hacked account",
+      "expect_any_top5": [
+        "recover-a-hacked-account"
+      ]
+    },
+    {
+      "query": "send money abroad",
+      "expect_any_top5": [
+        "send-money-abroad-or-to-family"
+      ]
+    },
+    {
+      "query": "open a shop online",
+      "expect_any_top5": [
+        "open-an-online-shop",
+        "build-an-online-shop-website"
+      ]
+    },
+    {
+      "query": "jiji",
+      "expect_any_top5": [
+        "buy-and-sell-safely-on-nigerian-classifieds",
+        "sell-on-jumia-konga-and-jiji"
+      ]
+    },
+    {
+      "query": "memorise bible verses",
+      "expect_any_top5": [
+        "memorise-scripture-or-long-texts-word-for-word"
+      ]
+    },
+    {
+      "query": "spaced repetition",
+      "expect_any_top5": [
+        "memorise-facts-with-spaced-repetition"
+      ]
+    },
+    {
+      "query": "poultry",
+      "expect_any_top5": [
+        "keep-animal-health-and-breeding-records",
+        "work-out-farm-profit-per-crop-or-batch"
+      ]
+    },
+    {
+      "query": "shortlet",
+      "expect_any_top5": [
+        "list-a-room-or-apartment-for-short-stays"
+      ]
+    },
+    {
+      "query": "owambe",
+      "expect_any_top5": [
+        "organise-a-wedding-or-big-family-event"
+      ]
+    },
+    {
+      "query": "I want to get a remote job",
+      "expect_any_top5": [
+        "kit:get-a-remote-job",
+        "get-a-remote-job-paid-in-dollars",
+        "find-remote-jobs"
+      ]
+    },
+    {
+      "query": "i want a remote job in dollars",
+      "expect_any_top5": [
+        "kit:get-a-remote-job",
+        "get-a-remote-job-paid-in-dollars"
+      ]
+    },
+    {
+      "query": "how do I work from home",
+      "expect_any_top5": [
+        "kit:get-a-remote-job",
+        "find-remote-jobs"
+      ]
+    },
+    {
+      "query": "remote jobs for Nigerians",
+      "expect_any_top5": [
+        "find-remote-jobs-open-to-africa",
+        "kit:get-a-remote-job"
+      ],
+      "market": "ng"
+    },
+    {
+      "query": "is this remote job real",
+      "expect_any_top5": [
+        "check-a-remote-job-offer-is-genuine"
+      ]
+    },
+    {
+      "query": "I want to edit a short video",
+      "expect_any_top5": [
+        "kit:edit-a-short-video",
+        "edit-a-short-video-for-tiktok-reels-or-shorts",
+        "make-a-short-video-on-my-phone"
+      ]
+    },
+    {
+      "query": "edit a video on my phone",
+      "expect_any_top5": [
+        "edit-a-video-on-a-low-end-android-phone",
+        "edit-a-video-on-an-iphone-or-ipad",
+        "make-a-short-video-on-my-phone"
+      ]
+    },
+    {
+      "query": "make a reel",
+      "expect_any_top5": [
+        "edit-a-short-video-for-tiktok-reels-or-shorts",
+        "kit:edit-a-short-video"
+      ]
+    },
+    {
+      "query": "add subtitles to my video",
+      "expect_any_top5": [
+        "add-captions-to-a-video"
+      ]
+    },
+    {
+      "query": "I want to teach kids programming",
+      "expect_any_top5": [
+        "kit:teach-kids-programming",
+        "teach-kids-to-code-with-blocks",
+        "teach-young-children-their-first-coding"
+      ]
+    },
+    {
+      "query": "how to teach children to code",
+      "expect_any_top5": [
+        "kit:teach-kids-programming",
+        "teach-kids-to-code-with-blocks"
+      ]
+    },
+    {
+      "query": "start a coding club for children",
+      "expect_any_top5": [
+        "start-a-kids-coding-club-or-class",
+        "kit:teach-kids-programming"
+      ]
+    },
+    {
+      "query": "scratch for kids",
+      "expect_any_top5": [
+        "teach-kids-to-code-with-blocks",
+        "pick-a-coding-app-for-children",
+        "kit:teach-kids-programming"
+      ]
+    },
+    {
+      "query": "teach robotics to kids",
+      "expect_any_top5": [
+        "teach-kids-robotics-and-electronics"
+      ]
+    },
+    {
+      "query": "is this coding app safe for my child",
+      "expect_any_top5": [
+        "keep-kids-safe-on-coding-platforms"
+      ]
+    },
+    {
+      "query": "I want to learn to code",
+      "expect_any_top5": [
+        "kit:learn-to-code",
+        "learn-to-code-from-zero"
+      ]
+    },
+    {
+      "query": "learn python for free",
+      "expect_any_top5": [
+        "learn-python",
+        "kit:learn-to-code"
+      ]
+    },
+    {
+      "query": "learn coding on my phone",
+      "expect_any_top5": [
+        "learn-to-code-on-my-phone"
+      ]
+    },
+    {
+      "query": "I need a CV",
+      "expect_any_top5": [
+        "kit:make-my-cv-and-portfolio",
+        "write-a-cv",
+        "build-a-cv-for-free",
+        "pick-a-cv-builder"
+      ]
+    },
+    {
+      "query": "make a resume",
+      "expect_any_top5": [
+        "kit:make-my-cv-and-portfolio",
+        "build-a-cv-for-free",
+        "pick-a-cv-builder",
+        "write-a-cv"
+      ]
+    },
+    {
+      "query": "cv that passes ats",
+      "expect_any_top5": [
+        "write-a-cv-that-passes-applicant-tracking-systems"
+      ]
+    },
+    {
+      "query": "free cv builder",
+      "expect_any_top5": [
+        "build-a-cv-for-free",
+        "pick-a-cv-builder"
+      ]
+    },
+    {
+      "query": "build a portfolio website",
+      "expect_any_top5": [
+        "build-a-portfolio-for-a-job-or-clients",
+        "pick-a-portfolio-site-builder",
+        "make-a-one-page-resume-website",
+        "build-a-developer-portfolio"
+      ]
+    },
+    {
+      "query": "portfolio for designers",
+      "expect_any_top5": [
+        "build-a-designer-portfolio"
+      ]
+    },
+    {
+      "query": "proofread my work",
+      "expect_any_top5": [
+        "proofread-and-fix-grammar-in-anything-i-write"
+      ]
+    },
+    {
+      "query": "fix my grammar",
+      "expect_any_top5": [
+        "proofread-and-fix-grammar-in-anything-i-write"
+      ]
+    },
+    {
+      "query": "check my essay for plagiarism",
+      "expect_any_top5": [
+        "check-an-essay-for-plagiarism-the-honest-way"
+      ]
+    },
+    {
+      "query": "I want to start freelancing",
+      "expect_any_top5": [
+        "kit:become-a-freelancer",
+        "start-freelancing",
+        "start-freelancing-with-a-strong-profile"
+      ]
+    },
+    {
+      "query": "find clients online",
+      "expect_any_top5": [
+        "win-my-first-freelance-client",
+        "kit:become-a-freelancer",
+        "find-freelance-work-from-nigeria"
+      ]
+    },
+    {
+      "query": "how much should I charge",
+      "expect_any_top5": [
+        "price-my-freelance-work",
+        "price-my-product-or-service"
+      ]
+    },
+    {
+      "query": "get paid from abroad",
+      "expect_any_top5": [
+        "kit:get-paid-from-abroad",
+        "compare-ways-to-get-paid-from-abroad"
+      ]
+    },
+    {
+      "query": "receive dollars in nigeria",
+      "expect_any_top5": [
+        "compare-ways-to-get-paid-from-abroad",
+        "kit:get-paid-from-abroad",
+        "receive-client-payments-from-abroad-in-nigeria"
+      ],
+      "market": "ng"
+    },
+    {
+      "query": "send money to africa",
+      "expect_any_top5": [
+        "send-money-to-and-from-africa-cheaply"
+      ]
+    },
+    {
+      "query": "sell on whatsapp",
+      "expect_any_top5": [
+        "kit:sell-on-whatsapp",
+        "sell-on-whatsapp-with-a-catalogue-and-payments"
+      ]
+    },
+    {
+      "query": "I want to start a business",
+      "expect_any_top5": [
+        "kit:start-a-business-in-nigeria",
+        "validate-a-business-idea-before-spending-money"
+      ]
+    },
+    {
+      "query": "register my business name",
+      "expect_any_top5": [
+        "get-free-or-cheap-business-registration-in-nigeria",
+        "choose-and-check-a-business-name"
+      ],
+      "market": "ng"
+    },
+    {
+      "query": "is this company registered",
+      "expect_any_top5": [
+        "check-a-nigerian-company-is-registered"
+      ],
+      "market": "ng"
+    },
+    {
+      "query": "get a loan or grant for my business",
+      "expect_any_top5": [
+        "get-funding-grants-and-loans-for-my-small-business"
+      ],
+      "market": "ng"
+    },
+    {
+      "query": "is this investment app legit",
+      "expect_any_top5": [
+        "check-an-investment-or-loan-app-is-legal-before-paying"
+      ],
+      "market": "ng"
+    },
+    {
+      "query": "I was scammed online",
+      "expect_any_top5": [
+        "report-fraud-or-a-scam-in-nigeria",
+        "kit:stay-safe-online"
+      ]
+    },
+    {
+      "query": "my whatsapp was hacked",
+      "expect_any_top5": [
+        "protect-whatsapp-and-social-accounts-from-takeover"
+      ]
+    },
+    {
+      "query": "is this website fake",
+      "expect_any_top5": [
+        "spot-a-fake-website-shop-or-social-page"
+      ]
+    },
+    {
+      "query": "was my password leaked",
+      "expect_any_top5": [
+        "check-if-my-email-or-password-leaked"
+      ]
+    },
+    {
+      "query": "lost my phone",
+      "expect_any_top5": [
+        "find-or-lock-a-lost-or-stolen-phone"
+      ]
+    },
+    {
+      "query": "parental controls",
+      "expect_any_top5": [
+        "set-screen-time-and-content-limits-for-kids",
+        "kit:keep-my-child-safe-online"
+      ]
+    },
+    {
+      "query": "sextortion",
+      "expect_any_top5": [
+        "protect-children-from-sharing-images-and-grooming"
+      ]
+    },
+    {
+      "query": "is this drug real nafdac",
+      "expect_any_top5": [
+        "verify-a-product-is-genuine-and-approved-in-nigeria"
+      ],
+      "market": "ng"
+    },
+    {
+      "query": "translate to yoruba",
+      "expect_any_top5": [
+        "translate-into-yoruba-igbo-hausa-or-pidgin"
+      ]
+    },
+    {
+      "query": "speak better english",
+      "expect_any_top5": [
+        "speak-english-with-confidence",
+        "kit:write-better-in-english"
+      ]
+    },
+    {
+      "query": "summarise a pdf",
+      "expect_any_top5": [
+        "summarise-a-book-or-long-document-in-minutes"
+      ]
+    },
+    {
+      "query": "compress a pdf",
+      "expect_any_top5": [
+        "reduce-a-pdf-file-size-for-email-or-portals"
+      ]
+    },
+    {
+      "query": "sign a document on my phone",
+      "expect_any_top5": [
+        "fill-and-sign-a-form-on-my-phone"
+      ]
+    },
+    {
+      "query": "passport photo at home",
+      "expect_any_top5": [
+        "make-a-passport-photo-or-id-photo-at-home"
+      ]
+    },
+    {
+      "query": "start a youtube channel",
+      "expect_any_top5": [
+        "kit:start-a-youtube-channel",
+        "start-a-youtube-or-tiktok-channel",
+        "start-and-grow-a-youtube-channel"
+      ]
+    },
+    {
+      "query": "avoid copyright strike",
+      "expect_any_top5": [
+        "avoid-copyright-strikes-on-my-videos"
+      ]
+    },
+    {
+      "query": "free music for my videos",
+      "expect_any_top5": [
+        "find-free-photos-videos-and-music-i-can-use"
+      ]
+    },
+    {
+      "query": "learn tech for free nigeria",
+      "expect_any_top5": [
+        "learn-tech-free-with-a-nigerian-programme",
+        "kit:get-a-tech-job",
+        "join-a-nigerian-tech-training-programme"
+      ],
+      "market": "ng"
+    },
+    {
+      "query": "3mtt",
+      "expect_any_top5": [
+        "learn-tech-free-with-a-nigerian-programme"
+      ],
+      "market": "ng"
+    },
+    {
+      "query": "find a hackathon",
+      "expect_any_top5": [
+        "find-a-hackathon-to-build-and-win"
+      ]
+    },
+    {
+      "query": "get an internship",
+      "expect_any_top5": [
+        "find-graduate-trainee-and-internship-roles",
+        "find-volunteer-or-experience-roles-that-build-a-cv"
+      ]
+    },
+    {
+      "query": "scholarship abroad",
+      "expect_any_top5": [
+        "find-scholarships-and-fellowships",
+        "apply-for-a-scholarship-abroad"
+      ]
+    },
+    {
+      "query": "study for free online",
+      "expect_any_top5": [
+        "kit:study-for-free-online",
+        "learn-skills-on-youtube-the-smart-way"
+      ]
+    },
+    {
+      "query": "make flashcards",
+      "expect_any_top5": [
+        "make-flashcards-and-revise-smarter"
+      ]
+    },
+    {
+      "query": "take notes in class",
+      "expect_any_top5": [
+        "take-better-notes-in-class-or-meetings"
+      ]
+    },
+    {
+      "query": "talk to a doctor online",
+      "expect_any_top5": [
+        "see-a-doctor-online-in-nigeria"
+      ],
+      "market": "ng"
+    },
+    {
+      "query": "ai in pidgin",
+      "expect_any_top5": [
+        "use-ai-in-yoruba-igbo-hausa-or-pidgin"
+      ]
+    },
+    {
+      "query": "keep sales records on my phone",
+      "expect_any_top5": [
+        "keep-simple-sales-and-debt-records-on-my-phone"
+      ]
+    },
+    {
+      "query": "privacy policy for my app",
+      "expect_any_top5": [
+        "make-a-privacy-policy-and-terms-for-my-site-or-app"
+      ]
+    },
+    {
+      "query": "ndpa compliance",
+      "expect_any_top5": [
+        "understand-nigeria-data-protection-rules-as-a-small-business",
+        "make-a-privacy-policy-and-terms-for-my-site-or-app"
+      ],
+      "market": "ng"
+    },
+    {
+      "query": "qr code for my menu",
+      "expect_any_top5": [
+        "give-customers-a-short-link-or-qr-code"
+      ]
+    },
+    {
+      "query": "get reviews on google",
+      "expect_any_top5": [
+        "get-reviews-and-show-trust-online",
+        "set-up-a-google-business-profile-so-nearby-customers-find-me"
+      ]
+    },
+    {
+      "query": "appear on google maps",
+      "expect_any_top5": [
+        "set-up-a-google-business-profile-so-nearby-customers-find-me"
+      ]
+    },
+    {
+      "query": "import from china",
+      "expect_any_top5": [
+        "find-suppliers-and-import-goods-safely"
+      ]
+    },
+    {
+      "query": "save money in nigeria",
+      "expect_any_top5": [
+        "save-and-invest-safely-in-nigeria"
+      ],
+      "market": "ng"
+    },
+    {
+      "query": "I want to farm better",
+      "expect_any_top5": [
+        "kit:farm-smarter",
+        "keep-farm-records-and-costs"
+      ]
+    },
+    {
+      "query": "make a logo for my business",
+      "expect_any_top5": [
+        "kit:build-a-brand",
+        "make-a-logo"
+      ]
+    },
+    {
+      "query": "I want to publish a book",
+      "expect_any_top5": [
+        "kit:write-and-publish-a-book",
+        "write-and-publish-a-book"
+      ]
+    },
+    {
+      "query": "release my song",
+      "expect_any_top5": [
+        "kit:release-my-music",
+        "release-a-song-to-streaming-platforms"
+      ]
+    },
+    {
+      "query": "teach online",
+      "expect_any_top5": [
+        "kit:teach-online",
+        "teach-online-with-a-classroom-space"
+      ]
+    },
+    {
+      "query": "how do I file my tax",
+      "expect_any_top5": [
+        "kit:file-my-taxes",
+        "register-and-file-business-taxes-in-nigeria"
+      ]
+    },
+    {
+      "query": "learn ai",
+      "expect_any_top5": [
+        "kit:learn-ai-skills",
+        "learn-ai-and-prompting"
+      ]
+    },
+    {
+      "query": "plan a wedding",
+      "expect_any_top5": [
+        "kit:organise-an-event",
+        "organise-a-wedding-or-big-family-event"
+      ]
+    },
+    {
+      "query": "earn with my car",
+      "expect_any_top5": [
+        "kit:earn-with-a-vehicle",
+        "earn-more-as-a-ride-hailing-driver"
+      ]
+    }
+  ],
+  "goal_last_run": {
+    "date": "2026-10-23",
+    "passed": "131/131"
+  }
 }

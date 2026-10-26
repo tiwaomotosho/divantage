@@ -22,7 +22,9 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "care-coordination"
+     "care-coordination",
+     "events-management",
+     "volunteer-coordination"
     ],
     "estimated_hours": {
      "value": 1,
@@ -44,7 +46,9 @@
     "need_tags": [
      "personal-health-tracking",
      "online-safety",
-     "care-coordination"
+     "care-coordination",
+     "events-management",
+     "volunteer-coordination"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -66,7 +70,9 @@
     "need_tags": [
      "personal-health-tracking",
      "mindfulness-wellbeing",
-     "care-coordination"
+     "care-coordination",
+     "events-management",
+     "volunteer-coordination"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -90,7 +96,9 @@
     "need_tags": [
      "training-load",
      "nutrition-planning",
-     "care-coordination"
+     "care-coordination",
+     "events-management",
+     "volunteer-coordination"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -111,7 +119,9 @@
     "practice": "Prepare a summary for a coach or clinician",
     "need_tags": [
      "online-coaching",
-     "care-coordination"
+     "care-coordination",
+     "events-management",
+     "volunteer-coordination"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -132,7 +142,9 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "care-coordination"
+     "care-coordination",
+     "events-management",
+     "volunteer-coordination"
     ],
     "estimated_hours": {
      "value": 3,
@@ -155,7 +167,9 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "care-coordination"
+     "care-coordination",
+     "events-management",
+     "volunteer-coordination"
     ],
     "estimated_hours": {
      "value": 4,
@@ -176,7 +190,9 @@
     "practice": "Set up Lotsa Helping Hands for a client or family member",
     "need_tags": [
      "online-coaching",
-     "care-coordination"
+     "care-coordination",
+     "events-management",
+     "volunteer-coordination"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -198,7 +214,9 @@
     "practice": "Connect Lotsa Helping Hands to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "care-coordination"
+     "care-coordination",
+     "events-management",
+     "volunteer-coordination"
     ],
     "estimated_hours": {
      "value": 2,
@@ -220,7 +238,9 @@
     "practice": "Write a one-page \"how we use Lotsa Helping Hands\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "care-coordination"
+     "care-coordination",
+     "events-management",
+     "volunteer-coordination"
     ],
     "estimated_hours": {
      "value": 2,

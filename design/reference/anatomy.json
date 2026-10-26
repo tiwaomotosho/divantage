@@ -1,0 +1,1000 @@
+{
+ "01-home": {
+  "screen": "S01-R",
+  "required": {
+   "phone": {
+    "header": 1,
+    "sign-in-link": 1,
+    "promise": 1,
+    "identity-picker": 1,
+    "identity-example": 6,
+    "primary-cta": 1,
+    "kit-card": 6,
+    "trust-strip": 1,
+    "tabbar": 1
+   },
+   "desktop": {
+    "header": 1,
+    "global-search": 1,
+    "theme-toggle": 1,
+    "sign-in-link": 1,
+    "promise": 1,
+    "identity-picker": 1,
+    "identity-example": 6,
+    "primary-cta": 1,
+    "hero-mosaic": 1,
+    "photo": 4,
+    "tool-logo": 3,
+    "kit-card": 6,
+    "trust-strip": 1,
+    "footer": 1
+   },
+   "tablet": {
+    "header": 1,
+    "theme-toggle": 1,
+    "sign-in-link": 1,
+    "promise": 1,
+    "identity-picker": 1,
+    "identity-example": 6,
+    "primary-cta": 1,
+    "kit-card": 6,
+    "trust-strip": 1
+   }
+  }
+ },
+ "02-home-picked": {
+  "screen": "S01-R",
+  "required": {
+   "phone": {
+    "header": 1,
+    "sign-in-link": 1,
+    "promise": 1,
+    "identity-picker": 1,
+    "identity-chip": 2,
+    "primary-cta": 1,
+    "kit-card": 6,
+    "trust-strip": 1,
+    "tabbar": 1
+   },
+   "desktop": {
+    "header": 1,
+    "global-search": 1,
+    "theme-toggle": 1,
+    "sign-in-link": 1,
+    "promise": 1,
+    "identity-picker": 1,
+    "identity-chip": 2,
+    "primary-cta": 1,
+    "hero-mosaic": 1,
+    "photo": 4,
+    "tool-logo": 3,
+    "kit-card": 6,
+    "trust-strip": 1,
+    "footer": 1
+   },
+   "tablet": {
+    "header": 1,
+    "theme-toggle": 1,
+    "sign-in-link": 1,
+    "promise": 1,
+    "identity-picker": 1,
+    "identity-chip": 2,
+    "primary-cta": 1,
+    "kit-card": 6,
+    "trust-strip": 1
+   }
+  }
+ },
+ "03-search": {
+  "screen": "S51",
+  "required": {
+   "phone": {
+    "header": 1,
+    "sign-in-link": 1,
+    "nl-search": 1,
+    "best-match": 1,
+    "goal-row": 4,
+    "safety-note": 1,
+    "tabbar": 1
+   },
+   "desktop": {
+    "header": 1,
+    "global-search": 1,
+    "theme-toggle": 1,
+    "sign-in-link": 1,
+    "nl-search": 1,
+    "best-match": 1,
+    "photo": 1,
+    "goal-row": 4,
+    "tool-logo": 11,
+    "safety-note": 1,
+    "footer": 1
+   },
+   "tablet": {
+    "header": 1,
+    "theme-toggle": 1,
+    "sign-in-link": 1,
+    "nl-search": 1,
+    "best-match": 1,
+    "goal-row": 4,
+    "safety-note": 1
+   }
+  }
+ },
+ "04-identity": {
+  "screen": "S27",
+  "required": {
+   "phone": {
+    "header": 1,
+    "sign-in-link": 1,
+    "photo": 1,
+    "feedback-explainer": 1,
+    "need-card": 6,
+    "depth-label": 6,
+    "tool-logo": 15,
+    "need-feedback": 6,
+    "next-step": 1,
+    "tabbar": 1
+   },
+   "desktop": {
+    "header": 1,
+    "global-search": 1,
+    "theme-toggle": 1,
+    "sign-in-link": 1,
+    "photo": 1,
+    "feedback-explainer": 1,
+    "need-card": 6,
+    "depth-label": 6,
+    "tool-logo": 15,
+    "need-feedback": 6,
+    "next-step": 1,
+    "footer": 1
+   },
+   "tablet": {
+    "header": 1,
+    "theme-toggle": 1,
+    "sign-in-link": 1,
+    "photo": 1,
+    "feedback-explainer": 1,
+    "need-card": 6,
+    "depth-label": 6,
+    "tool-logo": 15,
+    "need-feedback": 6,
+    "next-step": 1
+   }
+  }
+ },
+ "05-browse": {
+  "screen": "S33",
+  "required": {
+   "phone": {
+    "header": 1,
+    "sign-in-link": 1,
+    "sector-card": 16,
+    "tabbar": 1
+   },
+   "desktop": {
+    "header": 1,
+    "global-search": 1,
+    "theme-toggle": 1,
+    "sign-in-link": 1,
+    "sector-card": 16,
+    "footer": 1
+   },
+   "tablet": {
+    "header": 1,
+    "theme-toggle": 1,
+    "sign-in-link": 1,
+    "sector-card": 16
+   }
+  }
+ },
+ "06-goals": {
+  "screen": "S42",
+  "required": {
+   "phone": {
+    "header": 1,
+    "sign-in-link": 1,
+    "tabbar": 1
+   },
+   "desktop": {
+    "header": 1,
+    "global-search": 1,
+    "theme-toggle": 1,
+    "sign-in-link": 1,
+    "footer": 1
+   },
+   "tablet": {
+    "header": 1,
+    "theme-toggle": 1,
+    "sign-in-link": 1
+   }
+  }
+ },
+ "07-goal": {
+  "screen": "S43",
+  "required": {
+   "phone": {
+    "header": 1,
+    "sign-in-link": 1,
+    "kit-ribbon": 1,
+    "tool-row": 3,
+    "tool-logo": 8,
+    "trust-line": 3,
+    "price": 3,
+    "verified": 1,
+    "learn-tool": 3,
+    "depth-label": 3,
+    "preview-label": 2,
+    "next-step": 1,
+    "safety-note": 1,
+    "tabbar": 1
+   },
+   "desktop": {
+    "header": 1,
+    "global-search": 1,
+    "theme-toggle": 1,
+    "sign-in-link": 1,
+    "kit-ribbon": 1,
+    "tool-row": 3,
+    "tool-logo": 8,
+    "trust-line": 3,
+    "price": 3,
+    "verified": 1,
+    "learn-tool": 3,
+    "depth-label": 3,
+    "preview-label": 2,
+    "next-step": 1,
+    "safety-note": 1,
+    "footer": 1
+   },
+   "tablet": {
+    "header": 1,
+    "theme-toggle": 1,
+    "sign-in-link": 1,
+    "kit-ribbon": 1,
+    "tool-row": 3,
+    "tool-logo": 8,
+    "trust-line": 3,
+    "price": 3,
+    "verified": 1,
+    "learn-tool": 3,
+    "depth-label": 3,
+    "preview-label": 2,
+    "next-step": 1,
+    "safety-note": 1
+   }
+  }
+ },
+ "08-goal-safety-sheet": {
+  "screen": "S43",
+  "required": {
+   "phone": {
+    "header": 1,
+    "sign-in-link": 1,
+    "kit-ribbon": 1,
+    "tool-row": 3,
+    "tool-logo": 8,
+    "trust-line": 3,
+    "price": 3,
+    "verified": 1,
+    "learn-tool": 3,
+    "depth-label": 3,
+    "preview-label": 2,
+    "next-step": 1,
+    "safety-note": 1,
+    "tabbar": 1,
+    "safety-sheet": 1
+   },
+   "desktop": {
+    "header": 1,
+    "global-search": 1,
+    "theme-toggle": 1,
+    "sign-in-link": 1,
+    "kit-ribbon": 1,
+    "tool-row": 3,
+    "tool-logo": 8,
+    "trust-line": 3,
+    "price": 3,
+    "verified": 1,
+    "learn-tool": 3,
+    "depth-label": 3,
+    "preview-label": 2,
+    "next-step": 1,
+    "safety-note": 1,
+    "footer": 1,
+    "safety-sheet": 1
+   },
+   "tablet": {
+    "header": 1,
+    "theme-toggle": 1,
+    "sign-in-link": 1,
+    "kit-ribbon": 1,
+    "tool-row": 3,
+    "tool-logo": 8,
+    "trust-line": 3,
+    "price": 3,
+    "verified": 1,
+    "learn-tool": 3,
+    "depth-label": 3,
+    "preview-label": 2,
+    "next-step": 1,
+    "safety-note": 1,
+    "safety-sheet": 1
+   }
+  }
+ },
+ "09-kits": {
+  "screen": "S49",
+  "required": {
+   "phone": {
+    "header": 1,
+    "sign-in-link": 1,
+    "kit-feature": 2,
+    "photo": 2,
+    "tool-logo": 8,
+    "kit-card": 12,
+    "tabbar": 1
+   },
+   "desktop": {
+    "header": 1,
+    "global-search": 1,
+    "theme-toggle": 1,
+    "sign-in-link": 1,
+    "kit-feature": 2,
+    "photo": 2,
+    "tool-logo": 8,
+    "kit-card": 12,
+    "footer": 1
+   },
+   "tablet": {
+    "header": 1,
+    "theme-toggle": 1,
+    "sign-in-link": 1,
+    "kit-feature": 2,
+    "photo": 2,
+    "tool-logo": 8,
+    "kit-card": 12
+   }
+  }
+ },
+ "10-kit": {
+  "screen": "S50",
+  "required": {
+   "phone": {
+    "header": 1,
+    "sign-in-link": 1,
+    "kit-hero": 1,
+    "photo": 1,
+    "kit-step": 7,
+    "tool-logo": 3,
+    "learn-tool": 1,
+    "next-step": 1,
+    "safety-note": 1,
+    "tabbar": 1
+   },
+   "desktop": {
+    "header": 1,
+    "global-search": 1,
+    "theme-toggle": 1,
+    "sign-in-link": 1,
+    "kit-hero": 1,
+    "photo": 1,
+    "kit-step": 7,
+    "tool-logo": 3,
+    "learn-tool": 1,
+    "next-step": 1,
+    "safety-note": 1,
+    "footer": 1
+   },
+   "tablet": {
+    "header": 1,
+    "theme-toggle": 1,
+    "sign-in-link": 1,
+    "kit-hero": 1,
+    "photo": 1,
+    "kit-step": 7,
+    "tool-logo": 3,
+    "learn-tool": 1,
+    "next-step": 1,
+    "safety-note": 1
+   }
+  }
+ },
+ "11-tool": {
+  "screen": "S09",
+  "required": {
+   "phone": {
+    "header": 1,
+    "sign-in-link": 1,
+    "tool-logo": 3,
+    "trust-line": 1,
+    "price": 1,
+    "preview-label": 1,
+    "trust-box": 1,
+    "preview-explainer": 1,
+    "path-card": 3,
+    "depth-label": 3,
+    "learn-tool": 1,
+    "next-step": 1,
+    "suggest-edit": 1,
+    "tabbar": 1
+   },
+   "desktop": {
+    "header": 1,
+    "global-search": 1,
+    "theme-toggle": 1,
+    "sign-in-link": 1,
+    "tool-logo": 3,
+    "trust-line": 1,
+    "price": 1,
+    "preview-label": 1,
+    "trust-box": 1,
+    "preview-explainer": 1,
+    "path-card": 3,
+    "depth-label": 3,
+    "learn-tool": 1,
+    "next-step": 1,
+    "suggest-edit": 1,
+    "footer": 1
+   },
+   "tablet": {
+    "header": 1,
+    "theme-toggle": 1,
+    "sign-in-link": 1,
+    "tool-logo": 3,
+    "trust-line": 1,
+    "price": 1,
+    "preview-label": 1,
+    "trust-box": 1,
+    "preview-explainer": 1,
+    "path-card": 3,
+    "depth-label": 3,
+    "learn-tool": 1,
+    "next-step": 1,
+    "suggest-edit": 1
+   }
+  }
+ },
+ "12-tool-unavailable": {
+  "screen": "S09",
+  "required": {
+   "phone": {
+    "header": 1,
+    "sign-in-link": 1,
+    "tool-logo": 5,
+    "trust-line": 1,
+    "price": 1,
+    "preview-label": 1,
+    "availability-banner": 1,
+    "trust-box": 1,
+    "preview-explainer": 1,
+    "path-card": 1,
+    "depth-label": 1,
+    "learn-tool": 1,
+    "next-step": 1,
+    "suggest-edit": 1,
+    "tabbar": 1
+   },
+   "desktop": {
+    "header": 1,
+    "global-search": 1,
+    "theme-toggle": 1,
+    "sign-in-link": 1,
+    "tool-logo": 5,
+    "trust-line": 1,
+    "price": 1,
+    "preview-label": 1,
+    "availability-banner": 1,
+    "trust-box": 1,
+    "preview-explainer": 1,
+    "path-card": 1,
+    "depth-label": 1,
+    "learn-tool": 1,
+    "next-step": 1,
+    "suggest-edit": 1,
+    "footer": 1
+   },
+   "tablet": {
+    "header": 1,
+    "theme-toggle": 1,
+    "sign-in-link": 1,
+    "tool-logo": 5,
+    "trust-line": 1,
+    "price": 1,
+    "preview-label": 1,
+    "availability-banner": 1,
+    "trust-box": 1,
+    "preview-explainer": 1,
+    "path-card": 1,
+    "depth-label": 1,
+    "learn-tool": 1,
+    "next-step": 1,
+    "suggest-edit": 1
+   }
+  }
+ },
+ "13-roadmap": {
+  "screen": "S30",
+  "required": {
+   "phone": {
+    "header": 1,
+    "sign-in-link": 1,
+    "tool-logo": 1,
+    "depth-label": 1,
+    "module-card": 5,
+    "next-step": 1,
+    "tabbar": 1
+   },
+   "desktop": {
+    "header": 1,
+    "global-search": 1,
+    "theme-toggle": 1,
+    "sign-in-link": 1,
+    "tool-logo": 1,
+    "depth-label": 1,
+    "module-card": 5,
+    "next-step": 1,
+    "footer": 1
+   },
+   "tablet": {
+    "header": 1,
+    "theme-toggle": 1,
+    "sign-in-link": 1,
+    "tool-logo": 1,
+    "depth-label": 1,
+    "module-card": 5,
+    "next-step": 1
+   }
+  }
+ },
+ "14-roadmap-general": {
+  "screen": "S30",
+  "required": {
+   "phone": {
+    "header": 1,
+    "sign-in-link": 1,
+    "tool-logo": 1,
+    "depth-label": 1,
+    "depth-explainer": 1,
+    "module-card": 4,
+    "next-step": 1,
+    "tabbar": 1
+   },
+   "desktop": {
+    "header": 1,
+    "global-search": 1,
+    "theme-toggle": 1,
+    "sign-in-link": 1,
+    "tool-logo": 1,
+    "depth-label": 1,
+    "depth-explainer": 1,
+    "module-card": 4,
+    "next-step": 1,
+    "footer": 1
+   },
+   "tablet": {
+    "header": 1,
+    "theme-toggle": 1,
+    "sign-in-link": 1,
+    "tool-logo": 1,
+    "depth-label": 1,
+    "depth-explainer": 1,
+    "module-card": 4,
+    "next-step": 1
+   }
+  }
+ },
+ "15-helper": {
+  "screen": "S40",
+  "required": {
+   "phone": {
+    "header": 1,
+    "sign-in-link": 1,
+    "photo": 1,
+    "helper-explainer": 1,
+    "stage-card": 6,
+    "tool-logo": 10,
+    "next-step": 1,
+    "helper-bar": 1,
+    "helper-coachmark": 1,
+    "tabbar": 1
+   },
+   "desktop": {
+    "header": 1,
+    "global-search": 1,
+    "theme-toggle": 1,
+    "sign-in-link": 1,
+    "photo": 1,
+    "helper-explainer": 1,
+    "stage-card": 6,
+    "tool-logo": 10,
+    "next-step": 1,
+    "footer": 1,
+    "helper-bar": 1,
+    "helper-coachmark": 1
+   },
+   "tablet": {
+    "header": 1,
+    "theme-toggle": 1,
+    "sign-in-link": 1,
+    "photo": 1,
+    "helper-explainer": 1,
+    "stage-card": 6,
+    "tool-logo": 10,
+    "next-step": 1,
+    "helper-bar": 1,
+    "helper-coachmark": 1
+   }
+  }
+ },
+ "16-workbench": {
+  "screen": "S45",
+  "required": {
+   "phone": {
+    "header": 1,
+    "continue-card": 1,
+    "tool-logo": 3,
+    "suggestion-card": 3,
+    "tabbar": 1
+   },
+   "desktop": {
+    "header": 1,
+    "global-search": 1,
+    "theme-toggle": 1,
+    "continue-card": 1,
+    "tool-logo": 3,
+    "suggestion-card": 3,
+    "footer": 1
+   },
+   "tablet": {
+    "header": 1,
+    "theme-toggle": 1,
+    "continue-card": 1,
+    "tool-logo": 3,
+    "suggestion-card": 3
+   }
+  }
+ },
+ "17-sign-in": {
+  "screen": "S44",
+  "required": {
+   "phone": {
+    "header": 1,
+    "sign-in-link": 1,
+    "kit-ribbon": 1,
+    "tool-row": 3,
+    "tool-logo": 8,
+    "trust-line": 3,
+    "price": 3,
+    "verified": 1,
+    "learn-tool": 3,
+    "depth-label": 3,
+    "preview-label": 2,
+    "next-step": 1,
+    "safety-note": 1,
+    "tabbar": 1,
+    "sign-in-sheet": 1,
+    "illustration": 1
+   },
+   "desktop": {
+    "header": 1,
+    "global-search": 1,
+    "theme-toggle": 1,
+    "sign-in-link": 1,
+    "kit-ribbon": 1,
+    "tool-row": 3,
+    "tool-logo": 8,
+    "trust-line": 3,
+    "price": 3,
+    "verified": 1,
+    "learn-tool": 3,
+    "depth-label": 3,
+    "preview-label": 2,
+    "next-step": 1,
+    "safety-note": 1,
+    "footer": 1,
+    "sign-in-sheet": 1,
+    "illustration": 1
+   },
+   "tablet": {
+    "header": 1,
+    "theme-toggle": 1,
+    "sign-in-link": 1,
+    "kit-ribbon": 1,
+    "tool-row": 3,
+    "tool-logo": 8,
+    "trust-line": 3,
+    "price": 3,
+    "verified": 1,
+    "learn-tool": 3,
+    "depth-label": 3,
+    "preview-label": 2,
+    "next-step": 1,
+    "safety-note": 1,
+    "sign-in-sheet": 1,
+    "illustration": 1
+   }
+  }
+ },
+ "18-consent": {
+  "screen": "S46",
+  "required": {
+   "phone": {
+    "header": 1,
+    "consent-row": 3,
+    "tabbar": 1
+   },
+   "desktop": {
+    "header": 1,
+    "global-search": 1,
+    "theme-toggle": 1,
+    "consent-row": 3,
+    "footer": 1
+   },
+   "tablet": {
+    "header": 1,
+    "theme-toggle": 1,
+    "consent-row": 3
+   }
+  }
+ },
+ "19-privacy": {
+  "screen": "S46",
+  "required": {
+   "phone": {
+    "header": 1,
+    "consent-row": 3,
+    "tabbar": 1
+   },
+   "desktop": {
+    "header": 1,
+    "global-search": 1,
+    "theme-toggle": 1,
+    "consent-row": 3,
+    "footer": 1
+   },
+   "tablet": {
+    "header": 1,
+    "theme-toggle": 1,
+    "consent-row": 3
+   }
+  }
+ },
+ "20-suggest-edit": {
+  "screen": "S36",
+  "required": {
+   "phone": {
+    "header": 1,
+    "sign-in-link": 1,
+    "tool-logo": 3,
+    "trust-line": 1,
+    "price": 1,
+    "preview-label": 1,
+    "trust-box": 1,
+    "preview-explainer": 1,
+    "path-card": 3,
+    "depth-label": 3,
+    "learn-tool": 1,
+    "next-step": 1,
+    "suggest-edit": 1,
+    "tabbar": 1,
+    "suggest-sheet": 1
+   },
+   "desktop": {
+    "header": 1,
+    "global-search": 1,
+    "theme-toggle": 1,
+    "sign-in-link": 1,
+    "tool-logo": 3,
+    "trust-line": 1,
+    "price": 1,
+    "preview-label": 1,
+    "trust-box": 1,
+    "preview-explainer": 1,
+    "path-card": 3,
+    "depth-label": 3,
+    "learn-tool": 1,
+    "next-step": 1,
+    "suggest-edit": 1,
+    "footer": 1,
+    "suggest-sheet": 1
+   },
+   "tablet": {
+    "header": 1,
+    "theme-toggle": 1,
+    "sign-in-link": 1,
+    "tool-logo": 3,
+    "trust-line": 1,
+    "price": 1,
+    "preview-label": 1,
+    "trust-box": 1,
+    "preview-explainer": 1,
+    "path-card": 3,
+    "depth-label": 3,
+    "learn-tool": 1,
+    "next-step": 1,
+    "suggest-edit": 1,
+    "suggest-sheet": 1
+   }
+  }
+ },
+ "21-status-whats-new": {
+  "screen": "S48",
+  "required": {
+   "phone": {
+    "header": 1,
+    "sign-in-link": 1,
+    "tabbar": 1
+   },
+   "desktop": {
+    "header": 1,
+    "global-search": 1,
+    "theme-toggle": 1,
+    "sign-in-link": 1,
+    "footer": 1
+   },
+   "tablet": {
+    "header": 1,
+    "theme-toggle": 1,
+    "sign-in-link": 1
+   }
+  }
+ },
+ "22-trending": {
+  "screen": "S47",
+  "required": {
+   "phone": {
+    "header": 1,
+    "tabbar": 1
+   },
+   "desktop": {
+    "header": 1,
+    "global-search": 1,
+    "theme-toggle": 1,
+    "footer": 1
+   },
+   "tablet": {
+    "header": 1,
+    "theme-toggle": 1
+   }
+  }
+ },
+ "23-how-we-review": {
+  "screen": "S17",
+  "required": {
+   "phone": {
+    "header": 1,
+    "sign-in-link": 1,
+    "illustration": 1,
+    "tabbar": 1
+   },
+   "desktop": {
+    "header": 1,
+    "global-search": 1,
+    "theme-toggle": 1,
+    "sign-in-link": 1,
+    "illustration": 1,
+    "footer": 1
+   },
+   "tablet": {
+    "header": 1,
+    "theme-toggle": 1,
+    "sign-in-link": 1,
+    "illustration": 1
+   }
+  }
+ },
+ "24-not-found": {
+  "screen": "S24",
+  "required": {
+   "phone": {
+    "header": 1,
+    "sign-in-link": 1,
+    "state": 1,
+    "illustration": 1,
+    "tabbar": 1
+   },
+   "desktop": {
+    "header": 1,
+    "global-search": 1,
+    "theme-toggle": 1,
+    "sign-in-link": 1,
+    "state": 1,
+    "illustration": 1,
+    "footer": 1
+   },
+   "tablet": {
+    "header": 1,
+    "theme-toggle": 1,
+    "sign-in-link": 1,
+    "state": 1,
+    "illustration": 1
+   }
+  }
+ },
+ "25-offline": {
+  "screen": "S25",
+  "required": {
+   "phone": {
+    "header": 1,
+    "sign-in-link": 1,
+    "state": 1,
+    "illustration": 1,
+    "tabbar": 1
+   },
+   "desktop": {
+    "header": 1,
+    "global-search": 1,
+    "theme-toggle": 1,
+    "sign-in-link": 1,
+    "state": 1,
+    "illustration": 1,
+    "footer": 1
+   },
+   "tablet": {
+    "header": 1,
+    "theme-toggle": 1,
+    "sign-in-link": 1,
+    "state": 1,
+    "illustration": 1
+   }
+  }
+ },
+ "26-error": {
+  "screen": "S25",
+  "required": {
+   "phone": {
+    "header": 1,
+    "sign-in-link": 1,
+    "state": 1,
+    "illustration": 1,
+    "tabbar": 1
+   },
+   "desktop": {
+    "header": 1,
+    "global-search": 1,
+    "theme-toggle": 1,
+    "sign-in-link": 1,
+    "state": 1,
+    "illustration": 1,
+    "footer": 1
+   },
+   "tablet": {
+    "header": 1,
+    "theme-toggle": 1,
+    "sign-in-link": 1,
+    "state": 1,
+    "illustration": 1
+   }
+  }
+ },
+ "27-no-results": {
+  "screen": "S51",
+  "required": {
+   "phone": {
+    "header": 1,
+    "sign-in-link": 1,
+    "state": 1,
+    "illustration": 1,
+    "tabbar": 1
+   },
+   "desktop": {
+    "header": 1,
+    "global-search": 1,
+    "theme-toggle": 1,
+    "sign-in-link": 1,
+    "state": 1,
+    "illustration": 1,
+    "footer": 1
+   },
+   "tablet": {
+    "header": 1,
+    "theme-toggle": 1,
+    "sign-in-link": 1,
+    "state": 1,
+    "illustration": 1
+   }
+  }
+ }
+}

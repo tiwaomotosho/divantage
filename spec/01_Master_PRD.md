@@ -240,3 +240,55 @@ V1 NFR-001 to NFR-030 remain in force. Numeric budgets are in `14_SEO_Analytics_
 | FR-073 | Every feature in `spec-assets/qa/feature-matrix.csv` cites existing decisions, requirements, screens, tests and flags. The public launch requires `validate_feature_matrix.py` to pass and every shipping feature's flags to launch ON. |
 | FR-074 | `bun run build` produces static files. At the public-launch gate every route in 03 is prerendered; the beta may prerender the core routes and serve the rest through a single-page fallback. The build is reproducible from a clean checkout. |
 | FR-075 | Record content is never injected as raw HTML (`dangerouslySetInnerHTML` is banned for record content by lint). Inline scripts emitted by prerendering are covered by hashes. |
+
+## 13. V2.6 — Goals, alternatives, accounts and recommendations (owner direction, 22–23 October 2026)
+Full detail in doc 24; build order in doc 25.
+
+| ID | Requirement |
+|---|---|
+| FR-076 | The product states its positioning as using technology to compete, grow and scale. Each need has 1–2 intents; the home screen offers three intent chips that filter and never hide content (D-075). |
+| FR-077 | Goals are outcome-phrased jobs under one parent need; every need has at least 2 goals; each goal lists 3–8 tools, best first (D-071). |
+| FR-078 | A person can jump straight to a goal: search covers goal labels, search words and tool names; `/goals` and `/goals/{slug}` are prerendered (D-071). |
+| FR-079 | Each tool shows up to 7 alternatives derived from goals (never hand-typed), in rank order, with a note that lower-ranked ones are "also used for this job" (D-072). |
+| FR-080 | Stub tools are labelled "Details being confirmed" and carry no price, platform or feature claims (D-073). |
+| FR-081 | Goals and tools can be tagged for Nigeria or Africa; a visitor in Nigeria gets market-tagged goals boosted, and global items are never hidden (D-074). |
+| FR-082 | A tool recorded as unavailable in a market shows "Not available in {market} since {date}" and is not recommended there; the build fails if a market-tagged goal lists it (D-074). |
+| FR-083 | Skills, tools, goals and helpers can be starred without an account; skills have the states starred, learning and can do; My workbench lists them (D-079). |
+| FR-084 | Sign-in is optional and is offered only after the 3rd star, first completed helper stage, 5th ticked module or a return visit, at most once per session and not again for 14 days after "Not now". It never blocks public content (D-076). |
+| FR-085 | Sign-in uses an email one-time code and Google; the auth stack is chosen by Spike S-2 (D-077). |
+| FR-086 | The consent screen has three separate switches, all off until chosen: save progress, use my profile to recommend, count me in trending (D-078). |
+| FR-087 | A signed-in person can export their data as JSON and delete their account; delete removes rows and activity (D-078). |
+| FR-088 | On sign-in, device stars and progress merge into the account; conflicts keep the newer (D-079). |
+| FR-089 | Recommendations follow rules R1–R8; at most 5 cards, at most 2 per kind; every card shows why; "Not for me" and "I already know this" are on every card and a dismissed item does not return for 30 days (D-080). |
+| FR-090 | Trending shows top skills, professions, goals and tools from opted-in signed-in users over 7 days with k ≥ 10 per row; it stays hidden below the activity gate or with fewer than 3 qualifying rows (D-081). |
+| FR-091 | A stage can save an output of at most 280 characters or an https link; outputs are private to the person (D-082). |
+| FR-092 | A week after a stage the person may be asked "What changed for you?" with the six fixed answers; it is optional and never shown publicly as a claim (D-082). |
+| FR-093 | A person who suggested a fix can see its status at `/suggestions/{ref}` (D-082). |
+| FR-094 | Anonymous visitors keep the same experience as before: no cookie for tracking, aggregate counters only. User-linked activity is a separate store and requires sign-in and consent (D-078). |
+| FR-095 | Every tool page and card shows the tool's short description, price chip (pricing model), free-tier chip and price note from `tool-profiles.json` (D-084). |
+| FR-096 | A profile that is not fully checked shows the Preview label beside the price. The label lists what is unchecked on tap, is never hidden, and is removed only when `verification.level` is `web_seen` with a source and date (D-084). |
+| FR-097 | Lists (goals, kits, alternatives, search results, comparisons) show the price chip and a Preview mark on every tool card (D-084). |
+| FR-098 | The build fails if same-kind alternatives fall below 95% of tools (D-085). |
+| FR-099 | `/kits` lists the kits and `/kits/{slug}` shows ordered steps; kits are generated from `goal_kits.txt` (D-086). |
+| FR-100 | Each kit step shows its goal, top three tools with price chips, the goal's safety note and a link to the next step (D-086). |
+| FR-101 | A goal or kit step that carries a safety tag shows the safety panel before its tool list: what to know, three visible red flags, where to get help (D-087). |
+| FR-102 | Safety panels never state that a tool or offer is safe, verified or guaranteed, and give no financial, legal or medical advice (D-087). |
+| FR-103 | Goal search removes lead-ins such as "I want to" before matching, indexes kits with their phrases, and ranks a matching kit above goals (D-088). |
+| FR-104 | The home page offers "I want to…", Who are you?, Skills, common situations (kits), intent chips and browse-by-need, and every path reaches goals (D-088). |
+| FR-105 | Every goal has at least three related goals and, inside a kit, a next step; a tool page lists the goals that use it (D-088). |
+| FR-106 | "Suggested for you" shows rules R9 to R12 to anonymous visitors from on-page or on-device data only, with no new storage and no tracking (D-089). |
+| FR-107 | The build fails if there is no goal for remote jobs, CV, portfolio, proofreading, freelancing, learning to code, teaching kids to code or being paid from abroad (D-090). |
+| FR-108 | Accounts are for adults. Kids' resources are written for teachers and parents, and the kids safety panel links to a note on children's data (D-090; counsel to confirm). |
+| FR-109 | Identity, goal, tool, learning path, kit and helper pages render exactly one `NextStepCard` as the last content block, with a working target (D-092; Beta). |
+| FR-110 | Every tool row and tool page shows "Learn {tool}" linking to the best path for the visitor's role, else the general guide (D-092; Beta). |
+| FR-111 | Every tool mention renders a TrustLine; a price chip never appears without a verification chip (D-093; Beta). |
+| FR-112 | Every learning path card and page shows a DepthLabel computed from `authoring` and lens/role data (§4) (D-094; Beta). |
+| FR-113 | General guides render the depth explainer with up to 3 job chips and "Ask for my job" (creates a suggestion of type `role_path_request`) (D-094; Beta). |
+| FR-114 | Need cards collect 👍/👎 feedback anonymously (`need_feedback` event); 👎 hides the card for the session with Undo (D-102; Beta). |
+| FR-115 | Helper bar: first-run coach mark, hide/restore, never overlaps content; helper pages show the explainer banner (D-100; Beta). |
+| FR-116 | No horizontal overflow at 360, 375, 390, 414 and 430px on any route; fixed elements reserve space (D-101; Beta). |
+| FR-117 | Browse and identity no-match show "Suggest my role" (D-103; Beta). |
+| FR-118 | Home H1, meta description and default OG use the D-104 promise (D-104; Beta). |
+| FR-119 | The app passes `check-design` (0 errors) and `design-audit` (0 failures) on all mapped routes before any release (D-099; Beta). |
+
+**Scope rows added:** goals and jump-to-goal (Beta); alternatives, markets and availability (Beta); stars and My workbench on device (Beta); accounts, recommendations, trending, outcomes and suggestion status (Launch). Out of scope: machine learning, push notifications, marketing email, public profiles.

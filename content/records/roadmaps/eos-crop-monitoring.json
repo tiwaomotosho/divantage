@@ -22,7 +22,8 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "crop-monitoring"
+     "crop-monitoring",
+     "surveying-photogrammetry"
     ],
     "estimated_hours": {
      "value": 1,
@@ -44,7 +45,8 @@
     "practice": "Explore and measure an area you know",
     "need_tags": [
      "gis-mapping",
-     "crop-monitoring"
+     "crop-monitoring",
+     "surveying-photogrammetry"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -66,7 +68,8 @@
     "practice": "Compare two dates over the same area",
     "need_tags": [
      "crop-monitoring",
-     "environmental-monitoring"
+     "environmental-monitoring",
+     "surveying-photogrammetry"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -89,7 +92,8 @@
     "practice": "Measure vegetation change over a season",
     "need_tags": [
      "crop-monitoring",
-     "environmental-monitoring"
+     "environmental-monitoring",
+     "surveying-photogrammetry"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -110,7 +114,8 @@
     "practice": "Share a map with notes",
     "need_tags": [
      "gis-mapping",
-     "crop-monitoring"
+     "crop-monitoring",
+     "surveying-photogrammetry"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -131,7 +136,8 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "crop-monitoring"
+     "crop-monitoring",
+     "surveying-photogrammetry"
     ],
     "estimated_hours": {
      "value": 3,
@@ -153,7 +159,8 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "crop-monitoring"
+     "crop-monitoring",
+     "surveying-photogrammetry"
     ],
     "estimated_hours": {
      "value": 4,
@@ -174,7 +181,8 @@
     "practice": "Automate a monthly analysis",
     "need_tags": [
      "scientific-computing",
-     "crop-monitoring"
+     "crop-monitoring",
+     "surveying-photogrammetry"
     ],
     "estimated_hours": {
      "value": 4.0,
@@ -196,7 +204,8 @@
     "practice": "Connect EOS Crop Monitoring to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "crop-monitoring"
+     "crop-monitoring",
+     "surveying-photogrammetry"
     ],
     "estimated_hours": {
      "value": 2,
@@ -218,7 +227,8 @@
     "practice": "Write a one-page \"how we use EOS Crop Monitoring\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "crop-monitoring"
+     "crop-monitoring",
+     "surveying-photogrammetry"
     ],
     "estimated_hours": {
      "value": 2,

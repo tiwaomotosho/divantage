@@ -22,7 +22,15 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "project-scheduling"
+     "project-scheduling",
+     "spreadsheets-basics",
+     "quality-hse",
+     "regulatory-reporting",
+     "budgeting-fpa",
+     "project-management",
+     "kpi-tracking",
+     "lean-six-sigma",
+     "incident-reporting"
     ],
     "estimated_hours": {
      "value": 1,
@@ -43,7 +51,15 @@
     ],
     "practice": "Create and update one record end to end",
     "need_tags": [
-     "project-scheduling"
+     "project-scheduling",
+     "spreadsheets-basics",
+     "quality-hse",
+     "regulatory-reporting",
+     "budgeting-fpa",
+     "project-management",
+     "kpi-tracking",
+     "lean-six-sigma",
+     "incident-reporting"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -63,7 +79,15 @@
     ],
     "practice": "Complete one full workflow for your role",
     "need_tags": [
-     "project-scheduling"
+     "project-scheduling",
+     "spreadsheets-basics",
+     "quality-hse",
+     "regulatory-reporting",
+     "budgeting-fpa",
+     "project-management",
+     "kpi-tracking",
+     "lean-six-sigma",
+     "incident-reporting"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -87,7 +111,15 @@
     "practice": "Build a plan or schedule for a real piece of work",
     "need_tags": [
      "project-scheduling",
-     "inventory-procurement"
+     "inventory-procurement",
+     "spreadsheets-basics",
+     "quality-hse",
+     "regulatory-reporting",
+     "budgeting-fpa",
+     "project-management",
+     "kpi-tracking",
+     "lean-six-sigma",
+     "incident-reporting"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -108,7 +140,14 @@
     "practice": "Build a report your manager asks for",
     "need_tags": [
      "kpi-tracking",
-     "project-scheduling"
+     "project-scheduling",
+     "spreadsheets-basics",
+     "quality-hse",
+     "regulatory-reporting",
+     "budgeting-fpa",
+     "project-management",
+     "lean-six-sigma",
+     "incident-reporting"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -129,7 +168,15 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "project-scheduling"
+     "project-scheduling",
+     "spreadsheets-basics",
+     "quality-hse",
+     "regulatory-reporting",
+     "budgeting-fpa",
+     "project-management",
+     "kpi-tracking",
+     "lean-six-sigma",
+     "incident-reporting"
     ],
     "estimated_hours": {
      "value": 3,
@@ -151,7 +198,15 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "project-scheduling"
+     "project-scheduling",
+     "spreadsheets-basics",
+     "quality-hse",
+     "regulatory-reporting",
+     "budgeting-fpa",
+     "project-management",
+     "kpi-tracking",
+     "lean-six-sigma",
+     "incident-reporting"
     ],
     "estimated_hours": {
      "value": 4,
@@ -174,7 +229,15 @@
     "need_tags": [
      "erp",
      "process-mapping",
-     "project-scheduling"
+     "project-scheduling",
+     "spreadsheets-basics",
+     "quality-hse",
+     "regulatory-reporting",
+     "budgeting-fpa",
+     "project-management",
+     "kpi-tracking",
+     "lean-six-sigma",
+     "incident-reporting"
     ],
     "estimated_hours": {
      "value": 4.0,
@@ -196,7 +259,15 @@
     "practice": "Connect Smartsheet to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "project-scheduling"
+     "project-scheduling",
+     "spreadsheets-basics",
+     "quality-hse",
+     "regulatory-reporting",
+     "budgeting-fpa",
+     "project-management",
+     "kpi-tracking",
+     "lean-six-sigma",
+     "incident-reporting"
     ],
     "estimated_hours": {
      "value": 2,
@@ -218,7 +289,15 @@
     "practice": "Write a one-page \"how we use Smartsheet\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "project-scheduling"
+     "project-scheduling",
+     "spreadsheets-basics",
+     "quality-hse",
+     "regulatory-reporting",
+     "budgeting-fpa",
+     "project-management",
+     "kpi-tracking",
+     "lean-six-sigma",
+     "incident-reporting"
     ],
     "estimated_hours": {
      "value": 2,

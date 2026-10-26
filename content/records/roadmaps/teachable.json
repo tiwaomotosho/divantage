@@ -1,0 +1,264 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_teachable",
+ "slug": "teachable",
+ "title": "Teachable skill roadmap",
+ "tool_ids": [
+  "tool_teachable"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_teachable_ecommerce_0",
+    "slug": "teachable-ecommerce-0",
+    "title": "Get started with Teachable",
+    "outcome": "You can: set up Teachable, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "book-writing-publishing",
+     "creator-income",
+     "marketplace-selling"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_teachable_ecommerce_1",
+    "slug": "teachable-ecommerce-1",
+    "title": "Open your shop",
+    "outcome": "You can: set up a store or seller account",
+    "topics": [
+     "account",
+     "policies",
+     "payments",
+     "verification"
+    ],
+    "practice": "Set up your seller profile",
+    "need_tags": [
+     "online-store",
+     "marketplace-selling",
+     "book-writing-publishing",
+     "creator-income"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_teachable_ecommerce_2",
+    "slug": "teachable-ecommerce-2",
+    "title": "List products that sell",
+    "outcome": "You can: create great listings",
+    "topics": [
+     "titles",
+     "photos",
+     "prices",
+     "variants"
+    ],
+    "practice": "List five products",
+    "need_tags": [
+     "online-store",
+     "product-photography",
+     "book-writing-publishing",
+     "creator-income",
+     "marketplace-selling"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_teachable_ecommerce_3",
+    "slug": "teachable-ecommerce-3",
+    "title": "Orders, delivery and returns",
+    "outcome": "You can: fulfil orders reliably",
+    "topics": [
+     "order flow",
+     "shipping options",
+     "returns",
+     "customer messages"
+    ],
+    "practice": "Process a test order end to end",
+    "need_tags": [
+     "online-store",
+     "customer-support",
+     "book-writing-publishing",
+     "creator-income",
+     "marketplace-selling"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_teachable_ecommerce_4",
+    "slug": "teachable-ecommerce-4",
+    "title": "Promote",
+    "outcome": "You can: bring buyers to your listings",
+    "topics": [
+     "promotions",
+     "SEO for listings",
+     "ads",
+     "reviews"
+    ],
+    "practice": "Run one promotion",
+    "need_tags": [
+     "seo",
+     "online-ads",
+     "book-writing-publishing",
+     "creator-income",
+     "marketplace-selling"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_teachable_ecommerce_8",
+    "slug": "teachable-ecommerce-8",
+    "title": "Signature skills in Teachable",
+    "outcome": "You can: use the features that make Teachable distinctive",
+    "topics": [
+     "listings",
+     "orders",
+     "payments"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "book-writing-publishing",
+     "creator-income",
+     "marketplace-selling"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_teachable_ecommerce_9",
+    "slug": "teachable-ecommerce-9",
+    "title": "Advanced Teachable",
+    "outcome": "You can: use Teachable's advanced capabilities with confidence",
+    "topics": [
+     "shipping",
+     "promotions",
+     "analytics"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "book-writing-publishing",
+     "creator-income",
+     "marketplace-selling"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_teachable_ecommerce_5",
+    "slug": "teachable-ecommerce-5",
+    "title": "Grow with data",
+    "outcome": "You can: use sales data to grow",
+    "topics": [
+     "analytics",
+     "inventory sync",
+     "integrations",
+     "fees review"
+    ],
+    "practice": "Review margins after fees and adjust prices",
+    "need_tags": [
+     "kpi-tracking",
+     "inventory-procurement",
+     "book-writing-publishing",
+     "creator-income",
+     "marketplace-selling"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_teachable_ecommerce_10",
+    "slug": "teachable-ecommerce-10",
+    "title": "Integrate Teachable into your workflow",
+    "outcome": "You can: connect Teachable with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Teachable to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "book-writing-publishing",
+     "creator-income",
+     "marketplace-selling"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_teachable_ecommerce_11",
+    "slug": "teachable-ecommerce-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Teachable well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Teachable\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "book-writing-publishing",
+     "creator-income",
+     "marketplace-selling"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype",
+ "archetype": "ecommerce",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

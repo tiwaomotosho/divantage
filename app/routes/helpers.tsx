@@ -1,100 +1,82 @@
-// S39 Helpers index.
-import { Link, data, useNavigate } from "react-router";
-import { FlagOff } from "../components/ui";
+// S39 Helpers index. New composition from the kit-feature card (09-kits); needs design review.
+import { Link, useNavigate } from "react-router";
 import type { Route } from "./+types/helpers";
 import { helperCards } from "~/lib/content.server";
-import { flag, listedHelpers, meta as pageMeta } from "../lib/build";
-import { HelperCard } from "../components/HelperBits";
-import { ChipList, PageHeader } from "../components/ui";
-import { helperActions, useHelperState } from "../lib/store";
-import { helperPosition, useHelperDefs } from "../components/HelperPanel";
+import { flag, meta as pageMeta } from "../lib/build";
+import { FlagOff, Icon, Picture, Tag } from "../components/da";
+import { deviceActions, helperActions } from "../lib/store";
 import { openSuggest } from "../components/SuggestSheet";
 
-export function loader() {
-  return { helpers: helperCards() };
-}
-
+export const loader = () => ({ helpers: helperCards() });
 export const meta: Route.MetaFunction = () => pageMeta("Helpers: guided paths through the right tools", "A helper walks you through the tools for one kind of work, one step at a time.");
 
 export default function Helpers({ loaderData: d }: Route.ComponentProps) {
   if (!flag("helpers")) return <FlagOff />;
-  const state = useHelperState();
-  const defs = useHelperDefs(Boolean(state?.active));
   const navigate = useNavigate();
-  const active = state?.active;
-  const moved = active && !listedHelpers.includes(active);
-  const def = defs?.find((h) => h.slug === active);
-  const pos = def ? helperPosition(def, state!.progress[def.slug]) : null;
   return (
-    <div className="container">
-      <PageHeader
-        title="Helpers"
-        lead="A helper walks you through the tools for one kind of work, one step at a time. It follows you around the site, so you can look things up and come back."
-      />
-      {moved && (
-        <div className="welcome-back" role="status">
-          <p>
-            This helper has moved. Choose another.{" "}
-            <button type="button" className="btn btn-tertiary btn-sm" onClick={() => helperActions.stop()}>
-              OK
-            </button>
-          </p>
+    <section className="wrap" style={{ paddingTop: 28 }}>
+      <span className="t-label">Helpers</span>
+      <h1 className="t-h1" style={{ marginTop: 6 }}>
+        Step-by-step guides for your kind of work
+      </h1>
+      <p className="t-lg mu" style={{ marginTop: 6 }}>
+        A helper walks you through the tools for one kind of work, one step at a time. It stays at the bottom of the screen while you look things up.
+      </p>
+      <div className="banner info" style={{ marginTop: 18 }} data-da="helper-explainer">
+        <Icon name="route" />
+        <div className="fl1 t-sm">
+          <b>What is a helper?</b> A step-by-step guide for your kind of work. It stays at the bottom of the screen while you open tools, so you never lose your place.
         </div>
-      )}
-      {def && pos && !pos.finished && (
-        <div className="welcome-back" role="region" aria-label="Continue">
-          <p>
-            Continue the {def.title.replace(/^The /, "")}. Stage {pos.stage!.n} of {def.stages.length}.{" "}
-            <button type="button" className="btn btn-secondary btn-sm" onClick={() => {
-              helperActions.resume();
-              navigate(`/helpers/${def.slug}`);
-            }}>
-              Resume
-            </button>{" "}
-            <button type="button" className="btn btn-tertiary btn-sm" onClick={() => helperActions.pause()}>
-              Not now
-            </button>
-          </p>
-        </div>
-      )}
-      <ul className="helper-cards helper-cards-index">
+      </div>
+      <div className="grid c3" style={{ marginTop: 20 }}>
         {d.helpers.map((h) => (
-          <li key={h.slug}>
-            <HelperCard
-              h={h}
-              actions={
-                <div className="helper-card-actions">
-                  <button type="button" className="btn btn-ink" aria-label={`Start the ${h.short} helper`} onClick={() => {
-                    helperActions.start(h.slug);
-                    navigate(`/helpers/${h.slug}`);
-                  }}>
-                    Start
-                  </button>
-                  <Link className="btn btn-secondary" to={`/helpers/${h.slug}`} aria-label={`Preview the ${h.short} helper`}>
-                    Preview
-                  </Link>
-                </div>
-              }
-            />
-            <div className="helper-ids">
-              <p className="label">Is your work on this list?</p>
-              <ChipList items={h.identities.map((i) => ({ to: `/for/${i.slug}`, label: i.label }))} />
+          <article key={h.slug} className="card el" style={{ overflow: "hidden", display: "grid", gridTemplateColumns: "1fr" }} data-da="helper-card">
+            <div style={{ aspectRatio: "16/9" }}>
+              <Picture slug={h.photo} ratio="wide" className="" sizes="(min-width:1024px) 33vw, 100vw" />
             </div>
-          </li>
+            <div className="pad" style={{ padding: 22 }}>
+              <Tag hue="violet" icon={h.icon}>
+                Helper · {h.short}
+              </Tag>
+              <h2 className="t-h3" style={{ marginTop: 10 }}>
+                <Link to={`/helpers/${h.slug}`}>{h.promise}</Link>
+              </h2>
+              <p className="t-sm mu" style={{ marginTop: 6 }}>
+                {h.stages} stages · {h.tools} tools
+              </p>
+              <div className="row g8" style={{ marginTop: 14 }}>
+                <button
+                  type="button"
+                  className="btn s sm"
+                  aria-label={`Start the ${h.short} helper`}
+                  onClick={() => {
+                    helperActions.start(h.slug);
+                    deviceActions.hideHelper(false);
+                    navigate(`/helpers/${h.slug}`);
+                  }}
+                >
+                  Start <Icon name="arrow-right" />
+                </button>
+                <Link className="btn g sm" to={`/helpers/${h.slug}`} aria-label={`Preview the ${h.short} helper`}>
+                  Preview
+                </Link>
+              </div>
+            </div>
+          </article>
         ))}
-      </ul>
-      <section className="section">
-        <h2>Want a helper for your work?</h2>
-        <p>
-          <a href="/suggest?type=suggest_helper" onClick={(e) => {
-            e.preventDefault();
-            openSuggest({ type: "suggest_helper", kind: "helper" });
-          }}>
-            Tell us what you do and what you'd like help with
-          </a>
-          .
-        </p>
-      </section>
-    </div>
+      </div>
+      <div className="card pad row g16 wrapf" style={{ marginTop: 20 }}>
+        <span className="tile h-violet" aria-hidden="true">
+          <Icon name="plus" />
+        </span>
+        <div className="fl1">
+          <div className="b7">Want a helper for your work?</div>
+          <div className="t-sm mu">Tell us what you do and what you'd like help with.</div>
+        </div>
+        <button type="button" className="btn s" onClick={() => openSuggest({ reason: "helper" })}>
+          Suggest a helper
+        </button>
+      </div>
+    </section>
   );
 }

@@ -22,7 +22,9 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "budgeting-fpa"
+     "budgeting-fpa",
+     "financial-modelling",
+     "project-management"
     ],
     "estimated_hours": {
      "value": 1,
@@ -43,7 +45,9 @@
     ],
     "practice": "Create and update one record end to end",
     "need_tags": [
-     "budgeting-fpa"
+     "budgeting-fpa",
+     "financial-modelling",
+     "project-management"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -63,7 +67,9 @@
     ],
     "practice": "Complete one full workflow for your role",
     "need_tags": [
-     "budgeting-fpa"
+     "budgeting-fpa",
+     "financial-modelling",
+     "project-management"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -88,7 +94,9 @@
     "need_tags": [
      "project-scheduling",
      "inventory-procurement",
-     "budgeting-fpa"
+     "budgeting-fpa",
+     "financial-modelling",
+     "project-management"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -109,7 +117,9 @@
     "practice": "Build a report your manager asks for",
     "need_tags": [
      "kpi-tracking",
-     "budgeting-fpa"
+     "budgeting-fpa",
+     "financial-modelling",
+     "project-management"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -130,7 +140,9 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "budgeting-fpa"
+     "budgeting-fpa",
+     "financial-modelling",
+     "project-management"
     ],
     "estimated_hours": {
      "value": 3,
@@ -152,7 +164,9 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "budgeting-fpa"
+     "budgeting-fpa",
+     "financial-modelling",
+     "project-management"
     ],
     "estimated_hours": {
      "value": 4,
@@ -175,7 +189,9 @@
     "need_tags": [
      "erp",
      "process-mapping",
-     "budgeting-fpa"
+     "budgeting-fpa",
+     "financial-modelling",
+     "project-management"
     ],
     "estimated_hours": {
      "value": 4.0,
@@ -197,7 +213,9 @@
     "practice": "Connect Anaplan to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "budgeting-fpa"
+     "budgeting-fpa",
+     "financial-modelling",
+     "project-management"
     ],
     "estimated_hours": {
      "value": 2,
@@ -219,7 +237,9 @@
     "practice": "Write a one-page \"how we use Anaplan\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "budgeting-fpa"
+     "budgeting-fpa",
+     "financial-modelling",
+     "project-management"
     ],
     "estimated_hours": {
      "value": 2,

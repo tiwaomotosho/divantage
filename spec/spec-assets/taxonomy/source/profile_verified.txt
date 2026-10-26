@@ -1,0 +1,7 @@
+# slug | what was checked | source | checked on (YYYY-MM-DD)
+# Only facts seen on a dated web source during the V2.7 research pass. Everything else stays a Preview.
+remote4africa | existence and purpose: remote jobs board open to people in Africa, launched by Techpoint Africa | Techpoint Africa article on Remote4Africa | 2026-10-22
+3mtt | existence and purpose: Nigeria federal government technical talent programme with funded training | TechCabal reporting on 3MTT | 2026-10-22
+n-atlas | existence and purpose: Nigerian multilingual language model (Yoruba, Hausa, Igbo, Nigerian English) open on Hugging Face | TechCabal reporting on N-ATLAS | 2026-10-22
+raenest | rebrand: Geegpay is now Raenest | Freelancer payment app comparison, thecondia | 2026-10-22
+grammarly | company rebrand: Grammarly's parent now trades as Superhuman | eesel Grammarly alternatives article | 2026-10-22

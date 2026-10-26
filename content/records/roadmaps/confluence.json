@@ -22,7 +22,10 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "technical-writing"
+     "technical-writing",
+     "technical-reporting",
+     "process-mapping",
+     "project-management"
     ],
     "estimated_hours": {
      "value": 1,
@@ -44,7 +47,10 @@
     "practice": "Post an update and share a file with your team",
     "need_tags": [
      "group-messaging",
-     "technical-writing"
+     "technical-writing",
+     "technical-reporting",
+     "process-mapping",
+     "project-management"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -66,7 +72,10 @@
     "practice": "Set notifications so only what matters reaches you",
     "need_tags": [
      "personal-productivity",
-     "technical-writing"
+     "technical-writing",
+     "technical-reporting",
+     "process-mapping",
+     "project-management"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -89,7 +98,9 @@
     "practice": "Set up a space for a real project",
     "need_tags": [
      "project-management",
-     "technical-writing"
+     "technical-writing",
+     "technical-reporting",
+     "process-mapping"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -111,7 +122,10 @@
     "need_tags": [
      "meeting-minutes",
      "workshop-facilitation",
-     "technical-writing"
+     "technical-writing",
+     "technical-reporting",
+     "process-mapping",
+     "project-management"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -132,7 +146,10 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "technical-writing"
+     "technical-writing",
+     "technical-reporting",
+     "process-mapping",
+     "project-management"
     ],
     "estimated_hours": {
      "value": 3,
@@ -154,7 +171,10 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "technical-writing"
+     "technical-writing",
+     "technical-reporting",
+     "process-mapping",
+     "project-management"
     ],
     "estimated_hours": {
      "value": 4,
@@ -177,7 +197,10 @@
     "need_tags": [
      "records-management",
      "online-safety",
-     "technical-writing"
+     "technical-writing",
+     "technical-reporting",
+     "process-mapping",
+     "project-management"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -199,7 +222,10 @@
     "practice": "Connect Confluence to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "technical-writing"
+     "technical-writing",
+     "technical-reporting",
+     "process-mapping",
+     "project-management"
     ],
     "estimated_hours": {
      "value": 2,
@@ -221,7 +247,10 @@
     "practice": "Write a one-page \"how we use Confluence\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "technical-writing"
+     "technical-writing",
+     "technical-reporting",
+     "process-mapping",
+     "project-management"
     ],
     "estimated_hours": {
      "value": 2,

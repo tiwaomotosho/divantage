@@ -22,7 +22,10 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "site-measurement"
+     "site-measurement",
+     "interior-design",
+     "site-management",
+     "cad-drafting"
     ],
     "estimated_hours": {
      "value": 1,
@@ -44,7 +47,9 @@
     "practice": "Start a project from the right template",
     "need_tags": [
      "cad-drafting",
-     "site-measurement"
+     "site-measurement",
+     "interior-design",
+     "site-management"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -68,7 +73,9 @@
      "cad-drafting",
      "mechanical-design",
      "bim-modelling",
-     "site-measurement"
+     "site-measurement",
+     "interior-design",
+     "site-management"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -93,7 +100,9 @@
     "need_tags": [
      "cad-drafting",
      "technical-reporting",
-     "site-measurement"
+     "site-measurement",
+     "interior-design",
+     "site-management"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -116,7 +125,10 @@
     "need_tags": [
      "bim-modelling",
      "drawing-markup",
-     "site-measurement"
+     "site-measurement",
+     "interior-design",
+     "site-management",
+     "cad-drafting"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -137,7 +149,10 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "site-measurement"
+     "site-measurement",
+     "interior-design",
+     "site-management",
+     "cad-drafting"
     ],
     "estimated_hours": {
      "value": 3,
@@ -159,7 +174,10 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "site-measurement"
+     "site-measurement",
+     "interior-design",
+     "site-management",
+     "cad-drafting"
     ],
     "estimated_hours": {
      "value": 4,
@@ -182,7 +200,10 @@
     "need_tags": [
      "cost-estimation",
      "bim-modelling",
-     "site-measurement"
+     "site-measurement",
+     "interior-design",
+     "site-management",
+     "cad-drafting"
     ],
     "estimated_hours": {
      "value": 5.0,
@@ -204,7 +225,10 @@
     "practice": "Connect magicplan to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "site-measurement"
+     "site-measurement",
+     "interior-design",
+     "site-management",
+     "cad-drafting"
     ],
     "estimated_hours": {
      "value": 2,
@@ -226,7 +250,10 @@
     "practice": "Write a one-page \"how we use magicplan\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "site-measurement"
+     "site-measurement",
+     "interior-design",
+     "site-management",
+     "cad-drafting"
     ],
     "estimated_hours": {
      "value": 2,

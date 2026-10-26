@@ -22,7 +22,16 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "group-messaging"
+     "group-messaging",
+     "video-meetings",
+     "virtual-classroom",
+     "emergency-comms",
+     "digital-basics",
+     "fact-check",
+     "files-cloud-storage",
+     "public-consultation",
+     "professional-profile",
+     "learn-online"
     ],
     "estimated_hours": {
      "value": 1,
@@ -43,7 +52,16 @@
     ],
     "practice": "Post an update and share a file with your team",
     "need_tags": [
-     "group-messaging"
+     "group-messaging",
+     "video-meetings",
+     "virtual-classroom",
+     "emergency-comms",
+     "digital-basics",
+     "fact-check",
+     "files-cloud-storage",
+     "public-consultation",
+     "professional-profile",
+     "learn-online"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -65,7 +83,16 @@
     "practice": "Set notifications so only what matters reaches you",
     "need_tags": [
      "personal-productivity",
-     "group-messaging"
+     "group-messaging",
+     "video-meetings",
+     "virtual-classroom",
+     "emergency-comms",
+     "digital-basics",
+     "fact-check",
+     "files-cloud-storage",
+     "public-consultation",
+     "professional-profile",
+     "learn-online"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -88,7 +115,16 @@
     "practice": "Set up a space for a real project",
     "need_tags": [
      "project-management",
-     "group-messaging"
+     "group-messaging",
+     "video-meetings",
+     "virtual-classroom",
+     "emergency-comms",
+     "digital-basics",
+     "fact-check",
+     "files-cloud-storage",
+     "public-consultation",
+     "professional-profile",
+     "learn-online"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -110,7 +146,16 @@
     "need_tags": [
      "meeting-minutes",
      "workshop-facilitation",
-     "group-messaging"
+     "group-messaging",
+     "video-meetings",
+     "virtual-classroom",
+     "emergency-comms",
+     "digital-basics",
+     "fact-check",
+     "files-cloud-storage",
+     "public-consultation",
+     "professional-profile",
+     "learn-online"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -131,7 +176,16 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "group-messaging"
+     "group-messaging",
+     "video-meetings",
+     "virtual-classroom",
+     "emergency-comms",
+     "digital-basics",
+     "fact-check",
+     "files-cloud-storage",
+     "public-consultation",
+     "professional-profile",
+     "learn-online"
     ],
     "estimated_hours": {
      "value": 3,
@@ -153,7 +207,16 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "group-messaging"
+     "group-messaging",
+     "video-meetings",
+     "virtual-classroom",
+     "emergency-comms",
+     "digital-basics",
+     "fact-check",
+     "files-cloud-storage",
+     "public-consultation",
+     "professional-profile",
+     "learn-online"
     ],
     "estimated_hours": {
      "value": 4,
@@ -176,7 +239,16 @@
     "need_tags": [
      "records-management",
      "online-safety",
-     "group-messaging"
+     "group-messaging",
+     "video-meetings",
+     "virtual-classroom",
+     "emergency-comms",
+     "digital-basics",
+     "fact-check",
+     "files-cloud-storage",
+     "public-consultation",
+     "professional-profile",
+     "learn-online"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -198,7 +270,16 @@
     "practice": "Connect Telegram to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "group-messaging"
+     "group-messaging",
+     "video-meetings",
+     "virtual-classroom",
+     "emergency-comms",
+     "digital-basics",
+     "fact-check",
+     "files-cloud-storage",
+     "public-consultation",
+     "professional-profile",
+     "learn-online"
     ],
     "estimated_hours": {
      "value": 2,
@@ -220,7 +301,16 @@
     "practice": "Write a one-page \"how we use Telegram\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "group-messaging"
+     "group-messaging",
+     "video-meetings",
+     "virtual-classroom",
+     "emergency-comms",
+     "digital-basics",
+     "fact-check",
+     "files-cloud-storage",
+     "public-consultation",
+     "professional-profile",
+     "learn-online"
     ],
     "estimated_hours": {
      "value": 2,

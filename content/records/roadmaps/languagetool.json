@@ -23,7 +23,8 @@
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
      "write-clearly",
-     "academic-writing"
+     "academic-writing",
+     "cv-portfolio"
     ],
     "estimated_hours": {
      "value": 1,
@@ -44,7 +45,8 @@
     "practice": "Draft a 500-word piece",
     "need_tags": [
      "write-clearly",
-     "academic-writing"
+     "academic-writing",
+     "cv-portfolio"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -65,7 +67,8 @@
     "practice": "Edit your draft using LanguageTool's suggestions critically",
     "need_tags": [
      "write-clearly",
-     "academic-writing"
+     "academic-writing",
+     "cv-portfolio"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -91,7 +94,8 @@
      "academic-writing",
      "book-writing-publishing",
      "technical-writing",
-     "write-clearly"
+     "write-clearly",
+     "cv-portfolio"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -114,7 +118,8 @@
      "technical-writing",
      "copywriting",
      "write-clearly",
-     "academic-writing"
+     "academic-writing",
+     "cv-portfolio"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -136,7 +141,8 @@
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
      "write-clearly",
-     "academic-writing"
+     "academic-writing",
+     "cv-portfolio"
     ],
     "estimated_hours": {
      "value": 3,
@@ -159,7 +165,8 @@
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
      "write-clearly",
-     "academic-writing"
+     "academic-writing",
+     "cv-portfolio"
     ],
     "estimated_hours": {
      "value": 4,
@@ -181,7 +188,8 @@
     "need_tags": [
      "newsletter-publishing",
      "write-clearly",
-     "academic-writing"
+     "academic-writing",
+     "cv-portfolio"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -204,7 +212,8 @@
     "need_tags": [
      "automation-workflows",
      "write-clearly",
-     "academic-writing"
+     "academic-writing",
+     "cv-portfolio"
     ],
     "estimated_hours": {
      "value": 2,
@@ -227,7 +236,8 @@
     "need_tags": [
      "workshop-facilitation",
      "write-clearly",
-     "academic-writing"
+     "academic-writing",
+     "cv-portfolio"
     ],
     "estimated_hours": {
      "value": 2,

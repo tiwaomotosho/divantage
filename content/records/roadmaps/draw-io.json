@@ -23,7 +23,8 @@
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
      "diagramming",
-     "process-mapping"
+     "process-mapping",
+     "lean-six-sigma"
     ],
     "estimated_hours": {
      "value": 1,
@@ -45,7 +46,8 @@
     "practice": "Draw your team's process",
     "need_tags": [
      "diagramming",
-     "process-mapping"
+     "process-mapping",
+     "lean-six-sigma"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -67,7 +69,8 @@
     "practice": "Recreate a process with a swimlane template",
     "need_tags": [
      "process-mapping",
-     "diagramming"
+     "diagramming",
+     "lean-six-sigma"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -90,7 +93,8 @@
     "practice": "Redraw a process in BPMN style",
     "need_tags": [
      "process-mapping",
-     "diagramming"
+     "diagramming",
+     "lean-six-sigma"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -112,7 +116,8 @@
     "need_tags": [
      "workshop-facilitation",
      "diagramming",
-     "process-mapping"
+     "process-mapping",
+     "lean-six-sigma"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -134,7 +139,8 @@
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
      "diagramming",
-     "process-mapping"
+     "process-mapping",
+     "lean-six-sigma"
     ],
     "estimated_hours": {
      "value": 3,
@@ -157,7 +163,8 @@
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
      "diagramming",
-     "process-mapping"
+     "process-mapping",
+     "lean-six-sigma"
     ],
     "estimated_hours": {
      "value": 4,
@@ -178,7 +185,8 @@
     "practice": "Link a diagram to data or code",
     "need_tags": [
      "diagramming",
-     "process-mapping"
+     "process-mapping",
+     "lean-six-sigma"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -201,7 +209,8 @@
     "need_tags": [
      "automation-workflows",
      "diagramming",
-     "process-mapping"
+     "process-mapping",
+     "lean-six-sigma"
     ],
     "estimated_hours": {
      "value": 2,
@@ -224,7 +233,8 @@
     "need_tags": [
      "workshop-facilitation",
      "diagramming",
-     "process-mapping"
+     "process-mapping",
+     "lean-six-sigma"
     ],
     "estimated_hours": {
      "value": 2,

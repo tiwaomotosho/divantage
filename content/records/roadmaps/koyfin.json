@@ -22,7 +22,8 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "market-research-finance"
+     "market-research-finance",
+     "financial-modelling"
     ],
     "estimated_hours": {
      "value": 1,
@@ -43,7 +44,8 @@
     ],
     "practice": "Build a watchlist of five instruments",
     "need_tags": [
-     "market-research-finance"
+     "market-research-finance",
+     "financial-modelling"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -63,7 +65,8 @@
     ],
     "practice": "Compare two companies on three ratios",
     "need_tags": [
-     "market-research-finance"
+     "market-research-finance",
+     "financial-modelling"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -85,7 +88,8 @@
     ],
     "practice": "Build a screen and set two alerts",
     "need_tags": [
-     "market-research-finance"
+     "market-research-finance",
+     "financial-modelling"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -127,7 +131,8 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "market-research-finance"
+     "market-research-finance",
+     "financial-modelling"
     ],
     "estimated_hours": {
      "value": 3,
@@ -149,7 +154,8 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "market-research-finance"
+     "market-research-finance",
+     "financial-modelling"
     ],
     "estimated_hours": {
      "value": 4,
@@ -170,7 +176,8 @@
     "practice": "Write a checklist for using Koyfin data in decisions",
     "need_tags": [
      "risk-modelling",
-     "market-research-finance"
+     "market-research-finance",
+     "financial-modelling"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -192,7 +199,8 @@
     "practice": "Connect Koyfin to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "market-research-finance"
+     "market-research-finance",
+     "financial-modelling"
     ],
     "estimated_hours": {
      "value": 2,
@@ -214,7 +222,8 @@
     "practice": "Write a one-page \"how we use Koyfin\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "market-research-finance"
+     "market-research-finance",
+     "financial-modelling"
     ],
     "estimated_hours": {
      "value": 2,

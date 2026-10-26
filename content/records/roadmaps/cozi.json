@@ -22,7 +22,8 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "family-organisation"
+     "family-organisation",
+     "care-coordination"
     ],
     "estimated_hours": {
      "value": 1,
@@ -43,7 +44,8 @@
     ],
     "practice": "Install Cozi Family Organizer on phone and computer",
     "need_tags": [
-     "family-organisation"
+     "family-organisation",
+     "care-coordination"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -64,7 +66,8 @@
     "practice": "Use Cozi Family Organizer for a week and note one saved hour",
     "need_tags": [
      "personal-productivity",
-     "family-organisation"
+     "family-organisation",
+     "care-coordination"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -88,7 +91,8 @@
     "need_tags": [
      "personal-productivity",
      "records-management",
-     "family-organisation"
+     "family-organisation",
+     "care-coordination"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -110,7 +114,8 @@
     "need_tags": [
      "files-cloud-storage",
      "online-safety",
-     "family-organisation"
+     "family-organisation",
+     "care-coordination"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -131,7 +136,8 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "family-organisation"
+     "family-organisation",
+     "care-coordination"
     ],
     "estimated_hours": {
      "value": 3,
@@ -152,7 +158,8 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "family-organisation"
+     "family-organisation",
+     "care-coordination"
     ],
     "estimated_hours": {
      "value": 4,
@@ -173,7 +180,8 @@
     "practice": "Create two automation rules",
     "need_tags": [
      "automation-workflows",
-     "family-organisation"
+     "family-organisation",
+     "care-coordination"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -195,7 +203,8 @@
     "practice": "Connect Cozi Family Organizer to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "family-organisation"
+     "family-organisation",
+     "care-coordination"
     ],
     "estimated_hours": {
      "value": 2,
@@ -217,7 +226,8 @@
     "practice": "Write a one-page \"how we use Cozi Family Organizer\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "family-organisation"
+     "family-organisation",
+     "care-coordination"
     ],
     "estimated_hours": {
      "value": 2,

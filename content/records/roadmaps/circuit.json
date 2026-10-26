@@ -9,8 +9,8 @@
  "levels": {
   "beginner": [
    {
-    "id": "mod_circuit_business_app_0",
-    "slug": "circuit-business-app-0",
+    "id": "mod_circuit_erp_ops_0",
+    "slug": "circuit-erp-ops-0",
     "title": "Get started with Circuit Route Planner",
     "outcome": "You can: set up Circuit Route Planner, find your way around and finish a first small task",
     "topics": [
@@ -31,17 +31,17 @@
     "level": "beginner"
    },
    {
-    "id": "mod_circuit_business_app_1",
-    "slug": "circuit-business-app-1",
-    "title": "Set up your business",
-    "outcome": "You can: configure Circuit Route Planner for your business",
+    "id": "mod_circuit_erp_ops_1",
+    "slug": "circuit-erp-ops-1",
+    "title": "Navigate the system",
+    "outcome": "You can: find, create and update records",
     "topics": [
-     "business profile",
-     "services/products",
-     "staff",
-     "payment options"
+     "modules",
+     "master data",
+     "search",
+     "permissions"
     ],
-    "practice": "Set up your profile and three services or products",
+    "practice": "Create and update one record end to end",
     "need_tags": [
      "route-planning-fleet"
     ],
@@ -52,21 +52,21 @@
     "level": "beginner"
    },
    {
-    "id": "mod_circuit_business_app_2",
-    "slug": "circuit-business-app-2",
-    "title": "Daily operations",
-    "outcome": "You can: run day-to-day work in Circuit Route Planner",
+    "id": "mod_circuit_erp_ops_2",
+    "slug": "circuit-erp-ops-2",
+    "title": "Core workflow",
+    "outcome": "You can: complete your role's main workflow",
     "topics": [
-     "bookings/orders/records",
-     "notifications",
-     "mobile use"
+     "orders/tasks/stock moves",
+     "approvals",
+     "statuses"
     ],
-    "practice": "Run one full day of operations in Circuit Route Planner",
+    "practice": "Complete one full workflow for your role",
     "need_tags": [
      "route-planning-fleet"
     ],
     "estimated_hours": {
-     "value": 1.0,
+     "value": 2.0,
      "is_estimate": true
     },
     "level": "beginner"
@@ -74,52 +74,52 @@
   ],
   "intermediate": [
    {
-    "id": "mod_circuit_business_app_3",
-    "slug": "circuit-business-app-3",
-    "title": "Customers and data",
-    "outcome": "You can: keep clean customer and transaction records",
+    "id": "mod_circuit_erp_ops_3",
+    "slug": "circuit-erp-ops-3",
+    "title": "Planning and scheduling",
+    "outcome": "You can: plan work, stock or projects",
     "topics": [
-     "customer profiles",
-     "history",
-     "imports/exports",
-     "privacy"
+     "schedules",
+     "dependencies",
+     "reorder points",
+     "resources"
     ],
-    "practice": "Import or clean up your customer list",
+    "practice": "Build a plan or schedule for a real piece of work",
     "need_tags": [
-     "crm-sales",
-     "customer-support",
+     "project-scheduling",
+     "inventory-procurement",
      "route-planning-fleet"
     ],
     "estimated_hours": {
-     "value": 1.5,
+     "value": 3.0,
      "is_estimate": true
     },
     "level": "intermediate"
    },
    {
-    "id": "mod_circuit_business_app_4",
-    "slug": "circuit-business-app-4",
-    "title": "Reports that matter",
-    "outcome": "You can: read the reports that guide decisions",
+    "id": "mod_circuit_erp_ops_4",
+    "slug": "circuit-erp-ops-4",
+    "title": "Reports and dashboards",
+    "outcome": "You can: answer management questions",
     "topics": [
-     "sales/occupancy/attendance",
-     "cash",
-     "trends"
+     "standard reports",
+     "filters",
+     "exports"
     ],
-    "practice": "Review last month's report and pick one action",
+    "practice": "Build a report your manager asks for",
     "need_tags": [
      "kpi-tracking",
      "route-planning-fleet"
     ],
     "estimated_hours": {
-     "value": 1.0,
+     "value": 2.0,
      "is_estimate": true
     },
     "level": "intermediate"
    },
    {
-    "id": "mod_circuit_business_app_8",
-    "slug": "circuit-business-app-8",
+    "id": "mod_circuit_erp_ops_8",
+    "slug": "circuit-erp-ops-8",
     "title": "Signature skills in Circuit Route Planner",
     "outcome": "You can: use the features that make Circuit Route Planner distinctive",
     "topics": [
@@ -141,8 +141,8 @@
   ],
   "expert": [
    {
-    "id": "mod_circuit_business_app_9",
-    "slug": "circuit-business-app-9",
+    "id": "mod_circuit_erp_ops_9",
+    "slug": "circuit-erp-ops-9",
     "title": "Advanced Circuit Route Planner",
     "outcome": "You can: use Circuit Route Planner's advanced capabilities with confidence",
     "topics": [
@@ -161,29 +161,31 @@
     "level": "expert"
    },
    {
-    "id": "mod_circuit_business_app_5",
-    "slug": "circuit-business-app-5",
-    "title": "Scale and control",
-    "outcome": "You can: run Circuit Route Planner across a team or branches",
+    "id": "mod_circuit_erp_ops_5",
+    "slug": "circuit-erp-ops-5",
+    "title": "Configure and integrate",
+    "outcome": "You can: adapt Circuit Route Planner to how your organisation works",
     "topics": [
-     "roles and permissions",
-     "multiple locations",
-     "audit trail"
+     "custom fields",
+     "workflows",
+     "integrations",
+     "data quality"
     ],
-    "practice": "Set up roles for staff and review the audit log",
+    "practice": "Propose and test one configuration improvement",
     "need_tags": [
-     "people-management",
+     "erp",
+     "process-mapping",
      "route-planning-fleet"
     ],
     "estimated_hours": {
-     "value": 2.0,
+     "value": 4.0,
      "is_estimate": true
     },
     "level": "expert"
    },
    {
-    "id": "mod_circuit_business_app_10",
-    "slug": "circuit-business-app-10",
+    "id": "mod_circuit_erp_ops_10",
+    "slug": "circuit-erp-ops-10",
     "title": "Integrate Circuit Route Planner into your workflow",
     "outcome": "You can: connect Circuit Route Planner with the other tools you use",
     "topics": [
@@ -204,8 +206,8 @@
     "level": "expert"
    },
    {
-    "id": "mod_circuit_business_app_11",
-    "slug": "circuit-business-app-11",
+    "id": "mod_circuit_erp_ops_11",
+    "slug": "circuit-erp-ops-11",
     "title": "Lead and teach others",
     "outcome": "You can: set standards and teach others to use Circuit Route Planner well",
     "topics": [
@@ -228,7 +230,7 @@
   ]
  },
  "authoring": "archetype+signature",
- "archetype": "business-app",
+ "archetype": "erp-ops",
  "expert_validation": {
   "status": "pending",
   "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."

@@ -1,0 +1,259 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_messenger",
+ "slug": "messenger",
+ "title": "Messenger skill roadmap",
+ "tool_ids": [
+  "tool_messenger"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_messenger_collaboration_0",
+    "slug": "messenger-collaboration-0",
+    "title": "Get started with Messenger",
+    "outcome": "You can: set up Messenger, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "video-meetings",
+     "group-messaging",
+     "emergency-comms"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_messenger_collaboration_1",
+    "slug": "messenger-collaboration-1",
+    "title": "Join and communicate",
+    "outcome": "You can: communicate clearly in Messenger",
+    "topics": [
+     "spaces/channels/boards",
+     "messages",
+     "mentions",
+     "files"
+    ],
+    "practice": "Post an update and share a file with your team",
+    "need_tags": [
+     "group-messaging",
+     "video-meetings",
+     "emergency-comms"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_messenger_collaboration_2",
+    "slug": "messenger-collaboration-2",
+    "title": "Stay focused",
+    "outcome": "You can: manage notifications and find things",
+    "topics": [
+     "notification settings",
+     "search",
+     "pinning",
+     "status"
+    ],
+    "practice": "Set notifications so only what matters reaches you",
+    "need_tags": [
+     "personal-productivity",
+     "video-meetings",
+     "group-messaging",
+     "emergency-comms"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_messenger_collaboration_3",
+    "slug": "messenger-collaboration-3",
+    "title": "Organise work",
+    "outcome": "You can: structure work for a team",
+    "topics": [
+     "projects/channels",
+     "templates",
+     "task assignment"
+    ],
+    "practice": "Set up a space for a real project",
+    "need_tags": [
+     "project-management",
+     "video-meetings",
+     "group-messaging",
+     "emergency-comms"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_messenger_collaboration_4",
+    "slug": "messenger-collaboration-4",
+    "title": "Run meetings and workshops",
+    "outcome": "You can: use Messenger before, during and after meetings",
+    "topics": [
+     "agendas",
+     "live collaboration",
+     "follow-ups"
+    ],
+    "practice": "Run one meeting entirely through Messenger",
+    "need_tags": [
+     "meeting-minutes",
+     "workshop-facilitation",
+     "video-meetings",
+     "group-messaging",
+     "emergency-comms"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_messenger_collaboration_8",
+    "slug": "messenger-collaboration-8",
+    "title": "Signature skills in Messenger",
+    "outcome": "You can: use the features that make Messenger distinctive",
+    "topics": [
+     "spaces and channels",
+     "sharing",
+     "notifications"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "video-meetings",
+     "group-messaging",
+     "emergency-comms"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_messenger_collaboration_9",
+    "slug": "messenger-collaboration-9",
+    "title": "Advanced Messenger",
+    "outcome": "You can: use Messenger's advanced capabilities with confidence",
+    "topics": [
+     "permissions",
+     "integrations",
+     "governance"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "video-meetings",
+     "group-messaging",
+     "emergency-comms"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_messenger_collaboration_5",
+    "slug": "messenger-collaboration-5",
+    "title": "Govern the workspace",
+    "outcome": "You can: keep the workspace secure and tidy",
+    "topics": [
+     "roles",
+     "guest access",
+     "retention",
+     "archiving"
+    ],
+    "practice": "Review who has access and archive stale spaces",
+    "need_tags": [
+     "records-management",
+     "online-safety",
+     "video-meetings",
+     "group-messaging",
+     "emergency-comms"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_messenger_collaboration_10",
+    "slug": "messenger-collaboration-10",
+    "title": "Integrate Messenger into your workflow",
+    "outcome": "You can: connect Messenger with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Messenger to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "video-meetings",
+     "group-messaging",
+     "emergency-comms"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_messenger_collaboration_11",
+    "slug": "messenger-collaboration-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Messenger well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Messenger\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "video-meetings",
+     "group-messaging",
+     "emergency-comms"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype",
+ "archetype": "collaboration",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

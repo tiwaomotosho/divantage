@@ -23,7 +23,9 @@
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
      "photo-editing",
-     "graphic-design-pro"
+     "graphic-design-pro",
+     "photography-workflow",
+     "digital-illustration"
     ],
     "estimated_hours": {
      "value": 1,
@@ -46,7 +48,9 @@
     "need_tags": [
      "graphic-design-pro",
      "design-simple-graphics",
-     "photo-editing"
+     "photo-editing",
+     "photography-workflow",
+     "digital-illustration"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -69,7 +73,9 @@
     "need_tags": [
      "graphic-design-pro",
      "brand-identity",
-     "photo-editing"
+     "photo-editing",
+     "photography-workflow",
+     "digital-illustration"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -94,7 +100,9 @@
     "need_tags": [
      "photo-editing",
      "product-photography",
-     "graphic-design-pro"
+     "graphic-design-pro",
+     "photography-workflow",
+     "digital-illustration"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -117,7 +125,9 @@
     "need_tags": [
      "brand-identity",
      "photo-editing",
-     "graphic-design-pro"
+     "graphic-design-pro",
+     "photography-workflow",
+     "digital-illustration"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -139,7 +149,9 @@
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
      "photo-editing",
-     "graphic-design-pro"
+     "graphic-design-pro",
+     "photography-workflow",
+     "digital-illustration"
     ],
     "estimated_hours": {
      "value": 3,
@@ -162,7 +174,9 @@
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
      "photo-editing",
-     "graphic-design-pro"
+     "graphic-design-pro",
+     "photography-workflow",
+     "digital-illustration"
     ],
     "estimated_hours": {
      "value": 4,
@@ -183,7 +197,9 @@
     "practice": "Prepare a print-ready file",
     "need_tags": [
      "graphic-design-pro",
-     "photo-editing"
+     "photo-editing",
+     "photography-workflow",
+     "digital-illustration"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -206,7 +222,9 @@
     "need_tags": [
      "automation-workflows",
      "photo-editing",
-     "graphic-design-pro"
+     "graphic-design-pro",
+     "photography-workflow",
+     "digital-illustration"
     ],
     "estimated_hours": {
      "value": 2,
@@ -229,7 +247,9 @@
     "need_tags": [
      "workshop-facilitation",
      "photo-editing",
-     "graphic-design-pro"
+     "graphic-design-pro",
+     "photography-workflow",
+     "digital-illustration"
     ],
     "estimated_hours": {
      "value": 2,

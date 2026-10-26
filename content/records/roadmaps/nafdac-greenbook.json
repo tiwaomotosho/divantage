@@ -1,0 +1,246 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_nafdac_greenbook",
+ "slug": "nafdac-greenbook",
+ "title": "NAFDAC Green Book skill roadmap",
+ "tool_ids": [
+  "tool_nafdac_greenbook"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_nafdac_greenbook_business_app_0",
+    "slug": "nafdac-greenbook-business-app-0",
+    "title": "Get started with NAFDAC Green Book",
+    "outcome": "You can: set up NAFDAC Green Book, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "online-safety",
+     "records-management"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_nafdac_greenbook_business_app_1",
+    "slug": "nafdac-greenbook-business-app-1",
+    "title": "Set up your business",
+    "outcome": "You can: configure NAFDAC Green Book for your business",
+    "topics": [
+     "business profile",
+     "services/products",
+     "staff",
+     "payment options"
+    ],
+    "practice": "Set up your profile and three services or products",
+    "need_tags": [
+     "online-safety",
+     "records-management"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_nafdac_greenbook_business_app_2",
+    "slug": "nafdac-greenbook-business-app-2",
+    "title": "Daily operations",
+    "outcome": "You can: run day-to-day work in NAFDAC Green Book",
+    "topics": [
+     "bookings/orders/records",
+     "notifications",
+     "mobile use"
+    ],
+    "practice": "Run one full day of operations in NAFDAC Green Book",
+    "need_tags": [
+     "online-safety",
+     "records-management"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_nafdac_greenbook_business_app_3",
+    "slug": "nafdac-greenbook-business-app-3",
+    "title": "Customers and data",
+    "outcome": "You can: keep clean customer and transaction records",
+    "topics": [
+     "customer profiles",
+     "history",
+     "imports/exports",
+     "privacy"
+    ],
+    "practice": "Import or clean up your customer list",
+    "need_tags": [
+     "crm-sales",
+     "customer-support",
+     "online-safety",
+     "records-management"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_nafdac_greenbook_business_app_4",
+    "slug": "nafdac-greenbook-business-app-4",
+    "title": "Reports that matter",
+    "outcome": "You can: read the reports that guide decisions",
+    "topics": [
+     "sales/occupancy/attendance",
+     "cash",
+     "trends"
+    ],
+    "practice": "Review last month's report and pick one action",
+    "need_tags": [
+     "kpi-tracking",
+     "online-safety",
+     "records-management"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_nafdac_greenbook_business_app_8",
+    "slug": "nafdac-greenbook-business-app-8",
+    "title": "Signature skills in NAFDAC Green Book",
+    "outcome": "You can: use the features that make NAFDAC Green Book distinctive",
+    "topics": [
+     "setup",
+     "daily records",
+     "reports"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "online-safety",
+     "records-management"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_nafdac_greenbook_business_app_9",
+    "slug": "nafdac-greenbook-business-app-9",
+    "title": "Advanced NAFDAC Green Book",
+    "outcome": "You can: use NAFDAC Green Book's advanced capabilities with confidence",
+    "topics": [
+     "automation",
+     "integrations",
+     "permissions"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "online-safety",
+     "records-management"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_nafdac_greenbook_business_app_5",
+    "slug": "nafdac-greenbook-business-app-5",
+    "title": "Scale and control",
+    "outcome": "You can: run NAFDAC Green Book across a team or branches",
+    "topics": [
+     "roles and permissions",
+     "multiple locations",
+     "audit trail"
+    ],
+    "practice": "Set up roles for staff and review the audit log",
+    "need_tags": [
+     "people-management",
+     "online-safety",
+     "records-management"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_nafdac_greenbook_business_app_10",
+    "slug": "nafdac-greenbook-business-app-10",
+    "title": "Integrate NAFDAC Green Book into your workflow",
+    "outcome": "You can: connect NAFDAC Green Book with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect NAFDAC Green Book to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "online-safety",
+     "records-management"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_nafdac_greenbook_business_app_11",
+    "slug": "nafdac-greenbook-business-app-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use NAFDAC Green Book well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use NAFDAC Green Book\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "online-safety",
+     "records-management"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype",
+ "archetype": "business-app",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

@@ -1,0 +1,249 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_coolors",
+ "slug": "coolors",
+ "title": "Coolors skill roadmap",
+ "tool_ids": [
+  "tool_coolors"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_coolors_design_graphics_0",
+    "slug": "coolors-design-graphics-0",
+    "title": "Get started with Coolors",
+    "outcome": "You can: set up Coolors, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "brand-identity",
+     "design-simple-graphics"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_coolors_design_graphics_1",
+    "slug": "coolors-design-graphics-1",
+    "title": "Canvas, layers and export",
+    "outcome": "You can: create and export a simple design",
+    "topics": [
+     "canvas size",
+     "layers",
+     "basic tools",
+     "export formats"
+    ],
+    "practice": "Design and export a social post",
+    "need_tags": [
+     "graphic-design-pro",
+     "design-simple-graphics",
+     "brand-identity"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_coolors_design_graphics_2",
+    "slug": "coolors-design-graphics-2",
+    "title": "Type and colour",
+    "outcome": "You can: use type and colour well",
+    "topics": [
+     "fonts",
+     "hierarchy",
+     "colour modes",
+     "contrast"
+    ],
+    "practice": "Redesign a flyer with better type and contrast",
+    "need_tags": [
+     "graphic-design-pro",
+     "brand-identity",
+     "design-simple-graphics"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_coolors_design_graphics_3",
+    "slug": "coolors-design-graphics-3",
+    "title": "Images and retouching",
+    "outcome": "You can: edit and combine images",
+    "topics": [
+     "selections",
+     "masks",
+     "adjustments",
+     "retouching"
+    ],
+    "practice": "Retouch a product or portrait photo",
+    "need_tags": [
+     "photo-editing",
+     "product-photography",
+     "brand-identity",
+     "design-simple-graphics"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_coolors_design_graphics_4",
+    "slug": "coolors-design-graphics-4",
+    "title": "Brand and templates",
+    "outcome": "You can: build consistent brand assets",
+    "topics": [
+     "styles",
+     "symbols/components",
+     "templates",
+     "asset libraries"
+    ],
+    "practice": "Build a small brand kit",
+    "need_tags": [
+     "brand-identity",
+     "design-simple-graphics"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_coolors_design_graphics_8",
+    "slug": "coolors-design-graphics-8",
+    "title": "Signature skills in Coolors",
+    "outcome": "You can: use the features that make Coolors distinctive",
+    "topics": [
+     "layers",
+     "selection and shapes",
+     "type"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "brand-identity",
+     "design-simple-graphics"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_coolors_design_graphics_9",
+    "slug": "coolors-design-graphics-9",
+    "title": "Advanced Coolors",
+    "outcome": "You can: use Coolors's advanced capabilities with confidence",
+    "topics": [
+     "advanced compositing",
+     "print production",
+     "automation"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "brand-identity",
+     "design-simple-graphics"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_coolors_design_graphics_5",
+    "slug": "coolors-design-graphics-5",
+    "title": "Production and print",
+    "outcome": "You can: deliver professional files",
+    "topics": [
+     "print specs (bleed, CMYK)",
+     "vector vs raster",
+     "packaging files"
+    ],
+    "practice": "Prepare a print-ready file",
+    "need_tags": [
+     "graphic-design-pro",
+     "brand-identity",
+     "design-simple-graphics"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_coolors_design_graphics_10",
+    "slug": "coolors-design-graphics-10",
+    "title": "Integrate Coolors into your workflow",
+    "outcome": "You can: connect Coolors with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Coolors to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "brand-identity",
+     "design-simple-graphics"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_coolors_design_graphics_11",
+    "slug": "coolors-design-graphics-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Coolors well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Coolors\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "brand-identity",
+     "design-simple-graphics"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype",
+ "archetype": "design-graphics",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

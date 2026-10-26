@@ -22,7 +22,10 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "agri-market-access"
+     "agri-market-access",
+     "farm-records",
+     "weather-planning",
+     "plant-health"
     ],
     "estimated_hours": {
      "value": 1,
@@ -43,7 +46,10 @@
     ],
     "practice": "Set up your locations and units",
     "need_tags": [
-     "agri-market-access"
+     "agri-market-access",
+     "farm-records",
+     "weather-planning",
+     "plant-health"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -64,7 +70,10 @@
     ],
     "practice": "Record five observations in the field",
     "need_tags": [
-     "agri-market-access"
+     "agri-market-access",
+     "farm-records",
+     "weather-planning",
+     "plant-health"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -86,7 +95,10 @@
     ],
     "practice": "Act on one insight from Esoko",
     "need_tags": [
-     "agri-market-access"
+     "agri-market-access",
+     "farm-records",
+     "weather-planning",
+     "plant-health"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -106,7 +118,10 @@
     ],
     "practice": "Share a report with an adviser or buyer",
     "need_tags": [
-     "agri-market-access"
+     "agri-market-access",
+     "farm-records",
+     "weather-planning",
+     "plant-health"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -127,7 +142,10 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "agri-market-access"
+     "agri-market-access",
+     "farm-records",
+     "weather-planning",
+     "plant-health"
     ],
     "estimated_hours": {
      "value": 3,
@@ -148,7 +166,10 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "agri-market-access"
+     "agri-market-access",
+     "farm-records",
+     "weather-planning",
+     "plant-health"
     ],
     "estimated_hours": {
      "value": 4,
@@ -169,7 +190,9 @@
     "practice": "Compare this season with last",
     "need_tags": [
      "farm-records",
-     "agri-market-access"
+     "agri-market-access",
+     "weather-planning",
+     "plant-health"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -191,7 +214,10 @@
     "practice": "Connect Esoko to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "agri-market-access"
+     "agri-market-access",
+     "farm-records",
+     "weather-planning",
+     "plant-health"
     ],
     "estimated_hours": {
      "value": 2,
@@ -213,7 +239,10 @@
     "practice": "Write a one-page \"how we use Esoko\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "agri-market-access"
+     "agri-market-access",
+     "farm-records",
+     "weather-planning",
+     "plant-health"
     ],
     "estimated_hours": {
      "value": 2,

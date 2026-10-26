@@ -1,0 +1,244 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_solid_edge",
+ "slug": "solid-edge",
+ "title": "Solid Edge skill roadmap",
+ "tool_ids": [
+  "tool_solid_edge"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_solid_edge_cad_bim_0",
+    "slug": "solid-edge-cad-bim-0",
+    "title": "Get started with Solid Edge",
+    "outcome": "You can: set up Solid Edge, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "mechanical-design"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_solid_edge_cad_bim_1",
+    "slug": "solid-edge-cad-bim-1",
+    "title": "Interface and units",
+    "outcome": "You can: set up projects correctly",
+    "topics": [
+     "templates",
+     "units",
+     "coordinates",
+     "navigation"
+    ],
+    "practice": "Start a project from the right template",
+    "need_tags": [
+     "cad-drafting",
+     "mechanical-design"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_solid_edge_cad_bim_2",
+    "slug": "solid-edge-cad-bim-2",
+    "title": "Model or draw a first element",
+    "outcome": "You can: create accurate geometry",
+    "topics": [
+     "sketches/lines",
+     "constraints",
+     "dimensions",
+     "layers/levels"
+    ],
+    "practice": "Model or draw one element from a real project",
+    "need_tags": [
+     "cad-drafting",
+     "mechanical-design",
+     "bim-modelling"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_solid_edge_cad_bim_3",
+    "slug": "solid-edge-cad-bim-3",
+    "title": "Drawings and documentation",
+    "outcome": "You can: produce issued drawings",
+    "topics": [
+     "sheets",
+     "views",
+     "annotation",
+     "schedules"
+    ],
+    "practice": "Produce a drawing sheet ready to issue",
+    "need_tags": [
+     "cad-drafting",
+     "technical-reporting",
+     "mechanical-design"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_solid_edge_cad_bim_4",
+    "slug": "solid-edge-cad-bim-4",
+    "title": "Coordinate and collaborate",
+    "outcome": "You can: work with other disciplines",
+    "topics": [
+     "references/links",
+     "clash checks",
+     "revisions",
+     "markups"
+    ],
+    "practice": "Run a coordination review on a sample model",
+    "need_tags": [
+     "bim-modelling",
+     "drawing-markup",
+     "mechanical-design"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_solid_edge_cad_bim_8",
+    "slug": "solid-edge-cad-bim-8",
+    "title": "Signature skills in Solid Edge",
+    "outcome": "You can: use the features that make Solid Edge distinctive",
+    "topics": [
+     "drawing/modelling",
+     "constraints",
+     "drawings"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "mechanical-design"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_solid_edge_cad_bim_9",
+    "slug": "solid-edge-cad-bim-9",
+    "title": "Advanced Solid Edge",
+    "outcome": "You can: use Solid Edge's advanced capabilities with confidence",
+    "topics": [
+     "collaboration",
+     "analysis links",
+     "automation"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "mechanical-design"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_solid_edge_cad_bim_5",
+    "slug": "solid-edge-cad-bim-5",
+    "title": "Data and automation",
+    "outcome": "You can: use model data and automate",
+    "topics": [
+     "parameters",
+     "families/blocks",
+     "quantity take-off",
+     "scripting"
+    ],
+    "practice": "Extract quantities to a spreadsheet",
+    "need_tags": [
+     "cost-estimation",
+     "bim-modelling",
+     "mechanical-design"
+    ],
+    "estimated_hours": {
+     "value": 5.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_solid_edge_cad_bim_10",
+    "slug": "solid-edge-cad-bim-10",
+    "title": "Integrate Solid Edge into your workflow",
+    "outcome": "You can: connect Solid Edge with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Solid Edge to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "mechanical-design"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_solid_edge_cad_bim_11",
+    "slug": "solid-edge-cad-bim-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Solid Edge well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Solid Edge\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "mechanical-design"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype",
+ "archetype": "cad-bim",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

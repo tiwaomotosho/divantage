@@ -9,8 +9,8 @@
  "levels": {
   "beginner": [
    {
-    "id": "mod_selar_marketing_tool_0",
-    "slug": "selar-marketing-tool-0",
+    "id": "mod_selar_ecommerce_0",
+    "slug": "selar-ecommerce-0",
     "title": "Get started with Selar",
     "outcome": "You can: set up Selar, find your way around and finish a first small task",
     "topics": [
@@ -24,7 +24,15 @@
     "need_tags": [
      "creator-income",
      "sell-art-online",
-     "online-store"
+     "online-store",
+     "forms-surveys",
+     "web-development",
+     "book-writing-publishing",
+     "marketplace-selling",
+     "agri-market-access",
+     "restaurant-operations",
+     "market-research",
+     "online-payments"
     ],
     "estimated_hours": {
      "value": 1,
@@ -33,22 +41,29 @@
     "level": "beginner"
    },
    {
-    "id": "mod_selar_marketing_tool_1",
-    "slug": "selar-marketing-tool-1",
-    "title": "Set up and connect",
-    "outcome": "You can: connect Selar to your accounts",
+    "id": "mod_selar_ecommerce_1",
+    "slug": "selar-ecommerce-1",
+    "title": "Open your shop",
+    "outcome": "You can: set up a store or seller account",
     "topics": [
-     "account setup",
-     "connections",
-     "audience basics",
-     "brand assets"
+     "account",
+     "policies",
+     "payments",
+     "verification"
     ],
-    "practice": "Connect your accounts and set up your profile",
+    "practice": "Set up your seller profile",
     "need_tags": [
-     "social-media-presence",
+     "online-store",
+     "marketplace-selling",
      "creator-income",
      "sell-art-online",
-     "online-store"
+     "forms-surveys",
+     "web-development",
+     "book-writing-publishing",
+     "agri-market-access",
+     "restaurant-operations",
+     "market-research",
+     "online-payments"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -57,22 +72,30 @@
     "level": "beginner"
    },
    {
-    "id": "mod_selar_marketing_tool_2",
-    "slug": "selar-marketing-tool-2",
-    "title": "First campaign or post",
-    "outcome": "You can: publish something that works",
+    "id": "mod_selar_ecommerce_2",
+    "slug": "selar-ecommerce-2",
+    "title": "List products that sell",
+    "outcome": "You can: create great listings",
     "topics": [
-     "content",
-     "scheduling",
-     "targeting basics"
+     "titles",
+     "photos",
+     "prices",
+     "variants"
     ],
-    "practice": "Launch one small campaign or post series",
+    "practice": "List five products",
     "need_tags": [
-     "social-media-management",
-     "email-marketing",
+     "online-store",
+     "product-photography",
      "creator-income",
      "sell-art-online",
-     "online-store"
+     "forms-surveys",
+     "web-development",
+     "book-writing-publishing",
+     "marketplace-selling",
+     "agri-market-access",
+     "restaurant-operations",
+     "market-research",
+     "online-payments"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -83,22 +106,30 @@
   ],
   "intermediate": [
    {
-    "id": "mod_selar_marketing_tool_3",
-    "slug": "selar-marketing-tool-3",
-    "title": "Measure what matters",
-    "outcome": "You can: read results honestly",
+    "id": "mod_selar_ecommerce_3",
+    "slug": "selar-ecommerce-3",
+    "title": "Orders, delivery and returns",
+    "outcome": "You can: fulfil orders reliably",
     "topics": [
-     "key metrics",
-     "attribution limits",
-     "reports"
+     "order flow",
+     "shipping options",
+     "returns",
+     "customer messages"
     ],
-    "practice": "Review results and choose one improvement",
+    "practice": "Process a test order end to end",
     "need_tags": [
-     "web-analytics",
-     "kpi-tracking",
+     "online-store",
+     "customer-support",
      "creator-income",
      "sell-art-online",
-     "online-store"
+     "forms-surveys",
+     "web-development",
+     "book-writing-publishing",
+     "marketplace-selling",
+     "agri-market-access",
+     "restaurant-operations",
+     "market-research",
+     "online-payments"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -107,33 +138,41 @@
     "level": "intermediate"
    },
    {
-    "id": "mod_selar_marketing_tool_4",
-    "slug": "selar-marketing-tool-4",
-    "title": "Segment and personalise",
-    "outcome": "You can: send the right message to the right people",
+    "id": "mod_selar_ecommerce_4",
+    "slug": "selar-ecommerce-4",
+    "title": "Promote",
+    "outcome": "You can: bring buyers to your listings",
     "topics": [
-     "segments",
-     "tags",
-     "personalisation",
-     "consent"
+     "promotions",
+     "SEO for listings",
+     "ads",
+     "reviews"
     ],
-    "practice": "Build two segments and tailor a message",
+    "practice": "Run one promotion",
     "need_tags": [
-     "email-marketing",
-     "crm-sales",
+     "seo",
+     "online-ads",
      "creator-income",
      "sell-art-online",
-     "online-store"
+     "online-store",
+     "forms-surveys",
+     "web-development",
+     "book-writing-publishing",
+     "marketplace-selling",
+     "agri-market-access",
+     "restaurant-operations",
+     "market-research",
+     "online-payments"
     ],
     "estimated_hours": {
-     "value": 2.0,
+     "value": 1.5,
      "is_estimate": true
     },
     "level": "intermediate"
    },
    {
-    "id": "mod_selar_marketing_tool_8",
-    "slug": "selar-marketing-tool-8",
+    "id": "mod_selar_ecommerce_8",
+    "slug": "selar-ecommerce-8",
     "title": "Signature skills in Selar",
     "outcome": "You can: use the features that make Selar distinctive",
     "topics": [
@@ -146,7 +185,15 @@
     "need_tags": [
      "creator-income",
      "sell-art-online",
-     "online-store"
+     "online-store",
+     "forms-surveys",
+     "web-development",
+     "book-writing-publishing",
+     "marketplace-selling",
+     "agri-market-access",
+     "restaurant-operations",
+     "market-research",
+     "online-payments"
     ],
     "estimated_hours": {
      "value": 3,
@@ -157,8 +204,8 @@
   ],
   "expert": [
    {
-    "id": "mod_selar_marketing_tool_9",
-    "slug": "selar-marketing-tool-9",
+    "id": "mod_selar_ecommerce_9",
+    "slug": "selar-ecommerce-9",
     "title": "Advanced Selar",
     "outcome": "You can: use Selar's advanced capabilities with confidence",
     "topics": [
@@ -170,7 +217,15 @@
     "need_tags": [
      "creator-income",
      "sell-art-online",
-     "online-store"
+     "online-store",
+     "forms-surveys",
+     "web-development",
+     "book-writing-publishing",
+     "marketplace-selling",
+     "agri-market-access",
+     "restaurant-operations",
+     "market-research",
+     "online-payments"
     ],
     "estimated_hours": {
      "value": 4,
@@ -179,33 +234,41 @@
     "level": "expert"
    },
    {
-    "id": "mod_selar_marketing_tool_5",
-    "slug": "selar-marketing-tool-5",
-    "title": "Automate and optimise",
-    "outcome": "You can: run marketing that improves over time",
+    "id": "mod_selar_ecommerce_5",
+    "slug": "selar-ecommerce-5",
+    "title": "Grow with data",
+    "outcome": "You can: use sales data to grow",
     "topics": [
-     "automations",
-     "A/B tests",
-     "budgets",
-     "data privacy"
+     "analytics",
+     "inventory sync",
+     "integrations",
+     "fees review"
     ],
-    "practice": "Set up one automation and one test",
+    "practice": "Review margins after fees and adjust prices",
     "need_tags": [
-     "automation-workflows",
-     "online-ads",
+     "kpi-tracking",
+     "inventory-procurement",
      "creator-income",
      "sell-art-online",
-     "online-store"
+     "online-store",
+     "forms-surveys",
+     "web-development",
+     "book-writing-publishing",
+     "marketplace-selling",
+     "agri-market-access",
+     "restaurant-operations",
+     "market-research",
+     "online-payments"
     ],
     "estimated_hours": {
-     "value": 3.0,
+     "value": 2.0,
      "is_estimate": true
     },
     "level": "expert"
    },
    {
-    "id": "mod_selar_marketing_tool_10",
-    "slug": "selar-marketing-tool-10",
+    "id": "mod_selar_ecommerce_10",
+    "slug": "selar-ecommerce-10",
     "title": "Integrate Selar into your workflow",
     "outcome": "You can: connect Selar with the other tools you use",
     "topics": [
@@ -219,7 +282,15 @@
      "automation-workflows",
      "creator-income",
      "sell-art-online",
-     "online-store"
+     "online-store",
+     "forms-surveys",
+     "web-development",
+     "book-writing-publishing",
+     "marketplace-selling",
+     "agri-market-access",
+     "restaurant-operations",
+     "market-research",
+     "online-payments"
     ],
     "estimated_hours": {
      "value": 2,
@@ -228,8 +299,8 @@
     "level": "expert"
    },
    {
-    "id": "mod_selar_marketing_tool_11",
-    "slug": "selar-marketing-tool-11",
+    "id": "mod_selar_ecommerce_11",
+    "slug": "selar-ecommerce-11",
     "title": "Lead and teach others",
     "outcome": "You can: set standards and teach others to use Selar well",
     "topics": [
@@ -243,7 +314,15 @@
      "workshop-facilitation",
      "creator-income",
      "sell-art-online",
-     "online-store"
+     "online-store",
+     "forms-surveys",
+     "web-development",
+     "book-writing-publishing",
+     "marketplace-selling",
+     "agri-market-access",
+     "restaurant-operations",
+     "market-research",
+     "online-payments"
     ],
     "estimated_hours": {
      "value": 2,
@@ -254,7 +333,7 @@
   ]
  },
  "authoring": "archetype+signature",
- "archetype": "marketing-tool",
+ "archetype": "ecommerce",
  "expert_validation": {
   "status": "pending",
   "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."

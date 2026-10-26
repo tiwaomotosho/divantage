@@ -1,0 +1,8 @@
+Fonts in this folder are licensed under the SIL Open Font License, Version 1.1.
+Full licence text: https://openfontlicense.org/open-font-license-official-text/
+
+Schibsted Grotesk — Copyright 2022 The Schibsted Grotesk Project Authors (https://github.com/schibsted/schibsted-grotesk)
+Inter — Copyright 2016 The Inter Project Authors (https://github.com/rsms/inter)
+IBM Plex Mono — Copyright © 2017 IBM Corp. with Reserved Font Name "Plex"
+
+Files are unmodified subsets (latin, latin-ext) as distributed via Google Fonts.

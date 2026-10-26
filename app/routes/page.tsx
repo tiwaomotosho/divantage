@@ -1,119 +1,77 @@
-// S15–S17, S20–S23 About and policy pages. Legal text is the owner's to write (D-027): placeholders are marked TODO(owner).
+// S15, S16, S20–S23 About and policy pages. Legal text is the owner's to write (D-027): placeholders say TODO(owner).
+import type { ReactNode } from "react";
 import { Link, useLocation } from "react-router";
 import type { Route } from "./+types/page";
 import { BRAND, meta as pageMeta } from "../lib/build";
-import { Callout, PageHeader } from "../components/ui";
-import type { ReactNode } from "react";
+import { Icon } from "../components/da";
 
 const TODO = ({ what }: { what: string }) => (
-  <Callout tone="warning" title="TODO(owner)">
-    <p>{what} This text needs the owner's approval before public launch (D-027).</p>
-  </Callout>
+  <div className="banner err">
+    <Icon name="alert" />
+    <div className="fl1 t-sm">
+      <b>TODO(owner):</b> {what} This needs the owner's approval before public launch (D-027).
+    </div>
+  </div>
 );
 
-const PAGES: Record<string, { title: string; lead: string; body: ReactNode }> = {
+const P = ({ children }: { children: ReactNode }) => <p className="mu" style={{ marginTop: 10 }}>{children}</p>;
+
+const PAGES: Record<string, { label: string; title: string; lead: string; body: ReactNode }> = {
   "/about": {
+    label: "Our mission",
     title: `About ${BRAND}`,
-    lead: "A free, non-commercial guide that helps people move from “I need to do something” to “I know which tools to use, how to use them and what to do next.”",
+    lead: "Find the tools people in your job use. Learn them step by step.",
     body: (
       <>
-        <p>
-          Start with who you are. Every one of more than 2,600 professions and life roles has a toolkit: the needs of that work, the tools that meet them, and a
-          beginner-to-expert course outline for each tool, adjusted to the work.
-        </p>
-        <p>We don't sell anything. There are no ads, sponsors, affiliate links or paid placements. Who you are and your progress stay on your device.</p>
-        <p>
-          Much of the content was drafted with AI assistance and is labelled with its review status. People who know the work are checking it. If something is
-          wrong, <Link to="/suggest">suggest an edit</Link>.
-        </p>
+        <P>Start with who you are. Each of 2,603 jobs and life roles has the tools that matter for that work, a learning path for each tool, and one clear next step.</P>
+        <P>We don't sell anything. No ads, sponsors, affiliate links or paid placement. Who you are and your progress stay on your device.</P>
+        <P>
+          Much of the content was drafted with AI and is labelled with its review status. People who know the work are checking it. If something is wrong, <Link className="pr b6" to="/suggest">suggest an edit</Link>.
+        </P>
       </>
     ),
   },
   "/about/editorial-standards": {
+    label: "Trust",
     title: "Editorial standards",
     lead: "How we choose tools and stay independent.",
     body: (
       <>
-        <ul className="bullets">
-          <li>We include tools because they fit people's needs, never because a company asked or paid. We have no commercial relationships with any tool.</li>
-          <li>Lists are sorted by fit or A–Z. That is an editorial default, not a quality ranking.</li>
-          <li>Facts (prices, platforms, features) come from official sources and show the date we checked them. Our opinions are labelled “Our view”.</li>
-          <li>Tools we haven't profiled yet show only their name and official link. We don't guess prices or features.</li>
-          <li>We never link to video platforms or embed third-party media.</li>
-        </ul>
+        <P>We include tools because they fit people's work, never because a company asked or paid. Lists are ranked by fit or sorted A–Z; that is not a quality ranking.</P>
+        <P>Prices show "Checked" with a date only when confirmed on an official source. Everything else carries a Preview label. Our opinions are labelled "Our view".</P>
         <TODO what="Final wording of the non-commercial and independence statement." />
       </>
     ),
   },
-  "/about/how-we-review": {
-    title: "Verification and freshness",
-    lead: "How we check facts and keep them current.",
-    body: (
-      <>
-        <h2 id="pricing-labels">What the price labels mean</h2>
-        <ul className="bullets">
-          <li>
-            <strong>Free</strong>: everything is free to use.
-          </li>
-          <li>
-            <strong>Free tier + paid plans</strong>: a usable free tier exists alongside paid plans.
-          </li>
-          <li>
-            <strong>Free trial</strong>: free for a limited time, then paid.
-          </li>
-          <li>
-            <strong>Open source</strong>: the source code is openly licensed.
-          </li>
-          <li>
-            <strong>Price not confirmed</strong>: we haven't verified the price yet.
-          </li>
-        </ul>
-        <h2 id="platforms">Platforms</h2>
-        <p>We list platforms only after checking an official source. Until then the page says “Platform not confirmed”.</p>
-        <h2>Review intervals</h2>
-        <p>Prices are re-checked about every 90 days and guides about once a year. Pages show when they were last reviewed, and overdue pages say so.</p>
-        <h2>Expert review</h2>
-        <p>Every profession, need, course outline and lens shows its expert-review status. “Pending” means a practitioner hasn't checked it yet.</p>
-      </>
-    ),
-  },
   "/contact": {
+    label: "Help",
     title: "Contact and help",
-    lead: "The fastest way to reach us is the “Suggest an edit” button on any page.",
-    body: (
-      <>
-        <p>
-          To report a wrong price or broken link, use <Link to="/report">Report an issue</Link>.
-        </p>
-        <TODO what="Contact email address for the project." />
-      </>
-    ),
+    lead: 'The fastest way to reach us is "Suggest an edit" on any page.',
+    body: <TODO what="Contact email address for the project." />,
   },
   "/privacy": {
+    label: "Privacy",
     title: "Privacy notice",
     lead: "Who you are and your progress never leave your device.",
     body: (
       <>
-        <ul className="bullets">
-          <li>Your chosen identities, roadmap ticks and helper progress are stored only in your browser (localStorage). We never receive them.</li>
-          <li>We don't use tracking cookies or accounts.</li>
-          <li>We count page views and a few anonymous actions in aggregate, without cookies or personal data.</li>
-          <li>If you send a suggestion, we receive what you type, the page address and, if you choose, a name to thank you with.</li>
-        </ul>
+        <P>Your roles, stars, ticks, kit steps and helper progress are stored only in your browser. You can download or delete them in <Link className="pr b6" to="/me/profile">Privacy and data</Link>.</P>
+        <P>We don't use tracking cookies or accounts in this version. If you send a suggestion, we receive what you type and the page address.</P>
         <TODO what="Full privacy notice: controller, lawful basis, retention, rights and contact." />
       </>
     ),
   },
-  "/terms": { title: "Terms of use", lead: "", body: <TODO what="Terms of use, including the CC BY 4.0 licence for text and the disclaimer for third-party tools." /> },
+  "/terms": { label: "Terms", title: "Terms of use", lead: "", body: <TODO what="Terms of use, including the CC BY 4.0 licence for text and the disclaimer for third-party tools." /> },
   "/accessibility": {
+    label: "Accessibility",
     title: "Accessibility statement",
     lead: "We aim to meet WCAG 2.2 AA.",
     body: (
       <>
-        <p>The site works with a keyboard and screen readers, supports light and dark themes, respects reduced motion and reflows down to 320 px wide.</p>
-        <p>
-          Found a problem? <Link to="/report?type=accessibility">Tell us</Link>.
-        </p>
+        <P>The site works with a keyboard and screen readers, supports light and dark themes, respects reduced motion and fits screens from 320 px wide.</P>
+        <P>
+          Found a problem? <Link className="pr b6" to="/report?type=accessibility">Tell us</Link>.
+        </P>
         <TODO what="Formal statement: conformance status, known issues and the date of the last audit." />
       </>
     ),
@@ -126,9 +84,19 @@ export default function Page() {
   const { pathname } = useLocation();
   const p = PAGES[pathname] ?? PAGES["/about"];
   return (
-    <div className="container narrow">
-      <PageHeader title={p.title} lead={p.lead || undefined} />
-      <div className="prose">{p.body}</div>
-    </div>
+    <section className="wrap" style={{ paddingTop: 28, maxWidth: 760 }}>
+      <span className="t-label">{p.label}</span>
+      <h1 className="t-h1" style={{ marginTop: 4 }}>
+        {p.title}
+      </h1>
+      {p.lead && (
+        <p className="t-lg mu" style={{ marginTop: 6 }}>
+          {p.lead}
+        </p>
+      )}
+      <div className="col g12" style={{ marginTop: 16 }}>
+        {p.body}
+      </div>
+    </section>
   );
 }

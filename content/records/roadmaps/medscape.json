@@ -25,7 +25,10 @@
      "clinical-reference",
      "drug-information",
      "medical-calculators",
-     "cpd-learning"
+     "cpd-learning",
+     "patient-education",
+     "fact-check",
+     "personal-health-tracking"
     ],
     "estimated_hours": {
      "value": 1,
@@ -48,7 +51,10 @@
      "clinical-reference",
      "drug-information",
      "medical-calculators",
-     "cpd-learning"
+     "cpd-learning",
+     "patient-education",
+     "fact-check",
+     "personal-health-tracking"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -72,7 +78,10 @@
      "clinical-reference",
      "drug-information",
      "medical-calculators",
-     "cpd-learning"
+     "cpd-learning",
+     "patient-education",
+     "fact-check",
+     "personal-health-tracking"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -98,7 +107,10 @@
      "drug-information",
      "medical-calculators",
      "clinical-reference",
-     "cpd-learning"
+     "cpd-learning",
+     "patient-education",
+     "fact-check",
+     "personal-health-tracking"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -121,7 +133,10 @@
      "clinical-reference",
      "drug-information",
      "medical-calculators",
-     "cpd-learning"
+     "cpd-learning",
+     "patient-education",
+     "fact-check",
+     "personal-health-tracking"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -145,7 +160,10 @@
      "clinical-reference",
      "drug-information",
      "medical-calculators",
-     "cpd-learning"
+     "cpd-learning",
+     "patient-education",
+     "fact-check",
+     "personal-health-tracking"
     ],
     "estimated_hours": {
      "value": 3,
@@ -170,7 +188,10 @@
      "clinical-reference",
      "drug-information",
      "medical-calculators",
-     "cpd-learning"
+     "cpd-learning",
+     "patient-education",
+     "fact-check",
+     "personal-health-tracking"
     ],
     "estimated_hours": {
      "value": 4,
@@ -193,7 +214,10 @@
      "cpd-learning",
      "clinical-reference",
      "drug-information",
-     "medical-calculators"
+     "medical-calculators",
+     "patient-education",
+     "fact-check",
+     "personal-health-tracking"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -218,7 +242,10 @@
      "clinical-reference",
      "drug-information",
      "medical-calculators",
-     "cpd-learning"
+     "cpd-learning",
+     "patient-education",
+     "fact-check",
+     "personal-health-tracking"
     ],
     "estimated_hours": {
      "value": 2,
@@ -243,7 +270,10 @@
      "clinical-reference",
      "drug-information",
      "medical-calculators",
-     "cpd-learning"
+     "cpd-learning",
+     "patient-education",
+     "fact-check",
+     "personal-health-tracking"
     ],
     "estimated_hours": {
      "value": 2,

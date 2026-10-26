@@ -22,7 +22,11 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "social-media-management"
+     "social-media-management",
+     "social-media-presence",
+     "pr-media-monitoring",
+     "reviews-reputation",
+     "content-planning"
     ],
     "estimated_hours": {
      "value": 1,
@@ -44,7 +48,10 @@
     "practice": "Connect your accounts and set up your profile",
     "need_tags": [
      "social-media-presence",
-     "social-media-management"
+     "social-media-management",
+     "pr-media-monitoring",
+     "reviews-reputation",
+     "content-planning"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -65,7 +72,11 @@
     "practice": "Launch one small campaign or post series",
     "need_tags": [
      "social-media-management",
-     "email-marketing"
+     "email-marketing",
+     "social-media-presence",
+     "pr-media-monitoring",
+     "reviews-reputation",
+     "content-planning"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -89,7 +100,11 @@
     "need_tags": [
      "web-analytics",
      "kpi-tracking",
-     "social-media-management"
+     "social-media-management",
+     "social-media-presence",
+     "pr-media-monitoring",
+     "reviews-reputation",
+     "content-planning"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -112,7 +127,11 @@
     "need_tags": [
      "email-marketing",
      "crm-sales",
-     "social-media-management"
+     "social-media-management",
+     "social-media-presence",
+     "pr-media-monitoring",
+     "reviews-reputation",
+     "content-planning"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -133,7 +152,11 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "social-media-management"
+     "social-media-management",
+     "social-media-presence",
+     "pr-media-monitoring",
+     "reviews-reputation",
+     "content-planning"
     ],
     "estimated_hours": {
      "value": 3,
@@ -155,7 +178,11 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "social-media-management"
+     "social-media-management",
+     "social-media-presence",
+     "pr-media-monitoring",
+     "reviews-reputation",
+     "content-planning"
     ],
     "estimated_hours": {
      "value": 4,
@@ -178,7 +205,11 @@
     "need_tags": [
      "automation-workflows",
      "online-ads",
-     "social-media-management"
+     "social-media-management",
+     "social-media-presence",
+     "pr-media-monitoring",
+     "reviews-reputation",
+     "content-planning"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -200,7 +231,11 @@
     "practice": "Connect Hootsuite to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "social-media-management"
+     "social-media-management",
+     "social-media-presence",
+     "pr-media-monitoring",
+     "reviews-reputation",
+     "content-planning"
     ],
     "estimated_hours": {
      "value": 2,
@@ -222,7 +257,11 @@
     "practice": "Write a one-page \"how we use Hootsuite\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "social-media-management"
+     "social-media-management",
+     "social-media-presence",
+     "pr-media-monitoring",
+     "reviews-reputation",
+     "content-planning"
     ],
     "estimated_hours": {
      "value": 2,

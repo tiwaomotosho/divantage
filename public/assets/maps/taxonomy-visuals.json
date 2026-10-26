@@ -1,0 +1,430 @@
+{
+ "$comment": "Icon + hue for every taxonomy node. UI must use these; never pick ad-hoc icons or colours (D-096).",
+ "sectors": {
+  "health": {
+   "label": "Health & Medicine",
+   "icon": "stethoscope",
+   "hue": "coral"
+  },
+  "engineering": {
+   "label": "Engineering",
+   "icon": "building",
+   "hue": "amber"
+  },
+  "energy": {
+   "label": "Energy, Oil & Gas and Mining",
+   "icon": "zap",
+   "hue": "amber"
+  },
+  "technology": {
+   "label": "Technology & Software",
+   "icon": "code",
+   "hue": "blue"
+  },
+  "data": {
+   "label": "Data & AI",
+   "icon": "chart",
+   "hue": "blue"
+  },
+  "finance": {
+   "label": "Finance, Banking & Accounting",
+   "icon": "wallet",
+   "hue": "teal"
+  },
+  "law": {
+   "label": "Law & Justice",
+   "icon": "scale",
+   "hue": "slate"
+  },
+  "education": {
+   "label": "Education & Training",
+   "icon": "graduation",
+   "hue": "violet"
+  },
+  "creative": {
+   "label": "Creative, Media & Design",
+   "icon": "palette",
+   "hue": "pink"
+  },
+  "marketing": {
+   "label": "Marketing, Sales & Communications",
+   "icon": "megaphone",
+   "hue": "coral"
+  },
+  "business": {
+   "label": "Business, Management & Administration",
+   "icon": "briefcase",
+   "hue": "teal"
+  },
+  "public-sector": {
+   "label": "Public Service, Government & Non-profit",
+   "icon": "flag",
+   "hue": "slate"
+  },
+  "faith": {
+   "label": "Faith & Community",
+   "icon": "church",
+   "hue": "violet"
+  },
+  "sports": {
+   "label": "Sports & Fitness",
+   "icon": "dumbbell",
+   "hue": "green"
+  },
+  "agriculture": {
+   "label": "Agriculture, Food & Environment",
+   "icon": "leaf",
+   "hue": "green"
+  },
+  "construction": {
+   "label": "Construction, Property & Trades",
+   "icon": "hammer",
+   "hue": "amber"
+  },
+  "manufacturing": {
+   "label": "Manufacturing & Production",
+   "icon": "factory",
+   "hue": "slate"
+  },
+  "transport": {
+   "label": "Transport, Logistics, Aviation & Maritime",
+   "icon": "truck",
+   "hue": "blue"
+  },
+  "hospitality": {
+   "label": "Hospitality, Tourism & Food Service",
+   "icon": "utensils",
+   "hue": "coral"
+  },
+  "beauty": {
+   "label": "Beauty, Wellbeing & Personal Services",
+   "icon": "scissors",
+   "hue": "pink"
+  },
+  "security": {
+   "label": "Security, Defence & Emergency Services",
+   "icon": "siren",
+   "hue": "slate"
+  },
+  "science": {
+   "label": "Science & Laboratory",
+   "icon": "flask",
+   "hue": "teal"
+  },
+  "social-care": {
+   "label": "Social Care & Community",
+   "icon": "handshake",
+   "hue": "green"
+  },
+  "life": {
+   "label": "Life roles & everyday people",
+   "icon": "heart",
+   "hue": "violet"
+  }
+ },
+ "skill_groups": {
+  "foundations": {
+   "icon": "grid",
+   "hue": "slate"
+  },
+  "communicate": {
+   "icon": "message",
+   "hue": "violet"
+  },
+  "create": {
+   "icon": "palette",
+   "hue": "pink"
+  },
+  "data": {
+   "icon": "chart",
+   "hue": "blue"
+  },
+  "research": {
+   "icon": "book-open",
+   "hue": "teal"
+  },
+  "business": {
+   "icon": "trending-up",
+   "hue": "teal"
+  },
+  "work": {
+   "icon": "briefcase",
+   "hue": "violet"
+  },
+  "tech": {
+   "icon": "code",
+   "hue": "amber"
+  },
+  "sector": {
+   "icon": "layers",
+   "hue": "slate"
+  }
+ },
+ "kits": {
+  "get-a-remote-job": {
+   "title": "Get a remote job",
+   "icon": "briefcase",
+   "hue": "violet",
+   "photo": "remote-worker"
+  },
+  "become-a-freelancer": {
+   "title": "Start freelancing and win your first client",
+   "icon": "wallet",
+   "hue": "teal",
+   "photo": "remote-worker"
+  },
+  "edit-a-short-video": {
+   "title": "Edit a short video",
+   "icon": "video",
+   "hue": "pink",
+   "photo": null
+  },
+  "teach-kids-programming": {
+   "title": "Teach kids programming",
+   "icon": "code",
+   "hue": "coral",
+   "photo": "kids-coding"
+  },
+  "learn-to-code": {
+   "title": "Learn to code from zero",
+   "icon": "code",
+   "hue": "blue",
+   "photo": "developer-laptop"
+  },
+  "get-a-tech-job": {
+   "title": "Break into tech",
+   "icon": "cpu",
+   "hue": "blue",
+   "photo": "developer-laptop"
+  },
+  "make-my-cv-and-portfolio": {
+   "title": "CV, portfolio and proofreading pack",
+   "icon": "file-text",
+   "hue": "violet",
+   "photo": null
+  },
+  "sell-on-whatsapp": {
+   "title": "Sell on WhatsApp",
+   "icon": "message",
+   "hue": "green",
+   "photo": "shop-owner"
+  },
+  "start-a-business-in-nigeria": {
+   "title": "Start and register a business in Nigeria",
+   "icon": "store",
+   "hue": "teal",
+   "photo": "shop-owner"
+  },
+  "stay-safe-online": {
+   "title": "Stay safe online and avoid scams",
+   "icon": "shield",
+   "hue": "amber",
+   "photo": "helping-parent"
+  },
+  "keep-my-child-safe-online": {
+   "title": "Keep my child safe online",
+   "icon": "baby",
+   "hue": "coral",
+   "photo": "helping-parent"
+  },
+  "write-better-in-english": {
+   "title": "Write clearly and correctly",
+   "icon": "pen-tool",
+   "hue": "violet",
+   "photo": null
+  },
+  "get-paid-from-abroad": {
+   "title": "Get paid from abroad",
+   "icon": "dollar",
+   "hue": "teal",
+   "photo": null
+  },
+  "start-a-youtube-channel": {
+   "title": "Start a YouTube or TikTok channel",
+   "icon": "play",
+   "hue": "pink",
+   "photo": "musician-studio"
+  },
+  "study-for-free-online": {
+   "title": "Study and learn for free",
+   "icon": "graduation",
+   "hue": "violet",
+   "photo": "teacher-class"
+  },
+  "farm-smarter": {
+   "title": "Farm smarter and sell better",
+   "icon": "leaf",
+   "hue": "green",
+   "photo": "farmer-field"
+  },
+  "run-a-small-shop": {
+   "title": "Run a small shop or business day to day",
+   "icon": "cart",
+   "hue": "teal",
+   "photo": "shop-owner"
+  },
+  "sell-online-in-nigeria": {
+   "title": "Open an online shop",
+   "icon": "store",
+   "hue": "green",
+   "photo": "shop-owner"
+  },
+  "build-a-brand": {
+   "title": "Build a brand people trust",
+   "icon": "sparkles",
+   "hue": "pink",
+   "photo": "tailor-phone"
+  },
+  "teach-online": {
+   "title": "Teach online",
+   "icon": "users",
+   "hue": "violet",
+   "photo": "teacher-class"
+  },
+  "pass-my-exams": {
+   "title": "Pass my exams",
+   "icon": "award",
+   "hue": "amber",
+   "photo": "teacher-class"
+  },
+  "write-and-publish-a-book": {
+   "title": "Write and publish a book",
+   "icon": "book",
+   "hue": "slate",
+   "photo": null
+  },
+  "release-my-music": {
+   "title": "Record and release my music",
+   "icon": "music",
+   "hue": "pink",
+   "photo": "musician-studio"
+  },
+  "run-a-clinic-or-practice": {
+   "title": "Run a small clinic or practice",
+   "icon": "stethoscope",
+   "hue": "coral",
+   "photo": "nurse-tablet"
+  },
+  "organise-an-event": {
+   "title": "Plan an event or wedding",
+   "icon": "calendar",
+   "hue": "amber",
+   "photo": null
+  },
+  "earn-with-a-vehicle": {
+   "title": "Earn with a car, bike or delivery rides",
+   "icon": "car",
+   "hue": "blue",
+   "photo": null
+  },
+  "file-my-taxes": {
+   "title": "Understand and file my taxes",
+   "icon": "file-text",
+   "hue": "slate",
+   "photo": null
+  },
+  "learn-ai-skills": {
+   "title": "Learn and use AI well",
+   "icon": "robot",
+   "hue": "blue",
+   "photo": "developer-laptop"
+  },
+  "manage-money-at-home": {
+   "title": "Manage money and family life",
+   "icon": "wallet",
+   "hue": "green",
+   "photo": "helping-parent"
+  }
+ },
+ "intents": {
+  "compete": {
+   "icon": "target",
+   "hue": "blue"
+  },
+  "grow": {
+   "icon": "trending-up",
+   "hue": "green"
+  },
+  "scale": {
+   "icon": "zap",
+   "hue": "amber"
+  }
+ },
+ "tool_categories": {
+  "industry": {
+   "hue": "slate"
+  },
+  "development": {
+   "hue": "blue"
+  },
+  "education": {
+   "hue": "violet"
+  },
+  "business-operations": {
+   "hue": "teal"
+  },
+  "everyday": {
+   "hue": "green"
+  },
+  "research": {
+   "hue": "teal"
+  },
+  "productivity": {
+   "hue": "violet"
+  },
+  "marketing": {
+   "hue": "coral"
+  },
+  "career": {
+   "hue": "violet"
+  },
+  "design": {
+   "hue": "pink"
+  },
+  "data": {
+   "hue": "blue"
+  },
+  "security-privacy-accessibility": {
+   "hue": "amber"
+  },
+  "websites": {
+   "hue": "blue"
+  },
+  "video": {
+   "hue": "pink"
+  },
+  "writing": {
+   "hue": "violet"
+  },
+  "audio": {
+   "hue": "pink"
+  },
+  "collaboration": {
+   "hue": "teal"
+  },
+  "automation": {
+   "hue": "amber"
+  },
+  "ai-assistants": {
+   "hue": "blue"
+  }
+ },
+ "safety_tags": {
+  "jobs": "briefcase",
+  "money": "wallet",
+  "kids": "baby",
+  "health": "stethoscope",
+  "legal": "scale",
+  "privacy": "lock",
+  "ai": "robot",
+  "official-fees": "flag",
+  "content": "camera"
+ },
+ "nav": {
+  "home": "home",
+  "explore": "compass",
+  "goals": "target",
+  "kits": "layers",
+  "me": "user"
+ }
+}

@@ -1,0 +1,244 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_voiceflow",
+ "slug": "voiceflow",
+ "title": "Voiceflow skill roadmap",
+ "tool_ids": [
+  "tool_voiceflow"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_voiceflow_automation_0",
+    "slug": "voiceflow-automation-0",
+    "title": "Get started with Voiceflow",
+    "outcome": "You can: set up Voiceflow, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "ai-app-development",
+     "automation-workflows"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_voiceflow_automation_1",
+    "slug": "voiceflow-automation-1",
+    "title": "Describe the process",
+    "outcome": "You can: turn a repetitive task into a rule",
+    "topics": [
+     "trigger",
+     "action",
+     "inputs and outputs",
+     "frequency"
+    ],
+    "practice": "Write one \"when X, do Y\" rule from your work",
+    "need_tags": [
+     "automation-workflows",
+     "ai-app-development"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_voiceflow_automation_2",
+    "slug": "voiceflow-automation-2",
+    "title": "Build a first flow or app",
+    "outcome": "You can: build a simple working automation or app",
+    "topics": [
+     "connecting accounts",
+     "mapping fields",
+     "testing"
+    ],
+    "practice": "Build and test one simple flow or app",
+    "need_tags": [
+     "automation-workflows",
+     "no-code-apps",
+     "ai-app-development"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_voiceflow_automation_3",
+    "slug": "voiceflow-automation-3",
+    "title": "Logic and data",
+    "outcome": "You can: add conditions, loops and data handling",
+    "topics": [
+     "filters",
+     "branches",
+     "formatting",
+     "lookups"
+    ],
+    "practice": "Add a condition and a lookup to your flow",
+    "need_tags": [
+     "automation-workflows",
+     "ai-app-development"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_voiceflow_automation_4",
+    "slug": "voiceflow-automation-4",
+    "title": "Reliability",
+    "outcome": "You can: keep automations running",
+    "topics": [
+     "error alerts",
+     "retries",
+     "logs",
+     "usage limits"
+    ],
+    "practice": "Add an error alert and review usage limits",
+    "need_tags": [
+     "automation-workflows",
+     "ai-app-development"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_voiceflow_automation_8",
+    "slug": "voiceflow-automation-8",
+    "title": "Signature skills in Voiceflow",
+    "outcome": "You can: use the features that make Voiceflow distinctive",
+    "topics": [
+     "triggers and actions",
+     "data mapping",
+     "testing"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "ai-app-development",
+     "automation-workflows"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_voiceflow_automation_9",
+    "slug": "voiceflow-automation-9",
+    "title": "Advanced Voiceflow",
+    "outcome": "You can: use Voiceflow's advanced capabilities with confidence",
+    "topics": [
+     "multi-step logic",
+     "error handling and monitoring"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "ai-app-development",
+     "automation-workflows"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_voiceflow_automation_5",
+    "slug": "voiceflow-automation-5",
+    "title": "Govern automations",
+    "outcome": "You can: run automations safely for a team",
+    "topics": [
+     "permissions",
+     "documentation",
+     "data privacy",
+     "ownership"
+    ],
+    "practice": "Document and hand over an automation to a colleague",
+    "need_tags": [
+     "automation-workflows",
+     "process-mapping",
+     "ai-app-development"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_voiceflow_automation_10",
+    "slug": "voiceflow-automation-10",
+    "title": "Integrate Voiceflow into your workflow",
+    "outcome": "You can: connect Voiceflow with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Voiceflow to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "ai-app-development"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_voiceflow_automation_11",
+    "slug": "voiceflow-automation-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Voiceflow well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Voiceflow\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "ai-app-development",
+     "automation-workflows"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype",
+ "archetype": "automation",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

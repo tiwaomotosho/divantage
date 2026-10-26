@@ -47,6 +47,8 @@ for r in reg.values():
     if r["category_id"] not in cats: E.append(f"registry {r['slug']}: unknown category")
     if r["official_url"] is None: W.append(f"registry {r['slug']}: official URL to confirm")
 used_tools = {t for n in needs.values() for t in n["tool_ids"]}
+_gp = os.path.join(A,"taxonomy/goals.json")   # V2.6: goals also reference tools
+if os.path.exists(_gp): used_tools |= {t for g in load(_gp)["values"] for t in g["tool_ids"]}
 for r in reg.values():
     if r["id"] not in used_tools: W.append(f"registry {r['slug']}: not referenced by any need")
 # profiled tools must have a full record

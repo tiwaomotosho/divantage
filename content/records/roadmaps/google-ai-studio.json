@@ -1,0 +1,251 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_google_ai_studio",
+ "slug": "google-ai-studio",
+ "title": "Google AI Studio skill roadmap",
+ "tool_ids": [
+  "tool_google_ai_studio"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_google_ai_studio_dev_tool_0",
+    "slug": "google-ai-studio-dev-tool-0",
+    "title": "Get started with Google AI Studio",
+    "outcome": "You can: set up Google AI Studio, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "ai-app-development",
+     "machine-learning"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_google_ai_studio_dev_tool_1",
+    "slug": "google-ai-studio-dev-tool-1",
+    "title": "Install and run",
+    "outcome": "You can: set up Google AI Studio and run a first project",
+    "topics": [
+     "installation",
+     "project structure",
+     "documentation",
+     "hello world"
+    ],
+    "practice": "Run the official quick start",
+    "need_tags": [
+     "write-code",
+     "ai-app-development",
+     "machine-learning"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_google_ai_studio_dev_tool_2",
+    "slug": "google-ai-studio-dev-tool-2",
+    "title": "Core workflow",
+    "outcome": "You can: do the everyday task Google AI Studio is for",
+    "topics": [
+     "core commands/APIs",
+     "configuration",
+     "conventions"
+    ],
+    "practice": "Build a small feature or config with Google AI Studio",
+    "need_tags": [
+     "write-code",
+     "ai-app-development",
+     "machine-learning"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_google_ai_studio_dev_tool_3",
+    "slug": "google-ai-studio-dev-tool-3",
+    "title": "Debug and test",
+    "outcome": "You can: find and prevent problems",
+    "topics": [
+     "logs",
+     "debugging",
+     "tests",
+     "common errors"
+    ],
+    "practice": "Fix a deliberately broken example",
+    "need_tags": [
+     "write-code",
+     "test-automation",
+     "ai-app-development",
+     "machine-learning"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_google_ai_studio_dev_tool_4",
+    "slug": "google-ai-studio-dev-tool-4",
+    "title": "Work in a team",
+    "outcome": "You can: use Google AI Studio in shared projects",
+    "topics": [
+     "version control",
+     "code review",
+     "environments",
+     "secrets"
+    ],
+    "practice": "Add Google AI Studio to a team repository with docs",
+    "need_tags": [
+     "version-control",
+     "ai-app-development",
+     "machine-learning"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_google_ai_studio_dev_tool_8",
+    "slug": "google-ai-studio-dev-tool-8",
+    "title": "Signature skills in Google AI Studio",
+    "outcome": "You can: use the features that make Google AI Studio distinctive",
+    "topics": [
+     "setup",
+     "core workflow",
+     "debugging"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "ai-app-development",
+     "machine-learning"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_google_ai_studio_dev_tool_9",
+    "slug": "google-ai-studio-dev-tool-9",
+    "title": "Advanced Google AI Studio",
+    "outcome": "You can: use Google AI Studio's advanced capabilities with confidence",
+    "topics": [
+     "performance",
+     "security",
+     "automation and CI"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "ai-app-development",
+     "machine-learning"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_google_ai_studio_dev_tool_5",
+    "slug": "google-ai-studio-dev-tool-5",
+    "title": "Production-ready",
+    "outcome": "You can: run Google AI Studio reliably in production",
+    "topics": [
+     "security",
+     "performance",
+     "monitoring",
+     "CI/CD"
+    ],
+    "practice": "Add Google AI Studio to a CI pipeline with checks",
+    "need_tags": [
+     "devops-cicd",
+     "observability",
+     "ai-app-development",
+     "machine-learning"
+    ],
+    "estimated_hours": {
+     "value": 5.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_google_ai_studio_dev_tool_10",
+    "slug": "google-ai-studio-dev-tool-10",
+    "title": "Integrate Google AI Studio into your workflow",
+    "outcome": "You can: connect Google AI Studio with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Google AI Studio to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "ai-app-development",
+     "machine-learning"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_google_ai_studio_dev_tool_11",
+    "slug": "google-ai-studio-dev-tool-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Google AI Studio well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Google AI Studio\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "ai-app-development",
+     "machine-learning"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype",
+ "archetype": "dev-tool",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

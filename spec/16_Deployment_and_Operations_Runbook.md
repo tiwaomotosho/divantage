@@ -1,6 +1,9 @@
 # 16 — Deployment and Operations Runbook
 
-**Version:** 2.5 · Stack per 11 (Bun + Vite + React, ADR-008). Replace `digitaladvantage.example` once D-019 is decided.
+> **V2.8 hosting correction (D-069 / 32):** hosting is Vercel + Neon. Where this document says Cloudflare, Pages, Workers, D1, KV or wrangler, read the Vercel equivalent in `32_V2_8_Pack_Corrections.md` §2. Product behaviour and privacy rules are unchanged.
+
+
+**Version:** 2.6 · Stack per 11 (Bun + Vite + React, ADR-008); host Vercel with Neon Postgres (ADR-009, D-083). Replace `digitaladvantage.example` once D-019 is decided.
 
 ## 1. Environments
 | Environment | Where | Data | Secrets | Who deploys |
@@ -183,3 +186,6 @@ Steps:
   - `scripts/csp-hashes.ts` runs after the build; CI fails if any prerendered page has an inline script without a matching hash (TC-129).
 - **Helpers are content:** adding or changing a helper is a PR to `helpers.txt` (20 §15). Turning one on for everyone is a change to the `listed` array of the `helpers` flag.
 - **Rollback** is unchanged (one click in Cloudflare Pages); helper progress lives on devices and is not affected by a rollback. A schema change to `da.helper.v1` needs a new key version and a read-old, write-new migration in the app.
+
+## V2.7 additions
+The weekly job also lists profiles whose `checked_on` is older than 180 days and every profile still at `ai_draft` that is used in a kit. Publish the count of verified profiles on the admin report. Check the safety-panel links (EFCC, SEC, CBN, NAFDAC, NDPC) in the weekly link check.

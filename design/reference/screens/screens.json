@@ -1,0 +1,110 @@
+{
+ "01-home": {
+  "screen": "S01-R",
+  "title": "Home"
+ },
+ "02-home-picked": {
+  "screen": "S01-R",
+  "title": "Home \u00b7 roles picked"
+ },
+ "03-search": {
+  "screen": "S51",
+  "title": "Search results"
+ },
+ "04-identity": {
+  "screen": "S27",
+  "title": "Identity \u00b7 Nurse"
+ },
+ "05-browse": {
+  "screen": "S33",
+  "title": "Browse all jobs"
+ },
+ "06-goals": {
+  "screen": "S42",
+  "title": "Goals"
+ },
+ "07-goal": {
+  "screen": "S43",
+  "title": "Goal"
+ },
+ "08-goal-safety-sheet": {
+  "screen": "S43",
+  "title": "Goal \u00b7 safety sheet"
+ },
+ "09-kits": {
+  "screen": "S49",
+  "title": "Kits"
+ },
+ "10-kit": {
+  "screen": "S50",
+  "title": "Kit \u00b7 Teach kids programming"
+ },
+ "11-tool": {
+  "screen": "S09",
+  "title": "Tool \u00b7 Canva"
+ },
+ "12-tool-unavailable": {
+  "screen": "S09",
+  "title": "Tool \u00b7 availability banner"
+ },
+ "13-roadmap": {
+  "screen": "S30",
+  "title": "Learning path \u00b7 written for your job"
+ },
+ "14-roadmap-general": {
+  "screen": "S30",
+  "title": "Learning path \u00b7 general guide"
+ },
+ "15-helper": {
+  "screen": "S40",
+  "title": "Helper \u00b7 Musician"
+ },
+ "16-workbench": {
+  "screen": "S45",
+  "title": "Workbench"
+ },
+ "17-sign-in": {
+  "screen": "S44",
+  "title": "Sign in"
+ },
+ "18-consent": {
+  "screen": "S46",
+  "title": "Consent choices"
+ },
+ "19-privacy": {
+  "screen": "S46",
+  "title": "Privacy and data"
+ },
+ "20-suggest-edit": {
+  "screen": "S36",
+  "title": "Suggest an edit"
+ },
+ "21-status-whats-new": {
+  "screen": "S48",
+  "title": "Suggestion status \u00b7 What's new"
+ },
+ "22-trending": {
+  "screen": "S47",
+  "title": "Trending"
+ },
+ "23-how-we-review": {
+  "screen": "S17",
+  "title": "How we review"
+ },
+ "24-not-found": {
+  "screen": "S24",
+  "title": "Page not found"
+ },
+ "25-offline": {
+  "screen": "S25",
+  "title": "Offline"
+ },
+ "26-error": {
+  "screen": "S25",
+  "title": "Error"
+ },
+ "27-no-results": {
+  "screen": "S51",
+  "title": "No results"
+ }
+}

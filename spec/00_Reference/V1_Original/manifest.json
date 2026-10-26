@@ -1,0 +1,28 @@
+{
+  "product": "Digital Advantage",
+  "version": "1.0",
+  "date": "2026-10-21",
+  "documents": [
+    "README.md",
+    "01_Product_Requirements_Document.md",
+    "02_Information_Architecture_and_Content_Model.md",
+    "03_UX_Flows_and_Screen_Specifications.md",
+    "04_Visual_Design_System.md",
+    "05_Functional_and_Nonfunctional_Requirements.md",
+    "06_Content_Operations_and_Trust.md",
+    "07_Technical_Architecture_and_Delivery.md",
+    "08_Acceptance_Criteria_and_Test_Plan.md",
+    "09_AI_Builder_Master_Prompt.md"
+  ],
+  "principles": [
+    "outcome-first discovery",
+    "public browsing without account",
+    "search works without generative AI",
+    "verified pricing and feature claims",
+    "mobile-first responsive design",
+    "accessible and reduced-motion friendly",
+    "shareable canonical URLs",
+    "structured portable content",
+    "continuous editorial maintenance"
+  ]
+}

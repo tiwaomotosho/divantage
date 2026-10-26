@@ -24,7 +24,19 @@
     "need_tags": [
      "dashboards-bi",
      "data-visualisation",
-     "sports-analytics"
+     "sports-analytics",
+     "clinical-audit-qi",
+     "public-health-data",
+     "engineering-data-analysis",
+     "drilling-reporting",
+     "production-surveillance",
+     "audit-analytics",
+     "risk-modelling",
+     "monitoring-evaluation",
+     "data-cleaning",
+     "consulting-deliverables",
+     "cv-portfolio",
+     "statistical-analysis"
     ],
     "estimated_hours": {
      "value": 1,
@@ -48,7 +60,18 @@
      "dashboards-bi",
      "statistical-analysis",
      "data-visualisation",
-     "sports-analytics"
+     "sports-analytics",
+     "clinical-audit-qi",
+     "public-health-data",
+     "engineering-data-analysis",
+     "drilling-reporting",
+     "production-surveillance",
+     "audit-analytics",
+     "risk-modelling",
+     "monitoring-evaluation",
+     "data-cleaning",
+     "consulting-deliverables",
+     "cv-portfolio"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -71,7 +94,19 @@
     "need_tags": [
      "data-visualisation",
      "dashboards-bi",
-     "sports-analytics"
+     "sports-analytics",
+     "clinical-audit-qi",
+     "public-health-data",
+     "engineering-data-analysis",
+     "drilling-reporting",
+     "production-surveillance",
+     "audit-analytics",
+     "risk-modelling",
+     "monitoring-evaluation",
+     "data-cleaning",
+     "consulting-deliverables",
+     "cv-portfolio",
+     "statistical-analysis"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -98,7 +133,17 @@
      "data-cleaning",
      "dashboards-bi",
      "data-visualisation",
-     "sports-analytics"
+     "sports-analytics",
+     "clinical-audit-qi",
+     "public-health-data",
+     "engineering-data-analysis",
+     "drilling-reporting",
+     "production-surveillance",
+     "audit-analytics",
+     "risk-modelling",
+     "monitoring-evaluation",
+     "consulting-deliverables",
+     "cv-portfolio"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -121,7 +166,19 @@
      "dashboards-bi",
      "kpi-tracking",
      "data-visualisation",
-     "sports-analytics"
+     "sports-analytics",
+     "clinical-audit-qi",
+     "public-health-data",
+     "engineering-data-analysis",
+     "drilling-reporting",
+     "production-surveillance",
+     "audit-analytics",
+     "risk-modelling",
+     "monitoring-evaluation",
+     "data-cleaning",
+     "consulting-deliverables",
+     "cv-portfolio",
+     "statistical-analysis"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -144,7 +201,19 @@
     "need_tags": [
      "dashboards-bi",
      "data-visualisation",
-     "sports-analytics"
+     "sports-analytics",
+     "clinical-audit-qi",
+     "public-health-data",
+     "engineering-data-analysis",
+     "drilling-reporting",
+     "production-surveillance",
+     "audit-analytics",
+     "risk-modelling",
+     "monitoring-evaluation",
+     "data-cleaning",
+     "consulting-deliverables",
+     "cv-portfolio",
+     "statistical-analysis"
     ],
     "estimated_hours": {
      "value": 3,
@@ -169,7 +238,19 @@
     "need_tags": [
      "dashboards-bi",
      "data-visualisation",
-     "sports-analytics"
+     "sports-analytics",
+     "clinical-audit-qi",
+     "public-health-data",
+     "engineering-data-analysis",
+     "drilling-reporting",
+     "production-surveillance",
+     "audit-analytics",
+     "risk-modelling",
+     "monitoring-evaluation",
+     "data-cleaning",
+     "consulting-deliverables",
+     "cv-portfolio",
+     "statistical-analysis"
     ],
     "estimated_hours": {
      "value": 4,
@@ -192,7 +273,19 @@
      "data-pipelines",
      "dashboards-bi",
      "data-visualisation",
-     "sports-analytics"
+     "sports-analytics",
+     "clinical-audit-qi",
+     "public-health-data",
+     "engineering-data-analysis",
+     "drilling-reporting",
+     "production-surveillance",
+     "audit-analytics",
+     "risk-modelling",
+     "monitoring-evaluation",
+     "data-cleaning",
+     "consulting-deliverables",
+     "cv-portfolio",
+     "statistical-analysis"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -216,7 +309,19 @@
      "automation-workflows",
      "dashboards-bi",
      "data-visualisation",
-     "sports-analytics"
+     "sports-analytics",
+     "clinical-audit-qi",
+     "public-health-data",
+     "engineering-data-analysis",
+     "drilling-reporting",
+     "production-surveillance",
+     "audit-analytics",
+     "risk-modelling",
+     "monitoring-evaluation",
+     "data-cleaning",
+     "consulting-deliverables",
+     "cv-portfolio",
+     "statistical-analysis"
     ],
     "estimated_hours": {
      "value": 2,
@@ -240,7 +345,19 @@
      "workshop-facilitation",
      "dashboards-bi",
      "data-visualisation",
-     "sports-analytics"
+     "sports-analytics",
+     "clinical-audit-qi",
+     "public-health-data",
+     "engineering-data-analysis",
+     "drilling-reporting",
+     "production-surveillance",
+     "audit-analytics",
+     "risk-modelling",
+     "monitoring-evaluation",
+     "data-cleaning",
+     "consulting-deliverables",
+     "cv-portfolio",
+     "statistical-analysis"
     ],
     "estimated_hours": {
      "value": 2,

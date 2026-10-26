@@ -1,0 +1,245 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_jasper",
+ "slug": "jasper",
+ "title": "Jasper skill roadmap",
+ "tool_ids": [
+  "tool_jasper"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_jasper_ai_tool_0",
+    "slug": "jasper-ai-tool-0",
+    "title": "Get started with Jasper",
+    "outcome": "You can: set up Jasper, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "copywriting",
+     "use-ai-assistants"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_jasper_ai_tool_1",
+    "slug": "jasper-ai-tool-1",
+    "title": "Ask well, check everything",
+    "outcome": "You can: get useful, checkable answers from Jasper",
+    "topics": [
+     "giving role, task, context and format",
+     "follow-up questions",
+     "spotting made-up facts"
+    ],
+    "practice": "Ask Jasper to explain a concept from your work, then verify two claims",
+    "need_tags": [
+     "use-ai-assistants",
+     "fact-check",
+     "copywriting"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_jasper_ai_tool_2",
+    "slug": "jasper-ai-tool-2",
+    "title": "Use it safely",
+    "outcome": "You can: protect private data while using Jasper",
+    "topics": [
+     "what not to paste",
+     "workplace policy",
+     "privacy settings"
+    ],
+    "practice": "Write your personal \"never paste\" list",
+    "need_tags": [
+     "use-ai-assistants",
+     "online-safety",
+     "copywriting"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_jasper_ai_tool_3",
+    "slug": "jasper-ai-tool-3",
+    "title": "Reusable prompts for your job",
+    "outcome": "You can: build prompt templates for repeated tasks",
+    "topics": [
+     "templates",
+     "examples",
+     "checklists"
+    ],
+    "practice": "Create three prompts for your weekly tasks",
+    "need_tags": [
+     "copywriting",
+     "use-ai-assistants"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_jasper_ai_tool_4",
+    "slug": "jasper-ai-tool-4",
+    "title": "Research and summarise with sources",
+    "outcome": "You can: summarise documents and find sources responsibly",
+    "topics": [
+     "citations",
+     "page references",
+     "cross-checking"
+    ],
+    "practice": "Summarise a public report with page references",
+    "need_tags": [
+     "literature-review",
+     "find-information",
+     "copywriting",
+     "use-ai-assistants"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_jasper_ai_tool_8",
+    "slug": "jasper-ai-tool-8",
+    "title": "Signature skills in Jasper",
+    "outcome": "You can: use the features that make Jasper distinctive",
+    "topics": [
+     "prompting with context",
+     "working with files",
+     "checking outputs"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "copywriting",
+     "use-ai-assistants"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_jasper_ai_tool_9",
+    "slug": "jasper-ai-tool-9",
+    "title": "Advanced Jasper",
+    "outcome": "You can: use Jasper's advanced capabilities with confidence",
+    "topics": [
+     "automation with AI",
+     "building reusable prompts and assistants"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "copywriting",
+     "use-ai-assistants"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_jasper_ai_tool_5",
+    "slug": "jasper-ai-tool-5",
+    "title": "Build with it",
+    "outcome": "You can: put Jasper inside a workflow or product",
+    "topics": [
+     "APIs or integrations",
+     "evaluation",
+     "human review steps"
+    ],
+    "practice": "Automate one recurring task with a human sign-off step",
+    "need_tags": [
+     "automation-workflows",
+     "ai-app-development",
+     "copywriting",
+     "use-ai-assistants"
+    ],
+    "estimated_hours": {
+     "value": 4.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_jasper_ai_tool_10",
+    "slug": "jasper-ai-tool-10",
+    "title": "Integrate Jasper into your workflow",
+    "outcome": "You can: connect Jasper with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Jasper to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "copywriting",
+     "use-ai-assistants"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_jasper_ai_tool_11",
+    "slug": "jasper-ai-tool-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Jasper well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Jasper\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "copywriting",
+     "use-ai-assistants"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype",
+ "archetype": "ai-tool",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

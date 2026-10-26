@@ -24,7 +24,10 @@
     "need_tags": [
      "newsletter-publishing",
      "email-marketing",
-     "fundraising"
+     "fundraising",
+     "group-messaging",
+     "veterinary-practice",
+     "pr-media-monitoring"
     ],
     "estimated_hours": {
      "value": 1,
@@ -48,7 +51,10 @@
      "social-media-presence",
      "newsletter-publishing",
      "email-marketing",
-     "fundraising"
+     "fundraising",
+     "group-messaging",
+     "veterinary-practice",
+     "pr-media-monitoring"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -71,7 +77,10 @@
      "social-media-management",
      "email-marketing",
      "newsletter-publishing",
-     "fundraising"
+     "fundraising",
+     "group-messaging",
+     "veterinary-practice",
+     "pr-media-monitoring"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -97,7 +106,10 @@
      "kpi-tracking",
      "newsletter-publishing",
      "email-marketing",
-     "fundraising"
+     "fundraising",
+     "group-messaging",
+     "veterinary-practice",
+     "pr-media-monitoring"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -121,7 +133,10 @@
      "email-marketing",
      "crm-sales",
      "newsletter-publishing",
-     "fundraising"
+     "fundraising",
+     "group-messaging",
+     "veterinary-practice",
+     "pr-media-monitoring"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -144,7 +159,10 @@
     "need_tags": [
      "newsletter-publishing",
      "email-marketing",
-     "fundraising"
+     "fundraising",
+     "group-messaging",
+     "veterinary-practice",
+     "pr-media-monitoring"
     ],
     "estimated_hours": {
      "value": 3,
@@ -169,7 +187,10 @@
     "need_tags": [
      "newsletter-publishing",
      "email-marketing",
-     "fundraising"
+     "fundraising",
+     "group-messaging",
+     "veterinary-practice",
+     "pr-media-monitoring"
     ],
     "estimated_hours": {
      "value": 4,
@@ -194,7 +215,10 @@
      "online-ads",
      "newsletter-publishing",
      "email-marketing",
-     "fundraising"
+     "fundraising",
+     "group-messaging",
+     "veterinary-practice",
+     "pr-media-monitoring"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -218,7 +242,10 @@
      "automation-workflows",
      "newsletter-publishing",
      "email-marketing",
-     "fundraising"
+     "fundraising",
+     "group-messaging",
+     "veterinary-practice",
+     "pr-media-monitoring"
     ],
     "estimated_hours": {
      "value": 2,
@@ -242,7 +269,10 @@
      "workshop-facilitation",
      "newsletter-publishing",
      "email-marketing",
-     "fundraising"
+     "fundraising",
+     "group-messaging",
+     "veterinary-practice",
+     "pr-media-monitoring"
     ],
     "estimated_hours": {
      "value": 2,

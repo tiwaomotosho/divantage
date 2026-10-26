@@ -22,7 +22,8 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "engineering-calculations"
+     "engineering-calculations",
+     "scientific-computing"
     ],
     "estimated_hours": {
      "value": 1,
@@ -43,7 +44,8 @@
     ],
     "practice": "Write a one-page note on SMath Studio's assumptions",
     "need_tags": [
-     "engineering-calculations"
+     "engineering-calculations",
+     "scientific-computing"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -64,7 +66,8 @@
     ],
     "practice": "Rebuild a published tutorial example",
     "need_tags": [
-     "engineering-calculations"
+     "engineering-calculations",
+     "scientific-computing"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -88,7 +91,8 @@
     "practice": "Compare results with a hand calculation",
     "need_tags": [
      "engineering-data-analysis",
-     "engineering-calculations"
+     "engineering-calculations",
+     "scientific-computing"
     ],
     "estimated_hours": {
      "value": 4.0,
@@ -109,7 +113,8 @@
     "practice": "Run a sensitivity study on two inputs",
     "need_tags": [
      "risk-modelling",
-     "engineering-calculations"
+     "engineering-calculations",
+     "scientific-computing"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -130,7 +135,8 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "engineering-calculations"
+     "engineering-calculations",
+     "scientific-computing"
     ],
     "estimated_hours": {
      "value": 3,
@@ -152,7 +158,8 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "engineering-calculations"
+     "engineering-calculations",
+     "scientific-computing"
     ],
     "estimated_hours": {
      "value": 4,
@@ -174,7 +181,8 @@
     "practice": "Produce a verified analysis report",
     "need_tags": [
      "technical-reporting",
-     "engineering-calculations"
+     "engineering-calculations",
+     "scientific-computing"
     ],
     "estimated_hours": {
      "value": 6.0,
@@ -196,7 +204,8 @@
     "practice": "Connect SMath Studio to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "engineering-calculations"
+     "engineering-calculations",
+     "scientific-computing"
     ],
     "estimated_hours": {
      "value": 2,
@@ -218,7 +227,8 @@
     "practice": "Write a one-page \"how we use SMath Studio\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "engineering-calculations"
+     "engineering-calculations",
+     "scientific-computing"
     ],
     "estimated_hours": {
      "value": 2,

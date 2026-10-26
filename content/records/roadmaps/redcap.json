@@ -23,7 +23,12 @@
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
      "clinical-audit-qi",
-     "health-research-data"
+     "health-research-data",
+     "forms-surveys",
+     "lab-data",
+     "research-surveys",
+     "monitoring-evaluation",
+     "research-data-management"
     ],
     "estimated_hours": {
      "value": 1,
@@ -46,7 +51,12 @@
     "need_tags": [
      "electronic-health-records",
      "clinical-audit-qi",
-     "health-research-data"
+     "health-research-data",
+     "forms-surveys",
+     "lab-data",
+     "research-surveys",
+     "monitoring-evaluation",
+     "research-data-management"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -69,7 +79,12 @@
     "need_tags": [
      "electronic-health-records",
      "clinical-audit-qi",
-     "health-research-data"
+     "health-research-data",
+     "forms-surveys",
+     "lab-data",
+     "research-surveys",
+     "monitoring-evaluation",
+     "research-data-management"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -94,7 +109,12 @@
     "need_tags": [
      "electronic-health-records",
      "clinical-audit-qi",
-     "health-research-data"
+     "health-research-data",
+     "forms-surveys",
+     "lab-data",
+     "research-surveys",
+     "monitoring-evaluation",
+     "research-data-management"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -118,7 +138,12 @@
      "clinic-scheduling",
      "telemedicine",
      "clinical-audit-qi",
-     "health-research-data"
+     "health-research-data",
+     "forms-surveys",
+     "lab-data",
+     "research-surveys",
+     "monitoring-evaluation",
+     "research-data-management"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -140,7 +165,12 @@
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
      "clinical-audit-qi",
-     "health-research-data"
+     "health-research-data",
+     "forms-surveys",
+     "lab-data",
+     "research-surveys",
+     "monitoring-evaluation",
+     "research-data-management"
     ],
     "estimated_hours": {
      "value": 3,
@@ -164,7 +194,12 @@
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
      "clinical-audit-qi",
-     "health-research-data"
+     "health-research-data",
+     "forms-surveys",
+     "lab-data",
+     "research-surveys",
+     "monitoring-evaluation",
+     "research-data-management"
     ],
     "estimated_hours": {
      "value": 4,
@@ -186,7 +221,12 @@
     "practice": "Run a report for a clinical audit",
     "need_tags": [
      "clinical-audit-qi",
-     "health-research-data"
+     "health-research-data",
+     "forms-surveys",
+     "lab-data",
+     "research-surveys",
+     "monitoring-evaluation",
+     "research-data-management"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -209,7 +249,12 @@
     "need_tags": [
      "automation-workflows",
      "clinical-audit-qi",
-     "health-research-data"
+     "health-research-data",
+     "forms-surveys",
+     "lab-data",
+     "research-surveys",
+     "monitoring-evaluation",
+     "research-data-management"
     ],
     "estimated_hours": {
      "value": 2,
@@ -232,7 +277,12 @@
     "need_tags": [
      "workshop-facilitation",
      "clinical-audit-qi",
-     "health-research-data"
+     "health-research-data",
+     "forms-surveys",
+     "lab-data",
+     "research-surveys",
+     "monitoring-evaluation",
+     "research-data-management"
     ],
     "estimated_hours": {
      "value": 2,

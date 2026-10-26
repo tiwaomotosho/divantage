@@ -1,0 +1,21 @@
+{
+ "identities_with_kit_hints": 2603,
+ "identities": 2603,
+ "kits": 29,
+ "goals_in_a_kit": 148,
+ "goals": 1050,
+ "goals_with_safety_tag": 413,
+ "goals_by_safety_tag": {
+  "ai": 42,
+  "content": 118,
+  "privacy": 102,
+  "money": 44,
+  "legal": 30,
+  "jobs": 71,
+  "health": 45,
+  "kids": 24,
+  "official-fees": 11
+ },
+ "goals_with_related": 1050,
+ "min_related": 3
+}

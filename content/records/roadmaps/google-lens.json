@@ -24,7 +24,15 @@
     "need_tags": [
      "fact-check",
      "media-verification",
-     "digital-basics"
+     "digital-basics",
+     "online-safety",
+     "scan-documents",
+     "plant-health",
+     "site-measurement",
+     "osint-research",
+     "marketplace-selling",
+     "repair-guides",
+     "translate-languages"
     ],
     "estimated_hours": {
      "value": 1,
@@ -47,7 +55,14 @@
      "online-safety",
      "fact-check",
      "media-verification",
-     "digital-basics"
+     "digital-basics",
+     "scan-documents",
+     "plant-health",
+     "site-measurement",
+     "osint-research",
+     "marketplace-selling",
+     "repair-guides",
+     "translate-languages"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -69,7 +84,15 @@
     "need_tags": [
      "fact-check",
      "media-verification",
-     "digital-basics"
+     "digital-basics",
+     "online-safety",
+     "scan-documents",
+     "plant-health",
+     "site-measurement",
+     "osint-research",
+     "marketplace-selling",
+     "repair-guides",
+     "translate-languages"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -94,7 +117,15 @@
     "need_tags": [
      "fact-check",
      "media-verification",
-     "digital-basics"
+     "digital-basics",
+     "online-safety",
+     "scan-documents",
+     "plant-health",
+     "site-measurement",
+     "osint-research",
+     "marketplace-selling",
+     "repair-guides",
+     "translate-languages"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -117,7 +148,15 @@
      "customer-support",
      "fact-check",
      "media-verification",
-     "digital-basics"
+     "digital-basics",
+     "online-safety",
+     "scan-documents",
+     "plant-health",
+     "site-measurement",
+     "osint-research",
+     "marketplace-selling",
+     "repair-guides",
+     "translate-languages"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -140,7 +179,15 @@
     "need_tags": [
      "fact-check",
      "media-verification",
-     "digital-basics"
+     "digital-basics",
+     "online-safety",
+     "scan-documents",
+     "plant-health",
+     "site-measurement",
+     "osint-research",
+     "marketplace-selling",
+     "repair-guides",
+     "translate-languages"
     ],
     "estimated_hours": {
      "value": 3,
@@ -164,7 +211,15 @@
     "need_tags": [
      "fact-check",
      "media-verification",
-     "digital-basics"
+     "digital-basics",
+     "online-safety",
+     "scan-documents",
+     "plant-health",
+     "site-measurement",
+     "osint-research",
+     "marketplace-selling",
+     "repair-guides",
+     "translate-languages"
     ],
     "estimated_hours": {
      "value": 4,
@@ -186,7 +241,15 @@
     "need_tags": [
      "digital-basics",
      "fact-check",
-     "media-verification"
+     "media-verification",
+     "online-safety",
+     "scan-documents",
+     "plant-health",
+     "site-measurement",
+     "osint-research",
+     "marketplace-selling",
+     "repair-guides",
+     "translate-languages"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -210,7 +273,15 @@
      "automation-workflows",
      "fact-check",
      "media-verification",
-     "digital-basics"
+     "digital-basics",
+     "online-safety",
+     "scan-documents",
+     "plant-health",
+     "site-measurement",
+     "osint-research",
+     "marketplace-selling",
+     "repair-guides",
+     "translate-languages"
     ],
     "estimated_hours": {
      "value": 2,
@@ -234,7 +305,15 @@
      "workshop-facilitation",
      "fact-check",
      "media-verification",
-     "digital-basics"
+     "digital-basics",
+     "online-safety",
+     "scan-documents",
+     "plant-health",
+     "site-measurement",
+     "osint-research",
+     "marketplace-selling",
+     "repair-guides",
+     "translate-languages"
     ],
     "estimated_hours": {
      "value": 2,

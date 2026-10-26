@@ -1,0 +1,811 @@
+{
+ "version": "2.6.0",
+ "values": [
+  {
+   "tool_id": "tool_3mtt",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_access_more",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_africa_check",
+   "markets": [
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_africa_code_week",
+   "markets": [
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_african_storybook",
+   "markets": [
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_africas_talking",
+   "markets": [
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_afriex",
+   "markets": [
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_altschool_africa",
+   "markets": [
+    "ng",
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_alx_africa",
+   "markets": [
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_andela_learning_community",
+   "markets": [
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_andela_talent",
+   "markets": [
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_bank_of_industry",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_boomplay",
+   "markets": [
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_brightermonday",
+   "markets": [
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_bumpa",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_cac_online_registration",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_cac_public_search",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_carbon",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_chaka",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_chipper_cash",
+   "markets": [
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_chowdeck",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_clafiya",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_cleva",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_cowrywise",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_cribmd",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_decagon",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_dro_health",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_dubawa",
+   "markets": [
+    "ng",
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_edukoya",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_efcc_eagle_eye",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_esoko",
+   "markets": [
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_fairmoney",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_farmerline",
+   "markets": [
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_firs_taxpromax",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_firstmobile",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_flutterwave",
+   "markets": [
+    "ng",
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_frsc_portal",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_fuzu",
+   "markets": [
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_gig_logistics",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_gomycode",
+   "markets": [
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_gradely",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_grey",
+   "markets": [
+    "ng",
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_gtworld",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_healthconnect247",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_helium_health",
+   "markets": [
+    "ng",
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_hello_tractor",
+   "markets": [
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_hng_internship",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_hostafrica",
+   "markets": [
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_hotnigerianjobs",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_indrive",
+   "markets": [
+    "ng",
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_ingressive_for_good",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_iwello",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_jamb_efacility",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_jiji",
+   "markets": [
+    "ng",
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_jobberman",
+   "markets": [
+    "ng",
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_jobgurus",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_jumia",
+   "markets": [
+    "ng",
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_kippa",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_konga",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_kuda",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_kudisms",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_kwik_delivery",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_lelapa_ai",
+   "markets": [
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_lemfi",
+   "markets": [
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_masakhane",
+   "markets": [
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_mdundo",
+   "markets": [
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_mobihealth",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_moniepoint",
+   "markets": [
+    "ng",
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_monnify",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_moringa_school",
+   "markets": [
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_mtn_momo",
+   "markets": [
+    "ng",
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_myjobmag",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_myschool_ng",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_n_atlas",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_nafdac_greenbook",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_nala",
+   "markets": [
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_ndpc",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_neco_portal",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_ngcareers",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_nigeria_immigration_portal",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_nigeria_property_centre",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_nigerialii",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_nimc_mobile_app",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_nira",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_nysc_portal",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_opay",
+   "markets": [
+    "ng",
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_paga",
+   "markets": [
+    "ng",
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_palmpay",
+   "markets": [
+    "ng",
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_passnownow",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_paystack",
+   "markets": [
+    "ng",
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_piggyvest",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_prepclass",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_privateproperty_ng",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_propertypro_ng",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_qservers",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_raenest",
+   "markets": [
+    "ng",
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_remita",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_remote_africa",
+   "markets": [
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_remote4africa",
+   "markets": [
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_renmoney",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_risevest",
+   "markets": [
+    "ng",
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_seamlesshr",
+   "markets": [
+    "ng",
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_sec_nigeria",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_selar",
+   "markets": [
+    "ng",
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_semicolon_africa",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_sendbox",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_sendchamp",
+   "markets": [
+    "ng",
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_she_code_africa",
+   "markets": [
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_smedan",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_squad",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_taptap_send",
+   "markets": [
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_tech4dev",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_techcabal",
+   "markets": [
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_techpoint_africa",
+   "markets": [
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_tef_entrepreneurship",
+   "markets": [
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_termii",
+   "markets": [
+    "ng",
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_tix_africa",
+   "markets": [
+    "ng",
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_topship",
+   "markets": [
+    "ng",
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_travelstart",
+   "markets": [
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_tremendoc",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_trove",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_truehost",
+   "markets": [
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_ulesson",
+   "markets": [
+    "ng",
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_vbank",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_vtpass",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_waec_direct",
+   "markets": [
+    "ng",
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_wakanow",
+   "markets": [
+    "ng",
+    "africa"
+   ]
+  },
+  {
+   "tool_id": "tool_web4africa",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_whogohost",
+   "markets": [
+    "ng"
+   ]
+  },
+  {
+   "tool_id": "tool_zuri",
+   "markets": [
+    "ng"
+   ]
+  }
+ ]
+}

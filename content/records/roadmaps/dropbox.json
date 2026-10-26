@@ -22,7 +22,9 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "files-cloud-storage"
+     "files-cloud-storage",
+     "records-management",
+     "email-and-calendar"
     ],
     "estimated_hours": {
      "value": 1,
@@ -43,7 +45,9 @@
     ],
     "practice": "Install Dropbox on phone and computer",
     "need_tags": [
-     "files-cloud-storage"
+     "files-cloud-storage",
+     "records-management",
+     "email-and-calendar"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -64,7 +68,9 @@
     "practice": "Use Dropbox for a week and note one saved hour",
     "need_tags": [
      "personal-productivity",
-     "files-cloud-storage"
+     "files-cloud-storage",
+     "records-management",
+     "email-and-calendar"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -88,7 +94,8 @@
     "need_tags": [
      "personal-productivity",
      "records-management",
-     "files-cloud-storage"
+     "files-cloud-storage",
+     "email-and-calendar"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -109,7 +116,9 @@
     "practice": "Audit your shared items",
     "need_tags": [
      "files-cloud-storage",
-     "online-safety"
+     "online-safety",
+     "records-management",
+     "email-and-calendar"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -130,7 +139,9 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "files-cloud-storage"
+     "files-cloud-storage",
+     "records-management",
+     "email-and-calendar"
     ],
     "estimated_hours": {
      "value": 3,
@@ -152,7 +163,9 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "files-cloud-storage"
+     "files-cloud-storage",
+     "records-management",
+     "email-and-calendar"
     ],
     "estimated_hours": {
      "value": 4,
@@ -173,7 +186,9 @@
     "practice": "Create two automation rules",
     "need_tags": [
      "automation-workflows",
-     "files-cloud-storage"
+     "files-cloud-storage",
+     "records-management",
+     "email-and-calendar"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -195,7 +210,9 @@
     "practice": "Connect Dropbox to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "files-cloud-storage"
+     "files-cloud-storage",
+     "records-management",
+     "email-and-calendar"
     ],
     "estimated_hours": {
      "value": 2,
@@ -217,7 +234,9 @@
     "practice": "Write a one-page \"how we use Dropbox\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "files-cloud-storage"
+     "files-cloud-storage",
+     "records-management",
+     "email-and-calendar"
     ],
     "estimated_hours": {
      "value": 2,

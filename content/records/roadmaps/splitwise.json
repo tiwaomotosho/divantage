@@ -1,0 +1,244 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_splitwise",
+ "slug": "splitwise",
+ "title": "Splitwise skill roadmap",
+ "tool_ids": [
+  "tool_splitwise"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_splitwise_marketplace_consumer_0",
+    "slug": "splitwise-marketplace-consumer-0",
+    "title": "Get started with Splitwise",
+    "outcome": "You can: set up Splitwise, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "personal-finance",
+     "budgeting-fpa"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_splitwise_marketplace_consumer_1",
+    "slug": "splitwise-marketplace-consumer-1",
+    "title": "Set up safely",
+    "outcome": "You can: create your account securely",
+    "topics": [
+     "verification",
+     "privacy",
+     "payment methods"
+    ],
+    "practice": "Set up and secure your account",
+    "need_tags": [
+     "online-safety",
+     "personal-finance",
+     "budgeting-fpa"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_splitwise_marketplace_consumer_2",
+    "slug": "splitwise-marketplace-consumer-2",
+    "title": "Core use",
+    "outcome": "You can: use Splitwise for its main purpose",
+    "topics": [
+     "main features",
+     "notifications",
+     "ratings"
+    ],
+    "practice": "Complete one real transaction or task",
+    "need_tags": [
+     "personal-finance",
+     "budgeting-fpa"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_splitwise_marketplace_consumer_3",
+    "slug": "splitwise-marketplace-consumer-3",
+    "title": "Get more value",
+    "outcome": "You can: use features most people miss",
+    "topics": [
+     "settings",
+     "filters",
+     "saved items",
+     "offers"
+    ],
+    "practice": "Try three features you've never used",
+    "need_tags": [
+     "personal-finance",
+     "budgeting-fpa"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_splitwise_marketplace_consumer_4",
+    "slug": "splitwise-marketplace-consumer-4",
+    "title": "Resolve problems",
+    "outcome": "You can: handle issues and disputes",
+    "topics": [
+     "support",
+     "refunds",
+     "reporting"
+    ],
+    "practice": "Find the support and dispute process",
+    "need_tags": [
+     "customer-support",
+     "personal-finance",
+     "budgeting-fpa"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_splitwise_marketplace_consumer_8",
+    "slug": "splitwise-marketplace-consumer-8",
+    "title": "Signature skills in Splitwise",
+    "outcome": "You can: use the features that make Splitwise distinctive",
+    "topics": [
+     "account",
+     "core use",
+     "safety"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "personal-finance",
+     "budgeting-fpa"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_splitwise_marketplace_consumer_9",
+    "slug": "splitwise-marketplace-consumer-9",
+    "title": "Advanced Splitwise",
+    "outcome": "You can: use Splitwise's advanced capabilities with confidence",
+    "topics": [
+     "power-user features",
+     "disputes",
+     "earnings or savings tracking"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "personal-finance",
+     "budgeting-fpa"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_splitwise_marketplace_consumer_5",
+    "slug": "splitwise-marketplace-consumer-5",
+    "title": "Track and teach",
+    "outcome": "You can: track value and help others use it",
+    "topics": [
+     "records",
+     "earnings/spend tracking",
+     "helping family"
+    ],
+    "practice": "Help one person get started with Splitwise",
+    "need_tags": [
+     "digital-basics",
+     "personal-finance",
+     "budgeting-fpa"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_splitwise_marketplace_consumer_10",
+    "slug": "splitwise-marketplace-consumer-10",
+    "title": "Integrate Splitwise into your workflow",
+    "outcome": "You can: connect Splitwise with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Splitwise to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "personal-finance",
+     "budgeting-fpa"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_splitwise_marketplace_consumer_11",
+    "slug": "splitwise-marketplace-consumer-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Splitwise well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Splitwise\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "personal-finance",
+     "budgeting-fpa"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype",
+ "archetype": "marketplace-consumer",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

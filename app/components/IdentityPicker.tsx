@@ -1,137 +1,107 @@
-// IdentityPicker (06 §11, 04 S01-R): ARIA combobox + listbox, multi-select up to 3, with a Skills cross-group (S01-R2).
+// IdentityPicker (reference 01/02): .input with role chips inside (max 3), ARIA combobox + listbox, example chips.
+// Suggestions use .card.el + .list (new composition from da.css, no new styling).
 import { useEffect, useId, useMemo, useRef, useState } from "react";
-import { Link, useNavigate } from "react-router";
-import { X, User, Sparkles } from "lucide-react";
+import { Link } from "react-router";
 import type { IdentityHit } from "~/lib/search";
-import { loadIdentitySearch, loadSkillSearch, useLazy } from "../lib/indexes";
+import { loadIdentitySearch, useLazy } from "../lib/indexes";
+import { Icon } from "./da";
 
 export interface PickedIdentity {
   slug: string;
   label: string;
 }
 
-interface Props {
-  label: string;
-  selected?: PickedIdentity[];
+export function IdentityPicker({
+  selected,
+  onChange,
+  onPick,
+  examples,
+  max = 3,
+  placeholder = "Your job or role, e.g. nurse, accountant, farmer",
+  label = "Your job or role",
+}: {
+  selected: PickedIdentity[];
   onChange?: (next: PickedIdentity[]) => void;
-  /** Single-select mode: called once with the chosen identity (lens switcher, tailor bars). */
   onPick?: (p: PickedIdentity) => void;
-  max?: number;
   examples?: PickedIdentity[];
-  showSkills?: boolean;
-  hideLabel?: boolean;
+  max?: number;
   placeholder?: string;
-  id?: string;
-}
-
-type Option = { kind: "identity"; hit: IdentityHit } | { kind: "skill"; slug: string; label: string; desc: string };
-
-export function IdentityPicker({ label, selected = [], onChange, onPick, max = 3, examples, showSkills, hideLabel, placeholder, id }: Props) {
-  const autoId = useId();
-  const base = id ?? `ip${autoId.replace(/:/g, "")}`;
+  label?: string;
+}) {
+  const base = `ip${useId().replace(/:/g, "")}`;
   const [q, setQ] = useState("");
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState(-1);
   const [touched, setTouched] = useState(false);
-  const [announce, setAnnounce] = useState("");
+  const [say, setSay] = useState("");
   const [hint, setHint] = useState("");
-  const inputRef = useRef<HTMLInputElement>(null);
-  const navigate = useNavigate();
+  const input = useRef<HTMLInputElement>(null);
   const ids = useLazy(loadIdentitySearch, touched);
-  const skills = useLazy(loadSkillSearch, touched && Boolean(showSkills));
-
-  const options: Option[] = useMemo(() => {
-    if (q.trim().length < 2 || ids.status !== "ready") return [];
-    const hits = ids.value!(q, 8).filter((h) => !selected.some((s) => s.slug === h.slug));
-    const out: Option[] = hits.map((hit) => ({ kind: "identity", hit }));
-    if (showSkills && skills.status === "ready") for (const s of skills.value!(q, 2)) out.push({ kind: "skill", ...s });
-    return out;
-  }, [q, ids, skills, selected, showSkills]);
-
+  const hits: IdentityHit[] = useMemo(
+    () => (q.trim().length >= 2 && ids.status === "ready" ? ids.value!(q, 8).filter((h) => !selected.some((s) => s.slug === h.slug)) : []),
+    [q, ids, selected],
+  );
   useEffect(() => {
-    if (q.trim().length >= 2 && ids.status === "ready") setAnnounce(`${options.length} suggestions`);
-  }, [options.length, q, ids.status]);
+    if (q.trim().length >= 2 && ids.status === "ready") setSay(`${hits.length} suggestions`);
+  }, [hits.length, q, ids.status]);
 
-  function choose(o: Option) {
-    if (o.kind === "skill") {
-      navigate(`/skills/${o.slug}`);
-      return;
-    }
-    const p = { slug: o.hit.slug, label: o.hit.label };
+  function add(p: PickedIdentity) {
     if (onPick) {
       onPick(p);
       setQ("");
       setOpen(false);
       return;
     }
-    if (selected.length >= max) {
-      setHint(`You can choose up to ${max}`);
-      return;
-    }
+    if (selected.length >= max) return setHint(`You can choose up to ${max}`);
     onChange?.([...selected, p]);
-    setAnnounce(`${p.label} added`);
+    setSay(`${p.label} added`);
     setQ("");
     setActive(-1);
     setHint("");
-    inputRef.current?.focus();
+    input.current?.focus();
   }
-
   function remove(slug: string) {
-    const r = selected.find((s) => s.slug === slug);
     onChange?.(selected.filter((s) => s.slug !== slug));
     setHint("");
-    if (r) setAnnounce(`${r.label} removed`);
-    inputRef.current?.focus();
+    input.current?.focus();
   }
-
-  const listId = `${base}-list`;
   const showList = open && q.trim().length >= 2;
-  const noMatch = showList && ids.status === "ready" && options.filter((o) => o.kind === "identity").length === 0;
+  const noMatch = showList && ids.status === "ready" && hits.length === 0;
 
-  if (ids.status === "error") {
+  if (ids.status === "error")
     return (
-      <div className="picker">
-        <p className={hideLabel ? "sr-only" : "picker-label"}>{label}</p>
-        <Link className="btn btn-secondary" to="/who-are-you">
-          Choose from the list
-        </Link>
-      </div>
+      <Link className="btn s" to="/for">
+        Choose from the list
+      </Link>
     );
-  }
 
   return (
-    <div className="picker">
-      <label htmlFor={`${base}-input`} className={hideLabel ? "sr-only" : "picker-label"}>
-        {label}
-      </label>
-      {selected.length > 0 && (
-        <ul className="picked" aria-label="Chosen">
-          {selected.map((s) => (
-            <li key={s.slug} className="picked-chip">
-              {s.label}
-              <button type="button" onClick={() => remove(s.slug)} aria-label={`Remove ${s.label}`}>
-                <X size={16} aria-hidden="true" />
-              </button>
-            </li>
-          ))}
-        </ul>
-      )}
-      <div className="picker-box">
+    <div style={{ position: "relative" }}>
+      <div className={`input ${selected.length ? "wrapchips" : ""} ${open ? "focus" : ""}`} data-da="identity-picker">
+        {selected.length === 0 && <Icon name="search" />}
+        {selected.map((s) => (
+          <span key={s.slug} className="chip sel" data-da="identity-chip">
+            {s.label}
+            <button type="button" aria-label={`Remove ${s.label}`} onClick={() => remove(s.slug)} style={{ display: "inline-flex", minWidth: 24, minHeight: 24, alignItems: "center", justifyContent: "center" }}>
+              <Icon name="x" />
+            </button>
+          </span>
+        ))}
         <input
-          ref={inputRef}
-          id={`${base}-input`}
-          className="picker-input"
-          type="text"
+          ref={input}
+          id={`${base}-in`}
           role="combobox"
+          aria-label={label}
           aria-expanded={showList}
-          aria-controls={listId}
+          aria-controls={`${base}-list`}
           aria-autocomplete="list"
-          aria-activedescendant={active >= 0 ? `${base}-opt-${active}` : undefined}
+          aria-activedescendant={active >= 0 ? `${base}-o${active}` : undefined}
           autoComplete="off"
           spellCheck={false}
           maxLength={120}
-          placeholder={placeholder ?? "Type your work or role, e.g. nurse, farmer, DJ"}
+          placeholder={selected.length ? "Add another role" : placeholder}
           value={q}
+          style={{ minWidth: 120 }}
           onFocus={() => {
             setTouched(true);
             setOpen(true);
@@ -145,111 +115,85 @@ export function IdentityPicker({ label, selected = [], onChange, onPick, max = 3
           onKeyDown={(e) => {
             if (e.key === "ArrowDown") {
               e.preventDefault();
-              setOpen(true);
-              setActive((a) => Math.min(options.length - 1, a + 1));
+              setActive((a) => Math.min(hits.length - 1, a + 1));
             } else if (e.key === "ArrowUp") {
               e.preventDefault();
               setActive((a) => Math.max(-1, a - 1));
-            } else if (e.key === "Enter") {
-              if (active >= 0 && options[active]) {
-                e.preventDefault();
-                choose(options[active]);
-              } else if (options[0]) {
-                e.preventDefault();
-                choose(options[0]);
-              }
-            } else if (e.key === "Escape") {
-              setOpen(false);
-            } else if (e.key === "Backspace" && !q && selected.length) {
-              remove(selected[selected.length - 1].slug);
-            }
+            } else if (e.key === "Enter" && hits.length) {
+              e.preventDefault();
+              const h = hits[Math.max(0, active)];
+              add({ slug: h.slug, label: h.label });
+            } else if (e.key === "Escape") setOpen(false);
+            else if (e.key === "Backspace" && !q && selected.length) remove(selected[selected.length - 1].slug);
           }}
         />
-        {showList && (
-          <ul id={listId} role="listbox" className="suggestions" aria-label="Suggestions" aria-multiselectable={!onPick}>
-            {ids.status === "loading" &&
-              [0, 1, 2].map((i) => (
-                <li key={i} className="skeleton-row" aria-hidden="true" />
-              ))}
-            {options.map((o, i) => {
-              const first = o.kind === "skill" && options[i - 1]?.kind !== "skill";
-              return (
-                <li
-                  key={o.kind === "identity" ? o.hit.slug : `skill-${o.slug}`}
-                  id={`${base}-opt-${i}`}
-                  role="option"
-                  aria-selected={i === active}
-                  className={`option${i === active ? " is-active" : ""}${first ? " option-group-start" : ""}`}
-                  onMouseDown={(e) => {
-                    e.preventDefault();
-                    choose(o);
-                  }}
-                >
-                  {o.kind === "identity" ? (
-                    <>
-                      <User size={18} aria-hidden="true" className="option-icon" />
-                      <span>
-                        <span className="option-title">{o.hit.label}</span>
-                        <span className="option-sub">
-                          {o.hit.parent ? `Specialism of ${o.hit.parent} · ` : ""}
-                          {o.hit.family} › {o.hit.sector}
-                        </span>
-                      </span>
-                    </>
-                  ) : (
-                    <>
-                      <Sparkles size={18} aria-hidden="true" className="option-icon" />
-                      <span>
-                        <span className="option-title">
-                          <span className="option-group">Skill · </span>
-                          {o.label}
-                        </span>
-                        <span className="option-sub">{o.desc}</span>
-                      </span>
-                    </>
-                  )}
-                </li>
-              );
-            })}
-          </ul>
+        {selected.length > 0 && (
+          <>
+            <span className="fl1" />
+            <span className="t-xs su">
+              {selected.length} of {max}
+            </span>
+          </>
         )}
+        {selected.length === 0 && <span className="kbd desk">/</span>}
       </div>
-      {hint && <p className="hint hint-strong">{hint}</p>}
-      {noMatch && (
-        <p className="hint">
-          We don't have "{q}" yet. Try a broader word (e.g. "engineer"), <Link to="/who-are-you">browse everyone</Link>, or{" "}
-          <Link to={`/suggest?type=suggest_identity&text=${encodeURIComponent(q)}`}>tell us</Link>.
-        </p>
+      {showList && (
+        <div className="card el" style={{ position: "absolute", left: 0, right: 0, top: "calc(100% + 6px)", zIndex: 200, padding: "4px 16px", maxHeight: 360, overflow: "auto" }}>
+          <ul id={`${base}-list`} role="listbox" aria-label="Suggestions" className="list" style={{ listStyle: "none", padding: 0, margin: 0 }}>
+            {ids.status === "loading" && (
+              <li className="li">
+                <span className="sk fl1" style={{ height: 16 }} />
+              </li>
+            )}
+            {hits.map((h, i) => (
+              <li
+                key={h.slug}
+                id={`${base}-o${i}`}
+                role="option"
+                aria-selected={i === active}
+                className="li"
+                style={{ cursor: "pointer", color: i === active ? "var(--da-color-primary)" : undefined }}
+                onMouseDown={(e) => {
+                  e.preventDefault();
+                  add({ slug: h.slug, label: h.label });
+                }}
+              >
+                <Icon name="user" />
+                <span className="fl1">
+                  <span className="b6">{h.label}</span>
+                  <span className="t-xs su" style={{ display: "block" }}>
+                    {h.parent ? `Specialism of ${h.parent} · ` : ""}
+                    {h.family} › {h.sector}
+                  </span>
+                </span>
+              </li>
+            ))}
+            {noMatch && (
+              <li className="li t-sm">
+                <span className="fl1 mu">
+                  We don't have "{q}" yet. Try a broader word, or{" "}
+                  <Link className="pr b6" to={`/suggest?type=suggest_identity`}>
+                    suggest my role
+                  </Link>
+                  .
+                </span>
+              </li>
+            )}
+          </ul>
+        </div>
       )}
-      <p className="sr-only" aria-live="polite">
-        {announce}
+      {hint && <p className="t-sm" style={{ marginTop: 8, color: "var(--da-color-warning)" }}>{hint}</p>}
+      <p className="sr" aria-live="polite">
+        {say}
       </p>
-      {examples && examples.length > 0 && (
-        <ul className="chip-list example-chips" aria-label="Examples">
+      {examples && examples.length > 0 && selected.length === 0 && (
+        <div className="row g8 wrapf" style={{ marginTop: 12 }}>
           {examples.map((x) => (
-            <li key={x.slug}>
-              {onChange ? (
-                <button
-                  type="button"
-                  className="chip"
-                  aria-pressed={selected.some((s) => s.slug === x.slug)}
-                  onClick={() => {
-                    if (selected.some((s) => s.slug === x.slug)) return remove(x.slug);
-                    if (selected.length >= max) return setHint(`You can choose up to ${max}`);
-                    onChange([...selected, x]);
-                    setAnnounce(`${x.label} added`);
-                  }}
-                >
-                  <User size={16} aria-hidden="true" /> {x.label}
-                </button>
-              ) : (
-                <Link className="chip" to={`/for/${x.slug}`}>
-                  <User size={16} aria-hidden="true" /> {x.label}
-                </Link>
-              )}
-            </li>
+            <button key={x.slug} type="button" className="chip" data-da="identity-example" onClick={() => add(x)}>
+              {x.slug === "student" ? "I'm a student" : x.label[0] + x.label.slice(1).toLowerCase()}
+            </button>
           ))}
-        </ul>
+        </div>
       )}
     </div>
   );

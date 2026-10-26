@@ -9,8 +9,8 @@
  "levels": {
   "beginner": [
    {
-    "id": "mod_qlab_notation_0",
-    "slug": "qlab-notation-0",
+    "id": "mod_qlab_audio_production_0",
+    "slug": "qlab-audio-production-0",
     "title": "Get started with QLab",
     "outcome": "You can: set up QLab, find your way around and finish a first small task",
     "topics": [
@@ -31,39 +31,20 @@
     "level": "beginner"
    },
    {
-    "id": "mod_qlab_notation_1",
-    "slug": "qlab-notation-1",
-    "title": "Enter notes quickly",
-    "outcome": "You can: write a melody in QLab",
+    "id": "mod_qlab_audio_production_1",
+    "slug": "qlab-audio-production-1",
+    "title": "Record cleanly",
+    "outcome": "You can: record clear audio with QLab",
     "topics": [
-     "note input",
-     "durations",
-     "keys and time signatures"
+     "input levels",
+     "microphones",
+     "room noise",
+     "file formats"
     ],
-    "practice": "Notate a 16-bar melody",
+    "practice": "Record a 1-minute voice or instrument take with good levels",
     "need_tags": [
-     "music-notation",
-     "stage-production"
-    ],
-    "estimated_hours": {
-     "value": 1.5,
-     "is_estimate": true
-    },
-    "level": "beginner"
-   },
-   {
-    "id": "mod_qlab_notation_2",
-    "slug": "qlab-notation-2",
-    "title": "Lyrics, chords and dynamics",
-    "outcome": "You can: add the details musicians need",
-    "topics": [
-     "lyrics",
-     "chord symbols",
-     "dynamics and articulations"
-    ],
-    "practice": "Add lyrics and chords to your melody",
-    "need_tags": [
-     "music-notation",
+     "audio-production",
+     "podcast-production",
      "stage-production"
     ],
     "estimated_hours": {
@@ -71,22 +52,45 @@
      "is_estimate": true
     },
     "level": "beginner"
+   },
+   {
+    "id": "mod_qlab_audio_production_2",
+    "slug": "qlab-audio-production-2",
+    "title": "Edit and arrange",
+    "outcome": "You can: cut, arrange and tidy recordings",
+    "topics": [
+     "trimming",
+     "fades",
+     "arranging clips/regions",
+     "markers"
+    ],
+    "practice": "Edit a rough recording into a clean 2-minute piece",
+    "need_tags": [
+     "audio-production",
+     "stage-production"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
    }
   ],
   "intermediate": [
    {
-    "id": "mod_qlab_notation_3",
-    "slug": "qlab-notation-3",
-    "title": "Arrange for several parts",
-    "outcome": "You can: write for choir, band or orchestra",
+    "id": "mod_qlab_audio_production_3",
+    "slug": "qlab-audio-production-3",
+    "title": "Mix for clarity",
+    "outcome": "You can: balance and polish a mix",
     "topics": [
-     "instruments",
-     "voicing",
-     "part extraction"
+     "levels and panning",
+     "EQ",
+     "compression",
+     "reverb"
     ],
-    "practice": "Arrange a song for four voices",
+    "practice": "Mix a short track or podcast episode",
     "need_tags": [
-     "music-notation",
+     "audio-production",
      "stage-production"
     ],
     "estimated_hours": {
@@ -96,29 +100,31 @@
     "level": "intermediate"
    },
    {
-    "id": "mod_qlab_notation_4",
-    "slug": "qlab-notation-4",
-    "title": "Layout and printing",
-    "outcome": "You can: produce clean, readable scores",
+    "id": "mod_qlab_audio_production_4",
+    "slug": "qlab-audio-production-4",
+    "title": "Export for every platform",
+    "outcome": "You can: deliver the right file for each destination",
     "topics": [
-     "page layout",
-     "spacing",
-     "PDF export"
+     "loudness targets",
+     "sample rates",
+     "formats",
+     "metadata"
     ],
-    "practice": "Export a full score and parts",
+    "practice": "Export versions for streaming, podcast and video",
     "need_tags": [
-     "music-notation",
+     "audio-production",
+     "podcast-production",
      "stage-production"
     ],
     "estimated_hours": {
-     "value": 1.5,
+     "value": 1.0,
      "is_estimate": true
     },
     "level": "intermediate"
    },
    {
-    "id": "mod_qlab_notation_8",
-    "slug": "qlab-notation-8",
+    "id": "mod_qlab_audio_production_8",
+    "slug": "qlab-audio-production-8",
     "title": "Signature skills in QLab",
     "outcome": "You can: use the features that make QLab distinctive",
     "topics": [
@@ -140,8 +146,8 @@
   ],
   "expert": [
    {
-    "id": "mod_qlab_notation_9",
-    "slug": "qlab-notation-9",
+    "id": "mod_qlab_audio_production_9",
+    "slug": "qlab-audio-production-9",
     "title": "Advanced QLab",
     "outcome": "You can: use QLab's advanced capabilities with confidence",
     "topics": [
@@ -160,29 +166,31 @@
     "level": "expert"
    },
    {
-    "id": "mod_qlab_notation_5",
-    "slug": "qlab-notation-5",
-    "title": "Professional engraving",
-    "outcome": "You can: produce publication-quality scores",
+    "id": "mod_qlab_audio_production_5",
+    "slug": "qlab-audio-production-5",
+    "title": "Produce a full release",
+    "outcome": "You can: take a project from idea to release",
     "topics": [
-     "engraving conventions",
-     "house styles",
-     "playback realism"
+     "session templates",
+     "stems",
+     "collaboration",
+     "release checklist"
     ],
-    "practice": "Engrave a full piece to publication standard",
+    "practice": "Produce and release a complete track or episode",
     "need_tags": [
-     "music-notation",
+     "audio-production",
+     "creator-income",
      "stage-production"
     ],
     "estimated_hours": {
-     "value": 5.0,
+     "value": 6.0,
      "is_estimate": true
     },
     "level": "expert"
    },
    {
-    "id": "mod_qlab_notation_10",
-    "slug": "qlab-notation-10",
+    "id": "mod_qlab_audio_production_10",
+    "slug": "qlab-audio-production-10",
     "title": "Integrate QLab into your workflow",
     "outcome": "You can: connect QLab with the other tools you use",
     "topics": [
@@ -203,8 +211,8 @@
     "level": "expert"
    },
    {
-    "id": "mod_qlab_notation_11",
-    "slug": "qlab-notation-11",
+    "id": "mod_qlab_audio_production_11",
+    "slug": "qlab-audio-production-11",
     "title": "Lead and teach others",
     "outcome": "You can: set standards and teach others to use QLab well",
     "topics": [
@@ -227,7 +235,7 @@
   ]
  },
  "authoring": "archetype+signature",
- "archetype": "notation",
+ "archetype": "audio-production",
  "expert_validation": {
   "status": "pending",
   "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."

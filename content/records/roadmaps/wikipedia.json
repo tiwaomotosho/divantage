@@ -22,7 +22,10 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "find-information"
+     "find-information",
+     "fact-check",
+     "plant-health",
+     "repair-guides"
     ],
     "estimated_hours": {
      "value": 1,
@@ -44,7 +47,10 @@
     "practice": "Run a search and refine it twice",
     "need_tags": [
      "find-information",
-     "literature-review"
+     "literature-review",
+     "fact-check",
+     "plant-health",
+     "repair-guides"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -67,7 +73,9 @@
     "need_tags": [
      "literature-review",
      "fact-check",
-     "find-information"
+     "find-information",
+     "plant-health",
+     "repair-guides"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -90,7 +98,10 @@
     "practice": "Build a reproducible search string",
     "need_tags": [
      "literature-review",
-     "find-information"
+     "find-information",
+     "fact-check",
+     "plant-health",
+     "repair-guides"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -111,7 +122,10 @@
     "practice": "Export results to Zotero and set an alert",
     "need_tags": [
      "academic-writing",
-     "find-information"
+     "find-information",
+     "fact-check",
+     "plant-health",
+     "repair-guides"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -132,7 +146,10 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "find-information"
+     "find-information",
+     "fact-check",
+     "plant-health",
+     "repair-guides"
     ],
     "estimated_hours": {
      "value": 3,
@@ -154,7 +171,10 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "find-information"
+     "find-information",
+     "fact-check",
+     "plant-health",
+     "repair-guides"
     ],
     "estimated_hours": {
      "value": 4,
@@ -177,7 +197,10 @@
     "need_tags": [
      "literature-review",
      "research-surveys",
-     "find-information"
+     "find-information",
+     "fact-check",
+     "plant-health",
+     "repair-guides"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -199,7 +222,10 @@
     "practice": "Connect Wikipedia to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "find-information"
+     "find-information",
+     "fact-check",
+     "plant-health",
+     "repair-guides"
     ],
     "estimated_hours": {
      "value": 2,
@@ -221,7 +247,10 @@
     "practice": "Write a one-page \"how we use Wikipedia\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "find-information"
+     "find-information",
+     "fact-check",
+     "plant-health",
+     "repair-guides"
     ],
     "estimated_hours": {
      "value": 2,

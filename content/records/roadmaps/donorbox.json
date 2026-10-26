@@ -23,7 +23,9 @@
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
      "fundraising",
-     "online-giving"
+     "online-giving",
+     "grant-finding",
+     "events-management"
     ],
     "estimated_hours": {
      "value": 1,
@@ -46,7 +48,8 @@
     "need_tags": [
      "fundraising",
      "events-management",
-     "online-giving"
+     "online-giving",
+     "grant-finding"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -69,7 +72,9 @@
     "need_tags": [
      "fundraising",
      "social-media-presence",
-     "online-giving"
+     "online-giving",
+     "grant-finding",
+     "events-management"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -94,7 +99,8 @@
     "need_tags": [
      "fundraising",
      "events-management",
-     "online-giving"
+     "online-giving",
+     "grant-finding"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -116,7 +122,9 @@
     "practice": "Produce a results report",
     "need_tags": [
      "fundraising",
-     "online-giving"
+     "online-giving",
+     "grant-finding",
+     "events-management"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -138,7 +146,9 @@
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
      "fundraising",
-     "online-giving"
+     "online-giving",
+     "grant-finding",
+     "events-management"
     ],
     "estimated_hours": {
      "value": 3,
@@ -161,7 +171,9 @@
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
      "fundraising",
-     "online-giving"
+     "online-giving",
+     "grant-finding",
+     "events-management"
     ],
     "estimated_hours": {
      "value": 4,
@@ -183,7 +195,9 @@
     "need_tags": [
      "fundraising",
      "email-marketing",
-     "online-giving"
+     "online-giving",
+     "grant-finding",
+     "events-management"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -206,7 +220,9 @@
     "need_tags": [
      "automation-workflows",
      "fundraising",
-     "online-giving"
+     "online-giving",
+     "grant-finding",
+     "events-management"
     ],
     "estimated_hours": {
      "value": 2,
@@ -229,7 +245,9 @@
     "need_tags": [
      "workshop-facilitation",
      "fundraising",
-     "online-giving"
+     "online-giving",
+     "grant-finding",
+     "events-management"
     ],
     "estimated_hours": {
      "value": 2,

@@ -6,6 +6,12 @@ reg={r["slug"]:r for r in json.load(open(os.path.join(CAT,"registry/tools-regist
 tool_needs=collections.defaultdict(list)
 for n in needs.values():
     for t in n["tool_ids"]: tool_needs[t[5:].replace("_","-")].append(n["slug"])
+_gp=os.path.join(TAX,"goals.json")   # V2.6: need tags also come from the goals that list a tool
+if os.path.exists(_gp):
+    for g in json.load(open(_gp))["values"]:
+        for t in g["tool_ids"]:
+            k=t[5:].replace("_","-")
+            if g["need"] not in tool_needs[k]: tool_needs[k].append(g["need"])
 # handwritten coverage
 for p in glob.glob(os.path.join(RD,"*.json")):
     r=json.load(open(p))

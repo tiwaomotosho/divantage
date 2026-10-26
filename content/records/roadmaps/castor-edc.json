@@ -1,0 +1,249 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_castor_edc",
+ "slug": "castor-edc",
+ "title": "Castor EDC skill roadmap",
+ "tool_ids": [
+  "tool_castor_edc"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_castor_edc_lab_science_0",
+    "slug": "castor-edc-lab-science-0",
+    "title": "Get started with Castor EDC",
+    "outcome": "You can: set up Castor EDC, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "health-research-data",
+     "research-data-management"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_castor_edc_lab_science_1",
+    "slug": "castor-edc-lab-science-1",
+    "title": "Set up and import",
+    "outcome": "You can: start projects and import data",
+    "topics": [
+     "projects",
+     "templates",
+     "file formats",
+     "metadata"
+    ],
+    "practice": "Import a sample dataset with metadata",
+    "need_tags": [
+     "lab-data",
+     "health-research-data",
+     "research-data-management"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_castor_edc_lab_science_2",
+    "slug": "castor-edc-lab-science-2",
+    "title": "Core analysis or drawing",
+    "outcome": "You can: complete the main task in Castor EDC",
+    "topics": [
+     "core tools",
+     "parameters",
+     "outputs"
+    ],
+    "practice": "Complete one standard analysis or drawing",
+    "need_tags": [
+     "molecular-biology",
+     "chemistry-drawing",
+     "scientific-figures",
+     "health-research-data",
+     "research-data-management"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_castor_edc_lab_science_3",
+    "slug": "castor-edc-lab-science-3",
+    "title": "Protocols and records",
+    "outcome": "You can: keep reproducible records",
+    "topics": [
+     "protocols",
+     "versioning",
+     "sample tracking",
+     "audit trail"
+    ],
+    "practice": "Record a full experiment with protocol",
+    "need_tags": [
+     "lab-data",
+     "research-data-management",
+     "health-research-data"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_castor_edc_lab_science_4",
+    "slug": "castor-edc-lab-science-4",
+    "title": "Figures and reporting",
+    "outcome": "You can: produce publication-ready outputs",
+    "topics": [
+     "figure standards",
+     "exports",
+     "methods text"
+    ],
+    "practice": "Produce a figure for a report",
+    "need_tags": [
+     "scientific-figures",
+     "health-research-data",
+     "research-data-management"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_castor_edc_lab_science_8",
+    "slug": "castor-edc-lab-science-8",
+    "title": "Signature skills in Castor EDC",
+    "outcome": "You can: use the features that make Castor EDC distinctive",
+    "topics": [
+     "data entry/import",
+     "core analysis",
+     "export"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "health-research-data",
+     "research-data-management"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_castor_edc_lab_science_9",
+    "slug": "castor-edc-lab-science-9",
+    "title": "Advanced Castor EDC",
+    "outcome": "You can: use Castor EDC's advanced capabilities with confidence",
+    "topics": [
+     "protocols",
+     "automation",
+     "data integrity"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "health-research-data",
+     "research-data-management"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_castor_edc_lab_science_5",
+    "slug": "castor-edc-lab-science-5",
+    "title": "Integrity and sharing",
+    "outcome": "You can: share data responsibly",
+    "topics": [
+     "data integrity",
+     "permissions",
+     "repositories",
+     "FAIR principles"
+    ],
+    "practice": "Deposit a dataset with metadata",
+    "need_tags": [
+     "research-data-management",
+     "health-research-data"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_castor_edc_lab_science_10",
+    "slug": "castor-edc-lab-science-10",
+    "title": "Integrate Castor EDC into your workflow",
+    "outcome": "You can: connect Castor EDC with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Castor EDC to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "health-research-data",
+     "research-data-management"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_castor_edc_lab_science_11",
+    "slug": "castor-edc-lab-science-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Castor EDC well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Castor EDC\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "health-research-data",
+     "research-data-management"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype",
+ "archetype": "lab-science",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

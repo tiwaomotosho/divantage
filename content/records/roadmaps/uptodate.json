@@ -22,7 +22,10 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "clinical-reference"
+     "clinical-reference",
+     "drug-information",
+     "medical-calculators",
+     "evidence-based-medicine"
     ],
     "estimated_hours": {
      "value": 1,
@@ -42,7 +45,10 @@
     ],
     "practice": "Answer three clinical questions from your practice",
     "need_tags": [
-     "clinical-reference"
+     "clinical-reference",
+     "drug-information",
+     "medical-calculators",
+     "evidence-based-medicine"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -63,7 +69,9 @@
     "practice": "Compare UpToDate's advice with a local guideline",
     "need_tags": [
      "evidence-based-medicine",
-     "clinical-reference"
+     "clinical-reference",
+     "drug-information",
+     "medical-calculators"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -88,7 +96,8 @@
     "need_tags": [
      "drug-information",
      "medical-calculators",
-     "clinical-reference"
+     "clinical-reference",
+     "evidence-based-medicine"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -108,7 +117,10 @@
     ],
     "practice": "Set up bookmarks for your top 10 topics",
     "need_tags": [
-     "clinical-reference"
+     "clinical-reference",
+     "drug-information",
+     "medical-calculators",
+     "evidence-based-medicine"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -129,7 +141,10 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "clinical-reference"
+     "clinical-reference",
+     "drug-information",
+     "medical-calculators",
+     "evidence-based-medicine"
     ],
     "estimated_hours": {
      "value": 3,
@@ -151,7 +166,10 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "clinical-reference"
+     "clinical-reference",
+     "drug-information",
+     "medical-calculators",
+     "evidence-based-medicine"
     ],
     "estimated_hours": {
      "value": 4,
@@ -172,7 +190,10 @@
     "practice": "Turn one topic into a teaching session",
     "need_tags": [
      "cpd-learning",
-     "clinical-reference"
+     "clinical-reference",
+     "drug-information",
+     "medical-calculators",
+     "evidence-based-medicine"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -194,7 +215,10 @@
     "practice": "Connect UpToDate to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "clinical-reference"
+     "clinical-reference",
+     "drug-information",
+     "medical-calculators",
+     "evidence-based-medicine"
     ],
     "estimated_hours": {
      "value": 2,
@@ -216,7 +240,10 @@
     "practice": "Write a one-page \"how we use UpToDate\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "clinical-reference"
+     "clinical-reference",
+     "drug-information",
+     "medical-calculators",
+     "evidence-based-medicine"
     ],
     "estimated_hours": {
      "value": 2,

@@ -22,7 +22,8 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "cost-estimation"
+     "cost-estimation",
+     "drawing-markup"
     ],
     "estimated_hours": {
      "value": 1,
@@ -44,7 +45,8 @@
     "practice": "Start a project from the right template",
     "need_tags": [
      "cad-drafting",
-     "cost-estimation"
+     "cost-estimation",
+     "drawing-markup"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -68,7 +70,8 @@
      "cad-drafting",
      "mechanical-design",
      "bim-modelling",
-     "cost-estimation"
+     "cost-estimation",
+     "drawing-markup"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -93,7 +96,8 @@
     "need_tags": [
      "cad-drafting",
      "technical-reporting",
-     "cost-estimation"
+     "cost-estimation",
+     "drawing-markup"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -137,7 +141,8 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "cost-estimation"
+     "cost-estimation",
+     "drawing-markup"
     ],
     "estimated_hours": {
      "value": 3,
@@ -159,7 +164,8 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "cost-estimation"
+     "cost-estimation",
+     "drawing-markup"
     ],
     "estimated_hours": {
      "value": 4,
@@ -181,7 +187,8 @@
     "practice": "Extract quantities to a spreadsheet",
     "need_tags": [
      "cost-estimation",
-     "bim-modelling"
+     "bim-modelling",
+     "drawing-markup"
     ],
     "estimated_hours": {
      "value": 5.0,
@@ -203,7 +210,8 @@
     "practice": "Connect CostX to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "cost-estimation"
+     "cost-estimation",
+     "drawing-markup"
     ],
     "estimated_hours": {
      "value": 2,
@@ -225,7 +233,8 @@
     "practice": "Write a one-page \"how we use CostX\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "cost-estimation"
+     "cost-estimation",
+     "drawing-markup"
     ],
     "estimated_hours": {
      "value": 2,

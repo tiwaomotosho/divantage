@@ -22,7 +22,11 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "virtual-classroom"
+     "virtual-classroom",
+     "lesson-planning",
+     "grading-feedback",
+     "quizzes-assessment",
+     "academic-writing"
     ],
     "estimated_hours": {
      "value": 1,
@@ -44,7 +48,11 @@
     "practice": "Create a class with a welcome post",
     "need_tags": [
      "virtual-classroom",
-     "interactive-teaching"
+     "interactive-teaching",
+     "lesson-planning",
+     "grading-feedback",
+     "quizzes-assessment",
+     "academic-writing"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -65,7 +73,10 @@
     "practice": "Post one week of lessons",
     "need_tags": [
      "lesson-planning",
-     "virtual-classroom"
+     "virtual-classroom",
+     "grading-feedback",
+     "quizzes-assessment",
+     "academic-writing"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -90,7 +101,9 @@
     "need_tags": [
      "quizzes-assessment",
      "grading-feedback",
-     "virtual-classroom"
+     "virtual-classroom",
+     "lesson-planning",
+     "academic-writing"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -112,7 +125,11 @@
     "need_tags": [
      "interactive-teaching",
      "accessible-materials",
-     "virtual-classroom"
+     "virtual-classroom",
+     "lesson-planning",
+     "grading-feedback",
+     "quizzes-assessment",
+     "academic-writing"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -133,7 +150,11 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "virtual-classroom"
+     "virtual-classroom",
+     "lesson-planning",
+     "grading-feedback",
+     "quizzes-assessment",
+     "academic-writing"
     ],
     "estimated_hours": {
      "value": 3,
@@ -155,7 +176,11 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "virtual-classroom"
+     "virtual-classroom",
+     "lesson-planning",
+     "grading-feedback",
+     "quizzes-assessment",
+     "academic-writing"
     ],
     "estimated_hours": {
      "value": 4,
@@ -176,7 +201,10 @@
     "practice": "Review results and plan a re-teach",
     "need_tags": [
      "grading-feedback",
-     "virtual-classroom"
+     "virtual-classroom",
+     "lesson-planning",
+     "quizzes-assessment",
+     "academic-writing"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -198,7 +226,11 @@
     "practice": "Connect Moodle to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "virtual-classroom"
+     "virtual-classroom",
+     "lesson-planning",
+     "grading-feedback",
+     "quizzes-assessment",
+     "academic-writing"
     ],
     "estimated_hours": {
      "value": 2,
@@ -220,7 +252,11 @@
     "practice": "Write a one-page \"how we use Moodle\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "virtual-classroom"
+     "virtual-classroom",
+     "lesson-planning",
+     "grading-feedback",
+     "quizzes-assessment",
+     "academic-writing"
     ],
     "estimated_hours": {
      "value": 2,

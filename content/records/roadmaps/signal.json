@@ -23,7 +23,9 @@
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
      "group-messaging",
-     "emergency-comms"
+     "emergency-comms",
+     "video-meetings",
+     "online-safety"
     ],
     "estimated_hours": {
      "value": 1,
@@ -45,7 +47,9 @@
     "practice": "Post an update and share a file with your team",
     "need_tags": [
      "group-messaging",
-     "emergency-comms"
+     "emergency-comms",
+     "video-meetings",
+     "online-safety"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -68,7 +72,9 @@
     "need_tags": [
      "personal-productivity",
      "group-messaging",
-     "emergency-comms"
+     "emergency-comms",
+     "video-meetings",
+     "online-safety"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -92,7 +98,9 @@
     "need_tags": [
      "project-management",
      "group-messaging",
-     "emergency-comms"
+     "emergency-comms",
+     "video-meetings",
+     "online-safety"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -115,7 +123,9 @@
      "meeting-minutes",
      "workshop-facilitation",
      "group-messaging",
-     "emergency-comms"
+     "emergency-comms",
+     "video-meetings",
+     "online-safety"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -137,7 +147,9 @@
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
      "group-messaging",
-     "emergency-comms"
+     "emergency-comms",
+     "video-meetings",
+     "online-safety"
     ],
     "estimated_hours": {
      "value": 3,
@@ -160,7 +172,9 @@
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
      "group-messaging",
-     "emergency-comms"
+     "emergency-comms",
+     "video-meetings",
+     "online-safety"
     ],
     "estimated_hours": {
      "value": 4,
@@ -184,7 +198,8 @@
      "records-management",
      "online-safety",
      "group-messaging",
-     "emergency-comms"
+     "emergency-comms",
+     "video-meetings"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -207,7 +222,9 @@
     "need_tags": [
      "automation-workflows",
      "group-messaging",
-     "emergency-comms"
+     "emergency-comms",
+     "video-meetings",
+     "online-safety"
     ],
     "estimated_hours": {
      "value": 2,
@@ -230,7 +247,9 @@
     "need_tags": [
      "workshop-facilitation",
      "group-messaging",
-     "emergency-comms"
+     "emergency-comms",
+     "video-meetings",
+     "online-safety"
     ],
     "estimated_hours": {
      "value": 2,

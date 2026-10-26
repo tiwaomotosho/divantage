@@ -1,0 +1,249 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_grey",
+ "slug": "grey",
+ "title": "Grey skill roadmap",
+ "tool_ids": [
+  "tool_grey"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_grey_finance_payments_0",
+    "slug": "grey-finance-payments-0",
+    "title": "Get started with Grey",
+    "outcome": "You can: set up Grey, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "online-payments",
+     "freelancing"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_grey_finance_payments_1",
+    "slug": "grey-finance-payments-1",
+    "title": "Get paid",
+    "outcome": "You can: send invoices or payment links",
+    "topics": [
+     "customers",
+     "invoices/links",
+     "payment methods",
+     "receipts"
+    ],
+    "practice": "Send a test invoice or payment link",
+    "need_tags": [
+     "invoicing",
+     "online-payments",
+     "freelancing"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_grey_finance_payments_2",
+    "slug": "grey-finance-payments-2",
+    "title": "Keep records straight",
+    "outcome": "You can: record income and expenses",
+    "topics": [
+     "categories",
+     "attachments",
+     "bank feeds"
+    ],
+    "practice": "Record a week of transactions",
+    "need_tags": [
+     "bookkeeping",
+     "online-payments",
+     "freelancing"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_grey_finance_payments_3",
+    "slug": "grey-finance-payments-3",
+    "title": "Reconcile",
+    "outcome": "You can: match records to the bank",
+    "topics": [
+     "reconciliation",
+     "refunds",
+     "fees",
+     "disputes"
+    ],
+    "practice": "Reconcile a month",
+    "need_tags": [
+     "bookkeeping",
+     "audit-analytics",
+     "online-payments",
+     "freelancing"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_grey_finance_payments_4",
+    "slug": "grey-finance-payments-4",
+    "title": "Security and fraud",
+    "outcome": "You can: protect money and accounts",
+    "topics": [
+     "two-step verification",
+     "user roles",
+     "scam awareness"
+    ],
+    "practice": "Review security settings and user roles",
+    "need_tags": [
+     "online-safety",
+     "online-payments",
+     "freelancing"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_grey_finance_payments_8",
+    "slug": "grey-finance-payments-8",
+    "title": "Signature skills in Grey",
+    "outcome": "You can: use the features that make Grey distinctive",
+    "topics": [
+     "invoices",
+     "payments",
+     "reconciliation"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "online-payments",
+     "freelancing"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_grey_finance_payments_9",
+    "slug": "grey-finance-payments-9",
+    "title": "Advanced Grey",
+    "outcome": "You can: use Grey's advanced capabilities with confidence",
+    "topics": [
+     "reporting",
+     "tax and compliance",
+     "integrations"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "online-payments",
+     "freelancing"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_grey_finance_payments_5",
+    "slug": "grey-finance-payments-5",
+    "title": "Reporting and integration",
+    "outcome": "You can: connect payments to accounting and reports",
+    "topics": [
+     "exports",
+     "APIs/webhooks",
+     "month-end reports"
+    ],
+    "practice": "Connect Grey to your books or a sheet",
+    "need_tags": [
+     "bookkeeping",
+     "automation-workflows",
+     "online-payments",
+     "freelancing"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_grey_finance_payments_10",
+    "slug": "grey-finance-payments-10",
+    "title": "Integrate Grey into your workflow",
+    "outcome": "You can: connect Grey with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Grey to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "online-payments",
+     "freelancing"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_grey_finance_payments_11",
+    "slug": "grey-finance-payments-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Grey well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Grey\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "online-payments",
+     "freelancing"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype",
+ "archetype": "finance-payments",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

@@ -1,6 +1,6 @@
 # 23 — Feature Completeness and App Scope
 
-**Version:** 2.5 · **Date:** 21 October 2026 · **Status:** Governing document for "is the app level with everything the owner has asked for?"
+**Version:** 2.6 · **Date:** 21 October 2026 · **Status:** Governing document for "is the app level with everything the owner has asked for?"
 
 ## 1. Why this document exists
 The owner asked that the app be "level to all the features I have shared". Until V2.4 those features lived in different documents, added one version at a time. This document lists each feature once, in plain words that stay close to what the owner said, and shows where it is specified, how it is tested and when it ships. It is checked by a script, so it cannot quietly fall behind.
@@ -65,6 +65,33 @@ Columns: what the owner asked for (paraphrased, not verbatim quotes); what the a
 | F-27 | Identity stays private | The chosen identity and helper progress never leave the device *(Specified V2.1; extended V2.5)* | D-053 | FR-054; FR-069 | S01-R | TC-074; TC-122 | Beta | – |
 | F-28 | Occupations list for experts to review | Occupations directory (CSV and Markdown) generated from the sources *(Specified V2.2)* | D-055 | – | – | TC-103; TC-105 | Beta | – |
 | F-29 | Improve every week from what people say | Weekly loop: sort, fix, release, announce in What's new *(Specified V2.3)* | D-062; D-064 | FR-065 | S37 | TC-111 | Beta | whats_new |
+| F-30 | Using tech to compete, grow and scale | Positioning and three intent chips (compete, grow, scale) on every need and goal *(Specified V2.6)* | D-075 | FR-076 | S01-R; S42 | TC-136 | Beta | intent_chips |
+| F-31 | Jump straight to a goal | 1,050 goals under 279 needs; search by goal, search words and tool names *(Specified V2.6)* | D-071 | FR-077; FR-078 | S42; S43 | TC-133; TC-135 | Beta | goals |
+| F-32 | 7 alternatives per tool | Alternatives derived from goals for 1,781 tools; 99.9% list 7 and 97.0% have 7 of the same kind (build gate 95%) *(Specified V2.6)* | D-072; D-073 | FR-079; FR-080 | S43 | TC-134; TC-139 | Beta | alternatives |
+| F-33 | Something very Nigerian (inDrive) and local tools | Markets, Nigeria-first ranking, availability notes (Uber, Showmax) *(Specified V2.6)* | D-074 | FR-081; FR-082 | S42; S43 | TC-137; TC-138 | Beta | goals |
+| F-34 | Skills can be starred | Stars for skills, tools, goals and helpers; My workbench *(Specified V2.6)* | D-079 | FR-083 | S45 | TC-140; TC-141 | Beta | stars |
+| F-35 | Sign-in after value is discovered | Optional sign-in with triggers and a frequency cap *(Specified V2.6)* | D-076; D-077 | FR-084; FR-085 | S44 | TC-142 | Launch | accounts |
+| F-36 | Profile and your data | Profile, three consent switches, export and delete *(Specified V2.6)* | D-078 | FR-086; FR-087; FR-088; FR-094 | S46 | TC-143; TC-144; TC-145 | Launch | accounts |
+| F-37 | Intelligent recommendation that keeps improving | Rule-based recommendations R1 to R8 with a why line; no machine learning *(Specified V2.6)* | D-080 | FR-089 | S45 | TC-146; TC-147 | Launch | recommendations |
+| F-38 | Top skills, professions and goals this week | Trending lists with privacy floor and activity gate *(Specified V2.6)* | D-081 | FR-090 | S47 | TC-148 | Launch | trending |
+| F-39 | Come back to keep going | Continue card, saved stage outputs and the outcome prompt *(Specified V2.6)* | D-082 | FR-091; FR-092 | S45 | TC-141; TC-149 | Launch | continue_card; outcome_prompt |
+| F-40 | See what happened to my suggestion | Suggestion status page *(Specified V2.6)* | D-082 | FR-093 | S48 | TC-150 | Launch | suggestion_status |
+| F-41 | A brief paragraph, subscription and price for every tool, with a label | Short description, pricing model, free tier and price note for 1,781 tools; unchecked ones carry a Preview label that says what is unchecked *(Specified V2.7)* | D-084 | FR-095; FR-096; FR-097 | S51 | TC-151; TC-152; TC-153; TC-154 | Beta | tool_profiles |
+| F-42 | Take the 59% to at least 95% | Same-kind alternatives measured and gated at 95% (now 97.0%) *(Specified V2.7)* | D-085 | FR-098 | – | TC-155 | Beta | alternatives |
+| F-43 | I want to get a remote job; I want to edit a short video | 29 goal kits: ordered steps with tools, price chips, safety notes and next step *(Specified V2.7)* | D-086 | FR-099; FR-100 | S49; S50 | TC-156; TC-157 | Beta | kits |
+| F-44 | Make people happy and safe | Safety panel on goals about jobs, money, children, health, legal, privacy, AI, content and official fees *(Specified V2.7)* | D-087 | FR-101; FR-102 | S43; S50 | TC-158; TC-159 | Beta | goal_safety |
+| F-45 | Easy to find goals: who are you, skills, say it your way | Seven entry paths and natural-language goal search that ranks kits first *(Specified V2.7)* | D-088 | FR-103; FR-104 | S01-R; S42; S51 | TC-160; TC-161; TC-162 | Beta | goal_search_natural |
+| F-46 | Everything connected | Three to six related goals per goal, next step in kits, goals that use each tool *(Specified V2.7)* | D-088 | FR-105 | S43 | TC-163 | Beta | goals |
+| F-47 | Suggest goals to people who don't go there directly | Suggested for you: next in kit, kits for people like you, while you are here, check first; no account needed *(Specified V2.7)* | D-089 | FR-106 | S52 | TC-164; TC-165; TC-166 | Beta | suggested_for_you |
+| F-48 | We own Technology Education: teach kids programming, tech enablement | Kids programming kit, learn to code, break into tech and a build-time coverage floor *(Specified V2.7)* | D-090 | FR-107; FR-108 | S50 | TC-167; TC-168 | Beta | kits |
+| F-49 | Every page ends with a next step; Learn {tool} everywhere | NextStepCard on every content page and a Learn {tool} button on every tool row and page *(Specified V2.8)* | D-092 | FR-109; FR-110 | S09; S27; S30; S40; S43; S50 | TC-169; TC-170; TC-171 | Beta | next_step_card |
+| F-50 | Visible trust | TrustLine (price plus Checked date or Preview) on every tool mention; trust strip on home; How we review page *(Specified V2.8)* | D-093 | FR-111 | S01-R; S09 | TC-172 | Beta | trust_line |
+| F-51 | Learning paths written for my job | DepthLabel (For {job}, In depth, General guide), job paths first, Ask for my job *(Specified V2.8; role paths still to be written)* | D-094 | FR-112; FR-113 | S30 | TC-173; TC-174 | Beta | depth_labels |
+| F-52 | Calm, consistent look that survives the build | Colour and button budget, closed asset set, fidelity contract, lint and runtime audit *(Specified V2.8)* | D-095; D-096; D-097; D-098; D-099; D-091 | FR-119 | S01-R | TC-182; TC-183; TC-184; TC-185; TC-186; TC-187; TC-188 | Beta | – |
+| F-53 | Helper makes sense | Helper explainer, first-run coach mark, hide and restore, never covers content *(Specified V2.8)* | D-100 | FR-115 | S40; S41 | TC-179 | Beta | helper_coachmark |
+| F-54 | Nothing cut off on iPhone | Overflow guard, reserved space for fixed bars, no dead controls *(Specified V2.8)* | D-101 | FR-116 | S01-R | TC-176; TC-177; TC-178 | Beta | – |
+| F-55 | Needs that fit my work; more occupations | Right for your work thumbs on needs; Suggest my role *(Specified V2.8)* | D-102; D-103 | FR-114; FR-117 | S27; S33 | TC-175; TC-180 | Beta | need_feedback |
+| F-56 | One clear promise | Home H1 and meta use 'Find the tools people in your job use. Learn them step by step.'; UI says learning path *(Specified V2.8)* | D-104; D-106 | FR-118 | S01-R | TC-181 | Beta | – |
 <!-- END MATRIX -->
 
 ## 5. What "level" means for each kind of feature
@@ -100,3 +127,6 @@ Follow doc 17. In short:
 - The matrix proves the **specification** covers every request. It does not prove the app built from it behaves correctly. That is what the tests in 15 are for.
 - Counts in the pack (identities, tools, roadmaps) are regenerated from source files and can change. The matrix cites ids, not counts.
 - The AI-drafted content is published under the owner's blanket approval (D-044) and labelled. A human check is still needed before anyone relies on prices, features or advice.
+
+## 9. V2.6 additions
+Rows F-41 to F-48 cover the V2.7 requests: tool profiles with the Preview label, the 95% same-kind gate, goal kits, safety notes, entry paths and natural-language search, connected goals, suggestions for people who do not search, and Technology Education (doc 26). Rows F-30 to F-40 cover the owner's V2.6 requests: positioning, jump to goal, alternatives, local tools and availability, stars, sign-in, profile, recommendations, trending, the retention loop and suggestion status. Beta rows are static and need no account; Launch rows need accounts (flag `accounts`) and counsel review (doc 12). Detail in doc 24.

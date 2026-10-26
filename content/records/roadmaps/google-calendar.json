@@ -27,7 +27,14 @@
      "veterinary-practice",
      "pastoral-care",
      "care-coordination",
-     "family-organisation"
+     "family-organisation",
+     "personal-productivity",
+     "study-skills",
+     "booking-appointments",
+     "team-organisation",
+     "hotel-management",
+     "regulatory-reporting",
+     "freelancing"
     ],
     "estimated_hours": {
      "value": 1,
@@ -53,7 +60,14 @@
      "veterinary-practice",
      "pastoral-care",
      "care-coordination",
-     "family-organisation"
+     "family-organisation",
+     "personal-productivity",
+     "study-skills",
+     "booking-appointments",
+     "team-organisation",
+     "hotel-management",
+     "regulatory-reporting",
+     "freelancing"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -79,7 +93,13 @@
      "veterinary-practice",
      "pastoral-care",
      "care-coordination",
-     "family-organisation"
+     "family-organisation",
+     "study-skills",
+     "booking-appointments",
+     "team-organisation",
+     "hotel-management",
+     "regulatory-reporting",
+     "freelancing"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -108,7 +128,13 @@
      "veterinary-practice",
      "pastoral-care",
      "care-coordination",
-     "family-organisation"
+     "family-organisation",
+     "study-skills",
+     "booking-appointments",
+     "team-organisation",
+     "hotel-management",
+     "regulatory-reporting",
+     "freelancing"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -135,7 +161,14 @@
      "veterinary-practice",
      "pastoral-care",
      "care-coordination",
-     "family-organisation"
+     "family-organisation",
+     "personal-productivity",
+     "study-skills",
+     "booking-appointments",
+     "team-organisation",
+     "hotel-management",
+     "regulatory-reporting",
+     "freelancing"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -161,7 +194,14 @@
      "veterinary-practice",
      "pastoral-care",
      "care-coordination",
-     "family-organisation"
+     "family-organisation",
+     "personal-productivity",
+     "study-skills",
+     "booking-appointments",
+     "team-organisation",
+     "hotel-management",
+     "regulatory-reporting",
+     "freelancing"
     ],
     "estimated_hours": {
      "value": 3,
@@ -188,7 +228,14 @@
      "veterinary-practice",
      "pastoral-care",
      "care-coordination",
-     "family-organisation"
+     "family-organisation",
+     "personal-productivity",
+     "study-skills",
+     "booking-appointments",
+     "team-organisation",
+     "hotel-management",
+     "regulatory-reporting",
+     "freelancing"
     ],
     "estimated_hours": {
      "value": 4,
@@ -214,7 +261,14 @@
      "veterinary-practice",
      "pastoral-care",
      "care-coordination",
-     "family-organisation"
+     "family-organisation",
+     "personal-productivity",
+     "study-skills",
+     "booking-appointments",
+     "team-organisation",
+     "hotel-management",
+     "regulatory-reporting",
+     "freelancing"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -241,7 +295,14 @@
      "veterinary-practice",
      "pastoral-care",
      "care-coordination",
-     "family-organisation"
+     "family-organisation",
+     "personal-productivity",
+     "study-skills",
+     "booking-appointments",
+     "team-organisation",
+     "hotel-management",
+     "regulatory-reporting",
+     "freelancing"
     ],
     "estimated_hours": {
      "value": 2,
@@ -268,7 +329,14 @@
      "veterinary-practice",
      "pastoral-care",
      "care-coordination",
-     "family-organisation"
+     "family-organisation",
+     "personal-productivity",
+     "study-skills",
+     "booking-appointments",
+     "team-organisation",
+     "hotel-management",
+     "regulatory-reporting",
+     "freelancing"
     ],
     "estimated_hours": {
      "value": 2,

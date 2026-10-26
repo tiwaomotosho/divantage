@@ -22,7 +22,12 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "volunteer-coordination"
+     "volunteer-coordination",
+     "events-management",
+     "team-organisation",
+     "stage-production",
+     "volunteering",
+     "grant-finding"
     ],
     "estimated_hours": {
      "value": 1,
@@ -43,7 +48,12 @@
     ],
     "practice": "Create and update one record end to end",
     "need_tags": [
-     "volunteer-coordination"
+     "volunteer-coordination",
+     "events-management",
+     "team-organisation",
+     "stage-production",
+     "volunteering",
+     "grant-finding"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -63,7 +73,12 @@
     ],
     "practice": "Complete one full workflow for your role",
     "need_tags": [
-     "volunteer-coordination"
+     "volunteer-coordination",
+     "events-management",
+     "team-organisation",
+     "stage-production",
+     "volunteering",
+     "grant-finding"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -88,7 +103,12 @@
     "need_tags": [
      "project-scheduling",
      "inventory-procurement",
-     "volunteer-coordination"
+     "volunteer-coordination",
+     "events-management",
+     "team-organisation",
+     "stage-production",
+     "volunteering",
+     "grant-finding"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -109,7 +129,12 @@
     "practice": "Build a report your manager asks for",
     "need_tags": [
      "kpi-tracking",
-     "volunteer-coordination"
+     "volunteer-coordination",
+     "events-management",
+     "team-organisation",
+     "stage-production",
+     "volunteering",
+     "grant-finding"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -130,7 +155,12 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "volunteer-coordination"
+     "volunteer-coordination",
+     "events-management",
+     "team-organisation",
+     "stage-production",
+     "volunteering",
+     "grant-finding"
     ],
     "estimated_hours": {
      "value": 3,
@@ -152,7 +182,12 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "volunteer-coordination"
+     "volunteer-coordination",
+     "events-management",
+     "team-organisation",
+     "stage-production",
+     "volunteering",
+     "grant-finding"
     ],
     "estimated_hours": {
      "value": 4,
@@ -175,7 +210,12 @@
     "need_tags": [
      "erp",
      "process-mapping",
-     "volunteer-coordination"
+     "volunteer-coordination",
+     "events-management",
+     "team-organisation",
+     "stage-production",
+     "volunteering",
+     "grant-finding"
     ],
     "estimated_hours": {
      "value": 4.0,
@@ -197,7 +237,12 @@
     "practice": "Connect SignUpGenius to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "volunteer-coordination"
+     "volunteer-coordination",
+     "events-management",
+     "team-organisation",
+     "stage-production",
+     "volunteering",
+     "grant-finding"
     ],
     "estimated_hours": {
      "value": 2,
@@ -219,7 +264,12 @@
     "practice": "Write a one-page \"how we use SignUpGenius\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "volunteer-coordination"
+     "volunteer-coordination",
+     "events-management",
+     "team-organisation",
+     "stage-production",
+     "volunteering",
+     "grant-finding"
     ],
     "estimated_hours": {
      "value": 2,

@@ -1,6 +1,6 @@
 {
  "note": "Every tool-roadmap \u00d7 need combination the site can render. Flagship = hand-written lens; auto = composed from module need-tags (03 \u00a77). Auto lenses with core_modules = 0 fall back to the plain roadmap with the need's description.",
- "count": 1032,
+ "count": 1033,
  "values": [
   {
    "roadmap": "translation",
@@ -3491,6 +3491,12 @@
   {
    "roadmap": "indeed",
    "need": "job-search",
+   "kind": "auto",
+   "core_modules": 10
+  },
+  {
+   "roadmap": "indrive",
+   "need": "driver-earnings",
    "kind": "auto",
    "core_modules": 10
   },

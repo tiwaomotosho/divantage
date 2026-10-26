@@ -22,7 +22,8 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "drilling-reporting"
+     "drilling-reporting",
+     "well-planning-design"
     ],
     "estimated_hours": {
      "value": 1,
@@ -44,7 +45,8 @@
     "practice": "Complete a full daily report",
     "need_tags": [
      "drilling-reporting",
-     "site-management"
+     "site-management",
+     "well-planning-design"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -66,7 +68,8 @@
     "practice": "Find and fix five data-quality issues",
     "need_tags": [
      "drilling-reporting",
-     "data-cleaning"
+     "data-cleaning",
+     "well-planning-design"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -90,7 +93,8 @@
     "practice": "Produce a weekly KPI report",
     "need_tags": [
      "kpi-tracking",
-     "drilling-reporting"
+     "drilling-reporting",
+     "well-planning-design"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -112,7 +116,8 @@
     "practice": "Build a two-week lookahead",
     "need_tags": [
      "project-scheduling",
-     "drilling-reporting"
+     "drilling-reporting",
+     "well-planning-design"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -133,7 +138,8 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "drilling-reporting"
+     "drilling-reporting",
+     "well-planning-design"
     ],
     "estimated_hours": {
      "value": 3,
@@ -155,7 +161,8 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "drilling-reporting"
+     "drilling-reporting",
+     "well-planning-design"
     ],
     "estimated_hours": {
      "value": 4,
@@ -178,7 +185,8 @@
     "need_tags": [
      "dashboards-bi",
      "regulatory-reporting",
-     "drilling-reporting"
+     "drilling-reporting",
+     "well-planning-design"
     ],
     "estimated_hours": {
      "value": 4.0,
@@ -200,7 +208,8 @@
     "practice": "Connect OpenWells to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "drilling-reporting"
+     "drilling-reporting",
+     "well-planning-design"
     ],
     "estimated_hours": {
      "value": 2,
@@ -222,7 +231,8 @@
     "practice": "Write a one-page \"how we use OpenWells\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "drilling-reporting"
+     "drilling-reporting",
+     "well-planning-design"
     ],
     "estimated_hours": {
      "value": 2,

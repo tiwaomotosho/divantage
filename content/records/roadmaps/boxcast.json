@@ -22,7 +22,8 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "service-livestream"
+     "service-livestream",
+     "live-streaming"
     ],
     "estimated_hours": {
      "value": 1,
@@ -45,7 +46,8 @@
     "need_tags": [
      "video-editing-pro",
      "short-video",
-     "service-livestream"
+     "service-livestream",
+     "live-streaming"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -67,7 +69,8 @@
     "need_tags": [
      "video-editing-pro",
      "accessible-materials",
-     "service-livestream"
+     "service-livestream",
+     "live-streaming"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -90,7 +93,8 @@
     "practice": "Correct colour and balance audio",
     "need_tags": [
      "video-editing-pro",
-     "service-livestream"
+     "service-livestream",
+     "live-streaming"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -111,7 +115,8 @@
     "practice": "Create an animated intro",
     "need_tags": [
      "motion-graphics",
-     "service-livestream"
+     "service-livestream",
+     "live-streaming"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -132,7 +137,8 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "service-livestream"
+     "service-livestream",
+     "live-streaming"
     ],
     "estimated_hours": {
      "value": 3,
@@ -154,7 +160,8 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "service-livestream"
+     "service-livestream",
+     "live-streaming"
     ],
     "estimated_hours": {
      "value": 4,
@@ -176,7 +183,8 @@
     "practice": "Deliver three platform versions",
     "need_tags": [
      "video-editing-pro",
-     "service-livestream"
+     "service-livestream",
+     "live-streaming"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -198,7 +206,8 @@
     "practice": "Connect BoxCast to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "service-livestream"
+     "service-livestream",
+     "live-streaming"
     ],
     "estimated_hours": {
      "value": 2,
@@ -220,7 +229,8 @@
     "practice": "Write a one-page \"how we use BoxCast\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "service-livestream"
+     "service-livestream",
+     "live-streaming"
     ],
     "estimated_hours": {
      "value": 2,

@@ -22,7 +22,12 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "osint-research"
+     "osint-research",
+     "fact-check",
+     "find-information",
+     "media-verification",
+     "online-safety",
+     "repair-guides"
     ],
     "estimated_hours": {
      "value": 1,
@@ -45,7 +50,11 @@
     "need_tags": [
      "find-information",
      "literature-review",
-     "osint-research"
+     "osint-research",
+     "fact-check",
+     "media-verification",
+     "online-safety",
+     "repair-guides"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -68,7 +77,11 @@
     "need_tags": [
      "literature-review",
      "fact-check",
-     "osint-research"
+     "osint-research",
+     "find-information",
+     "media-verification",
+     "online-safety",
+     "repair-guides"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -91,7 +104,12 @@
     "practice": "Build a reproducible search string",
     "need_tags": [
      "literature-review",
-     "osint-research"
+     "osint-research",
+     "fact-check",
+     "find-information",
+     "media-verification",
+     "online-safety",
+     "repair-guides"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -112,7 +130,12 @@
     "practice": "Export results to Zotero and set an alert",
     "need_tags": [
      "academic-writing",
-     "osint-research"
+     "osint-research",
+     "fact-check",
+     "find-information",
+     "media-verification",
+     "online-safety",
+     "repair-guides"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -133,7 +156,12 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "osint-research"
+     "osint-research",
+     "fact-check",
+     "find-information",
+     "media-verification",
+     "online-safety",
+     "repair-guides"
     ],
     "estimated_hours": {
      "value": 3,
@@ -154,7 +182,12 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "osint-research"
+     "osint-research",
+     "fact-check",
+     "find-information",
+     "media-verification",
+     "online-safety",
+     "repair-guides"
     ],
     "estimated_hours": {
      "value": 4,
@@ -177,7 +210,12 @@
     "need_tags": [
      "literature-review",
      "research-surveys",
-     "osint-research"
+     "osint-research",
+     "fact-check",
+     "find-information",
+     "media-verification",
+     "online-safety",
+     "repair-guides"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -199,7 +237,12 @@
     "practice": "Connect Wayback Machine to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "osint-research"
+     "osint-research",
+     "fact-check",
+     "find-information",
+     "media-verification",
+     "online-safety",
+     "repair-guides"
     ],
     "estimated_hours": {
      "value": 2,
@@ -221,7 +264,12 @@
     "practice": "Write a one-page \"how we use Wayback Machine\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "osint-research"
+     "osint-research",
+     "fact-check",
+     "find-information",
+     "media-verification",
+     "online-safety",
+     "repair-guides"
     ],
     "estimated_hours": {
      "value": 2,

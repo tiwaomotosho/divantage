@@ -22,7 +22,9 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "accessibility-tools"
+     "accessibility-tools",
+     "accessible-materials",
+     "accessible-communication"
     ],
     "estimated_hours": {
      "value": 1,
@@ -44,7 +46,8 @@
     "practice": "Set up NVDA screen reader for your needs",
     "need_tags": [
      "accessibility-tools",
-     "accessible-communication"
+     "accessible-communication",
+     "accessible-materials"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -65,7 +68,9 @@
     ],
     "practice": "Complete three daily tasks with NVDA screen reader",
     "need_tags": [
-     "accessibility-tools"
+     "accessibility-tools",
+     "accessible-materials",
+     "accessible-communication"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -88,7 +93,9 @@
     ],
     "practice": "Customise three settings",
     "need_tags": [
-     "accessibility-tools"
+     "accessibility-tools",
+     "accessible-materials",
+     "accessible-communication"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -110,7 +117,8 @@
     "practice": "Use NVDA screen reader in one meeting or class",
     "need_tags": [
      "accessible-communication",
-     "accessibility-tools"
+     "accessibility-tools",
+     "accessible-materials"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -131,7 +139,9 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "accessibility-tools"
+     "accessibility-tools",
+     "accessible-materials",
+     "accessible-communication"
     ],
     "estimated_hours": {
      "value": 3,
@@ -153,7 +163,9 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "accessibility-tools"
+     "accessibility-tools",
+     "accessible-materials",
+     "accessible-communication"
     ],
     "estimated_hours": {
      "value": 4,
@@ -174,7 +186,8 @@
     "practice": "Test a document or website with NVDA screen reader",
     "need_tags": [
      "accessible-materials",
-     "accessibility-tools"
+     "accessibility-tools",
+     "accessible-communication"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -196,7 +209,9 @@
     "practice": "Connect NVDA screen reader to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "accessibility-tools"
+     "accessibility-tools",
+     "accessible-materials",
+     "accessible-communication"
     ],
     "estimated_hours": {
      "value": 2,
@@ -218,7 +233,9 @@
     "practice": "Write a one-page \"how we use NVDA screen reader\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "accessibility-tools"
+     "accessibility-tools",
+     "accessible-materials",
+     "accessible-communication"
     ],
     "estimated_hours": {
      "value": 2,

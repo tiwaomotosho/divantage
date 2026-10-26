@@ -270,3 +270,9 @@ With open contribution (doc 22), most new work arrives as **Suggest an edit** is
 **When the owner asks for a new feature:** add a row to `spec-assets/qa/feature-matrix.csv` and the matching decision, requirement, screen and test (23 §2). `validate_feature_matrix.py` tells you what is missing.
 
 **New KPIs (add to §10):** helpers started per week; first-stage completion rate per helper; stage with the most drop-off (from aggregate events); tools in listed helpers still on "Guide in progress" (target 0 within 4 weeks of listing).
+
+## V2.7 additions — profiles, kits and safety
+- **Verify a profile.** Open the official pricing page. Add a line to `source/profile_verified.txt`: `slug | what you checked | source | date`. Then update that tool's `pricing_model`, `free_tier` and `price_note` in `tool_profiles.txt` to match what you saw. Run `rebuild_all.sh`. The Preview label shrinks to what is still unchecked. Do this first for tools in kits.
+- **Add a kit.** One line in `goal_kits.txt` (goals must exist; three to twelve; add the phrases people type). The build tells you what is wrong.
+- **Add a safety rule or keyword.** Edit `goal_safety.txt`. Keywords match the start of a word in a goal's slug, label and search words.
+- **Never** remove the Preview label by hand, or write a price into the registry without a source.

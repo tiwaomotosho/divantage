@@ -22,7 +22,8 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "property-management"
+     "property-management",
+     "hotel-management"
     ],
     "estimated_hours": {
      "value": 1,
@@ -43,7 +44,8 @@
     ],
     "practice": "Set up your profile and three services or products",
     "need_tags": [
-     "property-management"
+     "property-management",
+     "hotel-management"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -63,7 +65,8 @@
     ],
     "practice": "Run one full day of operations in AppFolio",
     "need_tags": [
-     "property-management"
+     "property-management",
+     "hotel-management"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -88,7 +91,8 @@
     "need_tags": [
      "crm-sales",
      "customer-support",
-     "property-management"
+     "property-management",
+     "hotel-management"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -109,7 +113,8 @@
     "practice": "Review last month's report and pick one action",
     "need_tags": [
      "kpi-tracking",
-     "property-management"
+     "property-management",
+     "hotel-management"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -130,7 +135,8 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "property-management"
+     "property-management",
+     "hotel-management"
     ],
     "estimated_hours": {
      "value": 3,
@@ -153,7 +159,8 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "property-management"
+     "property-management",
+     "hotel-management"
     ],
     "estimated_hours": {
      "value": 4,
@@ -174,7 +181,8 @@
     "practice": "Set up roles for staff and review the audit log",
     "need_tags": [
      "people-management",
-     "property-management"
+     "property-management",
+     "hotel-management"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -196,7 +204,8 @@
     "practice": "Connect AppFolio to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "property-management"
+     "property-management",
+     "hotel-management"
     ],
     "estimated_hours": {
      "value": 2,
@@ -218,7 +227,8 @@
     "practice": "Write a one-page \"how we use AppFolio\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "property-management"
+     "property-management",
+     "hotel-management"
     ],
     "estimated_hours": {
      "value": 2,

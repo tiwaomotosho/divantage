@@ -23,7 +23,9 @@
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
      "booking-appointments",
-     "salon-booking"
+     "salon-booking",
+     "gym-membership",
+     "point-of-sale"
     ],
     "estimated_hours": {
      "value": 1,
@@ -45,7 +47,9 @@
     "practice": "Set up your profile and three services or products",
     "need_tags": [
      "booking-appointments",
-     "salon-booking"
+     "salon-booking",
+     "gym-membership",
+     "point-of-sale"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -66,7 +70,9 @@
     "practice": "Run one full day of operations in Fresha",
     "need_tags": [
      "booking-appointments",
-     "salon-booking"
+     "salon-booking",
+     "gym-membership",
+     "point-of-sale"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -92,7 +98,9 @@
      "crm-sales",
      "customer-support",
      "booking-appointments",
-     "salon-booking"
+     "salon-booking",
+     "gym-membership",
+     "point-of-sale"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -114,7 +122,9 @@
     "need_tags": [
      "kpi-tracking",
      "booking-appointments",
-     "salon-booking"
+     "salon-booking",
+     "gym-membership",
+     "point-of-sale"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -136,7 +146,9 @@
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
      "booking-appointments",
-     "salon-booking"
+     "salon-booking",
+     "gym-membership",
+     "point-of-sale"
     ],
     "estimated_hours": {
      "value": 3,
@@ -159,7 +171,9 @@
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
      "booking-appointments",
-     "salon-booking"
+     "salon-booking",
+     "gym-membership",
+     "point-of-sale"
     ],
     "estimated_hours": {
      "value": 4,
@@ -181,7 +195,9 @@
     "need_tags": [
      "people-management",
      "booking-appointments",
-     "salon-booking"
+     "salon-booking",
+     "gym-membership",
+     "point-of-sale"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -204,7 +220,9 @@
     "need_tags": [
      "automation-workflows",
      "booking-appointments",
-     "salon-booking"
+     "salon-booking",
+     "gym-membership",
+     "point-of-sale"
     ],
     "estimated_hours": {
      "value": 2,
@@ -227,7 +245,9 @@
     "need_tags": [
      "workshop-facilitation",
      "booking-appointments",
-     "salon-booking"
+     "salon-booking",
+     "gym-membership",
+     "point-of-sale"
     ],
     "estimated_hours": {
      "value": 2,

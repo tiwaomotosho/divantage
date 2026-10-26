@@ -22,7 +22,9 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "reservoir-modelling"
+     "reservoir-modelling",
+     "well-performance",
+     "petrophysics"
     ],
     "estimated_hours": {
      "value": 1,
@@ -43,7 +45,9 @@
     ],
     "practice": "Load and QC a sample dataset",
     "need_tags": [
-     "reservoir-modelling"
+     "reservoir-modelling",
+     "well-performance",
+     "petrophysics"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -63,7 +67,9 @@
     ],
     "practice": "Complete a basic interpretation",
     "need_tags": [
-     "reservoir-modelling"
+     "reservoir-modelling",
+     "well-performance",
+     "petrophysics"
     ],
     "estimated_hours": {
      "value": 4.0,
@@ -87,7 +93,9 @@
     "need_tags": [
      "reservoir-modelling",
      "mine-planning",
-     "well-planning-design"
+     "well-planning-design",
+     "well-performance",
+     "petrophysics"
     ],
     "estimated_hours": {
      "value": 5.0,
@@ -108,7 +116,9 @@
     "practice": "Run three scenarios and compare",
     "need_tags": [
      "risk-modelling",
-     "reservoir-modelling"
+     "reservoir-modelling",
+     "well-performance",
+     "petrophysics"
     ],
     "estimated_hours": {
      "value": 4.0,
@@ -129,7 +139,9 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "reservoir-modelling"
+     "reservoir-modelling",
+     "well-performance",
+     "petrophysics"
     ],
     "estimated_hours": {
      "value": 3,
@@ -151,7 +163,9 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "reservoir-modelling"
+     "reservoir-modelling",
+     "well-performance",
+     "petrophysics"
     ],
     "estimated_hours": {
      "value": 4,
@@ -174,7 +188,9 @@
     "need_tags": [
      "regulatory-reporting",
      "technical-reporting",
-     "reservoir-modelling"
+     "reservoir-modelling",
+     "well-performance",
+     "petrophysics"
     ],
     "estimated_hours": {
      "value": 4.0,
@@ -196,7 +212,9 @@
     "practice": "Connect CMG reservoir simulation to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "reservoir-modelling"
+     "reservoir-modelling",
+     "well-performance",
+     "petrophysics"
     ],
     "estimated_hours": {
      "value": 2,
@@ -218,7 +236,9 @@
     "practice": "Write a one-page \"how we use CMG reservoir simulation\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "reservoir-modelling"
+     "reservoir-modelling",
+     "well-performance",
+     "petrophysics"
     ],
     "estimated_hours": {
      "value": 2,

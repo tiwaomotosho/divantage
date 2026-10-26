@@ -1,0 +1,247 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_pdf_xchange",
+ "slug": "pdf-xchange",
+ "title": "PDF-XChange Editor skill roadmap",
+ "tool_ids": [
+  "tool_pdf_xchange"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_pdf_xchange_productivity_app_0",
+    "slug": "pdf-xchange-productivity-app-0",
+    "title": "Get started with PDF-XChange Editor",
+    "outcome": "You can: set up PDF-XChange Editor, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "drawing-markup",
+     "pdf-work"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_pdf_xchange_productivity_app_1",
+    "slug": "pdf-xchange-productivity-app-1",
+    "title": "Set up and sync",
+    "outcome": "You can: set up PDF-XChange Editor on your devices",
+    "topics": [
+     "account",
+     "sync",
+     "mobile app",
+     "settings"
+    ],
+    "practice": "Install PDF-XChange Editor on phone and computer",
+    "need_tags": [
+     "drawing-markup",
+     "pdf-work"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_pdf_xchange_productivity_app_2",
+    "slug": "pdf-xchange-productivity-app-2",
+    "title": "Daily use",
+    "outcome": "You can: do your daily tasks faster",
+    "topics": [
+     "core actions",
+     "shortcuts",
+     "search"
+    ],
+    "practice": "Use PDF-XChange Editor for a week and note one saved hour",
+    "need_tags": [
+     "personal-productivity",
+     "drawing-markup",
+     "pdf-work"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_pdf_xchange_productivity_app_3",
+    "slug": "pdf-xchange-productivity-app-3",
+    "title": "Organise",
+    "outcome": "You can: build a simple system",
+    "topics": [
+     "folders/labels/tags",
+     "templates",
+     "naming conventions"
+    ],
+    "practice": "Reorganise your PDF-XChange Editor with a clear system",
+    "need_tags": [
+     "personal-productivity",
+     "records-management",
+     "drawing-markup",
+     "pdf-work"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_pdf_xchange_productivity_app_4",
+    "slug": "pdf-xchange-productivity-app-4",
+    "title": "Share safely",
+    "outcome": "You can: collaborate without oversharing",
+    "topics": [
+     "sharing permissions",
+     "links",
+     "version history"
+    ],
+    "practice": "Audit your shared items",
+    "need_tags": [
+     "files-cloud-storage",
+     "online-safety",
+     "drawing-markup",
+     "pdf-work"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_pdf_xchange_productivity_app_8",
+    "slug": "pdf-xchange-productivity-app-8",
+    "title": "Signature skills in PDF-XChange Editor",
+    "outcome": "You can: use the features that make PDF-XChange Editor distinctive",
+    "topics": [
+     "setup",
+     "daily use",
+     "sharing"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "drawing-markup",
+     "pdf-work"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_pdf_xchange_productivity_app_9",
+    "slug": "pdf-xchange-productivity-app-9",
+    "title": "Advanced PDF-XChange Editor",
+    "outcome": "You can: use PDF-XChange Editor's advanced capabilities with confidence",
+    "topics": [
+     "automation",
+     "organisation systems",
+     "security"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "drawing-markup",
+     "pdf-work"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_pdf_xchange_productivity_app_5",
+    "slug": "pdf-xchange-productivity-app-5",
+    "title": "Automate",
+    "outcome": "You can: let PDF-XChange Editor work for you",
+    "topics": [
+     "rules",
+     "integrations",
+     "scheduled tasks"
+    ],
+    "practice": "Create two automation rules",
+    "need_tags": [
+     "automation-workflows",
+     "drawing-markup",
+     "pdf-work"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_pdf_xchange_productivity_app_10",
+    "slug": "pdf-xchange-productivity-app-10",
+    "title": "Integrate PDF-XChange Editor into your workflow",
+    "outcome": "You can: connect PDF-XChange Editor with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect PDF-XChange Editor to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "drawing-markup",
+     "pdf-work"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_pdf_xchange_productivity_app_11",
+    "slug": "pdf-xchange-productivity-app-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use PDF-XChange Editor well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use PDF-XChange Editor\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "drawing-markup",
+     "pdf-work"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype",
+ "archetype": "productivity-app",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

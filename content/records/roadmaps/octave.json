@@ -1,0 +1,251 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_octave",
+ "slug": "octave",
+ "title": "GNU Octave skill roadmap",
+ "tool_ids": [
+  "tool_octave"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_octave_dev_tool_0",
+    "slug": "octave-dev-tool-0",
+    "title": "Get started with GNU Octave",
+    "outcome": "You can: set up GNU Octave, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "engineering-calculations",
+     "scientific-computing"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_octave_dev_tool_1",
+    "slug": "octave-dev-tool-1",
+    "title": "Install and run",
+    "outcome": "You can: set up GNU Octave and run a first project",
+    "topics": [
+     "installation",
+     "project structure",
+     "documentation",
+     "hello world"
+    ],
+    "practice": "Run the official quick start",
+    "need_tags": [
+     "write-code",
+     "engineering-calculations",
+     "scientific-computing"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_octave_dev_tool_2",
+    "slug": "octave-dev-tool-2",
+    "title": "Core workflow",
+    "outcome": "You can: do the everyday task GNU Octave is for",
+    "topics": [
+     "core commands/APIs",
+     "configuration",
+     "conventions"
+    ],
+    "practice": "Build a small feature or config with GNU Octave",
+    "need_tags": [
+     "write-code",
+     "engineering-calculations",
+     "scientific-computing"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_octave_dev_tool_3",
+    "slug": "octave-dev-tool-3",
+    "title": "Debug and test",
+    "outcome": "You can: find and prevent problems",
+    "topics": [
+     "logs",
+     "debugging",
+     "tests",
+     "common errors"
+    ],
+    "practice": "Fix a deliberately broken example",
+    "need_tags": [
+     "write-code",
+     "test-automation",
+     "engineering-calculations",
+     "scientific-computing"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_octave_dev_tool_4",
+    "slug": "octave-dev-tool-4",
+    "title": "Work in a team",
+    "outcome": "You can: use GNU Octave in shared projects",
+    "topics": [
+     "version control",
+     "code review",
+     "environments",
+     "secrets"
+    ],
+    "practice": "Add GNU Octave to a team repository with docs",
+    "need_tags": [
+     "version-control",
+     "engineering-calculations",
+     "scientific-computing"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_octave_dev_tool_8",
+    "slug": "octave-dev-tool-8",
+    "title": "Signature skills in GNU Octave",
+    "outcome": "You can: use the features that make GNU Octave distinctive",
+    "topics": [
+     "setup",
+     "core workflow",
+     "debugging"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "engineering-calculations",
+     "scientific-computing"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_octave_dev_tool_9",
+    "slug": "octave-dev-tool-9",
+    "title": "Advanced GNU Octave",
+    "outcome": "You can: use GNU Octave's advanced capabilities with confidence",
+    "topics": [
+     "performance",
+     "security",
+     "automation and CI"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "engineering-calculations",
+     "scientific-computing"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_octave_dev_tool_5",
+    "slug": "octave-dev-tool-5",
+    "title": "Production-ready",
+    "outcome": "You can: run GNU Octave reliably in production",
+    "topics": [
+     "security",
+     "performance",
+     "monitoring",
+     "CI/CD"
+    ],
+    "practice": "Add GNU Octave to a CI pipeline with checks",
+    "need_tags": [
+     "devops-cicd",
+     "observability",
+     "engineering-calculations",
+     "scientific-computing"
+    ],
+    "estimated_hours": {
+     "value": 5.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_octave_dev_tool_10",
+    "slug": "octave-dev-tool-10",
+    "title": "Integrate GNU Octave into your workflow",
+    "outcome": "You can: connect GNU Octave with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect GNU Octave to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "engineering-calculations",
+     "scientific-computing"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_octave_dev_tool_11",
+    "slug": "octave-dev-tool-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use GNU Octave well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use GNU Octave\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "engineering-calculations",
+     "scientific-computing"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype",
+ "archetype": "dev-tool",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

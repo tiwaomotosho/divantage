@@ -1,0 +1,24 @@
+{
+  "$comment": "V2.8: replaces the Cloudflare _headers file (D-083). Place at the repo root. The script hash for the theme script comes from scripts/csp-hashes.ts at build time (11, ADR-008). Preview deployments get X-Robots-Tag noindex from Vercel by default; keep NEXT_PUBLIC-style noindex meta in beta too (flag noindex_site).",
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "Strict-Transport-Security", "value": "max-age=31536000; includeSubDomains" },
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
+        { "key": "Permissions-Policy", "value": "camera=(), microphone=(), geolocation=(), payment=(), usb=(), interest-cohort=()" },
+        { "key": "Cross-Origin-Opener-Policy", "value": "same-origin" },
+        { "key": "X-Frame-Options", "value": "DENY" },
+        { "key": "Content-Security-Policy", "value": "default-src 'self'; script-src 'self' 'sha256-REPLACE_WITH_THEME_SCRIPT_HASH' https://challenges.cloudflare.com; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; frame-src https://challenges.cloudflare.com https://accounts.google.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self' https://accounts.google.com; object-src 'none'; upgrade-insecure-requests" }
+      ]
+    },
+    { "source": "/fonts/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }] },
+    { "source": "/assets/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }] },
+    { "source": "/api/v1/search-index.json", "headers": [{ "key": "Cache-Control", "value": "public, max-age=300, stale-while-revalidate=86400" }] },
+    { "source": "/api/v1/records/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=300, stale-while-revalidate=86400" }] }
+  ],
+  "crons": [
+    { "path": "/api/cron/daily", "schedule": "0 2 * * *" }
+  ]
+}

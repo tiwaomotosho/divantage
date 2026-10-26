@@ -23,7 +23,9 @@
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
      "e-signatures",
-     "contract-drafting"
+     "contract-drafting",
+     "legal-practice-management",
+     "freelancing"
     ],
     "estimated_hours": {
      "value": 1,
@@ -45,7 +47,9 @@
     "practice": "Install Docusign on phone and computer",
     "need_tags": [
      "e-signatures",
-     "contract-drafting"
+     "contract-drafting",
+     "legal-practice-management",
+     "freelancing"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -67,7 +71,9 @@
     "need_tags": [
      "personal-productivity",
      "e-signatures",
-     "contract-drafting"
+     "contract-drafting",
+     "legal-practice-management",
+     "freelancing"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -92,7 +98,9 @@
      "personal-productivity",
      "records-management",
      "e-signatures",
-     "contract-drafting"
+     "contract-drafting",
+     "legal-practice-management",
+     "freelancing"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -115,7 +123,9 @@
      "files-cloud-storage",
      "online-safety",
      "e-signatures",
-     "contract-drafting"
+     "contract-drafting",
+     "legal-practice-management",
+     "freelancing"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -137,7 +147,9 @@
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
      "e-signatures",
-     "contract-drafting"
+     "contract-drafting",
+     "legal-practice-management",
+     "freelancing"
     ],
     "estimated_hours": {
      "value": 3,
@@ -160,7 +172,9 @@
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
      "e-signatures",
-     "contract-drafting"
+     "contract-drafting",
+     "legal-practice-management",
+     "freelancing"
     ],
     "estimated_hours": {
      "value": 4,
@@ -182,7 +196,9 @@
     "need_tags": [
      "automation-workflows",
      "e-signatures",
-     "contract-drafting"
+     "contract-drafting",
+     "legal-practice-management",
+     "freelancing"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -205,7 +221,9 @@
     "need_tags": [
      "automation-workflows",
      "e-signatures",
-     "contract-drafting"
+     "contract-drafting",
+     "legal-practice-management",
+     "freelancing"
     ],
     "estimated_hours": {
      "value": 2,
@@ -228,7 +246,9 @@
     "need_tags": [
      "workshop-facilitation",
      "e-signatures",
-     "contract-drafting"
+     "contract-drafting",
+     "legal-practice-management",
+     "freelancing"
     ],
     "estimated_hours": {
      "value": 2,

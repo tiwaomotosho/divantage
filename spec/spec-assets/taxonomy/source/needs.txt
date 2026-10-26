@@ -286,7 +286,7 @@ warehouse-inventory | Run warehouse inventory | organize | zoho-inventory, odoo,
 shipment-tracking | Book and track shipments | organize | freightos, marinetraffic, flightradar24, easyship | Know where every shipment is.
 flight-planning | Plan flights and study aviation | organize | foreflight, skydemon, garmin-pilot, x-plane | Routes, weather and briefings.
 maritime-navigation | Navigate and plan at sea | organize | opencpn, navionics, marinetraffic | Charts, AIS and passage plans.
-driver-earnings | Work with ride-hailing and delivery apps | grow-business | uber, bolt, google-sheets | Track trips, costs and real earnings.
+driver-earnings | Work with ride-hailing and delivery apps | grow-business | bolt, indrive, uber, google-sheets | Track trips, costs and real earnings.
 
 ## HOSPITALITY, TOURISM & FOOD SERVICE
 restaurant-operations | Take orders and run a restaurant | organize | square, toast, loyverse, lightspeed | Orders, kitchen tickets and sales reports.

@@ -1,0 +1,52 @@
+{
+ "version": "2.7.0",
+ "paths": [
+  {
+   "id": "goal_first",
+   "label": "I want to…",
+   "how": "Type an outcome in your own words. Matches kits first, then goals, then tools.",
+   "targets": "kits, goals"
+  },
+  {
+   "id": "who_you_are",
+   "label": "Who are you?",
+   "how": "Pick what you do (2,603 identities). We show the needs and goals people like you have.",
+   "targets": "needs, goals"
+  },
+  {
+   "id": "skills",
+   "label": "Skills",
+   "how": "Pick a skill to build. We show goals that use it and the roadmap.",
+   "targets": "skills, goals"
+  },
+  {
+   "id": "situations",
+   "label": "Common situations",
+   "how": "Tap a card such as 'Get a remote job' or 'Teach kids programming'.",
+   "targets": "kits"
+  },
+  {
+   "id": "intent",
+   "label": "Compete, grow or scale",
+   "how": "Choose why you are using technology; goals are grouped by intent.",
+   "targets": "goals"
+  },
+  {
+   "id": "browse_need",
+   "label": "Browse by need",
+   "how": "Walk the 279 needs; each lists its goals.",
+   "targets": "needs, goals"
+  },
+  {
+   "id": "suggested",
+   "label": "Suggested for you",
+   "how": "Rule-based suggestions for people who do not search: see doc 26.",
+   "targets": "kits, goals"
+  }
+ ],
+ "goals_per_intent": {
+  "compete": 432,
+  "grow": 450,
+  "scale": 282
+ }
+}

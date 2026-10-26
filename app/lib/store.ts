@@ -217,3 +217,172 @@ export function sessionSet(key: string, value: string | null) {
     /* ignore */
   }
 }
+
+// ---- V2.8 device stores (D-079 stars, kit progress, market, helper bar, need feedback, continue card) ----
+export interface StarItem {
+  type: "tool" | "goal" | "kit" | "helper" | "skill" | "role";
+  slug: string;
+  label: string;
+  at: string;
+}
+export interface DeviceState {
+  v: 1;
+  stars: Record<string, StarItem>;
+  kits: Record<string, number[]>;
+  market: "ng" | "africa" | "other";
+  helperHidden: boolean;
+  coachSeen: boolean;
+  dismissed: Record<string, boolean>;
+  last: { url: string; title: string; kicker: string; tool?: string; at: string } | null;
+  /** Skill state per learning path: the person's own claim that they can do it (D-079). */
+  canDo?: Record<string, boolean>;
+}
+const DEVICE_KEY = "da.device.v1";
+const emptyDevice: DeviceState = { v: 1, stars: {}, kits: {}, market: "ng", helperHidden: false, coachSeen: false, dismissed: {}, last: null };
+export const getDevice = () => readJson<DeviceState>(DEVICE_KEY, (x) => x?.v === 1, emptyDevice);
+function setDevice(next: Partial<DeviceState>) {
+  setRaw(DEVICE_KEY, JSON.stringify({ ...getDevice(), ...next }));
+  emit();
+}
+export function useDevice(): DeviceState | null {
+  return useSyncExternalStore(subscribe, getDevice, () => null);
+}
+export const deviceActions = {
+  toggleStar(item: Omit<StarItem, "at">) {
+    const s = { ...getDevice().stars };
+    const k = `${item.type}:${item.slug}`;
+    if (s[k]) delete s[k];
+    else s[k] = { ...item, at: new Date().toISOString() };
+    setDevice({ stars: s });
+    return Boolean(s[k]);
+  },
+  setKitStep(kit: string, step: number, done: boolean) {
+    const k = { ...getDevice().kits };
+    const set = new Set(k[kit] ?? []);
+    if (done) set.add(step);
+    else set.delete(step);
+    k[kit] = [...set].sort((a, b) => a - b);
+    setDevice({ kits: k });
+  },
+  setMarket(market: DeviceState["market"]) {
+    setDevice({ market });
+  },
+  hideHelper(hidden: boolean) {
+    setDevice({ helperHidden: hidden });
+  },
+  coachSeen() {
+    setDevice({ coachSeen: true });
+  },
+  dismiss(key: string) {
+    setDevice({ dismissed: { ...getDevice().dismissed, [key]: true } });
+  },
+  setCanDo(rm: string, v: boolean) {
+    setDevice({ canDo: { ...(getDevice().canDo ?? {}), [rm]: v } });
+  },
+  visit(last: DeviceState["last"]) {
+    setDevice({ last });
+  },
+  clear() {
+    setRaw(DEVICE_KEY, null);
+    emit();
+  },
+};
+
+/** Need feedback hides a need for this visit only (D-102). */
+export function sessionHidden(key: string): boolean {
+  return sessionGet(`da.hide.${key}`) === "1";
+}
+export function setSessionHidden(key: string, v: boolean) {
+  sessionSet(`da.hide.${key}`, v ? "1" : null);
+  emit();
+}
+
+// ---- Demo accounts (S44/S46). Owner decision 26 Oct 2026: accounts run in demo mode on this device until the
+// real auth stack (Spike S-2) and database are in place. No data leaves the device. ----
+export interface Consent {
+  on: boolean;
+  at: string | null;
+}
+export interface Account {
+  v: 1;
+  demo: true;
+  name: string;
+  email: string;
+  method: "google" | "email";
+  created: string;
+  consents: { progress: Consent; recommend: Consent; trending: Consent } | null;
+  syncedAt: string | null;
+}
+const ACCOUNT_KEY = "da.account.v1";
+export const getAccount = () => readJson<Account | null>(ACCOUNT_KEY, (x) => x?.v === 1, null);
+export function useAccount(): Account | null {
+  return useSyncExternalStore(subscribe, getAccount, () => null);
+}
+const nameFromEmail = (e: string) => {
+  const n = e.split("@")[0].split(/[._-]/)[0];
+  return n ? n[0].toUpperCase() + n.slice(1) : "Friend";
+};
+export const accountActions = {
+  signIn(method: "google" | "email", email: string) {
+    const em = email.trim() || "demo.user@example.com";
+    setRaw(ACCOUNT_KEY, JSON.stringify({ v: 1, demo: true, name: nameFromEmail(em), email: em, method, created: new Date().toISOString(), consents: null, syncedAt: null } satisfies Account));
+    emit();
+  },
+  setConsents(c: Account["consents"]) {
+    const a = getAccount();
+    if (!a) return;
+    setRaw(ACCOUNT_KEY, JSON.stringify({ ...a, consents: c, syncedAt: c?.progress.on ? new Date().toISOString() : null }));
+    emit();
+  },
+  rename(name: string) {
+    const a = getAccount();
+    if (a) setRaw(ACCOUNT_KEY, JSON.stringify({ ...a, name: name.slice(0, 40) }));
+    emit();
+  },
+  signOut() {
+    setRaw(ACCOUNT_KEY, null);
+    emit();
+  },
+};
+
+// ---- Retention loop (doc 24 §11): suggestions sent, stage outputs, outcomes, dated dismissals ----
+export interface Retention {
+  v: 1;
+  suggestions: { ref: string; on: string; type: string; at: string }[];
+  outputs: Record<string, { text: string; at: string }>;
+  outcomes: { key: string; label: string; value: string; at: string }[];
+  dismissedAt: Record<string, string>;
+  promptedAt: string | null;
+}
+const RET_KEY = "da.retention.v1";
+const emptyRet: Retention = { v: 1, suggestions: [], outputs: {}, outcomes: [], dismissedAt: {}, promptedAt: null };
+export const getRetention = () => readJson<Retention>(RET_KEY, (x) => x?.v === 1, emptyRet);
+export function useRetention(): Retention | null {
+  return useSyncExternalStore(subscribe, getRetention, () => null);
+}
+function setRet(p: Partial<Retention>) {
+  setRaw(RET_KEY, JSON.stringify({ ...getRetention(), ...p }));
+  emit();
+}
+export const retentionActions = {
+  suggestionSent(ref: string, on: string, type: string) {
+    setRet({ suggestions: [{ ref, on, type, at: new Date().toISOString() }, ...getRetention().suggestions].slice(0, 20) });
+  },
+  saveOutput(key: string, text: string) {
+    setRet({ outputs: { ...getRetention().outputs, [key]: { text: text.slice(0, 280), at: new Date().toISOString() } } });
+  },
+  outcome(key: string, label: string, value: string) {
+    setRet({ outcomes: [{ key, label, value, at: new Date().toISOString() }, ...getRetention().outcomes.filter((o) => o.key !== key)] });
+  },
+  /** "Not for me" / "I already know this": hidden for 30 days (doc 24 §9). */
+  dismiss(key: string) {
+    setRet({ dismissedAt: { ...getRetention().dismissedAt, [key]: new Date().toISOString() } });
+  },
+  prompted() {
+    setRet({ promptedAt: new Date().toISOString() });
+  },
+};
+export function isDismissed(r: Retention | null, key: string) {
+  const at = r?.dismissedAt[key];
+  return Boolean(at && Date.now() - Date.parse(at) < 30 * 86400000);
+}

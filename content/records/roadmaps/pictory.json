@@ -1,0 +1,238 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_pictory",
+ "slug": "pictory",
+ "title": "Pictory skill roadmap",
+ "tool_ids": [
+  "tool_pictory"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_pictory_video_pro_0",
+    "slug": "pictory-video-pro-0",
+    "title": "Get started with Pictory",
+    "outcome": "You can: set up Pictory, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "short-video"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_pictory_video_pro_1",
+    "slug": "pictory-video-pro-1",
+    "title": "Edit a first sequence",
+    "outcome": "You can: assemble and trim a video",
+    "topics": [
+     "importing",
+     "timeline",
+     "trimming",
+     "audio levels"
+    ],
+    "practice": "Edit a 1-minute piece",
+    "need_tags": [
+     "video-editing-pro",
+     "short-video"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_pictory_video_pro_2",
+    "slug": "pictory-video-pro-2",
+    "title": "Titles and captions",
+    "outcome": "You can: add text people can read",
+    "topics": [
+     "titles",
+     "lower thirds",
+     "captions"
+    ],
+    "practice": "Add captions and a title to your piece",
+    "need_tags": [
+     "video-editing-pro",
+     "accessible-materials",
+     "short-video"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_pictory_video_pro_3",
+    "slug": "pictory-video-pro-3",
+    "title": "Colour and sound",
+    "outcome": "You can: make it look and sound professional",
+    "topics": [
+     "colour correction",
+     "audio cleanup",
+     "music"
+    ],
+    "practice": "Correct colour and balance audio",
+    "need_tags": [
+     "video-editing-pro",
+     "short-video"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_pictory_video_pro_4",
+    "slug": "pictory-video-pro-4",
+    "title": "Motion and effects",
+    "outcome": "You can: add motion with purpose",
+    "topics": [
+     "keyframes",
+     "transitions",
+     "templates"
+    ],
+    "practice": "Create an animated intro",
+    "need_tags": [
+     "motion-graphics",
+     "short-video"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_pictory_video_pro_8",
+    "slug": "pictory-video-pro-8",
+    "title": "Signature skills in Pictory",
+    "outcome": "You can: use the features that make Pictory distinctive",
+    "topics": [
+     "editing",
+     "titles",
+     "export"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "short-video"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_pictory_video_pro_9",
+    "slug": "pictory-video-pro-9",
+    "title": "Advanced Pictory",
+    "outcome": "You can: use Pictory's advanced capabilities with confidence",
+    "topics": [
+     "colour",
+     "effects",
+     "delivery specs"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "short-video"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_pictory_video_pro_5",
+    "slug": "pictory-video-pro-5",
+    "title": "Deliver to spec",
+    "outcome": "You can: deliver for broadcast, web and social",
+    "topics": [
+     "codecs",
+     "aspect ratios",
+     "loudness",
+     "archiving"
+    ],
+    "practice": "Deliver three platform versions",
+    "need_tags": [
+     "video-editing-pro",
+     "short-video"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_pictory_video_pro_10",
+    "slug": "pictory-video-pro-10",
+    "title": "Integrate Pictory into your workflow",
+    "outcome": "You can: connect Pictory with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Pictory to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "short-video"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_pictory_video_pro_11",
+    "slug": "pictory-video-pro-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Pictory well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Pictory\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "short-video"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype",
+ "archetype": "video-pro",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

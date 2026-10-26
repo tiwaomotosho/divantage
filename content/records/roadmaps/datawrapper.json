@@ -23,7 +23,12 @@
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
      "data-visualisation",
-     "open-data"
+     "open-data",
+     "public-health-data",
+     "dashboards-bi",
+     "policy-research",
+     "scientific-figures",
+     "consulting-deliverables"
     ],
     "estimated_hours": {
      "value": 1,
@@ -47,7 +52,11 @@
      "dashboards-bi",
      "statistical-analysis",
      "data-visualisation",
-     "open-data"
+     "open-data",
+     "public-health-data",
+     "policy-research",
+     "scientific-figures",
+     "consulting-deliverables"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -69,7 +78,12 @@
     "practice": "Make three charts that each answer one question",
     "need_tags": [
      "data-visualisation",
-     "open-data"
+     "open-data",
+     "public-health-data",
+     "dashboards-bi",
+     "policy-research",
+     "scientific-figures",
+     "consulting-deliverables"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -95,7 +109,12 @@
      "statistical-analysis",
      "data-cleaning",
      "data-visualisation",
-     "open-data"
+     "open-data",
+     "public-health-data",
+     "dashboards-bi",
+     "policy-research",
+     "scientific-figures",
+     "consulting-deliverables"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -118,7 +137,11 @@
      "dashboards-bi",
      "kpi-tracking",
      "data-visualisation",
-     "open-data"
+     "open-data",
+     "public-health-data",
+     "policy-research",
+     "scientific-figures",
+     "consulting-deliverables"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -140,7 +163,12 @@
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
      "data-visualisation",
-     "open-data"
+     "open-data",
+     "public-health-data",
+     "dashboards-bi",
+     "policy-research",
+     "scientific-figures",
+     "consulting-deliverables"
     ],
     "estimated_hours": {
      "value": 3,
@@ -163,7 +191,12 @@
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
      "data-visualisation",
-     "open-data"
+     "open-data",
+     "public-health-data",
+     "dashboards-bi",
+     "policy-research",
+     "scientific-figures",
+     "consulting-deliverables"
     ],
     "estimated_hours": {
      "value": 4,
@@ -185,7 +218,12 @@
     "need_tags": [
      "data-pipelines",
      "data-visualisation",
-     "open-data"
+     "open-data",
+     "public-health-data",
+     "dashboards-bi",
+     "policy-research",
+     "scientific-figures",
+     "consulting-deliverables"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -208,7 +246,12 @@
     "need_tags": [
      "automation-workflows",
      "data-visualisation",
-     "open-data"
+     "open-data",
+     "public-health-data",
+     "dashboards-bi",
+     "policy-research",
+     "scientific-figures",
+     "consulting-deliverables"
     ],
     "estimated_hours": {
      "value": 2,
@@ -231,7 +274,12 @@
     "need_tags": [
      "workshop-facilitation",
      "data-visualisation",
-     "open-data"
+     "open-data",
+     "public-health-data",
+     "dashboards-bi",
+     "policy-research",
+     "scientific-figures",
+     "consulting-deliverables"
     ],
     "estimated_hours": {
      "value": 2,

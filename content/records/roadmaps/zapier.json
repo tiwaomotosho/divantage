@@ -22,7 +22,9 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "automation-workflows"
+     "automation-workflows",
+     "data-pipelines",
+     "no-code-apps"
     ],
     "estimated_hours": {
      "value": 1,
@@ -43,7 +45,9 @@
     ],
     "practice": "Write one \"when X, do Y\" rule from your work",
     "need_tags": [
-     "automation-workflows"
+     "automation-workflows",
+     "data-pipelines",
+     "no-code-apps"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -64,7 +68,8 @@
     "practice": "Build and test one simple flow or app",
     "need_tags": [
      "automation-workflows",
-     "no-code-apps"
+     "no-code-apps",
+     "data-pipelines"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -87,7 +92,9 @@
     ],
     "practice": "Add a condition and a lookup to your flow",
     "need_tags": [
-     "automation-workflows"
+     "automation-workflows",
+     "data-pipelines",
+     "no-code-apps"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -108,7 +115,9 @@
     ],
     "practice": "Add an error alert and review usage limits",
     "need_tags": [
-     "automation-workflows"
+     "automation-workflows",
+     "data-pipelines",
+     "no-code-apps"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -129,7 +138,9 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "automation-workflows"
+     "automation-workflows",
+     "data-pipelines",
+     "no-code-apps"
     ],
     "estimated_hours": {
      "value": 3,
@@ -152,7 +163,9 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "automation-workflows"
+     "automation-workflows",
+     "data-pipelines",
+     "no-code-apps"
     ],
     "estimated_hours": {
      "value": 4,
@@ -174,7 +187,9 @@
     "practice": "Document and hand over an automation to a colleague",
     "need_tags": [
      "automation-workflows",
-     "process-mapping"
+     "process-mapping",
+     "data-pipelines",
+     "no-code-apps"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -195,7 +210,9 @@
     ],
     "practice": "Connect Zapier to one other tool you use and remove one manual step",
     "need_tags": [
-     "automation-workflows"
+     "automation-workflows",
+     "data-pipelines",
+     "no-code-apps"
     ],
     "estimated_hours": {
      "value": 2,
@@ -217,7 +234,9 @@
     "practice": "Write a one-page \"how we use Zapier\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "automation-workflows"
+     "automation-workflows",
+     "data-pipelines",
+     "no-code-apps"
     ],
     "estimated_hours": {
      "value": 2,

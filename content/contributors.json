@@ -1,0 +1,16 @@
+{
+  "demo": true,
+  "note": "SAMPLE DATA for the beta preview (owner decision 26 Oct 2026). Replace with consented credit names from the suggestion pipeline before launch.",
+  "values": [
+    { "name": "Ada, Lagos", "count": 7 },
+    { "name": "Tunde O.", "count": 5 },
+    { "name": "Ngozi, Enugu", "count": 4 },
+    { "name": "Kwame, Accra", "count": 3 },
+    { "name": "Amina B.", "count": 3 },
+    { "name": "Chidi, Port Harcourt", "count": 2 },
+    { "name": "Wanjiru, Nairobi", "count": 2 },
+    { "name": "Femi", "count": 1 },
+    { "name": "Zainab, Kano", "count": 1 },
+    { "name": "Thabo, Johannesburg", "count": 1 }
+  ]
+}

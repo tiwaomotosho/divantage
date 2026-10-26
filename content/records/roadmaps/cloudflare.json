@@ -22,7 +22,11 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "cloud-infrastructure"
+     "cloud-infrastructure",
+     "devops-cicd",
+     "observability",
+     "web-development",
+     "security-operations"
     ],
     "estimated_hours": {
      "value": 1,
@@ -44,7 +48,11 @@
     "practice": "Run the official quick start",
     "need_tags": [
      "write-code",
-     "cloud-infrastructure"
+     "cloud-infrastructure",
+     "devops-cicd",
+     "observability",
+     "web-development",
+     "security-operations"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -65,7 +73,11 @@
     "practice": "Build a small feature or config with Cloudflare",
     "need_tags": [
      "write-code",
-     "cloud-infrastructure"
+     "cloud-infrastructure",
+     "devops-cicd",
+     "observability",
+     "web-development",
+     "security-operations"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -90,7 +102,11 @@
     "need_tags": [
      "write-code",
      "test-automation",
-     "cloud-infrastructure"
+     "cloud-infrastructure",
+     "devops-cicd",
+     "observability",
+     "web-development",
+     "security-operations"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -112,7 +128,11 @@
     "practice": "Add Cloudflare to a team repository with docs",
     "need_tags": [
      "version-control",
-     "cloud-infrastructure"
+     "cloud-infrastructure",
+     "devops-cicd",
+     "observability",
+     "web-development",
+     "security-operations"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -133,7 +153,11 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "cloud-infrastructure"
+     "cloud-infrastructure",
+     "devops-cicd",
+     "observability",
+     "web-development",
+     "security-operations"
     ],
     "estimated_hours": {
      "value": 3,
@@ -156,7 +180,11 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "cloud-infrastructure"
+     "cloud-infrastructure",
+     "devops-cicd",
+     "observability",
+     "web-development",
+     "security-operations"
     ],
     "estimated_hours": {
      "value": 4,
@@ -179,7 +207,9 @@
     "need_tags": [
      "devops-cicd",
      "observability",
-     "cloud-infrastructure"
+     "cloud-infrastructure",
+     "web-development",
+     "security-operations"
     ],
     "estimated_hours": {
      "value": 5.0,
@@ -201,7 +231,11 @@
     "practice": "Connect Cloudflare to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "cloud-infrastructure"
+     "cloud-infrastructure",
+     "devops-cicd",
+     "observability",
+     "web-development",
+     "security-operations"
     ],
     "estimated_hours": {
      "value": 2,
@@ -223,7 +257,11 @@
     "practice": "Write a one-page \"how we use Cloudflare\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "cloud-infrastructure"
+     "cloud-infrastructure",
+     "devops-cicd",
+     "observability",
+     "web-development",
+     "security-operations"
     ],
     "estimated_hours": {
      "value": 2,

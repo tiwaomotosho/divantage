@@ -1,0 +1,256 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_uppbeat",
+ "slug": "uppbeat",
+ "title": "Uppbeat skill roadmap",
+ "tool_ids": [
+  "tool_uppbeat"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_uppbeat_audio_production_0",
+    "slug": "uppbeat-audio-production-0",
+    "title": "Get started with Uppbeat",
+    "outcome": "You can: set up Uppbeat, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "design-simple-graphics",
+     "creator-income",
+     "audio-production"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_uppbeat_audio_production_1",
+    "slug": "uppbeat-audio-production-1",
+    "title": "Record cleanly",
+    "outcome": "You can: record clear audio with Uppbeat",
+    "topics": [
+     "input levels",
+     "microphones",
+     "room noise",
+     "file formats"
+    ],
+    "practice": "Record a 1-minute voice or instrument take with good levels",
+    "need_tags": [
+     "audio-production",
+     "podcast-production",
+     "design-simple-graphics",
+     "creator-income"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_uppbeat_audio_production_2",
+    "slug": "uppbeat-audio-production-2",
+    "title": "Edit and arrange",
+    "outcome": "You can: cut, arrange and tidy recordings",
+    "topics": [
+     "trimming",
+     "fades",
+     "arranging clips/regions",
+     "markers"
+    ],
+    "practice": "Edit a rough recording into a clean 2-minute piece",
+    "need_tags": [
+     "audio-production",
+     "design-simple-graphics",
+     "creator-income"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_uppbeat_audio_production_3",
+    "slug": "uppbeat-audio-production-3",
+    "title": "Mix for clarity",
+    "outcome": "You can: balance and polish a mix",
+    "topics": [
+     "levels and panning",
+     "EQ",
+     "compression",
+     "reverb"
+    ],
+    "practice": "Mix a short track or podcast episode",
+    "need_tags": [
+     "audio-production",
+     "design-simple-graphics",
+     "creator-income"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_uppbeat_audio_production_4",
+    "slug": "uppbeat-audio-production-4",
+    "title": "Export for every platform",
+    "outcome": "You can: deliver the right file for each destination",
+    "topics": [
+     "loudness targets",
+     "sample rates",
+     "formats",
+     "metadata"
+    ],
+    "practice": "Export versions for streaming, podcast and video",
+    "need_tags": [
+     "audio-production",
+     "podcast-production",
+     "design-simple-graphics",
+     "creator-income"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_uppbeat_audio_production_8",
+    "slug": "uppbeat-audio-production-8",
+    "title": "Signature skills in Uppbeat",
+    "outcome": "You can: use the features that make Uppbeat distinctive",
+    "topics": [
+     "recording",
+     "editing and arranging",
+     "mixing basics"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "design-simple-graphics",
+     "creator-income",
+     "audio-production"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_uppbeat_audio_production_9",
+    "slug": "uppbeat-audio-production-9",
+    "title": "Advanced Uppbeat",
+    "outcome": "You can: use Uppbeat's advanced capabilities with confidence",
+    "topics": [
+     "mastering",
+     "advanced processing and routing"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "design-simple-graphics",
+     "creator-income",
+     "audio-production"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_uppbeat_audio_production_5",
+    "slug": "uppbeat-audio-production-5",
+    "title": "Produce a full release",
+    "outcome": "You can: take a project from idea to release",
+    "topics": [
+     "session templates",
+     "stems",
+     "collaboration",
+     "release checklist"
+    ],
+    "practice": "Produce and release a complete track or episode",
+    "need_tags": [
+     "audio-production",
+     "creator-income",
+     "design-simple-graphics"
+    ],
+    "estimated_hours": {
+     "value": 6.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_uppbeat_audio_production_10",
+    "slug": "uppbeat-audio-production-10",
+    "title": "Integrate Uppbeat into your workflow",
+    "outcome": "You can: connect Uppbeat with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Uppbeat to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "design-simple-graphics",
+     "creator-income",
+     "audio-production"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_uppbeat_audio_production_11",
+    "slug": "uppbeat-audio-production-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Uppbeat well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Uppbeat\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "design-simple-graphics",
+     "creator-income",
+     "audio-production"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype",
+ "archetype": "audio-production",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

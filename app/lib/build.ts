@@ -9,14 +9,19 @@ export const BUILD_DATE = build.buildDate as string;
 
 export const flag = (name: string) => flags[name] === true;
 
+export const PROMISE = "Find the tools people in your job use. Learn them step by step.";
+
 export function title(page: string) {
-  return `${page} — ${BRAND}`;
+  return page ? `${page} — ${BRAND}` : `${BRAND}: ${PROMISE}`;
 }
 
 /** Standard meta for a page (14 §1). While noindex_site is on, every page is noindex (FR-066). */
 export function meta(page: string, description?: string, opts: { noindex?: boolean } = {}) {
   const tags: Record<string, string>[] = [{ title: title(page) }];
-  if (description) tags.push({ name: "description", content: description });
+  tags.push({ name: "description", content: description ?? PROMISE });
+  tags.push({ property: "og:title", content: page || BRAND });
+  tags.push({ property: "og:description", content: description ?? PROMISE });
+  tags.push({ property: "og:image", content: `${SITE_URL}/assets/og/og-default.png` });
   if (flag("noindex_site") || opts.noindex) tags.push({ name: "robots", content: "noindex" });
   return tags;
 }

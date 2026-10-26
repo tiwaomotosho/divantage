@@ -22,7 +22,8 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "grading-feedback"
+     "grading-feedback",
+     "academic-writing"
     ],
     "estimated_hours": {
      "value": 1,
@@ -45,7 +46,8 @@
     "need_tags": [
      "virtual-classroom",
      "interactive-teaching",
-     "grading-feedback"
+     "grading-feedback",
+     "academic-writing"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -66,7 +68,8 @@
     "practice": "Post one week of lessons",
     "need_tags": [
      "lesson-planning",
-     "grading-feedback"
+     "grading-feedback",
+     "academic-writing"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -90,7 +93,8 @@
     "practice": "Run a quiz and give feedback",
     "need_tags": [
      "quizzes-assessment",
-     "grading-feedback"
+     "grading-feedback",
+     "academic-writing"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -112,7 +116,8 @@
     "need_tags": [
      "interactive-teaching",
      "accessible-materials",
-     "grading-feedback"
+     "grading-feedback",
+     "academic-writing"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -133,7 +138,8 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "grading-feedback"
+     "grading-feedback",
+     "academic-writing"
     ],
     "estimated_hours": {
      "value": 3,
@@ -155,7 +161,8 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "grading-feedback"
+     "grading-feedback",
+     "academic-writing"
     ],
     "estimated_hours": {
      "value": 4,
@@ -175,7 +182,8 @@
     ],
     "practice": "Review results and plan a re-teach",
     "need_tags": [
-     "grading-feedback"
+     "grading-feedback",
+     "academic-writing"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -197,7 +205,8 @@
     "practice": "Connect Gradescope to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "grading-feedback"
+     "grading-feedback",
+     "academic-writing"
     ],
     "estimated_hours": {
      "value": 2,
@@ -219,7 +228,8 @@
     "practice": "Write a one-page \"how we use Gradescope\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "grading-feedback"
+     "grading-feedback",
+     "academic-writing"
     ],
     "estimated_hours": {
      "value": 2,

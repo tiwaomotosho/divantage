@@ -1,88 +1,60 @@
-// S14 Comparison: table with sticky first column (≥ 768 px), stacked cards on phones.
+// S14 Comparison: one card per tool on phones, a table from 768 px (new composition from da.css cards and lists).
 import { Link, data } from "react-router";
 import type { Route } from "./+types/compare.$slug";
 import { recordBySlug, toolName } from "~/lib/content.server";
 import { meta as pageMeta } from "../lib/build";
-import { Breadcrumb, PageHeader, Section, TrustFooter } from "../components/ui";
+import { RecordPage } from "../components/Record";
+import { ToolLogo } from "../components/da";
 
 export function loader({ params }: Route.LoaderArgs) {
   const r = recordBySlug("comparisons", params.slug);
   if (!r) throw data("Not found", { status: 404 });
-  return { r, names: Object.fromEntries(r.tool_ids.map((id: string) => [id, toolName(id)])) };
+  return { r, names: Object.fromEntries(r.tool_ids.map((id: string) => [id, toolName(id)])) as Record<string, { slug: string; name: string } | null> };
 }
-
 export const meta: Route.MetaFunction = ({ data: d }) => (d ? pageMeta(d.r.title, d.r.decision_question) : pageMeta("Not found"));
 
 const label = (dim: string) => dim.replace(/_/g, " ").replace(/^./, (c) => c.toUpperCase());
 
 export default function Compare({ loaderData: { r, names } }: Route.ComponentProps) {
-  const Cell = ({ c }: { c: any }) =>
-    !c || c.kind === "unknown" ? (
-      <span className="unknown">Not yet verified</span>
-    ) : (
-      <>
-        {c.text}
-        {c.kind === "editorial" && <span className="badge badge-neutral badge-xs">Our view</span>}
-      </>
-    );
   return (
-    <div className="container">
-      <Breadcrumb items={[{ to: "/discover", label: "Compare" }, { label: r.title }]} />
-      <PageHeader eyebrow="Comparison" title={r.title} lead={r.decision_question} />
-      <div className="compare-table-wrap">
-        <table className="compare-table">
-          <thead>
-            <tr>
-              <th scope="col">What matters</th>
-              {r.tool_ids.map((id: string) => (
-                <th scope="col" key={id}>
-                  <Link to={`/tools/${names[id]?.slug}`}>{names[id]?.name}</Link>
-                </th>
-              ))}
-            </tr>
-          </thead>
-          <tbody>
-            {r.rows.map((row: any) => (
-              <tr key={row.dimension}>
-                <th scope="row">{label(row.dimension)}</th>
-                {r.tool_ids.map((id: string) => (
-                  <td key={id}>
-                    <Cell c={row.cells[id]} />
-                  </td>
-                ))}
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-      <div className="compare-cards">
+    <RecordPage crumbs={[{ to: "/tools", label: "Tools" }, { label: "Compare" }]} label="Comparison" title={r.title} lead={r.decision_question} sources={r.sources} recordId={r.id}>
+      <div className="grid c3">
         {r.tool_ids.map((id: string) => (
-          <section key={id} className="card">
-            <h2 className="h3">{names[id]?.name}</h2>
-            <dl>
-              {r.rows.map((row: any) => (
-                <div key={row.dimension}>
-                  <dt>{label(row.dimension)}</dt>
-                  <dd>
-                    <Cell c={row.cells[id]} />
-                  </dd>
-                </div>
-              ))}
-            </dl>
-          </section>
+          <div key={id} className="card pad">
+            <Link className="row g10" to={`/tools/${names[id]?.slug}`}>
+              <ToolLogo slug={names[id]?.slug ?? ""} size="sm" />
+              <span className="b7">{names[id]?.name}</span>
+            </Link>
+            <div className="list" style={{ marginTop: 8 }}>
+              {r.rows.map((row: any) => {
+                const c = row.cells[id];
+                return (
+                  <div key={row.dimension} className="li as" style={{ display: "block" }}>
+                    <div className="t-label">{label(row.dimension)}</div>
+                    <div className="t-sm" style={{ marginTop: 4 }}>
+                      {!c || c.kind === "unknown" ? <span className="su">Not yet verified</span> : c.text}
+                      {c?.kind === "editorial" && <span className="tag h-slate" style={{ marginLeft: 6 }}>Our view</span>}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
         ))}
       </div>
-      <Section title="Best fit" id="h-fit">
-        <ul className="reading bullets">
+      <div className="card pad">
+        <div className="t-label">Best fit · our view</div>
+        <div className="col g8 t-sm" style={{ marginTop: 8 }}>
           {r.best_fit.map((b: any) => (
-            <li key={b.tool_id}>
-              <strong>{names[b.tool_id]?.name}:</strong> {b.for_whom} <span className="badge badge-neutral badge-xs">Our view</span>
-            </li>
+            <div key={b.tool_id}>
+              <b>{names[b.tool_id]?.name}:</b> {b.for_whom}
+            </div>
           ))}
-        </ul>
-        <p className="meta reading">{r.method_note}</p>
-      </Section>
-      <TrustFooter reviewed={r.editorial?.last_verified_at} sources={r.sources} recordId={r.id} validation="pending" />
-    </div>
+        </div>
+        <p className="t-xs su" style={{ marginTop: 10 }}>
+          {r.method_note}
+        </p>
+      </div>
+    </RecordPage>
   );
 }

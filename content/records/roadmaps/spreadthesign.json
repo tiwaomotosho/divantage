@@ -22,7 +22,8 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "sign-language"
+     "sign-language",
+     "accessible-communication"
     ],
     "estimated_hours": {
      "value": 1,
@@ -67,7 +68,8 @@
     "practice": "Complete three daily tasks with Spread The Sign",
     "need_tags": [
      "accessibility-tools",
-     "sign-language"
+     "sign-language",
+     "accessible-communication"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -91,7 +93,8 @@
     "practice": "Customise three settings",
     "need_tags": [
      "accessibility-tools",
-     "sign-language"
+     "sign-language",
+     "accessible-communication"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -134,7 +137,8 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "sign-language"
+     "sign-language",
+     "accessible-communication"
     ],
     "estimated_hours": {
      "value": 3,
@@ -155,7 +159,8 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "sign-language"
+     "sign-language",
+     "accessible-communication"
     ],
     "estimated_hours": {
      "value": 4,
@@ -176,7 +181,8 @@
     "practice": "Test a document or website with Spread The Sign",
     "need_tags": [
      "accessible-materials",
-     "sign-language"
+     "sign-language",
+     "accessible-communication"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -198,7 +204,8 @@
     "practice": "Connect Spread The Sign to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "sign-language"
+     "sign-language",
+     "accessible-communication"
     ],
     "estimated_hours": {
      "value": 2,
@@ -220,7 +227,8 @@
     "practice": "Write a one-page \"how we use Spread The Sign\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "sign-language"
+     "sign-language",
+     "accessible-communication"
     ],
     "estimated_hours": {
      "value": 2,

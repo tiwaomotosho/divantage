@@ -1,0 +1,260 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_firebase",
+ "slug": "firebase",
+ "title": "Firebase skill roadmap",
+ "tool_ids": [
+  "tool_firebase"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_firebase_dev_tool_0",
+    "slug": "firebase-dev-tool-0",
+    "title": "Get started with Firebase",
+    "outcome": "You can: set up Firebase, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "devops-cicd",
+     "databases",
+     "mobile-app-dev"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_firebase_dev_tool_1",
+    "slug": "firebase-dev-tool-1",
+    "title": "Install and run",
+    "outcome": "You can: set up Firebase and run a first project",
+    "topics": [
+     "installation",
+     "project structure",
+     "documentation",
+     "hello world"
+    ],
+    "practice": "Run the official quick start",
+    "need_tags": [
+     "write-code",
+     "devops-cicd",
+     "databases",
+     "mobile-app-dev"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_firebase_dev_tool_2",
+    "slug": "firebase-dev-tool-2",
+    "title": "Core workflow",
+    "outcome": "You can: do the everyday task Firebase is for",
+    "topics": [
+     "core commands/APIs",
+     "configuration",
+     "conventions"
+    ],
+    "practice": "Build a small feature or config with Firebase",
+    "need_tags": [
+     "write-code",
+     "devops-cicd",
+     "databases",
+     "mobile-app-dev"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_firebase_dev_tool_3",
+    "slug": "firebase-dev-tool-3",
+    "title": "Debug and test",
+    "outcome": "You can: find and prevent problems",
+    "topics": [
+     "logs",
+     "debugging",
+     "tests",
+     "common errors"
+    ],
+    "practice": "Fix a deliberately broken example",
+    "need_tags": [
+     "write-code",
+     "test-automation",
+     "devops-cicd",
+     "databases",
+     "mobile-app-dev"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_firebase_dev_tool_4",
+    "slug": "firebase-dev-tool-4",
+    "title": "Work in a team",
+    "outcome": "You can: use Firebase in shared projects",
+    "topics": [
+     "version control",
+     "code review",
+     "environments",
+     "secrets"
+    ],
+    "practice": "Add Firebase to a team repository with docs",
+    "need_tags": [
+     "version-control",
+     "devops-cicd",
+     "databases",
+     "mobile-app-dev"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_firebase_dev_tool_8",
+    "slug": "firebase-dev-tool-8",
+    "title": "Signature skills in Firebase",
+    "outcome": "You can: use the features that make Firebase distinctive",
+    "topics": [
+     "setup",
+     "core workflow",
+     "debugging"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "devops-cicd",
+     "databases",
+     "mobile-app-dev"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_firebase_dev_tool_9",
+    "slug": "firebase-dev-tool-9",
+    "title": "Advanced Firebase",
+    "outcome": "You can: use Firebase's advanced capabilities with confidence",
+    "topics": [
+     "performance",
+     "security",
+     "automation and CI"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "devops-cicd",
+     "databases",
+     "mobile-app-dev"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_firebase_dev_tool_5",
+    "slug": "firebase-dev-tool-5",
+    "title": "Production-ready",
+    "outcome": "You can: run Firebase reliably in production",
+    "topics": [
+     "security",
+     "performance",
+     "monitoring",
+     "CI/CD"
+    ],
+    "practice": "Add Firebase to a CI pipeline with checks",
+    "need_tags": [
+     "devops-cicd",
+     "observability",
+     "databases",
+     "mobile-app-dev"
+    ],
+    "estimated_hours": {
+     "value": 5.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_firebase_dev_tool_10",
+    "slug": "firebase-dev-tool-10",
+    "title": "Integrate Firebase into your workflow",
+    "outcome": "You can: connect Firebase with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Firebase to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "devops-cicd",
+     "databases",
+     "mobile-app-dev"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_firebase_dev_tool_11",
+    "slug": "firebase-dev-tool-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Firebase well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Firebase\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "devops-cicd",
+     "databases",
+     "mobile-app-dev"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype",
+ "archetype": "dev-tool",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

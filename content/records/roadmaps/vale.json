@@ -22,7 +22,9 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "technical-writing"
+     "technical-writing",
+     "academic-writing",
+     "write-clearly"
     ],
     "estimated_hours": {
      "value": 1,
@@ -43,7 +45,8 @@
     "practice": "Draft a 500-word piece",
     "need_tags": [
      "write-clearly",
-     "technical-writing"
+     "technical-writing",
+     "academic-writing"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -64,7 +67,8 @@
     "practice": "Edit your draft using Vale's suggestions critically",
     "need_tags": [
      "write-clearly",
-     "technical-writing"
+     "technical-writing",
+     "academic-writing"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -89,7 +93,8 @@
     "need_tags": [
      "academic-writing",
      "book-writing-publishing",
-     "technical-writing"
+     "technical-writing",
+     "write-clearly"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -110,7 +115,9 @@
     "practice": "Create a mini style guide",
     "need_tags": [
      "technical-writing",
-     "copywriting"
+     "copywriting",
+     "academic-writing",
+     "write-clearly"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -131,7 +138,9 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "technical-writing"
+     "technical-writing",
+     "academic-writing",
+     "write-clearly"
     ],
     "estimated_hours": {
      "value": 3,
@@ -152,7 +161,9 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "technical-writing"
+     "technical-writing",
+     "academic-writing",
+     "write-clearly"
     ],
     "estimated_hours": {
      "value": 4,
@@ -173,7 +184,9 @@
     "practice": "Publish a piece with an editor's review",
     "need_tags": [
      "newsletter-publishing",
-     "technical-writing"
+     "technical-writing",
+     "academic-writing",
+     "write-clearly"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -195,7 +208,9 @@
     "practice": "Connect Vale to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "technical-writing"
+     "technical-writing",
+     "academic-writing",
+     "write-clearly"
     ],
     "estimated_hours": {
      "value": 2,
@@ -217,7 +232,9 @@
     "practice": "Write a one-page \"how we use Vale\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "technical-writing"
+     "technical-writing",
+     "academic-writing",
+     "write-clearly"
     ],
     "estimated_hours": {
      "value": 2,

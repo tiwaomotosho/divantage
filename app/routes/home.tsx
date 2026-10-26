@@ -1,421 +1,308 @@
-// S01-R Home (question-led) + S01-R2 "Explore by" switcher + V2.5 helper cards and identity ribbon.
-import { useEffect, useMemo, useState, type KeyboardEvent } from "react";
-import { Form, Link, useNavigate, useSearchParams } from "react-router";
-import { ArrowRight, Wrench } from "lucide-react";
+// S01-R Home (reference 01-home, 02-home-picked). Promise H1 (D-104), identity picker, Step 2 need chips,
+// desktop photo mosaic, 6 kits, How it works, trust strip.
+import { useEffect, useMemo, useState } from "react";
+import { Link, useNavigate, useSearchParams } from "react-router";
 import type { Route } from "./+types/home";
-import { homeData } from "~/lib/content.server";
-import { flag, meta as pageMeta, BRAND } from "../lib/build";
+import { homeData, identitySummary } from "~/lib/content.server";
+import { flag, meta as pageMeta } from "../lib/build";
 import { IdentityPicker, type PickedIdentity } from "../components/IdentityPicker";
-import { identityActions, helperActions, useHelperState, useIdentityMemory } from "../lib/store";
-import { HelperCard } from "../components/HelperBits";
-import { loadSkillSearch, loadToolNames, useLazy } from "../lib/indexes";
-import { useHelperDefs, helperPosition } from "../components/HelperPanel";
+import { Icon, Picture, ToolLogo, Tag, Tile, NextStepCard } from "../components/da";
+import { fetchJson } from "../lib/indexes";
+import type { TrendingFile } from "./trending";
+import { identityActions, useDevice, useIdentityMemory } from "../lib/store";
 
-export const loader = () => homeData();
+export const loader = () => ({ ...homeData(), sample: identitySummary("nurse") });
 
-export const meta: Route.MetaFunction = () => [
-  { title: `${BRAND}: make technology your advantage` },
-  ...pageMeta("", "Tell us who you are and get the digital tools, skills and learning paths that fit your work.").slice(1),
-];
+export const meta: Route.MetaFunction = () => pageMeta("");
 
-type Tab = "identity" | "goal" | "skill" | "tool" | "sector";
-const TABS: { id: Tab; label: string; flag: string }[] = [
-  { id: "identity", label: "Who are you?", flag: "explore_identity" },
-  { id: "goal", label: "What do you want to do?", flag: "explore_goal" },
-  { id: "skill", label: "Skills", flag: "explore_skills" },
-  { id: "tool", label: "Tools", flag: "explore_tools" },
-  { id: "sector", label: "Sectors", flag: "explore_sectors" },
-];
+interface IdFile {
+  identity: { slug: string; label: string };
+  resolved: { core: string[]; sector: string[] };
+  kits: string[];
+}
+type Cards = Record<string, { slug: string; label: string }>;
 
 export default function Home({ loaderData: d }: Route.ComponentProps) {
   const [params] = useSearchParams();
-  const tabs = TABS.filter((t) => flag(t.flag));
-  const urlTab = params.get("explore") as Tab | null;
-  const tab: Tab = tabs.some((t) => t.id === urlTab) ? urlTab! : "identity";
   const navigate = useNavigate();
+  const mem = useIdentityMemory();
+  const dev = useDevice();
+  const [sel, setSel] = useState<PickedIdentity[]>([]);
+  const [helping, setHelping] = useState(false);
+  const [needs, setNeeds] = useState<{ slug: string; label: string }[]>([]);
+  const [chosen, setChosen] = useState<string[]>([]);
 
-  function onTabKey(e: KeyboardEvent, i: number) {
-    let j = i;
-    if (e.key === "ArrowRight") j = (i + 1) % tabs.length;
-    else if (e.key === "ArrowLeft") j = (i - 1 + tabs.length) % tabs.length;
-    else if (e.key === "Home") j = 0;
-    else if (e.key === "End") j = tabs.length - 1;
-    else return;
-    e.preventDefault();
-    document.getElementById(`tab-${tabs[j].id}`)?.focus();
-  }
+  // ?roles=nurse,content-creator preselects roles (reference 02).
+  useEffect(() => {
+    const roles = params.get("roles");
+    if (!roles) return;
+    Promise.all(roles.split(",").slice(0, 3).map((s) => fetchJson<IdFile>(`/data/id/${s}.json`).catch(() => null))).then((xs) =>
+      setSel(xs.filter((x): x is IdFile => Boolean(x)).map((x) => ({ slug: x.identity.slug, label: x.identity.label }))),
+    );
+  }, [params]);
+
+  // Step 2: needs from the chosen roles' core work.
+  useEffect(() => {
+    if (!sel.length) return setNeeds([]);
+    let live = true;
+    Promise.all([fetchJson<Cards>("/data/need-cards.json"), ...sel.map((s) => fetchJson<IdFile>(`/data/id/${s.slug}.json`))]).then(([cards, ...ids]) => {
+      if (!live) return;
+      const list = [...new Set((ids as IdFile[]).flatMap((x) => x.resolved.core.slice(0, 3)))].slice(0, 6);
+      setNeeds(list.map((n) => (cards as Cards)[n]).filter(Boolean));
+    });
+    return () => {
+      live = false;
+    };
+  }, [sel]);
+
+  const go = () => {
+    if (!sel.length) return;
+    identityActions.remember(sel);
+    const qp = new URLSearchParams();
+    if (chosen.length) qp.set("needs", chosen.join(","));
+    if (helping) qp.set("helping", "1");
+    const q = qp.toString() ? `?${qp}` : "";
+    navigate(`/for/${sel.map((s) => s.slug).join("+")}${q}`);
+  };
+  const continueCard = flag("continue_card") && dev?.last;
 
   return (
     <>
-      <section className="hero">
-        <div className="hero-inner">
-          <Motif />
-          <h1 className="display">Make technology your advantage.</h1>
-          <p className="hero-lead">
-            Tell us who you are. We'll show the digital tools people like you use, what each one is for, and a step-by-step way to learn it.
-          </p>
-          <ReturningBanner />
-          {tabs.length > 1 && (
-            <div role="tablist" aria-label="Explore by" className="explore-tabs">
-              {tabs.map((t, i) => (
-                <Link
-                  key={t.id}
-                  id={`tab-${t.id}`}
-                  role="tab"
-                  aria-selected={tab === t.id}
-                  aria-controls={`panel-${t.id}`}
-                  tabIndex={tab === t.id ? 0 : -1}
-                  to={t.id === "identity" ? "/" : `/?explore=${t.id === "skill" ? "skills" : t.id}`}
-                  preventScrollReset
-                  replace
-                  className="explore-tab"
-                  onKeyDown={(e) => onTabKey(e, i)}
-                  onClick={(e) => {
-                    e.preventDefault();
-                    navigate(t.id === "identity" ? "/" : `/?explore=${t.id === "skill" ? "skills" : t.id}`, { replace: true, preventScrollReset: true });
-                  }}
-                >
-                  {t.label}
-                </Link>
-              ))}
+      <section className="wrap" style={{ paddingTop: "clamp(28px,5vw,64px)" }}>
+        <div className="row g32 as" style={{ justifyContent: "space-between" }}>
+          <div className="fl1" style={{ maxWidth: 620 }}>
+            <span className="chip soft sm">
+              <Icon name="sparkles" /> Free · Independent · {d.identityCount.toLocaleString("en-GB")} jobs and roles
+            </span>
+            <h1 className="t-display" style={{ marginTop: 18 }} data-da="promise">
+              Find the tools people in your job use. <span className="hl">Learn them step by step.</span>
+            </h1>
+            <p className="t-lg mu" style={{ marginTop: 14 }}>
+              Tell us what you do. We show the tools that matter for your work, how to learn each one, and your next step.
+            </p>
+            {mem && mem.slugs.length > 0 && sel.length === 0 && (
+              <div className="banner info" style={{ marginTop: 18 }}>
+                <Icon name="user" />
+                <div className="fl1 t-sm">
+                  Welcome back. Continue as <b>{mem.slugs.map((s) => s.label).join(" + ")}</b>?
+                  <div className="row g8" style={{ marginTop: 8 }}>
+                    <Link className="btn s sm" to={`/for/${mem.slugs.map((s) => s.slug).join("+")}`}>
+                      Continue
+                    </Link>
+                    <button type="button" className="btn g sm" onClick={() => identityActions.forget()}>
+                      Not me
+                    </button>
+                  </div>
+                </div>
+              </div>
+            )}
+            <div className="row sb" style={{ marginTop: 30 }}>
+              <span className="t-label">Step 1 · {helping ? "Who are you helping?" : "Who are you?"}</span>
+              <span className="row g8 t-sm mu">
+                <button type="button" className="sw" role="switch" aria-checked={helping} aria-label="I'm helping someone else" onClick={() => setHelping(!helping)} />
+                <span className="desk">I'm helping someone else</span>
+                <span className="mob">Helping someone</span>
+              </span>
             </div>
-          )}
-          <div className="hero-panel" role={tabs.length > 1 ? "tabpanel" : undefined} id={`panel-${tab}`} aria-labelledby={tabs.length > 1 ? `tab-${tab}` : undefined}>
-            {tab === "identity" && <IdentityPanel popular={d.popular} />}
-            {tab === "goal" && <GoalPanel goals={d.goals} />}
-            {tab === "skill" && <SkillPanel groups={d.skillGroups} />}
-            {tab === "tool" && <ToolPanel />}
-            {tab === "sector" && <SectorPanel sectors={d.sectors} />}
+            <div style={{ marginTop: 10 }}>
+              <IdentityPicker selected={sel} onChange={setSel} examples={d.examples} />
+              {sel.length > 0 && needs.length > 0 && (
+                <>
+                  <div className="t-label" style={{ marginTop: 22 }}>
+                    Step 2 · What do you want to get better at?
+                  </div>
+                  <div className="row g8 wrapf" style={{ marginTop: 10 }}>
+                    {needs.map((n) => {
+                      const on = chosen.includes(n.slug);
+                      return (
+                        <button key={n.slug} type="button" className="chip" aria-pressed={on} onClick={() => setChosen(on ? chosen.filter((x) => x !== n.slug) : [...chosen, n.slug])}>
+                          {on && <Icon name="check" />} {n.label}
+                        </button>
+                      );
+                    })}
+                  </div>
+                </>
+              )}
+            </div>
+            <div className="row g16 wrapf" style={{ marginTop: 22 }}>
+              <a
+                className="btn p lg"
+                href={sel.length ? `/for/${sel.map((s) => s.slug).join("+")}` : "/for"}
+                data-da="primary-cta"
+                onClick={(e) => {
+                  e.preventDefault();
+                  if (sel.length) go();
+                  else document.querySelector<HTMLInputElement>("[data-da=identity-picker] input")?.focus();
+                }}
+              >
+                Show {helping ? "their" : "my"} tools <Icon name="arrow-right" />
+              </a>
+              <Link className="t-sm pr b6" to="/for">
+                Browse all jobs →
+              </Link>
+            </div>
+          </div>
+          <div className="desk" style={{ flex: "none", width: "min(520px,42vw)" }}>
+            <div className="mosaic" data-da="hero-mosaic">
+              <div className="m" style={{ left: 0, top: "6%", width: "47%", height: "54%" }}>
+                <Picture slug="nurse-tablet" ratio="portrait" priority />
+              </div>
+              <div className="m" style={{ left: "51%", top: 0, width: "49%", height: "42%" }}>
+                <Picture slug="remote-worker" ratio="card" priority />
+              </div>
+              <div className="m" style={{ left: "51%", top: "46%", width: "49%", height: "54%" }}>
+                <Picture slug="farmer-field" ratio="portrait" />
+              </div>
+              <div className="m" style={{ left: 0, top: "64%", width: "47%", height: "36%" }}>
+                <Picture slug="shop-owner" ratio="card" />
+              </div>
+              <div className="float" style={{ left: "26%", top: "44%", width: 240 }}>
+                <div className="row g8">
+                  <Tag hue={d.sample.hue} icon={d.sample.icon}>
+                    {d.sample.label}
+                  </Tag>
+                </div>
+                <div className="b7" style={{ marginTop: 8 }}>
+                  Your tools are ready
+                </div>
+                <div className="t-xs mu">
+                  {d.sample.needs} needs · {d.sample.tools} tools · {d.sample.paths} learning paths
+                </div>
+                <div className="row g6" style={{ marginTop: 10 }}>
+                  {d.sample.logos.map((l) => (
+                    <ToolLogo key={l} slug={l} size="sm" />
+                  ))}
+                  <span className="t-xs su">+{Math.max(0, d.sample.tools - 3)}</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <Ribbon items={d.ribbon} />
       </section>
 
-      <div className="container">
-        <section className="section" aria-labelledby="h-everyone">
-          <h2 id="h-everyone">Everyone gets a digital upgrade</h2>
-          <p className="lead">
-            {d.counts.identities.toLocaleString("en-GB")} professions and life roles, {d.counts.tools} tools, a three-level course outline for each one.
-          </p>
-          <ul className="identity-cards">
-            {d.cards.map((c) => (
-              <li key={c.slug}>
-                <Link to={`/for/${c.slug}`} className="identity-card">
-                  <span className="identity-card-title">{c.plural}</span>
-                  <ArrowRight size={18} aria-hidden="true" />
-                </Link>
-              </li>
-            ))}
-          </ul>
-          <p>
-            <Link className="link-strong" to="/who-are-you">
-              Browse everyone <ArrowRight size={16} aria-hidden="true" />
+      {continueCard && dev?.last && (
+        <section className="wrap" style={{ paddingTop: 24 }}>
+          <NextStepCard next={{ kicker: "Continue where you left off", title: dev.last.title, sub: dev.last.kicker, url: dev.last.url, cta: "Continue" }} />
+        </section>
+      )}
+
+      {flag("kits") && (
+        <section className="wrap sec">
+          <div className="row sb ae">
+            <div>
+              <span className="t-label">Common situations</span>
+              <h2 className="t-h2" style={{ marginTop: 6 }}>
+                Or start from what you want to do
+              </h2>
+            </div>
+            <Link className="t-sm pr b6 desk" to="/kits">
+              All {d.kitCount} kits →
             </Link>
-          </p>
-        </section>
-
-        {flag("helpers") && d.helpers.length > 0 && (
-          <section className="section" aria-labelledby="h-helpers">
-            <h2 id="h-helpers">Or follow a guide</h2>
-            <p className="lead">A helper walks you through the tools for one kind of work, one step at a time.</p>
-            <ul className="helper-cards">
-              {d.helpers.map((h) => (
-                <li key={h.slug}>
-                  <HelperCard h={h} />
-                </li>
-              ))}
-            </ul>
-          </section>
-        )}
-
-        <section className="section" aria-labelledby="h-how">
-          <h2 id="h-how">How it works</h2>
-          <ol className="how-strip">
-            <li>
-              <span className="how-node">1</span>
-              <h3>Say who you are</h3>
-              <p>Pick your work or role. Up to three, if you wear several hats.</p>
-            </li>
-            <li>
-              <span className="how-node">2</span>
-              <h3>See your toolkit</h3>
-              <p>The needs of your work, and the tools that meet each one.</p>
-            </li>
-            <li>
-              <span className="how-node">3</span>
-              <h3>Learn in three levels</h3>
-              <p>Beginner, intermediate and expert, adjusted to your work.</p>
-            </li>
-            <li>
-              <span className="how-node">4</span>
-              <h3>Share it</h3>
-              <p>Help a friend or family member get started too.</p>
-            </li>
-          </ol>
-        </section>
-
-        <section className="section" aria-labelledby="h-goal">
-          <h2 id="h-goal">Or jump straight to a goal</h2>
-          <ul className="chip-list">
-            {d.tasks.map((t) => (
-              <li key={t.slug}>
-                <Link className="chip" to={`/tasks/${t.slug}`}>
-                  {t.title}
-                </Link>
-              </li>
+          </div>
+          <div className="grid c3 m2" style={{ marginTop: 18 }}>
+            {d.kits.map((k) => (
+              <Link key={k.slug} className="card pad col g12" to={`/kits/${k.slug}`} data-da="kit-card" style={{ minWidth: 0 }}>
+                <Tile icon={k.icon} hue={k.hue} />
+                <span className="b7" style={{ lineHeight: 1.3 }}>
+                  {k.title}
+                </span>
+              </Link>
             ))}
-          </ul>
+          </div>
+          <Link className="t-sm pr b6 mob" to="/kits">
+            All {d.kitCount} kits →
+          </Link>
+          <div className="row g8 wrapf" style={{ marginTop: 16 }}>
+            <span className="t-sm mu">Or pick why:</span>
+            {d.intents.map((it) => (
+              <Link key={it.slug} className="chip sm" to={`/goals?intent=${it.slug}`}>
+                <Icon name={it.icon} /> {it.label}
+              </Link>
+            ))}
+          </div>
         </section>
+      )}
 
-        <section className="trust-strip" aria-label="Our promise">
-          <p>
-            <strong>Non-commercial.</strong> No ads, sponsors or affiliate links. Who you are stays on your device. Every fact links to its source and review date.{" "}
-            <Link to="/about/editorial-standards">How we choose tools</Link>
-          </p>
-        </section>
-      </div>
+      <TrendingStrip />
+
+      <section className="wrap sec">
+        <div className="card pad" style={{ background: "var(--da-color-surface-sunken)", border: 0 }}>
+          <div className="grid c3" style={{ gap: 24 }}>
+            {[
+              ["Tell us what you do", "Up to three roles. Nurse and content creator? Both count."],
+              ["See the tools that matter", "Ranked for people in your job, with honest prices."],
+              ["Learn, then take the next step", "Short paths with practice tasks, and one clear next step."],
+            ].map(([t, s], i) => (
+              <div key={t}>
+                <div className="t-h1 hl" style={{ fontSize: "2.25rem" }}>
+                  {i + 1}
+                </div>
+                <div className="b7" style={{ marginTop: 6 }}>
+                  {t}
+                </div>
+                <div className="t-sm mu">{s}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="wrap" style={{ paddingTop: 24 }}>
+        <div className="banner info" data-da="trust-strip">
+          <Icon name="shield-check" />
+          <div className="fl1">
+            <b>Independent and non-commercial.</b> <span className="mu">No ads, no affiliate links. Every tool shows its price, when we last checked it, or a clear Preview label.</span>
+          </div>
+          <Link className="t-sm pr b6" to="/about/how-we-review">
+            How we review →
+          </Link>
+        </div>
+      </section>
     </>
   );
 }
 
-function IdentityPanel({ popular }: { popular: PickedIdentity[] }) {
-  const [sel, setSel] = useState<PickedIdentity[]>([]);
-  const [helping, setHelping] = useState(false);
-  const navigate = useNavigate();
-  const go = () => {
-    if (!sel.length) return;
-    identityActions.remember(sel);
-    navigate(`/for/${sel.map((s) => s.slug).join("+")}`);
-  };
+/** Trending strip on home (doc 24 §10): top 3 goals this week. Sample numbers until real opt-in counts exist. */
+function TrendingStrip() {
+  const [t, setT] = useState<TrendingFile | null>(null);
+  const dev = useDevice();
+  useEffect(() => {
+    fetchJson<TrendingFile>("/data/trending.json").then(setT, () => setT(null));
+  }, []);
+  const m = dev?.market === "africa" ? "africa" : dev?.market === "other" ? "all" : "ng";
+  const rows = t?.markets[m].goals.slice(0, 3) ?? [];
+  if (!rows.length) return null;
   return (
-    <Form
-      action="/who-are-you"
-      className="identity-panel"
-      onSubmit={(e) => {
-        e.preventDefault();
-        go();
-      }}
-    >
-      <IdentityPicker label={helping ? "Who are you helping?" : "Who are you?"} selected={sel} onChange={setSel} examples={popular} showSkills />
-      {flag("helping_mode") && (
-        <label className="switch">
-          <input type="checkbox" checked={helping} onChange={(e) => setHelping(e.target.checked)} />
-          <span className="switch-track" aria-hidden="true" />
-          <span>
-            I'm helping someone else
-            <span className="hint">We'll say "they" instead of "you".</span>
-          </span>
-        </label>
-      )}
-      <div className="hero-actions">
-        <button type="submit" className="btn btn-cta" disabled={!sel.length} aria-disabled={!sel.length}>
-          Show {helping ? "their" : "my"} toolkit <ArrowRight size={20} aria-hidden="true" />
-        </button>
-        <Link to="/who-are-you" className="link-strong">
-          Browse everyone <ArrowRight size={16} aria-hidden="true" />
+    <section className="wrap sec">
+      <div className="row sb ae">
+        <div>
+          <span className="t-label">Trending this week{t?.demo ? " · sample data" : ""}</span>
+          <h2 className="t-h2" style={{ marginTop: 6 }}>
+            What people are working on
+          </h2>
+        </div>
+        <Link className="t-sm pr b6" to="/trending">
+          See trending →
         </Link>
       </div>
-    </Form>
-  );
-}
-
-function GoalPanel({ goals }: { goals: { slug: string; label: string }[] }) {
-  return (
-    <div>
-      <h2 className="panel-q">What do you want to do?</h2>
-      <ul className="chip-list">
-        {goals.map((g) => (
-          <li key={g.slug}>
-            <Link className="chip" to={`/needs/${g.slug}`}>
-              {g.label}
+      <div className="card" style={{ marginTop: 14, padding: "4px 20px" }}>
+        <div className="list">
+          {rows.map((g, i) => (
+            <Link key={g.slug} className="li" to={`/goals/${g.slug}`}>
+              <span className="t-h3" style={{ width: 28, color: "var(--da-color-primary)" }}>
+                {i + 1}
+              </span>
+              <span className="fl1">
+                <span className="b7 t-sm">{g.label}</span>
+                <span className="t-xs su" style={{ display: "block" }}>
+                  {g.group}
+                </span>
+              </span>
+              <Icon name="chevron-right" className="cr" />
             </Link>
-          </li>
-        ))}
-      </ul>
-      <Form method="get" action="/search" className="inline-search">
-        <label htmlFor="goal-q" className="sr-only">
-          Describe what you want to do
-        </label>
-        <input id="goal-q" name="q" type="search" placeholder="e.g. edit a video for free" maxLength={120} />
-        <button className="btn btn-primary" type="submit">
-          Search
-        </button>
-      </Form>
-    </div>
-  );
-}
-
-function SkillPanel({ groups }: { groups: { slug: string; label: string }[] }) {
-  const [q, setQ] = useState("");
-  const [touched, setTouched] = useState(false);
-  const s = useLazy(loadSkillSearch, touched);
-  const res = useMemo(() => (s.status === "ready" && q.length >= 2 ? s.value!(q, 6) : []), [s, q]);
-  return (
-    <div>
-      <h2 className="panel-q">What do you want to get good at?</h2>
-      <label htmlFor="skill-q" className="sr-only">
-        Search skills
-      </label>
-      <input id="skill-q" className="picker-input" type="search" placeholder="e.g. mixing, spreadsheets, research" value={q} onFocus={() => setTouched(true)} onChange={(e) => setQ(e.target.value)} />
-      {res.length > 0 && (
-        <ul className="result-list">
-          {res.map((r) => (
-            <li key={r.slug}>
-              <Link to={`/skills/${r.slug}`}>{r.label}</Link>
-              <span className="meta"> · {r.desc}</span>
-            </li>
           ))}
-        </ul>
-      )}
-      <ul className="chip-list">
-        {groups.map((g) => (
-          <li key={g.slug}>
-            <Link className="chip" to={`/skills#${g.slug}`}>
-              {g.label}
-            </Link>
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
-}
-
-function ToolPanel() {
-  const [q, setQ] = useState("");
-  const [touched, setTouched] = useState(false);
-  const t = useLazy(loadToolNames, touched);
-  const res = useMemo(() => {
-    if (t.status !== "ready" || q.trim().length < 2) return [];
-    const lq = q.toLowerCase();
-    return t.value!.filter((x) => x.name.toLowerCase().includes(lq)).sort((a, b) => Number(!a.name.toLowerCase().startsWith(lq)) - Number(!b.name.toLowerCase().startsWith(lq))).slice(0, 8);
-  }, [t, q]);
-  return (
-    <div>
-      <h2 className="panel-q">Which tool do you want to learn?</h2>
-      <label htmlFor="tool-q" className="sr-only">
-        Search tools
-      </label>
-      <input id="tool-q" className="picker-input" type="search" placeholder="e.g. Excel, Canva, Python" value={q} onFocus={() => setTouched(true)} onChange={(e) => setQ(e.target.value)} />
-      {res.length > 0 && (
-        <ul className="result-list">
-          {res.map((r) => (
-            <li key={r.slug}>
-              <Wrench size={16} aria-hidden="true" /> <Link to={`/tools/${r.slug}`}>{r.name}</Link> · <Link to={`/tools/${r.slug}/roadmap`}>course outline</Link>
-            </li>
-          ))}
-        </ul>
-      )}
-      <p>
-        <Link className="link-strong" to="/tools">
-          All tools A–Z <ArrowRight size={16} aria-hidden="true" />
-        </Link>
-      </p>
-    </div>
-  );
-}
-
-function SectorPanel({ sectors }: { sectors: { slug: string; label: string; hue: string; count: number }[] }) {
-  return (
-    <div>
-      <h2 className="panel-q">Which sector do you work in?</h2>
-      <ul className="sector-cards">
-        {sectors.map((s) => (
-          <li key={s.slug}>
-            <Link to={`/sectors/${s.slug}`} className="sector-card" data-hue={s.hue}>
-              <span>{s.label}</span>
-              <span className="meta">{s.count} roles</span>
-            </Link>
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
-}
-
-function ReturningBanner() {
-  const mem = useIdentityMemory();
-  const helper = useHelperState();
-  const defs = useHelperDefs(Boolean(helper?.active));
-  const navigate = useNavigate();
-  const [dismissed, setDismissed] = useState(false);
-  useEffect(() => setDismissed(false), [mem]);
-  const h = defs?.find((x) => x.slug === helper?.active);
-  const pos = h ? helperPosition(h, helper!.progress[h.slug]) : null;
-  if (dismissed || ((!mem || !mem.slugs.length) && !pos)) return null;
-  return (
-    <div className="welcome-back" role="region" aria-label="Welcome back">
-      {mem && mem.slugs.length > 0 && (
-        <p>
-          Welcome back — continue as {mem.slugs.map((s) => s.label).join(" + ")}?{" "}
-          <button type="button" className="btn btn-secondary btn-sm" onClick={() => navigate(`/for/${mem.slugs.map((s) => s.slug).join("+")}`)}>
-            Continue
-          </button>{" "}
-          <button
-            type="button"
-            className="btn btn-tertiary btn-sm"
-            onClick={() => {
-              identityActions.forget();
-              setDismissed(true);
-            }}
-          >
-            Not me
-          </button>
-        </p>
-      )}
-      {h && pos && !pos.finished && (
-        <p>
-          Continue the {h.title.replace(/^The /, "")}. Stage {pos.stage!.n} of {h.stages.length}.{" "}
-          <Link
-            className="btn btn-secondary btn-sm"
-            to={`/helpers/${h.slug}`}
-            onClick={() => helperActions.resume()}
-          >
-            Resume
-          </Link>
-        </p>
-      )}
-    </div>
-  );
-}
-
-function Ribbon({ items }: { items: { slug: string; label: string }[] }) {
-  const rows = [items.filter((_, i) => i % 2 === 0), items.filter((_, i) => i % 2 === 1)];
-  return (
-    <div className="ribbon" aria-label="Some of the people we have toolkits for">
-      {rows.map((row, r) => (
-        <div key={r} className={`ribbon-row ribbon-row-${r}`}>
-          <ul className="ribbon-track">
-            {row.map((x) => (
-              <li key={x.slug}>
-                <Link to={`/for/${x.slug}`} className="ribbon-item">
-                  {x.label}
-                </Link>
-              </li>
-            ))}
-          </ul>
-          <ul className="ribbon-track ribbon-dup" aria-hidden="true">
-            {row.map((x) => (
-              <li key={x.slug}>
-                <Link to={`/for/${x.slug}`} className="ribbon-item" tabIndex={-1}>
-                  {x.label}
-                </Link>
-              </li>
-            ))}
-          </ul>
         </div>
-      ))}
-    </div>
-  );
-}
-
-function Motif() {
-  return (
-    <svg className="hero-motif" viewBox="0 0 400 160" aria-hidden="true" focusable="false">
-      <path className="motif-path" d="M10 140 C 80 140, 90 40, 170 50 S 260 130, 300 80 S 360 20, 390 30" />
-      <circle cx="10" cy="140" r="7" className="motif-node n1" />
-      <circle cx="170" cy="50" r="7" className="motif-node n2" />
-      <circle cx="300" cy="80" r="7" className="motif-node n3" />
-      <circle cx="390" cy="30" r="9" className="motif-node n4" />
-    </svg>
+      </div>
+    </section>
   );
 }

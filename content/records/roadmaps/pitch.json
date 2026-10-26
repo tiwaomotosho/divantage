@@ -1,0 +1,237 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_pitch",
+ "slug": "pitch",
+ "title": "Pitch skill roadmap",
+ "tool_ids": [
+  "tool_pitch"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_pitch_productivity_app_0",
+    "slug": "pitch-productivity-app-0",
+    "title": "Get started with Pitch",
+    "outcome": "You can: set up Pitch, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "presentations"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_pitch_productivity_app_1",
+    "slug": "pitch-productivity-app-1",
+    "title": "Set up and sync",
+    "outcome": "You can: set up Pitch on your devices",
+    "topics": [
+     "account",
+     "sync",
+     "mobile app",
+     "settings"
+    ],
+    "practice": "Install Pitch on phone and computer",
+    "need_tags": [
+     "presentations"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_pitch_productivity_app_2",
+    "slug": "pitch-productivity-app-2",
+    "title": "Daily use",
+    "outcome": "You can: do your daily tasks faster",
+    "topics": [
+     "core actions",
+     "shortcuts",
+     "search"
+    ],
+    "practice": "Use Pitch for a week and note one saved hour",
+    "need_tags": [
+     "personal-productivity",
+     "presentations"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_pitch_productivity_app_3",
+    "slug": "pitch-productivity-app-3",
+    "title": "Organise",
+    "outcome": "You can: build a simple system",
+    "topics": [
+     "folders/labels/tags",
+     "templates",
+     "naming conventions"
+    ],
+    "practice": "Reorganise your Pitch with a clear system",
+    "need_tags": [
+     "personal-productivity",
+     "records-management",
+     "presentations"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_pitch_productivity_app_4",
+    "slug": "pitch-productivity-app-4",
+    "title": "Share safely",
+    "outcome": "You can: collaborate without oversharing",
+    "topics": [
+     "sharing permissions",
+     "links",
+     "version history"
+    ],
+    "practice": "Audit your shared items",
+    "need_tags": [
+     "files-cloud-storage",
+     "online-safety",
+     "presentations"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_pitch_productivity_app_8",
+    "slug": "pitch-productivity-app-8",
+    "title": "Signature skills in Pitch",
+    "outcome": "You can: use the features that make Pitch distinctive",
+    "topics": [
+     "setup",
+     "daily use",
+     "sharing"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "presentations"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_pitch_productivity_app_9",
+    "slug": "pitch-productivity-app-9",
+    "title": "Advanced Pitch",
+    "outcome": "You can: use Pitch's advanced capabilities with confidence",
+    "topics": [
+     "automation",
+     "organisation systems",
+     "security"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "presentations"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_pitch_productivity_app_5",
+    "slug": "pitch-productivity-app-5",
+    "title": "Automate",
+    "outcome": "You can: let Pitch work for you",
+    "topics": [
+     "rules",
+     "integrations",
+     "scheduled tasks"
+    ],
+    "practice": "Create two automation rules",
+    "need_tags": [
+     "automation-workflows",
+     "presentations"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_pitch_productivity_app_10",
+    "slug": "pitch-productivity-app-10",
+    "title": "Integrate Pitch into your workflow",
+    "outcome": "You can: connect Pitch with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Pitch to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "presentations"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_pitch_productivity_app_11",
+    "slug": "pitch-productivity-app-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Pitch well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Pitch\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "presentations"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype",
+ "archetype": "productivity-app",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

@@ -1,0 +1,244 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_talkback",
+ "slug": "talkback",
+ "title": "TalkBack skill roadmap",
+ "tool_ids": [
+  "tool_talkback"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_talkback_accessibility_tool_0",
+    "slug": "talkback-accessibility-tool-0",
+    "title": "Get started with TalkBack",
+    "outcome": "You can: set up TalkBack, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "accessibility-tools",
+     "accessible-communication"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_talkback_accessibility_tool_1",
+    "slug": "talkback-accessibility-tool-1",
+    "title": "Turn it on and set it up",
+    "outcome": "You can: start using TalkBack",
+    "topics": [
+     "installation",
+     "settings",
+     "voices/languages",
+     "shortcuts"
+    ],
+    "practice": "Set up TalkBack for your needs",
+    "need_tags": [
+     "accessibility-tools",
+     "accessible-communication"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_talkback_accessibility_tool_2",
+    "slug": "talkback-accessibility-tool-2",
+    "title": "Everyday tasks",
+    "outcome": "You can: use TalkBack for daily tasks",
+    "topics": [
+     "reading",
+     "messaging",
+     "navigation",
+     "documents"
+    ],
+    "practice": "Complete three daily tasks with TalkBack",
+    "need_tags": [
+     "accessibility-tools",
+     "accessible-communication"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_talkback_accessibility_tool_3",
+    "slug": "talkback-accessibility-tool-3",
+    "title": "Customise",
+    "outcome": "You can: tailor TalkBack to you",
+    "topics": [
+     "speed",
+     "vocabulary",
+     "profiles",
+     "gestures"
+    ],
+    "practice": "Customise three settings",
+    "need_tags": [
+     "accessibility-tools",
+     "accessible-communication"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_talkback_accessibility_tool_4",
+    "slug": "talkback-accessibility-tool-4",
+    "title": "Work and study",
+    "outcome": "You can: use TalkBack at work or school",
+    "topics": [
+     "meetings",
+     "documents",
+     "forms",
+     "requesting adjustments"
+    ],
+    "practice": "Use TalkBack in one meeting or class",
+    "need_tags": [
+     "accessible-communication",
+     "accessibility-tools"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_talkback_accessibility_tool_8",
+    "slug": "talkback-accessibility-tool-8",
+    "title": "Signature skills in TalkBack",
+    "outcome": "You can: use the features that make TalkBack distinctive",
+    "topics": [
+     "setup",
+     "core use",
+     "customisation"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "accessibility-tools",
+     "accessible-communication"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_talkback_accessibility_tool_9",
+    "slug": "talkback-accessibility-tool-9",
+    "title": "Advanced TalkBack",
+    "outcome": "You can: use TalkBack's advanced capabilities with confidence",
+    "topics": [
+     "advanced shortcuts",
+     "supporting others"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "accessibility-tools",
+     "accessible-communication"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_talkback_accessibility_tool_5",
+    "slug": "talkback-accessibility-tool-5",
+    "title": "Support and advocate",
+    "outcome": "You can: help others and test accessibility",
+    "topics": [
+     "teaching others",
+     "testing content",
+     "reporting barriers"
+    ],
+    "practice": "Test a document or website with TalkBack",
+    "need_tags": [
+     "accessible-materials",
+     "accessibility-tools",
+     "accessible-communication"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_talkback_accessibility_tool_10",
+    "slug": "talkback-accessibility-tool-10",
+    "title": "Integrate TalkBack into your workflow",
+    "outcome": "You can: connect TalkBack with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect TalkBack to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "accessibility-tools",
+     "accessible-communication"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_talkback_accessibility_tool_11",
+    "slug": "talkback-accessibility-tool-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use TalkBack well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use TalkBack\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "accessibility-tools",
+     "accessible-communication"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype",
+ "archetype": "accessibility-tool",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

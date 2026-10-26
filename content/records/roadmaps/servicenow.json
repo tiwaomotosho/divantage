@@ -1,0 +1,237 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_servicenow",
+ "slug": "servicenow",
+ "title": "ServiceNow skill roadmap",
+ "tool_ids": [
+  "tool_servicenow"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_servicenow_it_service_0",
+    "slug": "servicenow-it-service-0",
+    "title": "Get started with ServiceNow",
+    "outcome": "You can: set up ServiceNow, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "it-helpdesk"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_servicenow_it_service_1",
+    "slug": "servicenow-it-service-1",
+    "title": "Create and work cases",
+    "outcome": "You can: log and resolve tickets or test cases",
+    "topics": [
+     "fields",
+     "priorities",
+     "statuses",
+     "assignment"
+    ],
+    "practice": "Log and resolve three sample items",
+    "need_tags": [
+     "it-helpdesk",
+     "test-management"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_servicenow_it_service_2",
+    "slug": "servicenow-it-service-2",
+    "title": "Knowledge and templates",
+    "outcome": "You can: reuse answers and test steps",
+    "topics": [
+     "templates",
+     "knowledge base",
+     "shared steps"
+    ],
+    "practice": "Write two knowledge articles or reusable test steps",
+    "need_tags": [
+     "it-helpdesk",
+     "test-management"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_servicenow_it_service_3",
+    "slug": "servicenow-it-service-3",
+    "title": "Workflows and SLAs",
+    "outcome": "You can: keep work moving",
+    "topics": [
+     "workflows",
+     "SLAs",
+     "escalation",
+     "automation rules"
+    ],
+    "practice": "Add an SLA and an escalation rule",
+    "need_tags": [
+     "it-helpdesk"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_servicenow_it_service_4",
+    "slug": "servicenow-it-service-4",
+    "title": "Reporting",
+    "outcome": "You can: report status and quality",
+    "topics": [
+     "dashboards",
+     "coverage/backlog",
+     "trends"
+    ],
+    "practice": "Build a weekly status dashboard",
+    "need_tags": [
+     "kpi-tracking",
+     "it-helpdesk"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_servicenow_it_service_8",
+    "slug": "servicenow-it-service-8",
+    "title": "Signature skills in ServiceNow",
+    "outcome": "You can: use the features that make ServiceNow distinctive",
+    "topics": [
+     "tickets/cases",
+     "workflows",
+     "knowledge base"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "it-helpdesk"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_servicenow_it_service_9",
+    "slug": "servicenow-it-service-9",
+    "title": "Advanced ServiceNow",
+    "outcome": "You can: use ServiceNow's advanced capabilities with confidence",
+    "topics": [
+     "SLAs and automation",
+     "reporting",
+     "integrations"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "it-helpdesk"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_servicenow_it_service_5",
+    "slug": "servicenow-it-service-5",
+    "title": "Integrate and govern",
+    "outcome": "You can: connect ServiceNow to the rest of the stack",
+    "topics": [
+     "integrations",
+     "permissions",
+     "audit",
+     "asset/CI data"
+    ],
+    "practice": "Integrate ServiceNow with your issue tracker or CI",
+    "need_tags": [
+     "agile-tracking",
+     "it-helpdesk"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_servicenow_it_service_10",
+    "slug": "servicenow-it-service-10",
+    "title": "Integrate ServiceNow into your workflow",
+    "outcome": "You can: connect ServiceNow with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect ServiceNow to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "it-helpdesk"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_servicenow_it_service_11",
+    "slug": "servicenow-it-service-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use ServiceNow well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use ServiceNow\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "it-helpdesk"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype",
+ "archetype": "it-service",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

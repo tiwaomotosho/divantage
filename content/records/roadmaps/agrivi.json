@@ -22,7 +22,11 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "farm-records"
+     "farm-records",
+     "crop-monitoring",
+     "plant-health",
+     "weather-planning",
+     "livestock-management"
     ],
     "estimated_hours": {
      "value": 1,
@@ -43,7 +47,11 @@
     ],
     "practice": "Set up your locations and units",
     "need_tags": [
-     "farm-records"
+     "farm-records",
+     "crop-monitoring",
+     "plant-health",
+     "weather-planning",
+     "livestock-management"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -64,7 +72,11 @@
     ],
     "practice": "Record five observations in the field",
     "need_tags": [
-     "farm-records"
+     "farm-records",
+     "crop-monitoring",
+     "plant-health",
+     "weather-planning",
+     "livestock-management"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -86,7 +98,11 @@
     ],
     "practice": "Act on one insight from AGRIVI",
     "need_tags": [
-     "farm-records"
+     "farm-records",
+     "crop-monitoring",
+     "plant-health",
+     "weather-planning",
+     "livestock-management"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -106,7 +122,11 @@
     ],
     "practice": "Share a report with an adviser or buyer",
     "need_tags": [
-     "farm-records"
+     "farm-records",
+     "crop-monitoring",
+     "plant-health",
+     "weather-planning",
+     "livestock-management"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -127,7 +147,11 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "farm-records"
+     "farm-records",
+     "crop-monitoring",
+     "plant-health",
+     "weather-planning",
+     "livestock-management"
     ],
     "estimated_hours": {
      "value": 3,
@@ -149,7 +173,11 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "farm-records"
+     "farm-records",
+     "crop-monitoring",
+     "plant-health",
+     "weather-planning",
+     "livestock-management"
     ],
     "estimated_hours": {
      "value": 4,
@@ -169,7 +197,11 @@
     ],
     "practice": "Compare this season with last",
     "need_tags": [
-     "farm-records"
+     "farm-records",
+     "crop-monitoring",
+     "plant-health",
+     "weather-planning",
+     "livestock-management"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -191,7 +223,11 @@
     "practice": "Connect AGRIVI to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "farm-records"
+     "farm-records",
+     "crop-monitoring",
+     "plant-health",
+     "weather-planning",
+     "livestock-management"
     ],
     "estimated_hours": {
      "value": 2,
@@ -213,7 +249,11 @@
     "practice": "Write a one-page \"how we use AGRIVI\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "farm-records"
+     "farm-records",
+     "crop-monitoring",
+     "plant-health",
+     "weather-planning",
+     "livestock-management"
     ],
     "estimated_hours": {
      "value": 2,

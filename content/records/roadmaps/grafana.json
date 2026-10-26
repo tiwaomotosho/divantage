@@ -22,7 +22,10 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "observability"
+     "observability",
+     "engineering-data-analysis",
+     "production-surveillance",
+     "performance-testing"
     ],
     "estimated_hours": {
      "value": 1,
@@ -44,7 +47,10 @@
     "practice": "Run the official quick start",
     "need_tags": [
      "write-code",
-     "observability"
+     "observability",
+     "engineering-data-analysis",
+     "production-surveillance",
+     "performance-testing"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -65,7 +71,10 @@
     "practice": "Build a small feature or config with Grafana",
     "need_tags": [
      "write-code",
-     "observability"
+     "observability",
+     "engineering-data-analysis",
+     "production-surveillance",
+     "performance-testing"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -90,7 +99,10 @@
     "need_tags": [
      "write-code",
      "test-automation",
-     "observability"
+     "observability",
+     "engineering-data-analysis",
+     "production-surveillance",
+     "performance-testing"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -112,7 +124,10 @@
     "practice": "Add Grafana to a team repository with docs",
     "need_tags": [
      "version-control",
-     "observability"
+     "observability",
+     "engineering-data-analysis",
+     "production-surveillance",
+     "performance-testing"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -133,7 +148,10 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "observability"
+     "observability",
+     "engineering-data-analysis",
+     "production-surveillance",
+     "performance-testing"
     ],
     "estimated_hours": {
      "value": 3,
@@ -155,7 +173,10 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "observability"
+     "observability",
+     "engineering-data-analysis",
+     "production-surveillance",
+     "performance-testing"
     ],
     "estimated_hours": {
      "value": 4,
@@ -177,7 +198,10 @@
     "practice": "Add Grafana to a CI pipeline with checks",
     "need_tags": [
      "devops-cicd",
-     "observability"
+     "observability",
+     "engineering-data-analysis",
+     "production-surveillance",
+     "performance-testing"
     ],
     "estimated_hours": {
      "value": 5.0,
@@ -199,7 +223,10 @@
     "practice": "Connect Grafana to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "observability"
+     "observability",
+     "engineering-data-analysis",
+     "production-surveillance",
+     "performance-testing"
     ],
     "estimated_hours": {
      "value": 2,
@@ -221,7 +248,10 @@
     "practice": "Write a one-page \"how we use Grafana\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "observability"
+     "observability",
+     "engineering-data-analysis",
+     "production-surveillance",
+     "performance-testing"
     ],
     "estimated_hours": {
      "value": 2,

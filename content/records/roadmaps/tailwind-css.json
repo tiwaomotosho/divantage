@@ -1,0 +1,241 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_tailwind_css",
+ "slug": "tailwind-css",
+ "title": "Tailwind CSS skill roadmap",
+ "tool_ids": [
+  "tool_tailwind_css"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_tailwind_css_dev_tool_0",
+    "slug": "tailwind-css-dev-tool-0",
+    "title": "Get started with Tailwind CSS",
+    "outcome": "You can: set up Tailwind CSS, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "web-development"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_tailwind_css_dev_tool_1",
+    "slug": "tailwind-css-dev-tool-1",
+    "title": "Install and run",
+    "outcome": "You can: set up Tailwind CSS and run a first project",
+    "topics": [
+     "installation",
+     "project structure",
+     "documentation",
+     "hello world"
+    ],
+    "practice": "Run the official quick start",
+    "need_tags": [
+     "write-code",
+     "web-development"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_tailwind_css_dev_tool_2",
+    "slug": "tailwind-css-dev-tool-2",
+    "title": "Core workflow",
+    "outcome": "You can: do the everyday task Tailwind CSS is for",
+    "topics": [
+     "core commands/APIs",
+     "configuration",
+     "conventions"
+    ],
+    "practice": "Build a small feature or config with Tailwind CSS",
+    "need_tags": [
+     "write-code",
+     "web-development"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_tailwind_css_dev_tool_3",
+    "slug": "tailwind-css-dev-tool-3",
+    "title": "Debug and test",
+    "outcome": "You can: find and prevent problems",
+    "topics": [
+     "logs",
+     "debugging",
+     "tests",
+     "common errors"
+    ],
+    "practice": "Fix a deliberately broken example",
+    "need_tags": [
+     "write-code",
+     "test-automation",
+     "web-development"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_tailwind_css_dev_tool_4",
+    "slug": "tailwind-css-dev-tool-4",
+    "title": "Work in a team",
+    "outcome": "You can: use Tailwind CSS in shared projects",
+    "topics": [
+     "version control",
+     "code review",
+     "environments",
+     "secrets"
+    ],
+    "practice": "Add Tailwind CSS to a team repository with docs",
+    "need_tags": [
+     "version-control",
+     "web-development"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_tailwind_css_dev_tool_8",
+    "slug": "tailwind-css-dev-tool-8",
+    "title": "Signature skills in Tailwind CSS",
+    "outcome": "You can: use the features that make Tailwind CSS distinctive",
+    "topics": [
+     "setup",
+     "core workflow",
+     "debugging"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "web-development"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_tailwind_css_dev_tool_9",
+    "slug": "tailwind-css-dev-tool-9",
+    "title": "Advanced Tailwind CSS",
+    "outcome": "You can: use Tailwind CSS's advanced capabilities with confidence",
+    "topics": [
+     "performance",
+     "security",
+     "automation and CI"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "web-development"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_tailwind_css_dev_tool_5",
+    "slug": "tailwind-css-dev-tool-5",
+    "title": "Production-ready",
+    "outcome": "You can: run Tailwind CSS reliably in production",
+    "topics": [
+     "security",
+     "performance",
+     "monitoring",
+     "CI/CD"
+    ],
+    "practice": "Add Tailwind CSS to a CI pipeline with checks",
+    "need_tags": [
+     "devops-cicd",
+     "observability",
+     "web-development"
+    ],
+    "estimated_hours": {
+     "value": 5.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_tailwind_css_dev_tool_10",
+    "slug": "tailwind-css-dev-tool-10",
+    "title": "Integrate Tailwind CSS into your workflow",
+    "outcome": "You can: connect Tailwind CSS with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Tailwind CSS to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "web-development"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_tailwind_css_dev_tool_11",
+    "slug": "tailwind-css-dev-tool-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Tailwind CSS well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Tailwind CSS\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "web-development"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype",
+ "archetype": "dev-tool",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

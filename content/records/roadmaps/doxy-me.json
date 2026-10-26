@@ -23,7 +23,9 @@
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
      "telemedicine",
-     "therapy-practice-admin"
+     "therapy-practice-admin",
+     "personal-health-tracking",
+     "video-meetings"
     ],
     "estimated_hours": {
      "value": 1,
@@ -46,7 +48,9 @@
     "need_tags": [
      "group-messaging",
      "telemedicine",
-     "therapy-practice-admin"
+     "therapy-practice-admin",
+     "personal-health-tracking",
+     "video-meetings"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -69,7 +73,9 @@
     "need_tags": [
      "personal-productivity",
      "telemedicine",
-     "therapy-practice-admin"
+     "therapy-practice-admin",
+     "personal-health-tracking",
+     "video-meetings"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -93,7 +99,9 @@
     "need_tags": [
      "project-management",
      "telemedicine",
-     "therapy-practice-admin"
+     "therapy-practice-admin",
+     "personal-health-tracking",
+     "video-meetings"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -116,7 +124,9 @@
      "meeting-minutes",
      "workshop-facilitation",
      "telemedicine",
-     "therapy-practice-admin"
+     "therapy-practice-admin",
+     "personal-health-tracking",
+     "video-meetings"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -138,7 +148,9 @@
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
      "telemedicine",
-     "therapy-practice-admin"
+     "therapy-practice-admin",
+     "personal-health-tracking",
+     "video-meetings"
     ],
     "estimated_hours": {
      "value": 3,
@@ -161,7 +173,9 @@
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
      "telemedicine",
-     "therapy-practice-admin"
+     "therapy-practice-admin",
+     "personal-health-tracking",
+     "video-meetings"
     ],
     "estimated_hours": {
      "value": 4,
@@ -185,7 +199,9 @@
      "records-management",
      "online-safety",
      "telemedicine",
-     "therapy-practice-admin"
+     "therapy-practice-admin",
+     "personal-health-tracking",
+     "video-meetings"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -208,7 +224,9 @@
     "need_tags": [
      "automation-workflows",
      "telemedicine",
-     "therapy-practice-admin"
+     "therapy-practice-admin",
+     "personal-health-tracking",
+     "video-meetings"
     ],
     "estimated_hours": {
      "value": 2,
@@ -231,7 +249,9 @@
     "need_tags": [
      "workshop-facilitation",
      "telemedicine",
-     "therapy-practice-admin"
+     "therapy-practice-admin",
+     "personal-health-tracking",
+     "video-meetings"
     ],
     "estimated_hours": {
      "value": 2,

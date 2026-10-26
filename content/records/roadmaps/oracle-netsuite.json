@@ -23,7 +23,8 @@
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
      "erp",
-     "warehouse-inventory"
+     "warehouse-inventory",
+     "inventory-procurement"
     ],
     "estimated_hours": {
      "value": 1,
@@ -45,7 +46,8 @@
     "practice": "Create and update one record end to end",
     "need_tags": [
      "erp",
-     "warehouse-inventory"
+     "warehouse-inventory",
+     "inventory-procurement"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -66,7 +68,8 @@
     "practice": "Complete one full workflow for your role",
     "need_tags": [
      "erp",
-     "warehouse-inventory"
+     "warehouse-inventory",
+     "inventory-procurement"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -114,7 +117,8 @@
     "need_tags": [
      "kpi-tracking",
      "erp",
-     "warehouse-inventory"
+     "warehouse-inventory",
+     "inventory-procurement"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -136,7 +140,8 @@
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
      "erp",
-     "warehouse-inventory"
+     "warehouse-inventory",
+     "inventory-procurement"
     ],
     "estimated_hours": {
      "value": 3,
@@ -159,7 +164,8 @@
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
      "erp",
-     "warehouse-inventory"
+     "warehouse-inventory",
+     "inventory-procurement"
     ],
     "estimated_hours": {
      "value": 4,
@@ -182,7 +188,8 @@
     "need_tags": [
      "erp",
      "process-mapping",
-     "warehouse-inventory"
+     "warehouse-inventory",
+     "inventory-procurement"
     ],
     "estimated_hours": {
      "value": 4.0,
@@ -205,7 +212,8 @@
     "need_tags": [
      "automation-workflows",
      "erp",
-     "warehouse-inventory"
+     "warehouse-inventory",
+     "inventory-procurement"
     ],
     "estimated_hours": {
      "value": 2,
@@ -228,7 +236,8 @@
     "need_tags": [
      "workshop-facilitation",
      "erp",
-     "warehouse-inventory"
+     "warehouse-inventory",
+     "inventory-procurement"
     ],
     "estimated_hours": {
      "value": 2,

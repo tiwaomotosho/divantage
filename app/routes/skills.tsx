@@ -1,63 +1,80 @@
-// S34 Skills index.
+// S34 Skills. Composed from 06-goals: search, group cards (like the intent cards) and grouped lists.
 import { useMemo, useState } from "react";
-import { Link } from "react-router";
+import { Link, useSearchParams } from "react-router";
 import type { Route } from "./+types/skills";
 import { skillsIndexData } from "~/lib/content.server";
-import { BRAND, flag, meta as pageMeta } from "../lib/build";
-import { FlagOff, PageHeader } from "../components/ui";
-import { data } from "react-router";
+import { meta as pageMeta } from "../lib/build";
+import { Icon, Tile } from "../components/da";
 
-export function loader() {
-  return skillsIndexData();
-}
-export const meta: Route.MetaFunction = () => [
-  { title: `Digital skills to learn, from beginner to expert — ${BRAND}` },
-  ...pageMeta("", "63 digital skills in 9 groups, each with tools and course outlines.").slice(1),
-];
+export const loader = () => skillsIndexData();
+export const meta: Route.MetaFunction = () => pageMeta("Digital skills to learn, from beginner to expert", "Digital skills in groups, each with tools and learning paths.");
 
 export default function Skills({ loaderData: d }: Route.ComponentProps) {
-  if (!flag("explore_skills")) return <FlagOff />;
+  const [params, setParams] = useSearchParams();
+  const group = params.get("group");
   const [q, setQ] = useState("");
   const lq = q.trim().toLowerCase();
+  const total = d.groups.reduce((a, g) => a + g.skills.length, 0);
   const groups = useMemo(
-    () => (lq ? d.groups.map((g) => ({ ...g, skills: g.skills.filter((s) => (s.label + " " + s.description).toLowerCase().includes(lq)) })).filter((g) => g.skills.length) : d.groups),
-    [lq, d.groups],
+    () =>
+      d.groups
+        .filter((g) => !group || g.slug === group)
+        .map((g) => ({ ...g, skills: lq ? g.skills.filter((s) => `${s.label} ${s.description}`.toLowerCase().includes(lq)) : g.skills }))
+        .filter((g) => g.skills.length),
+    [lq, d.groups, group],
   );
+  const pick = (g: string | null) => {
+    const p = new URLSearchParams(params);
+    if (g) p.set("group", g);
+    else p.delete("group");
+    setParams(p, { replace: true, preventScrollReset: true });
+  };
   return (
-    <div className="container">
-      <PageHeader title="What do you want to get good at?" lead="Each skill has a beginner, intermediate and expert level, with the tools to learn it." />
-      <div className="field filter-field">
-        <label className="label" htmlFor="skill-filter">
-          Filter skills
-        </label>
-        <input id="skill-filter" type="search" value={q} onChange={(e) => setQ(e.target.value)} placeholder="e.g. video, data, writing" />
+    <section className="wrap" style={{ paddingTop: 28 }}>
+      <span className="t-label">Skills</span>
+      <h1 className="t-h1" style={{ marginTop: 6 }}>
+        {total} skills you can get good at
+      </h1>
+      <label className="input" style={{ marginTop: 18 }}>
+        <Icon name="search" />
+        <input placeholder="Filter skills, e.g. video, data, writing" aria-label="Filter skills" value={q} onChange={(e) => setQ(e.target.value)} />
+      </label>
+      <div className="grid c3" style={{ marginTop: 18 }}>
+        {d.groups.map((g) => {
+          const on = group === g.slug;
+          return (
+            <button key={g.slug} type="button" className="card pad row g12" style={{ textAlign: "left", border: on ? "2px solid var(--da-color-ink)" : undefined }} aria-pressed={on} onClick={() => pick(on ? null : g.slug)}>
+              <Tile icon={g.icon} hue={g.hue} />
+              <span className="fl1 b7 t-sm">{g.label}</span>
+              <span className="t-mono t-xs su">{g.skills.length}</span>
+            </button>
+          );
+        })}
       </div>
-      {groups.map((g) => (
-        <section key={g.slug} id={g.slug} className="section">
-          <h2>{g.label}</h2>
-          <ul className="card-grid">
-            {g.skills.map((s) => (
-              <li key={s.slug} className="card card-link skill-card">
-                <h3>
-                  <Link to={`/skills/${s.slug}`}>{s.label}</Link>
-                </h3>
-                <p className="meta">{s.description}</p>
-                <p className="meta">
-                  {s.tools} tools · used in {s.professions.toLocaleString("en-GB")} professions
-                </p>
-                <span className="mini-bar" aria-hidden="true">
-                  <span data-level="beginner" />
-                  <span data-level="intermediate" />
-                  <span data-level="expert" />
-                </span>
-              </li>
-            ))}
-          </ul>
-        </section>
-      ))}
-      <p>
-        Prefer to start with who you are? <Link to="/">Tell us your work</Link>.
-      </p>
-    </div>
+      <div className="grid c3" style={{ marginTop: 16 }}>
+        {groups.map((g) => (
+          <div key={g.slug} id={g.slug} className="card pad">
+            <div className="row sb">
+              <div className="b7">{g.label}</div>
+              <span className="t-mono t-xs su">{g.skills.length}</span>
+            </div>
+            <div className="list" style={{ marginTop: 6 }}>
+              {g.skills.map((s) => (
+                <Link key={s.slug} className="li t-sm" to={`/skills/${s.slug}`}>
+                  <Icon name={g.icon} />
+                  <span className="fl1">
+                    <span className="b6">{s.label}</span>
+                    <span className="t-xs su" style={{ display: "block" }}>
+                      {s.tools} tools · {s.professions.toLocaleString("en-GB")} jobs
+                    </span>
+                  </span>
+                  <Icon name="chevron-right" className="cr" />
+                </Link>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
   );
 }

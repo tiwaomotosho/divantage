@@ -1,15 +1,14 @@
-# Open questions
-
-Per doc 17: when the spec is unclear, the question is listed here instead of being decided silently.
+# Open questions (V2.8 build)
 
 | # | Question | Where | Current behaviour |
 |---|---|---|---|
-| Q-1 | **Hosting is Vercel, not Cloudflare Pages** (owner instruction, overrides D-069/ADR-008 host). D1 (event counters), Cloudflare Access (A01 admin report) and Cloudflare Web Analytics have no direct equivalent. Which store for aggregate counters: Vercel KV / Upstash Redis / Postgres? Which access control for A01: Vercel Password Protection / Vercel Authentication? | 11 §1, 14 §2, 20 §9 | `/api/v1/events` validates and logs, returns 204. A01 not built (flag `admin_report` is off in beta). |
-| Q-2 | Rate limiting for `/api/v1/corrections` needs a shared store on Vercel (functions are stateless). Same store as Q-1? | 12 | Best-effort in-memory limit per function instance. |
-| Q-3 | Turnstile is Cloudflare's. Keep it on Vercel (works cross-host) or switch to another bot check? | 12, S18 | Server verifies Turnstile only when `TURNSTILE_SECRET_KEY` is set; the client widget is not yet rendered. |
-| Q-4 | Pilot guides (`pilot-profiles.json`) contain cost and platform text that is AI-drafted and unverified. D-048 forbids price/platform claims for tools without a full profile. | 22 §5, D-048 | Tool pages show the guide's how-to content (first hour, watch out, learn next) but **not** its cost or platforms. |
-| Q-5 | "Surprising uses" (03 §6.4) mentions a fixed category→sector affinity table that does not exist in `sectors.json`. | 03 §6.4 | Uses the sectors after the tool's largest (home) sector, by identity count, first 3 with a matching need. |
-| Q-6 | Families and sectors have no `description` field, but S27 says the intro line comes from it. | 04 S27 | A generated sentence: "Part of {family} in {sector}." |
-| Q-7 | Identity × tool pages (S28) and combined toolkits (`/for/a+b`) are not prerendered (≈ 2 million combinations). | ADR-008 | Rendered in the browser from `/data/id/*.json` and `/data/tool/*.json`; `noindex`. Without JavaScript they show the SPA fallback. |
-| Q-8 | Brand name (D-019). | 21 | Configurable via `BRAND_NAME` env var; default "Digital Advantage". |
-| Q-9 | Legal text (privacy, terms, accessibility statement, contact email). | D-027 | Placeholders marked `TODO(owner)`. |
+| Q-1 | Price chips are AI-drafted; "Free" shows beside a Preview label for 365 tools (checklist 7.4, FR-038). Confirm D-084 overrides "never show Free unless confirmed". | 26 §2, checklist 2.5/7.4 | Shown with the Preview label, as the reference does. |
+| Q-2 | Device market: the site defaults to Nigeria (`en-NG`) for ranking and availability banners; visitors change it on Search. Is a first-visit country prompt wanted? | D-074 | Default Nigeria, changeable, stored on device. |
+| Q-3 | Need cards' tile icon and hue come from the need's skill group (taxonomy-visuals has no per-need entry). | D-096 | Skill-group visual. |
+| Q-4 | Identity header photo: only nurses have an identity photo; others use a sector photo from the closed set (tier B photos must be replaced before launch, D-097). | D-097 | Sector mapping in `content.server.ts`. |
+| Q-5 | Store for anonymous counters, need feedback and rate limits on Vercel (Neon per doc 32). Not provisioned. | D-083, FR-114 | Need feedback hides the card for the visit; nothing is sent. Events are logged only. |
+| Q-6 | Turnstile on Vercel (doc 32 §2: owner choice). | 12 | Server verifies only when `TURNSTILE_SECRET_KEY` is set; no widget rendered yet. |
+| Q-7 | D-091 fonts, D-105 precedence, D-019 brand, D-027 legal text. | doc 31/32 | Fonts as shipped; brand via `BRAND_NAME`; legal pages show `TODO(owner)`. |
+| Q-8 | Owner sign-off (L6) and visual baselines (L7) | doc 29 §6 | Not done: run the audit and review `design-audit-report/index.html`. |
+| Q-9 | Demo data to remove before public launch: `da.account.v1` demo sign-in, `public/data/trending.json` (`demo: true`), `content/contributors.json` (`demo: true`), sample sections in `/admin/report`, demo status in `/suggestions/{ref}`. | Owner decision 26 Oct 2026 | All labelled on screen. |
+| Q-10 | `/admin/report` is public in this preview (no access control on Vercel yet). | doc 20 §9 | noindex only. |

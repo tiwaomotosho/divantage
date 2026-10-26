@@ -22,7 +22,9 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "research-surveys"
+     "research-surveys",
+     "health-research-data",
+     "user-research"
     ],
     "estimated_hours": {
      "value": 1,
@@ -45,7 +47,8 @@
     "need_tags": [
      "user-research",
      "qualitative-analysis",
-     "research-surveys"
+     "research-surveys",
+     "health-research-data"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -66,7 +69,9 @@
     "practice": "Code two transcripts with a simple codebook",
     "need_tags": [
      "qualitative-analysis",
-     "research-surveys"
+     "research-surveys",
+     "health-research-data",
+     "user-research"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -90,7 +95,9 @@
     "need_tags": [
      "qualitative-analysis",
      "product-discovery",
-     "research-surveys"
+     "research-surveys",
+     "health-research-data",
+     "user-research"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -111,7 +118,9 @@
     ],
     "practice": "Design and pilot a short study",
     "need_tags": [
-     "research-surveys"
+     "research-surveys",
+     "health-research-data",
+     "user-research"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -132,7 +141,9 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "research-surveys"
+     "research-surveys",
+     "health-research-data",
+     "user-research"
     ],
     "estimated_hours": {
      "value": 3,
@@ -154,7 +165,9 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "research-surveys"
+     "research-surveys",
+     "health-research-data",
+     "user-research"
     ],
     "estimated_hours": {
      "value": 4,
@@ -175,7 +188,9 @@
     "practice": "Present findings to stakeholders",
     "need_tags": [
      "product-discovery",
-     "research-surveys"
+     "research-surveys",
+     "health-research-data",
+     "user-research"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -197,7 +212,9 @@
     "practice": "Connect Qualtrics to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "research-surveys"
+     "research-surveys",
+     "health-research-data",
+     "user-research"
     ],
     "estimated_hours": {
      "value": 2,
@@ -219,7 +236,9 @@
     "practice": "Write a one-page \"how we use Qualtrics\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "research-surveys"
+     "research-surveys",
+     "health-research-data",
+     "user-research"
     ],
     "estimated_hours": {
      "value": 2,

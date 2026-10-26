@@ -22,7 +22,11 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "online-payments"
+     "online-payments",
+     "invoicing",
+     "online-giving",
+     "online-coaching",
+     "tour-booking"
     ],
     "estimated_hours": {
      "value": 1,
@@ -44,7 +48,10 @@
     "practice": "Send a test invoice or payment link",
     "need_tags": [
      "invoicing",
-     "online-payments"
+     "online-payments",
+     "online-giving",
+     "online-coaching",
+     "tour-booking"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -65,7 +72,11 @@
     "practice": "Record a week of transactions",
     "need_tags": [
      "bookkeeping",
-     "online-payments"
+     "online-payments",
+     "invoicing",
+     "online-giving",
+     "online-coaching",
+     "tour-booking"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -90,7 +101,11 @@
     "need_tags": [
      "bookkeeping",
      "audit-analytics",
-     "online-payments"
+     "online-payments",
+     "invoicing",
+     "online-giving",
+     "online-coaching",
+     "tour-booking"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -111,7 +126,11 @@
     "practice": "Review security settings and user roles",
     "need_tags": [
      "online-safety",
-     "online-payments"
+     "online-payments",
+     "invoicing",
+     "online-giving",
+     "online-coaching",
+     "tour-booking"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -132,7 +151,11 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "online-payments"
+     "online-payments",
+     "invoicing",
+     "online-giving",
+     "online-coaching",
+     "tour-booking"
     ],
     "estimated_hours": {
      "value": 3,
@@ -155,7 +178,11 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "online-payments"
+     "online-payments",
+     "invoicing",
+     "online-giving",
+     "online-coaching",
+     "tour-booking"
     ],
     "estimated_hours": {
      "value": 4,
@@ -177,7 +204,11 @@
     "need_tags": [
      "bookkeeping",
      "automation-workflows",
-     "online-payments"
+     "online-payments",
+     "invoicing",
+     "online-giving",
+     "online-coaching",
+     "tour-booking"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -199,7 +230,11 @@
     "practice": "Connect Stripe to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "online-payments"
+     "online-payments",
+     "invoicing",
+     "online-giving",
+     "online-coaching",
+     "tour-booking"
     ],
     "estimated_hours": {
      "value": 2,
@@ -221,7 +256,11 @@
     "practice": "Write a one-page \"how we use Stripe\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "online-payments"
+     "online-payments",
+     "invoicing",
+     "online-giving",
+     "online-coaching",
+     "tour-booking"
     ],
     "estimated_hours": {
      "value": 2,

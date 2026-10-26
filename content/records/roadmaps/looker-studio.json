@@ -22,7 +22,14 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "dashboards-bi"
+     "dashboards-bi",
+     "public-health-data",
+     "drilling-reporting",
+     "production-surveillance",
+     "data-visualisation",
+     "kpi-tracking",
+     "web-analytics",
+     "cv-portfolio"
     ],
     "estimated_hours": {
      "value": 1,
@@ -44,7 +51,14 @@
     "practice": "Load a dataset and answer three questions",
     "need_tags": [
      "dashboards-bi",
-     "statistical-analysis"
+     "statistical-analysis",
+     "public-health-data",
+     "drilling-reporting",
+     "production-surveillance",
+     "data-visualisation",
+     "kpi-tracking",
+     "web-analytics",
+     "cv-portfolio"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -66,7 +80,13 @@
     "practice": "Make three charts that each answer one question",
     "need_tags": [
      "data-visualisation",
-     "dashboards-bi"
+     "dashboards-bi",
+     "public-health-data",
+     "drilling-reporting",
+     "production-surveillance",
+     "kpi-tracking",
+     "web-analytics",
+     "cv-portfolio"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -91,7 +111,14 @@
     "need_tags": [
      "statistical-analysis",
      "data-cleaning",
-     "dashboards-bi"
+     "dashboards-bi",
+     "public-health-data",
+     "drilling-reporting",
+     "production-surveillance",
+     "data-visualisation",
+     "kpi-tracking",
+     "web-analytics",
+     "cv-portfolio"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -112,7 +139,13 @@
     "practice": "Publish a report for a colleague",
     "need_tags": [
      "dashboards-bi",
-     "kpi-tracking"
+     "kpi-tracking",
+     "public-health-data",
+     "drilling-reporting",
+     "production-surveillance",
+     "data-visualisation",
+     "web-analytics",
+     "cv-portfolio"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -133,7 +166,14 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "dashboards-bi"
+     "dashboards-bi",
+     "public-health-data",
+     "drilling-reporting",
+     "production-surveillance",
+     "data-visualisation",
+     "kpi-tracking",
+     "web-analytics",
+     "cv-portfolio"
     ],
     "estimated_hours": {
      "value": 3,
@@ -155,7 +195,14 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "dashboards-bi"
+     "dashboards-bi",
+     "public-health-data",
+     "drilling-reporting",
+     "production-surveillance",
+     "data-visualisation",
+     "kpi-tracking",
+     "web-analytics",
+     "cv-portfolio"
     ],
     "estimated_hours": {
      "value": 4,
@@ -176,7 +223,14 @@
     "practice": "Schedule a refresh and document metric definitions",
     "need_tags": [
      "data-pipelines",
-     "dashboards-bi"
+     "dashboards-bi",
+     "public-health-data",
+     "drilling-reporting",
+     "production-surveillance",
+     "data-visualisation",
+     "kpi-tracking",
+     "web-analytics",
+     "cv-portfolio"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -198,7 +252,14 @@
     "practice": "Connect Looker Studio to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "dashboards-bi"
+     "dashboards-bi",
+     "public-health-data",
+     "drilling-reporting",
+     "production-surveillance",
+     "data-visualisation",
+     "kpi-tracking",
+     "web-analytics",
+     "cv-portfolio"
     ],
     "estimated_hours": {
      "value": 2,
@@ -220,7 +281,14 @@
     "practice": "Write a one-page \"how we use Looker Studio\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "dashboards-bi"
+     "dashboards-bi",
+     "public-health-data",
+     "drilling-reporting",
+     "production-surveillance",
+     "data-visualisation",
+     "kpi-tracking",
+     "web-analytics",
+     "cv-portfolio"
     ],
     "estimated_hours": {
      "value": 2,

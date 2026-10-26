@@ -23,7 +23,9 @@
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
      "fea-simulation",
-     "mechanical-design"
+     "mechanical-design",
+     "cad-drafting",
+     "cnc-cam"
     ],
     "estimated_hours": {
      "value": 1,
@@ -46,7 +48,8 @@
     "need_tags": [
      "cad-drafting",
      "fea-simulation",
-     "mechanical-design"
+     "mechanical-design",
+     "cnc-cam"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -70,7 +73,8 @@
      "cad-drafting",
      "mechanical-design",
      "bim-modelling",
-     "fea-simulation"
+     "fea-simulation",
+     "cnc-cam"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -96,7 +100,8 @@
      "cad-drafting",
      "technical-reporting",
      "fea-simulation",
-     "mechanical-design"
+     "mechanical-design",
+     "cnc-cam"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -120,7 +125,9 @@
      "bim-modelling",
      "drawing-markup",
      "fea-simulation",
-     "mechanical-design"
+     "mechanical-design",
+     "cad-drafting",
+     "cnc-cam"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -142,7 +149,9 @@
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
      "fea-simulation",
-     "mechanical-design"
+     "mechanical-design",
+     "cad-drafting",
+     "cnc-cam"
     ],
     "estimated_hours": {
      "value": 3,
@@ -165,7 +174,9 @@
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
      "fea-simulation",
-     "mechanical-design"
+     "mechanical-design",
+     "cad-drafting",
+     "cnc-cam"
     ],
     "estimated_hours": {
      "value": 4,
@@ -189,7 +200,9 @@
      "cost-estimation",
      "bim-modelling",
      "fea-simulation",
-     "mechanical-design"
+     "mechanical-design",
+     "cad-drafting",
+     "cnc-cam"
     ],
     "estimated_hours": {
      "value": 5.0,
@@ -212,7 +225,9 @@
     "need_tags": [
      "automation-workflows",
      "fea-simulation",
-     "mechanical-design"
+     "mechanical-design",
+     "cad-drafting",
+     "cnc-cam"
     ],
     "estimated_hours": {
      "value": 2,
@@ -235,7 +250,9 @@
     "need_tags": [
      "workshop-facilitation",
      "fea-simulation",
-     "mechanical-design"
+     "mechanical-design",
+     "cad-drafting",
+     "cnc-cam"
     ],
     "estimated_hours": {
      "value": 2,

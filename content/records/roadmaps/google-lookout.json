@@ -1,0 +1,236 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_google_lookout",
+ "slug": "google-lookout",
+ "title": "Lookout by Google skill roadmap",
+ "tool_ids": [
+  "tool_google_lookout"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_google_lookout_accessibility_tool_0",
+    "slug": "google-lookout-accessibility-tool-0",
+    "title": "Get started with Lookout by Google",
+    "outcome": "You can: set up Lookout by Google, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "accessibility-tools"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_google_lookout_accessibility_tool_1",
+    "slug": "google-lookout-accessibility-tool-1",
+    "title": "Turn it on and set it up",
+    "outcome": "You can: start using Lookout by Google",
+    "topics": [
+     "installation",
+     "settings",
+     "voices/languages",
+     "shortcuts"
+    ],
+    "practice": "Set up Lookout by Google for your needs",
+    "need_tags": [
+     "accessibility-tools",
+     "accessible-communication"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_google_lookout_accessibility_tool_2",
+    "slug": "google-lookout-accessibility-tool-2",
+    "title": "Everyday tasks",
+    "outcome": "You can: use Lookout by Google for daily tasks",
+    "topics": [
+     "reading",
+     "messaging",
+     "navigation",
+     "documents"
+    ],
+    "practice": "Complete three daily tasks with Lookout by Google",
+    "need_tags": [
+     "accessibility-tools"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_google_lookout_accessibility_tool_3",
+    "slug": "google-lookout-accessibility-tool-3",
+    "title": "Customise",
+    "outcome": "You can: tailor Lookout by Google to you",
+    "topics": [
+     "speed",
+     "vocabulary",
+     "profiles",
+     "gestures"
+    ],
+    "practice": "Customise three settings",
+    "need_tags": [
+     "accessibility-tools"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_google_lookout_accessibility_tool_4",
+    "slug": "google-lookout-accessibility-tool-4",
+    "title": "Work and study",
+    "outcome": "You can: use Lookout by Google at work or school",
+    "topics": [
+     "meetings",
+     "documents",
+     "forms",
+     "requesting adjustments"
+    ],
+    "practice": "Use Lookout by Google in one meeting or class",
+    "need_tags": [
+     "accessible-communication",
+     "accessibility-tools"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_google_lookout_accessibility_tool_8",
+    "slug": "google-lookout-accessibility-tool-8",
+    "title": "Signature skills in Lookout by Google",
+    "outcome": "You can: use the features that make Lookout by Google distinctive",
+    "topics": [
+     "setup",
+     "core use",
+     "customisation"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "accessibility-tools"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_google_lookout_accessibility_tool_9",
+    "slug": "google-lookout-accessibility-tool-9",
+    "title": "Advanced Lookout by Google",
+    "outcome": "You can: use Lookout by Google's advanced capabilities with confidence",
+    "topics": [
+     "advanced shortcuts",
+     "supporting others"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "accessibility-tools"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_google_lookout_accessibility_tool_5",
+    "slug": "google-lookout-accessibility-tool-5",
+    "title": "Support and advocate",
+    "outcome": "You can: help others and test accessibility",
+    "topics": [
+     "teaching others",
+     "testing content",
+     "reporting barriers"
+    ],
+    "practice": "Test a document or website with Lookout by Google",
+    "need_tags": [
+     "accessible-materials",
+     "accessibility-tools"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_google_lookout_accessibility_tool_10",
+    "slug": "google-lookout-accessibility-tool-10",
+    "title": "Integrate Lookout by Google into your workflow",
+    "outcome": "You can: connect Lookout by Google with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Lookout by Google to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "accessibility-tools"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_google_lookout_accessibility_tool_11",
+    "slug": "google-lookout-accessibility-tool-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Lookout by Google well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Lookout by Google\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "accessibility-tools"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype",
+ "archetype": "accessibility-tool",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

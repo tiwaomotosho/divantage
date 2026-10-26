@@ -1,0 +1,244 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_chatpdf",
+ "slug": "chatpdf",
+ "title": "ChatPDF skill roadmap",
+ "tool_ids": [
+  "tool_chatpdf"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_chatpdf_ai_tool_0",
+    "slug": "chatpdf-ai-tool-0",
+    "title": "Get started with ChatPDF",
+    "outcome": "You can: set up ChatPDF, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "use-ai-assistants",
+     "find-information"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_chatpdf_ai_tool_1",
+    "slug": "chatpdf-ai-tool-1",
+    "title": "Ask well, check everything",
+    "outcome": "You can: get useful, checkable answers from ChatPDF",
+    "topics": [
+     "giving role, task, context and format",
+     "follow-up questions",
+     "spotting made-up facts"
+    ],
+    "practice": "Ask ChatPDF to explain a concept from your work, then verify two claims",
+    "need_tags": [
+     "use-ai-assistants",
+     "fact-check",
+     "find-information"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_chatpdf_ai_tool_2",
+    "slug": "chatpdf-ai-tool-2",
+    "title": "Use it safely",
+    "outcome": "You can: protect private data while using ChatPDF",
+    "topics": [
+     "what not to paste",
+     "workplace policy",
+     "privacy settings"
+    ],
+    "practice": "Write your personal \"never paste\" list",
+    "need_tags": [
+     "use-ai-assistants",
+     "online-safety",
+     "find-information"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_chatpdf_ai_tool_3",
+    "slug": "chatpdf-ai-tool-3",
+    "title": "Reusable prompts for your job",
+    "outcome": "You can: build prompt templates for repeated tasks",
+    "topics": [
+     "templates",
+     "examples",
+     "checklists"
+    ],
+    "practice": "Create three prompts for your weekly tasks",
+    "need_tags": [
+     "use-ai-assistants",
+     "find-information"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_chatpdf_ai_tool_4",
+    "slug": "chatpdf-ai-tool-4",
+    "title": "Research and summarise with sources",
+    "outcome": "You can: summarise documents and find sources responsibly",
+    "topics": [
+     "citations",
+     "page references",
+     "cross-checking"
+    ],
+    "practice": "Summarise a public report with page references",
+    "need_tags": [
+     "literature-review",
+     "find-information",
+     "use-ai-assistants"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_chatpdf_ai_tool_8",
+    "slug": "chatpdf-ai-tool-8",
+    "title": "Signature skills in ChatPDF",
+    "outcome": "You can: use the features that make ChatPDF distinctive",
+    "topics": [
+     "prompting with context",
+     "working with files",
+     "checking outputs"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "use-ai-assistants",
+     "find-information"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_chatpdf_ai_tool_9",
+    "slug": "chatpdf-ai-tool-9",
+    "title": "Advanced ChatPDF",
+    "outcome": "You can: use ChatPDF's advanced capabilities with confidence",
+    "topics": [
+     "automation with AI",
+     "building reusable prompts and assistants"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "use-ai-assistants",
+     "find-information"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_chatpdf_ai_tool_5",
+    "slug": "chatpdf-ai-tool-5",
+    "title": "Build with it",
+    "outcome": "You can: put ChatPDF inside a workflow or product",
+    "topics": [
+     "APIs or integrations",
+     "evaluation",
+     "human review steps"
+    ],
+    "practice": "Automate one recurring task with a human sign-off step",
+    "need_tags": [
+     "automation-workflows",
+     "ai-app-development",
+     "use-ai-assistants",
+     "find-information"
+    ],
+    "estimated_hours": {
+     "value": 4.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_chatpdf_ai_tool_10",
+    "slug": "chatpdf-ai-tool-10",
+    "title": "Integrate ChatPDF into your workflow",
+    "outcome": "You can: connect ChatPDF with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect ChatPDF to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "use-ai-assistants",
+     "find-information"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_chatpdf_ai_tool_11",
+    "slug": "chatpdf-ai-tool-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use ChatPDF well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use ChatPDF\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "use-ai-assistants",
+     "find-information"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype",
+ "archetype": "ai-tool",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

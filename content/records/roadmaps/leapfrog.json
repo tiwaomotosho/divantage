@@ -22,7 +22,8 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "mine-planning"
+     "mine-planning",
+     "reservoir-modelling"
     ],
     "estimated_hours": {
      "value": 1,
@@ -43,7 +44,8 @@
     ],
     "practice": "Load and QC a sample dataset",
     "need_tags": [
-     "mine-planning"
+     "mine-planning",
+     "reservoir-modelling"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -63,7 +65,8 @@
     ],
     "practice": "Complete a basic interpretation",
     "need_tags": [
-     "mine-planning"
+     "mine-planning",
+     "reservoir-modelling"
     ],
     "estimated_hours": {
      "value": 4.0,
@@ -108,7 +111,8 @@
     "practice": "Run three scenarios and compare",
     "need_tags": [
      "risk-modelling",
-     "mine-planning"
+     "mine-planning",
+     "reservoir-modelling"
     ],
     "estimated_hours": {
      "value": 4.0,
@@ -129,7 +133,8 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "mine-planning"
+     "mine-planning",
+     "reservoir-modelling"
     ],
     "estimated_hours": {
      "value": 3,
@@ -151,7 +156,8 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "mine-planning"
+     "mine-planning",
+     "reservoir-modelling"
     ],
     "estimated_hours": {
      "value": 4,
@@ -174,7 +180,8 @@
     "need_tags": [
      "regulatory-reporting",
      "technical-reporting",
-     "mine-planning"
+     "mine-planning",
+     "reservoir-modelling"
     ],
     "estimated_hours": {
      "value": 4.0,
@@ -196,7 +203,8 @@
     "practice": "Connect Leapfrog to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "mine-planning"
+     "mine-planning",
+     "reservoir-modelling"
     ],
     "estimated_hours": {
      "value": 2,
@@ -218,7 +226,8 @@
     "practice": "Write a one-page \"how we use Leapfrog\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "mine-planning"
+     "mine-planning",
+     "reservoir-modelling"
     ],
     "estimated_hours": {
      "value": 2,

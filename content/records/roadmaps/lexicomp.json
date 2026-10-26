@@ -22,7 +22,8 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "drug-information"
+     "drug-information",
+     "medical-calculators"
     ],
     "estimated_hours": {
      "value": 1,
@@ -43,7 +44,8 @@
     "practice": "Answer three clinical questions from your practice",
     "need_tags": [
      "clinical-reference",
-     "drug-information"
+     "drug-information",
+     "medical-calculators"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -64,7 +66,8 @@
     "practice": "Compare UpToDate Lexidrug's advice with a local guideline",
     "need_tags": [
      "evidence-based-medicine",
-     "drug-information"
+     "drug-information",
+     "medical-calculators"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -109,7 +112,8 @@
     "practice": "Set up bookmarks for your top 10 topics",
     "need_tags": [
      "clinical-reference",
-     "drug-information"
+     "drug-information",
+     "medical-calculators"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -130,7 +134,8 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "drug-information"
+     "drug-information",
+     "medical-calculators"
     ],
     "estimated_hours": {
      "value": 3,
@@ -152,7 +157,8 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "drug-information"
+     "drug-information",
+     "medical-calculators"
     ],
     "estimated_hours": {
      "value": 4,
@@ -173,7 +179,8 @@
     "practice": "Turn one topic into a teaching session",
     "need_tags": [
      "cpd-learning",
-     "drug-information"
+     "drug-information",
+     "medical-calculators"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -195,7 +202,8 @@
     "practice": "Connect UpToDate Lexidrug to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "drug-information"
+     "drug-information",
+     "medical-calculators"
     ],
     "estimated_hours": {
      "value": 2,
@@ -217,7 +225,8 @@
     "practice": "Write a one-page \"how we use UpToDate Lexidrug\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "drug-information"
+     "drug-information",
+     "medical-calculators"
     ],
     "estimated_hours": {
      "value": 2,

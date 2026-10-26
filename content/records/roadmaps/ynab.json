@@ -22,7 +22,8 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "personal-finance"
+     "personal-finance",
+     "budgeting-fpa"
     ],
     "estimated_hours": {
      "value": 1,
@@ -45,7 +46,8 @@
     "need_tags": [
      "invoicing",
      "online-payments",
-     "personal-finance"
+     "personal-finance",
+     "budgeting-fpa"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -66,7 +68,8 @@
     "practice": "Record a week of transactions",
     "need_tags": [
      "bookkeeping",
-     "personal-finance"
+     "personal-finance",
+     "budgeting-fpa"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -91,7 +94,8 @@
     "need_tags": [
      "bookkeeping",
      "audit-analytics",
-     "personal-finance"
+     "personal-finance",
+     "budgeting-fpa"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -112,7 +116,8 @@
     "practice": "Review security settings and user roles",
     "need_tags": [
      "online-safety",
-     "personal-finance"
+     "personal-finance",
+     "budgeting-fpa"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -133,7 +138,8 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "personal-finance"
+     "personal-finance",
+     "budgeting-fpa"
     ],
     "estimated_hours": {
      "value": 3,
@@ -155,7 +161,8 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "personal-finance"
+     "personal-finance",
+     "budgeting-fpa"
     ],
     "estimated_hours": {
      "value": 4,
@@ -177,7 +184,8 @@
     "need_tags": [
      "bookkeeping",
      "automation-workflows",
-     "personal-finance"
+     "personal-finance",
+     "budgeting-fpa"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -199,7 +207,8 @@
     "practice": "Connect YNAB to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "personal-finance"
+     "personal-finance",
+     "budgeting-fpa"
     ],
     "estimated_hours": {
      "value": 2,
@@ -221,7 +230,8 @@
     "practice": "Write a one-page \"how we use YNAB\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "personal-finance"
+     "personal-finance",
+     "budgeting-fpa"
     ],
     "estimated_hours": {
      "value": 2,

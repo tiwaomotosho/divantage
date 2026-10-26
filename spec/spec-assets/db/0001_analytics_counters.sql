@@ -1,3 +1,4 @@
+-- RETIRED in V2.8 (D-083): this Cloudflare D1/SQLite migration is not used on Vercel. Part B of 0002 (event_counts) replaces it. Kept for history only.
 -- Cloudflare D1 (SQLite) migration 0001 — aggregate analytics counters only.
 -- No personal data. See 12_Security_and_Privacy_Plan.md §4 and spec-assets/analytics/events.json.
 CREATE TABLE IF NOT EXISTS event_counts (

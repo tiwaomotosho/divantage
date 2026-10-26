@@ -25,7 +25,16 @@
      "booking-appointments",
      "point-of-sale",
      "restaurant-operations",
-     "salon-booking"
+     "salon-booking",
+     "online-payments",
+     "therapy-practice-admin",
+     "pharmacy-stock",
+     "dental-practice",
+     "inventory-procurement",
+     "gym-membership",
+     "veterinary-practice",
+     "recipe-costing",
+     "trade-quotes-invoicing"
     ],
     "estimated_hours": {
      "value": 1,
@@ -49,7 +58,16 @@
      "booking-appointments",
      "point-of-sale",
      "restaurant-operations",
-     "salon-booking"
+     "salon-booking",
+     "online-payments",
+     "therapy-practice-admin",
+     "pharmacy-stock",
+     "dental-practice",
+     "inventory-procurement",
+     "gym-membership",
+     "veterinary-practice",
+     "recipe-costing",
+     "trade-quotes-invoicing"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -72,7 +90,16 @@
      "booking-appointments",
      "point-of-sale",
      "restaurant-operations",
-     "salon-booking"
+     "salon-booking",
+     "online-payments",
+     "therapy-practice-admin",
+     "pharmacy-stock",
+     "dental-practice",
+     "inventory-procurement",
+     "gym-membership",
+     "veterinary-practice",
+     "recipe-costing",
+     "trade-quotes-invoicing"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -100,7 +127,16 @@
      "booking-appointments",
      "point-of-sale",
      "restaurant-operations",
-     "salon-booking"
+     "salon-booking",
+     "online-payments",
+     "therapy-practice-admin",
+     "pharmacy-stock",
+     "dental-practice",
+     "inventory-procurement",
+     "gym-membership",
+     "veterinary-practice",
+     "recipe-costing",
+     "trade-quotes-invoicing"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -124,7 +160,16 @@
      "booking-appointments",
      "point-of-sale",
      "restaurant-operations",
-     "salon-booking"
+     "salon-booking",
+     "online-payments",
+     "therapy-practice-admin",
+     "pharmacy-stock",
+     "dental-practice",
+     "inventory-procurement",
+     "gym-membership",
+     "veterinary-practice",
+     "recipe-costing",
+     "trade-quotes-invoicing"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -148,7 +193,16 @@
      "booking-appointments",
      "point-of-sale",
      "restaurant-operations",
-     "salon-booking"
+     "salon-booking",
+     "online-payments",
+     "therapy-practice-admin",
+     "pharmacy-stock",
+     "dental-practice",
+     "inventory-procurement",
+     "gym-membership",
+     "veterinary-practice",
+     "recipe-costing",
+     "trade-quotes-invoicing"
     ],
     "estimated_hours": {
      "value": 3,
@@ -174,7 +228,16 @@
      "booking-appointments",
      "point-of-sale",
      "restaurant-operations",
-     "salon-booking"
+     "salon-booking",
+     "online-payments",
+     "therapy-practice-admin",
+     "pharmacy-stock",
+     "dental-practice",
+     "inventory-procurement",
+     "gym-membership",
+     "veterinary-practice",
+     "recipe-costing",
+     "trade-quotes-invoicing"
     ],
     "estimated_hours": {
      "value": 4,
@@ -198,7 +261,16 @@
      "booking-appointments",
      "point-of-sale",
      "restaurant-operations",
-     "salon-booking"
+     "salon-booking",
+     "online-payments",
+     "therapy-practice-admin",
+     "pharmacy-stock",
+     "dental-practice",
+     "inventory-procurement",
+     "gym-membership",
+     "veterinary-practice",
+     "recipe-costing",
+     "trade-quotes-invoicing"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -223,7 +295,16 @@
      "booking-appointments",
      "point-of-sale",
      "restaurant-operations",
-     "salon-booking"
+     "salon-booking",
+     "online-payments",
+     "therapy-practice-admin",
+     "pharmacy-stock",
+     "dental-practice",
+     "inventory-procurement",
+     "gym-membership",
+     "veterinary-practice",
+     "recipe-costing",
+     "trade-quotes-invoicing"
     ],
     "estimated_hours": {
      "value": 2,
@@ -248,7 +329,16 @@
      "booking-appointments",
      "point-of-sale",
      "restaurant-operations",
-     "salon-booking"
+     "salon-booking",
+     "online-payments",
+     "therapy-practice-admin",
+     "pharmacy-stock",
+     "dental-practice",
+     "inventory-procurement",
+     "gym-membership",
+     "veterinary-practice",
+     "recipe-costing",
+     "trade-quotes-invoicing"
     ],
     "estimated_hours": {
      "value": 2,

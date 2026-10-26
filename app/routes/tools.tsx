@@ -1,53 +1,117 @@
-// S08 Tool directory A–Z (client filter; the full list works without JavaScript).
+// S08 Tools. Composed from 05-browse: filter, segmented views (By category / A–Z), category cards, lists with price.
 import { useMemo, useState } from "react";
 import { Link } from "react-router";
 import type { Route } from "./+types/tools";
-import { toolsDirectory } from "~/lib/content.server";
+import { db, toolsDirectory } from "~/lib/content.server";
 import { meta as pageMeta } from "../lib/build";
-import { Monogram, PageHeader } from "../components/ui";
+import { Icon, Tile, ToolLogo } from "../components/da";
 
-export const loader = () => ({ tools: toolsDirectory() });
-export const meta: Route.MetaFunction = () => pageMeta("Tools A–Z", "Every tool in the catalogue, each with a beginner-to-expert course outline.");
+// categories.json uses a few icon names outside the closed set; map them to the nearest asset icon (D-096).
+const ICON_MAP: Record<string, string> = { clapperboard: "video", "audio-lines": "music", "pen-line": "pen-tool", "chart-column": "chart", "graduation-cap": "graduation", "badge-check": "award", workflow: "zap", house: "home", rocket: "sparkles" };
 
-const letterOf = (name: string) => (/[a-z]/i.test(name[0]) ? name[0].toUpperCase() : "#");
+export function loader() {
+  const D = db();
+  const tools = toolsDirectory();
+  const bySlug = new Map(D.registry.map((r) => [r.slug, r.category_id ?? "other"]));
+  const cats = D.categories
+    .map((c) => ({ slug: c.slug, label: c.label, hue: D.visuals.tool_categories[c.slug]?.hue ?? c.hue ?? "slate", icon: ICON_MAP[c.icon] ?? c.icon ?? "grid", tools: tools.filter((t) => bySlug.get(t.slug) === c.slug || bySlug.get(t.slug) === c.id) }))
+    .filter((c) => c.tools.length);
+  return { tools, cats };
+}
+export const meta: Route.MetaFunction = () => pageMeta("Tools A–Z", "Every tool, each with a learning path and an honest price label.");
+
+const letterOf = (n: string) => (/[a-z]/i.test(n[0]) ? n[0].toUpperCase() : "#");
 
 export default function Tools({ loaderData: d }: Route.ComponentProps) {
+  const [view, setView] = useState<"cat" | "az">("cat");
+  const [cat, setCat] = useState<string | null>(null);
   const [q, setQ] = useState("");
-  const list = useMemo(() => (q ? d.tools.filter((t) => t.name.toLowerCase().includes(q.toLowerCase())) : d.tools), [q, d.tools]);
-  const letters = [...new Set(list.map((t) => letterOf(t.name)))];
+  const [letter, setLetter] = useState("A");
+  const lq = q.trim().toLowerCase();
+  const letters = useMemo(() => [...new Set(d.tools.map((t) => letterOf(t.name)))], [d.tools]);
+  const current = d.cats.find((c) => c.slug === cat);
+  const list = lq ? d.tools.filter((t) => t.name.toLowerCase().includes(lq)).slice(0, 80) : current ? current.tools : d.tools.filter((t) => letterOf(t.name) === letter);
   return (
-    <div className="container">
-      <PageHeader title="Tools A–Z" lead={`${d.tools.length} tools, sorted A–Z. This is not a quality ranking.`} />
-      <div className="field filter-field">
-        <label className="label" htmlFor="tool-filter">
-          Filter tools
-        </label>
-        <input id="tool-filter" type="search" value={q} onChange={(e) => setQ(e.target.value)} placeholder="Type a name" />
-      </div>
-      <nav aria-label="Jump to letter" className="az-nav">
-        {letters.map((l) => (
-          <a key={l} href={`#l-${l}`}>
-            {l}
-          </a>
-        ))}
-      </nav>
-      {letters.map((l) => (
-        <section key={l} id={`l-${l}`} className="az-group">
-          <h2>{l}</h2>
-          <ul className="az-list">
-            {list
-              .filter((t) => letterOf(t.name) === l)
-              .map((t) => (
-                <li key={t.slug}>
-                  <Monogram name={t.name} hue={t.hue} size={32} />
-                  <Link to={`/tools/${t.slug}`}>{t.name}</Link>
-                  {t.guide && <span className="badge badge-starts badge-xs">Guide</span>}
-                </li>
+    <section className="wrap" style={{ paddingTop: 28 }}>
+      <span className="t-label">Tools</span>
+      <h1 className="t-h1" style={{ marginTop: 6 }}>
+        {d.tools.length.toLocaleString("en-GB")} tools
+      </h1>
+      <p className="mu" style={{ marginTop: 6 }}>
+        Each with a learning path and an honest price label. Sorted A–Z; this is not a quality ranking.
+      </p>
+      <label className="input" style={{ marginTop: 20 }}>
+        <Icon name="search" />
+        <input placeholder="Filter tools, e.g. Canva" aria-label="Filter tools" value={q} onChange={(e) => setQ(e.target.value)} />
+      </label>
+      {!lq && (
+        <div className="row g8 wrapf" style={{ marginTop: 12 }}>
+          <div className="seg" role="tablist" aria-label="Browse by">
+            <button type="button" role="tab" aria-selected={view === "cat"} onClick={() => setView("cat")}>
+              By category
+            </button>
+            <button
+              type="button"
+              role="tab"
+              aria-selected={view === "az"}
+              onClick={() => {
+                setView("az");
+                setCat(null);
+              }}
+            >
+              A–Z
+            </button>
+          </div>
+        </div>
+      )}
+      {!lq && view === "cat" && !current && (
+        <div className="grid c4" style={{ marginTop: 18 }}>
+          {d.cats.map((c) => (
+            <button key={c.slug} type="button" className="card pad row g12" style={{ padding: 16, textAlign: "left" }} onClick={() => setCat(c.slug)}>
+              <Tile icon={c.icon} hue={c.hue} />
+              <div className="fl1">
+                <div className="b7 t-sm">{c.label}</div>
+                <div className="t-xs su">{c.tools.length} tools</div>
+              </div>
+              <Icon name="chevron-right" />
+            </button>
+          ))}
+        </div>
+      )}
+      {!lq && view === "az" && (
+        <div className="row g6 wrapf" style={{ marginTop: 12 }} role="tablist" aria-label="Letter">
+          {letters.map((l) => (
+            <button key={l} type="button" role="tab" aria-selected={l === letter} className={`chip sm ${l === letter ? "on" : ""}`} onClick={() => setLetter(l)}>
+              {l}
+            </button>
+          ))}
+        </div>
+      )}
+      {(lq || view === "az" || current) && (
+        <>
+          {current && !lq && (
+            <div className="row g10" style={{ marginTop: 16 }}>
+              <button type="button" className="chip sm" onClick={() => setCat(null)}>
+                <Icon name="arrow-left" /> All categories
+              </button>
+              <span className="b7">{current.label}</span>
+            </div>
+          )}
+          <div className="card" style={{ marginTop: 16, padding: "4px 20px" }}>
+            <div className="list">
+              {list.map((t) => (
+                <Link key={t.slug} className="li" to={`/tools/${t.slug}`}>
+                  <ToolLogo slug={t.slug} size="sm" />
+                  <span className="t-sm b6 fl1">{t.name}</span>
+                  <span className="t-xs su">{t.price}</span>
+                  <Icon name="chevron-right" className="cr" />
+                </Link>
               ))}
-          </ul>
-        </section>
-      ))}
-      {list.length === 0 && <p>No tools match "{q}". Try fewer letters.</p>}
-    </div>
+              {list.length === 0 && <div className="li t-sm mu">No tools match "{q}".</div>}
+            </div>
+          </div>
+        </>
+      )}
+    </section>
   );
 }

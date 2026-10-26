@@ -1,0 +1,263 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_icann_lookup",
+ "slug": "icann-lookup",
+ "title": "ICANN Lookup skill roadmap",
+ "tool_ids": [
+  "tool_icann_lookup"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_icann_lookup_personal_security_0",
+    "slug": "icann-lookup-personal-security-0",
+    "title": "Get started with ICANN Lookup",
+    "outcome": "You can: set up ICANN Lookup, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "job-search",
+     "business-planning",
+     "personal-finance",
+     "online-safety"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_icann_lookup_personal_security_1",
+    "slug": "icann-lookup-personal-security-1",
+    "title": "Set it up right",
+    "outcome": "You can: install and configure ICANN Lookup",
+    "topics": [
+     "install",
+     "account",
+     "recovery codes",
+     "backups"
+    ],
+    "practice": "Set up ICANN Lookup and store recovery details safely",
+    "need_tags": [
+     "online-safety",
+     "job-search",
+     "business-planning",
+     "personal-finance"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_icann_lookup_personal_security_2",
+    "slug": "icann-lookup-personal-security-2",
+    "title": "Everyday use",
+    "outcome": "You can: use ICANN Lookup without friction",
+    "topics": [
+     "daily workflow",
+     "browser/phone integration"
+    ],
+    "practice": "Use ICANN Lookup for a week on your main accounts",
+    "need_tags": [
+     "online-safety",
+     "job-search",
+     "business-planning",
+     "personal-finance"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_icann_lookup_personal_security_3",
+    "slug": "icann-lookup-personal-security-3",
+    "title": "Protect what matters most",
+    "outcome": "You can: secure your critical accounts",
+    "topics": [
+     "email",
+     "banking",
+     "work",
+     "phone number risks"
+    ],
+    "practice": "Secure your top five accounts",
+    "need_tags": [
+     "online-safety",
+     "job-search",
+     "business-planning",
+     "personal-finance"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_icann_lookup_personal_security_4",
+    "slug": "icann-lookup-personal-security-4",
+    "title": "Spot scams",
+    "outcome": "You can: recognise phishing and fraud",
+    "topics": [
+     "phishing signs",
+     "fake support",
+     "SIM swap",
+     "reporting"
+    ],
+    "practice": "Review three real scam examples",
+    "need_tags": [
+     "online-safety",
+     "fact-check",
+     "job-search",
+     "business-planning",
+     "personal-finance"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_icann_lookup_personal_security_8",
+    "slug": "icann-lookup-personal-security-8",
+    "title": "Signature skills in ICANN Lookup",
+    "outcome": "You can: use the features that make ICANN Lookup distinctive",
+    "topics": [
+     "setup",
+     "everyday use",
+     "recovery"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "job-search",
+     "business-planning",
+     "personal-finance",
+     "online-safety"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_icann_lookup_personal_security_9",
+    "slug": "icann-lookup-personal-security-9",
+    "title": "Advanced ICANN Lookup",
+    "outcome": "You can: use ICANN Lookup's advanced capabilities with confidence",
+    "topics": [
+     "family/team sharing",
+     "advanced protection"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "job-search",
+     "business-planning",
+     "personal-finance",
+     "online-safety"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_icann_lookup_personal_security_5",
+    "slug": "icann-lookup-personal-security-5",
+    "title": "Help family or team",
+    "outcome": "You can: roll out good security habits to others",
+    "topics": [
+     "sharing",
+     "family plans",
+     "simple policies"
+    ],
+    "practice": "Help two people set up ICANN Lookup",
+    "need_tags": [
+     "online-safety",
+     "digital-basics",
+     "job-search",
+     "business-planning",
+     "personal-finance"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_icann_lookup_personal_security_10",
+    "slug": "icann-lookup-personal-security-10",
+    "title": "Integrate ICANN Lookup into your workflow",
+    "outcome": "You can: connect ICANN Lookup with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect ICANN Lookup to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "job-search",
+     "business-planning",
+     "personal-finance",
+     "online-safety"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_icann_lookup_personal_security_11",
+    "slug": "icann-lookup-personal-security-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use ICANN Lookup well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use ICANN Lookup\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "job-search",
+     "business-planning",
+     "personal-finance",
+     "online-safety"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype",
+ "archetype": "personal-security",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

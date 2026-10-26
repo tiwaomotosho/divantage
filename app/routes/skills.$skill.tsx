@@ -1,12 +1,9 @@
-// S35 Skill page.
-import { Link, data, useNavigate } from "react-router";
-import { Sprout, TrendingUp, Mountain } from "lucide-react";
-import { FlagOff } from "../components/ui";
+// S35 Skill page. New composition from identity (04) and goal (07) parts; needs design review.
+import { Link, data } from "react-router";
 import type { Route } from "./+types/skills.$skill";
 import { skillData } from "~/lib/content.server";
 import { flag, meta as pageMeta } from "../lib/build";
-import { Breadcrumb, NeedCard, PageHeader, Section, ToolRow, TrustFooter, WhoUses } from "../components/ui";
-import { IdentityPicker } from "../components/IdentityPicker";
+import { Crumbs, DepthLabel, FlagOff, NextStepCard, Tag, Tile, ToolLogo, ToolRowCard } from "../components/da";
 
 export function loader({ params }: Route.LoaderArgs) {
   const d = skillData(params.skill);
@@ -17,66 +14,66 @@ export const meta: Route.MetaFunction = ({ data: d }) => (d ? pageMeta(d.skill.l
 
 export default function SkillPage({ loaderData: d }: Route.ComponentProps) {
   if (!flag("explore_skills")) return <FlagOff />;
-  const navigate = useNavigate();
   const lv = [
-    { k: "beginner" as const, label: "Beginner", I: Sprout },
-    { k: "intermediate" as const, label: "Intermediate", I: TrendingUp },
-    { k: "expert" as const, label: "Expert", I: Mountain },
-  ];
+    ["beginner", "Beginner", "green"],
+    ["intermediate", "Intermediate", "blue"],
+    ["expert", "Expert", "violet"],
+  ] as const;
+  const t0 = d.tools[0];
   return (
-    <div className="container">
-      <Breadcrumb items={[{ to: "/skills", label: "Skills" }, ...(d.group ? [{ to: `/skills#${d.group.slug}`, label: d.group.label }] : []), { label: d.skill.label }]} />
-      <PageHeader title={d.skill.label} lead={d.skill.description} />
-      <ol className="level-cards">
-        {lv.map(({ k, label, I }) => (
-          <li key={k} className="level-card" data-level={k}>
-            <p className="label">
-              <I size={18} aria-hidden="true" /> {label}
-            </p>
-            <p>{d.skill.levels[k]}</p>
-          </li>
-        ))}
-      </ol>
-      <div className="tailor-bar">
-        <IdentityPicker label="See this for your work: who are you?" max={1} onPick={(p) => navigate(`/for/${p.slug}`)} placeholder="e.g. nurse, farmer, DJ" />
+    <section className="wrap" style={{ paddingTop: 22 }}>
+      <Crumbs items={[{ to: "/skills", label: "Skills" }, ...(d.group ? [{ to: `/skills#${d.group.slug}`, label: d.group.label }] : [])]} />
+      <div className="row g16" style={{ marginTop: 12 }}>
+        {d.group && <Tile icon={d.group.icon} hue={d.group.hue} size="lg" />}
+        <div>
+          <h1 className="t-h1">{d.skill.label}</h1>
+          <p className="t-lg mu" style={{ marginTop: 6 }}>
+            {d.skill.description}
+          </p>
+        </div>
       </div>
-      <Section title="Tools to learn it with" id="h-tools">
-        <ul className="tool-rows tool-rows-grid">
-          {d.tools.map((t) => (
-            <ToolRow key={t.slug} t={t} />
-          ))}
-        </ul>
-        {d.toolTotal > d.tools.length && <p className="meta">{d.toolTotal} tools in all; these are the best fit across the skill's needs.</p>}
-      </Section>
-      <Section title="Course outlines" id="h-outlines">
-        <ul className="start-list">
-          {d.tools
-            .filter((t) => t.roadmap)
-            .slice(0, 5)
-            .map((t) => (
-              <li key={t.slug}>
-                <Link className="start-item" to={`/tools/${t.slug}/roadmap`}>
-                  {t.name}: skill roadmap
-                </Link>
-              </li>
-            ))}
-        </ul>
-      </Section>
-      <Section title="What it covers" id="h-needs">
-        <ul className="card-grid">
-          {d.needs.map((n) => (
-            <li key={n.slug}>
-              <NeedCard n={n} />
-            </li>
-          ))}
-        </ul>
-      </Section>
-      {d.who.length > 0 && (
-        <Section title="Who relies on this skill" id="h-who">
-          <WhoUses groups={d.who} />
-        </Section>
+      <div className="grid c3" style={{ marginTop: 20 }}>
+        {lv.map(([k, l, h]) => (
+          <div key={k} className="card pad">
+            <Tag hue={h}>{l}</Tag>
+            <p className="t-sm" style={{ marginTop: 10 }}>
+              {d.skill.levels[k]}
+            </p>
+          </div>
+        ))}
+      </div>
+      <h2 className="t-h3" style={{ marginTop: 24 }}>
+        Tools to learn it with
+      </h2>
+      <div className="col g12" style={{ marginTop: 12 }}>
+        {d.tools.slice(0, 4).map((t, i) => (
+          <ToolRowCard key={t.slug} t={t} rank={i + 1} top={i === 0} />
+        ))}
+      </div>
+      <h2 className="t-h3" style={{ marginTop: 24 }}>
+        What it covers
+      </h2>
+      <div className="grid c3" style={{ marginTop: 12 }}>
+        {d.needs.slice(0, 6).map((n) => (
+          <Link key={n.slug} className="card pad col g10" to={`/needs/${n.slug}`}>
+            <div className="row sb">
+              <Tile icon={n.tile.icon} hue={n.tile.hue} />
+              <DepthLabel depth={n.depth} />
+            </div>
+            <div className="b7">{n.label}</div>
+            <div className="row g6">
+              {n.logos.map((l) => (
+                <ToolLogo key={l} slug={l} size="sm" />
+              ))}
+            </div>
+          </Link>
+        ))}
+      </div>
+      {t0 && (
+        <div style={{ marginTop: 24 }}>
+          <NextStepCard next={{ kicker: "Your next step", title: `Learn ${t0.name}`, sub: `${t0.depth?.label ?? "Learning path"} · start with the first module`, url: t0.learn, cta: "Start" }} />
+        </div>
       )}
-      <TrustFooter validation={d.skill.validation} recordId={`skill_${d.skill.slug.replace(/-/g, "_")}`} />
-    </div>
+    </section>
   );
 }

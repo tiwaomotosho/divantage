@@ -22,7 +22,8 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "web-analytics"
+     "web-analytics",
+     "product-analytics"
     ],
     "estimated_hours": {
      "value": 1,
@@ -45,7 +46,8 @@
     "need_tags": [
      "dashboards-bi",
      "statistical-analysis",
-     "web-analytics"
+     "web-analytics",
+     "product-analytics"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -67,7 +69,8 @@
     "practice": "Make three charts that each answer one question",
     "need_tags": [
      "data-visualisation",
-     "web-analytics"
+     "web-analytics",
+     "product-analytics"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -92,7 +95,8 @@
     "need_tags": [
      "statistical-analysis",
      "data-cleaning",
-     "web-analytics"
+     "web-analytics",
+     "product-analytics"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -114,7 +118,8 @@
     "need_tags": [
      "dashboards-bi",
      "kpi-tracking",
-     "web-analytics"
+     "web-analytics",
+     "product-analytics"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -135,7 +140,8 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "web-analytics"
+     "web-analytics",
+     "product-analytics"
     ],
     "estimated_hours": {
      "value": 3,
@@ -158,7 +164,8 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "web-analytics"
+     "web-analytics",
+     "product-analytics"
     ],
     "estimated_hours": {
      "value": 4,
@@ -179,7 +186,8 @@
     "practice": "Schedule a refresh and document metric definitions",
     "need_tags": [
      "data-pipelines",
-     "web-analytics"
+     "web-analytics",
+     "product-analytics"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -201,7 +209,8 @@
     "practice": "Connect Matomo to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "web-analytics"
+     "web-analytics",
+     "product-analytics"
     ],
     "estimated_hours": {
      "value": 2,
@@ -223,7 +232,8 @@
     "practice": "Write a one-page \"how we use Matomo\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "web-analytics"
+     "web-analytics",
+     "product-analytics"
     ],
     "estimated_hours": {
      "value": 2,

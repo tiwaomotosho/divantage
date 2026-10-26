@@ -22,7 +22,10 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "data-cleaning"
+     "data-cleaning",
+     "spreadsheets-basics",
+     "open-data",
+     "audit-analytics"
     ],
     "estimated_hours": {
      "value": 1,
@@ -45,7 +48,10 @@
     "need_tags": [
      "dashboards-bi",
      "statistical-analysis",
-     "data-cleaning"
+     "data-cleaning",
+     "spreadsheets-basics",
+     "open-data",
+     "audit-analytics"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -67,7 +73,10 @@
     "practice": "Make three charts that each answer one question",
     "need_tags": [
      "data-visualisation",
-     "data-cleaning"
+     "data-cleaning",
+     "spreadsheets-basics",
+     "open-data",
+     "audit-analytics"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -91,7 +100,10 @@
     "practice": "Reproduce an analysis from start to finish",
     "need_tags": [
      "statistical-analysis",
-     "data-cleaning"
+     "data-cleaning",
+     "spreadsheets-basics",
+     "open-data",
+     "audit-analytics"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -113,7 +125,10 @@
     "need_tags": [
      "dashboards-bi",
      "kpi-tracking",
-     "data-cleaning"
+     "data-cleaning",
+     "spreadsheets-basics",
+     "open-data",
+     "audit-analytics"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -134,7 +149,10 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "data-cleaning"
+     "data-cleaning",
+     "spreadsheets-basics",
+     "open-data",
+     "audit-analytics"
     ],
     "estimated_hours": {
      "value": 3,
@@ -156,7 +174,10 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "data-cleaning"
+     "data-cleaning",
+     "spreadsheets-basics",
+     "open-data",
+     "audit-analytics"
     ],
     "estimated_hours": {
      "value": 4,
@@ -177,7 +198,10 @@
     "practice": "Schedule a refresh and document metric definitions",
     "need_tags": [
      "data-pipelines",
-     "data-cleaning"
+     "data-cleaning",
+     "spreadsheets-basics",
+     "open-data",
+     "audit-analytics"
     ],
     "estimated_hours": {
      "value": 3.0,
@@ -199,7 +223,10 @@
     "practice": "Connect OpenRefine to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "data-cleaning"
+     "data-cleaning",
+     "spreadsheets-basics",
+     "open-data",
+     "audit-analytics"
     ],
     "estimated_hours": {
      "value": 2,
@@ -221,7 +248,10 @@
     "practice": "Write a one-page \"how we use OpenRefine\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "data-cleaning"
+     "data-cleaning",
+     "spreadsheets-basics",
+     "open-data",
+     "audit-analytics"
     ],
     "estimated_hours": {
      "value": 2,

@@ -1,0 +1,260 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_later",
+ "slug": "later",
+ "title": "Later skill roadmap",
+ "tool_ids": [
+  "tool_later"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_later_marketing_tool_0",
+    "slug": "later-marketing-tool-0",
+    "title": "Get started with Later",
+    "outcome": "You can: set up Later, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "social-media-presence",
+     "social-media-management",
+     "content-planning"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_later_marketing_tool_1",
+    "slug": "later-marketing-tool-1",
+    "title": "Set up and connect",
+    "outcome": "You can: connect Later to your accounts",
+    "topics": [
+     "account setup",
+     "connections",
+     "audience basics",
+     "brand assets"
+    ],
+    "practice": "Connect your accounts and set up your profile",
+    "need_tags": [
+     "social-media-presence",
+     "social-media-management",
+     "content-planning"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_later_marketing_tool_2",
+    "slug": "later-marketing-tool-2",
+    "title": "First campaign or post",
+    "outcome": "You can: publish something that works",
+    "topics": [
+     "content",
+     "scheduling",
+     "targeting basics"
+    ],
+    "practice": "Launch one small campaign or post series",
+    "need_tags": [
+     "social-media-management",
+     "email-marketing",
+     "social-media-presence",
+     "content-planning"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_later_marketing_tool_3",
+    "slug": "later-marketing-tool-3",
+    "title": "Measure what matters",
+    "outcome": "You can: read results honestly",
+    "topics": [
+     "key metrics",
+     "attribution limits",
+     "reports"
+    ],
+    "practice": "Review results and choose one improvement",
+    "need_tags": [
+     "web-analytics",
+     "kpi-tracking",
+     "social-media-presence",
+     "social-media-management",
+     "content-planning"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_later_marketing_tool_4",
+    "slug": "later-marketing-tool-4",
+    "title": "Segment and personalise",
+    "outcome": "You can: send the right message to the right people",
+    "topics": [
+     "segments",
+     "tags",
+     "personalisation",
+     "consent"
+    ],
+    "practice": "Build two segments and tailor a message",
+    "need_tags": [
+     "email-marketing",
+     "crm-sales",
+     "social-media-presence",
+     "social-media-management",
+     "content-planning"
+    ],
+    "estimated_hours": {
+     "value": 2.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_later_marketing_tool_8",
+    "slug": "later-marketing-tool-8",
+    "title": "Signature skills in Later",
+    "outcome": "You can: use the features that make Later distinctive",
+    "topics": [
+     "setup",
+     "campaigns/content",
+     "measurement"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "social-media-presence",
+     "social-media-management",
+     "content-planning"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_later_marketing_tool_9",
+    "slug": "later-marketing-tool-9",
+    "title": "Advanced Later",
+    "outcome": "You can: use Later's advanced capabilities with confidence",
+    "topics": [
+     "automation",
+     "segmentation",
+     "optimisation"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "social-media-presence",
+     "social-media-management",
+     "content-planning"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_later_marketing_tool_5",
+    "slug": "later-marketing-tool-5",
+    "title": "Automate and optimise",
+    "outcome": "You can: run marketing that improves over time",
+    "topics": [
+     "automations",
+     "A/B tests",
+     "budgets",
+     "data privacy"
+    ],
+    "practice": "Set up one automation and one test",
+    "need_tags": [
+     "automation-workflows",
+     "online-ads",
+     "social-media-presence",
+     "social-media-management",
+     "content-planning"
+    ],
+    "estimated_hours": {
+     "value": 3.0,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_later_marketing_tool_10",
+    "slug": "later-marketing-tool-10",
+    "title": "Integrate Later into your workflow",
+    "outcome": "You can: connect Later with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Later to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "social-media-presence",
+     "social-media-management",
+     "content-planning"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_later_marketing_tool_11",
+    "slug": "later-marketing-tool-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Later well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Later\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "social-media-presence",
+     "social-media-management",
+     "content-planning"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype",
+ "archetype": "marketing-tool",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}

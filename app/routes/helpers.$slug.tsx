@@ -1,185 +1,274 @@
-// S40 Helper page: route rail, steps, "You're done when" checklists (on-device only, da.helper.v1).
-import { useEffect, useState } from "react";
+// S40 Helper page (reference 15-helper): photo hero, "What is a helper?" explainer (D-100), stage cards,
+// NextStepCard, helper bar + first-run coach mark. Stage details and checklists open in a sheet (on-device ticks).
+import { useState } from "react";
 import { Link, data } from "react-router";
-import { Share2 } from "lucide-react";
-import { FlagOff } from "../components/ui";
 import type { Route } from "./+types/helpers.$slug";
 import { helperData } from "~/lib/content.server";
 import { flag, meta as pageMeta } from "../lib/build";
-import { Breadcrumb, Callout, ChipList, TrustFooter } from "../components/ui";
-import { HelperCard, ProgressBar, RailNode } from "../components/HelperBits";
-import { helperActions, storageAvailable, useHelperState, useHydrated } from "../lib/store";
+import { FlagOff, Icon, NextStepCard, Picture, Sheet, Tag, ToolLogo, toast } from "../components/da";
+import { OutcomePrompt } from "../components/Outcome";
+import { deviceActions, helperActions, retentionActions, storageAvailable, useDevice, useHelperState, useHydrated, useRetention } from "../lib/store";
 
 export function loader({ params }: Route.LoaderArgs) {
   const d = helperData(params.slug);
   if (!d) throw data("Not found", { status: 404 });
   return d;
 }
-
 export const meta: Route.MetaFunction = ({ data: d }) => (d ? pageMeta(d.helper.title, d.helper.promise) : pageMeta("Not found"));
 
 export default function HelperPage({ loaderData: d }: Route.ComponentProps) {
   if (!flag("helpers")) return <FlagOff />;
   const h = d.helper;
   const state = useHelperState();
+  const dev = useDevice();
   const hydrated = useHydrated();
-  const [noStore, setNoStore] = useState(false);
-  useEffect(() => setNoStore(!storageAvailable()), []);
-  const p = state?.progress[h.slug];
-  const ticks = p?.ticks ?? {};
-  const isActive = state?.active === h.slug;
-  const total = h.stages.reduce((a, s) => a + s.done.length, 0);
-  const done = h.stages.reduce((a, s) => a + s.done.filter((_, i) => ticks[`${s.n}-${i}`]).length, 0);
-  const finished = hydrated && done === total && total > 0;
-  const [shared, setShared] = useState("");
-
-  async function share() {
-    const url = location.origin + `/helpers/${h.slug}`;
-    try {
-      if (navigator.share) await navigator.share({ title: h.title, text: h.promise, url });
-      else {
-        await navigator.clipboard.writeText(url);
-        setShared("Link copied");
-      }
-    } catch {
-      /* cancelled */
-    }
-  }
+  const [open, setOpen] = useState<number | null>(null);
+  const [share, setShare] = useState(false);
+  const ret = useRetention();
+  const [draft, setDraft] = useState("");
+  const ticks = state?.progress[h.slug]?.ticks ?? {};
+  const isActive = state?.active === h.slug && !state.paused;
+  const stageDone = (s: (typeof h.stages)[number]) => s.done.every((_, i) => ticks[`${s.n}-${i}`]);
+  const doneCount = hydrated ? h.stages.filter(stageDone).length : 0;
+  const current = h.stages.find((s) => !stageDone(s)) ?? null;
+  const step = current?.steps[0];
+  const stage = open !== null ? h.stages.find((s) => s.n === open) : undefined;
 
   return (
-    <div className="helper-page">
-      <section className="helper-band" data-tint={h.tint}>
-        <div className="container">
-          <Breadcrumb items={[{ to: "/helpers", label: "Helpers" }, { label: h.title }]} />
-          <h1 className="display-sm">{h.short}</h1>
-          <p className="helper-promise">{h.promise}</p>
-          <p className="reading">{h.intro}</p>
-          <ul className="chip-list chip-list-plain">
-            <li className="chip chip-static">{h.stage_count} stages</li>
-            <li className="chip chip-static">{h.tool_count} tools</li>
-          </ul>
-          <ChipList items={h.identities.map((i) => ({ to: `/for/${i.slug}`, label: i.label }))} />
-          <div className="form-actions">
-            {!isActive || state?.paused ? (
-              <button type="button" className="btn btn-ink" onClick={() => helperActions.start(h.slug)} disabled={!hydrated}>
-                {p ? "Resume" : "Start"}
+    <>
+      <section className="hero-media" style={{ minHeight: "clamp(220px,28vw,300px)" }}>
+        <Picture slug={h.photo} ratio="wide" sizes="100vw" priority fill />
+        <div className="scrimg" />
+        <div className="wrap on-media" style={{ position: "relative", paddingTop: "clamp(80px,9vw,56px)", paddingBottom: 22 }}>
+          <span className="tag glass">
+            <Icon name={h.icon} /> Helper · {h.short}
+          </span>
+          <h1 className="t-h1" style={{ marginTop: 10, maxWidth: 640 }}>
+            {h.promise}
+          </h1>
+          <div className="row g10 wrapf" style={{ marginTop: 14 }}>
+            {!isActive ? (
+              <button type="button" className="btn p" disabled={!hydrated} onClick={() => {
+                helperActions.start(h.slug);
+                deviceActions.hideHelper(false);
+              }}>
+                {state?.progress[h.slug] ? "Resume" : "Start"} the {h.short} helper <Icon name="arrow-right" />
               </button>
             ) : (
-              <span className="badge badge-starts">You're following this helper</span>
+              dev?.helperHidden && (
+                <button type="button" className="btn glass" onClick={() => deviceActions.hideHelper(false)}>
+                  <Icon name="route" /> Show the helper bar
+                </button>
+              )
             )}
-            <button type="button" className="btn btn-secondary" onClick={share}>
-              <Share2 size={18} aria-hidden="true" /> Share
+            <button type="button" className="btn glass" onClick={() => {
+              helperActions.start(h.slug, "someone");
+              deviceActions.hideHelper(false);
+              setShare(true);
+            }}>
+              <Icon name="users" /> Start for someone else
             </button>
-            {flag("helper_for_someone") && (
-              <button type="button" className="btn btn-tertiary" onClick={() => helperActions.start(h.slug, "someone")}>
-                Start for someone else
-              </button>
-            )}
-            {shared && <span role="status">{shared}</span>}
+            <button type="button" className="btn glass" onClick={() => setShare(true)}>
+              <Icon name="share" /> Share
+            </button>
           </div>
         </div>
       </section>
-
-      <div className="progress-sticky">
-        <div className="container">
-          <ProgressBar done={hydrated ? done : 0} total={total} label={`${h.short} helper progress`} />
+      <section className="wrap" style={{ paddingTop: 22 }}>
+        <div className="banner info" data-da="helper-explainer">
+          <Icon name="route" />
+          <div className="fl1 t-sm">
+            <b>What is a helper?</b> A step-by-step guide for your kind of work. It stays at the bottom of the screen while you open tools, so you never lose your place.
+          </div>
         </div>
-      </div>
-
-      <div className="container helper-layout">
-        <div>
-          {!hydrated && <noscript><p className="meta">Turn on JavaScript to save your progress on this device.</p></noscript>}
-          {noStore && <Callout tone="warning">Your browser is blocking storage, so your ticks will work for now but won't be remembered.</Callout>}
-          {finished && (
-            <Callout tone="success" title={`You've finished the ${h.short} helper`}>
-              <p>Well done. Share it with someone who's starting out, or try another helper below.</p>
-            </Callout>
+        {hydrated && !storageAvailable() && (
+          <div className="banner err" style={{ marginTop: 12 }}>
+            <Icon name="alert" />
+            <span className="t-sm">Your browser is blocking storage, so your ticks work for now but won't be remembered.</span>
+          </div>
+        )}
+        <div className="row sb" style={{ marginTop: 18 }}>
+          <h2 className="t-h3">
+            {h.stage_count} stages · {h.tool_count} tools
+          </h2>
+          <span className="t-sm mu">
+            {doneCount} of {h.stages.length} done
+          </span>
+        </div>
+        <div className="grid c3" style={{ marginTop: 12 }}>
+          {h.stages.map((s) => {
+            const isDone = hydrated && stageDone(s);
+            const isNow = hydrated && current?.n === s.n;
+            return (
+              <button key={s.n} type="button" className={`card pad ${isNow ? "el feat" : ""}`} data-da="stage-card" style={{ textAlign: "left" }} onClick={() => setOpen(s.n)} aria-label={`Stage ${s.n}: ${s.title}. Open steps and checklist`}>
+                <div className="row sb">
+                  <span className="t-mono t-xs su">STAGE {s.n}</span>
+                  {isDone ? (
+                    <span className="chk" aria-checked="true">
+                      <Icon name="check" />
+                    </span>
+                  ) : isNow ? (
+                    <Tag hue="violet">Now</Tag>
+                  ) : null}
+                </div>
+                <div className="b7" style={{ marginTop: 8 }}>
+                  {s.title}
+                </div>
+                <div className="row g6" style={{ marginTop: 12 }}>
+                  {s.steps.slice(0, 4).map((st) =>
+                    st.exists ? <ToolLogo key={st.tool} slug={st.tool} size="sm" /> : null,
+                  )}
+                </div>
+              </button>
+            );
+          })}
+        </div>
+        <div style={{ marginTop: 22 }}>
+          {current && step ? (
+            <NextStepCard
+              next={{ kicker: `Your next step · Stage ${current.n}`, title: step.what, sub: `First win: ${step.first_win}`, url: `/tools/${step.tool}`, cta: "Continue" }}
+              onClick={() => {
+                if (!isActive) helperActions.start(h.slug);
+                helperActions.opened(h.slug, step.tool);
+              }}
+            />
+          ) : (
+            <NextStepCard next={{ kicker: "Helper complete", title: `You've finished the ${h.short} helper`, sub: "Share it with someone who's starting out, or pick another helper.", url: "/helpers", cta: "See helpers" }} />
           )}
-          <ol className="rail">
-            {h.stages.map((s) => {
-              const stageDone = s.done.every((_, i) => ticks[`${s.n}-${i}`]);
-              return (
-                <li key={s.n} className="rail-stage" id={`stage-${s.n}`}>
-                  <RailNode n={s.n} done={hydrated && stageDone} />
-                  <div className="rail-body">
-                    <h2>{s.title}</h2>
-                    <p>{s.goal}</p>
-                    <p className="meta">About {s.time}</p>
-                    <ul className="steps">
-                      {s.steps.map((st) => {
-                        const tool = d.tools[st.tool];
-                        return (
-                          <li key={st.tool} className="step-row">
-                            <div className="step-head">
-                              {tool.exists ? (
-                                <Link to={`/tools/${st.tool}`} onClick={() => helperActions.opened(h.slug, st.tool)} className="step-tool">
-                                  {tool.name}
-                                </Link>
-                              ) : (
-                                <span className="step-tool">{tool.name}</span>
-                              )}
-                              <span className={`badge ${tool.guide ? "badge-starts" : "badge-ghost"}`}>{tool.guide ? "Full guide" : "Guide in progress"}</span>
-                            </div>
-                            <p>{st.what}</p>
-                            <p className="meta">First win: {st.first_win}</p>
-                          </li>
-                        );
-                      })}
-                    </ul>
-                    <fieldset className="done-list">
-                      <legend>You're done when</legend>
-                      {s.done.map((line, i) => {
-                        const k = `${s.n}-${i}`;
-                        return (
-                          <label key={k} className={`check${ticks[k] ? " is-ticked" : ""}`}>
-                            <input type="checkbox" checked={Boolean(ticks[k])} disabled={!hydrated} onChange={(e) => {
-                              if (!state?.active) helperActions.start(h.slug);
-                              helperActions.tick(h.slug, k, e.target.checked);
-                            }} />
-                            <span>{line}</span>
-                          </label>
-                        );
-                      })}
-                    </fieldset>
-                  </div>
-                </li>
-              );
-            })}
-          </ol>
         </div>
-        <aside className="on-this-path" aria-label="On this path">
-          <p className="label">On this path</p>
-          <ol>
-            {h.stages.map((s) => (
-              <li key={s.n}>
-                <a href={`#stage-${s.n}`}>{s.title}</a>
+      </section>
+      <Sheet open={Boolean(stage)} onClose={() => setOpen(null)} labelledBy="stage-title" da="stage-sheet">
+        {stage && (
+          <>
+            <div className="row sb" style={{ marginTop: 12 }}>
+              <h2 id="stage-title" className="t-h3">
+                Stage {stage.n}: {stage.title}
+              </h2>
+              <button type="button" className="ib" aria-label="Close" onClick={() => setOpen(null)}>
+                <Icon name="x" />
+              </button>
+            </div>
+            <p className="t-sm mu" style={{ marginTop: 6 }}>
+              {stage.goal} · About {stage.time}
+            </p>
+            <div className="list" style={{ marginTop: 10 }}>
+              {stage.steps.map((st) => (
+                <div key={st.tool} className="li as">
+                  {st.exists && <ToolLogo slug={st.tool} size="sm" />}
+                  <div className="fl1">
+                    <Link className="b7 t-sm" to={`/tools/${st.tool}`} onClick={() => helperActions.opened(h.slug, st.tool)}>
+                      {st.name}
+                    </Link>
+                    <div className="t-sm mu">{st.what}</div>
+                    <div className="t-xs su">First win: {st.first_win}</div>
+                  </div>
+                </div>
+              ))}
+            </div>
+            <div className="t-label" style={{ marginTop: 14 }}>
+              You're done when
+            </div>
+            <div className="col g8" style={{ marginTop: 8 }}>
+              {stage.done.map((line, i) => {
+                const k = `${stage.n}-${i}`;
+                const on = Boolean(ticks[k]);
+                return (
+                  <div key={k} className="row g10 t-sm">
+                    <button
+                      type="button"
+                      className="chk"
+                      role="checkbox"
+                      aria-checked={on}
+                      aria-label={line}
+                      disabled={!hydrated}
+                      onClick={() => {
+                        if (!state?.active) helperActions.start(h.slug);
+                        helperActions.tick(h.slug, k, !on);
+                      }}
+                    >
+                      {on && <Icon name="check" />}
+                    </button>
+                    <span className={on ? "mu" : ""}>{line}</span>
+                  </div>
+                );
+              })}
+            </div>
+            <div className="t-label" style={{ marginTop: 16 }}>
+              Save what you made (optional)
+            </div>
+            {ret?.outputs[`${h.slug}:${stage.n}`] && (
+              <div className="t-sm mu" style={{ marginTop: 6 }}>
+                Saved: {ret.outputs[`${h.slug}:${stage.n}`].text}
+              </div>
+            )}
+            <form
+              className="row g8"
+              style={{ marginTop: 8 }}
+              onSubmit={(e) => {
+                e.preventDefault();
+                if (!draft.trim()) return;
+                retentionActions.saveOutput(`${h.slug}:${stage.n}`, draft.trim());
+                setDraft("");
+                toast("Saved on this device.");
+              }}
+            >
+              <label className="input fl1">
+                <Icon name="edit" />
+                <input value={draft} maxLength={280} onChange={(e) => setDraft(e.target.value)} placeholder="A link, or a line about what you made" aria-label="What you made" />
+              </label>
+              <button type="submit" className="btn s">
+                Save
+              </button>
+            </form>
+            {stageDone(stage) && <OutcomePrompt id={`helper:${h.slug}:${stage.n}`} label={`${h.short} · ${stage.title}`} />}
+            <button type="button" className="btn p blk" style={{ marginTop: 18 }} onClick={() => setOpen(null)}>
+              Done
+            </button>
+          </>
+        )}
+      </Sheet>
+      <Sheet open={share} onClose={() => setShare(false)} labelledBy="share-title" da="share-sheet">
+        <div className="row sb" style={{ marginTop: 12 }}>
+          <h2 id="share-title" className="t-h3">
+            Help someone with the {h.short} helper
+          </h2>
+          <button type="button" className="ib" aria-label="Close" onClick={() => setShare(false)}>
+            <Icon name="x" />
+          </button>
+        </div>
+        <div className="card pad" style={{ marginTop: 12 }} data-da="toolkit-card">
+          <div className="b7">{h.promise}</div>
+          <ol className="t-sm" style={{ margin: "10px 0 0", paddingLeft: 18 }}>
+            {h.stages.map((st) => (
+              <li key={st.n}>
+                {st.title} · {st.steps[0]?.name}
               </li>
             ))}
           </ol>
-        </aside>
-      </div>
-
-      <div className="container">
-        <section className="section closing-band">
-          <h2>Know someone on this path?</h2>
-          <button type="button" className="btn btn-secondary" onClick={share}>
-            <Share2 size={18} aria-hidden="true" /> Share this helper
+          <div className="t-xs su" style={{ marginTop: 10 }}>
+            Free at {typeof location !== "undefined" ? location.host : "this site"}/helpers/{h.slug}
+          </div>
+        </div>
+        <div className="col g10" style={{ marginTop: 14 }}>
+          <a className="btn p blk" href={`https://wa.me/?text=${encodeURIComponent(`${h.title}: ${h.promise}
+${typeof location !== "undefined" ? location.origin : ""}/helpers/${h.slug}`)}`} target="_blank" rel="noopener noreferrer">
+            <Icon name="message" /> Send on WhatsApp
+          </a>
+          <button type="button" className="btn s blk" onClick={async () => {
+            try {
+              await navigator.clipboard.writeText(`${location.origin}/helpers/${h.slug}`);
+              toast("Link copied.");
+            } catch {
+              toast("Couldn't copy the link.");
+            }
+          }}>
+            <Icon name="share" /> Copy link
           </button>
-        </section>
-        {d.others.length > 0 && (
-          <section className="section">
-            <h2>Other helpers</h2>
-            <ul className="helper-cards">
-              {d.others.map((o) => (
-                <li key={o.slug}>
-                  <HelperCard h={o} />
-                </li>
-              ))}
-            </ul>
-          </section>
-        )}
-        <TrustFooter kind="helper" note="This path is AI-drafted and waiting for a practitioner's review (D-045). Tools marked 'Guide in progress' show only their official link and course outline." />
-      </div>
-    </div>
+          <button type="button" className="btn g blk" onClick={() => window.print()}>
+            Print this card
+          </button>
+        </div>
+      </Sheet>
+    </>
   );
 }

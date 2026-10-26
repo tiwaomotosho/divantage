@@ -22,7 +22,10 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "online-safety"
+     "online-safety",
+     "security-testing",
+     "records-management",
+     "security-operations"
     ],
     "estimated_hours": {
      "value": 1,
@@ -43,7 +46,10 @@
     ],
     "practice": "Set up Bitwarden and store recovery details safely",
     "need_tags": [
-     "online-safety"
+     "online-safety",
+     "security-testing",
+     "records-management",
+     "security-operations"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -62,7 +68,10 @@
     ],
     "practice": "Use Bitwarden for a week on your main accounts",
     "need_tags": [
-     "online-safety"
+     "online-safety",
+     "security-testing",
+     "records-management",
+     "security-operations"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -85,7 +94,10 @@
     ],
     "practice": "Secure your top five accounts",
     "need_tags": [
-     "online-safety"
+     "online-safety",
+     "security-testing",
+     "records-management",
+     "security-operations"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -107,7 +119,10 @@
     "practice": "Review three real scam examples",
     "need_tags": [
      "online-safety",
-     "fact-check"
+     "fact-check",
+     "security-testing",
+     "records-management",
+     "security-operations"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -128,7 +143,10 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "online-safety"
+     "online-safety",
+     "security-testing",
+     "records-management",
+     "security-operations"
     ],
     "estimated_hours": {
      "value": 3,
@@ -151,7 +169,10 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "online-safety"
+     "online-safety",
+     "security-testing",
+     "records-management",
+     "security-operations"
     ],
     "estimated_hours": {
      "value": 4,
@@ -172,7 +193,10 @@
     "practice": "Help two people set up Bitwarden",
     "need_tags": [
      "online-safety",
-     "digital-basics"
+     "digital-basics",
+     "security-testing",
+     "records-management",
+     "security-operations"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -194,7 +218,10 @@
     "practice": "Connect Bitwarden to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "online-safety"
+     "online-safety",
+     "security-testing",
+     "records-management",
+     "security-operations"
     ],
     "estimated_hours": {
      "value": 2,
@@ -216,7 +243,10 @@
     "practice": "Write a one-page \"how we use Bitwarden\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "online-safety"
+     "online-safety",
+     "security-testing",
+     "records-management",
+     "security-operations"
     ],
     "estimated_hours": {
      "value": 2,

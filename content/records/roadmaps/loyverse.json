@@ -23,7 +23,13 @@
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
      "point-of-sale",
-     "restaurant-operations"
+     "restaurant-operations",
+     "pharmacy-stock",
+     "inventory-procurement",
+     "crm-sales",
+     "recipe-costing",
+     "trade-quotes-invoicing",
+     "business-planning"
     ],
     "estimated_hours": {
      "value": 1,
@@ -45,7 +51,13 @@
     "practice": "Set up your profile and three services or products",
     "need_tags": [
      "point-of-sale",
-     "restaurant-operations"
+     "restaurant-operations",
+     "pharmacy-stock",
+     "inventory-procurement",
+     "crm-sales",
+     "recipe-costing",
+     "trade-quotes-invoicing",
+     "business-planning"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -66,7 +78,13 @@
     "practice": "Run one full day of operations in Loyverse POS",
     "need_tags": [
      "point-of-sale",
-     "restaurant-operations"
+     "restaurant-operations",
+     "pharmacy-stock",
+     "inventory-procurement",
+     "crm-sales",
+     "recipe-costing",
+     "trade-quotes-invoicing",
+     "business-planning"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -92,7 +110,12 @@
      "crm-sales",
      "customer-support",
      "point-of-sale",
-     "restaurant-operations"
+     "restaurant-operations",
+     "pharmacy-stock",
+     "inventory-procurement",
+     "recipe-costing",
+     "trade-quotes-invoicing",
+     "business-planning"
     ],
     "estimated_hours": {
      "value": 1.5,
@@ -114,7 +137,13 @@
     "need_tags": [
      "kpi-tracking",
      "point-of-sale",
-     "restaurant-operations"
+     "restaurant-operations",
+     "pharmacy-stock",
+     "inventory-procurement",
+     "crm-sales",
+     "recipe-costing",
+     "trade-quotes-invoicing",
+     "business-planning"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -136,7 +165,13 @@
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
      "point-of-sale",
-     "restaurant-operations"
+     "restaurant-operations",
+     "pharmacy-stock",
+     "inventory-procurement",
+     "crm-sales",
+     "recipe-costing",
+     "trade-quotes-invoicing",
+     "business-planning"
     ],
     "estimated_hours": {
      "value": 3,
@@ -160,7 +195,13 @@
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
      "point-of-sale",
-     "restaurant-operations"
+     "restaurant-operations",
+     "pharmacy-stock",
+     "inventory-procurement",
+     "crm-sales",
+     "recipe-costing",
+     "trade-quotes-invoicing",
+     "business-planning"
     ],
     "estimated_hours": {
      "value": 4,
@@ -182,7 +223,13 @@
     "need_tags": [
      "people-management",
      "point-of-sale",
-     "restaurant-operations"
+     "restaurant-operations",
+     "pharmacy-stock",
+     "inventory-procurement",
+     "crm-sales",
+     "recipe-costing",
+     "trade-quotes-invoicing",
+     "business-planning"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -205,7 +252,13 @@
     "need_tags": [
      "automation-workflows",
      "point-of-sale",
-     "restaurant-operations"
+     "restaurant-operations",
+     "pharmacy-stock",
+     "inventory-procurement",
+     "crm-sales",
+     "recipe-costing",
+     "trade-quotes-invoicing",
+     "business-planning"
     ],
     "estimated_hours": {
      "value": 2,
@@ -228,7 +281,13 @@
     "need_tags": [
      "workshop-facilitation",
      "point-of-sale",
-     "restaurant-operations"
+     "restaurant-operations",
+     "pharmacy-stock",
+     "inventory-procurement",
+     "crm-sales",
+     "recipe-costing",
+     "trade-quotes-invoicing",
+     "business-planning"
     ],
     "estimated_hours": {
      "value": 2,

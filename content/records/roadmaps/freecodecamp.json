@@ -22,7 +22,16 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "learn-online"
+     "learn-online",
+     "write-code",
+     "machine-learning",
+     "sql-querying",
+     "spreadsheets-basics",
+     "lesson-planning",
+     "web-development",
+     "databases",
+     "cloud-infrastructure",
+     "cpd-learning"
     ],
     "estimated_hours": {
      "value": 1,
@@ -43,7 +52,16 @@
     ],
     "practice": "Choose one course with a clear outcome",
     "need_tags": [
-     "learn-online"
+     "learn-online",
+     "write-code",
+     "machine-learning",
+     "sql-querying",
+     "spreadsheets-basics",
+     "lesson-planning",
+     "web-development",
+     "databases",
+     "cloud-infrastructure",
+     "cpd-learning"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -65,7 +83,16 @@
     "practice": "Plan four weeks of study",
     "need_tags": [
      "study-skills",
-     "learn-online"
+     "learn-online",
+     "write-code",
+     "machine-learning",
+     "sql-querying",
+     "spreadsheets-basics",
+     "lesson-planning",
+     "web-development",
+     "databases",
+     "cloud-infrastructure",
+     "cpd-learning"
     ],
     "estimated_hours": {
      "value": 0.5,
@@ -89,7 +116,16 @@
     "need_tags": [
      "study-skills",
      "memorise-knowledge",
-     "learn-online"
+     "learn-online",
+     "write-code",
+     "machine-learning",
+     "sql-querying",
+     "spreadsheets-basics",
+     "lesson-planning",
+     "web-development",
+     "databases",
+     "cloud-infrastructure",
+     "cpd-learning"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -110,7 +146,16 @@
     "practice": "Add a completed project to your portfolio",
     "need_tags": [
      "cv-portfolio",
-     "learn-online"
+     "learn-online",
+     "write-code",
+     "machine-learning",
+     "sql-querying",
+     "spreadsheets-basics",
+     "lesson-planning",
+     "web-development",
+     "databases",
+     "cloud-infrastructure",
+     "cpd-learning"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -131,7 +176,16 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "learn-online"
+     "learn-online",
+     "write-code",
+     "machine-learning",
+     "sql-querying",
+     "spreadsheets-basics",
+     "lesson-planning",
+     "web-development",
+     "databases",
+     "cloud-infrastructure",
+     "cpd-learning"
     ],
     "estimated_hours": {
      "value": 3,
@@ -152,7 +206,16 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "learn-online"
+     "learn-online",
+     "write-code",
+     "machine-learning",
+     "sql-querying",
+     "spreadsheets-basics",
+     "lesson-planning",
+     "web-development",
+     "databases",
+     "cloud-infrastructure",
+     "cpd-learning"
     ],
     "estimated_hours": {
      "value": 4,
@@ -173,7 +236,16 @@
     "practice": "Run a study session for two friends",
     "need_tags": [
      "workshop-facilitation",
-     "learn-online"
+     "learn-online",
+     "write-code",
+     "machine-learning",
+     "sql-querying",
+     "spreadsheets-basics",
+     "lesson-planning",
+     "web-development",
+     "databases",
+     "cloud-infrastructure",
+     "cpd-learning"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -195,7 +267,16 @@
     "practice": "Connect freeCodeCamp to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "learn-online"
+     "learn-online",
+     "write-code",
+     "machine-learning",
+     "sql-querying",
+     "spreadsheets-basics",
+     "lesson-planning",
+     "web-development",
+     "databases",
+     "cloud-infrastructure",
+     "cpd-learning"
     ],
     "estimated_hours": {
      "value": 2,
@@ -217,7 +298,16 @@
     "practice": "Write a one-page \"how we use freeCodeCamp\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "learn-online"
+     "learn-online",
+     "write-code",
+     "machine-learning",
+     "sql-querying",
+     "spreadsheets-basics",
+     "lesson-planning",
+     "web-development",
+     "databases",
+     "cloud-infrastructure",
+     "cpd-learning"
     ],
     "estimated_hours": {
      "value": 2,

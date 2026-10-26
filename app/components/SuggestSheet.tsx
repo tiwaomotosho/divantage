@@ -1,275 +1,238 @@
-// S36 Suggest an edit: bottom sheet on phones, side panel on desktop; /suggest works without JS.
-import { useEffect, useRef, useState, type FormEvent } from "react";
-import { useLocation } from "react-router";
-import { X, Loader2 } from "lucide-react";
+// S36 Suggest an edit (reference 20-suggest-edit). Sheet on every page; /suggest works without JS.
+import { useEffect, useState, type FormEvent } from "react";
+import { Link, useLocation, useSearchParams } from "react-router";
 import { flag } from "../lib/build";
-import { sessionGet, sessionSet } from "../lib/store";
-import { Callout } from "./ui";
+import { retentionActions, sessionGet, sessionSet, useHydrated } from "../lib/store";
+import { Icon, Sheet } from "./da";
 
-export const ISSUE_TYPES: Record<string, string> = {
-  suggest_need: "My work isn't described right",
-  suggest_identity: "My profession or role isn't listed",
-  roadmap_feedback: "This course outline is wrong or missing something",
-  pricing: "A price is wrong",
-  feature: "A feature is wrong or missing",
-  availability: "Availability or platforms are wrong",
-  tool_discontinued: "This tool has been renamed, acquired or shut down",
-  broken_link: "A link is broken",
-  outdated_steps: "Steps are out of date",
-  accessibility: "Accessibility problem",
-  suggest_tool: "Suggest a tool we're missing",
-  suggest_helper: "I want a helper for my work",
-  other: "Something else",
+export const REASONS: Record<string, { label: string; icon?: string; type: string; source?: boolean }> = {
+  price: { label: "Price changed", icon: "dollar", type: "pricing", source: true },
+  country: { label: "Not in my country", type: "availability", source: true },
+  link: { label: "Broken link", type: "broken_link" },
+  closed: { label: "Renamed or shut down", type: "tool_discontinued", source: true },
+  feature: { label: "Feature is wrong", type: "feature", source: true },
+  need: { label: "My work isn't described right", type: "suggest_need" },
+  role: { label: "My job isn't listed", type: "suggest_identity" },
+  path: { label: "Learning path is wrong", type: "roadmap_feedback" },
+  rolepath: { label: "Write a path for my job", type: "role_path_request" },
+  tool: { label: "A tool is missing", type: "suggest_tool" },
+  helper: { label: "I want a helper for my work", type: "suggest_helper" },
+  a11y: { label: "Accessibility problem", type: "accessibility" },
+  other: { label: "Something else", type: "other" },
 };
-const NEEDS_SOURCE = new Set(["pricing", "feature", "availability", "tool_discontinued"]);
-const ORDER: Record<string, string[]> = {
-  identity: ["suggest_need", "suggest_identity", "suggest_tool", "other"],
-  tool: ["pricing", "feature", "availability", "tool_discontinued", "broken_link", "suggest_tool", "other"],
-  roadmap: ["roadmap_feedback", "suggest_need", "other"],
-  helper: ["suggest_helper", "roadmap_feedback", "suggest_tool", "other"],
-  default: ["other", "suggest_tool", "suggest_identity", "suggest_need", "suggest_helper", "broken_link", "accessibility"],
+const BY_KIND: Record<string, string[]> = {
+  tool: ["price", "country", "link", "closed", "feature", "other"],
+  identity: ["need", "role", "tool", "other"],
+  path: ["path", "rolepath", "other"],
+  helper: ["helper", "path", "tool", "other"],
+  default: ["other", "tool", "role", "need", "link", "a11y"],
 };
 
 export function kindFromPath(p: string): string {
-  if (/^\/for\/[^/]+$/.test(p)) return "identity";
-  if (/^\/tools\/[^/]+\/(roadmap|for\/)/.test(p) || /^\/for\/[^/]+\/[^/]+$/.test(p)) return "roadmap";
   if (/^\/tools\/[^/]+$/.test(p)) return "tool";
+  if (/^\/tools\/[^/]+\/(roadmap|for\/)/.test(p)) return "path";
+  if (/^\/for\/[^/]+$/.test(p)) return "identity";
   if (/^\/helpers\//.test(p)) return "helper";
   return "default";
 }
 
-interface OpenDetail {
-  kind?: string;
-  recordId?: string;
-  type?: string;
-}
-export function openSuggest(detail: OpenDetail = {}) {
+export function openSuggest(detail: { reason?: string; on?: string; recordId?: string } = {}) {
   window.dispatchEvent(new CustomEvent("da:suggest", { detail }));
 }
 
 type Status = { kind: "idle" } | { kind: "sending" } | { kind: "done"; ref: string } | { kind: "error"; message: string };
-const DRAFT_KEY = "da.suggest.draft";
+const DRAFT = "da.suggest.draft";
 
-export function SuggestForm({ page, kind, recordId, initialType, onDone }: { page: string; kind: string; recordId?: string; initialType?: string; onDone?: () => void }) {
-  const types = ORDER[kind] ?? ORDER.default;
-  const [type, setType] = useState(initialType && ISSUE_TYPES[initialType] ? initialType : types[0]);
+export function SuggestForm({ page, kind, reason, on, recordId, onDone }: { page: string; kind: string; reason?: string; on?: string; recordId?: string; onDone?: () => void }) {
+  const keys = BY_KIND[kind] ?? BY_KIND.default;
+  const [r, setR] = useState(reason && REASONS[reason] ? reason : keys[0]);
+  const [text, setText] = useState("");
+  const [link, setLink] = useState("");
+  const [email, setEmail] = useState(false);
+  const [address, setAddress] = useState("");
   const [status, setStatus] = useState<Status>({ kind: "idle" });
-  const [errors, setErrors] = useState<Record<string, string>>({});
-  const formRef = useRef<HTMLFormElement>(null);
-  const summaryRef = useRef<HTMLDivElement>(null);
-  const orderedTypes = [...new Set([...types, ...Object.keys(ISSUE_TYPES)])];
-
+  const [err, setErr] = useState("");
+  const list = [...new Set([...(reason && REASONS[reason] ? [reason] : []), ...keys])];
   useEffect(() => {
-    const draft = sessionGet(DRAFT_KEY);
-    if (draft && formRef.current) {
+    const d = sessionGet(DRAFT);
+    if (d)
       try {
-        const d = JSON.parse(draft);
-        if (d.page === page) for (const [k, v] of Object.entries(d)) {
-          const el = formRef.current.elements.namedItem(k) as HTMLInputElement | null;
-          if (el && typeof v === "string" && el.type !== "radio") el.value = v;
+        const j = JSON.parse(d);
+        if (j.page === page) {
+          setText(j.text ?? "");
+          setLink(j.link ?? "");
         }
       } catch {
         /* ignore */
       }
-    }
   }, [page]);
 
-  async function submit(e: FormEvent<HTMLFormElement>) {
+  async function submit(e: FormEvent) {
     e.preventDefault();
-    const fd = new FormData(e.currentTarget);
-    const body: Record<string, unknown> = { page_url: page, issue_type: type, turnstile_token: "no-widget" };
-    if (recordId) body.record_id = recordId;
-    for (const k of ["description", "proposed_text", "supporting_url", "credit_name", "website"]) {
-      const v = String(fd.get(k) ?? "").trim();
-      if (v || k === "website") body[k] = v;
-    }
-    if (fd.get("conflict_of_interest")) body.conflict_of_interest = true;
-    if (body.credit_name) body.credit_consent = Boolean(fd.get("credit_consent"));
-    const errs: Record<string, string> = {};
-    if (!body.description) errs.description = "Tell us what's wrong or missing.";
-    if (NEEDS_SOURCE.has(type) && !body.supporting_url) errs.supporting_url = "Add a link to a source. The tool's official page is best.";
-    if (body.supporting_url && !/^https:\/\//.test(String(body.supporting_url))) errs.supporting_url = "The link must start with https://";
-    if (body.credit_name && !body.credit_consent) errs.credit_consent = "Tick the box so we can show your name, or leave the name empty.";
-    setErrors(errs);
-    if (Object.keys(errs).length) {
-      requestAnimationFrame(() => summaryRef.current?.focus());
-      return;
-    }
+    const def = REASONS[r];
+    if (!text.trim()) return setErr("Tell us what's wrong or missing.");
+    if (def.source && !link.trim()) return setErr("Add a link to a source. Use the official page if you can.");
+    const url = link.trim() && !/^https?:\/\//.test(link.trim()) ? `https://${link.trim()}` : link.trim();
+    if (url && !/^https:\/\//.test(url)) return setErr("The link must start with https://");
+    setErr("");
     setStatus({ kind: "sending" });
+    const body: Record<string, unknown> = { page_url: page, issue_type: def.type, description: text.trim(), turnstile_token: "no-widget", website: "" };
+    if (url) body.supporting_url = url;
+    if (email) {
+      if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(address)) {
+        setStatus({ kind: "idle" });
+        return setErr("Add the email address for the reply, or untick the box.");
+      }
+      body.contact_email = address.trim();
+      body.consent_contact = true;
+    }
+    if (recordId) body.record_id = recordId;
     try {
       const res = await fetch("/api/v1/corrections", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(body) });
-      if (res.status === 429) {
-        setStatus({ kind: "error", message: "You've sent a few suggestions just now. Please try again in a few minutes." });
-        return;
-      }
+      if (res.status === 429) return setStatus({ kind: "error", message: "You've sent a few suggestions just now. Please try again in a few minutes." });
       if (!res.ok) throw new Error(String(res.status));
       const j = await res.json().catch(() => ({}));
-      sessionSet(DRAFT_KEY, null);
+      sessionSet(DRAFT, null);
+      if (j.reference) retentionActions.suggestionSent(j.reference, on ?? page, def.type);
       setStatus({ kind: "done", ref: j.reference ?? "received" });
     } catch {
-      sessionSet(DRAFT_KEY, JSON.stringify({ page, ...Object.fromEntries(fd.entries()) }));
+      sessionSet(DRAFT, JSON.stringify({ page, text, link }));
       setStatus({ kind: "error", message: "We couldn't send this. Your text is saved on this device; try again." });
     }
   }
 
-  if (status.kind === "done") {
+  if (status.kind === "done")
     return (
-      <div role="status">
-        <Callout tone="success" title="Thank you!">
-          <p>
-            Reference {status.ref}. A person reviews every suggestion, usually within a week.
-          </p>
-        </Callout>
-        <div className="form-actions">
-          <button className="btn btn-secondary" type="button" onClick={() => setStatus({ kind: "idle" })}>
+      <div role="status" style={{ textAlign: "center" }}>
+        <p className="t-h3" style={{ marginTop: 16 }}>
+          Thank you
+        </p>
+        <p className="t-sm mu" style={{ marginTop: 6 }}>
+          Reference <b className="t-mono">{status.ref}</b>. A person reviews every suggestion, usually within 7 days.
+        </p>
+        <div className="col g10" style={{ marginTop: 16 }}>
+          {status.ref !== "received" && (
+            <Link className="btn p blk" to={`/suggestions/${status.ref}`} onClick={onDone}>
+              Follow its status
+            </Link>
+          )}
+          <button type="button" className="btn s blk" onClick={() => setStatus({ kind: "idle" })}>
             Suggest another
           </button>
           {onDone && (
-            <button className="btn btn-tertiary" type="button" onClick={onDone}>
+            <button type="button" className="btn g blk" onClick={onDone}>
               Close
             </button>
           )}
         </div>
       </div>
     );
-  }
 
-  const errList = Object.entries(errors);
   return (
-    <form ref={formRef} className="form" onSubmit={submit} method="post" action="/api/v1/corrections" noValidate>
-      {errList.length > 0 && (
-        <div className="callout callout-error" tabIndex={-1} ref={summaryRef} role="alert">
-          <div>
-            <p className="callout-title">There's a problem</p>
-            <ul>
-              {errList.map(([k, v]) => (
-                <li key={k}>
-                  <a href={`#f-${k}`}>{v}</a>
-                </li>
-              ))}
-            </ul>
-          </div>
+    <form onSubmit={submit} method="post" action="/api/v1/corrections" noValidate>
+      <input type="hidden" name="page_url" value={page} />
+      <input type="hidden" name="issue_type" value={REASONS[r].type} />
+      {on && (
+        <div className="t-sm mu">
+          On: <b>{on}</b> · {REASONS[r].label}
         </div>
       )}
-      <fieldset className="field">
-        <legend className="label">What kind of change?</legend>
-        <div className="radio-chips">
-          {orderedTypes.map((t) => (
-            <label key={t} className={`radio-chip${t === type ? " is-on" : ""}`}>
-              <input type="radio" name="issue_type" value={t} checked={t === type} onChange={() => setType(t)} />
-              {ISSUE_TYPES[t]}
-            </label>
-          ))}
-        </div>
-      </fieldset>
-      <div className="field">
-        <label htmlFor="f-description" className="label">
-          What's wrong or missing? (required)
-        </label>
-        <textarea id="f-description" name="description" maxLength={2000} rows={4} aria-invalid={Boolean(errors.description)} aria-describedby={errors.description ? "e-description" : undefined} />
-        {errors.description && <p className="field-error" id="e-description">{errors.description}</p>}
+      <div className="t-label" style={{ marginTop: 16 }}>
+        What's wrong?
       </div>
-      <div className="field">
-        <label htmlFor="f-proposed_text" className="label">
-          What should it say? (optional)
-        </label>
-        <textarea id="f-proposed_text" name="proposed_text" maxLength={2000} rows={3} />
+      <div className="row g8 wrapf" style={{ marginTop: 8 }} role="radiogroup" aria-label="What's wrong?">
+        {list.map((k) => (
+          <button key={k} type="button" role="radio" aria-checked={k === r} className={`chip ${k === r ? "sel" : ""}`} onClick={() => setR(k)}>
+            {REASONS[k].icon && <Icon name={REASONS[k].icon!} />} {REASONS[k].label}
+          </button>
+        ))}
       </div>
-      <div className="field">
-        <label htmlFor="f-supporting_url" className="label">
-          Link to a source {NEEDS_SOURCE.has(type) ? "(required)" : "(optional)"}
-        </label>
-        <p className="hint" id="h-supporting_url">The tool's official page is best.</p>
-        <input id="f-supporting_url" name="supporting_url" type="url" inputMode="url" placeholder="https://" aria-invalid={Boolean(errors.supporting_url)} aria-describedby={`h-supporting_url${errors.supporting_url ? " e-supporting_url" : ""}`} />
-        {errors.supporting_url && <p className="field-error" id="e-supporting_url">{errors.supporting_url}</p>}
+      <label className="t-label" htmlFor="sg-text" style={{ display: "block", marginTop: 16 }}>
+        Tell us more
+      </label>
+      <div className="input" style={{ marginTop: 8, alignItems: "flex-start", padding: 14, minHeight: 96 }}>
+        <textarea id="sg-text" name="description" className="t-sm" value={text} maxLength={2000} rows={3} onChange={(e) => setText(e.target.value)} style={{ all: "unset", flex: 1, color: "var(--da-color-ink)", minHeight: 66, whiteSpace: "pre-wrap" }} aria-invalid={Boolean(err) && !text.trim()} />
       </div>
-      {kind === "tool" && (
-        <label className="check">
-          <input type="checkbox" name="conflict_of_interest" /> I work for or with this tool's company
-        </label>
-      )}
-      <div className="field">
-        <label htmlFor="f-credit_name" className="label">
-          How should we thank you? (optional)
-        </label>
-        <input id="f-credit_name" name="credit_name" maxLength={60} placeholder="e.g. Ada, Lagos" />
-        <label className="check" id="f-credit_consent">
-          <input type="checkbox" name="credit_consent" /> Show my name on this page and in What's new
-        </label>
-        {errors.credit_consent && <p className="field-error">{errors.credit_consent}</p>}
-      </div>
+      <label className="t-label" htmlFor="sg-link" style={{ display: "block", marginTop: 14 }}>
+        Link {REASONS[r].source ? "(needed for this change)" : "(optional)"}
+      </label>
+      <label className="input" style={{ marginTop: 8 }}>
+        <Icon name="globe" />
+        <input id="sg-link" name="supporting_url" value={link} onChange={(e) => setLink(e.target.value)} placeholder="Use the official page if you can" inputMode="url" />
+      </label>
       {flag("suggest_email") && (
-        <div className="field">
-          <label htmlFor="f-email" className="label">
-            Email for a reply (optional)
-          </label>
-          <input id="f-email" name="contact_email" type="email" />
+        <div className="row g10 t-sm" style={{ marginTop: 12 }}>
+          <button type="button" className="chk" role="checkbox" aria-checked={email} aria-label="Email me when it's reviewed" onClick={() => setEmail(!email)}>
+            {email && <Icon name="check" />}
+          </button>
+          <span className="mu">Email me when it's reviewed (we keep your email 90 days)</span>
         </div>
       )}
-      <div className="honeypot" aria-hidden="true">
-        <label>
-          Leave this empty <input name="website" tabIndex={-1} autoComplete="off" />
+      {flag("suggest_email") && email && (
+        <label className="input" style={{ marginTop: 8 }}>
+          <Icon name="mail" />
+          <input type="email" name="contact_email" placeholder="you@example.com" aria-label="Email for the reply" value={address} onChange={(e) => setAddress(e.target.value)} />
         </label>
-      </div>
-      <p className="meta">By sending this you agree it can be published under CC BY 4.0.</p>
-      {status.kind === "error" && <Callout tone="error">{status.message}</Callout>}
-      <div className="form-actions">
-        <button className="btn btn-primary" type="submit" disabled={status.kind === "sending"} aria-disabled={status.kind === "sending"}>
-          {status.kind === "sending" ? (
-            <>
-              <Loader2 size={18} className="spin" aria-hidden="true" /> Sending…
-            </>
-          ) : (
-            "Send"
-          )}
-        </button>
-      </div>
+      )}
+      <input type="text" name="website" tabIndex={-1} autoComplete="off" aria-hidden="true" hidden />
+      {err && (
+        <div className="banner err" role="alert" style={{ marginTop: 12 }}>
+          <Icon name="alert" />
+          <span>{err}</span>
+        </div>
+      )}
+      {status.kind === "error" && (
+        <div className="banner err" role="alert" style={{ marginTop: 12 }}>
+          <Icon name="alert" />
+          <span>{status.message}</span>
+        </div>
+      )}
+      <p className="t-xs su" style={{ marginTop: 12 }}>
+        A person reviews every suggestion. By sending this you agree it can be published under CC BY 4.0.
+      </p>
+      <button type="submit" className="btn p blk lg" style={{ marginTop: 12 }} disabled={status.kind === "sending"}>
+        {status.kind === "sending" ? "Sending…" : "Send suggestion"}
+      </button>
     </form>
   );
 }
 
 export function SuggestSheet() {
-  const [open, setOpen] = useState<OpenDetail | null>(null);
+  const [open, setOpen] = useState<{ reason?: string; on?: string; recordId?: string } | null>(null);
   const loc = useLocation();
-  const dialogRef = useRef<HTMLDialogElement>(null);
-  const triggerRef = useRef<Element | null>(null);
-
+  const [params, setParams] = useSearchParams();
+  const hydrated = useHydrated();
   useEffect(() => {
-    const on = (e: Event) => {
-      triggerRef.current = document.activeElement;
-      setOpen((e as CustomEvent<OpenDetail>).detail ?? {});
-    };
+    const on = (e: Event) => setOpen((e as CustomEvent).detail ?? {});
     window.addEventListener("da:suggest", on);
     return () => window.removeEventListener("da:suggest", on);
   }, []);
   useEffect(() => {
-    const d = dialogRef.current;
-    if (!d) return;
-    if (open && !d.open) d.showModal();
-    if (!open && d.open) d.close();
-    document.documentElement.toggleAttribute("data-sheet-open", Boolean(open));
-  }, [open]);
+    const s = params.get("suggest");
+    if (hydrated && s) setOpen({ reason: s });
+  }, [hydrated, params]);
   useEffect(() => setOpen(null), [loc.pathname]);
-
   const close = () => {
     setOpen(null);
-    (triggerRef.current as HTMLElement | null)?.focus?.();
+    if (params.get("suggest")) {
+      const p = new URLSearchParams(params);
+      p.delete("suggest");
+      setParams(p, { replace: true, preventScrollReset: true });
+    }
   };
   if (!flag("suggest_edit")) return null;
+  const on = open?.on ?? (typeof document !== "undefined" ? document.querySelector("h1")?.textContent ?? undefined : undefined);
   return (
-    <dialog ref={dialogRef} className="sheet" aria-labelledby="suggest-title" onClose={close} onCancel={close}>
-      {open && (
-        <div className="sheet-inner">
-          <div className="sheet-head">
-            <h2 id="suggest-title">Suggest an edit</h2>
-            <button className="icon-btn" type="button" onClick={close} aria-label="Close">
-              <X size={20} aria-hidden="true" />
-            </button>
-          </div>
-          <p className="meta">A person reviews every suggestion. Nothing changes on the site until they approve it.</p>
-          <SuggestForm page={loc.pathname} kind={open.kind ?? kindFromPath(loc.pathname)} recordId={open.recordId} initialType={open.type} onDone={close} />
-        </div>
-      )}
-    </dialog>
+    <Sheet open={Boolean(open)} onClose={close} labelledBy="sg" da="suggest-sheet">
+      <div className="row sb" style={{ marginTop: 12 }}>
+        <h2 id="sg" className="t-h3">
+          Suggest an edit
+        </h2>
+        <button type="button" className="ib" aria-label="Close" onClick={close}>
+          <Icon name="x" />
+        </button>
+      </div>
+      {open && <SuggestForm page={loc.pathname} kind={kindFromPath(loc.pathname)} reason={open.reason} on={on} recordId={open.recordId} onDone={close} />}
+    </Sheet>
   );
 }

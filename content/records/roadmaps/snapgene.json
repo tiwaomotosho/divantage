@@ -22,7 +22,8 @@
     ],
     "practice": "Complete the official getting-started guide, then one small real task from your work",
     "need_tags": [
-     "molecular-biology"
+     "molecular-biology",
+     "chemistry-drawing"
     ],
     "estimated_hours": {
      "value": 1,
@@ -44,7 +45,8 @@
     "practice": "Import a sample dataset with metadata",
     "need_tags": [
      "lab-data",
-     "molecular-biology"
+     "molecular-biology",
+     "chemistry-drawing"
     ],
     "estimated_hours": {
      "value": 1.0,
@@ -91,7 +93,8 @@
     "need_tags": [
      "lab-data",
      "research-data-management",
-     "molecular-biology"
+     "molecular-biology",
+     "chemistry-drawing"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -112,7 +115,8 @@
     "practice": "Produce a figure for a report",
     "need_tags": [
      "scientific-figures",
-     "molecular-biology"
+     "molecular-biology",
+     "chemistry-drawing"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -133,7 +137,8 @@
     ],
     "practice": "Use each of these features once on a real piece of work",
     "need_tags": [
-     "molecular-biology"
+     "molecular-biology",
+     "chemistry-drawing"
     ],
     "estimated_hours": {
      "value": 3,
@@ -155,7 +160,8 @@
     ],
     "practice": "Complete a project that needs at least two of these advanced capabilities",
     "need_tags": [
-     "molecular-biology"
+     "molecular-biology",
+     "chemistry-drawing"
     ],
     "estimated_hours": {
      "value": 4,
@@ -177,7 +183,8 @@
     "practice": "Deposit a dataset with metadata",
     "need_tags": [
      "research-data-management",
-     "molecular-biology"
+     "molecular-biology",
+     "chemistry-drawing"
     ],
     "estimated_hours": {
      "value": 2.0,
@@ -199,7 +206,8 @@
     "practice": "Connect SnapGene to one other tool you use and remove one manual step",
     "need_tags": [
      "automation-workflows",
-     "molecular-biology"
+     "molecular-biology",
+     "chemistry-drawing"
     ],
     "estimated_hours": {
      "value": 2,
@@ -221,7 +229,8 @@
     "practice": "Write a one-page \"how we use SnapGene\" guide and teach it to one person",
     "need_tags": [
      "workshop-facilitation",
-     "molecular-biology"
+     "molecular-biology",
+     "chemistry-drawing"
     ],
     "estimated_hours": {
      "value": 2,

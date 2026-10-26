@@ -1,0 +1,239 @@
+{
+ "schema_version": "2.1",
+ "id": "rm_google_chat",
+ "slug": "google-chat",
+ "title": "Google Chat skill roadmap",
+ "tool_ids": [
+  "tool_google_chat"
+ ],
+ "levels": {
+  "beginner": [
+   {
+    "id": "mod_google_chat_collaboration_0",
+    "slug": "google-chat-collaboration-0",
+    "title": "Get started with Google Chat",
+    "outcome": "You can: set up Google Chat, find your way around and finish a first small task",
+    "topics": [
+     "installation or account setup",
+     "interface tour",
+     "settings and accessibility options",
+     "saving, exporting and sharing",
+     "official help and documentation"
+    ],
+    "practice": "Complete the official getting-started guide, then one small real task from your work",
+    "need_tags": [
+     "group-messaging"
+    ],
+    "estimated_hours": {
+     "value": 1,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_google_chat_collaboration_1",
+    "slug": "google-chat-collaboration-1",
+    "title": "Join and communicate",
+    "outcome": "You can: communicate clearly in Google Chat",
+    "topics": [
+     "spaces/channels/boards",
+     "messages",
+     "mentions",
+     "files"
+    ],
+    "practice": "Post an update and share a file with your team",
+    "need_tags": [
+     "group-messaging"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   },
+   {
+    "id": "mod_google_chat_collaboration_2",
+    "slug": "google-chat-collaboration-2",
+    "title": "Stay focused",
+    "outcome": "You can: manage notifications and find things",
+    "topics": [
+     "notification settings",
+     "search",
+     "pinning",
+     "status"
+    ],
+    "practice": "Set notifications so only what matters reaches you",
+    "need_tags": [
+     "personal-productivity",
+     "group-messaging"
+    ],
+    "estimated_hours": {
+     "value": 0.5,
+     "is_estimate": true
+    },
+    "level": "beginner"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "mod_google_chat_collaboration_3",
+    "slug": "google-chat-collaboration-3",
+    "title": "Organise work",
+    "outcome": "You can: structure work for a team",
+    "topics": [
+     "projects/channels",
+     "templates",
+     "task assignment"
+    ],
+    "practice": "Set up a space for a real project",
+    "need_tags": [
+     "project-management",
+     "group-messaging"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_google_chat_collaboration_4",
+    "slug": "google-chat-collaboration-4",
+    "title": "Run meetings and workshops",
+    "outcome": "You can: use Google Chat before, during and after meetings",
+    "topics": [
+     "agendas",
+     "live collaboration",
+     "follow-ups"
+    ],
+    "practice": "Run one meeting entirely through Google Chat",
+    "need_tags": [
+     "meeting-minutes",
+     "workshop-facilitation",
+     "group-messaging"
+    ],
+    "estimated_hours": {
+     "value": 1.0,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   },
+   {
+    "id": "mod_google_chat_collaboration_8",
+    "slug": "google-chat-collaboration-8",
+    "title": "Signature skills in Google Chat",
+    "outcome": "You can: use the features that make Google Chat distinctive",
+    "topics": [
+     "spaces and channels",
+     "sharing",
+     "notifications"
+    ],
+    "practice": "Use each of these features once on a real piece of work",
+    "need_tags": [
+     "group-messaging"
+    ],
+    "estimated_hours": {
+     "value": 3,
+     "is_estimate": true
+    },
+    "level": "intermediate"
+   }
+  ],
+  "expert": [
+   {
+    "id": "mod_google_chat_collaboration_9",
+    "slug": "google-chat-collaboration-9",
+    "title": "Advanced Google Chat",
+    "outcome": "You can: use Google Chat's advanced capabilities with confidence",
+    "topics": [
+     "permissions",
+     "integrations",
+     "governance"
+    ],
+    "practice": "Complete a project that needs at least two of these advanced capabilities",
+    "need_tags": [
+     "group-messaging"
+    ],
+    "estimated_hours": {
+     "value": 4,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_google_chat_collaboration_5",
+    "slug": "google-chat-collaboration-5",
+    "title": "Govern the workspace",
+    "outcome": "You can: keep the workspace secure and tidy",
+    "topics": [
+     "roles",
+     "guest access",
+     "retention",
+     "archiving"
+    ],
+    "practice": "Review who has access and archive stale spaces",
+    "need_tags": [
+     "records-management",
+     "online-safety",
+     "group-messaging"
+    ],
+    "estimated_hours": {
+     "value": 1.5,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_google_chat_collaboration_10",
+    "slug": "google-chat-collaboration-10",
+    "title": "Integrate Google Chat into your workflow",
+    "outcome": "You can: connect Google Chat with the other tools you use",
+    "topics": [
+     "imports and exports",
+     "file formats",
+     "integrations or APIs where available",
+     "automation of repeated steps"
+    ],
+    "practice": "Connect Google Chat to one other tool you use and remove one manual step",
+    "need_tags": [
+     "automation-workflows",
+     "group-messaging"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   },
+   {
+    "id": "mod_google_chat_collaboration_11",
+    "slug": "google-chat-collaboration-11",
+    "title": "Lead and teach others",
+    "outcome": "You can: set standards and teach others to use Google Chat well",
+    "topics": [
+     "templates and conventions",
+     "quality checks",
+     "privacy and security settings",
+     "onboarding a colleague or friend"
+    ],
+    "practice": "Write a one-page \"how we use Google Chat\" guide and teach it to one person",
+    "need_tags": [
+     "workshop-facilitation",
+     "group-messaging"
+    ],
+    "estimated_hours": {
+     "value": 2,
+     "is_estimate": true
+    },
+    "level": "expert"
+   }
+  ]
+ },
+ "authoring": "archetype",
+ "archetype": "collaboration",
+ "expert_validation": {
+  "status": "pending",
+  "note": "Generated from the archetype template plus tool-specific signature skills; to be reviewed by a practitioner."
+ },
+ "is_illustrative": false
+}
